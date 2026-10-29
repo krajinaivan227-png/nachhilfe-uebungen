@@ -129,6 +129,82 @@ window.HEFT = {
           muster: "An einem Regentag nehme ich die Straßenbahn, um nicht im Stau zu stehen. Bei Sturm ist es draußen gefährlich. Manchmal schüttet es sehr stark. Dann bleibe ich lieber zu Hause. Am Abend tröpfelt es nur noch ein bisschen."
         }
       ]
+    },
+    {
+      id: "2026-10-06",
+      titel: "Futur mit werden, wenn-Satz, Angst haben vor",
+      vokabeln: [
+        { de: "nacheinander", en: "one after the other", fr: "l'un après l'autre", beispiel: "Sie kommen nacheinander." },
+        { de: "an etwas teilnehmen", en: "to take part in sth", fr: "participer à qc", beispiel: "Ich habe an vier Meetings teilgenommen." },
+        { de: "der Bildschirm", en: "the screen", fr: "l'écran", beispiel: "Der Bildschirm ist zu klein." },
+        { de: "der Stau", en: "the traffic jam", fr: "l'embouteillage", beispiel: "In der Stadt gibt es oft einen Stau." },
+        { de: "die Rettungsgasse", en: "the emergency corridor", fr: "le couloir de secours", beispiel: "Im Stau bildet man eine Rettungsgasse." },
+        { de: "schützen", en: "to protect", fr: "protéger", beispiel: "Die Eltern schützen ihre Kinder." },
+        { de: "Angst haben vor (+ Dativ)", en: "to be afraid of", fr: "avoir peur de", beispiel: "Er hat vor nichts Angst." },
+        { de: "der Forscher, die Forscherin", en: "the researcher", fr: "le chercheur, la chercheuse", beispiel: "Die Forscherin arbeitet an einem neuen Projekt." },
+        { de: "jemanden auszeichnen", en: "to award sb", fr: "récompenser qn", beispiel: "Sie wird für ihre Forschung ausgezeichnet." },
+        { de: "die Luftverschmutzung", en: "air pollution", fr: "la pollution de l'air", beispiel: "Die Luftverschmutzung ist in großen Städten hoch." }
+      ],
+      aufgaben: [
+        {
+          typ: "luecke", stufe: 1,
+          text: "Ich habe an vier Meetings ___. (teilnehmen)",
+          antworten: ["teilgenommen"],
+          regel: "teilnehmen – nahm teil – hat teilgenommen (trennbar: teil + genommen)."
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Wenn du zu schnell fährst, ___ eine Strafe bekommen.",
+          optionen: ["wirst du", "du wirst"], richtig: 0,
+          regel: "Nach dem wenn-Satz kommt im Hauptsatz zuerst das Verb: ..., wirst du ..."
+        },
+        {
+          typ: "luecke", stufe: 1,
+          text: "Morgen ___ es in Paris regnen. (werden)",
+          antworten: ["wird"],
+          regel: "Futur: werden + Infinitiv. es wird regnen."
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Er hat Angst vor ___ Hund.",
+          optionen: ["dem", "den", "der"], richtig: 0,
+          regel: "Angst haben vor + Dativ: der Hund → vor dem Hund."
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Es regnet. Ich brauche einen ___.",
+          optionen: ["Regenschirm", "Bildschirm"], richtig: 0,
+          regel: "der Regenschirm = le parapluie; der Bildschirm = l'écran."
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Die Forscherin wird für ihre Arbeit ___. (auszeichnen)",
+          antworten: ["ausgezeichnet"],
+          regel: "Passiv: wird + Partizip II. auszeichnen → ausgezeichnet."
+        },
+        {
+          typ: "satz", stufe: 2,
+          woerter: ["In", "der", "Stadt", "gibt", "es", "oft", "einen", "Stau"],
+          loesung: "In der Stadt gibt es oft einen Stau",
+          regel: "Ort am Anfang → Verb auf Position 2. es gibt + Akkusativ."
+        },
+        {
+          typ: "zuordnen", stufe: 2,
+          paare: [["die Luftverschmutzung", "la pollution de l'air"], ["die Lebenserwartung", "l'espérance de vie"], ["das Gehirn", "le cerveau"], ["der Stau", "l'embouteillage"]],
+          regel: "Zusammengesetzte Nomen: der Artikel kommt vom letzten Wort (die Luft + die Verschmutzung)."
+        },
+        {
+          typ: "schreiben", stufe: 3,
+          auftrag: "Schreibe 5 Sätze: Was wird in deiner Stadt in 20 Jahren anders sein?",
+          checkliste: [
+            "Ich habe werden + Infinitiv benutzt (… wird … sein).",
+            "Ich habe mindestens einen wenn-Satz geschrieben.",
+            "Nach dem wenn-Satz steht das Verb zuerst.",
+            "Ich habe mindestens zwei neue Wörter benutzt."
+          ],
+          muster: "In 20 Jahren wird es weniger Autos geben. Die Luftverschmutzung wird kleiner sein. Wenn es weniger Staus gibt, werden die Menschen schneller ankommen. Viele Forscher werden neue Medikamente finden. Die Lebenserwartung wird weiter steigen."
+        }
+      ]
     }
   ]
 };

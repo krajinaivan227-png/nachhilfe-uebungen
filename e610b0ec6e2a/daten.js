@@ -138,6 +138,164 @@ window.HEFT = {
           uebers: { en: "Write 4 sentences: What do you do to stay fit or to learn well? Use 'um ... zu'." }
         }
       ]
+    },
+    {
+      id: "2026-10-07",
+      titel: "Perfekt mit haben oder sein, weil, Wohnung",
+      vokabeln: [
+        { de: "nur", en: "only", fr: "seulement", beispiel: "Heute essen wir nur." },
+        { de: "finden (hat gefunden)", en: "to find", fr: "trouver", beispiel: "Ich habe keinen Döner gefunden." },
+        { de: "das Krankenhaus", en: "the hospital", fr: "l'hôpital", beispiel: "Wir sind ins Krankenhaus gefahren." },
+        { de: "die Krankenversicherung", en: "health insurance", fr: "l'assurance maladie", beispiel: "Die Krankenversicherung bezahlt den Arzt." },
+        { de: "schwierig", en: "difficult", fr: "difficile", beispiel: "Deutsch ist ein bisschen schwierig." },
+        { de: "leicht", en: "easy", fr: "facile", beispiel: "Englisch ist leicht." },
+        { de: "aufmerksam", en: "attentive", fr: "attentif", beispiel: "Ich bin im Deutschkurs aufmerksam." },
+        { de: "die Miete", en: "the rent", fr: "le loyer", beispiel: "Die Miete ist hoch." },
+        { de: "der Zugang", en: "access", fr: "l'accès", beispiel: "Ich habe keinen Zugang zur Sauna." },
+        { de: "Das tut weh.", en: "That hurts.", fr: "Ça fait mal.", beispiel: "Mein Bein tut weh." }
+      ],
+      aufgaben: [
+        {
+          typ: "mc", stufe: 1,
+          frage: "Ich ___ keinen Döner gefunden.",
+          optionen: ["habe", "bin"], richtig: 0,
+          regel: "Perfekt meistens mit haben. Mit sein nur bei Bewegung (gehen, fahren, fliegen).",
+          uebers: { en: "Choose the auxiliary verb (perfect tense)." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Wir ___ ins Krankenhaus gefahren.",
+          optionen: ["sind", "haben"], richtig: 0,
+          regel: "fahren = Bewegung → Perfekt mit sein.",
+          uebers: { en: "Choose the auxiliary verb (movement → sein)." }
+        },
+        {
+          typ: "luecke", stufe: 1,
+          text: "finden → ich habe ___",
+          antworten: ["gefunden"],
+          regel: "finden – fand – hat gefunden.",
+          uebers: { en: "Write the past participle of 'finden'." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Ich mag Englisch, weil es ___",
+          optionen: ["leicht ist.", "ist leicht."], richtig: 0,
+          regel: "Nach weil steht das Verb am Ende.",
+          uebers: { en: "After 'weil' the verb goes to the end." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Das Gegenteil von schwierig ist ___.",
+          optionen: ["leicht", "aufmerksam", "krank"], richtig: 0,
+          regel: "schwierig (difficult) ↔ leicht (easy).",
+          uebers: { en: "What is the opposite of 'schwierig'?" }
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Es ___ Wohnungen ohne Pool.",
+          antworten: ["gibt"],
+          regel: "es gibt = there is / there are.",
+          uebers: { en: "Fill in: There are flats without a pool." }
+        },
+        {
+          typ: "satz", stufe: 2,
+          woerter: ["Ich", "habe", "keinen", "Zugang", "zur", "Sauna"],
+          loesung: "Ich habe keinen Zugang zur Sauna",
+          regel: "der Zugang → keinen Zugang (Akkusativ). zur = zu der.",
+          uebers: { en: "Put the words in the right order." }
+        },
+        {
+          typ: "zuordnen", stufe: 1,
+          paare: [["die Miete", "the rent"], ["das Krankenhaus", "the hospital"], ["die Krankenversicherung", "health insurance"], ["der Zugang", "access"]],
+          regel: "Neue Wörter der Stunde.",
+          uebers: { en: "Match the words." }
+        },
+        {
+          typ: "sprechen", stufe: 2,
+          auftrag: "Beschreibe deine Wohnung: Wie groß ist sie? Was gibt es im Haus? Sprich 4 Sätze. Nimm dich auf und höre dich an.",
+          hinweis: "Meine Wohnung hat ... Quadratmeter. Es gibt ... Ich habe (keinen) Zugang zu ...",
+          uebers: { en: "Describe your flat in 4 sentences. Record yourself." }
+        }
+      ]
+    },
+    {
+      id: "2026-10-16",
+      titel: "um ... zu, Wege beschreiben, Termine",
+      vokabeln: [
+        { de: "um ... zu", en: "in order to", fr: "pour", beispiel: "Ich lerne Deutsch, um in Deutschland zu arbeiten." },
+        { de: "möglich", en: "possible", fr: "possible", beispiel: "Es ist möglich, Deutsch zu lernen." },
+        { de: "die Möglichkeit", en: "the opportunity, possibility", fr: "la possibilité", beispiel: "Ich suche eine Arbeitsmöglichkeit." },
+        { de: "gleich", en: "the same", fr: "pareil", beispiel: "Unsere Meinungen sind gleich." },
+        { de: "ziemlich", en: "pretty, quite", fr: "assez", beispiel: "Das ist ziemlich schwierig." },
+        { de: "die Hose", en: "the trousers", fr: "le pantalon", beispiel: "Meine Hose ist von Nike." },
+        { de: "geradeaus", en: "straight ahead", fr: "tout droit", beispiel: "Gehen Sie geradeaus und dann rechts!" },
+        { de: "der Termin", en: "the appointment", fr: "le rendez-vous", beispiel: "Ich habe morgen einen Termin beim Arzt." },
+        { de: "der Aufzug", en: "the lift, the elevator", fr: "l'ascenseur", beispiel: "Wir fahren mit dem Aufzug." },
+        { de: "versprechen", en: "to promise", fr: "promettre", beispiel: "Ich verspreche es dir." }
+      ],
+      aufgaben: [
+        {
+          typ: "mc", stufe: 1,
+          frage: "Ich lerne Deutsch, ___ in Deutschland zu arbeiten.",
+          optionen: ["um", "für", "weil"], richtig: 0,
+          regel: "um ... zu + Infinitiv = in order to.",
+          uebers: { en: "I learn German in order to work in Germany." }
+        },
+        {
+          typ: "satz", stufe: 2,
+          woerter: ["Ich", "lerne", "Medizin,", "um", "Menschen", "zu", "helfen"],
+          loesung: "Ich lerne Medizin, um Menschen zu helfen",
+          regel: "um ... zu: zu + Infinitiv steht am Ende.",
+          uebers: { en: "Put the words in order (um ... zu)." }
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Ich gehe zum Arzt, ___ gesund zu werden.",
+          antworten: ["um"],
+          regel: "um ... zu = in order to.",
+          uebers: { en: "Fill in the gap: I go to the doctor in order to get well." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Gehen Sie ___ und dann rechts!",
+          optionen: ["geradeaus", "hier", "dort"], richtig: 0,
+          regel: "geradeaus = straight ahead.",
+          uebers: { en: "Go straight ahead and then right!" }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Dein Freund ist krank. Was sagst du?",
+          optionen: ["Das tut mir leid.", "Entschuldigung!", "Versprochen!"], richtig: 0,
+          regel: "Das tut mir leid = I'm sorry (for you). Entschuldigung = Excuse me / Sorry (my fault).",
+          uebers: { en: "Your friend is ill. What do you say?" }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Welcher Satz ist richtig?",
+          optionen: ["Dann fand sie das richtige Zimmer.", "Dann sie fand das richtige Zimmer.", "Dann fand das richtige Zimmer sie."], richtig: 0,
+          regel: "Das Verb steht auf Position 2: Dann (1) fand (2) sie ...",
+          uebers: { en: "Which sentence is correct?" }
+        },
+        {
+          typ: "zuordnen", stufe: 1,
+          paare: [["der Zug", "the train"], ["der Aufzug", "the lift"], ["der Termin", "the appointment"], ["die Hose", "the trousers"]],
+          regel: "der Zug ≠ der Aufzug.",
+          uebers: { en: "Match the words." }
+        },
+        {
+          typ: "luecke", stufe: 1,
+          text: "Ich habe morgen einen ___ beim Arzt.",
+          antworten: ["Termin"],
+          regel: "der Termin = appointment.",
+          uebers: { en: "Fill in: I have an appointment at the doctor's tomorrow." }
+        },
+        {
+          typ: "sprechen", stufe: 2,
+          auftrag: "Warum lernst du Deutsch? Sprich 3 Sätze mit um ... zu. Nimm dich auf und höre dich an.",
+          hinweis: "Ich lerne Deutsch, um ... zu ...",
+          uebers: { en: "Why do you learn German? Say 3 sentences with 'um ... zu'." }
+        }
+      ]
     }
   ]
 };

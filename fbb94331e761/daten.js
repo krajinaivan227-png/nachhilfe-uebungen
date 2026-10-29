@@ -121,6 +121,82 @@ window.HEFT = {
           muster: "Für mich ist Bescheidenheit wichtiger als Luxus. Viele Menschen kaufen jeden Schnickschnack und sind trotzdem nicht glücklich. Ich brauche nicht viel, deshalb spare ich lieber Geld. Bescheiden zu sein heißt aber nicht, geizig zu sein. Wer bescheiden lebt, kann trotzdem großzügig sein."
         }
       ]
+    },
+    {
+      id: "2026-10-03",
+      titel: "Krankheit, Körper, verfügen über, aufweisen",
+      vokabeln: [
+        { de: "der Husten", en: "the cough", fr: "la toux", beispiel: "Ich habe seit drei Tagen Husten." },
+        { de: "der Schnupfen", en: "the runny nose, the cold", fr: "le rhume", beispiel: "Im Winter habe ich oft Schnupfen." },
+        { de: "das Fieber", en: "the fever", fr: "la fièvre", beispiel: "Das Kind hat hohes Fieber." },
+        { de: "der Ellbogen", en: "the elbow", fr: "le coude", beispiel: "Mein Ellbogen tut weh." },
+        { de: "das Knie", en: "the knee", fr: "le genou", beispiel: "Nach dem Laufen tut mir das Knie weh." },
+        { de: "über etwas verfügen", en: "to have (at one's disposal)", fr: "disposer de qc", beispiel: "Das Hotel verfügt über einen Pool." },
+        { de: "etwas aufweisen", en: "to have, to show", fr: "présenter, avoir", beispiel: "Ich weise gute Kenntnisse in Geschichte auf." },
+        { de: "schlau", en: "clever", fr: "malin, intelligent", beispiel: "Sie ist sehr schlau." },
+        { de: "zögern", en: "to hesitate", fr: "hésiter", beispiel: "Er zögert, die Frage zu stellen." },
+        { de: "beweisen", en: "to prove", fr: "prouver", beispiel: "Es ist bewiesen, dass Sport die Gesundheit verbessert." }
+      ],
+      aufgaben: [
+        {
+          typ: "mc", stufe: 1,
+          frage: "___ Fieber",
+          optionen: ["das", "der", "die"], richtig: 0,
+          regel: "das Fieber (nicht: der Fieber)."
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Wasser läuft aus der Nase. Das ist ___.",
+          optionen: ["der Schnupfen", "der Husten", "das Fieber"], richtig: 0,
+          regel: "der Schnupfen = runny nose; der Husten = cough."
+        },
+        {
+          typ: "zuordnen", stufe: 1,
+          paare: [["der Tag", "die Tage"], ["die Stunde", "die Stunden"], ["die Woche", "die Wochen"], ["der Monat", "die Monate"]],
+          regel: "Pluralformen: der Tag → die Tage, der Monat → die Monate, feminin meist -n."
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Das Hotel verfügt ___ einen großen Pool.",
+          antworten: ["über"],
+          regel: "verfügen über + Akkusativ."
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Ich weise gute Kenntnisse in Geschichte ___.",
+          antworten: ["auf"],
+          regel: "aufweisen ist trennbar: Ich weise ... auf."
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Welcher Satz ist korrekt?",
+          optionen: ["Es ist bewiesen, dass Sport die Gesundheit verbessert.", "Sport ist bewiesen die Gesundheit zu verbessern.", "Es ist bewiesen, dass Sport verbessert die Gesundheit."], richtig: 0,
+          regel: "Es ist bewiesen, dass ... + Verb am Ende."
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Albert Einstein war der ___ Mensch seiner Zeit. (schlau, Superlativ)",
+          antworten: ["schlauste", "klügste"],
+          regel: "schlau – schlauer – am schlausten; der schlauste Mensch."
+        },
+        {
+          typ: "satz", stufe: 3,
+          woerter: ["Er", "zögert,", "die", "Frage", "zu", "stellen"],
+          loesung: "Er zögert, die Frage zu stellen",
+          regel: "zögern + zu + Infinitiv (mit Komma)."
+        },
+        {
+          typ: "schreiben", stufe: 3,
+          auftrag: "Du bist krank. Schreibe eine kurze Nachricht an deine Chefin (4–5 Sätze): Welche Symptome hast du, seit wann, wann kommst du zurück?",
+          checkliste: [
+            "Ich habe mindestens zwei Symptome mit richtigem Artikel genannt.",
+            "Ich habe seit + Dativ benutzt (seit zwei Tagen).",
+            "Ich habe einen höflichen Gruß am Anfang und am Ende.",
+            "Nebensätze haben das Verb am Ende."
+          ],
+          muster: "Liebe Frau Berger, leider bin ich krank. Ich habe seit zwei Tagen Fieber und starken Husten. Der Arzt sagt, dass ich bis Freitag zu Hause bleiben soll. Ich komme am Montag wieder ins Büro. Viele Grüße"
+        }
+      ]
     }
   ]
 };

@@ -125,6 +125,110 @@ window.HEFT = {
           muster: "Anlässlich des Geburtstags meiner Schwester planen wir ein Fest. Das Lokal liegt außerhalb der Stadt. Wir haben einen Koch angeheuert, weil er viele Fertigkeiten hat. Meine Schwester ist sehr gesprächig und lacht gern. Ich habe nicht gezögert und ein schönes Geschenk gekauft."
         }
       ]
+    },
+    {
+      id: "2026-10-18",
+      titel: "Wiederholung",
+      vokabeln: [
+        { de: "das Mäppchen (österr. das Federpennal)", en: "the pencil case", fr: "la trousse", beispiel: "Was hast du in deinem Mäppchen?" }
+      ],
+      aufgaben: [
+        {
+          typ: "luecke", stufe: 1,
+          text: "Anlässlich ___ Geburtstags gab es eine große Feier.",
+          antworten: ["seines"],
+          regel: "anlässlich + Genitiv: der Geburtstag → seines Geburtstags."
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Jemand redet sehr viel und gern. Er ist ___.",
+          optionen: ["gesprächig", "verdächtig", "geschwollen"], richtig: 0,
+          regel: "gesprächig = talkative."
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "In deiner Situation möchte ich nicht in deiner Haut ___.",
+          antworten: ["stecken"],
+          regel: "in jemandes Haut stecken = in jemandes Situation sein."
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Ich zögere, ins kalte Wasser ___.",
+          optionen: ["zu springen", "springen", "springe"], richtig: 0,
+          regel: "zögern + zu + Infinitiv."
+        },
+        {
+          typ: "zuordnen", stufe: 2,
+          paare: [["das Mäppchen", "the pencil case"], ["verdächtig", "suspicious"], ["verlockend", "tempting"], ["ankurbeln", "to boost"]],
+          regel: "Wortschatz der letzten Stunden."
+        }
+      ]
+    },
+    {
+      id: "2026-10-23",
+      titel: "außerhalb + Genitiv, zögern, einstufen als",
+      vokabeln: [
+        { de: "unentschlossen", en: "undecided", fr: "indécis", beispiel: "Ich bin noch unentschlossen." },
+        { de: "außerhalb (+ Genitiv)", en: "outside (of)", fr: "en dehors de", beispiel: "Die Wohnung liegt außerhalb der Stadt." },
+        { de: "die Bildung", en: "education", fr: "l'éducation, la formation", beispiel: "Bildung ist sehr wichtig." },
+        { de: "gebildet", en: "educated", fr: "cultivé, instruit", beispiel: "Sie ist eine gebildete Person." },
+        { de: "jemanden zu etwas anstiften", en: "to instigate sb to do sth", fr: "inciter qn à qc", beispiel: "Er hat seinen Freund zu einem Streich angestiftet." },
+        { de: "jemanden als etwas einstufen", en: "to classify sb as sth", fr: "classer qn comme", beispiel: "Ich stufe dich als Filmfan ein." }
+      ],
+      aufgaben: [
+        {
+          typ: "luecke", stufe: 1,
+          text: "Die Wohnung liegt außerhalb ___ Stadt.",
+          antworten: ["der"],
+          regel: "außerhalb + Genitiv: die Stadt → der Stadt."
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Der Haarschnitt ist außerhalb ___ Budgets.",
+          optionen: ["meines", "meinem", "mein"], richtig: 0,
+          regel: "außerhalb + Genitiv: das Budget → meines Budgets."
+        },
+        {
+          typ: "satz", stufe: 2,
+          woerter: ["Ich", "zögere,", "einen", "Anzug", "zu", "kaufen"],
+          loesung: "Ich zögere, einen Anzug zu kaufen",
+          regel: "zögern + zu + Infinitiv (mit Komma)."
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Welcher Satz ist korrekt?",
+          optionen: ["Ich bin unentschlossen, ob ich den Anzug kaufen soll.", "Ich bin unentschlossen den Anzug zu kaufen.", "Ich bin unentschlossen, ob ich soll den Anzug kaufen."], richtig: 0,
+          regel: "unentschlossen, ob ... – im Nebensatz steht das Verb am Ende."
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Ich stufe dich ___ Lehrer ein.",
+          antworten: ["als"],
+          regel: "jemanden als etwas einstufen; einstufen ist trennbar."
+        },
+        {
+          typ: "luecke", stufe: 3,
+          text: "Er hat seinen Freund ___ einem Streich angestiftet.",
+          antworten: ["zu"],
+          regel: "jemanden zu etwas (Dativ) anstiften."
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Eine Person mit viel Wissen ist ___.",
+          optionen: ["gebildet", "unentschlossen", "verdächtig"], richtig: 0,
+          regel: "die Bildung → gebildet."
+        },
+        {
+          typ: "zuordnen", stufe: 2,
+          paare: [["zögern", "to hesitate"], ["anstiften", "to instigate"], ["einstufen", "to classify"], ["die Bildung", "education"]],
+          regel: "Neue Wörter der Stunde."
+        },
+        {
+          typ: "sprechen", stufe: 3,
+          auftrag: "Warum ist Bildung wichtig? Sprich etwa eine Minute. Nimm dich auf und höre dich an.",
+          hinweis: "Benutze mindestens zwei neue Wörter: die Bildung, gebildet, unentschlossen, zögern, einstufen als."
+        }
+      ]
     }
   ]
 };

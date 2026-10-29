@@ -137,6 +137,169 @@ window.HEFT = {
           uebers: { fr: "Écris 5 phrases sur ta matière préférée et sur la santé. Utilise au moins trois mots nouveaux." }
         }
       ]
+    },
+    {
+      id: "2026-10-06",
+      titel: "Perfekt mit sein, sagen oder sprechen",
+      vokabeln: [
+        { de: "der Flughafen", en: "the airport", fr: "l'aéroport", beispiel: "Wir fahren zum Flughafen." },
+        { de: "fliegen (ist geflogen)", en: "to fly", fr: "prendre l'avion, voler", beispiel: "Letzten Sommer bin ich nach Spanien geflogen." },
+        { de: "gesund", en: "healthy", fr: "sain, en bonne santé", beispiel: "Gemüse ist gesund." },
+        { de: "die Verletzung", en: "the injury", fr: "la blessure", beispiel: "Die Verletzung ist nicht schlimm." },
+        { de: "der Gips", en: "the cast", fr: "le plâtre", beispiel: "Mein Bein ist im Gips." },
+        { de: "das Fleisch", en: "meat", fr: "la viande", beispiel: "Magst du veganes Fleisch?" },
+        { de: "probieren", en: "to try", fr: "essayer, goûter", beispiel: "Ich habe es nie probiert." },
+        { de: "sich entscheiden", en: "to decide", fr: "se décider", beispiel: "Mein Bruder entscheidet sich, einen PC zu bauen." },
+        { de: "bauen", en: "to build", fr: "construire", beispiel: "Bob der Baumeister baut ein Haus." }
+      ],
+      aufgaben: [
+        {
+          typ: "mc", stufe: 1,
+          frage: "Letzten Sommer ___ ich nach Spanien geflogen.",
+          optionen: ["bin", "habe", "war"], richtig: 0,
+          regel: "fliegen = Bewegung → Perfekt mit sein: ich bin geflogen.",
+          uebers: { fr: "Choisis l'auxiliaire (passé composé)." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Welcher Satz ist richtig?",
+          optionen: ["Letzten Sommer bin ich nach Spanien geflogen.", "Letzten Sommer ich bin nach Spanien geflogen.", "Letzten Sommer bin ich geflogen nach Spanien."], richtig: 0,
+          regel: "Verb (bin) auf Position 2, Partizip (geflogen) am Ende.",
+          uebers: { fr: "Quelle phrase est correcte ?" }
+        },
+        {
+          typ: "luecke", stufe: 1,
+          text: "Ich habe veganes Fleisch nie ___. (probieren)",
+          antworten: ["probiert"],
+          regel: "Verben auf -ieren bilden das Partizip ohne ge-: probieren → probiert.",
+          uebers: { fr: "Complète avec le participe passé de « probieren »." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Ich ___ Deutsch und Französisch.",
+          optionen: ["spreche", "sage"], richtig: 0,
+          regel: "sprechen = eine Sprache sprechen / mit jemandem reden. sagen = etwas sagen (einen Satz).",
+          uebers: { fr: "« sprechen » (parler) ou « sagen » (dire) ?" }
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Kannst du das noch einmal ___?",
+          antworten: ["sagen"],
+          regel: "etwas sagen = dire quelque chose.",
+          uebers: { fr: "Complète : tu peux le redire ?" }
+        },
+        {
+          typ: "zuordnen", stufe: 1,
+          paare: [["der Flughafen", "l'aéroport"], ["das Flugzeug", "l'avion"], ["der Flug", "le vol"], ["der Gips", "le plâtre"]],
+          regel: "Flughafen, Flugzeug, Flug kommen von fliegen.",
+          uebers: { fr: "Relie les mots." }
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Mein Bruder ___ sich, einen PC zu bauen.",
+          antworten: ["entscheidet"],
+          regel: "sich entscheiden: er entscheidet sich.",
+          uebers: { fr: "Complète avec « sich entscheiden »." }
+        },
+        {
+          typ: "satz", stufe: 2,
+          woerter: ["Nach", "der", "Stunde", "gehe", "ich", "nach", "Hause"],
+          loesung: "Nach der Stunde gehe ich nach Hause",
+          regel: "nach + Dativ: nach der Stunde. Das Verb steht auf Position 2.",
+          uebers: { fr: "Remets les mots dans l'ordre." }
+        },
+        {
+          typ: "sprechen", stufe: 2,
+          auftrag: "Erzähle von einer Reise mit dem Flugzeug. Sprich 4 Sätze im Perfekt. Nimm dich auf und höre dich an.",
+          hinweis: "Ich bin nach ... geflogen. Der Flug hat ... Stunden gedauert. Ich habe ... gegessen.",
+          uebers: { fr: "Raconte un voyage en avion (4 phrases au passé composé)." }
+        }
+      ]
+    },
+    {
+      id: "2026-10-13",
+      titel: "weil, es gibt / es gab, Vorteile und Nachteile",
+      vokabeln: [
+        { de: "studieren", en: "to study (at university)", fr: "faire des études", beispiel: "Er studiert an der Universität." },
+        { de: "lernen", en: "to learn, to study", fr: "apprendre, réviser", beispiel: "Ich lerne für den Test." },
+        { de: "der Speck", en: "bacon", fr: "le lard", beispiel: "Ich esse Eier mit Speck." },
+        { de: "faul", en: "lazy", fr: "paresseux", beispiel: "Am Samstag bin ich faul." },
+        { de: "gewinnen", en: "to win", fr: "gagner", beispiel: "Wer gewinnt das Spiel?" },
+        { de: "der Durchschnitt", en: "the average", fr: "la moyenne", beispiel: "Was war der Durchschnitt im Test?" },
+        { de: "bekommen (bekam)", en: "to get", fr: "recevoir", beispiel: "Er bekam eine gute Note." },
+        { de: "der Vorteil", en: "the advantage", fr: "l'avantage", beispiel: "Ein Vorteil ist: Fliegen ist schnell." },
+        { de: "der Nachteil", en: "the disadvantage", fr: "l'inconvénient", beispiel: "Ein Nachteil ist: Der Flug ist langweilig." },
+        { de: "gegen", en: "against", fr: "contre", beispiel: "Ich spiele Schach gegen meine Familie." }
+      ],
+      aufgaben: [
+        {
+          typ: "mc", stufe: 1,
+          frage: "Ich esse Eier ohne Salz, ___",
+          optionen: ["weil ich faul bin.", "weil ich bin faul.", "weil bin ich faul."], richtig: 0,
+          regel: "Nach weil steht das Verb am Ende.",
+          uebers: { fr: "Après « weil », le verbe va à la fin." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Gestern ___ es einen Test.",
+          optionen: ["gab", "gibt", "gegeben"], richtig: 0,
+          regel: "es gibt (heute) → es gab (gestern).",
+          uebers: { fr: "Il y avait un test hier : choisis la bonne forme." }
+        },
+        {
+          typ: "luecke", stufe: 1,
+          text: "Heute ___ es viele Hausübungen.",
+          antworten: ["gibt"],
+          regel: "es gibt = il y a (+ Akkusativ).",
+          uebers: { fr: "Complète : il y a beaucoup de devoirs." }
+        },
+        {
+          typ: "satz", stufe: 2,
+          woerter: ["Nach", "dem", "Aufstehen", "esse", "ich", "zwei", "Eier"],
+          loesung: "Nach dem Aufstehen esse ich zwei Eier",
+          regel: "Zeit am Anfang → Verb auf Position 2, dann ich.",
+          uebers: { fr: "Remets les mots dans l'ordre." }
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Für den zweiten Test ___ er eine neue Note. (bekommen, Präteritum)",
+          antworten: ["bekam"],
+          regel: "bekommen – bekam – hat bekommen. Achtung: bekommen = recevoir.",
+          uebers: { fr: "Complète au prétérit de « bekommen » (recevoir)." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Ich ___ heute für den Deutschtest.",
+          optionen: ["lerne", "studiere"], richtig: 0,
+          regel: "lernen = für die Schule oder einen Test. studieren = an der Universität.",
+          uebers: { fr: "« lernen » ou « studieren » ?" }
+        },
+        {
+          typ: "zuordnen", stufe: 2,
+          paare: [["der Vorteil", "l'avantage"], ["der Nachteil", "l'inconvénient"], ["der Durchschnitt", "la moyenne"], ["faul", "paresseux"]],
+          regel: "der Vorteil ↔ der Nachteil.",
+          uebers: { fr: "Relie les mots." }
+        },
+        {
+          typ: "luecke", stufe: 1,
+          text: "Ich spiele Schach ___ meine Familie.",
+          antworten: ["gegen"],
+          regel: "gegen + Akkusativ = contre.",
+          uebers: { fr: "Complète : je joue aux échecs contre ma famille." }
+        },
+        {
+          typ: "schreiben", stufe: 3,
+          auftrag: "Fliegen: Schreibe 2 Vorteile und 2 Nachteile.",
+          checkliste: [
+            "Ich habe „Ein Vorteil ist, dass …“ und „Ein Nachteil ist, dass …“ benutzt.",
+            "Nach dass steht das Verb am Ende.",
+            "Ich habe 4 Sätze geschrieben.",
+            "Jeder Satz beginnt groß und endet mit einem Punkt."
+          ],
+          muster: "Ein Vorteil ist, dass Fliegen schnell ist. Ein anderer Vorteil ist, dass man weit reisen kann. Ein Nachteil ist, dass der Flug langweilig ist. Ein anderer Nachteil ist, dass Fliegen teuer ist.",
+          uebers: { fr: "Écris 2 avantages et 2 inconvénients de l'avion." }
+        }
+      ]
     }
   ]
 };

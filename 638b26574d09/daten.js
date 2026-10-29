@@ -122,6 +122,85 @@ window.HEFT = {
           uebers: { en: "Write 4 sentences about yourself. What do you not have? What do you not like to do? Use 'kein/keine' and 'nicht'." }
         }
       ]
+    },
+    {
+      id: "2026-10-21",
+      titel: "aufstehen, leider, glauben und denken",
+      vokabeln: [
+        { de: "probieren", en: "to try", fr: "essayer", beispiel: "Ich probiere einen neuen Kuchen." },
+        { de: "aufstehen", en: "to get up", fr: "se lever", beispiel: "Ich stehe um sieben Uhr auf." },
+        { de: "Wie bitte?", en: "Sorry? Pardon?", fr: "Pardon ?", beispiel: "Wie bitte? Kannst du das wiederholen?" },
+        { de: "leider", en: "unfortunately", fr: "malheureusement", beispiel: "Ich habe leider keine Zeit." },
+        { de: "das Fach (die Fächer)", en: "the (school) subject", fr: "la matière", beispiel: "Mein Lieblingsfach ist Biologie." },
+        { de: "denken", en: "to think", fr: "penser", beispiel: "Ich denke, das ist richtig." },
+        { de: "glauben", en: "to believe", fr: "croire", beispiel: "Ich glaube dir." },
+        { de: "beweisen", en: "to prove", fr: "prouver", beispiel: "Kannst du das beweisen?" },
+        { de: "wirklich", en: "really", fr: "vraiment", beispiel: "Glaubst du das wirklich?" },
+        { de: "der Geschmack", en: "the taste, the flavour", fr: "le goût", beispiel: "Der Geschmack ist Zitrone." }
+      ],
+      aufgaben: [
+        {
+          typ: "luecke", stufe: 1,
+          text: "Ich stehe um sieben Uhr ___.",
+          antworten: ["auf"],
+          regel: "aufstehen ist trennbar: Ich stehe ... auf.",
+          uebers: { en: "Fill in the gap: I get up at seven." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Ich habe ___ keine Zeit.",
+          optionen: ["leider", "wirklich", "gern"], richtig: 0,
+          regel: "leider = unfortunately.",
+          uebers: { en: "Unfortunately I have no time: choose the right word." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Du verstehst etwas nicht. Was sagst du höflich?",
+          optionen: ["Wie bitte?", "Was?", "Haaa?"], richtig: 0,
+          regel: "Wie bitte? ist höflich. Was? ist unhöflich.",
+          uebers: { en: "You didn't understand. What do you say politely?" }
+        },
+        {
+          typ: "zuordnen", stufe: 1,
+          paare: [["probieren", "to try"], ["glauben", "to believe"], ["beweisen", "to prove"], ["denken", "to think"]],
+          regel: "Neue Verben der Stunde.",
+          uebers: { en: "Match the German and English verbs." }
+        },
+        {
+          typ: "luecke", stufe: 1,
+          text: "das Fach → die ___ (Plural)",
+          antworten: ["Fächer"],
+          regel: "das Fach → die Fächer (mit Umlaut).",
+          uebers: { en: "Write the plural." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Tom ist nur ___ aus der Schule.",
+          optionen: ["ein Freund", "mein Freund"], richtig: 0,
+          regel: "ein Freund = a friend. mein Freund = oft: my boyfriend.",
+          uebers: { en: "Tom is just a friend from school: which one?" }
+        },
+        {
+          typ: "satz", stufe: 2,
+          woerter: ["Glaubst", "du", "das", "wirklich"],
+          loesung: "Glaubst du das wirklich",
+          regel: "Ja/Nein-Frage: Das Verb steht auf Position 1.",
+          uebers: { en: "Put the words in order (yes/no question)." }
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Welchen ___ hat das Eis? – Zitrone.",
+          antworten: ["Geschmack"],
+          regel: "der Geschmack = the flavour. Welchen? → Akkusativ (der → den, welcher → welchen).",
+          uebers: { en: "Which flavour is the ice cream? Fill in the gap." }
+        },
+        {
+          typ: "sprechen", stufe: 2,
+          auftrag: "Erzähle von deinen Fächern: Welche Fächer hast du? Welches Fach magst du? Sprich 3 Sätze. Nimm dich auf und höre dich an.",
+          hinweis: "Ich habe ... / Mein Lieblingsfach ist ... / Ich mag ... leider nicht.",
+          uebers: { en: "Talk about your school subjects in 3 sentences. Record yourself." }
+        }
+      ]
     }
   ]
 };

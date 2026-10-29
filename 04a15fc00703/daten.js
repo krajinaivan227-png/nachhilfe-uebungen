@@ -122,6 +122,176 @@ window.HEFT = {
           uebers: { en: "Write 5 sentences about your plans for next year. Use 'werden' and at least one 'dass' clause." }
         }
       ]
+    },
+    {
+      id: "2026-10-18",
+      titel: "bekommen, deshalb, zu Hause und nach Hause",
+      vokabeln: [
+        { de: "die Verbesserung", en: "the improvement", fr: "l'amélioration", beispiel: "Ich habe viele Verbesserungen gemacht." },
+        { de: "bekommen", en: "to get, to receive", fr: "recevoir", beispiel: "Ich bekomme ein Geschenk." },
+        { de: "das Geschenk", en: "the present", fr: "le cadeau", beispiel: "Das Geschenk ist für dich." },
+        { de: "umarmen", en: "to hug", fr: "serrer dans ses bras", beispiel: "Ich umarme meine beste Freundin." },
+        { de: "weinen", en: "to cry", fr: "pleurer", beispiel: "Das Kind weint." },
+        { de: "deshalb", en: "that's why", fr: "c'est pourquoi", beispiel: "Ich bin krank, deshalb bleibe ich zu Hause." },
+        { de: "der Rücken", en: "the back", fr: "le dos", beispiel: "Ich habe Schmerzen im Rücken." },
+        { de: "tragen", en: "to carry", fr: "porter", beispiel: "Ich trage die Einkäufe nach Hause." },
+        { de: "schwer", en: "heavy", fr: "lourd", beispiel: "Mein Rucksack ist schwer." },
+        { de: "gemütlich", en: "cosy", fr: "confortable, douillet", beispiel: "Mein Zimmer ist gemütlich." }
+      ],
+      aufgaben: [
+        {
+          typ: "mc", stufe: 1,
+          frage: "Was bedeutet „bekommen“?",
+          optionen: ["to get, to receive", "to become", "to come"], richtig: 0,
+          regel: "Achtung: bekommen = to get. to become = werden.",
+          uebers: { en: "What does 'bekommen' mean?" }
+        },
+        {
+          typ: "luecke", stufe: 1,
+          text: "Ich ___ ein Geschenk. (bekommen)",
+          antworten: ["bekomme"],
+          regel: "bekommen: ich bekomme, du bekommst, er bekommt.",
+          uebers: { en: "Fill in the right form of 'bekommen'." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Ivan ist krank, deshalb ___ keine Energie.",
+          optionen: ["hat er", "er hat"], richtig: 0,
+          regel: "deshalb steht auf Position 1, dann kommt das Verb, dann das Subjekt.",
+          uebers: { en: "After 'deshalb' the verb comes first, then the subject." }
+        },
+        {
+          typ: "satz", stufe: 2,
+          woerter: ["Es", "regnet,", "deshalb", "bleibe", "ich", "zu", "Hause"],
+          loesung: "Es regnet, deshalb bleibe ich zu Hause",
+          regel: "deshalb + Verb + Subjekt.",
+          uebers: { en: "Put the words in order." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Nach der Arbeit gehe ich ___ Hause.",
+          optionen: ["nach", "zu"], richtig: 0,
+          regel: "Wohin? → nach Hause. Wo? → zu Hause.",
+          uebers: { en: "Going home (direction): 'nach' or 'zu'?" }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Am Abend bin ich ___ Hause.",
+          optionen: ["zu", "nach"], richtig: 0,
+          regel: "Wo? → zu Hause (at home).",
+          uebers: { en: "Being at home (place): 'zu' or 'nach'?" }
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Mein Rucksack ist sehr ___. (heavy)",
+          antworten: ["schwer"],
+          regel: "schwer = heavy (oder difficult). schwierig = nur difficult.",
+          uebers: { en: "My backpack is very heavy." }
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Ich habe Schmerzen im ___. (back)",
+          antworten: ["Rücken"],
+          regel: "Schmerzen im Rücken (= Rückenschmerzen). Nicht: auf meinem Rücken.",
+          uebers: { en: "I have pain in my back." }
+        },
+        {
+          typ: "zuordnen", stufe: 1,
+          paare: [["weinen", "to cry"], ["umarmen", "to hug"], ["tragen", "to carry"], ["brauchen", "to need"]],
+          regel: "Verben der Stunde.",
+          uebers: { en: "Match the verbs." }
+        },
+        {
+          typ: "sprechen", stufe: 2,
+          auftrag: "Wie war deine Woche? Sprich 4 Sätze, mindestens zweimal mit deshalb. Nimm dich auf und höre dich an.",
+          hinweis: "Ich war sehr beschäftigt, deshalb ... / Ich hatte Rückenschmerzen, deshalb ...",
+          uebers: { en: "How was your week? Say 4 sentences, use 'deshalb' at least twice." }
+        }
+      ]
+    },
+    {
+      id: "2026-10-25",
+      titel: "Verben mit Präposition, als oder wie",
+      vokabeln: [
+        { de: "sich erinnern an (+ Akk.)", en: "to remember", fr: "se souvenir de", beispiel: "Ich erinnere mich an dich." },
+        { de: "sich entscheiden für", en: "to decide on", fr: "se décider pour", beispiel: "Ich entscheide mich für den Deutschkurs." },
+        { de: "überrascht", en: "surprised", fr: "surpris", beispiel: "Ich war sehr überrascht." },
+        { de: "die Überraschung", en: "the surprise", fr: "la surprise", beispiel: "Das ist eine schöne Überraschung!" },
+        { de: "sich anhören", en: "to sound", fr: "sonner, avoir l'air", beispiel: "Dein Deutsch hört sich gut an." },
+        { de: "eineinhalb", en: "one and a half", fr: "un et demi", beispiel: "Ich lerne seit eineinhalb Jahren Deutsch." },
+        { de: "die Wolke", en: "the cloud", fr: "le nuage", beispiel: "Heute gibt es viele Wolken." },
+        { de: "die Steuer", en: "the tax", fr: "l'impôt", beispiel: "Die Steuern sind hoch." },
+        { de: "mehr oder weniger", en: "more or less", fr: "plus ou moins", beispiel: "Das stimmt mehr oder weniger." }
+      ],
+      aufgaben: [
+        {
+          typ: "luecke", stufe: 1,
+          text: "Ich erinnere mich ___ dich.",
+          antworten: ["an"],
+          regel: "sich erinnern an + Akkusativ.",
+          uebers: { en: "I remember you: fill in the preposition." }
+        },
+        {
+          typ: "luecke", stufe: 1,
+          text: "Ich entscheide mich ___ den Deutschkurs.",
+          antworten: ["für"],
+          regel: "sich entscheiden für + Akkusativ.",
+          uebers: { en: "I decide on the German course: fill in the preposition." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Dein Deutsch ___ sich gut an.",
+          optionen: ["hört", "sagt", "spricht"], richtig: 0,
+          regel: "sich anhören = to sound (trennbar): Es hört sich gut an.",
+          uebers: { en: "Your German sounds good." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Singapur ist reicher ___ Malaysia.",
+          optionen: ["als", "wie"], richtig: 0,
+          regel: "Komparativ (reicher, größer) + als = than.",
+          uebers: { en: "Comparative + 'als' (than)." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Mein Bruder ist so groß ___ ich.",
+          optionen: ["wie", "als"], richtig: 0,
+          regel: "so ... wie = as ... as (gleich).",
+          uebers: { en: "My brother is as tall as me." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "1,5 Jahre sagt man so:",
+          optionen: ["eineinhalb Jahre", "ein Jahr und ein halb", "ein halb Jahre"], richtig: 0,
+          regel: "1,5 = eineinhalb (oder anderthalb).",
+          uebers: { en: "How do you say 1.5 years?" }
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Ich war sehr ___, als ich das Geschenk bekam. (surprised)",
+          antworten: ["überrascht"],
+          regel: "überraschen → überrascht (nicht trennbar).",
+          uebers: { en: "I was very surprised when I got the present." }
+        },
+        {
+          typ: "zuordnen", stufe: 1,
+          paare: [["die Wolke", "the cloud"], ["die Steuer", "the tax"], ["die Überraschung", "the surprise"], ["die Entscheidung", "the decision"]],
+          regel: "Nomen auf -ung sind immer feminin (die).",
+          uebers: { en: "Match the words." }
+        },
+        {
+          typ: "schreiben", stufe: 3,
+          auftrag: "Vergleiche zwei Städte oder Länder (4–5 Sätze). Benutze als und wie.",
+          checkliste: [
+            "Ich habe Komparativ + als benutzt (größer als …).",
+            "Ich habe so … wie benutzt.",
+            "Ich habe mindestens ein neues Wort benutzt.",
+            "Jeder Satz beginnt groß und endet mit einem Punkt."
+          ],
+          muster: "Wien ist größer als Salzburg. In Wien gibt es oft viele Wolken. Im Winter ist es in Wien so kalt wie in München. Die Steuern sind in Österreich höher als in Malaysia. Ich mag beide Städte mehr oder weniger gleich gern.",
+          uebers: { en: "Compare two cities or countries in 4–5 sentences. Use 'als' and 'wie'." }
+        }
+      ]
     }
   ]
 };
