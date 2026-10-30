@@ -300,6 +300,99 @@ window.HEFT = {
           uebers: { fr: "Écris 2 avantages et 2 inconvénients de l'avion." }
         }
       ]
+    },
+    {
+      id: "2026-10-30",
+      titel: "von … bis, Schlaf, trennbare Verben",
+      vokabeln: [
+        { de: "von … bis", en: "from … to", fr: "de … à", beispiel: "Ich habe von 8:30 Uhr bis 12 Uhr Schule." },
+        { de: "nehmen", en: "to take", fr: "prendre", beispiel: "Ich nehme den Bus und die Tram." },
+        { de: "wiederholen", en: "to repeat", fr: "répéter", beispiel: "Wiederhole das Wort bitte." },
+        { de: "zu Bett gehen", en: "to go to bed", fr: "aller se coucher", beispiel: "Ich gehe um 22 Uhr zu Bett." },
+        { de: "einschlafen", en: "to fall asleep", fr: "s'endormir", beispiel: "Ich schlafe um 23 Uhr ein." },
+        { de: "bauen", en: "to build", fr: "construire", beispiel: "Ich will ein Haus bauen." },
+        { de: "bereit", en: "ready", fr: "prêt", beispiel: "Bist du bereit?" },
+        { de: "brechen (hat gebrochen)", en: "to break", fr: "casser", beispiel: "Er hat sich das Bein gebrochen." },
+        { de: "sich ausruhen", en: "to rest", fr: "se reposer", beispiel: "Am Sonntag ruhe ich mich aus." },
+        { de: "die Ruhe", en: "the calm, the quiet", fr: "le calme", beispiel: "Ich brauche Ruhe." }
+      ],
+      aufgaben: [
+        {
+          typ: "mc", stufe: 1,
+          frage: "Ich habe Schule ___ 8:30 Uhr ___ 12 Uhr.",
+          optionen: ["von … bis", "seit … bis", "von … nach"], richtig: 0,
+          regel: "von … bis = de … à (für die Zeit).",
+          uebers: { fr: "Choisis : de 8h30 à 12h." }
+        },
+        {
+          typ: "luecke", stufe: 1,
+          text: "Ich ___ den Bus und die Tram.",
+          antworten: ["nehme"],
+          regel: "nehmen: ich nehme, du nimmst, er nimmt.",
+          uebers: { fr: "Complète avec « nehmen » (prendre)." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Am Freitag ___ um 23 Uhr zu Bett.",
+          optionen: ["gehe ich", "ich gehe"], richtig: 0,
+          regel: "Zeit am Anfang → Verb auf Position 2, dann ich.",
+          uebers: { fr: "Choisis le bon ordre des mots." }
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Ich gehe um 22 Uhr zu Bett, aber ich schlafe erst um 23 Uhr ___.",
+          antworten: ["ein"],
+          regel: "einschlafen ist trennbar: ich schlafe … ein.",
+          uebers: { fr: "Complète : je m'endors seulement à 23 h." }
+        },
+        {
+          typ: "satz", stufe: 2,
+          woerter: ["Am", "Montag", "hatte", "ich", "kein", "Handy"],
+          loesung: "Am Montag hatte ich kein Handy",
+          regel: "Zeit am Anfang → Verb auf Position 2. Nicht „nicht mein Handy“, sondern „kein Handy“.",
+          uebers: { fr: "Remets les mots dans l'ordre." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Ivan sagt zu dir: „___ das Wort bitte!“",
+          optionen: ["Wiederhole", "Wiederholst", "Wiederholen"], richtig: 0,
+          regel: "Imperativ mit du: wiederholen → Wiederhole!",
+          uebers: { fr: "L'impératif (tu) : répète le mot !" }
+        },
+        {
+          typ: "zuordnen", stufe: 1,
+          paare: [["einschlafen", "s'endormir"], ["bauen", "construire"], ["bereit", "prêt"], ["die Ruhe", "le calme"]],
+          regel: "die Ruhe → sich ausruhen.",
+          uebers: { fr: "Relie les mots." }
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Ein Nachteil von Schule ist, dass sie langweilig ___.",
+          antworten: ["ist"],
+          regel: "Nach dass steht das Verb am Ende.",
+          uebers: { fr: "Complète : un inconvénient de l'école, c'est qu'elle est ennuyeuse." }
+        },
+        {
+          typ: "mc", stufe: 3,
+          frage: "Er hat sich beim Fußball das Bein ___.",
+          optionen: ["gebrochen", "gebrecht", "brechen"], richtig: 0,
+          regel: "brechen – brach – hat gebrochen.",
+          uebers: { fr: "Il s'est cassé la jambe : choisis le participe." }
+        },
+        {
+          typ: "luecke", stufe: 3,
+          text: "Am Sonntag ruhe ich mich ___.",
+          antworten: ["aus"],
+          regel: "sich ausruhen ist trennbar: ich ruhe mich aus.",
+          uebers: { fr: "Complète : le dimanche, je me repose." }
+        },
+        {
+          typ: "sprechen", stufe: 2,
+          auftrag: "Wie schläfst du? Sprich 4 Sätze: Wann gehst du zu Bett? Wann schläfst du ein? Was machst du vorher? Nimm dich auf und höre dich an.",
+          hinweis: "Ich gehe um … Uhr zu Bett. Ich schlafe um … Uhr ein. Vorher lese ich … Am Wochenende …",
+          uebers: { fr: "Parle de ton sommeil (4 phrases)." }
+        }
+      ]
     }
   ]
 };
