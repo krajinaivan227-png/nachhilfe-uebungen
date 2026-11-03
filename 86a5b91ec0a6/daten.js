@@ -121,6 +121,47 @@ window.HEFT = {
           uebers: { fr: "Conjugue « aufpassen ». Après la phrase avec « wenn », le verbe vient en premier." }
         },
         {
+          typ: "mc", stufe: 1,
+          frage: "Ich lebe nicht in einer Stadt, ___ in einem Dorf.",
+          optionen: ["sondern", "aber", "oder"], richtig: 0,
+          regel: "Wiederholung (25.10.): nicht …, sondern … = pas …, mais … (Korrektur). aber passt hier nicht.",
+          uebers: { fr: "Choisis le bon mot (« pas …, mais … »)." }
+        },
+        {
+          typ: "luecke", stufe: 1,
+          text: "Du ___ Autos, oder? (mögen)",
+          antworten: ["magst"],
+          regel: "Wiederholung (25.10.): ich mag, du magst, er/sie mag, wir mögen, ihr mögt, sie mögen.",
+          uebers: { fr: "Conjugue « mögen » (du)." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Es ist ___, im Dorf zu schnell zu fahren.",
+          optionen: ["gefährlich", "schmutzig", "trocken"], richtig: 0,
+          regel: "Wiederholung (27.10.): gefährlich = dangereux, die Gefahr = le danger.",
+          uebers: { fr: "Choisis l'adjectif qui convient." }
+        },
+        {
+          typ: "zuordnen", stufe: 1,
+          paare: [["das Gehalt", "Geld, das man für die Arbeit bekommt"], ["füttern", "Tieren Essen geben"], ["die Nichte", "die Tochter von meinem Bruder"], ["übersetzen", "einen Text in eine andere Sprache bringen"]],
+          regel: "Wiederholung (22.10., 25.10., 27.10.): Wörter auf Deutsch erklären.",
+          uebers: { fr: "Associe chaque mot à son explication en allemand." }
+        },
+        {
+          typ: "satz", stufe: 2,
+          woerter: ["Deswegen", "komme", "ich", "zu", "spät"],
+          loesung: "Deswegen komme ich zu spät",
+          regel: "Wiederholung (27.10.): Nach deswegen kommt sofort das Verb, wie bei allerdings.",
+          uebers: { fr: "Mets les mots dans le bon ordre. Après « deswegen », le verbe vient tout de suite." }
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Er ___ mich zu seiner Party ein. (einladen)",
+          antworten: ["lädt"],
+          regel: "Wiederholung (20.10.): einladen ist trennbar und hat einen Umlaut: du lädst ein, er lädt ein.",
+          uebers: { fr: "Conjugue « einladen » (er). Attention à l'umlaut !" }
+        },
+        {
           typ: "sprechen", stufe: 2,
           auftrag: "Lebst du lieber in der Stadt oder auf dem Land? Sprich 4 Sätze. Nimm dich auf und höre dich an.",
           hinweis: "Auf dem Land ist es ruhig. / In der Stadt gibt es … / Allerdings … / Für mich war das eine gute Entscheidung.",
