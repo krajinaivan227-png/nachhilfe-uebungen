@@ -1,0 +1,327 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Meine Deutsch-Übung</title>
+<style>
+  :root { --bg:#fafaf7; --card:#fff; --text:#1f2328; --muted:#6a7078; --line:#e3e1da;
+          --accent:#2f6fed; --ok:#1d8a4c; --bad:#c43b3b; --der:#2f6fed; --die:#d6336c; --das:#1d8a4c; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font:17px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif; }
+  main { max-width:640px; margin:0 auto; padding:16px; }
+  h1 { font-size:1.35rem; margin:.2rem 0; }
+  h2 { font-size:1.1rem; margin:.2rem 0 .8rem; }
+  .muted { color:var(--muted); font-size:.9rem; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:14px; padding:18px; margin:14px 0; }
+  .bar { height:6px; background:var(--line); border-radius:3px; overflow:hidden; margin:10px 0 0; }
+  .bar > i { display:block; height:100%; background:var(--accent); width:0; transition:width .25s; }
+  button { font:inherit; border:1px solid var(--line); background:#fff; border-radius:10px; padding:10px 14px; cursor:pointer; }
+  button.primary { background:var(--accent); border-color:var(--accent); color:#fff; }
+  button:disabled { opacity:.5; cursor:default; }
+  .row { display:flex; flex-wrap:wrap; gap:8px; margin-top:12px; }
+  .opt { display:block; width:100%; text-align:left; margin-top:8px; }
+  .opt.ok { border-color:var(--ok); background:#eaf6ee; }
+  .opt.bad { border-color:var(--bad); background:#fbeaea; }
+  input[type=text], textarea { width:100%; font:inherit; padding:10px; border:1px solid var(--line); border-radius:10px; }
+  textarea { min-height:130px; }
+  .fb { margin-top:12px; padding:10px 12px; border-radius:10px; }
+  .fb.ok { background:#eaf6ee; } .fb.bad { background:#fbeaea; }
+  .tok { display:inline-block; margin:4px 4px 0 0; padding:6px 10px; border:1px solid var(--line); border-radius:8px; background:#fff; cursor:pointer; }
+  .answerline { min-height:46px; padding:6px; border:1px dashed var(--line); border-radius:10px; }
+  .trans { color:var(--muted); font-size:.88rem; margin-top:4px; }
+  .flash { text-align:center; padding:34px 10px; font-size:1.5rem; cursor:pointer; user-select:none; }
+  .der { color:var(--der); } .die { color:var(--die); } .das { color:var(--das); }
+  .pairs { display:grid; grid-template-columns:1fr 1fr; gap:8px; margin-top:10px; }
+  .pairs button { text-align:left; }
+  .pairs button.sel { border-color:var(--accent); background:#eef3ff; }
+  .pairs button.done { border-color:var(--ok); background:#eaf6ee; }
+  .hud { display:flex; gap:14px; font-size:.9rem; color:var(--muted); }
+  .hidden { display:none; }
+  label.chk { display:block; margin-top:8px; }
+  @media print { button, .hud, .bar { display:none !important; } body { background:#fff; } .card { break-inside:avoid; } }
+</style>
+</head>
+<body>
+<main id="app"></main>
+<script src="daten.js"></script>
+<script>
+(function () {
+  "use strict";
+  var H = window.HEFT;
+  var KEY = "heft:" + H.vorname + ":" + (location.pathname || "");
+  var store = load();
+  var spiel = typeof H.alter === "number" ? H.alter < 16 : H.modus === "spielerisch";
+  var anf = /^A[12]/.test(H.niveau);
+  var app = document.getElementById("app");
+  var st = { stufe: 3, items: [], i: 0, wrong: [], round: 1, punkte: 0, korrekt: 0, gesamt: 0 };
+
+  function load() { try { return JSON.parse(localStorage.getItem(KEY)) || { vok: {}, tage: [], punkte: 0 }; } catch (e) { return { vok: {}, tage: [], punkte: 0 }; } }
+  function save() { try { localStorage.setItem(KEY, JSON.stringify(store)); } catch (e) {} }
+  function el(tag, attrs, kids) {
+    var n = document.createElement(tag);
+    for (var k in (attrs || {})) { if (k === "class") n.className = attrs[k]; else if (k.slice(0, 2) === "on") n.addEventListener(k.slice(2), attrs[k]); else n.setAttribute(k, attrs[k]); }
+    (kids || []).forEach(function (c) { n.appendChild(typeof c === "string" ? document.createTextNode(c) : c); });
+    return n;
+  }
+  function iso(d) { return d.getFullYear() + "-" + ("0" + (d.getMonth() + 1)).slice(-2) + "-" + ("0" + d.getDate()).slice(-2); }
+  function today() { return iso(new Date()); }
+  function shuffle(a) { a = a.slice(); for (var i = a.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)); var t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
+  function norm(s) { return String(s).toLowerCase().replace(/[.!?,;]+$/g, "").replace(/\s+/g, " ").trim(); }
+  function artikelClass(de) { var m = /^(der|die|das)\s/i.exec(de); return m ? m[1].toLowerCase() : ""; }
+  function trans(obj) { return (obj && obj[H.hilfe]) || ""; }
+  function addDays(n) { var d = new Date(); d.setDate(d.getDate() + n); return iso(d); }
+  var BOX = [0, 1, 3, 7, 14, 30];
+
+  function lastStunde() { return H.stunden[H.stunden.length - 1]; }
+  function dueOld() {
+    var out = [];
+    H.stunden.slice(0, -1).forEach(function (s) { (s.vokabeln || []).forEach(function (v) {
+      var r = store.vok[v.de];
+      if (!r || r.due <= today()) out.push(v);
+    }); });
+    return shuffle(out).slice(0, 4);
+  }
+
+  /* ---------- Start ---------- */
+  function start() {
+    var s = lastStunde();
+    app.innerHTML = "";
+    app.appendChild(el("h1", {}, ["Hallo " + H.vorname + "!"]));
+    app.appendChild(el("p", { class: "muted" }, ["Stunde vom " + s.id + ": " + s.titel + " · Niveau " + H.niveau]));
+    if (spiel) app.appendChild(el("div", { class: "hud" }, ["Punkte: " + store.punkte, "Serie: " + streak() + " Tage"]));
+    var c = el("div", { class: "card" }, [el("h2", {}, ["Wie fit bist du heute?"])]);
+    [["Leicht", 1], ["Mittel", 2], ["Herausforderung", 3]].forEach(function (p) {
+      c.appendChild(el("button", { class: "opt", onclick: function () { begin(p[1]); } }, [p[0]]));
+    });
+    app.appendChild(c);
+    var tools = el("div", { class: "row" }, [
+      el("button", { onclick: exportCode }, ["Fortschritt sichern"]),
+      el("button", { onclick: importCode }, ["Fortschritt einlesen"]),
+      el("button", { onclick: function () { window.print(); } }, ["Drucken"])
+    ]);
+    app.appendChild(tools);
+  }
+  function streak() {
+    var set = {}; store.tage.forEach(function (t) { set[t] = 1; });
+    var d = new Date(), n = 0;
+    if (!set[iso(d)]) d.setDate(d.getDate() - 1);
+    while (set[iso(d)]) { n++; d.setDate(d.getDate() - 1); }
+    return n;
+  }
+  function exportCode() { prompt("Dein Code (kopieren und aufbewahren):", btoa(unescape(encodeURIComponent(JSON.stringify(store))))); }
+  function importCode() {
+    var c = prompt("Code einfügen:"); if (!c) return;
+    try { store = JSON.parse(decodeURIComponent(escape(atob(c)))); save(); start(); } catch (e) { alert("Der Code ist nicht gültig."); }
+  }
+
+  function begin(stufe) {
+    st.stufe = stufe; st.i = 0; st.wrong = []; st.round = 1; st.korrekt = 0; st.gesamt = 0;
+    var s = lastStunde();
+    st.items = [];
+    if ((s.vokabeln || []).length) st.items.push({ typ: "karten", titel: "Neue Wörter", vok: s.vokabeln.map(function (v) { return v; }) });
+    s.aufgaben.filter(function (a) { return a.stufe <= stufe; }).forEach(function (a) { st.items.push(a); });
+    var alt = dueOld();
+    if (alt.length) st.items.push({ typ: "karten", titel: "Wiederholung von früher", vok: alt, alt: true });
+    show();
+  }
+
+  /* ---------- Ablauf ---------- */
+  function show() {
+    app.innerHTML = "";
+    if (st.i >= st.items.length) {
+      if (st.wrong.length && st.round === 1) {
+        st.round = 2; st.items = st.wrong.slice(); st.wrong = []; st.i = 0;
+        app.appendChild(el("div", { class: "card" }, [el("h2", {}, ["Wiederholungsrunde"]), el("p", {}, ["Diese Aufgaben waren noch nicht richtig. Versuche sie noch einmal."]), el("button", { class: "primary", onclick: show }, ["Los"])]));
+        return;
+      }
+      return fertig();
+    }
+    var it = st.items[st.i];
+    var pct = Math.round(st.i / st.items.length * 100);
+    app.appendChild(el("div", { class: "muted" }, [(st.round === 2 ? "Wiederholung · " : "") + "Aufgabe " + (st.i + 1) + " von " + st.items.length]));
+    app.appendChild(el("div", { class: "bar" }, [el("i", { style: "width:" + pct + "%" })]));
+    if (spiel) app.appendChild(el("div", { class: "hud" }, ["Punkte: " + (store.punkte + st.punkte)]));
+    var card = el("div", { class: "card" });
+    app.appendChild(card);
+    var fn = R[it.typ];
+    fn(card, it, function (ok) { weiter(it, ok); });
+  }
+  function weiter(it, ok) {
+    if (it.typ !== "karten" && it.typ !== "sprechen" && it.typ !== "schreiben") {
+      st.gesamt++;
+      if (ok) { st.korrekt++; if (spiel) st.punkte += 10; } else if (st.round === 1) st.wrong.push(it);
+    } else if (spiel) st.punkte += 5;
+    st.i++; show();
+  }
+  function fertig() {
+    store.punkte += st.punkte; store.tage = store.tage.filter(function (d) { return d !== today(); }); store.tage.push(today()); save();
+    app.innerHTML = "";
+    var c = el("div", { class: "card" }, [
+      el("h2", {}, ["Geschafft!"]),
+      el("p", {}, [st.gesamt ? ("Richtig beim ersten Versuch: " + st.korrekt + " von " + st.gesamt + ".") : "Alle Aufgaben erledigt."]),
+      el("p", { class: "muted" }, ["Bring Fragen und deinen Text zur nächsten Stunde mit."])
+    ]);
+    if (spiel) c.appendChild(el("p", {}, ["Punkte: +" + st.punkte + " · Serie: " + streak() + " Tage"]));
+    c.appendChild(el("button", { class: "primary", onclick: start }, ["Zurück zum Start"]));
+    app.appendChild(c);
+  }
+  function feedback(card, ok, regel, onNext) {
+    var f = el("div", { class: "fb " + (ok ? "ok" : "bad") }, [ok ? "Richtig. " : "Noch nicht. ", regel || ""]);
+    card.appendChild(f);
+    card.appendChild(el("div", { class: "row" }, [el("button", { class: "primary", onclick: function () { onNext(ok); } }, ["Weiter"])]));
+  }
+  function uebers(card, it) { if (anf && it.uebers && trans(it.uebers)) card.appendChild(el("div", { class: "trans" }, [trans(it.uebers)])); }
+
+  /* ---------- Aufgabentypen ---------- */
+  var R = {};
+
+  R.karten = function (card, it, done) {
+    var k = 0, geflippt = false;
+    card.appendChild(el("h2", {}, [it.titel]));
+    var body = el("div"); card.appendChild(body);
+    function draw() {
+      body.innerHTML = "";
+      var v = it.vok[k];
+      var face = el("div", { class: "flash card " + artikelClass(v.de), onclick: function () { geflippt = !geflippt; draw(); } },
+        geflippt ? [trans(v) || v.en || v.fr, el("div", { class: "trans" }, [v.beispiel || ""])] : [v.de]);
+      body.appendChild(face);
+      body.appendChild(el("div", { class: "muted" }, ["Wort " + (k + 1) + " von " + it.vok.length + " · Tippe auf die Karte"]));
+      if (geflippt) body.appendChild(el("div", { class: "row" }, [
+        el("button", { onclick: function () { rate(false); } }, ["Noch nicht"]),
+        el("button", { class: "primary", onclick: function () { rate(true); } }, ["Gewusst"])
+      ]));
+    }
+    function trans(v) { return v[H.hilfe]; }
+    function rate(ok) {
+      var v = it.vok[k], r = store.vok[v.de] || { box: 0 };
+      r.box = ok ? Math.min(r.box + 1, BOX.length - 1) : 0; r.due = addDays(BOX[r.box]); store.vok[v.de] = r; save();
+      geflippt = false; k++;
+      if (k >= it.vok.length) done(true); else draw();
+    }
+    draw();
+  };
+
+  R.mc = function (card, it, done) {
+    card.appendChild(el("h2", {}, [it.frage])); uebers(card, it);
+    var locked = false;
+    it.optionen.forEach(function (o, idx) {
+      var b = el("button", { class: "opt", onclick: function () {
+        if (locked) return; locked = true;
+        var ok = idx === it.richtig;
+        b.className += ok ? " ok" : " bad";
+        if (!ok) card.querySelectorAll("button.opt")[it.richtig].className += " ok";
+        feedback(card, ok, it.regel, done);
+      } }, [o]);
+      card.appendChild(b);
+    });
+  };
+
+  R.luecke = function (card, it, done) {
+    card.appendChild(el("h2", {}, [it.text])); uebers(card, it);
+    var inp = el("input", { type: "text", autocomplete: "off", autocapitalize: "off", "aria-label": "Antwort" });
+    card.appendChild(inp);
+    var btn = el("button", { class: "primary", onclick: function () {
+      if (btn.disabled) return; btn.disabled = true; inp.disabled = true;
+      var ok = it.antworten.some(function (a) { return norm(a) === norm(inp.value); });
+      feedback(card, ok, ok ? it.regel : ("Richtig: " + it.antworten[0] + ". " + (it.regel || "")), done);
+    } }, ["Prüfen"]);
+    card.appendChild(el("div", { class: "row" }, [btn]));
+    inp.addEventListener("keydown", function (e) { if (e.key === "Enter") btn.click(); });
+  };
+
+  R.satz = function (card, it, done) {
+    card.appendChild(el("h2", {}, ["Bilde den Satz."])); uebers(card, it);
+    var line = el("div", { class: "answerline" }), pool = el("div");
+    var chosen = [];
+    var toks = shuffle(it.woerter.map(function (w, i) { return { w: w, i: i }; }));
+    function draw() {
+      line.innerHTML = ""; pool.innerHTML = "";
+      chosen.forEach(function (t) { line.appendChild(el("span", { class: "tok", onclick: function () { chosen = chosen.filter(function (c) { return c !== t; }); draw(); } }, [t.w])); });
+      toks.filter(function (t) { return chosen.indexOf(t) < 0; }).forEach(function (t) { pool.appendChild(el("span", { class: "tok", onclick: function () { chosen.push(t); draw(); } }, [t.w])); });
+    }
+    card.appendChild(line); card.appendChild(pool); draw();
+    var btn = el("button", { class: "primary", onclick: function () {
+      if (btn.disabled) return; btn.disabled = true;
+      var ok = norm(chosen.map(function (t) { return t.w; }).join(" ")) === norm(it.loesung);
+      feedback(card, ok, ok ? it.regel : ("Richtig: " + it.loesung + ". " + (it.regel || "")), done);
+    } }, ["Prüfen"]);
+    card.appendChild(el("div", { class: "row" }, [btn]));
+  };
+
+  R.zuordnen = function (card, it, done) {
+    card.appendChild(el("h2", {}, ["Was passt zusammen?"])); uebers(card, it);
+    var left = it.paare.map(function (p, i) { return { t: p[0], i: i }; });
+    var right = shuffle(it.paare.map(function (p, i) { return { t: p[1], i: i }; }));
+    var sel = null, matched = 0, fehler = false;
+    var grid = el("div", { class: "pairs" }), lb = [], rb = [];
+    card.appendChild(grid);
+    function layout() {
+      grid.innerHTML = "";
+      left.forEach(function (l, n) {
+        var b = el("button", { onclick: function () { if (b.className.indexOf("done") >= 0) return; sel = l; lb.forEach(function (x) { x.className = x.className.replace(" sel", ""); }); b.className += " sel"; } }, [l.t]);
+        lb[n] = b;
+      });
+      right.forEach(function (r, n) {
+        var b = el("button", { onclick: function () {
+          if (!sel || b.className.indexOf("done") >= 0) return;
+          if (sel.i === r.i) {
+            b.className += " done"; lb[left.indexOf(sel)].className = "done"; sel = null; matched++;
+            if (matched === it.paare.length) feedback(card, !fehler, it.regel, done);
+          } else { fehler = true; b.className += " sel"; setTimeout(function () { b.className = b.className.replace(" sel", ""); }, 400); }
+        } }, [r.t]);
+        rb[n] = b;
+      });
+      for (var n = 0; n < left.length; n++) { grid.appendChild(lb[n]); grid.appendChild(rb[n]); }
+    }
+    layout();
+  };
+
+  R.sprechen = function (card, it, done) {
+    card.appendChild(el("h2", {}, ["Sprechen"]));
+    card.appendChild(el("p", {}, [it.auftrag])); uebers(card, it);
+    if (it.hinweis) card.appendChild(el("p", { class: "muted" }, [it.hinweis]));
+    var audio = el("audio", { controls: "controls", class: "hidden" });
+    var rec = null, chunks = [];
+    var go = el("button", { onclick: toggle }, ["Aufnahme starten"]);
+    function toggle() {
+      if (rec && rec.state === "recording") { rec.stop(); return; }
+      if (!navigator.mediaDevices || !window.MediaRecorder) { alert("Aufnahme geht auf diesem Gerät nicht. Sprich den Text trotzdem laut."); return; }
+      navigator.mediaDevices.getUserMedia({ audio: true }).then(function (stream) {
+        chunks = []; rec = new MediaRecorder(stream);
+        rec.ondataavailable = function (e) { chunks.push(e.data); };
+        rec.onstop = function () { stream.getTracks().forEach(function (t) { t.stop(); }); audio.src = URL.createObjectURL(new Blob(chunks)); audio.className = ""; go.textContent = "Nochmal aufnehmen"; };
+        rec.start(); go.textContent = "Stopp";
+      }, function () { alert("Mikrofon nicht erlaubt. Sprich den Text trotzdem laut."); });
+    }
+    card.appendChild(el("div", { class: "row" }, [go]));
+    card.appendChild(audio);
+    card.appendChild(el("p", { class: "muted" }, ["Die Aufnahme bleibt auf deinem Gerät und wird nicht gesendet."]));
+    card.appendChild(el("div", { class: "row" }, [el("button", { class: "primary", onclick: function () { done(true); } }, ["Fertig"])]));
+  };
+
+  R.schreiben = function (card, it, done) {
+    card.appendChild(el("h2", {}, ["Schreiben"]));
+    card.appendChild(el("p", {}, [it.auftrag])); uebers(card, it);
+    var ta = el("textarea", { "aria-label": "Dein Text" });
+    card.appendChild(ta);
+    var boxes = [];
+    (it.checkliste || []).forEach(function (c) {
+      var cb = el("input", { type: "checkbox" }); boxes.push(cb);
+      card.appendChild(el("label", { class: "chk" }, [cb, " " + c]));
+    });
+    var muster = el("div", { class: "fb ok hidden" }, ["Beispieltext: " + (it.muster || "")]);
+    card.appendChild(muster);
+    card.appendChild(el("p", { class: "muted" }, ["Ivan schaut sich deinen Text in der nächsten Stunde an. Schreibe ihn dafür ab oder mache ein Foto."]));
+    card.appendChild(el("div", { class: "row" }, [
+      el("button", { onclick: function () { muster.className = "fb ok"; } }, ["Beispieltext zeigen"]),
+      el("button", { class: "primary", onclick: function () { done(true); } }, ["Fertig"])
+    ]));
+  };
+
+  start();
+})();
+</script>
+</body>
+</html>
