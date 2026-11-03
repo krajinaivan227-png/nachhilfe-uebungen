@@ -290,6 +290,43 @@ window.HEFT = {
           uebers: { en: "Fill in: I have an appointment at the doctor's tomorrow." }
         },
         {
+          typ: "luecke", stufe: 1,
+          text: "Ich lerne Deutsch, um in Deutschland zu ___. (arbeiten)",
+          antworten: ["arbeiten"],
+          regel: "Wiederholung (24.09.): um … zu + Infinitiv: Der Infinitiv steht am Ende.",
+          uebers: { en: "Fill in the infinitive." }
+        },
+        {
+          typ: "zuordnen", stufe: 1,
+          paare: [["schwierig", "leicht"], ["glücklich", "traurig"], ["ängstlich", "mutig"], ["reich", "arm"]],
+          regel: "Wiederholung (10.09., 24.09.): Gegenteile lernt man gut zusammen.",
+          uebers: { en: "Match the opposites." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Gestern ___ ich mit dem Zug nach Berlin gefahren.",
+          optionen: ["bin", "habe", "war"],
+          richtig: 0,
+          regel: "Wiederholung (07.10.): fahren = Bewegung → Perfekt mit sein.",
+          uebers: { en: "Choose: haben or sein?" }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Ich habe meinen Schlüssel ___.",
+          optionen: ["gefunden", "gefindet", "findet"],
+          richtig: 0,
+          regel: "Wiederholung (07.10.): finden – fand – hat gefunden.",
+          uebers: { en: "Choose the correct past participle." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Welcher Satz ist richtig?",
+          optionen: ["Ich bleibe zu Hause, weil ich krank bin.", "Ich bleibe zu Hause, weil ich bin krank.", "Ich bleibe zu Hause, weil bin ich krank."],
+          richtig: 0,
+          regel: "Wiederholung (07.10.): Nach weil steht das Verb am Ende.",
+          uebers: { en: "Which sentence is correct?" }
+        },
+        {
           typ: "sprechen", stufe: 2,
           auftrag: "Warum lernst du Deutsch? Sprich 3 Sätze mit um ... zu. Nimm dich auf und höre dich an.",
           hinweis: "Ich lerne Deutsch, um ... zu ...",

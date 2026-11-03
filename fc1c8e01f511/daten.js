@@ -450,6 +450,52 @@ window.HEFT = {
           uebers: { fr: "Choisis la bonne forme." }
         },
         {
+          typ: "mc", stufe: 1,
+          frage: "Wir spielen ___: Olga, Evan und Mama.",
+          optionen: ["zu dritt", "zu zweit", "allein"],
+          richtig: 0,
+          regel: "Wiederholung (05.10.): zu zweit = 2, zu dritt = 3, zu viert = 4.",
+          uebers: { fr: "Choisis la bonne réponse." }
+        },
+        {
+          typ: "luecke", stufe: 1,
+          text: "Ich ___ meinen Schlüssel. (suchen)",
+          antworten: ["suche"],
+          regel: "Wiederholung (05.10.): suchen: ich suche, du suchst, er sucht.",
+          uebers: { fr: "Conjugue « suchen » (ich)." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Mein Kopf tut weh. Ich habe ___.",
+          optionen: ["Kopfschmerzen", "Bauchschmerzen", "Zahnschmerzen"],
+          richtig: 0,
+          regel: "Wiederholung (18.10.): der Kopf → die Kopfschmerzen.",
+          uebers: { fr: "Choisis le bon mot." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Der Opa ist ___ Krankenhaus.",
+          optionen: ["im", "ins", "in die"],
+          richtig: 0,
+          regel: "Wiederholung (18.10.): Wo? → im Krankenhaus. Wohin? → ins Krankenhaus.",
+          uebers: { fr: "Choisis : où est-il ?" }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Platz 3 = der ___ Platz",
+          optionen: ["dritte", "dreite", "drei"],
+          richtig: 0,
+          regel: "Wiederholung (18.10.): der erste, der zweite, der dritte, der vierte.",
+          uebers: { fr: "Choisis la bonne forme." }
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Am Abend entspanne ich ___.",
+          antworten: ["mich"],
+          regel: "Wiederholung (20.10.): sich entspannen: ich entspanne mich, du entspannst dich.",
+          uebers: { fr: "Complète avec le pronom réfléchi." }
+        },
+        {
           typ: "schreiben", stufe: 3,
           auftrag: "Schreibe 4 Sätze: Was machst du an Halloween? Welcher Tag ist das?",
           checkliste: [

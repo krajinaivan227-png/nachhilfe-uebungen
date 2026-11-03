@@ -398,6 +398,51 @@ window.HEFT = {
           uebers: { fr: "Choisis le bon mot." }
         },
         {
+          typ: "mc", stufe: 1,
+          frage: "Ich war ___ in Paris. (déjà)",
+          optionen: ["schon", "schön", "trotzdem"],
+          richtig: 0,
+          regel: "Wiederholung (25.09.): schon = déjà, schön = beau.",
+          uebers: { fr: "Choisis le mot qui veut dire « déjà »." }
+        },
+        {
+          typ: "luecke", stufe: 1,
+          text: "Es regnet, aber ich gehe ___ raus.",
+          antworten: ["trotzdem"],
+          regel: "Wiederholung (25.09., 02.10.): trotzdem = quand même.",
+          uebers: { fr: "Complète avec « quand même »." }
+        },
+        {
+          typ: "satz", stufe: 2,
+          woerter: ["Am", "Wochenende", "lese", "ich", "einen", "Roman"],
+          loesung: "Am Wochenende lese ich einen Roman",
+          regel: "Wiederholung (02.10.): Zeit am Anfang → Verb auf Position 2, dann ich.",
+          uebers: { fr: "Mets les mots dans le bon ordre." }
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "frei → die ___",
+          antworten: ["Freiheit"],
+          regel: "Wiederholung (02.10.): Adjektiv + -heit = Nomen, immer feminin.",
+          uebers: { fr: "Forme le nom avec -heit." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Du ___ die Antwort.",
+          optionen: ["weißt", "wisst", "weiß"],
+          richtig: 0,
+          regel: "Wiederholung (09.10.): wissen: ich weiß, du weißt, er weiß.",
+          uebers: { fr: "Conjugue « wissen » (du)." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Ich gehe ___ Schule.",
+          optionen: ["in die", "in der", "im"],
+          richtig: 0,
+          regel: "Wiederholung (09.10.): Wohin? → in die Schule (Akkusativ). Wo? → in der Schule.",
+          uebers: { fr: "Choisis : où vas-tu ?" }
+        },
+        {
           typ: "schreiben", stufe: 3,
           auftrag: "Schreibe 4 Sätze: Was ist wichtig für die Gesundheit?",
           checkliste: [

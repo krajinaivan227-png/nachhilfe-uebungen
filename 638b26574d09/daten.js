@@ -195,6 +195,44 @@ window.HEFT = {
           uebers: { en: "Which flavour is the ice cream? Fill in the gap." }
         },
         {
+          typ: "mc", stufe: 1,
+          frage: "Es ist 14 ___.",
+          optionen: ["Uhr", "Stunde", "Stunden"],
+          richtig: 0,
+          regel: "Wiederholung (16.09., 23.09.): Uhrzeit = Uhr. Dauer = Stunde(n): Ich arbeite 8 Stunden.",
+          uebers: { en: "Choose the right word." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Das ist ___ Maus.",
+          optionen: ["keine", "nicht", "kein"],
+          richtig: 0,
+          regel: "Wiederholung (23.09.): eine Maus → keine Maus.",
+          uebers: { en: "Choose: kein, keine or nicht?" }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Ich bin ___ müde.",
+          optionen: ["nicht", "kein", "keine"],
+          richtig: 0,
+          regel: "Wiederholung (23.09.): Adjektive verneint man mit nicht: Ich bin nicht müde.",
+          uebers: { en: "Choose: kein, keine or nicht?" }
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "eine Maus, zwei ___",
+          antworten: ["Mäuse"],
+          regel: "Wiederholung (23.09.): die Maus → die Mäuse (a wird ä, dazu -e).",
+          uebers: { en: "Write the plural." }
+        },
+        {
+          typ: "satz", stufe: 2,
+          woerter: ["Ich", "spiele", "fünf", "Mal", "pro", "Woche", "Tennis"],
+          loesung: "Ich spiele fünf Mal pro Woche Tennis",
+          regel: "Wiederholung (23.09.): Das Verb steht auf Position 2.",
+          uebers: { en: "Put the words in the right order." }
+        },
+        {
           typ: "sprechen", stufe: 2,
           auftrag: "Erzähle von deinen Fächern: Welche Fächer hast du? Welches Fach magst du? Sprich 3 Sätze. Nimm dich auf und höre dich an.",
           hinweis: "Ich habe ... / Mein Lieblingsfach ist ... / Ich mag ... leider nicht.",

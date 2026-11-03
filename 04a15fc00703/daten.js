@@ -280,6 +280,51 @@ window.HEFT = {
           uebers: { en: "Match the words." }
         },
         {
+          typ: "mc", stufe: 1,
+          frage: "Morgen ___ du nach Wien fahren.",
+          optionen: ["wirst", "wirdst", "werdet"],
+          richtig: 0,
+          regel: "Wiederholung (04.10.): Futur: ich werde, du wirst, er wird + Infinitiv am Ende.",
+          uebers: { en: "Choose the correct form of „werden“." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Ich gehe heute ___ Ärztin.",
+          optionen: ["zur", "zum", "zu die"],
+          richtig: 0,
+          regel: "Wiederholung (04.10.): zur = zu der (feminin), zum = zu dem (maskulin und neutral).",
+          uebers: { en: "Choose the correct word." }
+        },
+        {
+          typ: "satz", stufe: 2,
+          woerter: ["Er", "hat", "sich", "für", "das", "Studium", "entschieden"],
+          loesung: "Er hat sich für das Studium entschieden",
+          regel: "Wiederholung (04.10.): entscheiden → hat entschieden. Das Partizip steht am Ende.",
+          uebers: { en: "Put the words in the right order." }
+        },
+        {
+          typ: "luecke", stufe: 1,
+          text: "Zum Geburtstag ___ ich ein Geschenk. (bekommen)",
+          antworten: ["bekomme"],
+          regel: "Wiederholung (18.10.): bekommen = to get (nicht to become!). ich bekomme, du bekommst.",
+          uebers: { en: "Conjugate „bekommen“ (ich)." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Am Abend bin ich ___.",
+          optionen: ["zu Hause", "nach Hause", "im Hause"],
+          richtig: 0,
+          regel: "Wiederholung (18.10.): Wo? → zu Hause. Wohin? → nach Hause.",
+          uebers: { en: "Choose: where are you?" }
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Ich bin müde, ___ gehe ich früh ins Bett.",
+          antworten: ["deshalb"],
+          regel: "Wiederholung (18.10.): deshalb = that's why. Danach kommt sofort das Verb.",
+          uebers: { en: "Fill in the word that means „that's why“." }
+        },
+        {
           typ: "schreiben", stufe: 3,
           auftrag: "Vergleiche zwei Städte oder Länder (4–5 Sätze). Benutze als und wie.",
           checkliste: [

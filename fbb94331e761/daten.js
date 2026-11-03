@@ -186,6 +186,38 @@ window.HEFT = {
           regel: "zögern + zu + Infinitiv (mit Komma)."
         },
         {
+          typ: "zuordnen", stufe: 1,
+          paare: [["geizig", "der Geiz"], ["bescheiden", "die Bescheidenheit"], ["auswerten", "die Auswertung"], ["impfen", "die Impfung"]],
+          regel: "Wiederholung (13.09., 20.09.): Wortfamilien: Adjektiv/Verb und Nomen gehören zusammen."
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Mein Vortrag bezieht sich ___ die neue Studie.",
+          optionen: ["auf", "an", "über"],
+          richtig: 0,
+          regel: "Wiederholung (16.09.): sich auf etwas (Akkusativ) beziehen."
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Bezüglich ___ Vertrags habe ich noch eine Frage.",
+          antworten: ["des"],
+          regel: "Wiederholung (16.09.): bezüglich + Genitiv: der Vertrag → des Vertrags."
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Es regnet, ___ bleibe ich zu Hause.",
+          optionen: ["daher", "weil", "obwohl"],
+          richtig: 0,
+          regel: "Wiederholung (16.09.): daher/deshalb/deswegen + Verb direkt danach."
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Er will keine andere Meinung hören. Er ist ___.",
+          optionen: ["engstirnig", "bescheiden", "verwöhnt"],
+          richtig: 0,
+          regel: "Wiederholung (20.09.): engstirnig = man will keine andere Meinung hören."
+        },
+        {
           typ: "schreiben", stufe: 3,
           auftrag: "Du bist krank. Schreibe eine kurze Nachricht an deine Chefin (4–5 Sätze): Welche Symptome hast du, seit wann, wann kommst du zurück?",
           checkliste: [

@@ -107,6 +107,38 @@ window.HEFT = {
           regel: "ei = „ai“ (bleiben, verzeihen). ie = langes „i“ (Lied, Wiese)."
         },
         {
+          typ: "mc", stufe: 1,
+          frage: "Mein Kollege hat seinen Job ___.",
+          optionen: ["gekündigt", "verlängert", "verwendet"],
+          richtig: 0,
+          regel: "Wiederholung (09.09.): kündigen = to quit (a job)."
+        },
+        {
+          typ: "luecke", stufe: 1,
+          text: "Er ___ im Büro immer einen Anzug. (tragen)",
+          antworten: ["trägt"],
+          regel: "Wiederholung (09.09.): tragen: ich trage, du trägst, er trägt."
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Ich lerne ___ zwei Stunden pro Tag.",
+          optionen: ["mindestens", "unendlich", "einseitig"],
+          richtig: 0,
+          regel: "Wiederholung (09.09.): mindestens = at least."
+        },
+        {
+          typ: "zuordnen", stufe: 1,
+          paare: [["der Bildschirm", "Teil vom Computer, auf dem man das Bild sieht"], ["die Spende", "Geld, das man schenkt, um zu helfen"], ["das Werkzeug", "zum Beispiel ein Hammer"], ["einseitig", "zeigt nur eine Meinung"]],
+          regel: "Wiederholung (16.09.): Wörter auf Deutsch erklären."
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Kannst du den Vertrag um ein Jahr ___?",
+          optionen: ["verlängern", "verwenden", "verlieren"],
+          richtig: 0,
+          regel: "Wiederholung (16.09.): verlängern = to extend (länger machen)."
+        },
+        {
           typ: "sprechen", stufe: 2,
           auftrag: "Was machst du, wenn das Wetter schön ist? Was machst du, wenn du müde bist? Sprich 4 Sätze mit „wenn“. Nimm dich auf und höre dich an.",
           hinweis: "Zum Beispiel: Wenn ich müde bin, ... / Ich gehe spazieren, wenn ..."

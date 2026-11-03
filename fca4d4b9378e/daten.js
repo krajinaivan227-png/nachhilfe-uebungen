@@ -387,6 +387,44 @@ window.HEFT = {
           regel: "Neue Wörter der Stunde."
         },
         {
+          typ: "mc", stufe: 1,
+          frage: "Kannst du ___ das Schwimmen beibringen?",
+          optionen: ["mir", "mich", "ich"],
+          richtig: 0,
+          regel: "Wiederholung (05.10.): jemandem (Dativ) etwas beibringen: Kannst du mir … beibringen?"
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Es hängt ___ ab, ob es morgen regnet.",
+          antworten: ["davon"],
+          regel: "Wiederholung (05.10.): abhängen von → Es hängt davon ab, ob …"
+        },
+        {
+          typ: "luecke", stufe: 1,
+          text: "Ich versuche, jeden Tag Sport ___ machen.",
+          antworten: ["zu"],
+          regel: "Wiederholung (08.10.): versuchen + zu + Infinitiv."
+        },
+        {
+          typ: "zuordnen", stufe: 1,
+          paare: [["das Gerücht", "la rumeur"], ["das Gericht", "le tribunal / le plat"], ["die Gewerkschaft", "le syndicat"], ["staatlich", "public"]],
+          regel: "Wiederholung (08.10., 27.10.): Ähnliche Wörter nicht verwechseln: Gerücht ≠ Gericht."
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Das Haus ___ 1990 gebaut.",
+          optionen: ["wurde", "ist geworden", "hat"],
+          richtig: 0,
+          regel: "Wiederholung (27.10.): Passiv Präteritum = wurde + Partizip II."
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Die Familie ___ vor dem Krieg geflohen.",
+          optionen: ["ist", "hat", "wird"],
+          richtig: 0,
+          regel: "Wiederholung (27.10.): fliehen = Bewegung → Perfekt mit sein."
+        },
+        {
           typ: "schreiben", stufe: 3,
           auftrag: "Schreibe 5 Sätze über einen Feiertag in Frankreich: Was machen die Leute an diesem Tag?",
           checkliste: [

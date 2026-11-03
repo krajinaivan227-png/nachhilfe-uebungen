@@ -387,6 +387,43 @@ window.HEFT = {
           uebers: { fr: "Complète : le dimanche, je me repose." }
         },
         {
+          typ: "zuordnen", stufe: 1,
+          paare: [["der Vorteil", "der Nachteil"], ["gesund", "krank"], ["faul", "fleißig"], ["gewinnen", "verlieren"]],
+          regel: "Wiederholung (29.09., 13.10.): Gegenteile lernt man gut zusammen.",
+          uebers: { fr: "Associe les contraires." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Letztes Jahr ___ ich nach Spanien geflogen.",
+          optionen: ["bin", "habe", "war"],
+          richtig: 0,
+          regel: "Wiederholung (06.10.): fliegen = Bewegung → Perfekt mit sein.",
+          uebers: { fr: "Choisis : haben ou sein ?" }
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Hast du den Kuchen schon ___? (probieren)",
+          antworten: ["probiert"],
+          regel: "Wiederholung (06.10.): Verben auf -ieren bilden das Partizip ohne ge-: probiert.",
+          uebers: { fr: "Complète avec le participe passé de « probieren »." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Ich komme heute nicht, ___ ich krank bin.",
+          optionen: ["weil", "deshalb", "dass"],
+          richtig: 0,
+          regel: "Wiederholung (13.10.): Nach weil steht das Verb am Ende.",
+          uebers: { fr: "Choisis le bon mot (« parce que »)." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Mein Bruder ___ an der Universität Medizin.",
+          optionen: ["studiert", "lernt", "bekommt"],
+          richtig: 0,
+          regel: "Wiederholung (13.10.): studieren = an der Universität. lernen = für die Schule oder einen Test.",
+          uebers: { fr: "Choisis le bon verbe." }
+        },
+        {
           typ: "sprechen", stufe: 2,
           auftrag: "Wie schläfst du? Sprich 4 Sätze: Wann gehst du zu Bett? Wann schläfst du ein? Was machst du vorher? Nimm dich auf und höre dich an.",
           hinweis: "Ich gehe um … Uhr zu Bett. Ich schlafe um … Uhr ein. Vorher lese ich … Am Wochenende …",

@@ -326,6 +326,46 @@ window.HEFT = {
           regel: "Neue Wörter der Stunde."
         },
         {
+          typ: "luecke", stufe: 1,
+          text: "Die Firma verfügt ___ viel Erfahrung.",
+          antworten: ["über"],
+          regel: "Wiederholung (27.09.): über etwas (Akkusativ) verfügen = etwas besitzen."
+        },
+        {
+          typ: "luecke", stufe: 3,
+          text: "___ ich das gewusst, wäre ich früher gekommen.",
+          antworten: ["Hätte"],
+          regel: "Wiederholung (27.09.): Konjunktiv II der Vergangenheit ohne wenn: Hätte ich …, wäre ich …"
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Er sagt, er ___ keine Zeit.",
+          optionen: ["habe", "hat", "hätte gehabt"],
+          richtig: 0,
+          regel: "Wiederholung (03.10.): Konjunktiv I von haben: er habe."
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Die Verspätung ist ___. Die Fahrgäste sind ___.",
+          optionen: ["ärgerlich – verärgert", "verärgert – ärgerlich", "ärgerlich – ärgerlich"],
+          richtig: 0,
+          regel: "Wiederholung (03.10.): Eine Sache ist ärgerlich, eine Person ist verärgert."
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Gestern ___ ein schwerer Unfall geschehen.",
+          optionen: ["ist", "hat", "wurde"],
+          richtig: 0,
+          regel: "Wiederholung (11.10.): geschehen → Perfekt mit sein."
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Der Unfall ___ sich gestern Abend ereignet.",
+          optionen: ["hat", "ist", "wird"],
+          richtig: 0,
+          regel: "Wiederholung (11.10.): sich ereignen ist reflexiv → Perfekt mit haben."
+        },
+        {
           typ: "sprechen", stufe: 3,
           auftrag: "Welchen Druck übt die Gesellschaft in deinem Land auf junge Menschen aus? Sprich 1–2 Minuten. Nimm dich auf und höre dich an.",
           hinweis: "Benutze: Druck ausüben auf, die Wahrnehmung, unterschiedlich, wertschätzen, vermeiden."

@@ -194,6 +194,44 @@ window.HEFT = {
           regel: "Zusammengesetzte Nomen: der Artikel kommt vom letzten Wort (die Luft + die Verschmutzung)."
         },
         {
+          typ: "zuordnen", stufe: 1,
+          paare: [["die Mehrheit", "die Minderheit"], ["abhängig", "unabhängig"], ["der Erfolg", "der Misserfolg"], ["ähnlich", "verschieden"]],
+          regel: "Wiederholung (18.09., 23.09.): Gegenteile lernt man gut zusammen."
+        },
+        {
+          typ: "luecke", stufe: 1,
+          text: "Ich stehe früh auf, um pünktlich ___ sein.",
+          antworten: ["zu"],
+          regel: "Wiederholung (29.09.): um … zu + Infinitiv nennt das Ziel (pour + infinitif)."
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Ich habe keine Lust, so früh ___. (aufstehen)",
+          antworten: ["aufzustehen"],
+          regel: "Wiederholung (29.09.): Bei trennbaren Verben steht zu in der Mitte: aufzustehen."
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Ihr ___ heute ins Kino gehen, oder?",
+          optionen: ["wollt", "wollen", "willst"],
+          richtig: 0,
+          regel: "Wiederholung (29.09.): wollen: ich will, du willst, ihr wollt."
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Meine Schwester ist größer ___ ich.",
+          optionen: ["als", "wie", "dann"],
+          richtig: 0,
+          regel: "Wiederholung (29.09.): Komparativ + als. Gleichheit: so groß wie."
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Bei Gewitter ist es ___, unter einem Baum zu stehen.",
+          optionen: ["gefährlich", "häufig", "effizient"],
+          richtig: 0,
+          regel: "Wiederholung (29.09.): gefährlich → die Gefahr."
+        },
+        {
           typ: "schreiben", stufe: 3,
           auftrag: "Schreibe 5 Sätze: Was wird in deiner Stadt in 20 Jahren anders sein?",
           checkliste: [

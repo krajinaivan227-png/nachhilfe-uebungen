@@ -224,6 +224,37 @@ window.HEFT = {
           regel: "Neue Wörter der Stunde."
         },
         {
+          typ: "zuordnen", stufe: 1,
+          paare: [["verlockend", "sehr attraktiv, man will es haben"], ["verdächtig", "man glaubt, dass jemand etwas Böses getan hat"], ["gesprächig", "redet gern und viel"], ["aufgebracht", "sehr verärgert"]],
+          regel: "Wiederholung (05.09., 26.09.): Wörter auf Deutsch erklären."
+        },
+        {
+          typ: "luecke", stufe: 1,
+          text: "Anlässlich ___ Jubiläums gab es eine große Feier.",
+          antworten: ["des"],
+          regel: "Wiederholung (26.09.): anlässlich + Genitiv: das Jubiläum → des Jubiläums."
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Die Firma hat einen neuen Programmierer ___.",
+          optionen: ["angeheuert", "anheuert", "geanheuert"],
+          richtig: 0,
+          regel: "Wiederholung (26.09.): anheuern ist trennbar → an + ge + heuert = angeheuert."
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Sie hat seine Lüge sofort ___.",
+          optionen: ["durchschaut", "durchgeschaut", "gedurchschaut"],
+          richtig: 0,
+          regel: "Wiederholung (26.09.): durchschauen (= erkennen) ist untrennbar → hat durchschaut."
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Er hat lange geschwiegen. Im Präteritum: Er ___ lange.",
+          antworten: ["schwieg"],
+          regel: "Wiederholung (26.09.): schweigen – schwieg – hat geschwiegen."
+        },
+        {
           typ: "sprechen", stufe: 3,
           auftrag: "Warum ist Bildung wichtig? Sprich etwa eine Minute. Nimm dich auf und höre dich an.",
           hinweis: "Benutze mindestens zwei neue Wörter: die Bildung, gebildet, unentschlossen, zögern, einstufen als."
