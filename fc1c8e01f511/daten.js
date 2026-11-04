@@ -508,6 +508,141 @@ window.HEFT = {
           uebers: { fr: "Écris 4 phrases : que fais-tu à Halloween ?" }
         }
       ]
+    },
+    {
+      id: "2026-11-02",
+      titel: "impfen, bleiben, verboten, prächtig",
+      vokabeln: [
+        { de: "impfen", en: "to vaccinate", fr: "vacciner", beispiel: "Der Arzt impft meinen Bruder." },
+        { de: "der Nachbar / die Nachbarin", en: "the neighbour", fr: "le voisin / la voisine", beispiel: "Unser Nachbar ist sehr nett." },
+        { de: "verbieten", en: "to forbid", fr: "interdire", beispiel: "Mama verbietet das Handy am Tisch." },
+        { de: "verboten", en: "forbidden", fr: "interdit", beispiel: "Das ist verboten." },
+        { de: "bleiben", en: "to stay", fr: "rester", beispiel: "Ich bleibe heute zu Hause." },
+        { de: "zu Hause", en: "at home", fr: "à la maison", beispiel: "Ich bin zu Hause." },
+        { de: "beeindruckt sein", en: "to be impressed", fr: "être impressionné", beispiel: "Ich bin von dir beeindruckt." },
+        { de: "prächtig", en: "magnificent", fr: "magnifique, splendide", beispiel: "Dein Pullover ist prächtig." },
+        { de: "bewundern", en: "to admire", fr: "admirer", beispiel: "Ich bewundere die Mathematik." },
+        { de: "eine Rast machen", en: "to take a break", fr: "faire une pause", beispiel: "Beim Wandern machen wir eine Rast." }
+      ],
+      aufgaben: [
+        {
+          typ: "mc", stufe: 1,
+          frage: "Der Arzt ___ meinen Bruder.",
+          optionen: ["impft", "impfst", "impfen"], richtig: 0,
+          regel: "impfen: ich impfe, du impfst, er impft.",
+          uebers: { fr: "Choisis la bonne forme de « impfen » (vacciner)." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Ich ___ heute zu Hause.",
+          optionen: ["bleibe", "bleibst", "bleibt"], richtig: 0,
+          regel: "bleiben: ich bleibe, du bleibst, er bleibt.",
+          uebers: { fr: "Choisis la bonne forme de « bleiben » (rester)." }
+        },
+        {
+          typ: "luecke", stufe: 1,
+          text: "Ich bleibe heute zu ___.",
+          antworten: ["Hause"],
+          regel: "zu Hause = à la maison (Wo?). nach Hause = vers la maison (Wohin?).",
+          uebers: { fr: "Complète : je reste à la maison." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Am Handy spielen ist in der Schule ___.",
+          optionen: ["verboten", "verbieten", "verbiete"], richtig: 0,
+          regel: "verbieten → verboten (interdit): Das ist verboten.",
+          uebers: { fr: "Choisis : c'est interdit." }
+        },
+        {
+          typ: "zuordnen", stufe: 1,
+          paare: [["der Nachbar", "le voisin"], ["die Nachbarin", "la voisine"], ["die Impfung", "le vaccin"], ["das Rezept (vom Arzt)", "l'ordonnance"]],
+          regel: "Neue Wörter der Stunde. Achtung: das Rezept ist auch la recette (Kochrezept).",
+          uebers: { fr: "Relie les mots." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Dein schwarzer Pullover ist sehr, sehr schön. Er ist ___.",
+          optionen: ["prächtig", "verboten", "müde"], richtig: 0,
+          regel: "prächtig = wunderschön, sehr sehr schön.",
+          uebers: { fr: "Choisis le bon mot : magnifique." }
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Ich ___ die Mathematik. (bewundern)",
+          antworten: ["bewundere"],
+          regel: "bewundern: ich bewundere, du bewunderst, er bewundert.",
+          uebers: { fr: "Conjugue « bewundern » (admirer) avec « ich »." }
+        },
+        {
+          typ: "mc", stufe: 3,
+          frage: "Ich bin ___ dir beeindruckt.",
+          optionen: ["von", "mit", "für"], richtig: 0,
+          regel: "beeindruckt sein von: Ich bin von dir beeindruckt.",
+          uebers: { fr: "Choisis : je suis impressionné par toi." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Wir wandern schon lange. Jetzt machen wir eine ___.",
+          optionen: ["Rast", "Rutsche", "Impfung"], richtig: 0,
+          regel: "eine Rast machen = eine Pause machen (faire une pause).",
+          uebers: { fr: "Choisis le bon mot : faire une pause." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Am ___ gehe ich schlafen.",
+          optionen: ["Abend", "Mittag", "Morgen"], richtig: 0,
+          regel: "der Morgen (le matin), der Mittag (le midi), der Abend (le soir). Mit am: am Abend.",
+          uebers: { fr: "Le soir, je vais dormir : choisis le bon mot." }
+        },
+        {
+          typ: "satz", stufe: 2,
+          woerter: ["Der", "Arzt", "impft", "meinen", "Bruder"],
+          loesung: "Der Arzt impft meinen Bruder",
+          regel: "Das Verb steht auf Position 2. mein Bruder → meinen Bruder (Akkusativ).",
+          uebers: { fr: "Remets les mots dans l'ordre." }
+        },
+        {
+          typ: "luecke", stufe: 1,
+          text: "Montag, ___, Mittwoch",
+          antworten: ["Dienstag"],
+          regel: "Wiederholung (26.10.): Montag, Dienstag, Mittwoch, Donnerstag, Freitag, Samstag, Sonntag.",
+          uebers: { fr: "Complète les jours de la semaine." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Ich esse ___ Obst.",
+          optionen: ["kein", "nicht", "keine"], richtig: 0,
+          regel: "Wiederholung (26.10.): das Obst → kein Obst. Nomen ohne Artikel → kein/keine.",
+          uebers: { fr: "Je ne mange pas de fruits : choisis la bonne négation." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Im Park gibt es eine ___. Ich rutsche gern.",
+          optionen: ["Rutsche", "Glocke", "Krücke"], richtig: 0,
+          regel: "Wiederholung (26.10.): rutschen → die Rutsche.",
+          uebers: { fr: "Choisis le bon mot (toboggan)." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Im Prater fahren sie mit dem ___.",
+          optionen: ["Riesenrad", "Turm", "Hai"], richtig: 0,
+          regel: "Wiederholung (20.10.): das Riesenrad = la grande roue.",
+          uebers: { fr: "Choisis le bon mot (grande roue)." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Platz 1 = der ___ Platz",
+          optionen: ["erste", "einste", "eins"], richtig: 0,
+          regel: "Wiederholung (18.10.): der erste, der zweite, der dritte, der vierte.",
+          uebers: { fr: "Choisis la bonne forme (premier)." }
+        },
+        {
+          typ: "sprechen", stufe: 2,
+          auftrag: "Was ist bei dir zu Hause verboten? Sprich 3 Sätze. Nimm dich auf und höre dich an.",
+          hinweis: "Bei uns ist … verboten. / Am Tisch ist … verboten. / Am Abend bleibe ich …",
+          uebers: { fr: "Qu'est-ce qui est interdit chez toi ? Dis 3 phrases. Enregistre-toi et écoute-toi." }
+        }
+      ]
     }
   ]
 };

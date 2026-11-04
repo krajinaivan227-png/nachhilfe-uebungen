@@ -430,6 +430,147 @@ window.HEFT = {
           uebers: { fr: "Parle de ton sommeil (4 phrases)." }
         }
       ]
+    },
+    {
+      id: "2026-11-03",
+      titel: "aufpassen, tragen, Tageszeiten, der erste …",
+      vokabeln: [
+        { de: "aufpassen", en: "to pay attention", fr: "faire attention", beispiel: "In Mathe passe ich gut auf." },
+        { de: "der erste, der zweite, der dritte", en: "the first, the second, the third", fr: "le premier, le deuxième, le troisième", beispiel: "Sonntag war der erste November." },
+        { de: "tragen (du trägst)", en: "to wear", fr: "porter (un vêtement)", beispiel: "Ich trage ein T-Shirt und eine Jeans." },
+        { de: "der Alltag", en: "everyday life", fr: "le quotidien", beispiel: "Im Alltag trage ich keine Jogginghose." },
+        { de: "außer", en: "except, apart from", fr: "sauf, à part", beispiel: "Ich trinke nichts außer Wasser." },
+        { de: "das Sprudelwasser", en: "sparkling water", fr: "l'eau gazeuse", beispiel: "Ich trinke gern Sprudelwasser." },
+        { de: "der Vormittag", en: "the morning (before noon)", fr: "la matinée", beispiel: "Am Vormittag habe ich Schule." },
+        { de: "der Nachmittag", en: "the afternoon", fr: "l'après-midi", beispiel: "Am Nachmittag mache ich Sport." },
+        { de: "einfach, leicht", en: "easy", fr: "facile", beispiel: "Englisch ist für mich einfach." },
+        { de: "sollen (sollte)", en: "to be supposed to", fr: "devoir (être prévu)", beispiel: "Der Kurs sollte gestern starten." }
+      ],
+      aufgaben: [
+        {
+          typ: "mc", stufe: 1,
+          frage: "In Mathe passe ich gut ___.",
+          optionen: ["auf", "an", "zu"], richtig: 0,
+          regel: "aufpassen ist trennbar: ich passe … auf.",
+          uebers: { fr: "Choisis le bon mot : je fais bien attention en maths." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Welcher Satz ist richtig?",
+          optionen: ["Ich passe in Englisch nicht auf.", "Ich passe nicht in Englisch nicht auf.", "Ich nicht passe in Englisch auf."], richtig: 0,
+          regel: "Nur ein „nicht“ im Satz. Das Verb (passe) steht auf Position 2, „auf“ am Ende.",
+          uebers: { fr: "Quelle phrase est correcte ?" }
+        },
+        {
+          typ: "luecke", stufe: 1,
+          text: "Sonntag war der ___ November. (1.)",
+          antworten: ["erste"],
+          regel: "1. = der erste, 2. = der zweite, 3. = der dritte, 4. = der vierte.",
+          uebers: { fr: "Complète : dimanche, c'était le premier novembre." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "___ du eine Jogginghose?",
+          optionen: ["Trägst", "Tragst", "Tragt"], richtig: 0,
+          regel: "tragen: ich trage, du trägst, er trägt (mit ä).",
+          uebers: { fr: "Choisis la bonne forme de « tragen » (porter)." }
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Er ___ ein weißes T-Shirt und eine graue Jeans. (tragen)",
+          antworten: ["trägt"],
+          regel: "tragen: er trägt (mit ä).",
+          uebers: { fr: "Conjugue « tragen » (er)." }
+        },
+        {
+          typ: "luecke", stufe: 1,
+          text: "Beim Sport trage ich eine Jogginghose, aber nicht im ___.",
+          antworten: ["Alltag"],
+          regel: "der Alltag = le quotidien → im Alltag.",
+          uebers: { fr: "Complète : mais pas au quotidien." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Ich passe in Englisch nicht auf, ___",
+          optionen: ["weil ich sehr gut Englisch spreche.", "weil ich spreche sehr gut Englisch.", "weil spreche ich sehr gut Englisch."], richtig: 0,
+          regel: "Nach weil steht das Verb am Ende.",
+          uebers: { fr: "Après « weil », le verbe va à la fin." }
+        },
+        {
+          typ: "satz", stufe: 3,
+          woerter: ["Ich", "frage", "meine", "Mutter,", "ob", "ich", "das", "alte", "Handy", "haben", "kann"],
+          loesung: "Ich frage meine Mutter, ob ich das alte Handy haben kann",
+          regel: "ob = si (question). Nach ob steht das Verb am Ende: …, ob ich das Handy haben kann.",
+          uebers: { fr: "Remets les mots dans l'ordre. Après « ob », le verbe va à la fin." }
+        },
+        {
+          typ: "zuordnen", stufe: 1,
+          paare: [["der Morgen", "le matin"], ["der Vormittag", "la matinée"], ["der Nachmittag", "l'après-midi"], ["der Abend", "le soir"]],
+          regel: "Morgen → Vormittag → Mittag → Nachmittag → Abend. Mit am: am Morgen, am Abend.",
+          uebers: { fr: "Relie les moments de la journée." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Ich trinke nichts ___ Wasser.",
+          optionen: ["außer", "ohne", "mit"], richtig: 0,
+          regel: "außer = sauf, à part: nichts außer Wasser = seulement de l'eau.",
+          uebers: { fr: "Je ne bois rien à part de l'eau : choisis le bon mot." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Magst du lieber Eistee Pfirsich oder Zitrone? – Ich mag ___ Eistee Zitrone.",
+          optionen: ["lieber", "gern", "viel"], richtig: 0,
+          regel: "gern → lieber → am liebsten. Für einen Vergleich: lieber.",
+          uebers: { fr: "Tu préfères quoi ? Choisis le bon mot." }
+        },
+        {
+          typ: "luecke", stufe: 3,
+          text: "Der Kurs ___ gestern starten, aber der Lehrer konnte nicht. (sollen, Präteritum)",
+          antworten: ["sollte"],
+          regel: "sollen → sollte (Präteritum) = es war so geplant.",
+          uebers: { fr: "Complète au prétérit de « sollen » : le cours devait commencer hier." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Ich habe ___ 8 Uhr ___ 13 Uhr Schule.",
+          optionen: ["von … bis", "seit … bis", "ab … nach"], richtig: 0,
+          regel: "Wiederholung (30.10.): von … bis = de … à.",
+          uebers: { fr: "Choisis : de 8 h à 13 h." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Wann schläfst du ___? – Um 23 Uhr.",
+          optionen: ["ein", "auf", "aus"], richtig: 0,
+          regel: "Wiederholung (30.10.): einschlafen ist trennbar: Ich schlafe um 23 Uhr ein.",
+          uebers: { fr: "Choisis le bon mot (s'endormir)." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Am Wochenende ___ ich mich aus.",
+          optionen: ["ruhe", "ruhst", "ruht"], richtig: 0,
+          regel: "Wiederholung (30.10.): sich ausruhen: ich ruhe mich aus.",
+          uebers: { fr: "Conjugue « sich ausruhen » (ich)." }
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Gestern ___ es einen Test. (es gibt → Präteritum)",
+          antworten: ["gab"],
+          regel: "Wiederholung (13.10.): es gibt (heute) → es gab (gestern).",
+          uebers: { fr: "Complète au passé : il y avait un test hier." }
+        },
+        {
+          typ: "zuordnen", stufe: 1,
+          paare: [["der Flughafen", "l'aéroport"], ["der Gips", "le plâtre"], ["die Ruhe", "le calme"], ["der Durchschnitt", "la moyenne"]],
+          regel: "Wiederholung (06.10., 13.10., 30.10.): Wörter der letzten Stunden.",
+          uebers: { fr: "Relie les mots." }
+        },
+        {
+          typ: "sprechen", stufe: 2,
+          auftrag: "Was ist dein Style? Was trägst du im Alltag und was beim Sport? Sprich 4 Sätze. Nimm dich auf und höre dich an.",
+          hinweis: "Im Alltag trage ich … / Beim Sport trage ich … / Ich trage gern … / Ich trage nie …",
+          uebers: { fr: "Quel est ton style ? Que portes-tu au quotidien et au sport ? Dis 4 phrases." }
+        }
+      ]
     }
   ]
 };

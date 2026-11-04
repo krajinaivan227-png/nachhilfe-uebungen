@@ -436,6 +436,136 @@ window.HEFT = {
           muster: "An Allerheiligen haben in Frankreich viele Menschen frei. Viele Familien fahren zu ihren Verwandten. An Allerseelen gehen manche auf den Friedhof, weil sie an die Verstorbenen denken. Sie bringen Blumen mit. Am Abend essen sie oft zusammen."
         }
       ]
+    },
+    {
+      id: "2026-11-02",
+      titel: "Bargeld und Trinkgeld, verbreiten, Länder und Einwohner",
+      vokabeln: [
+        { de: "das Bargeld", en: "cash", fr: "l'argent liquide, les espèces", beispiel: "Ich zahle lieber mit Bargeld." },
+        { de: "bar zahlen", en: "to pay cash", fr: "payer en espèces", beispiel: "Kann ich hier bar zahlen?" },
+        { de: "das Trinkgeld", en: "the tip", fr: "le pourboire", beispiel: "Wie viel Trinkgeld gibt man im Restaurant?" },
+        { de: "üblich", en: "usual, customary", fr: "habituel, d'usage", beispiel: "Zehn Prozent Trinkgeld sind hier üblich." },
+        { de: "die Milz", en: "the spleen", fr: "la rate", beispiel: "Die Milz liegt links im Bauch." },
+        { de: "die Leber", en: "the liver", fr: "le foie", beispiel: "Zu viel Alkohol ist schlecht für die Leber." },
+        { de: "(sich) verbreiten", en: "to spread", fr: "(se) répandre, (se) propager", beispiel: "Das Virus hat sich schnell verbreitet." },
+        { de: "der Geruch", en: "the smell", fr: "l'odeur", beispiel: "Der Geruch von Kaffee ist angenehm." },
+        { de: "gewalttätig", en: "violent", fr: "violent", beispiel: "Der Film ist sehr gewalttätig." },
+        { de: "der Albtraum (auch: Alptraum)", en: "the nightmare", fr: "le cauchemar", beispiel: "Letzte Nacht hatte ich einen Albtraum." }
+      ],
+      aufgaben: [
+        {
+          typ: "mc", stufe: 1,
+          frage: "Ich zahle lieber ___, weil ich das Geld gern in der Hand habe.",
+          optionen: ["bar", "Trinkgeld", "Karte"], richtig: 0,
+          regel: "bar zahlen = mit Bargeld zahlen. Aber: mit Karte zahlen."
+        },
+        {
+          typ: "luecke", stufe: 1,
+          text: "Im Restaurant gibt man oft ungefähr zehn Prozent ___.",
+          antworten: ["Trinkgeld"],
+          regel: "das Trinkgeld = le pourboire. Man gibt Trinkgeld."
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Wie viel Trinkgeld ist in Frankreich ___?",
+          optionen: ["üblich", "gewöhnt", "gebraucht"], richtig: 0,
+          regel: "üblich = so macht man es normalerweise (habituel)."
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Das Coronavirus hat sich 2020 sehr schnell ___.",
+          optionen: ["verbreitet", "verbreitert", "verbreiten"], richtig: 0,
+          regel: "sich verbreiten = se propager (ein Virus, ein Gerücht, eine Nachricht). verbreitern = breiter machen."
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Die Lehrerin ___ die Tests an die Schüler.",
+          optionen: ["verteilt", "verbreitet", "verbreitert"], richtig: 0,
+          regel: "verteilen (oder austeilen) = distribuer. verbreiten = répandre: ein Gerücht verbreiten."
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "verbreiten → die ___",
+          antworten: ["Verbreitung"],
+          regel: "Verb → Nomen mit -ung (immer feminin): verbreiten → die Verbreitung."
+        },
+        {
+          typ: "zuordnen", stufe: 1,
+          paare: [["Russland", "die Russen"], ["Frankreich", "die Franzosen"], ["Kroatien", "die Kroaten"], ["Österreich", "die Österreicher"]],
+          regel: "Land → die Menschen aus dem Land (Plural)."
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "riechen → das Nomen heißt ___",
+          optionen: ["der Geruch", "die Riechung", "der Riech"], richtig: 0,
+          regel: "riechen → der Geruch (l'odeur), wie: fliegen → der Flug."
+        },
+        {
+          typ: "mc", stufe: 3,
+          frage: "Man sagt, dass der Chef bald geht. Aber das ist nur ein ___.",
+          optionen: ["Gerücht", "Gericht", "Geruch"], richtig: 0,
+          regel: "das Gerücht = la rumeur, das Gericht = le tribunal / le plat, der Geruch = l'odeur."
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "die Gewalt + tätig: Ein Mensch, der Gewalt anwendet, ist ___.",
+          antworten: ["gewalttätig"],
+          regel: "die Gewalt → gewalttätig (violent). Genauso: der Beruf → berufstätig."
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Ich träume oft ___ meinem nächsten Urlaub.",
+          optionen: ["von", "über", "an"], richtig: 0,
+          regel: "träumen von + Dativ: Ich träume von meinem Urlaub."
+        },
+        {
+          typ: "satz", stufe: 2,
+          woerter: ["Letzte", "Nacht", "hatte", "ich", "einen", "schlimmen", "Albtraum"],
+          loesung: "Letzte Nacht hatte ich einen schlimmen Albtraum",
+          regel: "Zeit am Anfang → Verb auf Position 2, dann das Subjekt."
+        },
+        {
+          typ: "luecke", stufe: 1,
+          text: "Der rote Mantel fällt mir sofort ___.",
+          antworten: ["auf"],
+          regel: "Wiederholung (29.10.): auffallen ist trennbar: Er fällt mir auf."
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "___ Weihnachten essen wir mit der ganzen Familie.",
+          optionen: ["An", "Im", "Um"], richtig: 0,
+          regel: "Wiederholung (29.10.): an + Feiertag: an Weihnachten, an Allerheiligen."
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Die Brücke ist 1990 gebaut ___. (Passiv Perfekt)",
+          antworten: ["worden"],
+          regel: "Wiederholung (27.10.): Passiv Perfekt: ist + Partizip II + worden."
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Wir haben Fragen bezüglich ___ Hausübung.",
+          optionen: ["der", "die", "dem"], richtig: 0,
+          regel: "Wiederholung (27.10.): bezüglich + Genitiv: die Hausübung → der Hausübung."
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Beim Lesen sind wir auf ein interessantes Thema ___.",
+          optionen: ["gestoßen", "gestoßt", "gestanden"], richtig: 0,
+          regel: "Wiederholung (27.10.): auf etwas stoßen – ist gestoßen."
+        },
+        {
+          typ: "schreiben", stufe: 3,
+          auftrag: "Schreibe 5 Sätze: Zahlst du lieber bar oder mit Karte? Und was denkst du über Trinkgeld?",
+          checkliste: [
+            "Ich habe „lieber“ und „weil“ benutzt (Verb am Ende).",
+            "Ich habe mindestens drei neue Wörter benutzt (Bargeld, Trinkgeld, üblich …).",
+            "Das Verb im Hauptsatz steht auf Position 2.",
+            "Ich habe meine Meinung mit „Ich finde, dass …“ gesagt."
+          ],
+          muster: "Ich zahle lieber mit Karte, weil es schneller geht. Auf dem Markt zahle ich aber meistens bar. In vielen Restaurants ist Trinkgeld üblich. Oft gibt man ungefähr zehn Prozent. Ich finde, dass Trinkgeld eine nette Geste ist."
+        }
+      ]
     }
   ]
 };
