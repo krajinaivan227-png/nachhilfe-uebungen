@@ -566,6 +566,220 @@ window.HEFT = {
           muster: "Ich zahle lieber mit Karte, weil es schneller geht. Auf dem Markt zahle ich aber meistens bar. In vielen Restaurants ist Trinkgeld üblich. Oft gibt man ungefähr zehn Prozent. Ich finde, dass Trinkgeld eine nette Geste ist."
         }
       ]
+    },
+    {
+      id: "2026-11-05",
+      titel: "austeilen, riechen nach, zögern, Fußball",
+      vokabeln: [
+        { de: "austeilen", en: "to hand out", fr: "distribuer", beispiel: "Der Lehrer teilt die Übungen aus." },
+        { de: "der Betrag", en: "the amount", fr: "le montant", beispiel: "Das Trinkgeld ist ungefähr zehn Prozent vom Betrag." },
+        { de: "zögern", en: "to hesitate", fr: "hésiter", beispiel: "Er hat nicht gezögert und sofort geantwortet." },
+        { de: "riechen nach (+ Dativ)", en: "to smell of", fr: "sentir (qc)", beispiel: "Hier riecht es nach frischem Kaffee." },
+        { de: "der Geruchssinn", en: "the sense of smell", fr: "l'odorat", beispiel: "Hunde haben einen sehr guten Geruchssinn." },
+        { de: "die Verpflichtung", en: "the obligation", fr: "l'obligation", beispiel: "Das ist keine Verpflichtung, nur ein Angebot." },
+        { de: "der Schiedsrichter", en: "the referee", fr: "l'arbitre", beispiel: "Der Schiedsrichter pfeift ein Foul." },
+        { de: "der Stürmer", en: "the striker", fr: "l'attaquant", beispiel: "Der Stürmer hat zwei Tore geschossen." },
+        { de: "mitbestimmen", en: "to have a say", fr: "avoir son mot à dire", beispiel: "In der Stunde darf ich mitbestimmen, was wir machen." },
+        { de: "Ich glaub, mein Schwein pfeift!", en: "I can't believe it!", fr: "Je n'y crois pas !", beispiel: "Du hast im Lotto gewonnen? Ich glaub, mein Schwein pfeift!" }
+      ],
+      aufgaben: [
+        {
+          typ: "mc", stufe: 1,
+          frage: "Der Lehrer teilt die Prüfungen ___.",
+          optionen: ["aus", "an", "ab"], richtig: 0,
+          regel: "austeilen ist trennbar: Er teilt … aus. Synonym: verteilen."
+        },
+        {
+          typ: "zuordnen", stufe: 2,
+          paare: [["austeilen", "Jeder Schüler bekommt ein Blatt."], ["verbreiten", "Eine Nachricht geht schnell von Person zu Person."], ["mitbestimmen", "Man darf bei einer Entscheidung mitreden."], ["zögern", "Man wartet kurz, weil man unsicher ist."]],
+          regel: "austeilen/verteilen = distribuer, verbreiten = répandre."
+        },
+        {
+          typ: "luecke", stufe: 1,
+          text: "Sie hat kurz ___, dann hat sie Ja gesagt. (zögern)",
+          antworten: ["gezögert"],
+          regel: "zögern → hat gezögert (regelmäßig)."
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "In der Bäckerei riecht es ___ frischem Brot.",
+          optionen: ["nach", "von", "wie"], richtig: 0,
+          regel: "riechen nach + Dativ: Es riecht nach Kaffee / nach frischem Brot."
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "riechen – roch – hat ___",
+          antworten: ["gerochen"],
+          regel: "riechen ist unregelmäßig: roch, hat gerochen."
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Die Milz liegt auf der linken Seite ___ Bauches.",
+          optionen: ["des", "dem", "der"], richtig: 0,
+          regel: "Genitiv maskulin: der Bauch → des Bauches. „die Seite des Bauches“ = le côté du ventre."
+        },
+        {
+          typ: "zuordnen", stufe: 1,
+          paare: [["der Stürmer", "schießt die meisten Tore"], ["der Verteidiger", "hilft vor dem eigenen Tor"], ["der Schiedsrichter", "pfeift bei einem Foul"], ["der Mittelfeldspieler", "spielt in der Mitte des Feldes"]],
+          regel: "Fußball-Wortschatz: Wer macht was?"
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Ich fühle mich schlecht, weil ich kein Trinkgeld ___ habe.",
+          optionen: ["gegeben", "geben", "gegebt"], richtig: 0,
+          regel: "Perfekt im weil-Satz: Partizip II + haben am Ende. geben → gegeben."
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Das Trinkgeld ist ungefähr zehn Prozent vom ___.",
+          antworten: ["Betrag"],
+          regel: "der Betrag = le montant (die Summe)."
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "üblich → das Adverb heißt ___",
+          optionen: ["üblicherweise", "üblichweise", "üblicherlich"], richtig: 0,
+          regel: "Adjektiv + -erweise: üblicherweise, normalerweise, glücklicherweise."
+        },
+        {
+          typ: "mc", stufe: 3,
+          frage: "Für Ärzte ist das Berufsgeheimnis eine wichtige ___.",
+          optionen: ["Verpflichtung", "Verpflegung", "Vermutung"], richtig: 0,
+          regel: "die Verpflichtung = l'obligation (verpflichten). die Verpflegung = la nourriture, die Vermutung = la supposition."
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Kann ich hier ___ zahlen?",
+          optionen: ["bar", "Bargeld", "Trinkgeld"], richtig: 0,
+          regel: "Wiederholung (02.11.): bar zahlen = mit Bargeld zahlen."
+        },
+        {
+          typ: "luecke", stufe: 1,
+          text: "Italien → die ___ (Plural)",
+          antworten: ["Italiener"],
+          regel: "Wiederholung (02.11.): Land → Einwohner: Italien → die Italiener, Österreich → die Österreicher."
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "___ Ostern besuchen wir meine Großeltern.",
+          optionen: ["An", "Im", "Um"], richtig: 0,
+          regel: "Wiederholung (29.10.): an + Feiertag: an Ostern, an Weihnachten."
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Das Haus ___ 1900 gebaut. (Passiv, Präteritum)",
+          antworten: ["wurde"],
+          regel: "Wiederholung (27.10.): Passiv Präteritum: wurde + Partizip II."
+        },
+        {
+          typ: "schreiben", stufe: 3,
+          auftrag: "Hast du einmal lange gezögert? Beschreibe in 5 Sätzen eine Situation, in der du unsicher warst.",
+          checkliste: [
+            "Ich habe das Perfekt benutzt (ich habe gezögert …).",
+            "Ich habe einen weil-Satz geschrieben (Verb am Ende).",
+            "Ich habe mindestens drei neue Wörter benutzt (zögern, mitbestimmen, Verpflichtung …).",
+            "Das Verb im Hauptsatz steht auf Position 2."
+          ],
+          muster: "Letztes Jahr musste ich eine Universität wählen. Ich habe lange gezögert, weil beide Städte schön waren. Meine Eltern durften mitbestimmen, aber es war keine Verpflichtung. Am Ende habe ich die kleinere Stadt gewählt. Heute bin ich sehr zufrieden."
+        }
+      ]
+    },
+    {
+      id: "2026-11-06",
+      titel: "Redewendungen, abtasten, wegen + Genitiv",
+      vokabeln: [
+        { de: "Das ist mir Wurst.", en: "I don't care.", fr: "Ça m'est égal.", beispiel: "Pizza oder Pasta? Das ist mir Wurst. (österreichisch: Wurscht)" },
+        { de: "berufstätig", en: "employed, working", fr: "qui travaille, actif", beispiel: "Bist du Student oder schon berufstätig?" },
+        { de: "abtasten", en: "to palpate, to feel", fr: "palper", beispiel: "Die Ärztin tastet den Bauch ab." },
+        { de: "die Brutalität", en: "the brutality", fr: "la brutalité", beispiel: "Die Brutalität im Film hat mich schockiert." },
+        { de: "Wenn ich ehrlich bin, …", en: "To be honest, …", fr: "Pour être honnête, …", beispiel: "Wenn ich ehrlich bin, trinke ich zu viel Kaffee." },
+        { de: "wegen (+ Genitiv)", en: "because of", fr: "à cause de", beispiel: "Wegen des Stresses schlafe ich schlecht." },
+        { de: "die Schale", en: "the bowl (Austria also: the cup)", fr: "le bol (en Autriche aussi : la tasse)", beispiel: "Zum Frühstück esse ich eine Schale Müsli." }
+      ],
+      aufgaben: [
+        {
+          typ: "mc", stufe: 1,
+          frage: "„Das ist mir Wurst“ bedeutet: ___",
+          optionen: ["Das ist mir egal.", "Ich habe Hunger.", "Das schmeckt mir."], richtig: 0,
+          regel: "Das ist mir Wurst (österreichisch: Wurscht) = Das ist mir egal."
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Wenn ich ehrlich bin, ___ zu viel Kaffee.",
+          optionen: ["trinke ich", "ich trinke", "trinken ich"], richtig: 0,
+          regel: "Der wenn-Satz steht auf Position 1, danach kommt sofort das Verb, dann das Subjekt."
+        },
+        {
+          typ: "satz", stufe: 2,
+          woerter: ["Wenn", "ich", "ehrlich", "bin,", "bin", "ich", "oft", "müde"],
+          loesung: "Wenn ich ehrlich bin, bin ich oft müde",
+          regel: "Nebensatz zuerst (Verb am Ende), dann Hauptsatz mit Verb zuerst."
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Ich trinke mehr Kaffee wegen ___ Stresses.",
+          optionen: ["des", "dem", "den"], richtig: 0,
+          regel: "wegen + Genitiv: der Stress → wegen des Stresses. Gesprochen hört man oft auch den Dativ."
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Die Ärztin tastet den Bauch ___. (abtasten)",
+          antworten: ["ab"],
+          regel: "abtasten ist trennbar: Sie tastet den Bauch ab."
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "brutal → die ___",
+          antworten: ["Brutalität"],
+          regel: "Adjektiv auf -al → Nomen auf -ität, immer feminin: brutal → die Brutalität, normal → die Normalität."
+        },
+        {
+          typ: "zuordnen", stufe: 2,
+          paare: [["das Gerücht", "la rumeur"], ["der Geruch", "l'odeur"], ["das Gericht", "le tribunal / le plat"], ["die Gewalt", "la violence"]],
+          regel: "Achtung, ähnliche Wörter: Gerücht – Geruch – Gericht."
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Bist du Student oder schon ___?",
+          optionen: ["berufstätig", "berühmt", "beruhigt"], richtig: 0,
+          regel: "berufstätig = man hat einen Beruf und arbeitet."
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Zum Frühstück esse ich eine ___ Müsli.",
+          optionen: ["Schale", "Flasche", "Dose"], richtig: 0,
+          regel: "die Schale = le bol. In Österreich sagt man auch „eine Schale Kaffee“ (= eine Tasse)."
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Dein neuer Pullover ___ mir sofort auf.",
+          optionen: ["fällt", "gefällt", "fallt"], richtig: 0,
+          regel: "Wiederholung (29.10.): auffallen (trennbar) = remarquer. gefallen = plaire."
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Der ___ pfeift das Spiel ab.",
+          optionen: ["Schiedsrichter", "Stürmer", "Verteidiger"], richtig: 0,
+          regel: "Wiederholung (05.11.): der Schiedsrichter = l'arbitre."
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Ich habe eine Frage bezüglich ___ Termins.",
+          optionen: ["des", "dem", "den"], richtig: 0,
+          regel: "Wiederholung (27.10.): bezüglich + Genitiv: der Termin → des Termins."
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Ich träume oft ___ einer Reise nach Japan.",
+          optionen: ["von", "über", "an"], richtig: 0,
+          regel: "Wiederholung (02.11.): träumen von + Dativ."
+        },
+        {
+          typ: "sprechen", stufe: 2,
+          auftrag: "Was ist dir Wurst und was ist dir wichtig? Sprich 4–5 Sätze. Nimm dich auf und höre dich an.",
+          hinweis: "Mode ist mir Wurst. / Wenn ich ehrlich bin, … / Wichtig ist mir … , weil …"
+        }
+      ]
     }
   ]
 };

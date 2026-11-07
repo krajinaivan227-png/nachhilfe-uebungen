@@ -333,6 +333,134 @@ window.HEFT = {
           uebers: { en: "Why do you learn German? Say 3 sentences with 'um ... zu'." }
         }
       ]
+    },
+    {
+      id: "2026-11-05",
+      titel: "um … zu, noch ein, Termine und Stockwerke",
+      vokabeln: [
+        { de: "hören", en: "to hear, to listen", fr: "entendre, écouter", beispiel: "Ich höre gern Musik." },
+        { de: "die Hörübung", en: "the listening exercise", fr: "l'exercice d'écoute", beispiel: "Ich hatte Zeit für die Hörübung." },
+        { de: "noch ein / noch eine", en: "one more, another", fr: "encore un / encore une", beispiel: "Willst du noch einen Döner?" },
+        { de: "dort drüben", en: "over there", fr: "là-bas", beispiel: "Der Bahnhof ist dort drüben." },
+        { de: "der Arzttermin", en: "the doctor's appointment", fr: "le rendez-vous chez le médecin", beispiel: "Ich habe morgen einen Arzttermin." },
+        { de: "der Friseurtermin", en: "the hairdresser's appointment", fr: "le rendez-vous chez le coiffeur", beispiel: "Vorgestern hatte ich einen Friseurtermin." },
+        { de: "der Stock (das Stockwerk)", en: "the floor, the storey", fr: "l'étage", beispiel: "Ich wohne im zwölften Stock." },
+        { de: "die Etage", en: "the floor, the storey", fr: "l'étage", beispiel: "Ich wohne in der dritten Etage." },
+        { de: "heiraten", en: "to get married", fr: "se marier", beispiel: "Meine Mutter hat geheiratet." },
+        { de: "das Alter", en: "the age", fr: "l'âge", beispiel: "Wir zwei haben das gleiche Alter." }
+      ],
+      aufgaben: [
+        {
+          typ: "satz", stufe: 2,
+          woerter: ["Ich", "spiele", "Fußball,", "um", "fit", "zu", "bleiben"],
+          loesung: "Ich spiele Fußball, um fit zu bleiben",
+          regel: "um … zu: zu + Infinitiv steht am Ende.",
+          uebers: { en: "Put the words in order: I play football in order to stay fit." }
+        },
+        {
+          typ: "luecke", stufe: 3,
+          text: "Ich nehme das Auto, um meinen Freund ___. (abholen)",
+          antworten: ["abzuholen"],
+          regel: "Trennbare Verben: zu steht in der Mitte: abholen → abzuholen.",
+          uebers: { en: "Fill in: I take the car to pick up my friend." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Willst du noch ___ Döner?",
+          optionen: ["einen", "ein", "eine"], richtig: 0,
+          regel: "der Döner → Akkusativ: einen Döner. noch einen = one more.",
+          uebers: { en: "Do you want one more kebab?" }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Willst du noch einen Döner? – Nein, danke. Ich will ___ Döner mehr.",
+          optionen: ["keinen", "nicht", "kein"], richtig: 0,
+          regel: "kein + Nomen … mehr = no more. der Döner → keinen (Akkusativ).",
+          uebers: { en: "No, thanks. I don't want any more kebab." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Welcher Satz ist richtig?",
+          optionen: ["Vorgestern hatte ich einen Friseurtermin.", "Vorgestern, ich hatte einen Friseurtermin.", "Vorgestern ich hatte einen Friseurtermin."], richtig: 0,
+          regel: "Das Verb steht auf Position 2: Vorgestern (1) hatte (2) ich …",
+          uebers: { en: "Which sentence is correct?" }
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Vorgestern ___ ich zu meinem Friseurtermin gegangen.",
+          antworten: ["bin"],
+          regel: "gehen = Bewegung → Perfekt mit sein: ich bin gegangen.",
+          uebers: { en: "Fill in: haben or sein?" }
+        },
+        {
+          typ: "zuordnen", stufe: 1,
+          paare: [["der Arzttermin", "the doctor's appointment"], ["der Friseurtermin", "the hairdresser's appointment"], ["die Hörübung", "the listening exercise"], ["der Aufzug", "the lift"]],
+          regel: "Zusammengesetzte Wörter: der Arzt + der Termin = der Arzttermin. Der Artikel kommt vom letzten Wort.",
+          uebers: { en: "Match the words." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Ich wohne ___ dritten Stock.",
+          optionen: ["im", "in", "am"], richtig: 0,
+          regel: "der Stock → im (= in dem) dritten Stock.",
+          uebers: { en: "I live on the third floor." }
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Ich wohne in ___ dritten Etage.",
+          antworten: ["der"],
+          regel: "die Etage → in der dritten Etage (Dativ).",
+          uebers: { en: "Fill in the article: I live on the third floor." }
+        },
+        {
+          typ: "luecke", stufe: 1,
+          text: "Der Bahnhof ist nicht hier, er ist dort ___. (over there)",
+          antworten: ["drüben"],
+          regel: "dort drüben = over there. Umgangssprachlich auch: da drüben.",
+          uebers: { en: "Fill in: The station is not here, it is over there." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Meine Schwester hat letztes Jahr ___.",
+          optionen: ["geheiratet", "heiratet", "geheiraten"], richtig: 0,
+          regel: "heiraten → hat geheiratet. die Heirat = the marriage.",
+          uebers: { en: "Choose the past participle: My sister got married last year." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Wir fahren mit dem ___ in den fünften Stock.",
+          optionen: ["Aufzug", "Zug", "Termin"], richtig: 0,
+          regel: "Wiederholung (16.10.): der Aufzug = the lift, der Zug = the train.",
+          uebers: { en: "We take the lift to the fifth floor." }
+        },
+        {
+          typ: "luecke", stufe: 1,
+          text: "Ist es ___, im Ausland zu arbeiten? (possible)",
+          antworten: ["möglich"],
+          regel: "Wiederholung (16.10.): möglich = possible, die Möglichkeit = the possibility.",
+          uebers: { en: "Fill in: Is it possible to work abroad?" }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Gestern ___ ich viel Musik gehört.",
+          optionen: ["habe", "bin", "war"], richtig: 0,
+          regel: "Wiederholung (07.10.): hören = keine Bewegung → Perfekt mit haben.",
+          uebers: { en: "Choose: haben or sein?" }
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Ich lerne heute nicht, weil ich sehr müde ___. (sein)",
+          antworten: ["bin"],
+          regel: "Wiederholung (07.10.): Nach weil steht das Verb am Ende.",
+          uebers: { en: "Fill in the verb at the end: because I am very tired." }
+        },
+        {
+          typ: "sprechen", stufe: 2,
+          auftrag: "Beschreibe den Weg von deiner Wohnung zum Supermarkt. Sprich 4 Sätze. Nimm dich auf und höre dich an.",
+          hinweis: "Ich wohne im … Stock. / Ich fahre mit dem Aufzug nach unten. / Dann gehe ich geradeaus … / Der Supermarkt ist dort drüben.",
+          uebers: { en: "Describe the way from your flat to the supermarket. Say 4 sentences. Record yourself and listen." }
+        }
+      ]
     }
   ]
 };

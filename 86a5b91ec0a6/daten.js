@@ -179,6 +179,153 @@ window.HEFT = {
           uebers: { fr: "Hiver ou été ? Écris 4–5 phrases avec « wenn », « je … desto » et « allerdings »." }
         }
       ]
+    },
+    {
+      id: "2026-11-05",
+      titel: "um … zu, wollen, sauber und schmutzig",
+      vokabeln: [
+        { de: "der Kühlschrank", en: "the fridge", fr: "le réfrigérateur, le frigo", beispiel: "Die Milch steht im Kühlschrank." },
+        { de: "der Gefrierschrank", en: "the freezer", fr: "le congélateur", beispiel: "Ich lege den Fisch in den Gefrierschrank." },
+        { de: "hinaufgehen", en: "to go up", fr: "monter", beispiel: "Ich gehe hinauf, um zu arbeiten." },
+        { de: "hinuntergehen", en: "to go down", fr: "descendre", beispiel: "Wir gehen in den Keller hinunter." },
+        { de: "sauber", en: "clean", fr: "propre", beispiel: "Dörfer sind oft sauberer als Städte." },
+        { de: "der Schmutz", en: "the dirt", fr: "la saleté", beispiel: "Nach dem Fußball sind die Schuhe voller Schmutz." },
+        { de: "der Körper", en: "the body", fr: "le corps", beispiel: "Sport ist gut für den Körper." },
+        { de: "körperlich", en: "physical", fr: "physique", beispiel: "Ich mag körperliche Aktivität ein- oder zweimal pro Woche." },
+        { de: "lösen", en: "to solve", fr: "résoudre", beispiel: "Wir können das Problem zusammen lösen." },
+        { de: "die Lösung", en: "the solution", fr: "la solution", beispiel: "Wir wollen eine Lösung finden." }
+      ],
+      aufgaben: [
+        {
+          typ: "zuordnen", stufe: 1,
+          paare: [["der Kühlschrank", "Dort bleibt die Milch kalt."], ["der Gefrierschrank", "Dort ist es unter null Grad, zum Beispiel für Eis."], ["der Körper", "Kopf, Arme, Beine …"], ["die Lösung", "die Antwort auf ein Problem"]],
+          regel: "So kannst du neue Wörter auf Deutsch erklären.",
+          uebers: { fr: "Associe chaque mot à son explication en allemand." }
+        },
+        {
+          typ: "luecke", stufe: 1,
+          text: "Du ___ heute ins Kino gehen, oder? (wollen)",
+          antworten: ["willst"],
+          regel: "wollen: ich will, du willst, er/sie will, wir wollen, ihr wollt, sie wollen.",
+          uebers: { fr: "Conjugue « wollen » (du)." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Ihr ___ Pizza essen, richtig?",
+          optionen: ["wollt", "willst", "wollen"], richtig: 0,
+          regel: "ihr wollt – wie ihr könnt, ihr müsst.",
+          uebers: { fr: "Choisis la bonne forme de « wollen » (ihr)." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Ich kaufe ein, ___ heute Abend Fleisch zu essen.",
+          optionen: ["um", "für", "weil"], richtig: 0,
+          regel: "um … zu + Infinitiv = pour (+ infinitif). Der Infinitiv mit zu steht am Ende.",
+          uebers: { fr: "Choisis le bon mot (« pour » + infinitif)." }
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Ich gehe in die Küche, um etwas ___ trinken.",
+          antworten: ["zu"],
+          regel: "um … zu: Vor dem Infinitiv am Ende steht zu.",
+          uebers: { fr: "Complète : « pour boire quelque chose »." }
+        },
+        {
+          typ: "satz", stufe: 2,
+          woerter: ["Ich", "gehe", "hinauf,", "um", "zu", "arbeiten"],
+          loesung: "Ich gehe hinauf, um zu arbeiten",
+          regel: "Erst der Hauptsatz, dann Komma, dann um … zu + Infinitiv.",
+          uebers: { fr: "Mets les mots dans le bon ordre." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Dörfer sind oft ___ als Städte.",
+          optionen: ["sauberer", "sauber", "am saubersten"], richtig: 0,
+          regel: "Vergleich mit als: Komparativ mit -er (sauber → sauberer als).",
+          uebers: { fr: "Choisis le comparatif (« plus propre que »)." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "lösen → das Nomen heißt ___",
+          optionen: ["die Lösung", "der Lös", "das Lösen"], richtig: 0,
+          regel: "Verb → Nomen mit -ung, immer feminin: lösen → die Lösung, wohnen → die Wohnung.",
+          uebers: { fr: "Quel est le nom qui vient du verbe « lösen » ?" }
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "sauber → die ___",
+          antworten: ["Sauberkeit"],
+          regel: "Adjektiv + -keit → Nomen, immer feminin: sauber → die Sauberkeit, möglich → die Möglichkeit.",
+          uebers: { fr: "Forme le nom (« la propreté »)." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Ich lege den Fisch in ___ Gefrierschrank.",
+          optionen: ["den", "dem", "der"], richtig: 0,
+          regel: "Wohin? → in + Akkusativ: in den Gefrierschrank. Wo? → in + Dativ: im Gefrierschrank.",
+          uebers: { fr: "Choisis le bon article (« où ? » avec mouvement → accusatif)." }
+        },
+        {
+          typ: "mc", stufe: 3,
+          frage: "Ich mache gern ___ Arbeit, zum Beispiel im Garten.",
+          optionen: ["körperliche", "körperlich", "körperlichen"], richtig: 0,
+          regel: "Adjektiv vor einem Nomen bekommt eine Endung: die Arbeit → körperliche Arbeit (ohne Artikel).",
+          uebers: { fr: "Choisis la bonne terminaison de l'adjectif." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "___ es regnet, bleibe ich zu Hause.",
+          optionen: ["Wenn", "Wann", "Als"], richtig: 0,
+          regel: "Wiederholung (01.11.): wenn = quand/si (Nebensatz, Verb am Ende). wann = Fragewort.",
+          uebers: { fr: "Choisis le bon mot." }
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Je mehr ich lerne, ___ besser spreche ich.",
+          antworten: ["desto"],
+          regel: "Wiederholung (01.11.): je + Komparativ …, desto + Komparativ … = plus …, plus …",
+          uebers: { fr: "Complète : « plus …, plus … »." }
+        },
+        {
+          typ: "luecke", stufe: 1,
+          text: "Ich ___ ein Zimmer in einer WG. (mieten)",
+          antworten: ["miete"],
+          regel: "Wiederholung (01.11.): mieten = louer. ich miete, du mietest, er mietet.",
+          uebers: { fr: "Conjugue « mieten » (ich)." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Meine Schuhe sind ___. Ich muss sie putzen.",
+          optionen: ["schmutzig", "trocken", "ruhig"], richtig: 0,
+          regel: "Wiederholung (27.10.): schmutzig = sale, das Gegenteil ist sauber.",
+          uebers: { fr: "Choisis l'adjectif qui convient." }
+        },
+        {
+          typ: "luecke", stufe: 1,
+          text: "Ich wohne in einem kleinen ___. Dort ist es sehr ruhig.",
+          antworten: ["Dorf"],
+          regel: "Wiederholung (25.10.): das Dorf = le village, in einem Dorf (Dativ).",
+          uebers: { fr: "Complète avec le mot « village »." }
+        },
+        {
+          typ: "sprechen", stufe: 2,
+          auftrag: "Was machst du, um gesund zu bleiben? Sprich 4 Sätze mit um … zu. Nimm dich auf und höre dich an.",
+          hinweis: "Ich spiele Fußball, um … / Ich esse Gemüse, um … / Ich will …",
+          uebers: { fr: "Que fais-tu pour rester en bonne santé ? Dis 4 phrases avec « um … zu ». Enregistre-toi et écoute-toi." }
+        },
+        {
+          typ: "schreiben", stufe: 3,
+          auftrag: "Deine Küche: Ist sie sauber oder schmutzig? Was willst du machen? Schreibe 4–5 Sätze.",
+          checkliste: [
+            "Ich habe wollen richtig konjugiert (ich will, wir wollen …).",
+            "Ich habe einen Satz mit um … zu geschrieben.",
+            "Ich habe einen Vergleich mit als geschrieben (sauberer als …).",
+            "Jeder Satz beginnt groß und endet mit einem Punkt."
+          ],
+          muster: "Meine Küche ist meistens sauber. Aber der Kühlschrank ist ein bisschen schmutzig. Ich will ihn am Samstag putzen, um Platz für Gemüse zu haben. Mein Zimmer ist sauberer als die Küche. Am Sonntag wollen wir zusammen kochen.",
+          uebers: { fr: "Ta cuisine : propre ou sale ? Que veux-tu faire ? Écris 4–5 phrases." }
+        }
+      ]
     }
   ]
 };
