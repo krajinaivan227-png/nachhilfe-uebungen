@@ -260,6 +260,89 @@ window.HEFT = {
           hinweis: "Benutze mindestens zwei neue Wörter: die Bildung, gebildet, unentschlossen, zögern, einstufen als."
         }
       ]
+    },
+    {
+      id: "2026-11-07",
+      titel: "säkular, auf etwas zugreifen + Wiederholung",
+      vokabeln: [
+        { de: "säkular", en: "secular", fr: "laïque, séculier", beispiel: "Frankreich ist ein säkularer Staat." },
+        { de: "der Säkularismus", en: "secularism", fr: "la laïcité, le sécularisme", beispiel: "Der Säkularismus trennt Staat und Religion." },
+        { de: "weltlich", en: "secular, worldly", fr: "séculier, profane", beispiel: "Die Schule ist weltlich, nicht kirchlich." },
+        { de: "auf etwas zugreifen", en: "to access something", fr: "accéder à quelque chose", beispiel: "Alle sollten auf das Gesundheitssystem zugreifen können." },
+        { de: "Zugriff haben auf (+ Akk.)", en: "to have access to", fr: "avoir accès à", beispiel: "Ich habe keinen Zugriff auf meine E-Mails." }
+      ],
+      aufgaben: [
+        {
+          typ: "mc", stufe: 1,
+          frage: "Ein Staat, in dem Staat und Religion getrennt sind, ist ___.",
+          optionen: ["säkular", "gebildet", "verlockend"], richtig: 0,
+          regel: "säkular = Staat und Religion sind getrennt. Ähnlich: weltlich, nicht kirchlich."
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Frankreich ist ein ___ Staat. (säkular)",
+          antworten: ["säkularer"],
+          regel: "Adjektiv nach „ein“ bei maskulinen Nomen im Nominativ: ein säkularer Staat."
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Viele Menschen können nicht auf ___ Gesundheitssystem zugreifen.",
+          optionen: ["das", "dem", "des"], richtig: 0,
+          regel: "auf etwas zugreifen: auf + Akkusativ → auf das Gesundheitssystem."
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Ich habe keinen Zugriff ___ meine E-Mails.",
+          antworten: ["auf"],
+          regel: "Zugriff haben auf + Akkusativ."
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Jemand hat auf meine Daten ___.",
+          optionen: ["zugegriffen", "zugegreift", "gezugriffen"], richtig: 0,
+          regel: "zugreifen ist trennbar und unregelmäßig: greifen – griff – gegriffen → zugegriffen."
+        },
+        {
+          typ: "satz", stufe: 3,
+          woerter: ["Seit", "gestern", "kann", "ich", "auf", "meine", "Daten", "zugreifen"],
+          loesung: "Seit gestern kann ich auf meine Daten zugreifen",
+          regel: "Modalverb auf Position 2, der Infinitiv (zugreifen) steht am Ende."
+        },
+        {
+          typ: "zuordnen", stufe: 1,
+          paare: [["säkular", "secular"], ["der Säkularismus", "secularism"], ["auf etwas zugreifen", "to access something"], ["Zugriff haben auf", "to have access to"]],
+          regel: "Neue Wörter der Stunde."
+        },
+        {
+          typ: "luecke", stufe: 1,
+          text: "Das Hotel liegt außerhalb ___ Zentrums.",
+          antworten: ["des"],
+          regel: "Wiederholung (23.10.): außerhalb + Genitiv: das Zentrum → des Zentrums."
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Er hat seinen Bruder zu einem Streich ___.",
+          optionen: ["angestiftet", "anstiftet", "geanstiftet"], richtig: 0,
+          regel: "Wiederholung (23.10.): anstiften ist trennbar → an + ge + stiftet = angestiftet."
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Ich bin noch unentschlossen, ___ ich mitkomme.",
+          optionen: ["ob", "dass", "weil"], richtig: 0,
+          regel: "Wiederholung (23.10.): unentschlossen, ob … – das Verb steht am Ende."
+        },
+        {
+          typ: "luecke", stufe: 1,
+          text: "Er zögert, die Wohnung ___ mieten.",
+          antworten: ["zu"],
+          regel: "Wiederholung (18.10., 23.10.): zögern + zu + Infinitiv."
+        },
+        {
+          typ: "sprechen", stufe: 3,
+          auftrag: "Worauf sollten alle Menschen Zugriff haben (z. B. Gesundheitssystem, Bildung, Internet)? Sprich etwa eine Minute. Nimm dich auf und höre dich an.",
+          hinweis: "Benutze: Zugriff haben auf, auf etwas zugreifen, die Bildung."
+        }
+      ]
     }
   ]
 };
