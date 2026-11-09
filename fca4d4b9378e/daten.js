@@ -780,6 +780,117 @@ window.HEFT = {
           hinweis: "Mode ist mir Wurst. / Wenn ich ehrlich bin, … / Wichtig ist mir … , weil …"
         }
       ]
+    },
+    {
+      id: "2026-11-09",
+      titel: "roh, sich räuspern, selbstständig, abpfeifen",
+      vokabeln: [
+        { de: "sich räuspern", en: "to clear one's throat", fr: "se racler la gorge", beispiel: "Vor seiner Rede räuspert er sich kurz." },
+        { de: "roh", en: "raw", fr: "cru", beispiel: "Rohes Fleisch esse ich nicht." },
+        { de: "die Jakobsmuschel, -n", en: "the scallop", fr: "la coquille Saint-Jacques", beispiel: "Im Restaurant habe ich Jakobsmuscheln gegessen." },
+        { de: "die Muschel, -n", en: "the mussel, the shell", fr: "la moule, le coquillage", beispiel: "In Belgien isst man gern Muscheln mit Pommes." },
+        { de: "ausschalten", en: "to switch off", fr: "éteindre", beispiel: "Kannst du bitte dein Mikrofon ausschalten?" },
+        { de: "selbstständig", en: "self-employed, independent", fr: "indépendant, à son compte", beispiel: "Viele Ärzte sind selbstständig und haben eine eigene Praxis." },
+        { de: "die Selbstständigkeit", en: "independence, self-employment", fr: "l'indépendance", beispiel: "Die Selbstständigkeit ist ihm sehr wichtig." },
+        { de: "anpfeifen / abpfeifen", en: "to blow the whistle to start / to end (a match)", fr: "siffler le début / la fin (du match)", beispiel: "Der Schiedsrichter pfeift das Spiel um 20 Uhr an." },
+        { de: "fit sein", en: "to be fit, to feel good", fr: "être en forme", beispiel: "Heute bin ich fit, ich habe gut geschlafen." }
+      ],
+      aufgaben: [
+        {
+          typ: "mc", stufe: 1,
+          frage: "Vor seiner Rede ___ er sich kurz.",
+          optionen: ["räuspert", "räuspern", "geräuspert"], richtig: 0,
+          regel: "sich räuspern ist reflexiv: ich räuspere mich, du räusperst dich, er räuspert sich."
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Ich esse den ___ Fisch nicht gern.",
+          optionen: ["rohen", "rohe", "roher"], richtig: 0,
+          regel: "Nach „den“ (Akkusativ maskulin) endet das Adjektiv auf -en: den rohen Fisch."
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Gestern habe ich ___ Jakobsmuscheln gegessen.",
+          optionen: ["rohe", "rohen", "rohes"], richtig: 0,
+          regel: "Plural ohne Artikel, Akkusativ: Das Adjektiv endet auf -e: rohe Muscheln, frische Äpfel."
+        },
+        {
+          typ: "luecke", stufe: 3,
+          text: "Sushi isst man mit ___ Fisch. (roh)",
+          antworten: ["rohem"],
+          regel: "mit + Dativ, ohne Artikel, maskulin: Das Adjektiv zeigt den Fall: mit rohem Fisch (wie „mit dem“)."
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Am 11. November erinnert man in Frankreich an das Ende ___ Ersten Weltkriegs.",
+          optionen: ["des", "dem", "der"], richtig: 0,
+          regel: "das Ende + Genitiv: der Krieg → das Ende des Krieges / des Kriegs."
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Es ist Winter und du frierst. Was sagt man auf Deutsch?",
+          optionen: ["Mir ist kalt.", "Ich bin kalt.", "Ich habe kalt."], richtig: 0,
+          regel: "Mir ist kalt = j'ai froid (Dativ). „Ich bin kalt“ heißt: Ich bin ein kalter, unfreundlicher Mensch."
+        },
+        {
+          typ: "luecke", stufe: 1,
+          text: "Ich ___ den Computer jetzt aus. (ausschalten)",
+          antworten: ["schalte"],
+          regel: "ausschalten ist trennbar: Ich schalte den Computer aus. Gegenteil: einschalten."
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "selbstständig → die ___",
+          antworten: ["Selbstständigkeit"],
+          regel: "Adjektiv auf -ig → Nomen auf -keit, immer feminin: selbstständig → die Selbstständigkeit, möglich → die Möglichkeit."
+        },
+        {
+          typ: "zuordnen", stufe: 1,
+          paare: [["glücklich", "unglücklich"], ["selbstständig", "unselbstständig"], ["einschalten", "ausschalten"], ["anpfeifen", "abpfeifen"]],
+          regel: "Gegenteile: un- vor dem Adjektiv macht das Gegenteil; bei Verben wechselt oft die Vorsilbe (ein/aus, an/ab)."
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Der Schiedsrichter hat das Spiel in der 90. Minute ___.",
+          optionen: ["abgepfiffen", "abgepfeift", "abpfiffen"], richtig: 0,
+          regel: "pfeifen ist unregelmäßig: pfiff, hat gepfiffen → abpfeifen: hat abgepfiffen."
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Pizza oder Pasta? Das ist mir ___.",
+          optionen: ["Wurst", "Brot", "Käse"], richtig: 0,
+          regel: "Wiederholung (06.11.): Das ist mir Wurst (Wurscht) = Das ist mir egal."
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Ich schlafe schlecht wegen ___ Lärms.",
+          optionen: ["des", "dem", "den"], richtig: 0,
+          regel: "Wiederholung (06.11.): wegen + Genitiv: der Lärm → wegen des Lärms."
+        },
+        {
+          typ: "luecke", stufe: 1,
+          text: "Der Lehrer teilt die Übungen ___. (austeilen)",
+          antworten: ["aus"],
+          regel: "Wiederholung (05.11.): austeilen = verteilen, trennbar: Er teilt die Übungen aus."
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Das Virus hat sich sehr schnell ___.",
+          optionen: ["verbreitet", "geverbreitet", "verbreit"], richtig: 0,
+          regel: "Wiederholung (02.11.): sich verbreiten → hat sich verbreitet. Verben mit ver- bekommen kein ge-."
+        },
+        {
+          typ: "luecke", stufe: 1,
+          text: "Frankreich → die ___ (Plural)",
+          antworten: ["Franzosen"],
+          regel: "Wiederholung (02.11.): Frankreich → die Franzosen, Russland → die Russen, Kroatien → die Kroaten."
+        },
+        {
+          typ: "sprechen", stufe: 2,
+          auftrag: "Was isst du gern roh, was nur gekocht? Erzähle von einem Essen aus Frankreich. Sprich 4–5 Sätze. Nimm dich auf und höre dich an.",
+          hinweis: "Ich esse gern rohe … / Den rohen … mag ich nicht, weil … / Wenn ich ehrlich bin, …"
+        }
+      ]
     }
   ]
 };
