@@ -891,6 +891,124 @@ window.HEFT = {
           hinweis: "Ich esse gern rohe … / Den rohen … mag ich nicht, weil … / Wenn ich ehrlich bin, …"
         }
       ]
+    },
+    {
+      id: "2026-11-11",
+      titel: "mündlich/schriftlich, streichen, Eroberung, Einmarsch",
+      vokabeln: [
+        { de: "mündlich / schriftlich", en: "oral / written", fr: "oral / écrit", beispiel: "Morgen habe ich eine mündliche Prüfung." },
+        { de: "der Streik, -s", en: "the strike", fr: "la grève", beispiel: "Wegen des Streiks fahren heute keine Züge." },
+        { de: "der Schiedsrichter, -", en: "the referee", fr: "l'arbitre", beispiel: "Der Schiedsrichter pfeift das Spiel an." },
+        { de: "der Richter, -", en: "the judge", fr: "le juge", beispiel: "Der Richter hat lange überlegt." },
+        { de: "entscheiden (entschied, hat entschieden)", en: "to decide", fr: "décider", beispiel: "Ich habe mich für Medizin entschieden." },
+        { de: "streichen (strich, hat gestrichen)", en: "to spread; to paint", fr: "étaler, tartiner; peindre", beispiel: "Ich streiche Butter auf das Brot." },
+        { de: "der Weltkrieg, -e", en: "the world war", fr: "la guerre mondiale", beispiel: "Der Zweite Weltkrieg endete 1945." },
+        { de: "erobern / die Eroberung", en: "to conquer / the conquest", fr: "conquérir / la conquête", beispiel: "Die Römer haben Gallien erobert." },
+        { de: "einmarschieren / der Einmarsch", en: "to invade / the invasion", fr: "envahir / l'invasion", beispiel: "1939 marschierte die deutsche Armee in Polen ein." },
+        { de: "sich schämen", en: "to be ashamed", fr: "avoir honte", beispiel: "Ich schäme mich für meinen Fehler." }
+      ],
+      aufgaben: [
+        {
+          typ: "mc", stufe: 2,
+          frage: "Du hast einen ___ Test und keinen schriftlichen Test.",
+          optionen: ["mündlichen", "mündliche", "mündlicher"], richtig: 0,
+          regel: "der Test, Akkusativ nach ein/kein: Das Adjektiv endet auf -en: einen mündlichen Test, keinen schriftlichen Test."
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Morgen habe ich eine ___ Prüfung. (schriftlich)",
+          antworten: ["schriftliche"],
+          regel: "die Prüfung, Akkusativ nach eine: Das Adjektiv endet auf -e: eine schriftliche Prüfung."
+        },
+        {
+          typ: "zuordnen", stufe: 1,
+          paare: [["der Schiedsrichter", "l'arbitre"], ["der Richter", "le juge"], ["der Streik", "la grève"], ["die Eroberung", "la conquête"]],
+          regel: "Der Schiedsrichter entscheidet im Spiel, der Richter entscheidet vor Gericht."
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Der Schiedsrichter hat ___: Es war kein Tor.",
+          optionen: ["entschieden", "geentscheidet", "entscheidet"], richtig: 0,
+          regel: "entscheiden ist unregelmäßig: entschied, hat entschieden. Verben mit ent- bekommen kein ge-."
+        },
+        {
+          typ: "luecke", stufe: 1,
+          text: "Ich ___ Butter auf das Brot. (streichen)",
+          antworten: ["streiche"],
+          regel: "streichen: ich streiche, du streichst, er streicht."
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Ich habe Butter auf das Brot ___.",
+          optionen: ["gestrichen", "gestreicht", "gestrichtet"], richtig: 0,
+          regel: "streichen ist unregelmäßig: strich, hat gestrichen (wie pfeifen – pfiff – hat gepfiffen)."
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "die Welt + der Krieg = ___",
+          optionen: ["der Weltkrieg", "die Weltkrieg", "das Weltkrieg"], richtig: 0,
+          regel: "Bei zusammengesetzten Nomen bestimmt das letzte Wort den Artikel: der Krieg → der Weltkrieg."
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "erobern → die ___",
+          antworten: ["Eroberung"],
+          regel: "Verb → Nomen mit -ung, immer feminin: erobern → die Eroberung, entscheiden → die Entscheidung."
+        },
+        {
+          typ: "satz", stufe: 3,
+          woerter: ["1939", "marschierte", "die", "deutsche", "Armee", "in", "Polen", "ein"],
+          loesung: "1939 marschierte die deutsche Armee in Polen ein",
+          regel: "einmarschieren ist trennbar: Das Verb steht an Position 2, „ein“ ganz am Ende. Nomen: der Einmarsch."
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Ich habe einen dummen Fehler gemacht. Ich schäme ___.",
+          optionen: ["mich", "mir", "sich"], richtig: 0,
+          regel: "sich schämen ist reflexiv (Akkusativ): ich schäme mich, du schämst dich, er schämt sich."
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Wegen ___ Streiks fahren heute keine Züge.",
+          optionen: ["des", "dem", "der"], richtig: 0,
+          regel: "wegen + Genitiv: der Streik → wegen des Streiks."
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Kannst du bitte das Licht ___?",
+          optionen: ["ausschalten", "ausgeschaltet", "schaltest aus"], richtig: 0,
+          regel: "Wiederholung (09.11.): Modalverb + Infinitiv am Ende: Kannst du das Licht ausschalten?"
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Hier riecht es gut. Der ___ kommt aus der Küche.",
+          optionen: ["Geruch", "Gerücht", "Geruchssinn"], richtig: 0,
+          regel: "Wiederholung (06.11.): der Geruch = l'odeur, das Gerücht = la rumeur, der Geruchssinn = l'odorat."
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Wenn ich ehrlich bin, ___ ich zu viel Kaffee. (trinken)",
+          antworten: ["trinke"],
+          regel: "Wiederholung (06.11.): Nach dem Nebensatz mit „wenn“ steht das Verb sofort: Wenn …, trinke ich …"
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Im Sezierraum riecht es ___ Desinfektionsmittel.",
+          optionen: ["nach", "von", "mit"], richtig: 0,
+          regel: "Wiederholung (05.11.): riechen nach + Dativ: Es riecht nach Kaffee."
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Sie hat keine Sekunde ___.",
+          optionen: ["gezögert", "gezögt", "zögerte"], richtig: 0,
+          regel: "Wiederholung (05.11.): zögern → hat gezögert (regelmäßig)."
+        },
+        {
+          typ: "sprechen", stufe: 2,
+          auftrag: "Hast du lieber mündliche oder schriftliche Prüfungen? Warum? Sprich 4–5 Sätze. Nimm dich auf und höre dich an.",
+          hinweis: "Ich habe lieber … , weil … / Einen mündlichen Test finde ich … / Wenn ich ehrlich bin, …"
+        }
+      ]
     }
   ]
 };
