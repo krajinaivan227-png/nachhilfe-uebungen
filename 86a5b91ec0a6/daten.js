@@ -326,6 +326,160 @@ window.HEFT = {
           uebers: { fr: "Ta cuisine : propre ou sale ? Que veux-tu faire ? Écris 4–5 phrases." }
         }
       ]
+    },
+    {
+      id: "2026-11-10",
+      titel: "Morgen und Alltag, Körper, sich kümmern um",
+      vokabeln: [
+        { de: "der Fluss", en: "the river", fr: "la rivière, le fleuve", beispiel: "Wir gehen am Fluss spazieren." },
+        { de: "spazieren gehen", en: "to go for a walk", fr: "se promener", beispiel: "Am Sonntag gehen wir im Park spazieren." },
+        { de: "der Spaziergang", en: "the walk", fr: "la promenade", beispiel: "Wir machen einen Spaziergang am Fluss." },
+        { de: "aufstehen (ist aufgestanden)", en: "to get up", fr: "se lever", beispiel: "Am Sonntag bin ich um 10 Uhr aufgestanden." },
+        { de: "der Wecker", en: "the alarm clock", fr: "le réveil", beispiel: "Mein Wecker klingelt um 6:20 Uhr." },
+        { de: "frühstücken", en: "to have breakfast", fr: "prendre le petit déjeuner", beispiel: "Ich frühstücke ein Toastbrot mit Butter." },
+        { de: "waschen (du wäschst)", en: "to wash", fr: "laver", beispiel: "Er wäscht sein Auto." },
+        { de: "der Rücken", en: "the back", fr: "le dos", beispiel: "Mein Rücken tut weh." },
+        { de: "sich kümmern um (+ Akk.)", en: "to take care of", fr: "s'occuper de", beispiel: "Ich kümmere mich um meine Katze." },
+        { de: "die Unterstützung", en: "the support", fr: "le soutien", beispiel: "Danke für deine Unterstützung!" }
+      ],
+      aufgaben: [
+        {
+          typ: "mc", stufe: 1,
+          frage: "Am Sonntag ___ ich um 12 Uhr aufgestanden.",
+          optionen: ["bin", "habe", "war"], richtig: 0,
+          regel: "aufstehen ist eine Bewegung → Perfekt mit sein: ich bin aufgestanden.",
+          uebers: { fr: "Choisis le bon auxiliaire (sein ou haben)." }
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Wann bist du heute ___? (aufstehen, Perfekt)",
+          antworten: ["aufgestanden"],
+          regel: "Trennbares Verb im Perfekt: auf + ge + standen → aufgestanden.",
+          uebers: { fr: "Complète avec le participe passé de « aufstehen »." }
+        },
+        {
+          typ: "luecke", stufe: 1,
+          text: "Mein Wecker ___ um 6:20 Uhr. (klingeln)",
+          antworten: ["klingelt"],
+          regel: "klingeln: er/sie/es klingelt.",
+          uebers: { fr: "Conjugue « klingeln » (sonner)." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Du ___ dein Auto. (waschen)",
+          optionen: ["wäschst", "waschst", "wäscht"], richtig: 0,
+          regel: "waschen: a → ä bei du und er/sie/es: du wäschst, er wäscht.",
+          uebers: { fr: "Choisis la bonne forme de « waschen » (du)." }
+        },
+        {
+          typ: "zuordnen", stufe: 1,
+          paare: [["der Kopf", "la tête"], ["der Rücken", "le dos"], ["das Knie", "le genou"], ["die Brust", "la poitrine"]],
+          regel: "Körperteile immer mit Artikel lernen: der Kopf, das Knie, die Hand.",
+          uebers: { fr: "Relie les parties du corps." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Welcher Artikel? ___ Nase",
+          optionen: ["die", "der", "das"], richtig: 0,
+          regel: "Viele Nomen mit -e am Ende sind feminin: die Nase, die Gurke. Aber nicht alle: der Käse, das Auge.",
+          uebers: { fr: "Choisis le bon article." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Was isst du zum ___? – Ein Toastbrot mit Butter.",
+          optionen: ["Frühstück", "Wecker", "Rücken"], richtig: 0,
+          regel: "das Frühstück (Nomen), frühstücken (Verb): Ich frühstücke um 7 Uhr.",
+          uebers: { fr: "Choisis le bon mot (« le petit déjeuner »)." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Wir machen am Sonntag einen ___ am Fluss.",
+          optionen: ["Spaziergang", "Wecker", "Bach"], richtig: 0,
+          regel: "spazieren gehen (Verb) → der Spaziergang (Nomen): einen Spaziergang machen.",
+          uebers: { fr: "Choisis le bon mot (« une promenade »)." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Letztes Jahr ___ ich eine Wohnung in der Stadt.",
+          optionen: ["mietete", "mietet", "miete"], richtig: 0,
+          regel: "Präteritum (Mitvergangenheit): ich mietete, du mietetest, er mietete. Beim Sprechen sagt man meistens Perfekt: ich habe gemietet.",
+          uebers: { fr: "Choisis la forme du prétérit de « mieten » (louer)." }
+        },
+        {
+          typ: "luecke", stufe: 3,
+          text: "Wir ___ letztes Jahr ein Haus am Fluss. (mieten, Präteritum)",
+          antworten: ["mieteten"],
+          regel: "Präteritum von mieten: wir mieteten, ihr mietetet, sie mieteten.",
+          uebers: { fr: "Conjugue « mieten » au prétérit (wir)." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Ich kümmere mich ___ meine Katze.",
+          optionen: ["um", "für", "an"], richtig: 0,
+          regel: "sich kümmern um + Akkusativ = s'occuper de.",
+          uebers: { fr: "Choisis la bonne préposition." }
+        },
+        {
+          typ: "luecke", stufe: 3,
+          text: "Kümmerst du ___ um den Garten?",
+          antworten: ["dich"],
+          regel: "sich kümmern: ich kümmere mich, du kümmerst dich, er kümmert sich.",
+          uebers: { fr: "Complète avec le pronom réfléchi (du)." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Der Keller ist unten. Ich gehe in den Keller ___.",
+          optionen: ["hinunter", "hinauf", "herein"], richtig: 0,
+          regel: "Wiederholung (05.11.): hinaufgehen = monter, hinuntergehen = descendre.",
+          uebers: { fr: "Choisis le bon mot (descendre)." }
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Ich spare Geld, um ein Auto ___ kaufen.",
+          antworten: ["zu"],
+          regel: "Wiederholung (05.11.): um … zu + Infinitiv = pour + infinitif.",
+          uebers: { fr: "Complète : « pour acheter une voiture »." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Wir ___ heute zusammen kochen.",
+          optionen: ["wollen", "wollt", "will"], richtig: 0,
+          regel: "Wiederholung (05.11.): ich will, du willst, wir wollen, ihr wollt.",
+          uebers: { fr: "Choisis la bonne forme de « wollen » (wir)." }
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Je öfter ich spreche, ___ sicherer werde ich.",
+          antworten: ["desto"],
+          regel: "Wiederholung (01.11.): je + Komparativ …, desto + Komparativ … = plus …, plus …",
+          uebers: { fr: "Complète : « plus …, plus … »." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Mein Kollege hat ___. Er arbeitet nicht mehr hier.",
+          optionen: ["gekündigt", "gemietet", "gelöst"], richtig: 0,
+          regel: "Wiederholung (01.11.): kündigen = démissionner. Perfekt: er hat gekündigt.",
+          uebers: { fr: "Choisis le bon participe passé." }
+        },
+        {
+          typ: "sprechen", stufe: 2,
+          auftrag: "Was hast du am Sonntag gemacht? Sprich 4 Sätze im Perfekt. Nimm dich auf und höre dich an.",
+          hinweis: "Ich bin um … aufgestanden. / Ich habe … gefrühstückt. / Wir sind am Fluss spazieren gegangen. / Am Abend habe ich …",
+          uebers: { fr: "Qu'as-tu fait dimanche ? Dis 4 phrases au passé composé (Perfekt). Enregistre-toi et écoute-toi." }
+        },
+        {
+          typ: "schreiben", stufe: 3,
+          auftrag: "Dein Morgen: Was machst du vom Wecker bis zur Arbeit? Schreibe 4–5 Sätze.",
+          checkliste: [
+            "Ich habe aufstehen richtig benutzt (ich stehe … auf).",
+            "Ich habe einen Satz mit dem Wecker geschrieben.",
+            "Ich habe frühstücken benutzt.",
+            "Jeder Satz beginnt groß und endet mit einem Punkt."
+          ],
+          muster: "Mein Wecker klingelt um 6:20 Uhr. Ich stehe sofort auf und wasche mir das Gesicht. Dann frühstücke ich ein Toastbrot mit Butter. Um 7:30 Uhr gehe ich hinunter und fahre zur Arbeit. Am Wochenende stehe ich später auf.",
+          uebers: { fr: "Ton matin : que fais-tu du réveil jusqu'au travail ? Écris 4–5 phrases." }
+        }
+      ]
     }
   ]
 };

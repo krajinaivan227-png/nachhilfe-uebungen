@@ -571,6 +571,158 @@ window.HEFT = {
           uebers: { fr: "Quel est ton style ? Que portes-tu au quotidien et au sport ? Dis 4 phrases." }
         }
       ]
+    },
+    {
+      id: "2026-11-10",
+      titel: "schwierig und leicht, hatte und war, wahrscheinlich",
+      vokabeln: [
+        { de: "schwierig", en: "difficult", fr: "difficile", beispiel: "Chinesisch ist eine schwierige Sprache." },
+        { de: "die Sprache", en: "the language", fr: "la langue", beispiel: "Ich spreche zwei Sprachen." },
+        { de: "der Test (der Englischtest)", en: "the test", fr: "le contrôle, l'examen", beispiel: "Der Englischtest war am Freitag." },
+        { de: "circa (ca.)", en: "about, approximately", fr: "environ", beispiel: "Der Test dauert circa eine Stunde." },
+        { de: "die Korrektur", en: "the marking, the correction", fr: "la correction", beispiel: "Die Lehrerin hat eine Woche für die Korrektur." },
+        { de: "die Seite", en: "the page", fr: "la page", beispiel: "Der Test war zwei Seiten lang." },
+        { de: "wahrscheinlich", en: "probably", fr: "probablement", beispiel: "Morgen regnet es wahrscheinlich." },
+        { de: "die Wahrscheinlichkeit", en: "the probability", fr: "la probabilité", beispiel: "Die Wahrscheinlichkeit ist klein." },
+        { de: "bestellen", en: "to order", fr: "commander", beispiel: "Ich bestelle eine Pizza." }
+      ],
+      aufgaben: [
+        {
+          typ: "mc", stufe: 1,
+          frage: "Mathe in der Schule ist sehr einfach. Mathe in der Olympiade ist sehr ___.",
+          optionen: ["schwierig", "leicht", "einfach"], richtig: 0,
+          regel: "schwierig ist das Gegenteil von leicht und einfach.",
+          uebers: { fr: "Choisis le contraire de « einfach » (facile)." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Chinesisch ist eine ___ Sprache.",
+          optionen: ["schwierige", "schwierig", "schwieriger"], richtig: 0,
+          regel: "Ein Adjektiv vor einem Nomen bekommt eine Endung: die Sprache → eine schwierige Sprache.",
+          uebers: { fr: "Choisis la bonne terminaison de l'adjectif." }
+        },
+        {
+          typ: "luecke", stufe: 1,
+          text: "Ich ___ Deutsch und Englisch. (sprechen)",
+          antworten: ["spreche"],
+          regel: "sprechen: ich spreche, du sprichst, er/sie spricht.",
+          uebers: { fr: "Conjugue « sprechen » (ich)." }
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Letzte Woche ___ ich einen Englischtest. (haben, Präteritum)",
+          antworten: ["hatte"],
+          regel: "haben im Präteritum: ich hatte, du hattest, er/sie hatte.",
+          uebers: { fr: "Complète avec « haben » au prétérit (ich)." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Wann ___ du den Englischtest?",
+          optionen: ["hattest", "hatte", "hattet"], richtig: 0,
+          regel: "du hattest – bei du immer -st am Ende.",
+          uebers: { fr: "Choisis la bonne forme de « haben » au prétérit (du)." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Der Englischtest ___ am Freitag.",
+          optionen: ["war", "hatte", "warst"], richtig: 0,
+          regel: "sein im Präteritum: ich war, du warst, er/sie/es war.",
+          uebers: { fr: "Choisis la bonne forme de « sein » au prétérit." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Der Test dauert ___ eine Stunde – vielleicht 55 oder 65 Minuten.",
+          optionen: ["circa", "genau", "nie"], richtig: 0,
+          regel: "circa (ca.) = environ: nicht genau.",
+          uebers: { fr: "Choisis le mot qui veut dire « environ »." }
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Der Test war zwei ___ lang. (die Seite → Plural)",
+          antworten: ["Seiten"],
+          regel: "die Seite → die Seiten (Plural mit -n).",
+          uebers: { fr: "Complète avec le pluriel de « die Seite » (la page)." }
+        },
+        {
+          typ: "zuordnen", stufe: 1,
+          paare: [["schwierig", "difficile"], ["die Seite", "la page"], ["bestellen", "commander"], ["wahrscheinlich", "probablement"]],
+          regel: "Die neuen Wörter der Stunde.",
+          uebers: { fr: "Relie les mots." }
+        },
+        {
+          typ: "satz", stufe: 2,
+          woerter: ["Wahrscheinlich", "gewinne", "ich", "nicht"],
+          loesung: "Wahrscheinlich gewinne ich nicht",
+          regel: "Steht wahrscheinlich vorne, kommt das Verb direkt danach: Wahrscheinlich gewinne ich …",
+          uebers: { fr: "Remets les mots dans l'ordre. Après « wahrscheinlich » au début, le verbe vient tout de suite." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "wahrscheinlich → das Nomen heißt ___",
+          optionen: ["die Wahrscheinlichkeit", "die Wahrscheinlichung", "der Wahrscheinlich"], richtig: 0,
+          regel: "Adjektiv + -keit → Nomen, immer feminin: wahrscheinlich → die Wahrscheinlichkeit.",
+          uebers: { fr: "Quel est le nom qui vient de « wahrscheinlich » ?" }
+        },
+        {
+          typ: "luecke", stufe: 1,
+          text: "Ich ___ eine Pizza. (bestellen)",
+          antworten: ["bestelle"],
+          regel: "bestellen = commander: ich bestelle, du bestellst, er bestellt.",
+          uebers: { fr: "Conjugue « bestellen » (ich)." }
+        },
+        {
+          typ: "luecke", stufe: 1,
+          text: "Du ___ heute eine Jogginghose. (tragen)",
+          antworten: ["trägst"],
+          regel: "Wiederholung (03.11.): tragen: ich trage, du trägst, er trägt (mit ä).",
+          uebers: { fr: "Conjugue « tragen » (du)." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Ich passe im Unterricht gut ___.",
+          optionen: ["auf", "an", "zu"], richtig: 0,
+          regel: "Wiederholung (03.11.): aufpassen ist trennbar: ich passe … auf.",
+          uebers: { fr: "Choisis le bon mot : je fais bien attention en cours." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Ich frage meine Mutter, ___ ich das alte Handy haben kann.",
+          optionen: ["ob", "weil", "wenn"], richtig: 0,
+          regel: "Wiederholung (03.11.): ob = si (question). Nach ob steht das Verb am Ende.",
+          uebers: { fr: "Choisis le bon mot (« si » dans une question)." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Ich ___ den Bus zur Schule. (nehmen)",
+          optionen: ["nehme", "nimmst", "nimmt"], richtig: 0,
+          regel: "Wiederholung (30.10.): nehmen: ich nehme, du nimmst, er nimmt.",
+          uebers: { fr: "Choisis la bonne forme de « nehmen » (ich)." }
+        },
+        {
+          typ: "zuordnen", stufe: 1,
+          paare: [["der Alltag", "le quotidien"], ["das Sprudelwasser", "l'eau gazeuse"], ["einschlafen", "s'endormir"], ["die Ruhe", "le calme"]],
+          regel: "Wiederholung (30.10., 03.11.): Wörter der letzten Stunden.",
+          uebers: { fr: "Relie les mots." }
+        },
+        {
+          typ: "sprechen", stufe: 2,
+          auftrag: "Welche Fächer sind für dich leicht, welche schwierig? Sprich 4 Sätze. Nimm dich auf und höre dich an.",
+          hinweis: "Mathe ist für mich … / … ist schwierig, weil … / Mein letzter Test war … / Wahrscheinlich …",
+          uebers: { fr: "Quelles matières sont faciles pour toi, lesquelles sont difficiles ? Dis 4 phrases. Enregistre-toi et écoute-toi." }
+        },
+        {
+          typ: "schreiben", stufe: 3,
+          auftrag: "Dein letzter Test: Wann war er? Wie war er? Schreibe 4–5 Sätze.",
+          checkliste: [
+            "Ich habe hatte oder war benutzt (Präteritum).",
+            "Ich habe schwierig, leicht oder einfach benutzt.",
+            "Ich habe wahrscheinlich benutzt.",
+            "Jeder Satz beginnt groß und endet mit einem Punkt."
+          ],
+          muster: "Letzte Woche hatte ich einen Englischtest. Der Test war zwei Seiten lang. Er war sehr leicht für mich. Die Lehrerin hat circa eine Woche für die Korrektur. Ich bekomme wahrscheinlich eine gute Note.",
+          uebers: { fr: "Ton dernier contrôle : quand ? comment ? Écris 4–5 phrases." }
+        }
+      ]
     }
   ]
 };
