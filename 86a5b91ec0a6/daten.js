@@ -480,6 +480,160 @@ window.HEFT = {
           uebers: { fr: "Ton matin : que fais-tu du réveil jusqu'au travail ? Écris 4–5 phrases." }
         }
       ]
+    },
+    {
+      id: "2026-11-12",
+      titel: "Reisen, teurer und billiger, lernen oder studieren",
+      vokabeln: [
+        { de: "das Gewürz", en: "the spice", fr: "l'épice (f)", beispiel: "Indisches Essen hat viele Gewürze." },
+        { de: "bestellen", en: "to order", fr: "commander", beispiel: "Ich bestelle die Schuhe online." },
+        { de: "das Licht", en: "the light", fr: "la lumière", beispiel: "Unter Wasser gibt es nicht so viel Licht." },
+        { de: "das Meer", en: "the sea", fr: "la mer", beispiel: "Im Sommer schwimme ich gern im Meer." },
+        { de: "der See", en: "the lake", fr: "le lac", beispiel: "Der See ist ruhig und klar." },
+        { de: "teuer / billig", en: "expensive / cheap", fr: "cher / bon marché", beispiel: "Belgien ist teurer als Ägypten." },
+        { de: "der Flughafen", en: "the airport", fr: "l'aéroport", beispiel: "Wir fahren um 5 Uhr zum Flughafen." },
+        { de: "die Verspätung", en: "the delay", fr: "le retard", beispiel: "Der Zug hat 20 Minuten Verspätung." },
+        { de: "der Beruf", en: "the job, the profession", fr: "le métier, la profession", beispiel: "Was ist dein Beruf?" },
+        { de: "der Erfolg", en: "the success", fr: "le succès", beispiel: "Ich wünsche dir viel Erfolg!" }
+      ],
+      aufgaben: [
+        {
+          typ: "zuordnen", stufe: 1,
+          paare: [["das Flugzeug", "l'avion"], ["der Flug", "le vol"], ["der Flughafen", "l'aéroport"], ["die Verspätung", "le retard"]],
+          regel: "fliegen (Verb) → der Flug, das Flugzeug, der Flughafen.",
+          uebers: { fr: "Relie les mots à leur traduction." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Belgien ist ___ als Ägypten.",
+          optionen: ["teurer", "teuerer", "teuer"], richtig: 0,
+          regel: "Vergleich mit als: teuer → teurer (das zweite e fällt weg).",
+          uebers: { fr: "Choisis le comparatif de « teuer » (cher)." }
+        },
+        {
+          typ: "luecke", stufe: 1,
+          text: "Ägypten ist ___ als Belgien. (billig)",
+          antworten: ["billiger"],
+          regel: "Komparativ: Adjektiv + -er + als: billig → billiger als.",
+          uebers: { fr: "Complète avec le comparatif de « billig » (bon marché)." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Es ist sehr dunkel hier. Ich brauche mehr ___.",
+          optionen: ["Licht", "Luft", "Gewürze"], richtig: 0,
+          regel: "das Licht = la lumière, die Luft = l'air, das Gewürz = l'épice.",
+          uebers: { fr: "Choisis le bon mot." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Welcher Artikel? ___ See (= le lac)",
+          optionen: ["der", "die", "das"], richtig: 0,
+          regel: "der See = le lac, das Meer = la mer. (die See = la mer, aber selten.)",
+          uebers: { fr: "Choisis le bon article pour « le lac »." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Welcher Satz ist richtig?",
+          optionen: ["Vielleicht fliege ich nach Ägypten.", "Vielleicht ich fliege nach Ägypten.", "Vielleicht ich nach Ägypten fliege."], richtig: 0,
+          regel: "Das Verb steht auf Position 2: Vielleicht (1) fliege (2) ich … Für Reisen sagt man meistens fliegen oder fahren.",
+          uebers: { fr: "Quelle phrase est correcte ?" }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Mein Bruder ___ Medizin an der Universität.",
+          optionen: ["studiert", "lernt", "lehrt"], richtig: 0,
+          regel: "studieren = étudier à l'université, lernen = apprendre, lehren = enseigner.",
+          uebers: { fr: "Choisis le bon verbe." }
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Ich ___ jeden Tag zehn neue Wörter. (lernen)",
+          antworten: ["lerne"],
+          regel: "lernen = apprendre (Wörter, für eine Prüfung …). An der Uni: studieren.",
+          uebers: { fr: "Conjugue « lernen » (ich)." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Ich gehe gern mit ___ Freund spazieren.",
+          optionen: ["meinem", "meinen", "mein"], richtig: 0,
+          regel: "mit + Dativ: mit meinem Freund, mit meiner Schwester, mit meinen Eltern.",
+          uebers: { fr: "Choisis la bonne forme (« mit » + datif)." }
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Sie hat viel Erfolg. Sie ist sehr ___.",
+          antworten: ["erfolgreich"],
+          regel: "der Erfolg → erfolgreich (= qui a du succès).",
+          uebers: { fr: "Forme l'adjectif à partir de « der Erfolg »." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "___ Menschen essen gern sehr scharf.",
+          optionen: ["Manche", "Manchmal", "Man"], richtig: 0,
+          regel: "manche = certains (+ Plural). manchmal = parfois. man = on.",
+          uebers: { fr: "Choisis le bon mot (« certains »)." }
+        },
+        {
+          typ: "satz", stufe: 3,
+          woerter: ["Ich", "kaufe", "lieber", "im", "Geschäft,", "weil", "ich", "das", "Material", "fühlen", "möchte"],
+          loesung: "Ich kaufe lieber im Geschäft, weil ich das Material fühlen möchte",
+          regel: "Nach weil steht das Verb am Ende: …, weil ich das Material fühlen möchte.",
+          uebers: { fr: "Mets les mots dans le bon ordre." }
+        },
+        {
+          typ: "luecke", stufe: 1,
+          text: "Am Sonntag ___ ich um 10 Uhr aufgestanden.",
+          antworten: ["bin"],
+          regel: "Wiederholung (10.11.): aufstehen → Perfekt mit sein: ich bin aufgestanden.",
+          uebers: { fr: "Complète avec le bon auxiliaire." }
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Er ___ jeden Samstag sein Auto. (waschen)",
+          antworten: ["wäscht"],
+          regel: "Wiederholung (10.11.): waschen: du wäschst, er wäscht (a → ä).",
+          uebers: { fr: "Conjugue « waschen » (er)." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Mein ___ tut weh. Ich kann nicht lange sitzen.",
+          optionen: ["Rücken", "Wecker", "Fluss"], richtig: 0,
+          regel: "Wiederholung (10.11.): der Rücken = le dos.",
+          uebers: { fr: "Choisis le bon mot." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Ich fahre zum Flughafen, ___ meine Schwester abzuholen.",
+          optionen: ["um", "für", "weil"], richtig: 0,
+          regel: "Wiederholung (05.11.): um … zu + Infinitiv = pour + infinitif. Trennbare Verben: ab-zu-holen.",
+          uebers: { fr: "Choisis le bon mot (« pour »)." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Ich stelle die Milch in ___ Kühlschrank.",
+          optionen: ["den", "dem", "der"], richtig: 0,
+          regel: "Wiederholung (05.11.): Wohin? → in + Akkusativ: in den Kühlschrank.",
+          uebers: { fr: "Choisis le bon article (mouvement → accusatif)." }
+        },
+        {
+          typ: "sprechen", stufe: 2,
+          auftrag: "Reisen: Wohin fliegst du gern? Was ist dort teurer oder billiger als bei dir? Sprich 4 Sätze. Nimm dich auf und höre dich an.",
+          hinweis: "Ich fliege gern nach … / Das Essen ist dort billiger als … / Vielleicht fliege ich … / Am Flughafen …",
+          uebers: { fr: "Voyages : où aimes-tu aller en avion ? Qu'est-ce qui est plus cher ou moins cher que chez toi ? Dis 4 phrases. Enregistre-toi et écoute-toi." }
+        },
+        {
+          typ: "schreiben", stufe: 3,
+          auftrag: "Deine letzte Reise: Schreibe 4–5 Sätze.",
+          checkliste: [
+            "Ich habe ein Wort mit Flug benutzt (der Flug, der Flughafen, das Flugzeug).",
+            "Ich habe einen Vergleich mit als geschrieben (teurer als, billiger als).",
+            "Ich habe einen Satz mit vielleicht geschrieben (Verb auf Position 2).",
+            "Ich habe mit + Dativ benutzt (mit meinem …, mit meiner …)."
+          ],
+          muster: "Letztes Jahr bin ich mit meinem Bruder nach Spanien geflogen. Der Flug war billiger als der Zug. Am Flughafen hatten wir eine Stunde Verspätung. In Spanien war das Essen sehr gut, mit vielen Gewürzen. Vielleicht fliegen wir nächstes Jahr nach Ägypten.",
+          uebers: { fr: "Ton dernier voyage : écris 4–5 phrases." }
+        }
+      ]
     }
   ]
 };

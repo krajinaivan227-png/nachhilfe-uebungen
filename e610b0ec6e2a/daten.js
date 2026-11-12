@@ -461,6 +461,152 @@ window.HEFT = {
           uebers: { en: "Describe the way from your flat to the supermarket. Say 4 sentences. Record yourself and listen." }
         }
       ]
+    },
+    {
+      id: "2026-11-12",
+      titel: "hoffen, noch nicht und bald, Kleidung und Geschäft",
+      vokabeln: [
+        { de: "hoffen", en: "to hope", fr: "espérer", beispiel: "Ich hoffe, dass du gesund bleibst." },
+        { de: "die Hoffnung", en: "the hope", fr: "l'espoir", beispiel: "Ich habe Hoffnung." },
+        { de: "hoffentlich", en: "hopefully", fr: "j'espère que, espérons que", beispiel: "Hoffentlich regnet es morgen nicht." },
+        { de: "die Kleidung", en: "the clothes", fr: "les vêtements", beispiel: "Die Kleidung in diesem Geschäft ist billig." },
+        { de: "das Geschäft", en: "the shop", fr: "le magasin", beispiel: "Das Geschäft ist noch nicht offen." },
+        { de: "offen", en: "open", fr: "ouvert", beispiel: "Der Supermarkt ist bis 20 Uhr offen." },
+        { de: "bald", en: "soon", fr: "bientôt", beispiel: "Du bist bald bei Niveau B1." },
+        { de: "erstens / zweitens", en: "firstly / secondly", fr: "premièrement / deuxièmement", beispiel: "Erstens habe ich keine Zeit, zweitens kein Geld." },
+        { de: "süß", en: "cute; sweet", fr: "mignon; sucré", beispiel: "Die Katze ist süß." }
+      ],
+      aufgaben: [
+        {
+          typ: "zuordnen", stufe: 1,
+          paare: [["hoffen", "to hope"], ["die Hoffnung", "the hope"], ["hoffentlich", "hopefully"], ["offen", "open"]],
+          regel: "Eine Wortfamilie: hoffen (Verb), die Hoffnung (Nomen), hoffentlich (Adverb).",
+          uebers: { en: "Match the German words with the English ones." }
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Ich hoffe, dass du gesund ___. (bleiben)",
+          antworten: ["bleibst"],
+          regel: "Nach dass steht das Verb am Ende: …, dass du gesund bleibst.",
+          uebers: { en: "Fill in the correct form of “bleiben” (to stay)." }
+        },
+        {
+          typ: "satz", stufe: 2,
+          woerter: ["Ich", "hoffe,", "dass", "das", "Wetter", "morgen", "schön", "ist"],
+          loesung: "Ich hoffe, dass das Wetter morgen schön ist",
+          regel: "Ich hoffe, dass … + Verb am Ende.",
+          uebers: { en: "Put the words in the right order." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "___ regnet es morgen nicht.",
+          optionen: ["Hoffentlich", "Hoffnung", "Hoffe"], richtig: 0,
+          regel: "hoffentlich = hopefully. Danach kommt das Verb (Position 2): Hoffentlich regnet es …",
+          uebers: { en: "Choose the right word (“hopefully”)." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Das Geschäft ist noch nicht ___. Es öffnet um 9 Uhr.",
+          optionen: ["offen", "süß", "bald"], richtig: 0,
+          regel: "offen = open, das Gegenteil ist geschlossen (closed).",
+          uebers: { en: "Choose the right word." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Bist du schon bei Niveau B1? – Nein, ___. Aber bald!",
+          optionen: ["noch nicht", "nicht mehr", "schon"], richtig: 0,
+          regel: "noch nicht = not yet. nicht mehr = not anymore.",
+          uebers: { en: "Choose: “not yet”, “not anymore” or “already”." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Die ___ in diesem Geschäft ist sehr billig.",
+          optionen: ["Kleidung", "Kleidungen", "Kleids"], richtig: 0,
+          regel: "die Kleidung = clothes. Auf Deutsch ist das Wort Singular: Die Kleidung ist …",
+          uebers: { en: "Choose the right word (“clothes”)." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Das ist das Fahrrad ___ Schwester.",
+          optionen: ["von meiner", "von meine", "von mein"], richtig: 0,
+          regel: "von + Dativ: von meiner Schwester. Formeller mit Genitiv: das Fahrrad meiner Schwester.",
+          uebers: { en: "Choose the right form (“my sister's bike”)." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "___ habe ich keine Zeit. Zweitens habe ich kein Geld.",
+          optionen: ["Erstens", "Erste", "Einmal"], richtig: 0,
+          regel: "erstens, zweitens, drittens = firstly, secondly, thirdly. Danach kommt das Verb.",
+          uebers: { en: "Choose the right word (“firstly”)." }
+        },
+        {
+          typ: "mc", stufe: 3,
+          frage: "Ich war sehr müde, ___ ich nach Hause gekommen bin.",
+          optionen: ["als", "wenn", "wann"], richtig: 0,
+          regel: "als = when (einmal in der Vergangenheit). wenn = when/if (Gegenwart, Zukunft, immer wieder).",
+          uebers: { en: "Choose the right word for “when” (one time in the past)." }
+        },
+        {
+          typ: "mc", stufe: 3,
+          frage: "Ich weiß nicht, ___ das Geschäft heute offen ist.",
+          optionen: ["ob", "dass", "wann"], richtig: 0,
+          regel: "ob = whether/if. Ich weiß nicht, ob … (eine Ja/Nein-Frage). Danach Verb am Ende.",
+          uebers: { en: "Choose the right word (“whether”)." }
+        },
+        {
+          typ: "luecke", stufe: 1,
+          text: "Willst du noch ___ Kaffee? (one more)",
+          antworten: ["einen"],
+          regel: "Wiederholung (05.11.): der Kaffee → Akkusativ: noch einen Kaffee.",
+          uebers: { en: "Fill in: “one more coffee”." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Ich habe ___ Zeit mehr.",
+          optionen: ["keine", "nicht", "kein"], richtig: 0,
+          regel: "Wiederholung (05.11.): kein + Nomen … mehr = no more. die Zeit → keine Zeit mehr.",
+          uebers: { en: "Choose the right word (“no more time”)." }
+        },
+        {
+          typ: "luecke", stufe: 1,
+          text: "Ich wohne ___ vierten Stock.",
+          antworten: ["im"],
+          regel: "Wiederholung (05.11.): der Stock → im (= in dem) vierten Stock.",
+          uebers: { en: "Fill in the missing word (“on the fourth floor”)." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Mein Zahn tut weh. Ich habe morgen einen ___.",
+          optionen: ["Arzttermin", "Friseurtermin", "Aufzug"], richtig: 0,
+          regel: "Wiederholung (05.11.): der Arzttermin = the doctor's appointment.",
+          uebers: { en: "Choose the right word." }
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Ich lerne Deutsch, ___ in Österreich zu arbeiten.",
+          antworten: ["um"],
+          regel: "Wiederholung (16.10.): um … zu + Infinitiv = in order to.",
+          uebers: { en: "Fill in the missing word (“in order to”)." }
+        },
+        {
+          typ: "sprechen", stufe: 2,
+          auftrag: "Was hoffst du für das nächste Jahr? Sprich 4 Sätze. Nimm dich auf und höre dich an.",
+          hinweis: "Ich hoffe, dass ich bald B1 habe. / Hoffentlich … / Erstens …, zweitens …",
+          uebers: { en: "What do you hope for next year? Say 4 sentences. Record yourself and listen." }
+        },
+        {
+          typ: "schreiben", stufe: 3,
+          auftrag: "Wo kaufst du gern Kleidung? Schreibe 4 Sätze.",
+          checkliste: [
+            "Ich habe das Wort Geschäft benutzt.",
+            "Ich habe einen Satz mit hoffentlich oder ich hoffe, dass … geschrieben.",
+            "Ich habe noch nicht oder bald benutzt.",
+            "Jeder Satz beginnt groß und endet mit einem Punkt."
+          ],
+          muster: "Ich kaufe meine Kleidung meistens online. Erstens ist es billiger, zweitens habe ich wenig Zeit. In meiner Straße gibt es ein neues Geschäft, aber es ist noch nicht offen. Hoffentlich öffnet es bald.",
+          uebers: { en: "Where do you like to buy clothes? Write 4 sentences." }
+        }
+      ]
     }
   ]
 };
