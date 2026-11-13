@@ -1009,6 +1009,129 @@ window.HEFT = {
           hinweis: "Ich habe lieber … , weil … / Einen mündlichen Test finde ich … / Wenn ich ehrlich bin, …"
         }
       ]
+    },
+    {
+      id: "2026-11-13",
+      titel: "Glück, Beeren, anrufen/verzeihen, löschen, Speiseröhre",
+      vokabeln: [
+        { de: "das Glück / das Unglück", en: "luck, happiness / misfortune, accident", fr: "la chance, le bonheur / la malchance, le malheur", beispiel: "Ich hatte Glück: Der Bus war noch da." },
+        { de: "die Johannisbeere, -n", en: "the currant", fr: "la groseille", beispiel: "Heute Morgen habe ich Brot mit Johannisbeeren gegessen." },
+        { de: "die Erdbeere / Himbeere / Blaubeere", en: "strawberry / raspberry / blueberry", fr: "la fraise / la framboise / la myrtille", beispiel: "Im Sommer esse ich gern Erdbeeren." },
+        { de: "anschalten / ausschalten", en: "to switch on / to switch off", fr: "allumer / éteindre", beispiel: "Ich war wach, aber mein Handy war ausgeschaltet." },
+        { de: "anrufen (+ Akk.) (rief an, hat angerufen)", en: "to call (on the phone)", fr: "appeler (au téléphone)", beispiel: "Ich habe dich gestern angerufen." },
+        { de: "verzeihen (+ Dat.) (verzieh, hat verziehen)", en: "to forgive", fr: "pardonner", beispiel: "Ich verstehe dich und ich verzeihe dir." },
+        { de: "löschen", en: "to delete; to put out (a fire)", fr: "supprimer; éteindre (un feu)", beispiel: "Die Feuerwehr hat das Feuer gelöscht." },
+        { de: "flüchten (ist geflüchtet)", en: "to flee", fr: "fuir", beispiel: "Wegen des Krieges sind viele Menschen geflüchtet." },
+        { de: "die Leiche, -n", en: "the corpse", fr: "le cadavre", beispiel: "Im Anatomiekurs arbeiten die Studenten an einer Leiche." },
+        { de: "die Speiseröhre / die Luftröhre", en: "the oesophagus / the windpipe", fr: "l'œsophage / la trachée", beispiel: "Das Essen kommt in die Speiseröhre." }
+      ],
+      aufgaben: [
+        {
+          typ: "zuordnen", stufe: 1,
+          paare: [["die Erdbeere", "la fraise"], ["die Himbeere", "la framboise"], ["die Blaubeere", "la myrtille"], ["die Johannisbeere", "la groseille"]],
+          regel: "Alle Beeren sind feminin: die Beere → die Erdbeere, die Himbeere. Plural: die Beeren."
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Ich habe 50 Euro auf der Straße gefunden. Ich hatte ___!",
+          optionen: ["Glück", "Unglück", "glücklich"], richtig: 0,
+          regel: "Glück haben = avoir de la chance. Das Gegenteil ist Pech haben."
+        },
+        {
+          typ: "luecke", stufe: 1,
+          text: "das Glück → das Gegenteil: das ___",
+          antworten: ["Unglück"],
+          regel: "un- macht das Gegenteil, der Artikel bleibt gleich: das Glück → das Unglück."
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Ich war wach, aber mein Handy war ___.",
+          optionen: ["aus", "ab", "weg"], richtig: 0,
+          regel: "aus sein = ausgeschaltet sein, an sein = angeschaltet sein: Das Handy ist aus."
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Ich rufe ___ morgen an.",
+          optionen: ["dich", "dir", "du"], richtig: 0,
+          regel: "anrufen + Akkusativ: Ich rufe dich an, ich rufe ihn an (nicht: dir, ihm)."
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Ich verstehe dich und ich verzeihe ___.",
+          optionen: ["dir", "dich", "du"], richtig: 0,
+          regel: "verzeihen + Dativ (Person): Ich verzeihe dir, ich verzeihe ihm."
+        },
+        {
+          typ: "luecke", stufe: 1,
+          text: "Ich habe die Nachricht ___. (löschen)",
+          antworten: ["gelöscht"],
+          regel: "löschen ist regelmäßig: löschte, hat gelöscht."
+        },
+        {
+          typ: "zuordnen", stufe: 2,
+          paare: [["Butter aufs Brot streichen", "tartiner du beurre"], ["die Wand streichen", "peindre le mur"], ["das Feuer löschen", "éteindre le feu"], ["die Nachricht löschen", "supprimer le message"]],
+          regel: "streichen und löschen haben mehrere Bedeutungen – der Kontext entscheidet."
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Wegen des Krieges ___ viele Menschen geflüchtet.",
+          optionen: ["sind", "haben", "werden"], richtig: 0,
+          regel: "flüchten ist eine Bewegung von A nach B → Perfekt mit sein: Sie sind geflüchtet."
+        },
+        {
+          typ: "luecke", stufe: 1,
+          text: "bedeuten → die ___",
+          antworten: ["Bedeutung"],
+          regel: "Verb → Nomen mit -ung, immer feminin: bedeuten → die Bedeutung. Frage: Was bedeutet das?"
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Das Essen kommt in die ___, die Luft kommt in die Luftröhre.",
+          optionen: ["Speiseröhre", "Luftröhre", "Leiche"], richtig: 0,
+          regel: "die Speise = das Essen → die Speiseröhre (l'œsophage); die Luft → die Luftröhre (la trachée)."
+        },
+        {
+          typ: "satz", stufe: 2,
+          woerter: ["Die", "Feuerwehr", "hat", "das", "Feuer", "gelöscht"],
+          loesung: "Die Feuerwehr hat das Feuer gelöscht",
+          regel: "Perfekt: haben an Position 2, das Partizip (gelöscht) am Ende."
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Die Römer haben Gallien ___.",
+          optionen: ["erobert", "geerobert", "eroberte"], richtig: 0,
+          regel: "Wiederholung (11.11.): erobern → hat erobert. Verben mit er- bekommen kein ge-."
+        },
+        {
+          typ: "luecke", stufe: 1,
+          text: "Der Schiedsrichter pfeift das Spiel ___. (Das Spiel beginnt.)",
+          antworten: ["an"],
+          regel: "Wiederholung (09.11.): anpfeifen = das Spiel beginnt, abpfeifen = das Spiel endet."
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Ich esse den ___ Fisch nicht gern.",
+          optionen: ["rohen", "rohe", "roher"], richtig: 0,
+          regel: "Wiederholung (09.11.): der Fisch, Akkusativ nach den: Das Adjektiv endet auf -en: den rohen Fisch."
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Wegen der Kälte räuspere ich ___.",
+          optionen: ["mich", "mir", "sich"], richtig: 0,
+          regel: "Wiederholung (09.11.): sich räuspern ist reflexiv: ich räuspere mich, du räusperst dich."
+        },
+        {
+          typ: "luecke", stufe: 1,
+          text: "Der Arzt tastet den Bauch ___. (abtasten)",
+          antworten: ["ab"],
+          regel: "Wiederholung (09.11.): abtasten ist trennbar: Der Arzt tastet den Bauch ab."
+        },
+        {
+          typ: "sprechen", stufe: 2,
+          auftrag: "Welche Beeren isst du gern? Wann und wie isst du sie? Sprich 4–5 Sätze. Nimm dich auf und höre dich an.",
+          hinweis: "Ich esse gern … / Am Morgen esse ich … mit … / Wenn ich ehrlich bin, mag ich keine …"
+        }
+      ]
     }
   ]
 };
