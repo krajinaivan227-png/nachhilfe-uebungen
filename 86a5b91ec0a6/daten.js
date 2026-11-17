@@ -634,6 +634,160 @@ window.HEFT = {
           uebers: { fr: "Ton dernier voyage : écris 4–5 phrases." }
         }
       ]
+    },
+    {
+      id: "2026-11-15",
+      titel: "verlieren, tief, gefallen, jeden Tag",
+      vokabeln: [
+        { de: "das Glas", en: "the glass, the jar", fr: "le verre, le bocal", beispiel: "Die Gewürze sind in einem Glas." },
+        { de: "mischen", en: "to mix", fr: "mélanger", beispiel: "Ich mische die Gewürze." },
+        { de: "verlieren (hat verloren)", en: "to lose", fr: "perdre", beispiel: "Ich habe meinen Schlüssel verloren." },
+        { de: "der Verlust", en: "the loss", fr: "la perte", beispiel: "Der Verlust war groß." },
+        { de: "tief / die Tiefe", en: "deep / the depth", fr: "profond / la profondeur", beispiel: "In 15 Metern Tiefe gibt es wenig Licht." },
+        { de: "gefallen (es gefällt mir, hat gefallen)", en: "to please (I like it)", fr: "plaire (ça me plaît)", beispiel: "Der Film hat mir sehr gut gefallen." },
+        { de: "witzig", en: "funny", fr: "drôle, rigolo", beispiel: "Der Film ist sehr witzig." },
+        { de: "der Spaß", en: "the fun", fr: "le plaisir, l'amusement", beispiel: "Schwimmen macht mir Spaß." },
+        { de: "spät / später", en: "late / later", fr: "tard / plus tard", beispiel: "Bis später!" },
+        { de: "jeden Tag", en: "every day", fr: "chaque jour", beispiel: "Ich lerne jeden Tag Deutsch." }
+      ],
+      aufgaben: [
+        {
+          typ: "zuordnen", stufe: 1,
+          paare: [["verlieren", "perdre"], ["der Verlust", "la perte"], ["die Tiefe", "la profondeur"], ["mischen", "mélanger"]],
+          regel: "Neue Wörter der Stunde.",
+          uebers: { fr: "Relie les mots à leur traduction." }
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Gestern habe ich meinen Schlüssel ___. (verlieren)",
+          antworten: ["verloren"],
+          regel: "verlieren – hat verloren. Verben mit ver- bekommen kein ge-.",
+          uebers: { fr: "Complète avec le participe passé de « verlieren »." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "verlieren → der ___",
+          optionen: ["Verlust", "Verlierung", "Verlor"], richtig: 0,
+          regel: "verlieren → der Verlust (= la perte).",
+          uebers: { fr: "Choisis le nom qui vient de « verlieren »." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Das Meer ist hier sehr ___.",
+          optionen: ["tief", "Tiefe", "Verlust"], richtig: 0,
+          regel: "tief = Adjektiv (profond), die Tiefe = Nomen (la profondeur).",
+          uebers: { fr: "Choisis le bon mot." }
+        },
+        {
+          typ: "mc", stufe: 3,
+          frage: "Ich mag ___ Filme. Sie bringen mich zum Nachdenken.",
+          optionen: ["tiefgründige", "tiefgreifende", "tiefe"], richtig: 0,
+          regel: "Ein Film, eine Idee: tiefgründig (= profond). tiefgreifend sagt man für große Veränderungen: tiefgreifende Reformen.",
+          uebers: { fr: "Choisis le bon adjectif pour un film « profond »." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Der Film hat ___ sehr gut gefallen.",
+          optionen: ["mir", "mich", "ich"], richtig: 0,
+          regel: "gefallen + Dativ: Es gefällt mir (= ça me plaît).",
+          uebers: { fr: "Choisis le bon pronom (datif)." }
+        },
+        {
+          typ: "luecke", stufe: 1,
+          text: "Die Musik ___ mir. (gefallen)",
+          antworten: ["gefällt"],
+          regel: "gefallen: es gefällt (a → ä).",
+          uebers: { fr: "Conjugue « gefallen » (es / sie)." }
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Hat dir der Film ___? (gefallen)",
+          antworten: ["gefallen"],
+          regel: "Das Partizip von gefallen ist gefallen (gleich wie der Infinitiv).",
+          uebers: { fr: "Complète avec le participe passé de « gefallen »." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Der Film ist sehr ___. Ich habe viel gelacht.",
+          optionen: ["witzig", "tief", "spät"], richtig: 0,
+          regel: "witzig = drôle. der Spaß = le plaisir: Das macht Spaß.",
+          uebers: { fr: "Choisis le bon mot." }
+        },
+        {
+          typ: "luecke", stufe: 1,
+          text: "Tschüss, bis ___! (à plus tard)",
+          antworten: ["später"],
+          regel: "spät = tard, später = plus tard.",
+          uebers: { fr: "Complète (« à plus tard »)." }
+        },
+        {
+          typ: "satz", stufe: 3,
+          woerter: ["Ich", "versuche,", "meinen", "Rücken", "nicht", "zu", "krümmen"],
+          loesung: "Ich versuche, meinen Rücken nicht zu krümmen",
+          regel: "versuchen + zu + Infinitiv: zu krümmen steht am Ende.",
+          uebers: { fr: "Mets les mots dans le bon ordre." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Ich lerne ___ Tag Deutsch.",
+          optionen: ["jeden", "jede", "jedes"], richtig: 0,
+          regel: "der Tag → jeden Tag. Aber: jede Woche, jedes Jahr.",
+          uebers: { fr: "Choisis la bonne forme (« chaque jour »)." }
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Spanien ist ___ als die Schweiz. (billig)",
+          antworten: ["billiger"],
+          regel: "Wiederholung (12.11.): Vergleich: billig → billiger als.",
+          uebers: { fr: "Complète avec le comparatif de « billig »." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Der Zug hat 20 Minuten ___.",
+          optionen: ["Verspätung", "spät", "später"], richtig: 0,
+          regel: "Wiederholung (12.11.): die Verspätung = le retard.",
+          uebers: { fr: "Choisis le bon mot." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Ich kümmere mich ___ meine Katze.",
+          optionen: ["um", "für", "an"], richtig: 0,
+          regel: "Wiederholung (10.11.): sich kümmern um + Akkusativ = s'occuper de.",
+          uebers: { fr: "Choisis la bonne préposition." }
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Am Sonntag machen wir einen ___ am Fluss. (spazieren gehen → Nomen)",
+          antworten: ["Spaziergang"],
+          regel: "Wiederholung (10.11.): spazieren gehen → der Spaziergang.",
+          uebers: { fr: "Forme le nom (« la promenade »)." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Ich lerne Deutsch, ___ in Österreich zu studieren.",
+          optionen: ["um", "für", "weil"], richtig: 0,
+          regel: "Wiederholung (05.11.): um … zu + Infinitiv = pour + infinitif.",
+          uebers: { fr: "Choisis le bon mot (« pour »)." }
+        },
+        {
+          typ: "sprechen", stufe: 2,
+          auftrag: "Dein Lieblingsfilm: Was hat dir gefallen? Ist er witzig oder tiefgründig? Sprich 4 Sätze. Nimm dich auf und höre dich an.",
+          hinweis: "Mein Lieblingsfilm ist … / Der Film hat mir gefallen, weil … / Er ist witzig / tiefgründig. / Ich sehe jede Woche …",
+          uebers: { fr: "Ton film préféré : qu'est-ce qui t'a plu ? Il est drôle ou profond ? Dis 4 phrases. Enregistre-toi et écoute-toi." }
+        },
+        {
+          typ: "schreiben", stufe: 3,
+          auftrag: "Ein Tag am Meer oder am See: Schreibe 4–5 Sätze.",
+          checkliste: [
+            "Ich habe gefallen + Dativ benutzt (Es hat mir gefallen).",
+            "Ich habe tief oder die Tiefe benutzt.",
+            "Ich habe verloren oder Spaß gemacht im Perfekt benutzt.",
+            "Ich habe jeden, jede oder jedes benutzt."
+          ],
+          muster: "Letzten Sommer war ich jeden Tag am See. Das Wasser war sehr tief und klar. Einmal habe ich dort meine Sonnenbrille verloren. Das Schwimmen hat mir viel Spaß gemacht. Der Urlaub hat mir sehr gut gefallen.",
+          uebers: { fr: "Une journée à la mer ou au lac : écris 4–5 phrases." }
+        }
+      ]
     }
   ]
 };

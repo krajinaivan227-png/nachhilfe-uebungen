@@ -723,6 +723,159 @@ window.HEFT = {
           uebers: { fr: "Ton dernier contrôle : quand ? comment ? Écris 4–5 phrases." }
         }
       ]
+    },
+    {
+      id: "2026-11-17",
+      titel: "langweilig, versuchen, teuer und billig, vielleicht",
+      vokabeln: [
+        { de: "langweilig / die Langeweile", en: "boring / boredom", fr: "ennuyeux / l'ennui", beispiel: "Der Film ist langweilig." },
+        { de: "die Schwierigkeit", en: "the difficulty", fr: "la difficulté", beispiel: "Ich habe Schwierigkeiten mit der Grammatik." },
+        { de: "korrigieren", en: "to correct", fr: "corriger", beispiel: "Die Lehrerin korrigiert den Test." },
+        { de: "versuchen / der Versuch", en: "to try / the try", fr: "essayer / l'essai", beispiel: "Guter Versuch!" },
+        { de: "drehen", en: "to turn", fr: "tourner", beispiel: "Ich drehe den Schlüssel." },
+        { de: "teuer / billig", en: "expensive / cheap", fr: "cher / bon marché", beispiel: "Das Handy ist teuer, das Buch ist billig." },
+        { de: "die Bestellung", en: "the order", fr: "la commande", beispiel: "Meine Bestellung kommt morgen." },
+        { de: "vielleicht", en: "maybe", fr: "peut-être", beispiel: "Vielleicht spiele ich heute Fußball." },
+        { de: "hinausgehen (ist hinausgegangen)", en: "to go out", fr: "sortir", beispiel: "Ich gehe mit dem Hund hinaus." }
+      ],
+      aufgaben: [
+        {
+          typ: "zuordnen", stufe: 1,
+          paare: [["langweilig", "ennuyeux"], ["teuer", "cher"], ["billig", "bon marché"], ["vielleicht", "peut-être"]],
+          regel: "Neue Wörter der Stunde.",
+          uebers: { fr: "Relie les mots à leur traduction." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Welcher Artikel? ___ Langeweile",
+          optionen: ["die", "der", "das"], richtig: 0,
+          regel: "die Langeweile (Nomen) – langweilig (Adjektiv).",
+          uebers: { fr: "Choisis le bon article." }
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "schwierig → die ___",
+          antworten: ["Schwierigkeit"],
+          regel: "Adjektiv + -keit → Nomen, immer feminin: schwierig → die Schwierigkeit.",
+          uebers: { fr: "Forme le nom à partir de « schwierig »." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Ich lerne Deutsch auf ___ A2.",
+          optionen: ["Niveau", "Schwierigkeit", "Seite"], richtig: 0,
+          regel: "A1, A2, B1 … sind Niveaus: auf Niveau A2 (= au niveau A2).",
+          uebers: { fr: "Choisis le bon mot (niveau)." }
+        },
+        {
+          typ: "luecke", stufe: 1,
+          text: "Die Lehrerin ___ unsere Tests. (korrigieren)",
+          antworten: ["korrigiert"],
+          regel: "korrigieren: ich korrigiere, du korrigierst, sie korrigiert.",
+          uebers: { fr: "Conjugue « korrigieren » (sie)." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Ich ___, heute alle Hausaufgaben zu machen.",
+          optionen: ["versuche", "versuchen", "Versuch"], richtig: 0,
+          regel: "versuchen + zu + Infinitiv: Ich versuche, … zu machen.",
+          uebers: { fr: "Choisis la bonne forme de « versuchen » (essayer)." }
+        },
+        {
+          typ: "satz", stufe: 3,
+          woerter: ["Ich", "glaube,", "dass", "ich", "meine", "Hausaufgaben", "machen", "will"],
+          loesung: "Ich glaube, dass ich meine Hausaufgaben machen will",
+          regel: "Nach dass steht das Verb am Ende: …, dass ich … machen will (nicht: dass ich will …).",
+          uebers: { fr: "Mets les mots dans le bon ordre." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Das Handy kostet 1000 Euro. Es ist sehr ___.",
+          optionen: ["teuer", "billig", "langweilig"], richtig: 0,
+          regel: "teuer = cher, billig = bon marché.",
+          uebers: { fr: "Choisis le bon mot." }
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Das Buch kostet 5 Euro. Es ist ___ als das Handy. (billig)",
+          antworten: ["billiger"],
+          regel: "Vergleich: billig → billiger als (moins cher que).",
+          uebers: { fr: "Complète avec le comparatif de « billig »." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Welcher Satz ist richtig?",
+          optionen: ["Vielleicht spiele ich heute Fußball.", "Vielleicht ich spiele heute Fußball.", "Vielleicht ich heute Fußball spiele."], richtig: 0,
+          regel: "Steht vielleicht vorne, kommt das Verb direkt danach (Position 2).",
+          uebers: { fr: "Quelle phrase est correcte ?" }
+        },
+        {
+          typ: "luecke", stufe: 1,
+          text: "bestellen → die ___",
+          antworten: ["Bestellung"],
+          regel: "Verb → Nomen mit -ung, immer feminin: die Bestellung.",
+          uebers: { fr: "Forme le nom à partir de « bestellen »." }
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Am Abend gehe ich mit dem Hund ___. (sortir)",
+          antworten: ["hinaus", "raus"],
+          regel: "hinausgehen ist trennbar: Ich gehe … hinaus. Umgangssprache: rausgehen.",
+          uebers: { fr: "Complète le verbe séparable (sortir)." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Gestern ___ ich keine Zeit.",
+          optionen: ["hatte", "war", "habe"], richtig: 0,
+          regel: "Wiederholung (10.11.): haben im Präteritum: ich hatte, du hattest.",
+          uebers: { fr: "Choisis la bonne forme du passé." }
+        },
+        {
+          typ: "luecke", stufe: 1,
+          text: "Mein Bruder ___ gut Englisch. (sprechen)",
+          antworten: ["spricht"],
+          regel: "Wiederholung (10.11.): sprechen: ich spreche, du sprichst, er spricht.",
+          uebers: { fr: "Conjugue « sprechen » (er)." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Im Winter ___ ich eine warme Jacke.",
+          optionen: ["trage", "trägt", "tragst"], richtig: 0,
+          regel: "Wiederholung (03.11.): tragen: ich trage, du trägst, er trägt.",
+          uebers: { fr: "Choisis la bonne forme de « tragen » (porter)." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Im Unterricht passe ich gut ___.",
+          optionen: ["auf", "an", "zu"], richtig: 0,
+          regel: "Wiederholung (03.11.): aufpassen ist trennbar: ich passe … auf.",
+          uebers: { fr: "Complète le verbe séparable (faire attention)." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Ich trinke nichts ___ Wasser.",
+          optionen: ["außer", "ohne", "mit"], richtig: 0,
+          regel: "Wiederholung (03.11.): außer = sauf, à part.",
+          uebers: { fr: "Choisis le bon mot (sauf)." }
+        },
+        {
+          typ: "sprechen", stufe: 2,
+          auftrag: "Was ist für dich langweilig, was ist schwierig? Sprich 4 Sätze. Nimm dich auf und höre dich an.",
+          hinweis: "… ist langweilig, weil … / Für mich ist … schwierig. / Vielleicht … / Ich versuche, … zu …",
+          uebers: { fr: "Qu'est-ce qui est ennuyeux pour toi, qu'est-ce qui est difficile ? Dis 4 phrases. Enregistre-toi et écoute-toi." }
+        },
+        {
+          typ: "schreiben", stufe: 3,
+          auftrag: "Du bestellst etwas online. Schreibe 4–5 Sätze.",
+          checkliste: [
+            "Ich habe bestellen oder die Bestellung benutzt.",
+            "Ich habe teuer, billig oder billiger als benutzt.",
+            "Ich habe einen Satz mit vielleicht geschrieben (Verb auf Position 2).",
+            "Ich habe versuchen … zu benutzt."
+          ],
+          muster: "Ich will neue Kopfhörer bestellen. Im Geschäft sind sie sehr teuer. Online sind sie billiger. Ich versuche, ein gutes Angebot zu finden. Vielleicht kommt meine Bestellung schon am Freitag.",
+          uebers: { fr: "Tu commandes quelque chose en ligne. Écris 4–5 phrases." }
+        }
+      ]
     }
   ]
 };

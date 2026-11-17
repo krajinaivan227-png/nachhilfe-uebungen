@@ -337,6 +337,311 @@ window.HEFT = {
           uebers: { en: "Compare two cities or countries in 4–5 sentences. Use 'als' and 'wie'." }
         }
       ]
+    },
+    {
+      id: "2026-11-14",
+      titel: "drohen, deswegen, werden und bekommen",
+      vokabeln: [
+        { de: "drohen (+ Dat.) / die Drohung", en: "to threaten / the threat", fr: "menacer / la menace", beispiel: "Der Kontrolleur hat mit einer Strafe gedroht." },
+        { de: "die Strafe", en: "the fine, the punishment", fr: "l'amende, la punition", beispiel: "Ohne Ticket bekommst du eine Strafe." },
+        { de: "deswegen", en: "that's why, because of that", fr: "c'est pourquoi", beispiel: "Ich bin müde, deswegen gehe ich früh schlafen." },
+        { de: "werden (du wirst, er wird)", en: "to become", fr: "devenir", beispiel: "Mein Bruder wird bald Vater." },
+        { de: "beschäftigt", en: "busy", fr: "occupé", beispiel: "Ich bin heute sehr beschäftigt." },
+        { de: "ernst", en: "serious", fr: "sérieux", beispiel: "Die Situation ist ernst." },
+        { de: "nicht ernst gemeint", en: "not meant seriously", fr: "pas sérieux, pour rire", beispiel: "Das war nur ein Witz, nicht ernst gemeint." },
+        { de: "mit etwas umgehen", en: "to deal with, to cope with sth", fr: "gérer qc, faire face à qc", beispiel: "Ich muss mit dem Stress umgehen." }
+      ],
+      aufgaben: [
+        {
+          typ: "zuordnen", stufe: 1,
+          paare: [["drohen", "to threaten"], ["beschäftigt", "busy"], ["ernst", "serious"], ["die Strafe", "the fine"]],
+          regel: "Neue Wörter der Stunde.",
+          uebers: { en: "Match the words with their translation." }
+        },
+        {
+          typ: "luecke", stufe: 1,
+          text: "Ich ___ bald Vater. (werden)",
+          antworten: ["werde"],
+          regel: "werden: ich werde, du wirst, er/sie/es wird, wir werden, ihr werdet, sie werden.",
+          uebers: { en: "Conjugate „werden“ (ich)." }
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Du ___ jeden Tag besser! (werden)",
+          antworten: ["wirst"],
+          regel: "werden ist unregelmäßig: du wirst (ohne e, ohne d).",
+          uebers: { en: "Conjugate „werden“ (du)." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Meine Schwester ___ Ärztin.",
+          optionen: ["wird", "wirst", "werdet"], richtig: 0,
+          regel: "er/sie/es wird.",
+          uebers: { en: "Choose the right form of „werden“ (to become)." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Zum Geburtstag ___ ich ein Geschenk. (I get a present.)",
+          optionen: ["bekomme", "werde", "gebe"], richtig: 0,
+          regel: "Achtung: bekommen = to get. to become = werden.",
+          uebers: { en: "Choose the right verb." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Ich bin müde, deswegen ___ früh ins Bett.",
+          optionen: ["gehe ich", "ich gehe", "ich gehen"], richtig: 0,
+          regel: "deswegen steht auf Position 1, dann kommt sofort das Verb, dann das Subjekt.",
+          uebers: { en: "Choose the right word order after „deswegen“ (that's why)." }
+        },
+        {
+          typ: "satz", stufe: 3,
+          woerter: ["Es", "regnet,", "deswegen", "bleibe", "ich", "zu", "Hause"],
+          loesung: "Es regnet, deswegen bleibe ich zu Hause",
+          regel: "deswegen + Verb + Subjekt: deswegen bleibe ich …",
+          uebers: { en: "Put the words in the right order." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Der Kontrolleur hat ___ einer Strafe gedroht.",
+          optionen: ["mit", "von", "für"], richtig: 0,
+          regel: "jemandem mit etwas drohen: Er droht mit einer Strafe.",
+          uebers: { en: "Choose the right preposition." }
+        },
+        {
+          typ: "luecke", stufe: 3,
+          text: "Der Kontrolleur droht ___ Mann. (der Mann)",
+          antworten: ["dem"],
+          regel: "drohen + Dativ: dem Mann, der Frau, den Leuten.",
+          uebers: { en: "„drohen“ needs the dative. Fill in the article." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Ich habe heute keine Zeit. Ich bin sehr ___.",
+          optionen: ["beschäftigt", "ernst", "gemütlich"], richtig: 0,
+          regel: "beschäftigt = busy.",
+          uebers: { en: "Choose the right word." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Das war nur ein Witz. Es war nicht ernst ___.",
+          optionen: ["gemeint", "gemacht", "gesagt"], richtig: 0,
+          regel: "nicht ernst gemeint = not meant seriously.",
+          uebers: { en: "Complete the expression." }
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Ich muss ___ dem Stress umgehen.",
+          antworten: ["mit"],
+          regel: "mit etwas (Dativ) umgehen = to cope with something.",
+          uebers: { en: "Fill in the preposition." }
+        },
+        {
+          typ: "luecke", stufe: 1,
+          text: "Ich erinnere mich ___ meinen ersten Schultag.",
+          antworten: ["an"],
+          regel: "Wiederholung (25.10.): sich erinnern an + Akkusativ.",
+          uebers: { en: "Fill in the preposition." }
+        },
+        {
+          typ: "luecke", stufe: 1,
+          text: "Ich entscheide mich ___ den Deutschkurs.",
+          antworten: ["für"],
+          regel: "Wiederholung (25.10.): sich entscheiden für + Akkusativ.",
+          uebers: { en: "Fill in the preposition." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Mein Bruder ist größer ___ ich.",
+          optionen: ["als", "wie", "dann"], richtig: 0,
+          regel: "Wiederholung (25.10.): Komparativ (größer, reicher) + als = than.",
+          uebers: { en: "Choose the right word (than)." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Nach der Arbeit fahre ich ___.",
+          optionen: ["nach Hause", "zu Hause", "im Haus"], richtig: 0,
+          regel: "Wiederholung (18.10.): Wohin? → nach Hause. Wo? → zu Hause.",
+          uebers: { en: "Choose the right expression (going home)." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Meine Freundin ist traurig. Ich ___ sie.",
+          optionen: ["umarme", "arme … um", "umarmt"], richtig: 0,
+          regel: "Wiederholung (18.10.): umarmen ist nicht trennbar: ich umarme dich.",
+          uebers: { en: "Choose the right form of „umarmen“ (to hug)." }
+        },
+        {
+          typ: "sprechen", stufe: 2,
+          auftrag: "Stress im Alltag: Wann bist du beschäftigt? Wie gehst du mit Stress um? Sprich 4 Sätze. Nimm dich auf und höre dich an.",
+          hinweis: "Ich bin oft beschäftigt, weil … / Deswegen … / Mit Stress gehe ich so um: … / Bald werde ich …",
+          uebers: { en: "Stress in everyday life: when are you busy? How do you cope with stress? Say 4 sentences. Record yourself and listen." }
+        },
+        {
+          typ: "schreiben", stufe: 3,
+          auftrag: "Deine Pläne: Was wirst du nächstes Jahr machen? Schreibe 4–5 Sätze.",
+          checkliste: [
+            "Ich habe werden benutzt (ich werde, es wird …).",
+            "Ich habe einen Satz mit deswegen geschrieben (Verb direkt danach).",
+            "Ich habe bekommen richtig benutzt (= to get).",
+            "Ich habe beschäftigt oder ernst benutzt."
+          ],
+          muster: "Nächstes Jahr werde ich viel arbeiten. Ich werde oft beschäftigt sein, deswegen brauche ich einen guten Plan. Hoffentlich bekomme ich eine bessere Stelle. Mein Deutsch wird auch besser, denn ich nehme das Lernen ernst.",
+          uebers: { en: "Your plans: what will you do next year? Write 4–5 sentences." }
+        }
+      ]
+    },
+    {
+      id: "2026-11-15",
+      titel: "bestechen, kündigen, weil, Himmelsrichtungen",
+      vokabeln: [
+        { de: "bestechen (hat bestochen)", en: "to bribe", fr: "soudoyer, corrompre", beispiel: "Er wollte den Kontrolleur bestechen." },
+        { de: "die Bestechung", en: "bribery", fr: "la corruption", beispiel: "Bestechung ist verboten." },
+        { de: "der Ruf", en: "the reputation", fr: "la réputation", beispiel: "Das Restaurant hat einen guten Ruf." },
+        { de: "das Geschäft, die Geschäfte", en: "the shop, the store", fr: "le magasin", beispiel: "Das Geschäft ist am Sonntag geschlossen." },
+        { de: "kündigen / die Kündigung", en: "to quit (a job) / the resignation", fr: "démissionner / la démission", beispiel: "Sie kündigt ihren Job." },
+        { de: "der Waldbrand", en: "the forest fire", fr: "l'incendie de forêt", beispiel: "Im Sommer gibt es oft Waldbrände." },
+        { de: "die Küste", en: "the coast", fr: "la côte", beispiel: "New York liegt an der Ostküste." },
+        { de: "der Norden, Osten, Süden, Westen", en: "north, east, south, west", fr: "le nord, l'est, le sud, l'ouest", beispiel: "Die Sonne geht im Osten auf." },
+        { de: "(die Schuhe) ausziehen", en: "to take off (shoes)", fr: "enlever (ses chaussures)", beispiel: "Bitte zieh die Schuhe aus." }
+      ],
+      aufgaben: [
+        {
+          typ: "zuordnen", stufe: 1,
+          paare: [["der Wald", "the forest"], ["der Brand", "the fire"], ["die Küste", "the coast"], ["der Ruf", "the reputation"]],
+          regel: "Neue Wörter der Stunde.",
+          uebers: { en: "Match the words with their translation." }
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Er hat den Kontrolleur mit 10 Euro ___. (bestechen)",
+          antworten: ["bestochen"],
+          regel: "bestechen – hat bestochen (unregelmäßig, wie sprechen – gesprochen).",
+          uebers: { en: "Fill in the past participle of „bestechen“ (to bribe)." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Das Restaurant hat einen sehr guten ___.",
+          optionen: ["Ruf", "Brand", "Strafe"], richtig: 0,
+          regel: "der Ruf = the reputation.",
+          uebers: { en: "Choose the right word." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "In der Stadt gibt es viele ___.",
+          optionen: ["Geschäfte", "Geschenke", "Gesichter"], richtig: 0,
+          regel: "das Geschäft = the shop. Nicht verwechseln: das Geschenk = the present.",
+          uebers: { en: "Choose the right word (shops)." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Welcher Satz ist richtig?",
+          optionen: ["Ich kündige meinen Job.", "Ich kündige mit meinem Job.", "Ich kündige von meinem Job."], richtig: 0,
+          regel: "etwas kündigen (Akkusativ), ohne Präposition. Oder einfach: Ich kündige.",
+          uebers: { en: "Which sentence is correct?" }
+        },
+        {
+          typ: "luecke", stufe: 1,
+          text: "kündigen → die ___",
+          antworten: ["Kündigung"],
+          regel: "Verb → Nomen mit -ung, immer feminin: die Kündigung.",
+          uebers: { en: "Make the noun from „kündigen“." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Ich kann nicht nach Amerika fliegen, weil ich ein Visum ___.",
+          optionen: ["brauche", "brauche ich", "ich brauche"], richtig: 0,
+          regel: "Nach weil steht das Verb immer am Ende.",
+          uebers: { en: "Choose the right ending (verb at the end after „weil“)." }
+        },
+        {
+          typ: "satz", stufe: 3,
+          woerter: ["Ich", "bleibe", "zu", "Hause,", "weil", "ich", "krank", "bin"],
+          loesung: "Ich bleibe zu Hause, weil ich krank bin",
+          regel: "weil-Satz: Das Verb (bin) steht am Ende.",
+          uebers: { en: "Put the words in the right order." }
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "der Wald + der Brand = der ___",
+          antworten: ["Waldbrand"],
+          regel: "Zusammengesetzte Nomen: Das letzte Wort bestimmt den Artikel: der Waldbrand.",
+          uebers: { en: "Make one word (forest fire)." }
+        },
+        {
+          typ: "luecke", stufe: 1,
+          text: "Die Sonne geht im ___ auf. (east)",
+          antworten: ["Osten"],
+          regel: "Himmelsrichtungen: im Norden, im Osten, im Süden, im Westen.",
+          uebers: { en: "Fill in the direction (east)." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "New York liegt an der ___ von Amerika.",
+          optionen: ["Ostküste", "Westküste", "Südküste"], richtig: 0,
+          regel: "der Osten + die Küste = die Ostküste.",
+          uebers: { en: "Choose the right coast." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Bei uns ___ man die Schuhe in der Wohnung ___.",
+          optionen: ["zieht … aus", "nimmt … ab", "macht … ab"], richtig: 0,
+          regel: "Schuhe, Jacke → ausziehen. Hut, Brille → abnehmen.",
+          uebers: { en: "Choose the right verb for taking off shoes." }
+        },
+        {
+          typ: "luecke", stufe: 1,
+          text: "Er ___ bald Vater. (werden)",
+          antworten: ["wird"],
+          regel: "Wiederholung (14.11.): werden: ich werde, du wirst, er wird.",
+          uebers: { en: "Conjugate „werden“ (er)." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Ich bin krank, deswegen ___ nicht arbeiten.",
+          optionen: ["kann ich", "ich kann", "können ich"], richtig: 0,
+          regel: "Wiederholung (14.11.): deswegen + Verb + Subjekt.",
+          uebers: { en: "Choose the right word order." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Ich ___ eine Umarmung. (I get a hug.)",
+          optionen: ["bekomme", "werde", "gebe"], richtig: 0,
+          regel: "Wiederholung (14.11.): bekommen = to get, werden = to become.",
+          uebers: { en: "Choose the right verb." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Dein Deutsch ___ sich gut an.",
+          optionen: ["hört", "klingt", "sagt"], richtig: 0,
+          regel: "Wiederholung (25.10.): sich anhören = to sound: Es hört sich gut an.",
+          uebers: { en: "Choose the right verb (to sound)." }
+        },
+        {
+          typ: "luecke", stufe: 1,
+          text: "Ich lerne seit ___ Jahren Deutsch. (1,5)",
+          antworten: ["eineinhalb", "anderthalb"],
+          regel: "Wiederholung (25.10.): 1,5 = eineinhalb (oder anderthalb).",
+          uebers: { en: "Write 1.5 as a word." }
+        },
+        {
+          typ: "sprechen", stufe: 2,
+          auftrag: "Stell dir vor: Du kündigst deinen Job. Warum? Was machst du danach? Sprich 4 Sätze mit weil. Nimm dich auf und höre dich an.",
+          hinweis: "Ich kündige, weil … / Danach werde ich … / Deswegen … / Ich suche ein neues …",
+          uebers: { en: "Imagine you quit your job. Why? What do you do next? Say 4 sentences with „weil“. Record yourself and listen." }
+        },
+        {
+          typ: "schreiben", stufe: 3,
+          auftrag: "Eine Reise: Wohin möchtest du fahren – in den Norden, Süden, Osten oder Westen? Schreibe 4–5 Sätze.",
+          checkliste: [
+            "Ich habe eine Himmelsrichtung benutzt (im Süden, in den Norden …).",
+            "Ich habe einen Satz mit weil geschrieben (Verb am Ende).",
+            "Ich habe die Küste oder das Geschäft benutzt.",
+            "Ich habe einen Satz mit deswegen geschrieben."
+          ],
+          muster: "Im Sommer möchte ich in den Süden fahren, weil es dort warm ist. Ich liebe die Küste und das Meer. Am Strand ziehe ich sofort die Schuhe aus. In der Stadt gibt es viele kleine Geschäfte, deswegen kaufe ich dort Geschenke.",
+          uebers: { en: "A trip: where would you like to go – north, south, east or west? Write 4–5 sentences." }
+        }
+      ]
     }
   ]
 };

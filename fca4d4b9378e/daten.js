@@ -1132,6 +1132,134 @@ window.HEFT = {
           hinweis: "Ich esse gern … / Am Morgen esse ich … mit … / Wenn ich ehrlich bin, mag ich keine …"
         }
       ]
+    },
+    {
+      id: "2026-11-16",
+      titel: "Ebbe und Flut, schwimmen im Perfekt, sammeln, antreten",
+      vokabeln: [
+        { de: "die Ebbe / die Flut", en: "low tide / high tide", fr: "la marée basse / la marée haute", beispiel: "Im Atlantik gibt es Ebbe und Flut." },
+        { de: "schwimmen (schwamm, ist geschwommen)", en: "to swim", fr: "nager", beispiel: "In Portugal bin ich im Meer geschwommen." },
+        { de: "Mir ist kalt.", en: "I am cold.", fr: "J'ai froid.", beispiel: "Im Atlantik war mir sehr kalt." },
+        { de: "sammeln", en: "to collect, to gather", fr: "ramasser, cueillir ; collectionner", beispiel: "Ich habe in den Bergen Blaubeeren gesammelt." },
+        { de: "die Sammlung, -en", en: "the collection", fr: "la collection", beispiel: "Er hat eine große Briefmarkensammlung." },
+        { de: "antreten (trat an, ist angetreten)", en: "to compete, to take part", fr: "concourir, participer", beispiel: "Unsere Mannschaft tritt bei einem Turnier an." },
+        { de: "gegen (+ Akk.) antreten", en: "to compete against", fr: "affronter", beispiel: "Morgen treten wir gegen eine starke Mannschaft an." },
+        { de: "konkurrieren (mit + Dat.)", en: "to compete (with)", fr: "être en concurrence (avec)", beispiel: "Die beiden Firmen konkurrieren miteinander." },
+        { de: "das Turnier, -e", en: "the tournament", fr: "le tournoi", beispiel: "Das Turnier dauert zwei Tage." }
+      ],
+      aufgaben: [
+        {
+          typ: "zuordnen", stufe: 1,
+          paare: [["die Ebbe", "la marée basse"], ["die Flut", "la marée haute"], ["die Sammlung", "la collection"], ["das Turnier", "le tournoi"]],
+          regel: "Neue Wörter der Stunde."
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Gestern ___ ich im Meer geschwommen.",
+          antworten: ["bin"],
+          regel: "schwimmen – schwamm – ist geschwommen. In Österreich und Süddeutschland immer mit sein; „habe geschwommen“ hört man nur im Norden."
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Wir ___ über den ganzen See geschwommen.",
+          optionen: ["sind", "haben", "werden"], richtig: 0,
+          regel: "Mit Ziel oder Strecke (über den See, ans Ufer) immer sein: Wir sind … geschwommen."
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Das Wasser war 14 Grad. ___ sehr kalt.",
+          optionen: ["Mir war", "Ich war", "Ich hatte"], richtig: 0,
+          regel: "Mir ist kalt / mir war kalt (Dativ) = j'ai froid. „Ich bin kalt“ bedeutet etwas anderes (= unfreundlich)."
+        },
+        {
+          typ: "luecke", stufe: 1,
+          text: "sammeln → die ___",
+          antworten: ["Sammlung"],
+          regel: "Verb → Nomen mit -ung, immer feminin: die Sammlung."
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Im Herbst haben wir im Wald Pilze ___.",
+          optionen: ["gesammelt", "gesammt", "sammelt"], richtig: 0,
+          regel: "sammeln ist regelmäßig: sammelte, hat gesammelt."
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Nächste Woche trete ich bei einem Schachturnier ___.",
+          antworten: ["an"],
+          regel: "antreten ist trennbar: ich trete … an."
+        },
+        {
+          typ: "mc", stufe: 3,
+          frage: "Letztes Jahr ___ ich bei einem Fußballturnier angetreten.",
+          optionen: ["bin", "habe", "wurde"], richtig: 0,
+          regel: "antreten bildet das Perfekt mit sein: Ich bin angetreten."
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Im Finale treten wir ___ eine starke Mannschaft an.",
+          optionen: ["gegen", "mit", "für"], richtig: 0,
+          regel: "gegen + Akkusativ antreten = affronter."
+        },
+        {
+          typ: "satz", stufe: 3,
+          woerter: ["Im", "Finale", "treten", "wir", "gegen", "eine", "starke", "Mannschaft", "an"],
+          loesung: "Im Finale treten wir gegen eine starke Mannschaft an",
+          regel: "Trennbares Verb: treten auf Position 2, an ganz am Ende."
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Die beiden Firmen konkurrieren ___.",
+          optionen: ["miteinander", "füreinander", "aneinander"], richtig: 0,
+          regel: "konkurrieren mit + Dativ: Wir konkurrieren miteinander."
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Ich habe dich gestern ___. (anrufen)",
+          antworten: ["angerufen"],
+          regel: "Wiederholung (13.11.): anrufen – rief an – hat angerufen; anrufen + Akkusativ."
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Ich verstehe dich und ich verzeihe ___.",
+          optionen: ["dir", "dich", "du"], richtig: 0,
+          regel: "Wiederholung (13.11.): verzeihen + Dativ (Person)."
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "___ Himbeere ist rot.",
+          optionen: ["Die", "Der", "Das"], richtig: 0,
+          regel: "Wiederholung (13.11.): Alle Beeren sind feminin: die Beere → die Himbeere."
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Wegen ___ fahren heute keine Züge.",
+          optionen: ["des Streiks", "der Streik", "den Streik"], richtig: 0,
+          regel: "Wiederholung (11.11.): wegen + Genitiv: der Streik → wegen des Streiks."
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Morgen habe ich eine ___ Prüfung. (mündlich)",
+          antworten: ["mündliche"],
+          regel: "Wiederholung (11.11.): eine + Adjektiv + -e (Akkusativ feminin): eine mündliche Prüfung."
+        },
+        {
+          typ: "sprechen", stufe: 2,
+          auftrag: "Erzähl von einem Tag am Meer oder in den Bergen: Bist du geschwommen? Hast du etwas gesammelt? Sprich etwa 1 Minute. Nimm dich auf und höre dich an.",
+          hinweis: "Ich bin … geschwommen. / Mir war kalt / warm. / Bei Ebbe … / Ich habe … gesammelt."
+        },
+        {
+          typ: "schreiben", stufe: 3,
+          auftrag: "Ein Wettkampf: Schreibe 5–6 Sätze über ein Turnier oder einen Test, bei dem du angetreten bist.",
+          checkliste: [
+            "Ich habe antreten im Perfekt mit sein benutzt.",
+            "Ich habe gegen + Akkusativ benutzt.",
+            "Ich habe sammeln oder die Sammlung benutzt.",
+            "Ich habe mir war kalt / warm (Dativ) benutzt."
+          ],
+          muster: "Letzten Sommer bin ich bei einem Volleyballturnier am Strand angetreten. Im ersten Spiel sind wir gegen eine sehr starke Mannschaft angetreten. Es war Ebbe, deshalb war der Strand sehr breit. Nach dem Spiel bin ich im Meer geschwommen, aber mir war sehr kalt. Am Ende haben wir genug Punkte gesammelt und den dritten Platz gewonnen."
+        }
+      ]
     }
   ]
 };

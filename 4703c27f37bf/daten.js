@@ -343,6 +343,147 @@ window.HEFT = {
           hinweis: "Benutze: Zugriff haben auf, auf etwas zugreifen, die Bildung."
         }
       ]
+    },
+    {
+      id: "2026-11-14",
+      titel: "sich einschleichen, suggerieren oder vorschlagen, Fürsorge, gegenüber",
+      vokabeln: [
+        { de: "verwandt (mit + Dat.) / der, die Verwandte", en: "related / the relative", fr: "apparenté / le parent, la parente", beispiel: "Wir sind nicht miteinander verwandt." },
+        { de: "sich einschleichen (schlich sich ein, hat sich eingeschlichen)", en: "to sneak in", fr: "se faufiler, s'introduire", beispiel: "Er hat sich ohne Ticket ins Konzert eingeschlichen." },
+        { de: "abartig (ugs.)", en: "perverse; (colloq.) insanely", fr: "pervers ; (fam.) terriblement", beispiel: "Dieser Sommer war abartig heiß." },
+        { de: "Auskunft geben über (+ Akk.)", en: "to give information about", fr: "renseigner sur", beispiel: "Die Ärztin gibt Auskunft über die Therapie." },
+        { de: "jemandem etwas suggerieren", en: "to insinuate, to make sb believe sth", fr: "suggérer (insinuer), faire croire", beispiel: "Die Werbung suggeriert, dass das Produkt gesund ist." },
+        { de: "vorschlagen (schlug vor, hat vorgeschlagen)", en: "to suggest, to propose", fr: "proposer", beispiel: "Sie hat vorgeschlagen, mehr spazieren zu gehen." },
+        { de: "die Fürsorge / fürsorglich", en: "care / caring", fr: "la sollicitude / attentionné", beispiel: "Sie ist eine sehr fürsorgliche Mutter." },
+        { de: "jemandem am Herzen liegen", en: "to be close to sb's heart", fr: "tenir à cœur à qn", beispiel: "Die Umwelt liegt mir am Herzen." },
+        { de: "gegenüber (+ Dat.)", en: "towards; opposite", fr: "envers ; en face de", beispiel: "Er ist mir gegenüber immer ehrlich." }
+      ],
+      aufgaben: [
+        {
+          typ: "mc", stufe: 2,
+          frage: "Er hat seinen Bruder ___ einem dummen Streich angestiftet.",
+          optionen: ["zu", "für", "an"], richtig: 0,
+          regel: "jemanden zu etwas (Dativ) anstiften."
+        },
+        {
+          typ: "luecke", stufe: 3,
+          text: "Er stiftet mich an, eine Bank ___. (ausrauben, zu-Infinitiv)",
+          antworten: ["auszurauben"],
+          regel: "Bei trennbaren Verben steht zu zwischen Präfix und Verb: aus-zu-rauben, an-zu-stiften."
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Wir haben denselben Großvater. Wir sind ___.",
+          optionen: ["verwandt", "verwandelt", "verwendet"], richtig: 0,
+          regel: "verwandt = related. Nicht verwechseln: verwandeln = to transform, verwenden = to use."
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Bei der Hochzeit waren alle meine ___ da. (der/die Verwandte)",
+          antworten: ["Verwandten"],
+          regel: "der/die Verwandte wird wie ein Adjektiv dekliniert: ein Verwandter, meine Verwandten."
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Gestern hat er sich ohne Ticket ins Konzert ___. (einschleichen)",
+          antworten: ["eingeschlichen"],
+          regel: "schleichen – schlich – geschlichen; trennbar: Er hat sich eingeschlichen."
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Welches Wort ist umgangssprachlich und stark abwertend?",
+          optionen: ["abartig", "außergewöhnlich", "ungewöhnlich"], richtig: 0,
+          regel: "abartig = nicht normal, sehr negativ. Umgangssprachlich auch als Verstärker: abartig heiß. In formellen Texten vermeiden."
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Die Ärztin hat mir Auskunft ___ meine Blutwerte gegeben.",
+          antworten: ["über"],
+          regel: "Auskunft geben über + Akkusativ."
+        },
+        {
+          typ: "mc", stufe: 3,
+          frage: "Die Therapeutin hat ihm ___, mehr nach draußen zu gehen.",
+          optionen: ["vorgeschlagen", "suggeriert", "angestiftet"], richtig: 0,
+          regel: "Falscher Freund: to suggest = vorschlagen (oder raten). suggerieren = jemandem etwas einreden, einen (oft falschen) Eindruck erzeugen."
+        },
+        {
+          typ: "mc", stufe: 3,
+          frage: "Die Werbung ___, dass Schokolade gesund ist.",
+          optionen: ["suggeriert", "schlägt vor", "stiftet an"], richtig: 0,
+          regel: "suggerieren = einen Eindruck erzeugen, der oft nicht stimmt."
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Sie kümmert sich liebevoll um alle. Sie ist sehr ___.",
+          antworten: ["fürsorglich"],
+          regel: "die Fürsorge → fürsorglich (caring)."
+        },
+        {
+          typ: "satz", stufe: 3,
+          woerter: ["Wem", "die", "Umwelt", "am", "Herzen", "liegt,", "der", "fährt", "mehr", "Fahrrad"],
+          loesung: "Wem die Umwelt am Herzen liegt, der fährt mehr Fahrrad",
+          regel: "Wem …, der …: Im ersten Teil steht das Verb am Ende (liegt), im zweiten Teil direkt nach der (fährt)."
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Er ist ___ immer ehrlich.",
+          optionen: ["mir gegenüber", "gegenüber mich", "gegen mir"], richtig: 0,
+          regel: "gegenüber + Dativ. Nach Personalpronomen steht gegenüber immer hinten: mir gegenüber, ihr gegenüber."
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Der Bürgermeister ist ___ Bürgern gegenüber sehr fürsorglich. (sein)",
+          antworten: ["seinen"],
+          regel: "gegenüber + Dativ Plural: seinen Bürgern. Bei Nomen geht auch: gegenüber seinen Bürgern."
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Die Wohnung liegt außerhalb ___ Stadt.",
+          antworten: ["der"],
+          regel: "Wiederholung (23.10.): außerhalb + Genitiv: die Stadt → außerhalb der Stadt."
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Ich stufe ihn ___ sehr zuverlässig ein.",
+          optionen: ["als", "wie", "für"], richtig: 0,
+          regel: "Wiederholung (23.10.): jemanden als etwas einstufen."
+        },
+        {
+          typ: "luecke", stufe: 3,
+          text: "Sie zögert, den Vertrag ___. (unterschreiben)",
+          antworten: ["zu unterschreiben"],
+          regel: "Wiederholung (23.10.): zögern + zu + Infinitiv. unterschreiben ist nicht trennbar: zu unterschreiben."
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Frankreich ist ein ___ Staat.",
+          optionen: ["säkularer", "säkulares", "säkularen"], richtig: 0,
+          regel: "Wiederholung (07.11.): ein + Adjektiv + maskulines Nomen (Nominativ): ein säkularer Staat."
+        },
+        {
+          typ: "luecke", stufe: 1,
+          text: "Ich habe keinen Zugriff ___ meine E-Mails.",
+          antworten: ["auf"],
+          regel: "Wiederholung (07.11.): Zugriff haben auf + Akkusativ."
+        },
+        {
+          typ: "sprechen", stufe: 2,
+          auftrag: "Was liegt dir am Herzen? Wem gegenüber bist du besonders fürsorglich, und warum? Sprich 1–2 Minuten. Nimm dich auf und höre dich an.",
+          hinweis: "Mir liegt … am Herzen. / Wem … am Herzen liegt, der … / Meiner Familie gegenüber bin ich … / Ich habe einmal vorgeschlagen, …"
+        },
+        {
+          typ: "schreiben", stufe: 3,
+          auftrag: "Ein Freund wollte dich zu etwas Dummem anstiften. Was ist passiert? Schreibe 6–8 Sätze.",
+          checkliste: [
+            "Ich habe jemanden zu etwas anstiften benutzt.",
+            "Ich habe vorschlagen und suggerieren richtig benutzt.",
+            "Ich habe gegenüber + Dativ benutzt.",
+            "Ich habe einen Satz mit Wem …, der … geschrieben."
+          ],
+          muster: "Letztes Jahr wollte mich ein Freund zu einer dummen Idee anstiften: Wir sollten uns ohne Ticket in ein Konzert einschleichen. Er hat mir suggeriert, dass das alle machen, aber das stimmte nicht. Ich habe vorgeschlagen, lieber günstige Tickets zu suchen. Meinen Freunden gegenüber bin ich loyal, aber auch ehrlich. Wem seine Freunde am Herzen liegen, der sagt auch einmal Nein. Am Ende haben wir Tickets gekauft und hatten einen tollen Abend."
+        }
+      ]
     }
   ]
 };
