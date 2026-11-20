@@ -455,6 +455,167 @@ window.HEFT = {
           uebers: { fr: "Écris 4 phrases : qu'est-ce qui est important pour la santé ?" }
         }
       ]
+    },
+    {
+      id: "2026-11-20",
+      titel: "besser und schlechter, Schulfächer, Unfall und Verletzung, dass",
+      vokabeln: [
+        { de: "der Arm", fr: "le bras", en: "the arm", beispiel: "Mein Arm tut weh." },
+        { de: "besser / schlechter", fr: "mieux, meilleur / pire, moins bien", en: "better / worse", beispiel: "Heute geht es mir besser." },
+        { de: "das Fach, die Fächer", fr: "la matière (à l'école)", en: "the school subject", beispiel: "Welche Fächer hast du heute?" },
+        { de: "der / die / das einzige", fr: "le seul / la seule", en: "the only", beispiel: "Französisch war das einzige Fach ohne Test." },
+        { de: "die Verletzung", fr: "la blessure", en: "the injury", beispiel: "Wie ist die Verletzung passiert?" },
+        { de: "rutschig", fr: "glissant", en: "slippery", beispiel: "Das Tor ist nass und rutschig." },
+        { de: "der Schmerz, die Schmerzen", fr: "la douleur", en: "the pain", beispiel: "Ich habe Schmerzen im Arm." },
+        { de: "das Krankenhaus", fr: "l'hôpital", en: "the hospital", beispiel: "Nach dem Unfall war er im Krankenhaus." },
+        { de: "vorher", fr: "avant", en: "before", beispiel: "Jetzt habe ich keine Angst, aber vorher hatte ich Angst." },
+        { de: "Gute Besserung!", fr: "Bon rétablissement !", en: "Get well soon!", beispiel: "Du bist krank? Gute Besserung!" }
+      ],
+      aufgaben: [
+        {
+          typ: "zuordnen", stufe: 1,
+          paare: [["der Arm", "le bras"], ["die Verletzung", "la blessure"], ["das Krankenhaus", "l'hôpital"], ["rutschig", "glissant"]],
+          regel: "Vier Wörter aus der Stunde.",
+          uebers: { fr: "Associe les mots allemands aux mots français." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Die Schule ist ___ als der Kindergarten.",
+          optionen: ["schlechter", "schlecht", "gut"], richtig: 0,
+          regel: "Vergleich: schlechter als = pire que, besser als = meilleur que.",
+          uebers: { fr: "Choisis le bon mot (« pire que »)." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Mein Arm tut nicht mehr so weh. Es geht mir ___.",
+          optionen: ["besser", "schlechter", "krank"], richtig: 0,
+          regel: "Es geht mir besser = je vais mieux.",
+          uebers: { fr: "Choisis le bon mot (« je vais mieux »)." }
+        },
+        {
+          typ: "luecke", stufe: 1,
+          text: "Ich ___ am Sonntag beim Friseur. (sein, passé)",
+          antworten: ["war"],
+          regel: "sein in der Vergangenheit: ich war, du warst, er war.",
+          uebers: { fr: "Complète avec « sein » au passé (j'étais)." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Wann ___ du beim Friseur?",
+          optionen: ["warst", "war", "bist"], richtig: 0,
+          regel: "du warst = tu étais.",
+          uebers: { fr: "Choisis la bonne forme (« tu étais »)." }
+        },
+        {
+          typ: "luecke", stufe: 1,
+          text: "Welche ___ hattest du heute? – Englisch, Physik und Biologie. (das Fach, Plural)",
+          antworten: ["Fächer"],
+          regel: "das Fach → die Fächer (mit Umlaut).",
+          uebers: { fr: "Écris le pluriel de « das Fach » (la matière)." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Französisch war das ___ Fach ohne Test.",
+          optionen: ["einzige", "einzig", "einzigen"], richtig: 0,
+          regel: "das einzige Fach = la seule matière.",
+          uebers: { fr: "Choisis le bon mot (« la seule matière »)." }
+        },
+        {
+          typ: "satz", stufe: 2,
+          woerter: ["Ich", "weiß,", "dass", "ich", "Deutsch", "kann"],
+          loesung: "Ich weiß, dass ich Deutsch kann",
+          regel: "dass = que. Nach dass steht das Verb am Ende.",
+          uebers: { fr: "Mets les mots dans le bon ordre." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Der Englischtest ___ eine Stunde.",
+          optionen: ["dauert", "dauern", "dauerst"], richtig: 0,
+          regel: "dauern = durer: der Test dauert.",
+          uebers: { fr: "Choisis la bonne forme de « dauern » (durer)." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "30 Minuten = eine ___ Stunde.",
+          optionen: ["halbe", "halb", "halben"], richtig: 0,
+          regel: "eine halbe Stunde = une demi-heure.",
+          uebers: { fr: "Choisis le bon mot (« une demi-heure »)." }
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Das Tor ist nass und ___. Ich bin gefallen. (glissant)",
+          antworten: ["rutschig"],
+          regel: "rutschig = glissant; rutschen = glisser; die Rutsche = le toboggan.",
+          uebers: { fr: "Écris le mot allemand pour « glissant »." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Es brennt! Ruf die ___!",
+          optionen: ["Feuerwehr", "Schule", "Rutsche"], richtig: 0,
+          regel: "die Feuerwehr = les pompiers; das Feuer = le feu.",
+          uebers: { fr: "Choisis le bon mot (« les pompiers »)." }
+        },
+        {
+          typ: "mc", stufe: 3,
+          frage: "Jetzt habe ich keine Angst, aber vorher ___ Angst.",
+          optionen: ["hatte ich", "ich hatte", "ich habe"], richtig: 0,
+          regel: "vorher steht vorne, dann kommt das Verb: vorher hatte ich (= j'avais) Angst.",
+          uebers: { fr: "Choisis le bon ordre (« avant, j'avais peur »)." }
+        },
+        {
+          typ: "luecke", stufe: 1,
+          text: "Du bist krank? Gute ___!",
+          antworten: ["Besserung"],
+          regel: "Gute Besserung! = Bon rétablissement !",
+          uebers: { fr: "Complète : « Bon rétablissement ! »" }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Ich lerne Deutsch zusammen mit ___ Bruder.",
+          optionen: ["meinem", "mein", "meinen"], richtig: 0,
+          regel: "Wiederholung (16.10.): mit + Dativ: der Bruder → mit meinem Bruder.",
+          uebers: { fr: "Choisis la bonne forme (« avec mon frère »)." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Ich mag alle Sportarten, ___ Gymnastik.",
+          optionen: ["außer", "mit", "zwischen"], richtig: 0,
+          regel: "Wiederholung (16.10.): außer = sauf.",
+          uebers: { fr: "Choisis le bon mot (« sauf »)." }
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Hast du ___ Wochenende Hausübung? (ce week-end)",
+          antworten: ["dieses"],
+          regel: "Wiederholung (16.10.): das Wochenende → dieses Wochenende; der → dieser, die → diese.",
+          uebers: { fr: "Complète : « ce week-end »." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Mein Freund hat beim Test ___.",
+          optionen: ["geschummelt", "schummelt", "geschummeln"], richtig: 0,
+          regel: "Wiederholung (16.10.): schummeln (tricher) → er hat geschummelt.",
+          uebers: { fr: "Choisis la bonne forme (« il a triché »)." }
+        },
+        {
+          typ: "sprechen", stufe: 2,
+          auftrag: "Erzähle von deinem Schultag: Welche Fächer hattest du? Wie lange dauern die Tests? Sprich 4 Sätze. Nimm dich auf und höre dich an.",
+          hinweis: "Heute hatte ich … / Der Test dauert … / … war das einzige Fach ohne …",
+          uebers: { fr: "Raconte ta journée d'école : quelles matières ? combien de temps durent les tests ? Dis 4 phrases. Enregistre-toi et écoute-toi." }
+        },
+        {
+          typ: "schreiben", stufe: 3,
+          auftrag: "Ein Freund hatte einen Unfall. Schreibe ihm eine Nachricht mit 4 Sätzen.",
+          checkliste: [
+            "Ich habe Gute Besserung! geschrieben.",
+            "Ich habe Schmerzen oder Verletzung benutzt.",
+            "Ich habe eine Frage gestellt (Wie …? Wann …?).",
+            "Jeder Satz beginnt groß und endet mit einem Punkt oder Fragezeichen."
+          ],
+          muster: "Hallo Tom! Ich habe gehört, dass du einen Unfall hattest. Wie ist das passiert? Hast du noch Schmerzen? Gute Besserung!",
+          uebers: { fr: "Un ami a eu un accident. Écris-lui un message de 4 phrases." }
+        }
+      ]
     }
   ]
 };

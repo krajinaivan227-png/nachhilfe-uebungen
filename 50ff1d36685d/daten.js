@@ -243,6 +243,146 @@ window.HEFT = {
           muster: "In 20 Jahren wird es weniger Autos geben. Die Luftverschmutzung wird kleiner sein. Wenn es weniger Staus gibt, werden die Menschen schneller ankommen. Viele Forscher werden neue Medikamente finden. Die Lebenserwartung wird weiter steigen."
         }
       ]
+    },
+    {
+      id: "2026-11-20",
+      titel: "sich etwas vorstellen, Futur mit werden, enttäuscht von, schütten/schütteln",
+      vokabeln: [
+        { de: "sich (Dat.) etwas vorstellen", fr: "imaginer qc", en: "to imagine sth", beispiel: "Ich kann mir ein Leben ohne Kunst nicht vorstellen." },
+        { de: "der Künstler / die Künstlerin", fr: "l'artiste", en: "the artist", beispiel: "Die Künstlerin malt große Bilder." },
+        { de: "ausverkauft", fr: "complet, épuisé", en: "sold out", beispiel: "Alle Karten waren ausverkauft." },
+        { de: "überall", fr: "partout", en: "everywhere", beispiel: "In der Stadt gibt es überall Baustellen." },
+        { de: "schmutzig / sauber", fr: "sale / propre", en: "dirty / clean", beispiel: "Die Straße ist sehr schmutzig." },
+        { de: "bevorzugen", fr: "préférer", en: "to prefer", beispiel: "Ich bevorzuge Tee, weil Kaffee zu stark ist." },
+        { de: "die Regierung", fr: "le gouvernement", en: "the government", beispiel: "Die Regierung hat ein neues Gesetz beschlossen." },
+        { de: "enttäuscht von (+ Dat.)", fr: "déçu de / par", en: "disappointed with", beispiel: "Viele Leute sind vom Präsidenten enttäuscht." },
+        { de: "die Wahl / wählen", fr: "l'élection / voter", en: "the election / to vote", beispiel: "Nächstes Jahr werde ich wählen." },
+        { de: "schütten / schütteln", fr: "pleuvoir à verse / secouer", en: "to pour (rain) / to shake", beispiel: "Es schüttet! Wir schütteln den Regenschirm." }
+      ],
+      aufgaben: [
+        {
+          typ: "zuordnen", stufe: 1,
+          paare: [["überall", "partout"], ["schmutzig", "sale"], ["sauber", "propre"], ["bevorzugen", "préférer"]],
+          regel: "schmutzig (oder dreckig) ↔ sauber; davon kommt die Sauberkeit."
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Ich kann ___ ein Leben ohne Musik nicht vorstellen.",
+          antworten: ["mir"],
+          regel: "sich (Dativ) etwas vorstellen = imaginer: ich stelle mir etwas vor."
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Stell ___ vor: Morgen hast du frei!",
+          optionen: ["dir", "dich", "du"], richtig: 0,
+          regel: "sich (Dativ) etwas vorstellen: Stell dir vor! = Imagine !"
+        },
+        {
+          typ: "mc", stufe: 3,
+          frage: "Darf ich ___ vorstellen? Ich heiße Eugenie.",
+          optionen: ["mich", "mir", "sich"], richtig: 0,
+          regel: "sich (Akk.) vorstellen = se présenter. sich (Dat.) etwas vorstellen = imaginer qc."
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Für das Konzert gibt es keine Karten mehr. Sie sind ___.",
+          optionen: ["ausverkauft", "verkaufen", "eingekauft"], richtig: 0,
+          regel: "ausverkauft = complet (es gibt keine Karten mehr)."
+        },
+        {
+          typ: "luecke", stufe: 1,
+          text: "Ich ___ morgen wählen. (werden)",
+          antworten: ["werde"],
+          regel: "Futur: werden + Infinitiv am Ende: ich werde wählen."
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Wir ___ nächstes Jahr nach Wien fahren. (werden)",
+          antworten: ["werden"],
+          regel: "ich werde, du wirst, er/sie/es wird, wir werden, ihr werdet, sie werden."
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Du ___ sicher eine gute Künstlerin.",
+          optionen: ["wirst", "wird", "werdest"], richtig: 0,
+          regel: "werden: du wirst, er/sie wird. Hier bedeutet werden = devenir."
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Viele Leute sind ___ Präsidenten enttäuscht.",
+          optionen: ["vom", "von", "von der"], richtig: 0,
+          regel: "enttäuscht von + Dativ: der Präsident → vom Präsidenten (der Präsident bekommt -en)."
+        },
+        {
+          typ: "satz", stufe: 2,
+          woerter: ["Ich", "bevorzuge", "Tee,", "weil", "Kaffee", "zu", "stark", "ist"],
+          loesung: "Ich bevorzuge Tee, weil Kaffee zu stark ist",
+          regel: "bevorzugen + Akkusativ; nach weil steht das Verb am Ende."
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Es regnet sehr, sehr stark. Es ___.",
+          optionen: ["schüttet", "schüttelt", "tröpfelt"], richtig: 0,
+          regel: "es schüttet = es regnet sehr stark; es tröpfelt = nur ein bisschen; schütteln = secouer."
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Zur Begrüßung schütteln wir uns die ___.",
+          antworten: ["Hände", "Hand"],
+          regel: "sich die Hände schütteln = se serrer la main."
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Die ___ regiert das Land.",
+          optionen: ["Regierung", "Wahl", "Wählerschaft"], richtig: 0,
+          regel: "regieren → die Regierung; wählen → die Wahl, die Wählerschaft."
+        },
+        {
+          typ: "zuordnen", stufe: 2,
+          paare: [["die Wahl", "l'élection"], ["die Wählerschaft", "l'électorat"], ["die Enttäuschung", "la déception"], ["die Neuigkeit", "la nouvelle"]],
+          regel: "Viele Nomen auf -ung, -schaft und -keit sind feminin: die."
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Ich habe Angst ___ Hund.",
+          optionen: ["vor dem", "vor den", "für den"], richtig: 0,
+          regel: "Wiederholung (06.10.): Angst haben vor + Dativ: der Hund → vor dem Hund."
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Ich habe gestern an einem Kurs ___. (teilnehmen, Perfekt)",
+          antworten: ["teilgenommen"],
+          regel: "Wiederholung (06.10.): teilnehmen an + Dativ – hat teilgenommen."
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Auf der Autobahn gibt es einen langen ___.",
+          optionen: ["Stau", "Sturm", "Vorort"], richtig: 0,
+          regel: "Wiederholung (29.09.): der Stau = l'embouteillage."
+        },
+        {
+          typ: "satz", stufe: 2,
+          woerter: ["Wenn", "es", "schneit,", "bleibe", "ich", "zu", "Hause"],
+          loesung: "Wenn es schneit, bleibe ich zu Hause",
+          regel: "Wiederholung (06.10.): Nach dem wenn-Satz kommt zuerst das Verb: …, bleibe ich …"
+        },
+        {
+          typ: "sprechen", stufe: 2,
+          auftrag: "Welche Stadt bevorzugst du und warum? Sprich etwa 1 Minute. Nimm dich auf und höre dich an.",
+          hinweis: "Ich bevorzuge …, weil … / Überall gibt es … / Ich kann mir vorstellen, dort zu wohnen."
+        },
+        {
+          typ: "schreiben", stufe: 3,
+          auftrag: "Wie wird deine Stadt in 20 Jahren aussehen? Schreibe 5 Sätze im Futur.",
+          checkliste: [
+            "Ich habe werden + Infinitiv benutzt (Infinitiv am Ende).",
+            "Ich habe sich etwas vorstellen benutzt.",
+            "Ich habe überall, sauber oder schmutzig benutzt.",
+            "Ich habe die Regierung oder die Wahl benutzt."
+          ],
+          muster: "In 20 Jahren wird meine Stadt sauberer sein. Es wird überall Bäume und Fahrradwege geben. Ich kann mir vorstellen, dass es weniger Autos geben wird. Die Regierung wird mehr Geld für Kunst ausgeben. Viele Künstler werden in der Stadt wohnen."
+        }
+      ]
     }
   ]
 };

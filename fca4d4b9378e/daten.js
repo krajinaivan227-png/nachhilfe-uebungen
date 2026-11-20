@@ -1260,6 +1260,141 @@ window.HEFT = {
           muster: "Letzten Sommer bin ich bei einem Volleyballturnier am Strand angetreten. Im ersten Spiel sind wir gegen eine sehr starke Mannschaft angetreten. Es war Ebbe, deshalb war der Strand sehr breit. Nach dem Spiel bin ich im Meer geschwommen, aber mir war sehr kalt. Am Ende haben wir genug Punkte gesammelt und den dritten Platz gewonnen."
         }
       ]
+    },
+    {
+      id: "2026-11-20",
+      titel: "Erinnerung an, sich Sorgen machen, angenehm/unangenehm, Läden",
+      vokabeln: [
+        { de: "schwanken", fr: "vaciller, tanguer", en: "to sway", beispiel: "Das Schiff schwankt, aber es geht nicht unter." },
+        { de: "untergehen (ging unter, ist untergegangen)", fr: "couler, sombrer", en: "to sink", beispiel: "Die Titanic ist 1912 untergegangen." },
+        { de: "die Erinnerung an (+ Akk.)", fr: "le souvenir de", en: "the memory of", beispiel: "Ich habe eine schöne Erinnerung an den Urlaub." },
+        { de: "der Anschlag, die Anschläge", fr: "l'attentat", en: "the attack", beispiel: "Ich erinnere mich nicht an den Anschlag in Paris." },
+        { de: "der Kater, -", fr: "le chat (mâle)", en: "the tomcat", beispiel: "Mein Kater hat die ganze Nacht miaut." },
+        { de: "der Laden, die Läden", fr: "le magasin, la boutique", en: "the shop", beispiel: "Am Sonntag sind die Läden geschlossen." },
+        { de: "günstig", fr: "bon marché, avantageux", en: "cheap, good value", beispiel: "Im Supermarkt ist das Brot günstiger." },
+        { de: "angenehm / unangenehm", fr: "agréable / désagréable", en: "pleasant / unpleasant", beispiel: "Das Wetter ist heute sehr angenehm." },
+        { de: "der Kommilitone / die Kommilitonin", fr: "le camarade / la camarade d'études", en: "the fellow student", beispiel: "Meine Kommilitonin hilft mir beim Lernen." },
+        { de: "sich Sorgen machen (um + Akk.)", fr: "s'inquiéter (pour)", en: "to worry (about)", beispiel: "Mach dir keine Sorgen!" }
+      ],
+      aufgaben: [
+        {
+          typ: "zuordnen", stufe: 1,
+          paare: [["angenehm", "agréable"], ["unangenehm", "désagréable"], ["günstig", "bon marché"], ["die Sorge", "le souci"]],
+          regel: "un- macht oft das Gegenteil: angenehm ↔ unangenehm."
+        },
+        {
+          typ: "luecke", stufe: 1,
+          text: "Ich erinnere mich gern ___ meine Schulzeit.",
+          antworten: ["an"],
+          regel: "sich erinnern an + Akkusativ."
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Ich habe keine Erinnerung an ___ Anschlag.",
+          optionen: ["den", "dem", "der"], richtig: 0,
+          regel: "die Erinnerung an + Akkusativ: der Anschlag → an den Anschlag."
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Das Schiff ist im Sturm ___.",
+          optionen: ["untergegangen", "untergehen", "unterging"], richtig: 0,
+          regel: "untergehen – ging unter – ist untergegangen (Perfekt mit sein)."
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Ich ___ Briefmarken. (sammeln, Präsens)",
+          antworten: ["sammle", "sammele"],
+          regel: "Verben auf -eln: ich sammle (das e fällt meistens weg), du sammelst, er sammelt."
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Mein Kater ___ jeden Morgen vor der Tür.",
+          optionen: ["miaut", "miauet", "miaust"], richtig: 0,
+          regel: "miauen: er/sie/es miaut. Perfekt: hat miaut."
+        },
+        {
+          typ: "luecke", stufe: 1,
+          text: "Am Sonntag sind fast alle ___ geschlossen. (der Laden, Plural)",
+          antworten: ["Läden"],
+          regel: "der Laden → die Läden (mit Umlaut)."
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Dieses Hotel ist ___ als das andere.",
+          optionen: ["günstiger", "günstig", "am günstigsten"], richtig: 0,
+          regel: "Komparativ + als: günstig → günstiger als. billig und günstig bedeuten fast dasselbe, günstig klingt positiver."
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Er studiert mit mir an der Uni. Er ist mein ___.",
+          optionen: ["Kommilitone", "Kommilitonin", "Kommilitonen"], richtig: 0,
+          regel: "der Kommilitone (Mann), die Kommilitonin (Frau), die Kommilitonen (Plural)."
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Mach ___ keine Sorgen! Alles wird gut.",
+          antworten: ["dir"],
+          regel: "sich (Dativ) Sorgen machen: Mach dir keine Sorgen! = Ne t'inquiète pas !"
+        },
+        {
+          typ: "mc", stufe: 3,
+          frage: "Meine Eltern machen sich Sorgen ___ mich.",
+          optionen: ["um", "für", "an"], richtig: 0,
+          regel: "sich Sorgen machen um + Akkusativ."
+        },
+        {
+          typ: "satz", stufe: 3,
+          woerter: ["Es", "ist", "mir", "unangenehm,", "dass", "ich", "zu", "spät", "komme"],
+          loesung: "Es ist mir unangenehm, dass ich zu spät komme",
+          regel: "Es ist mir unangenehm, dass … – im Nebensatz steht das Verb am Ende."
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Ich ___ gestern im Meer geschwommen.",
+          optionen: ["bin", "bist", "sind"], richtig: 0,
+          regel: "Wiederholung (16.11.): schwimmen – ich bin geschwommen (mit sein ist besser als mit haben)."
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Beim Turnier trete ich ___ meinen Bruder an.",
+          antworten: ["gegen"],
+          regel: "Wiederholung (16.11.): gegen + Akkusativ antreten."
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Ich verstehe dich und ich verzeihe ___.",
+          optionen: ["dir", "dich", "du"], richtig: 0,
+          regel: "Wiederholung (13.11.): verzeihen + Dativ: ich verzeihe dir."
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Die Feuerwehr hat das Feuer ___.",
+          optionen: ["gelöscht", "gelöschen", "löschte"], richtig: 0,
+          regel: "Wiederholung (13.11.): löschen – hat gelöscht."
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Der ___ (l'arbitre) hat das Spiel abgepfiffen.",
+          antworten: ["Schiedsrichter"],
+          regel: "Wiederholung (11.11.): der Schiedsrichter = l'arbitre; der Richter = le juge."
+        },
+        {
+          typ: "sprechen", stufe: 2,
+          auftrag: "Erzähle von einer schönen oder einer unangenehmen Erinnerung an deine Schul- oder Studienzeit. Sprich etwa 1 Minute. Nimm dich auf und höre dich an.",
+          hinweis: "Ich habe eine schöne Erinnerung an … / Es war mir unangenehm, dass … / Meine Kommilitonen …"
+        },
+        {
+          typ: "schreiben", stufe: 3,
+          auftrag: "Ein Freund hat Angst vor einer Prüfung. Schreibe ihm eine kurze Nachricht (5 Sätze).",
+          checkliste: [
+            "Ich habe Mach dir keine Sorgen! oder sich Sorgen machen um benutzt.",
+            "Ich habe angenehm oder unangenehm benutzt.",
+            "Ich habe die Erinnerung an + Akkusativ benutzt.",
+            "Im Nebensatz (dass, weil) steht das Verb am Ende."
+          ],
+          muster: "Hallo Paul, mach dir keine Sorgen wegen der Prüfung! Ich habe eine gute Erinnerung an meine eigene Prüfung: Am Anfang war es unangenehm, aber dann ging alles gut. Du hast viel gelernt, deshalb bin ich sicher, dass du es schaffst. Danach gehen wir in ein günstiges Lokal essen. Viel Glück!"
+        }
+      ]
     }
   ]
 };

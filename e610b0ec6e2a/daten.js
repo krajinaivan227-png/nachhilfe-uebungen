@@ -607,6 +607,172 @@ window.HEFT = {
           uebers: { en: "Where do you like to buy clothes? Write 4 sentences." }
         }
       ]
+    },
+    {
+      id: "2026-11-20",
+      titel: "Kunden, sich freuen, ab sofort, Wörter mit -bar und -zeug",
+      vokabeln: [
+        { de: "falten", en: "to fold", fr: "plier", beispiel: "Ich muss die Kleidung falten." },
+        { de: "der Kunde / die Kundin", en: "the customer", fr: "le client / la cliente", beispiel: "Der Kunde möchte eine Hose kaufen." },
+        { de: "respektieren (+ Akk.)", en: "to respect", fr: "respecter", beispiel: "Ich respektiere meine Lehrerin." },
+        { de: "sich freuen", en: "to be happy (about)", fr: "se réjouir, être content", beispiel: "Ich freue mich, dass du da bist." },
+        { de: "ab sofort", en: "from now on", fr: "dès maintenant, désormais", beispiel: "Ab sofort lerne ich jeden Tag Deutsch." },
+        { de: "der Grund", en: "the reason", fr: "la raison", beispiel: "Ich weiß den Grund nicht." },
+        { de: "bestellen", en: "to order", fr: "commander", beispiel: "Ich bestelle ein Frühstück." },
+        { de: "das Trinkgeld", en: "the tip", fr: "le pourboire", beispiel: "Im Restaurant gebe ich Trinkgeld." },
+        { de: "ausprobieren", en: "to try (out)", fr: "essayer", beispiel: "Ich will Kaiserschmarrn ausprobieren." },
+        { de: "teuer / billig", en: "expensive / cheap", fr: "cher / bon marché", beispiel: "Das Hotel ist teuer, das Hostel ist billig." }
+      ],
+      aufgaben: [
+        {
+          typ: "zuordnen", stufe: 1,
+          paare: [["falten", "to fold"], ["bestellen", "to order"], ["ausprobieren", "to try out"], ["respektieren", "to respect"]],
+          regel: "Vier Verben aus der Stunde.",
+          uebers: { en: "Match the German verbs with the English ones." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Ein Mann kauft in unserem Geschäft ein. Er ist ein ___.",
+          optionen: ["Kunde", "Kundin", "Kunden"], richtig: 0,
+          regel: "der Kunde = ein Mann, die Kundin = eine Frau, die Kunden = Plural.",
+          uebers: { en: "Choose the right word (one male customer)." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Heute sind viele ___ im Geschäft.",
+          optionen: ["Kunden", "Kunde", "Kundin"], richtig: 0,
+          regel: "viele + Plural: der Kunde → die Kunden.",
+          uebers: { en: "Choose the right word (many customers)." }
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Ich freue ___, dass du heute Zeit hast.",
+          antworten: ["mich"],
+          regel: "sich freuen: ich freue mich, du freust dich, er/sie freut sich.",
+          uebers: { en: "Fill in the missing word (“I am happy that …”)." }
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Du freust ___, dass bald Wochenende ist.",
+          antworten: ["dich"],
+          regel: "sich freuen: du freust dich.",
+          uebers: { en: "Fill in the missing word (“you are happy that …”)." }
+        },
+        {
+          typ: "satz", stufe: 2,
+          woerter: ["Ich", "würde", "sagen,", "dass", "der", "Döner", "lecker", "ist"],
+          loesung: "Ich würde sagen, dass der Döner lecker ist",
+          regel: "Ich würde sagen = I would say. Nach dass steht das Verb am Ende.",
+          uebers: { en: "Put the words in the right order." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Ab sofort ___ jeden Tag Deutsch.",
+          optionen: ["lerne ich", "ich lerne", "lernen ich"], richtig: 0,
+          regel: "Ab sofort steht auf Position 1, dann kommt das Verb (Position 2): Ab sofort lerne ich …",
+          uebers: { en: "Choose the right word order (“From now on I learn …”)." }
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Wenn du nach Amerika kommst, dann ___ du Trinkgeld geben. (müssen)",
+          antworten: ["musst"],
+          regel: "Nach dann kommt das Verb: dann musst du … geben.",
+          uebers: { en: "Fill in the correct form of “müssen” (must)." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Ich weiß ___ nicht.",
+          optionen: ["den Grund", "der Grund", "dem Grund"], richtig: 0,
+          regel: "wissen + Akkusativ: der Grund → Ich weiß den Grund nicht.",
+          uebers: { en: "Choose the right form (“I don't know the reason”)." }
+        },
+        {
+          typ: "zuordnen", stufe: 2,
+          paare: [["spielbar", "playable"], ["machbar", "doable"], ["erreichbar", "reachable"]],
+          regel: "Verb ohne -en + -bar = man kann es machen: spielen → spielbar, machen → machbar.",
+          uebers: { en: "Match the words with -bar (= “-able”)." }
+        },
+        {
+          typ: "luecke", stufe: 3,
+          text: "Man kann das Spiel jetzt spielen. Es ist ___.",
+          antworten: ["spielbar"],
+          regel: "spielen → spielbar (= playable).",
+          uebers: { en: "Make a word with -bar (“playable”)." }
+        },
+        {
+          typ: "zuordnen", stufe: 1,
+          paare: [["das Spielzeug", "the toy"], ["das Flugzeug", "the plane"], ["das Fahrzeug", "the vehicle"]],
+          regel: "Wörter mit -zeug sind immer neutral: das …zeug.",
+          uebers: { en: "Match the words with -zeug." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Ein Hotel für 400 Euro pro Nacht ist sehr ___.",
+          optionen: ["teuer", "billig", "offen"], richtig: 0,
+          regel: "teuer = expensive, billig = cheap.",
+          uebers: { en: "Choose the right word." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "___ Woche gehe ich ins Fitnessstudio.",
+          optionen: ["Jede", "Jeden", "Jedes"], richtig: 0,
+          regel: "jede Woche (die), jeden Tag (der), jedes Jahr (das).",
+          uebers: { en: "Choose the right form of “every”." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Das Geschäft ist ___ nicht offen. Es öffnet morgen.",
+          optionen: ["noch", "schon", "mehr"], richtig: 0,
+          regel: "Wiederholung (12.11.): noch nicht = not yet.",
+          uebers: { en: "Choose the right word (“not yet”)." }
+        },
+        {
+          typ: "satz", stufe: 2,
+          woerter: ["Ich", "hoffe,", "dass", "du", "bald", "kommst"],
+          loesung: "Ich hoffe, dass du bald kommst",
+          regel: "Wiederholung (12.11.): Ich hoffe, dass … + Verb am Ende.",
+          uebers: { en: "Put the words in the right order." }
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Ich gehe ins Geschäft, ___ eine Hose zu kaufen.",
+          antworten: ["um"],
+          regel: "Wiederholung (05.11.): um … zu + Infinitiv = in order to.",
+          uebers: { en: "Fill in the missing word (“in order to”)." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Ich wohne ___ dritten Stock.",
+          optionen: ["im", "in", "am"], richtig: 0,
+          regel: "Wiederholung (05.11.): der Stock → im (= in dem) dritten Stock.",
+          uebers: { en: "Choose the right word (“on the third floor”)." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Willst du noch ___ Döner?",
+          optionen: ["einen", "ein", "eine"], richtig: 0,
+          regel: "Wiederholung (05.11.): der Döner → Akkusativ: noch einen Döner.",
+          uebers: { en: "Choose the right form (“one more döner”)." }
+        },
+        {
+          typ: "sprechen", stufe: 2,
+          auftrag: "Welches Essen hast du schon ausprobiert? Was willst du noch ausprobieren? Sprich 4 Sätze. Nimm dich auf und höre dich an.",
+          hinweis: "Ich habe schon … ausprobiert. / Ich will … ausprobieren. / Ich freue mich, dass … / Ab sofort …",
+          uebers: { en: "Which food have you already tried? What do you still want to try? Say 4 sentences. Record yourself and listen." }
+        },
+        {
+          typ: "schreiben", stufe: 3,
+          auftrag: "Du arbeitest in einem Kleidungsgeschäft. Schreibe 4 Sätze über deine Arbeit und die Kunden.",
+          checkliste: [
+            "Ich habe Kunde, Kundin oder Kunden benutzt.",
+            "Ich habe einen Satz mit sich freuen geschrieben.",
+            "Ich habe ab sofort oder Ich würde sagen, dass … benutzt.",
+            "Jeder Satz beginnt groß und endet mit einem Punkt."
+          ],
+          muster: "Ich arbeite in einem Geschäft für Kleidung. Ich muss jeden Tag Kleidung falten. Die meisten Kunden sind nett, und ich freue mich, wenn sie etwas kaufen. Ab sofort arbeite ich auch an der Kasse.",
+          uebers: { en: "You work in a clothing shop. Write 4 sentences about your work and the customers." }
+        }
+      ]
     }
   ]
 };
