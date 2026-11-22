@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Pronomen: Dativ oder Akkusativ?</title>
+<style>
+  :root { --bg:#fafaf7; --card:#fff; --text:#1f2328; --muted:#6a7078; --line:#e3e1da;
+          --accent:#2f6fed; --ok:#1d8a4c; --bad:#c43b3b; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font:17px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif; }
+  main { max-width:640px; margin:0 auto; padding:16px; }
+  h1 { font-size:1.35rem; margin:.2rem 0; }
+  .muted { color:var(--muted); font-size:.9rem; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:14px; padding:18px; margin:14px 0; }
+  .bar { height:6px; background:var(--line); border-radius:3px; overflow:hidden; margin:10px 0 0; }
+  .bar > i { display:block; height:100%; background:var(--accent); width:0; transition:width .25s; }
+  button { font:inherit; color:var(--text); border:1px solid var(--line); background:#fff; border-radius:10px; padding:10px 14px; cursor:pointer; }
+  button.primary { background:var(--accent); border-color:var(--accent); color:#fff; }
+  button:disabled { cursor:default; }
+  .row { display:flex; flex-wrap:wrap; gap:8px; margin-top:14px; }
+  .opts { display:grid; grid-template-columns:1fr 1fr; gap:8px; margin-top:12px; }
+  .opt { text-align:center; font-size:1.05rem; }
+  .opt.ok { border-color:var(--ok); background:#eaf6ee; }
+  .opt.bad { border-color:var(--bad); background:#fbeaea; }
+  .satz { font-size:1.15rem; }
+  .gap { display:inline-block; min-width:3.2em; border-bottom:2px solid var(--accent); text-align:center; font-weight:600; }
+  .fb { margin-top:12px; padding:10px 12px; border-radius:10px; }
+  .fb.ok { background:#eaf6ee; } .fb.bad { background:#fbeaea; }
+  .trans { color:var(--muted); font-size:.88rem; margin-top:4px; }
+  .big { font-size:2.2rem; font-weight:700; margin:.3rem 0; }
+  .err { padding:8px 0; border-top:1px solid var(--line); font-size:.95rem; }
+  .hide { display:none; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Pronomen: Dativ oder Akkusativ?</h1>
+  <div class="muted">Theo · 20 Aufgaben</div>
+
+  <div id="start" class="card">
+    <p>Wähle das richtige Pronomen. Achte auf das Verb oder die Präposition: <b>Dativ</b> (wem?) oder <b>Akkusativ</b> (wen?) – und auf die Person.</p>
+    <div class="trans">Choisis le bon pronom : datif (à qui ?) ou accusatif (qui ?). Fais attention au verbe, à la préposition et à la personne.</div>
+    <div class="row"><button class="primary" id="los">Los geht's</button></div>
+  </div>
+
+  <div id="quiz" class="card hide">
+    <div class="muted" id="nr"></div>
+    <div class="bar"><i id="fort"></i></div>
+    <p class="satz" id="satz"></p>
+    <div class="opts" id="opts"></div>
+    <div id="fb"></div>
+    <div class="row"><button class="primary hide" id="weiter">Weiter</button></div>
+  </div>
+
+  <div id="ende" class="card hide">
+    <div class="muted">Dein Ergebnis</div>
+    <div class="big" id="punkte"></div>
+    <div id="lob"></div>
+    <div id="fehler"></div>
+    <p><b>Bitte schick dein Ergebnis an Ivan.</b></p>
+    <div class="trans">Envoie ton résultat à Ivan, s'il te plaît.</div>
+    <div class="row">
+      <button class="primary" id="senden">Ergebnis an Ivan schicken</button>
+      <button id="kopieren">Text kopieren</button>
+    </div>
+    <div class="muted" id="info" style="margin-top:8px"></div>
+    <div class="row"><button id="neu">Noch einmal üben</button></div>
+  </div>
+</main>
+<script>
+const A = [{"s": "Ich habe ein Problem. Meine Freundin will ___ helfen.", "o": ["mich", "mir", "ihr", "dich"], "k": 1, "r": "helfen + Dativ (wem?) → ich → mir"}, {"s": "Mein Bruder hat Geburtstag. Ich rufe ___ heute an.", "o": ["ihm", "er", "ihn", "sie"], "k": 2, "r": "anrufen + Akkusativ (wen?) → er → ihn"}, {"s": "Wo ist meine Katze? Ich sehe ___ nicht.", "o": ["sie", "ihr", "ihn", "es"], "k": 0, "r": "sehen + Akkusativ (wen?) → die Katze = sie → sie"}, {"s": "Du bist krank? Wir besuchen ___ am Wochenende.", "o": ["dir", "euch", "ihn", "dich"], "k": 3, "r": "besuchen + Akkusativ (wen?) → du → dich"}, {"s": "Meine Eltern haben mir Gewürze geschenkt. Ich danke ___.", "o": ["sie", "ihr", "ihnen", "euch"], "k": 2, "r": "danken + Dativ (wem?) → sie (Plural) → ihnen"}, {"s": "Der Film war super. Hat er ___ auch gefallen, Theo?", "o": ["dir", "dich", "ihm", "mir"], "k": 0, "r": "gefallen + Dativ (wem?) → du (Theo) → dir"}, {"s": "Ich gehe heute ins Kino. Kommst du mit ___?", "o": ["mich", "uns", "mir", "dich"], "k": 2, "r": "mit + Dativ → ich → mir"}, {"s": "Das Geschenk ist für meine Freundin. Es ist für ___.", "o": ["ihr", "ihn", "ihm", "sie"], "k": 3, "r": "für + Akkusativ → sie (die Freundin) → sie"}, {"s": "Lisa und Paul, ich brauche eure Hilfe. Kann ich ___ etwas fragen?", "o": ["ihnen", "euch", "dich", "sie"], "k": 1, "r": "fragen + Akkusativ (wen?) → ihr → euch (Dativ und Akkusativ sind gleich: euch)"}, {"s": "Mein Opa wohnt allein. Ich fahre oft zu ___.", "o": ["ihn", "er", "ihr", "ihm"], "k": 3, "r": "zu + Dativ → er (der Opa) → ihm"}, {"s": "Wir haben heute keine Zeit. Geh bitte ohne ___ ins Kino!", "o": ["uns", "wir", "euch", "ihnen"], "k": 0, "r": "ohne + Akkusativ → wir → uns"}, {"s": "Meine Schwester hat morgen eine Prüfung. Ich unterstütze ___.", "o": ["ihr", "ihm", "sie", "ihn"], "k": 2, "r": "unterstützen + Akkusativ (wen?) → sie (die Schwester) → sie"}, {"s": "Der Lehrer stellt eine Frage. Die Schüler antworten ___.", "o": ["ihn", "ihm", "ihr", "sie"], "k": 1, "r": "antworten + Dativ (wem?) → er (der Lehrer) → ihm"}, {"s": "Guten Tag, Herr Weber! Wie geht es ___?", "o": ["Sie", "ihm", "Ihnen", "dir"], "k": 2, "r": "es geht + Dativ (wem?) → Sie (höflich) → Ihnen"}, {"s": "Wem gehört die Tasche? – Meiner Mutter. Die Tasche gehört ___.", "o": ["sie", "ihr", "ihm", "ihnen"], "k": 1, "r": "gehören + Dativ (wem?) → sie (die Mutter) → ihr"}, {"s": "Meine Freunde tauchen am Samstag im Meer. Ich tauche mit ___.", "o": ["sie", "euch", "ihr", "ihnen"], "k": 3, "r": "mit + Dativ → sie (Plural) → ihnen"}, {"s": "Frau Klein, dieser Brief ist für ___.", "o": ["Ihnen", "sie", "Sie", "ihr"], "k": 2, "r": "für + Akkusativ → Sie (höflich, großes S) → Sie"}, {"s": "Mein Hund ist krank. Ich kümmere mich um ___.", "o": ["ihm", "ihn", "er", "sie"], "k": 1, "r": "um + Akkusativ → er (der Hund) → ihn"}, {"s": "Ihr seid stark, aber morgen spielen wir gegen ___!", "o": ["ihr", "uns", "euch", "ihnen"], "k": 2, "r": "gegen + Akkusativ → ihr → euch"}, {"s": "Meine Mutter hat Geburtstag. Ich schenke ___ ein Buch.", "o": ["sie", "ihm", "ihnen", "ihr"], "k": 3, "r": "schenken: wem? → Dativ → sie (die Mutter) → ihr"}];
+const KEY = "theo-pronomen-v1";
+let st = { i: 0, antw: [] };            // antw[i] = Index der ersten Antwort
+try { const s = JSON.parse(localStorage.getItem(KEY)); if (s && Array.isArray(s.antw)) st = s; } catch (e) {}
+const save = () => { try { localStorage.setItem(KEY, JSON.stringify(st)); } catch (e) {} };
+const $ = id => document.getElementById(id);
+const show = id => ["start","quiz","ende"].forEach(x => $(x).classList.toggle("hide", x !== id));
+
+function frage() {
+  const q = A[st.i];
+  $("nr").textContent = "Aufgabe " + (st.i + 1) + " von " + A.length;
+  $("fort").style.width = (st.i / A.length * 100) + "%";
+  const teile = q.s.split("___");
+  $("satz").innerHTML = "";
+  $("satz").append(teile[0]);
+  const g = document.createElement("span"); g.className = "gap"; g.id = "gap"; g.innerHTML = "&nbsp;";
+  $("satz").append(g, teile[1]);
+  $("opts").innerHTML = ""; $("fb").innerHTML = ""; $("weiter").classList.add("hide");
+  q.o.forEach((o, j) => {
+    const b = document.createElement("button"); b.className = "opt"; b.textContent = o;
+    b.onclick = () => waehle(j); $("opts").append(b);
+  });
+  if (st.antw[st.i] !== undefined) zeige(st.antw[st.i]);
+}
+function waehle(j) {
+  if (st.antw[st.i] !== undefined) return;
+  st.antw[st.i] = j; save(); zeige(j);
+}
+function zeige(j) {
+  const q = A[st.i], ok = j === q.k, bs = $("opts").children;
+  [...bs].forEach((b, n) => { b.disabled = true;
+    if (n === q.k) b.classList.add("ok"); else if (n === j) b.classList.add("bad"); });
+  $("gap").textContent = q.o[q.k];
+  $("fb").innerHTML = '<div class="fb ' + (ok ? "ok" : "bad") + '"><b>' + (ok ? "Richtig!" : "Leider falsch.") + "</b> </div>";
+  $("fb").firstChild.append(q.r);
+  $("weiter").textContent = st.i === A.length - 1 ? "Ergebnis ansehen" : "Weiter";
+  $("weiter").classList.remove("hide"); $("weiter").focus();
+}
+function falsche() { return A.map((q, i) => i).filter(i => st.antw[i] !== A[i].k); }
+function text() {
+  const f = falsche(), p = A.length - f.length;
+  return "Theo – Pronomen Dativ/Akkusativ: " + p + "/" + A.length + " richtig. " +
+         (f.length ? "Falsch: Nr. " + f.map(i => i + 1).join(", ") + "." : "Alles richtig!");
+}
+function ende() {
+  const f = falsche(), p = A.length - f.length;
+  $("punkte").textContent = p + " / " + A.length;
+  $("lob").textContent = p >= 18 ? "Super, sehr gut gemacht!" : p >= 14 ? "Gut gemacht!" : "Weiter üben – das schaffst du!";
+  $("fehler").innerHTML = f.length ? '<p class="muted">Deine Fehler:</p>' : "";
+  f.forEach(i => { const d = document.createElement("div"); d.className = "err";
+    d.textContent = (i + 1) + ". " + A[i].s.replace("___", A[i].o[A[i].k]) + "  (" + A[i].r + ")";
+    $("fehler").append(d); });
+  show("ende");
+}
+$("los").onclick = () => { show("quiz"); frage(); };
+$("weiter").onclick = () => { if (st.i < A.length - 1) { st.i++; save(); frage(); } else { st.i = A.length; save(); ende(); } };
+$("senden").onclick = async () => {
+  const t = text();
+  if (navigator.share) { try { await navigator.share({ text: t }); return; } catch (e) { if (e.name === "AbortError") return; } }
+  window.open("https://wa.me/?text=" + encodeURIComponent(t), "_blank");
+};
+$("kopieren").onclick = async () => {
+  try { await navigator.clipboard.writeText(text()); $("info").textContent = "Kopiert! Jetzt einfach an Ivan schicken."; }
+  catch (e) { $("info").textContent = text(); }
+};
+$("neu").onclick = () => { if (confirm("Wirklich neu anfangen? Dein Ergebnis wird gelöscht.")) { st = { i: 0, antw: [] }; save(); show("start"); } };
+if (st.i >= A.length) ende(); else if (st.antw.length) { show("quiz"); frage(); }
+</script>
+</body>
+</html>
