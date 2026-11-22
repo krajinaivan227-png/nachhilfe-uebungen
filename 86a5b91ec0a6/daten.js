@@ -788,6 +788,159 @@ window.HEFT = {
           uebers: { fr: "Une journée à la mer ou au lac : écris 4–5 phrases." }
         }
       ]
+    },
+    {
+      id: "2026-11-22",
+      titel: "Aufmerksamkeit, Genitiv, den ganzen Tag",
+      vokabeln: [
+        { de: "die Aufmerksamkeit", en: "the attention", fr: "l'attention", beispiel: "Kinder brauchen viel Aufmerksamkeit." },
+        { de: "aufmerksam", en: "attentive", fr: "attentif", beispiel: "Er hört aufmerksam zu." },
+        { de: "im Zentrum der Aufmerksamkeit stehen", en: "to be the centre of attention", fr: "être au centre de l'attention", beispiel: "Ich stehe nicht gern im Zentrum der Aufmerksamkeit." },
+        { de: "den ganzen Tag", en: "all day", fr: "toute la journée", beispiel: "Ich war den ganzen Tag zu Hause." },
+        { de: "der Fehler (die Fehler)", en: "the mistake", fr: "la faute, l'erreur", beispiel: "Das ist nicht der Fehler der Kinder." },
+        { de: "gereizt sein", en: "to be irritable", fr: "être à cran, être irrité", beispiel: "Nach der Arbeit bin ich oft gereizt." },
+        { de: "erziehen (+ Akk.)", en: "to raise, to bring up", fr: "éduquer, élever", beispiel: "Ich will meine Kinder gut erziehen." },
+        { de: "das Kind (die Kinder)", en: "the child", fr: "l'enfant", beispiel: "Die Kinder spielen im Garten." },
+        { de: "der Handykonsum", en: "phone use", fr: "l'utilisation du portable", beispiel: "Der Handykonsum von Kindern ist oft zu hoch." }
+      ],
+      aufgaben: [
+        {
+          typ: "zuordnen", stufe: 1,
+          paare: [["die Aufmerksamkeit", "l'attention"], ["aufmerksam", "attentif"], ["der Fehler", "la faute"], ["erziehen", "éduquer"]],
+          regel: "Neue Wörter der Stunde.",
+          uebers: { fr: "Relie les mots à leur traduction." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Heute ist der ___ November.",
+          optionen: ["zweiundzwanzigste", "zweiundzwanzigsten", "zweiundzwanzig"], richtig: 0,
+          regel: "Datum: Es ist der …ste (Nominativ). Bis 19 mit -te (der vierte), ab 20 mit -ste (der zwanzigste).",
+          uebers: { fr: "Choisis la bonne forme de la date." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Wir haben den ___ November.",
+          optionen: ["zweiundzwanzigsten", "zweiundzwanzigste", "zweiundzwanzig"], richtig: 0,
+          regel: "Wir haben + Akkusativ: den …sten (den zweiundzwanzigsten).",
+          uebers: { fr: "Choisis la bonne forme de la date (accusatif)." }
+        },
+        {
+          typ: "luecke", stufe: 1,
+          text: "Ich stehe nicht gern im Zentrum der ___.",
+          antworten: ["Aufmerksamkeit"],
+          regel: "im Zentrum der Aufmerksamkeit stehen = être au centre de l'attention.",
+          uebers: { fr: "Complète (« l'attention »)." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Ich war ___ Tag zu Hause.",
+          optionen: ["den ganzen", "der ganze", "dem ganzen"], richtig: 0,
+          regel: "Zeitangaben ohne Präposition stehen im Akkusativ: den ganzen Tag, den ganzen Monat.",
+          uebers: { fr: "Choisis la bonne forme (« toute la journée »)." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Das ist das Auto ___ Lehrers.",
+          optionen: ["des", "der", "dem"], richtig: 0,
+          regel: "Genitiv maskulin: des (und -s am Nomen): des Lehrers.",
+          uebers: { fr: "Choisis l'article au génitif (masculin)." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Das ist das Handy ___ Mutter.",
+          optionen: ["der", "des", "die"], richtig: 0,
+          regel: "Genitiv feminin: der (die Mutter → der Mutter).",
+          uebers: { fr: "Choisis l'article au génitif (féminin)." }
+        },
+        {
+          typ: "mc", stufe: 3,
+          frage: "Das ist nicht der Fehler ___ Kinder.",
+          optionen: ["der", "des", "den"], richtig: 0,
+          regel: "Genitiv Plural: der. Genitiv: des (m), der (f), des (n), der (Pl.).",
+          uebers: { fr: "Choisis l'article au génitif (pluriel)." }
+        },
+        {
+          typ: "luecke", stufe: 1,
+          text: "Ich habe schlecht geschlafen. Deshalb bin ich heute ___. (être à cran)",
+          antworten: ["gereizt"],
+          regel: "gereizt sein = être à cran.",
+          uebers: { fr: "Complète (« à cran »)." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Ich will ___ gut erziehen.",
+          optionen: ["meine Kinder", "meinen Kindern", "meiner Kinder"], richtig: 0,
+          regel: "erziehen + Akkusativ: meine Kinder, sie.",
+          uebers: { fr: "Choisis la bonne forme (accusatif)." }
+        },
+        {
+          typ: "satz", stufe: 3,
+          woerter: ["Welche", "Konsequenzen", "kann", "der", "Handykonsum", "haben?"],
+          loesung: "Welche Konsequenzen kann der Handykonsum haben?",
+          regel: "Modalverb (kann) auf Position 2, Infinitiv (haben) am Ende.",
+          uebers: { fr: "Mets les mots dans le bon ordre." }
+        },
+        {
+          typ: "luecke", stufe: 1,
+          text: "Ein Kind, zwei ___.",
+          antworten: ["Kinder"],
+          regel: "das Kind → die Kinder.",
+          uebers: { fr: "Écris le pluriel." }
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Die Kinder haben den Ball ___. (verlieren)",
+          antworten: ["verloren"],
+          regel: "Wiederholung (15.11.): verlieren – hat verloren (ohne ge-).",
+          uebers: { fr: "Complète avec le participe passé de « verlieren »." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Das Buch hat ___ gut gefallen.",
+          optionen: ["ihm", "ihn", "er"], richtig: 0,
+          regel: "Wiederholung (15.11.): gefallen + Dativ: Es gefällt ihm.",
+          uebers: { fr: "Choisis le bon pronom (datif)." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Ich gehe ___ Woche schwimmen.",
+          optionen: ["jede", "jeden", "jedes"], richtig: 0,
+          regel: "Wiederholung (15.11.): die Woche → jede Woche. Aber: jeden Tag, jedes Jahr.",
+          uebers: { fr: "Choisis la bonne forme (« chaque semaine »)." }
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Das Handy ist ___ als der Computer. (teuer)",
+          antworten: ["teurer"],
+          regel: "Wiederholung (12.11.): teuer → teurer als (das e fällt weg).",
+          uebers: { fr: "Complète avec le comparatif de « teuer »." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Ich spaziere gern mit ___ Freundin.",
+          optionen: ["meiner", "meine", "meinen"], richtig: 0,
+          regel: "Wiederholung (12.11.): mit + Dativ: mit meiner Freundin.",
+          uebers: { fr: "Choisis la bonne forme (datif)." }
+        },
+        {
+          typ: "sprechen", stufe: 2,
+          auftrag: "Handy und Kinder: Welche Konsequenzen hat zu viel Handy? Sprich 4 Sätze. Nimm dich auf und höre dich an.",
+          hinweis: "Kinder haben weniger Aufmerksamkeit. / Sie haben mehr Stress. / Sie sind oft gereizt. / Eltern sollen …",
+          uebers: { fr: "Le portable et les enfants : quelles conséquences ? Dis 4 phrases. Enregistre-toi et écoute-toi." }
+        },
+        {
+          typ: "schreiben", stufe: 3,
+          auftrag: "Ein Tag mit zu viel Handy: Schreibe 4–5 Sätze.",
+          checkliste: [
+            "Ich habe den ganzen Tag oder den ganzen Monat benutzt.",
+            "Ich habe die Aufmerksamkeit oder aufmerksam benutzt.",
+            "Ich habe gereizt benutzt.",
+            "Ich habe einen Genitiv geschrieben (des …, der …)."
+          ],
+          muster: "Letzten Sonntag war ich den ganzen Tag am Handy. Am Abend war ich müde und gereizt. Ich hatte keine Aufmerksamkeit mehr für meine Freundin. Das war nicht der Fehler des Handys, sondern mein Fehler. Heute lasse ich das Handy öfter in der Tasche.",
+          uebers: { fr: "Une journée avec trop de portable : écris 4–5 phrases." }
+        }
+      ]
     }
   ]
 };
