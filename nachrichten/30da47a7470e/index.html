@@ -1,0 +1,381 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Tägliche Nachrichten</title>
+<style>
+  :root { --bg:#fff; --text:#1a1a1a; --muted:#6b6b6b; --line:#dcdcdc; --soft:#f4f4f2;
+          --accent:#1a1a1a; --link:#1f4e8c; --ok:#2d6a3e; --okSoft:#eef5ef; --bad:#a33a2b; --badSoft:#f8eeec; }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+          --bg:#161616; --text:#e6e6e3; --muted:#9a9a96; --line:#333; --soft:#222;
+          --accent:#e6e6e3; --link:#8fb0dc; --ok:#7fbf8e; --okSoft:#1e2a21; --bad:#e08a7c; --badSoft:#2e1f1c; } }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font:16px/1.55 system-ui,-apple-system,"Segoe UI",sans-serif; }
+  main { max-width:640px; margin:0 auto; padding:24px 16px 48px; }
+  h1, h2, .text, .news b { font-family:Georgia,"Times New Roman",serif; }
+  h1 { font-size:1.9rem; font-weight:normal; margin:0 0 .2rem; }
+  h2 { font-size:1.35rem; font-weight:normal; margin:0 0 .6rem; line-height:1.3; }
+  h3 { font-size:.95rem; margin:1.2rem 0 .4rem; }
+  .muted { color:var(--muted); font-size:.9rem; }
+  .card { border-top:1px solid var(--line); padding:20px 0 8px; margin:0; }
+  .kopf { border-bottom:2px solid var(--text); padding-bottom:10px; margin-bottom:4px; }
+  button { font:inherit; font-size:.95rem; color:var(--text); border:1px solid var(--line); background:var(--bg); border-radius:4px; padding:7px 12px; cursor:pointer; }
+  button:hover:not(:disabled) { border-color:var(--muted); }
+  button.primary { background:var(--accent); border-color:var(--accent); color:var(--bg); }
+  button.small { padding:4px 10px; font-size:.88rem; }
+  button.link { border:0; padding:0; background:none; color:var(--link); text-decoration:underline; }
+  button:disabled { opacity:.55; cursor:default; }
+  .row { display:flex; flex-wrap:wrap; gap:8px; margin-top:10px; align-items:center; }
+  .tabs { display:flex; gap:16px; overflow-x:auto; padding:10px 0 0; font-size:.9rem; }
+  .tabs button { border:0; padding:2px 0; background:none; color:var(--muted); white-space:nowrap; border-radius:0; }
+  .tabs button.on { color:var(--text); border-bottom:2px solid var(--text); }
+  .news { display:block; width:100%; text-align:left; border:0; border-bottom:1px solid var(--line); border-radius:0; padding:14px 0; background:none; }
+  .news b { display:block; font-weight:normal; font-size:1.2rem; line-height:1.3; }
+  .news .st { font-size:.82rem; color:var(--muted); }
+  .news .st.done { color:var(--ok); }
+  .kat { display:block; font-size:.75rem; color:var(--muted); text-transform:uppercase; letter-spacing:.05em; margin-bottom:3px; }
+  .text { font-size:1.12rem; line-height:1.65; }
+  .text p { margin:.6rem 0; }
+  mark { background:none; color:inherit; border-bottom:1px dotted var(--muted); }
+  .vok { display:grid; grid-template-columns:auto 1fr; gap:4px 14px; font-size:.93rem; margin:0; }
+  .vok dt { font-weight:600; } .vok dd { margin:0; color:var(--muted); }
+  .q { padding:14px 0 4px; }
+  .q > b { display:block; margin-bottom:2px; }
+  .opt { display:block; width:100%; text-align:left; margin-top:6px; }
+  .opt.ok, .tok.ok, button.ok { border-color:var(--ok); background:var(--okSoft); }
+  .opt.bad, .tok.bad, button.bad { border-color:var(--bad); background:var(--badSoft); }
+  input[type=text], textarea { width:100%; font:inherit; color:var(--text); background:var(--bg); padding:7px 9px; border:1px solid var(--line); border-radius:4px; }
+  input.ok { border-color:var(--ok); background:var(--okSoft); } input.bad { border-color:var(--bad); background:var(--badSoft); }
+  textarea { min-height:80px; }
+  .fb { margin-top:8px; padding:7px 10px; border-left:3px solid var(--line); font-size:.93rem; }
+  .fb.ok { border-color:var(--ok); } .fb.bad { border-color:var(--bad); } .fb.info { border-color:var(--muted); }
+  .regel { font-size:.86rem; color:var(--muted); margin:2px 0 6px; font-style:italic; }
+  .tok { display:inline-block; margin:3px 3px 0 0; padding:3px 7px; border:1px solid var(--line); border-radius:3px; cursor:pointer; }
+  .pairs { display:grid; grid-template-columns:1fr 1fr; gap:8px; margin-top:8px; }
+  .pairs button { text-align:left; font-size:.93rem; }
+  .pairs button.sel { border-color:var(--text); }
+  .pairs button.done { border-color:var(--ok); background:var(--okSoft); opacity:.75; }
+  .disk { padding-left:1.2rem; } .disk li { margin:.5rem 0; }
+  .hud { display:flex; gap:16px; font-size:.95rem; font-weight:600; margin:10px 0; }
+  .memory { display:grid; grid-template-columns:repeat(4,1fr); gap:6px; margin-top:10px; }
+  .memory button { min-height:66px; font-size:.85rem; padding:6px; }
+  .memory button.zu { background:var(--soft); color:transparent; }
+  .memory button.done { background:var(--okSoft); border-color:var(--ok); }
+  .ende { border-top:1px solid var(--line); padding-top:16px; margin-top:8px; }
+  @media (max-width:420px) { .memory { grid-template-columns:repeat(3,1fr); } .pairs { grid-template-columns:1fr; } h1 { font-size:1.6rem; } }
+  @media print { button, .tabs, .hud { display:none !important; } }
+</style>
+</head>
+<body>
+<main id="app"></main>
+<script src="daten.js"></script>
+<script>
+(function () {
+  "use strict";
+  var N = window.NACHRICHTEN;
+  var KEY = "nachrichten:" + (location.pathname || "") + ":" + N.vorname;
+  var store = load();
+  var app = document.getElementById("app");
+  var langsam = /^A[12]/.test(N.niveau);
+  var tage = N.tage.slice().sort(function (a, b) { return a.datum < b.datum ? 1 : -1; });
+  var tagIdx = 0;
+
+  function load() { try { return JSON.parse(localStorage.getItem(KEY)) || { erl: {}, punkte: 0, tage: [] }; } catch (e) { return { erl: {}, punkte: 0, tage: [] }; } }
+  function save() { try { localStorage.setItem(KEY, JSON.stringify(store)); } catch (e) {} }
+  function el(tag, attrs, kids) {
+    var n = document.createElement(tag);
+    for (var k in (attrs || {})) {
+      if (k === "class") n.className = attrs[k];
+      else if (k === "html") n.innerHTML = attrs[k];
+      else if (k.slice(0, 2) === "on") n.addEventListener(k.slice(2), attrs[k]);
+      else n.setAttribute(k, attrs[k]);
+    }
+    (kids || []).forEach(function (c) { if (c != null) n.appendChild(typeof c === "string" ? document.createTextNode(c) : c); });
+    return n;
+  }
+  function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); }
+  function iso(d) { return d.getFullYear() + "-" + ("0" + (d.getMonth() + 1)).slice(-2) + "-" + ("0" + d.getDate()).slice(-2); }
+  function datumText(d) { var p = d.split("-"); return p[2] + "." + p[1] + "."; }
+  var WT = ["Sonntag", "Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag"];
+  function wochentag(d) { var p = d.split("-"); return WT[new Date(+p[0], +p[1] - 1, +p[2]).getDay()]; }
+  function shuffle(a) { a = a.slice(); for (var i = a.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)); var t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
+  function norm(s) { return String(s).replace(/[„“"'.!?,;:]+/g, "").replace(/\s+/g, " ").trim(); }
+  function nkey(d, i) { return d + "#" + i; }
+  function punkte(n) {
+    if (!N.spiel) return;
+    store.punkte = (store.punkte || 0) + n;
+    var t = iso(new Date()); if ((store.tage || []).indexOf(t) < 0) (store.tage = store.tage || []).push(t);
+    save(); var h = document.getElementById("hudp"); if (h) h.textContent = "⭐ " + store.punkte + " Punkte";
+  }
+  function serie() {
+    var set = {}; (store.tage || []).forEach(function (t) { set[t] = 1; });
+    var d = new Date(), n = 0; if (!set[iso(d)]) d.setDate(d.getDate() - 1);
+    while (set[iso(d)]) { n++; d.setDate(d.getDate() - 1); } return n;
+  }
+  function hud() { return N.spiel ? el("div", { class: "hud" }, [el("span", { id: "hudp" }, ["⭐ " + (store.punkte || 0) + " Punkte"]), el("span", {}, ["🔥 Serie: " + serie() + " Tage"])]) : null; }
+
+  /* ---------- Vorlesen ---------- */
+  var sprecher = null;
+  function vorlesen(text, btn) {
+    if (!("speechSynthesis" in window)) { alert("Dein Browser kann leider nicht vorlesen."); return; }
+    if (speechSynthesis.speaking) { speechSynthesis.cancel(); if (sprecher === btn) { btn.textContent = "Vorlesen"; sprecher = null; return; } }
+    var u = new SpeechSynthesisUtterance(text);
+    u.lang = "de-DE"; u.rate = langsam ? 0.8 : 0.95;
+    var v = speechSynthesis.getVoices().filter(function (x) { return /^de/i.test(x.lang); });
+    if (v.length) u.voice = v[0];
+    u.onend = function () { btn.textContent = "Vorlesen"; sprecher = null; };
+    if (sprecher) sprecher.textContent = "Vorlesen";
+    sprecher = btn; btn.textContent = "Stopp";
+    speechSynthesis.speak(u);
+  }
+
+  /* ---------- Übersicht ---------- */
+  function start() {
+    if ("speechSynthesis" in window) speechSynthesis.cancel();
+    app.innerHTML = "";
+    app.appendChild(el("div", { class: "kopf" }, [el("h1", {}, ["Tägliche Nachrichten"]),
+      el("div", { class: "muted" }, ["für " + N.vorname + " · Niveau " + N.niveau])]));
+    var h = hud(); if (h) app.appendChild(h);
+    var tabs = el("div", { class: "tabs" });
+    tage.forEach(function (t, i) {
+      var heute = t.datum === iso(new Date());
+      tabs.appendChild(el("button", { class: i === tagIdx ? "on" : "", onclick: function () { tagIdx = i; start(); } },
+        [i === 0 && heute ? "Heute" : wochentag(t.datum).slice(0, 2) + ", " + datumText(t.datum)]));
+    });
+    app.appendChild(tabs);
+    var tag = tage[tagIdx];
+    app.appendChild(el("p", { class: "muted" }, [wochentag(tag.datum) + ", " + datumText(tag.datum) + tag.datum.slice(0, 4) + " · " + tag.nachrichten.length + " Nachrichten"]));
+    tag.nachrichten.forEach(function (n, i) {
+      var e = store.erl[nkey(tag.datum, i)];
+      var stTxt = e && e.fertig ? "erledigt" : (e && e.offen ? "angefangen" : "");
+      app.appendChild(el("button", { class: "news", onclick: function () { zeige(tag, i); } }, [
+        el("span", { class: "kat" }, [n.kategorie || "Nachricht"]), el("b", {}, [n.titel]),
+        stTxt ? el("span", { class: "st" + (e && e.fertig ? " done" : "") }, [stTxt]) : null
+      ]));
+    });
+    if (N.spiel) {
+      var alle = []; tag.nachrichten.forEach(function (n) { (n.vokabeln || []).forEach(function (v) { alle.push(v); }); });
+      if (alle.length >= 4) app.appendChild(el("div", { class: "card" }, [
+        el("h2", {}, ["Wörter-Memory"]), el("p", { class: "muted" }, ["Finde immer das Wort und die passende Erklärung."]),
+        el("button", { class: "primary", onclick: function () { memory(alle); } }, ["Spiel starten"])
+      ]));
+    }
+    app.appendChild(el("div", { class: "row", style: "margin-top:20px" }, [el("button", { class: "link", onclick: function () { window.print(); } }, ["Drucken"])]));
+  }
+
+  /* ---------- Eine Nachricht ---------- */
+  function zeige(tag, i) {
+    var n = tag.nachrichten[i], k = nkey(tag.datum, i);
+    var rec = store.erl[k] || (store.erl[k] = { offen: true }); rec.offen = true; save();
+    app.innerHTML = ""; window.scrollTo(0, 0);
+    app.appendChild(el("div", { class: "row" }, [el("button", { class: "link", onclick: start }, ["← Alle Nachrichten"])]));
+    var h = hud(); if (h) app.appendChild(h);
+
+    var c1 = el("div", { class: "card", style: "border-top:0" }, [el("span", { class: "kat" }, [n.kategorie || "Nachricht"]), el("h1", { style: "font-size:1.7rem;line-height:1.25" }, [n.titel])]);
+    var txt = el("div", { class: "text" });
+    String(n.text).split(/\n\n+/).forEach(function (p) { txt.appendChild(el("p", { html: markiere(esc(p), n.vokabeln) })); });
+    c1.appendChild(txt);
+    var vb = el("button", { class: "small" }, ["Vorlesen"]);
+    vb.addEventListener("click", function () { vorlesen(n.titel + ". " + n.text, vb); });
+    c1.appendChild(el("div", { class: "row" }, [vb]));
+    if ((n.vokabeln || []).length) {
+      c1.appendChild(el("h3", {}, ["Wichtige Wörter"]));
+      var dl = el("dl", { class: "vok" });
+      n.vokabeln.forEach(function (v) { dl.appendChild(el("dt", {}, [v.de])); dl.appendChild(el("dd", {}, [v.erkl])); });
+      c1.appendChild(dl);
+    }
+    app.appendChild(c1);
+
+    var c2 = el("div", { class: "card" }, [el("h2", {}, ["Fragen zum Text"])]);
+    (n.fragen || []).forEach(function (f) { c2.appendChild(aufgabe(f)); });
+    app.appendChild(c2);
+
+    var c3 = el("div", { class: "card" }, [el("h2", {}, ["Wörter und Grammatik"])]);
+    (n.uebungen || []).forEach(function (u) { c3.appendChild(aufgabe(u)); });
+    app.appendChild(c3);
+
+    var c4 = el("div", { class: "card" }, [el("h2", {}, ["Zum Diskutieren"])]);
+    var ol = el("ol", { class: "disk" }); (n.diskussion || []).forEach(function (d) { ol.appendChild(el("li", {}, [d])); });
+    c4.appendChild(ol);
+    c4.appendChild(el("p", { class: "muted" }, ["Mach dir ein paar Notizen – wir sprechen in der nächsten Stunde darüber."]));
+    app.appendChild(c4);
+
+    var fb = el("button", { class: "primary" }, [rec.fertig ? "Erledigt" : "Als erledigt markieren"]);
+    fb.addEventListener("click", function () { if (!rec.fertig) { rec.fertig = true; save(); punkte(10); } start(); });
+    app.appendChild(el("div", { class: "row ende" }, [fb, i + 1 < tag.nachrichten.length ? el("button", { onclick: function () { zeige(tag, i + 1); } }, ["Nächste Nachricht →"]) : null]));
+  }
+  function markiere(html, vok) {
+    (vok || []).forEach(function (v) {
+      var w = (v.im_text || v.de.replace(/^(der|die|das|sich)\s+/i, "")).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+      html = html.replace(new RegExp("(^|[^\\wäöüÄÖÜß])(" + w + ")(?=[^\\wäöüÄÖÜß]|$)"), "$1<mark>$2</mark>");
+    });
+    return html;
+  }
+
+  /* ---------- Aufgabentypen ---------- */
+  function aufgabe(a) {
+    var box = el("div", { class: "q" });
+    if (a.titel) box.appendChild(el("b", {}, [a.titel]));
+    if (a.anweisung) box.appendChild(el("div", {}, [a.anweisung]));
+    if (a.regel) box.appendChild(el("div", { class: "regel" }, [a.regel]));
+    var f = TYP[a.typ]; if (f) f(a, box); else box.appendChild(el("div", { class: "muted" }, ["(unbekannter Aufgabentyp)"]));
+    return box;
+  }
+  function feedback(box, ok, txt) {
+    var old = box.querySelector(":scope > .fb"); if (old) old.remove();
+    box.appendChild(el("div", { class: "fb " + (ok === null ? "info" : ok ? "ok" : "bad") }, [txt]));
+  }
+  var TYP = {
+    mc: function (a, box) {
+      box.appendChild(el("div", {}, [a.frage]));
+      var done = false;
+      a.optionen.forEach(function (o, j) {
+        var b = el("button", { class: "opt" }, [o]);
+        b.addEventListener("click", function () {
+          if (done) return;
+          if (j === a.richtig) { done = true; b.classList.add("ok"); punkte(2); if (a.erkl) feedback(box, true, a.erkl); }
+          else { b.classList.add("bad"); b.disabled = true; }
+        });
+        box.appendChild(b);
+      });
+    },
+    rf: function (a, box) {
+      box.appendChild(el("div", {}, ["„" + a.aussage + "“"]));
+      var r = el("button", {}, ["Richtig"]), f = el("button", {}, ["Falsch"]);
+      function pr(wahl, btn) {
+        r.disabled = f.disabled = true;
+        var ok = wahl === a.richtig; btn.classList.add(ok ? "ok" : "bad"); if (ok) punkte(2);
+        feedback(box, ok, (ok ? "Genau! " : "Leider nicht. ") + (a.erkl || ""));
+      }
+      r.addEventListener("click", function () { pr(true, r); }); f.addEventListener("click", function () { pr(false, f); });
+      box.appendChild(el("div", { class: "row" }, [r, f]));
+    },
+    offen: function (a, box) {
+      box.appendChild(el("div", {}, [a.frage]));
+      box.appendChild(el("textarea", { placeholder: "Deine Antwort …", style: "min-height:70px;margin-top:6px" }));
+      var b = el("button", { class: "small" }, ["Musterlösung zeigen"]);
+      b.addEventListener("click", function () { b.disabled = true; feedback(box, null, "Musterlösung: " + a.loesung); });
+      box.appendChild(el("div", { class: "row" }, [b]));
+    },
+    eingabe: function (a, box) {
+      a.items.forEach(function (it) {
+        var line = el("div", { style: "margin-top:10px" });
+        var teile = String(it.text).split("___");
+        line.appendChild(el("div", {}, [teile[0] + (teile.length > 1 ? " ____ " + teile.slice(1).join("___") : "")]));
+        var inp = el("input", { type: "text", autocomplete: "off", autocapitalize: "off", spellcheck: "false", placeholder: it.hinweis || "" });
+        var chk = el("button", { class: "small" }, ["Prüfen"]);
+        var info = el("div", { class: "muted" });
+        var vers = 0;
+        function pruefen() {
+          var w = norm(inp.value); if (!w) return;
+          var los = [].concat(it.loesung);
+          var exakt = los.some(function (l) { return norm(l) === w; });
+          var fast = !exakt && los.some(function (l) { return norm(l).toLowerCase() === w.toLowerCase(); });
+          inp.classList.remove("ok", "bad");
+          if (exakt) { inp.classList.add("ok"); inp.disabled = true; chk.disabled = true; info.textContent = it.erkl || ""; punkte(vers ? 1 : 2); }
+          else if (fast) { inp.classList.add("bad"); info.textContent = "Fast! Achte auf Groß- und Kleinschreibung."; }
+          else { vers++; inp.classList.add("bad"); info.textContent = vers >= 2 ? "Lösung: " + los[0] + (it.erkl ? " – " + it.erkl : "") : "Noch nicht. Versuch es noch einmal."; }
+        }
+        chk.addEventListener("click", pruefen);
+        inp.addEventListener("keydown", function (e) { if (e.key === "Enter") pruefen(); });
+        line.appendChild(el("div", { class: "row", style: "margin-top:4px;flex-wrap:nowrap" }, [inp, chk]));
+        line.appendChild(info);
+        box.appendChild(line);
+      });
+    },
+    auswahl: function (a, box) {
+      a.items.forEach(function (it) {
+        var line = el("div", { style: "margin-top:10px" }, [el("div", {}, [it.text.replace("___", "____")])]);
+        var row = el("div", { class: "row", style: "margin-top:4px" }); var done = false;
+        var info = el("div", { class: "muted" });
+        it.optionen.forEach(function (o, j) {
+          var b = el("button", { class: "small" }, [o]);
+          b.addEventListener("click", function () {
+            if (done) return;
+            if (j === it.richtig) { done = true; b.classList.add("ok"); punkte(2); info.textContent = it.erkl || ""; }
+            else { b.classList.add("bad"); b.disabled = true; }
+          });
+          row.appendChild(b);
+        });
+        line.appendChild(row); line.appendChild(info); box.appendChild(line);
+      });
+    },
+    fehler: function (a, box) {
+      box.appendChild(el("div", { class: "muted" }, ["Tippe auf das falsche Wort."]));
+      a.items.forEach(function (it) {
+        var line = el("div", { style: "margin-top:10px" }); var done = false;
+        var info = el("div", { class: "muted" });
+        it.woerter.forEach(function (w, j) {
+          var t = el("span", { class: "tok" }, [w]);
+          t.addEventListener("click", function () {
+            if (done) return;
+            if (j === it.fehler) { done = true; t.classList.add("ok"); punkte(2); info.textContent = "Richtig: " + it.korrektur + (it.erkl ? " – " + it.erkl : ""); }
+            else { t.classList.add("bad"); }
+          });
+          line.appendChild(t);
+        });
+        line.appendChild(info); box.appendChild(line);
+      });
+    },
+    zuordnen: function (a, box) {
+      if (a.frage) box.appendChild(el("div", {}, [a.frage]));
+      var grid = el("div", { class: "pairs" });
+      var L = el("div"), R = el("div"); var sel = null, rest = a.paare.length, fehler = 0, t0 = Date.now();
+      a.paare.forEach(function (p, j) {
+        var b = el("button", { class: "opt" }, [p[0]]); b.dataset.j = j;
+        b.addEventListener("click", function () { if (b.classList.contains("done")) return; if (sel) sel.classList.remove("sel"); sel = b; b.classList.add("sel"); });
+        L.appendChild(b);
+      });
+      shuffle(a.paare.map(function (p, j) { return [p[1], j]; })).forEach(function (p) {
+        var b = el("button", { class: "opt" }, [p[0]]);
+        b.addEventListener("click", function () {
+          if (!sel || b.classList.contains("done")) return;
+          if (+sel.dataset.j === p[1]) {
+            sel.classList.remove("sel"); sel.classList.add("done"); b.classList.add("done"); sel = null; rest--; punkte(1);
+            if (!rest) feedback(box, true, fehler ? "Fertig! (" + fehler + " Fehlversuche)" : "Alles richtig zugeordnet!" + (N.spiel ? " Zeit: " + Math.round((Date.now() - t0) / 1000) + " Sekunden" : ""));
+          } else { fehler++; b.classList.add("bad"); setTimeout(function () { b.classList.remove("bad"); }, 500); }
+        });
+        R.appendChild(b);
+      });
+      grid.appendChild(L); grid.appendChild(R); box.appendChild(grid);
+    }
+  };
+  TYP.wfragen = TYP.zuordnen;
+
+  /* ---------- Memory (nur Spielmodus) ---------- */
+  function memory(vok) {
+    app.innerHTML = "";
+    app.appendChild(el("div", { class: "row" }, [el("button", { class: "link", onclick: start }, ["← Zurück"])]));
+    var h = hud(); if (h) app.appendChild(h);
+    var paare = shuffle(vok).slice(0, 6), karten = [];
+    paare.forEach(function (v, j) { karten.push({ t: v.de, j: j }); karten.push({ t: v.erkl, j: j }); });
+    karten = shuffle(karten);
+    var c = el("div", { class: "card" }, [el("h2", {}, ["Wörter-Memory"])]);
+    var info = el("p", { class: "muted" }, ["Züge: 0"]); c.appendChild(info);
+    var grid = el("div", { class: "memory" }), offen = [], zuege = 0, gefunden = 0;
+    karten.forEach(function (k) {
+      var b = el("button", { class: "zu" }, [k.t]);
+      b.addEventListener("click", function () {
+        if (!b.classList.contains("zu") || offen.length === 2) return;
+        b.classList.remove("zu"); offen.push([b, k]);
+        if (offen.length === 2) {
+          zuege++; info.textContent = "Züge: " + zuege;
+          var a1 = offen[0], a2 = offen[1];
+          if (a1[1].j === a2[1].j) { a1[0].classList.add("done"); a2[0].classList.add("done"); offen = []; gefunden++; punkte(3);
+            if (gefunden === paare.length) info.textContent = "Super! Alle Paare in " + zuege + " Zügen gefunden."; }
+          else setTimeout(function () { a1[0].classList.add("zu"); a2[0].classList.add("zu"); offen = []; }, 900);
+        }
+      });
+      grid.appendChild(b);
+    });
+    c.appendChild(grid); app.appendChild(c);
+  }
+
+  if ("speechSynthesis" in window) speechSynthesis.getVoices();
+  start();
+})();
+</script>
+</body>
+</html>
