@@ -4,6 +4,953 @@ window.NACHRICHTEN = {
  "spiel": false,
  "tage": [
   {
+   "datum": "2026-11-23",
+   "nachrichten": [
+    {
+     "kategorie": "Sport",
+     "titel": "Alcaraz schlägt die Nummer eins",
+     "text": "Am Sonntag hat Carlos Alcaraz aus Spanien die ATP Finals in Turin gewonnen. Bei diesem Turnier spielen am Ende der Saison nur die acht besten Tennisspieler des Jahres.\n\nIm Finale hat Alcaraz gegen Alexander Zverev aus Deutschland gespielt. Zverev ist im Moment die Nummer eins der Welt. Vor dem Finale hat er keinen einzigen Satz verloren. Doch Alcaraz war stärker: Er hat mit 6:2 und 7:6 gewonnen. Der zweite Satz war sehr spannend.\n\nFür Alcaraz ist es der erste Sieg bei diesem Turnier.",
+     "vokabeln": [
+      {
+       "de": "die Saison",
+       "im_text": "Saison",
+       "erkl": "die Zeit im Jahr, in der ein Sport gespielt wird"
+      },
+      {
+       "de": "das Turnier",
+       "im_text": "Turnier",
+       "erkl": "ein Wettbewerb mit vielen Spielen; am Ende gibt es einen Sieger"
+      },
+      {
+       "de": "das Finale",
+       "im_text": "Finale",
+       "erkl": "das letzte und wichtigste Spiel"
+      },
+      {
+       "de": "der Satz",
+       "im_text": "Satz",
+       "erkl": "ein Teil von einem Tennisspiel"
+      },
+      {
+       "de": "verlieren",
+       "im_text": "verloren",
+       "erkl": "nicht gewinnen"
+      },
+      {
+       "de": "spannend",
+       "im_text": "spannend",
+       "erkl": "so interessant, dass man unbedingt das Ende wissen will"
+      },
+      {
+       "de": "der Sieg",
+       "im_text": "Sieg",
+       "erkl": "wenn man gewinnt"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wo war das Turnier?",
+       "optionen": [
+        "in Madrid",
+        "in Turin",
+        "in Berlin"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Zverev hat vor dem Finale keinen Satz verloren.",
+       "richtig": true
+      },
+      {
+       "typ": "rf",
+       "aussage": "Alcaraz hat das Turnier schon oft gewonnen.",
+       "richtig": false,
+       "erkl": "Es ist sein erster Sieg bei diesem Turnier."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wer spielt bei den ATP Finals?",
+         "die acht besten Spieler des Jahres"
+        ],
+        [
+         "Woher kommt Zverev?",
+         "aus Deutschland"
+        ],
+        [
+         "Wie ist das Ergebnis?",
+         "6:2 und 7:6"
+        ],
+        [
+         "Welcher Satz war spannend?",
+         "der zweite Satz"
+        ]
+       ]
+      },
+      {
+       "typ": "offen",
+       "frage": "Warum war der Sieg von Alcaraz eine kleine Überraschung?",
+       "loesung": "Weil Zverev die Nummer eins ist und vor dem Finale keinen Satz verloren hat."
+      }
+     ],
+     "diskussion": [
+      "Schaust du gern Tennis oder andere Sportarten im Fernsehen? Welche?",
+      "Was ist wichtiger im Sport: Talent oder Training?"
+     ],
+     "uebungen": [
+      {
+       "typ": "auswahl",
+       "titel": "Verb auf Position 2",
+       "anweisung": "Wähle den richtigen Satz.",
+       "regel": "Wiederholung (20.11.): Nach ab sofort, hoffentlich, dann … steht das Verb auf Position 2: Ab sofort kann ich GTA 6 spielen.",
+       "items": [
+        {
+         "text": "Hoffentlich ___",
+         "optionen": [
+          "gewinnt Zverev nächstes Jahr.",
+          "Zverev gewinnt nächstes Jahr."
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Ab sofort ___",
+         "optionen": [
+          "Alcaraz ist der Sieger der ATP Finals.",
+          "ist Alcaraz der Sieger der ATP Finals."
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Dann ___",
+         "optionen": [
+          "hat Alcaraz den Tiebreak gewonnen.",
+          "Alcaraz hat den Tiebreak gewonnen."
+         ],
+         "richtig": 0
+        }
+       ]
+      },
+      {
+       "typ": "fehler",
+       "titel": "dass-Sätze",
+       "anweisung": "Ein Wort steht an der falschen Stelle.",
+       "items": [
+        {
+         "woerter": [
+          "Ich",
+          "würde",
+          "sagen,",
+          "dass",
+          "Alcaraz",
+          "ist",
+          "der",
+          "Beste."
+         ],
+         "fehler": 5,
+         "korrektur": "…, dass Alcaraz der Beste ist.",
+         "erkl": "Nach dass steht das Verb am Ende. Wiederholung (20.11.): Ich würde sagen, dass …"
+        },
+        {
+         "woerter": [
+          "Ich",
+          "glaube,",
+          "dass",
+          "Zverev",
+          "ist",
+          "traurig."
+         ],
+         "fehler": 4,
+         "korrektur": "…, dass Zverev traurig ist.",
+         "erkl": "dass → Verb am Ende."
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Gegenteile",
+       "anweisung": "Schreib das Gegenteil.",
+       "items": [
+        {
+         "text": "gewinnen ↔ ___",
+         "loesung": [
+          "verlieren"
+         ]
+        },
+        {
+         "text": "der Sieg ↔ ___",
+         "loesung": [
+          "die Niederlage"
+         ]
+        },
+        {
+         "text": "stark ↔ ___",
+         "loesung": [
+          "schwach"
+         ]
+        },
+        {
+         "text": "spannend ↔ ___",
+         "loesung": [
+          "langweilig"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Bildung",
+     "titel": "Südkorea: Minister geht nach Chaos bei Prüfung",
+     "text": "In Südkorea haben am Donnerstag viele Schülerinnen und Schüler eine sehr wichtige Prüfung geschrieben: den Test für die Universität.\n\nKurz vorher hat ein Mann zugegeben, dass er bei einer anderen Prüfung mit einer Mini-Kamera und einem Handy geschummelt hat. Deshalb hatte das Bildungsministerium Angst vor Betrug mit KI. Es hat ganz schnell neue Regeln gemacht: Nur Bleistifte waren erlaubt, und auf Knöpfe an der Kleidung mussten Sticker.\n\nViele Menschen haben das Chaos kritisiert. Am Sonntag ist der Bildungsminister zurückgetreten.",
+     "vokabeln": [
+      {
+       "de": "zugeben",
+       "im_text": "zugegeben",
+       "erkl": "sagen, dass man etwas Falsches gemacht hat"
+      },
+      {
+       "de": "schummeln",
+       "im_text": "geschummelt",
+       "erkl": "in einem Test heimlich verbotene Hilfe benutzen"
+      },
+      {
+       "de": "der Betrug",
+       "im_text": "Betrug",
+       "erkl": "wenn jemand unehrlich ist, um einen Vorteil zu bekommen"
+      },
+      {
+       "de": "erlaubt",
+       "im_text": "erlaubt",
+       "erkl": "man darf es machen; Gegenteil von verboten"
+      },
+      {
+       "de": "kritisieren",
+       "im_text": "kritisiert",
+       "erkl": "sagen, dass etwas schlecht ist"
+      },
+      {
+       "de": "zurücktreten",
+       "im_text": "zurückgetreten",
+       "erkl": "ein wichtiges Amt (z. B. Minister) freiwillig aufgeben"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wofür ist die Prüfung?",
+       "optionen": [
+        "für den Führerschein",
+        "für die Universität",
+        "für eine Arbeitsstelle"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Ein Mann hat mit einer Mini-Kamera geschummelt.",
+       "richtig": true
+      },
+      {
+       "typ": "rf",
+       "aussage": "In der Prüfung waren Kugelschreiber erlaubt.",
+       "richtig": false,
+       "erkl": "Nur Bleistifte waren erlaubt."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wann war die Prüfung?",
+         "am Donnerstag"
+        ],
+        [
+         "Wovor hatte das Ministerium Angst?",
+         "vor Betrug mit KI"
+        ],
+        [
+         "Was kam auf die Knöpfe?",
+         "Sticker"
+        ],
+        [
+         "Wann ist der Minister zurückgetreten?",
+         "am Sonntag"
+        ]
+       ]
+      },
+      {
+       "typ": "offen",
+       "frage": "Warum ist der Minister zurückgetreten?",
+       "loesung": "Weil viele Menschen das Chaos mit den neuen Regeln kritisiert haben."
+      }
+     ],
+     "diskussion": [
+      "Wie kann man in Prüfungen Betrug mit KI verhindern?",
+      "Hast du in der Schule schon einmal eine sehr wichtige Prüfung gemacht? Wie war das?"
+     ],
+     "uebungen": [
+      {
+       "typ": "auswahl",
+       "titel": "um … zu",
+       "anweisung": "Wähle die richtige Form.",
+       "regel": "um … zu + Infinitiv am Ende: Ich lerne, um die Prüfung zu bestehen.",
+       "items": [
+        {
+         "text": "Man klebt Sticker auf die Knöpfe, um Kameras ___.",
+         "optionen": [
+          "zu verhindern",
+          "verhindern",
+          "zu verhindert"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Ich lerne Deutsch, um in Österreich ___.",
+         "optionen": [
+          "arbeiten",
+          "zu arbeiten",
+          "zu arbeite"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Viele Schüler lernen jeden Tag, um die Prüfung ___.",
+         "optionen": [
+          "bestehen zu",
+          "bestehen",
+          "zu bestehen"
+         ],
+         "richtig": 2
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Wortbildung mit -bar",
+       "anweisung": "Bilde das Adjektiv.",
+       "regel": "-bar = man kann es machen. Wiederholung (20.11.): spielen → spielbar, machen → machbar.",
+       "items": [
+        {
+         "text": "machen → ___",
+         "loesung": [
+          "machbar"
+         ]
+        },
+        {
+         "text": "erreichen → ___",
+         "loesung": [
+          "erreichbar"
+         ]
+        },
+        {
+         "text": "spielen → ___",
+         "loesung": [
+          "spielbar"
+         ]
+        },
+        {
+         "text": "kontrollieren → ___",
+         "loesung": [
+          "kontrollierbar"
+         ]
+        }
+       ]
+      },
+      {
+       "typ": "fehler",
+       "titel": "dass-Sätze",
+       "anweisung": "Ein Wort steht an der falschen Stelle.",
+       "items": [
+        {
+         "woerter": [
+          "Viele",
+          "sagen,",
+          "dass",
+          "die",
+          "Regeln",
+          "sind",
+          "zu",
+          "streng."
+         ],
+         "fehler": 5,
+         "korrektur": "…, dass die Regeln zu streng sind.",
+         "erkl": "dass → Verb am Ende."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Sport",
+     "titel": "Formel 1: Verstappen gewinnt in Las Vegas",
+     "text": "Am Wochenende ist die Formel 1 in Las Vegas in den USA gefahren. Das Rennen findet in der Nacht statt, mitten in der Stadt zwischen den großen Hotels und Casinos.\n\nMax Verstappen ist von Platz 1 gestartet und hat am Ende auch gewonnen. Einfach war das aber nicht: Mehr als 30 Mal hat die Führung gewechselt. Für Verstappen ist es der vierte Sieg in dieser Saison und schon der dritte in Las Vegas.\n\nPech hatte Ferrari: Die beiden Fahrer Lewis Hamilton und Charles Leclerc sind wieder zusammengestoßen.",
+     "vokabeln": [
+      {
+       "de": "stattfinden",
+       "im_text": "findet",
+       "erkl": "passieren (für Termine und Veranstaltungen)"
+      },
+      {
+       "de": "mitten in",
+       "im_text": "mitten",
+       "erkl": "genau im Zentrum von"
+      },
+      {
+       "de": "die Führung",
+       "im_text": "Führung",
+       "erkl": "Platz 1 während des Rennens"
+      },
+      {
+       "de": "wechseln",
+       "im_text": "gewechselt",
+       "erkl": "anders werden, von einem zum anderen gehen"
+      },
+      {
+       "de": "das Pech",
+       "im_text": "Pech",
+       "erkl": "Gegenteil von Glück"
+      },
+      {
+       "de": "zusammenstoßen",
+       "im_text": "zusammengestoßen",
+       "erkl": "gegeneinander fahren, ein Unfall"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wann fährt die Formel 1 in Las Vegas?",
+       "optionen": [
+        "am Morgen",
+        "in der Nacht",
+        "am Nachmittag"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Verstappen ist von Platz 1 gestartet.",
+       "richtig": true
+      },
+      {
+       "typ": "rf",
+       "aussage": "Es ist Verstappens erster Sieg in Las Vegas.",
+       "richtig": false,
+       "erkl": "Es ist schon der dritte."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wie oft hat die Führung gewechselt?",
+         "mehr als 30 Mal"
+        ],
+        [
+         "Der wievielte Sieg in dieser Saison?",
+         "der vierte"
+        ],
+        [
+         "Welches Team hatte Pech?",
+         "Ferrari"
+        ],
+        [
+         "Wo fahren die Autos?",
+         "mitten in der Stadt"
+        ]
+       ]
+      },
+      {
+       "typ": "offen",
+       "frage": "Was ist mit Hamilton und Leclerc passiert?",
+       "loesung": "Sie sind wieder zusammengestoßen."
+      }
+     ],
+     "diskussion": [
+      "Würdest du gern einmal nach Las Vegas reisen? Warum (nicht)?",
+      "Ist Formel 1 für dich spannend oder langweilig?"
+     ],
+     "uebungen": [
+      {
+       "typ": "eingabe",
+       "titel": "Wörter mit -zeug",
+       "anweisung": "Ergänze das Wort.",
+       "regel": "Wiederholung (20.11.): das Spielzeug, das Flugzeug, das Fahrzeug – alle Wörter mit -zeug sind neutral (das).",
+       "items": [
+        {
+         "text": "Ein Auto ist ein ___.",
+         "loesung": [
+          "Fahrzeug"
+         ]
+        },
+        {
+         "text": "Damit fliegt man nach Las Vegas: das ___.",
+         "loesung": [
+          "Flugzeug"
+         ]
+        },
+        {
+         "text": "Damit spielen Kinder: das ___.",
+         "loesung": [
+          "Spielzeug"
+         ]
+        },
+        {
+         "text": "Damit repariert man ein Auto: das ___.",
+         "loesung": [
+          "Werkzeug"
+         ],
+         "hinweis": "Werk…"
+        }
+       ]
+      },
+      {
+       "typ": "auswahl",
+       "titel": "Verb auf Position 2",
+       "anweisung": "Wähle den richtigen Satz.",
+       "regel": "Wiederholung (20.11.): Nach ab sofort, hoffentlich, dann … steht das Verb auf Position 2: Ab sofort kann ich GTA 6 spielen.",
+       "items": [
+        {
+         "text": "Dann ___",
+         "optionen": [
+          "Verstappen hat gewonnen.",
+          "hat Verstappen gewonnen."
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Hoffentlich ___",
+         "optionen": [
+          "fahre ich einmal nach Las Vegas.",
+          "ich fahre einmal nach Las Vegas."
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Ab sofort ___",
+         "optionen": [
+          "schaue ich Formel 1.",
+          "ich schaue Formel 1."
+         ],
+         "richtig": 0
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Wörter aus den letzten Stunden",
+       "anweisung": "Ergänze das passende Wort.",
+       "regel": "Wiederholung (20.11.): Trinkgeld geben, Urlaub nehmen, ausprobieren.",
+       "items": [
+        {
+         "text": "In den USA gibt man im Restaurant oft 20 Prozent ___.",
+         "loesung": [
+          "Trinkgeld"
+         ]
+        },
+        {
+         "text": "Ich nehme ___ und fliege nach Las Vegas.",
+         "loesung": [
+          "Urlaub"
+         ]
+        },
+        {
+         "text": "Ich will das Formel-1-Videospiel ___.",
+         "loesung": [
+          "ausprobieren"
+         ],
+         "hinweis": "aus…"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Fußball",
+     "titel": "Rapid Wien stellt einen Punkterekord auf",
+     "text": "Der SK Rapid Wien spielt im Moment eine fantastische Saison. Am Samstag hat die Mannschaft beim GAK in Graz mit 3:0 gewonnen.\n\nNach 13 Runden hat Rapid jetzt 36 Punkte. Das ist ein neuer Rekord in der österreichischen Bundesliga: Noch nie hat ein Klub nach 13 Spielen so viele Punkte gesammelt. Der alte Rekord hat Red Bull Salzburg gehört. Rapid hat zwölf Spiele gewonnen und nur einmal verloren.\n\nViele Fans träumen jetzt vom Meistertitel. Aber die Saison ist noch lang.",
+     "vokabeln": [
+      {
+       "de": "die Runde",
+       "im_text": "Runden",
+       "erkl": "ein Spieltag; alle Teams spielen einmal"
+      },
+      {
+       "de": "der Rekord",
+       "im_text": "Rekord",
+       "erkl": "das beste Ergebnis, das es je gegeben hat"
+      },
+      {
+       "de": "sammeln",
+       "im_text": "gesammelt",
+       "erkl": "nach und nach mehr bekommen"
+      },
+      {
+       "de": "gehören",
+       "im_text": "gehört",
+       "erkl": "jemandes Besitz sein"
+      },
+      {
+       "de": "träumen von",
+       "im_text": "träumen",
+       "erkl": "sich etwas sehr wünschen"
+      },
+      {
+       "de": "der Meistertitel",
+       "im_text": "Meistertitel",
+       "erkl": "der Titel für das beste Team am Ende der Saison"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Gegen wen hat Rapid am Samstag gespielt?",
+       "optionen": [
+        "gegen Salzburg",
+        "gegen den GAK",
+        "gegen Sturm Graz"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Rapid hat nach 13 Runden 36 Punkte.",
+       "richtig": true
+      },
+      {
+       "typ": "rf",
+       "aussage": "Der alte Rekord hat der Austria Wien gehört.",
+       "richtig": false,
+       "erkl": "Er hat Red Bull Salzburg gehört."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wie war das Ergebnis?",
+         "3:0"
+        ],
+        [
+         "Wo war das Spiel?",
+         "in Graz"
+        ],
+        [
+         "Wie oft hat Rapid verloren?",
+         "einmal"
+        ],
+        [
+         "Wovon träumen die Fans?",
+         "vom Meistertitel"
+        ]
+       ]
+      },
+      {
+       "typ": "offen",
+       "frage": "Warum ist Rapid noch nicht sicher Meister?",
+       "loesung": "Weil die Saison noch lang ist."
+      }
+     ],
+     "diskussion": [
+      "Welcher Fußballklub ist dein Lieblingsklub? Warum?",
+      "Ist es besser, wenn immer dasselbe Team gewinnt, oder wenn es Überraschungen gibt?"
+     ],
+     "uebungen": [
+      {
+       "typ": "fehler",
+       "titel": "Fehler finden",
+       "anweisung": "Ein Wort steht an der falschen Stelle.",
+       "items": [
+        {
+         "woerter": [
+          "Ich",
+          "freue",
+          "mich,",
+          "dass",
+          "Rapid",
+          "hat",
+          "gewonnen."
+         ],
+         "fehler": 5,
+         "korrektur": "…, dass Rapid gewonnen hat.",
+         "erkl": "dass → Verb am Ende. Wiederholung (20.11.): sich freuen, dass …"
+        },
+        {
+         "woerter": [
+          "Hoffentlich",
+          "Rapid",
+          "wird",
+          "Meister."
+         ],
+         "fehler": 1,
+         "korrektur": "Hoffentlich wird Rapid Meister.",
+         "erkl": "Nach hoffentlich kommt sofort das Verb."
+        },
+        {
+         "woerter": [
+          "Dann",
+          "die",
+          "Fans",
+          "haben",
+          "gefeiert."
+         ],
+         "fehler": 1,
+         "korrektur": "Dann haben die Fans gefeiert.",
+         "erkl": "Nach dann kommt sofort das Verb."
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Partizip II",
+       "anweisung": "Schreib das Partizip.",
+       "items": [
+        {
+         "text": "sammeln → ___",
+         "loesung": [
+          "gesammelt"
+         ]
+        },
+        {
+         "text": "gewinnen → ___",
+         "loesung": [
+          "gewonnen"
+         ]
+        },
+        {
+         "text": "verlieren → ___",
+         "loesung": [
+          "verloren"
+         ]
+        },
+        {
+         "text": "träumen → ___",
+         "loesung": [
+          "geträumt"
+         ]
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Lückentext",
+       "anweisung": "Ergänze ein Wort aus dem Text.",
+       "items": [
+        {
+         "text": "Nach 13 ___ hat Rapid 36 Punkte.",
+         "loesung": [
+          "Runden"
+         ]
+        },
+        {
+         "text": "Der alte Rekord hat Red Bull Salzburg ___.",
+         "loesung": [
+          "gehört"
+         ]
+        },
+        {
+         "text": "Viele Fans träumen vom ___.",
+         "loesung": [
+          "Meistertitel"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Kino",
+     "titel": "Panem-Film: Riesenerfolg in den USA",
+     "text": "Der neue Film aus der Reihe „Die Tribute von Panem“ ist am Wochenende in den USA gestartet. Die Geschichte basiert auf einem Roman der Autorin Suzanne Collins.\n\nDer Start war ein großer Erfolg: In den ersten drei Tagen hat der Film in den USA etwa 120 Millionen Dollar eingespielt. Damit ist er klar auf Platz 1. Der zweite Film auf der Liste hatte nur etwa 9 Millionen Dollar.\n\nEs ist schon der fünfte Panem-Film, der am ersten Wochenende mehr als 100 Millionen Dollar gemacht hat.",
+     "vokabeln": [
+      {
+       "de": "die Reihe",
+       "im_text": "Reihe",
+       "erkl": "mehrere Filme oder Bücher, die zusammengehören"
+      },
+      {
+       "de": "basieren auf",
+       "im_text": "basiert",
+       "erkl": "als Grundlage haben"
+      },
+      {
+       "de": "die Autorin",
+       "im_text": "Autorin",
+       "erkl": "eine Frau, die Bücher schreibt"
+      },
+      {
+       "de": "der Erfolg",
+       "im_text": "Erfolg",
+       "erkl": "wenn etwas sehr gut funktioniert"
+      },
+      {
+       "de": "einspielen",
+       "im_text": "eingespielt",
+       "erkl": "mit einem Film Geld verdienen"
+      },
+      {
+       "de": "klar",
+       "im_text": "klar",
+       "erkl": "hier: deutlich, ohne Zweifel"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wie viel Geld hat der Film in den ersten drei Tagen eingespielt?",
+       "optionen": [
+        "etwa 9 Millionen Dollar",
+        "etwa 120 Millionen Dollar",
+        "etwa 1 Milliarde Dollar"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die Geschichte basiert auf einem Roman.",
+       "richtig": true
+      },
+      {
+       "typ": "rf",
+       "aussage": "Es ist der erste Panem-Film mit über 100 Millionen am ersten Wochenende.",
+       "richtig": false,
+       "erkl": "Es ist schon der fünfte."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wer hat den Roman geschrieben?",
+         "Suzanne Collins"
+        ],
+        [
+         "Wo ist der Film gestartet?",
+         "in den USA"
+        ],
+        [
+         "Welcher Platz?",
+         "Platz 1"
+        ],
+        [
+         "Wie viel hatte Platz 2?",
+         "etwa 9 Millionen Dollar"
+        ]
+       ]
+      },
+      {
+       "typ": "offen",
+       "frage": "Warum kann man sagen, dass der Start ein großer Erfolg war?",
+       "loesung": "Weil der Film in drei Tagen etwa 120 Millionen Dollar eingespielt hat und klar auf Platz 1 ist."
+      }
+     ],
+     "diskussion": [
+      "Gehst du gern ins Kino, oder schaust du Filme lieber zu Hause?",
+      "Ist das Buch meistens besser als der Film? Warum?"
+     ],
+     "uebungen": [
+      {
+       "typ": "auswahl",
+       "titel": "um … zu",
+       "anweisung": "Wähle die richtige Form.",
+       "regel": "um … zu + Infinitiv am Ende.",
+       "items": [
+        {
+         "text": "Viele Menschen gehen ins Kino, um den Film ___.",
+         "optionen": [
+          "zu sehen",
+          "sehen",
+          "zu sieht"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Ich bestelle Popcorn, um es im Kino ___.",
+         "optionen": [
+          "essen",
+          "zu essen",
+          "zu isst"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Ich lese das Buch, um die Geschichte besser ___.",
+         "optionen": [
+          "zu verstehen",
+          "verstehen",
+          "verstehe"
+         ],
+         "richtig": 0
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "dass-Sätze",
+       "anweisung": "Ergänze das Verb in der richtigen Form.",
+       "regel": "dass → Verb am Ende. Wiederholung (20.11.): Ich würde sagen, dass …",
+       "items": [
+        {
+         "text": "Ich glaube, dass der Film gut ___. (sein)",
+         "loesung": [
+          "ist"
+         ]
+        },
+        {
+         "text": "Ich finde, dass Bücher besser ___. (sein)",
+         "loesung": [
+          "sind"
+         ]
+        },
+        {
+         "text": "Ich würde sagen, dass der Film viel Geld ___. (machen)",
+         "loesung": [
+          "macht"
+         ]
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Männlich, weiblich, Plural",
+       "anweisung": "Ergänze das Wort mit Artikel.",
+       "regel": "Wiederholung (20.11.): der Kunde – die Kundin – die Kunden.",
+       "items": [
+        {
+         "text": "die Autorin → (Mann) ___",
+         "loesung": [
+          "der Autor"
+         ]
+        },
+        {
+         "text": "der Kunde → (Frau) ___",
+         "loesung": [
+          "die Kundin"
+         ]
+        },
+        {
+         "text": "der Film → (Plural) ___",
+         "loesung": [
+          "die Filme"
+         ]
+        },
+        {
+         "text": "der Kunde → (Plural) ___",
+         "loesung": [
+          "die Kunden"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
    "datum": "2026-11-22",
    "nachrichten": [
     {

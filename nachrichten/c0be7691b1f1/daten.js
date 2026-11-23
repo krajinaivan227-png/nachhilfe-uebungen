@@ -4,6 +4,858 @@ window.NACHRICHTEN = {
  "spiel": false,
  "tage": [
   {
+   "datum": "2026-11-23",
+   "nachrichten": [
+    {
+     "kategorie": "Sport",
+     "titel": "Alcaraz gewinnt ein großes Tennisturnier",
+     "text": "Carlos Alcaraz ist ein Tennisspieler aus Spanien. Am Sonntag hat er in Turin ein großes Turnier gewonnen: die ATP Finals. Dort spielen nur die acht besten Spieler des Jahres.\n\nIm Finale hat Alcaraz gegen Alexander Zverev aus Deutschland gespielt. Zverev ist die Nummer eins der Welt. Alcaraz hat 6:2 und 7:6 gewonnen. Er ist sehr glücklich.",
+     "vokabeln": [
+      {
+       "de": "der Tennisspieler",
+       "im_text": "Tennisspieler",
+       "erkl": "ein Mann, der Tennis spielt"
+      },
+      {
+       "de": "das Turnier",
+       "im_text": "Turnier",
+       "erkl": "viele Spiele hintereinander; am Ende gibt es einen Sieger"
+      },
+      {
+       "de": "gewinnen",
+       "im_text": "gewonnen",
+       "erkl": "Platz 1 machen"
+      },
+      {
+       "de": "das Finale",
+       "im_text": "Finale",
+       "erkl": "das letzte Spiel"
+      },
+      {
+       "de": "die Nummer eins",
+       "im_text": "Nummer eins",
+       "erkl": "der Beste, Platz 1"
+      },
+      {
+       "de": "glücklich",
+       "im_text": "glücklich",
+       "erkl": "sehr froh"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Woher kommt Carlos Alcaraz?",
+       "optionen": [
+        "aus Deutschland",
+        "aus Spanien",
+        "aus Italien"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Alcaraz hat das Finale verloren.",
+       "richtig": false,
+       "erkl": "Er hat gewonnen."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Zverev ist die Nummer eins der Welt.",
+       "richtig": true
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wer hat gewonnen?",
+         "Carlos Alcaraz"
+        ],
+        [
+         "Wo?",
+         "in Turin"
+        ],
+        [
+         "Wann?",
+         "am Sonntag"
+        ],
+        [
+         "Gegen wen?",
+         "gegen Alexander Zverev"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Spielst du gern Tennis oder einen anderen Sport?",
+      "Wer ist dein Lieblingssportler oder deine Lieblingssportlerin?"
+     ],
+     "uebungen": [
+      {
+       "typ": "auswahl",
+       "titel": "Satzbau",
+       "anweisung": "Wähle den richtigen Satz.",
+       "regel": "Zeitangabe am Anfang → Verb auf Position 2: Heute habe ich …",
+       "items": [
+        {
+         "text": "Am Sonntag ___",
+         "optionen": [
+          "hat Alcaraz gewonnen.",
+          "Alcaraz hat gewonnen."
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Heute ___",
+         "optionen": [
+          "Alcaraz ist glücklich.",
+          "ist Alcaraz glücklich."
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Morgen ___",
+         "optionen": [
+          "spiele ich Tennis.",
+          "ich spiele Tennis."
+         ],
+         "richtig": 0
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Perfekt",
+       "anweisung": "Ergänze das Wort.",
+       "items": [
+        {
+         "text": "Alcaraz hat das Finale ___. (gewinnen)",
+         "loesung": [
+          "gewonnen"
+         ]
+        },
+        {
+         "text": "Er hat gegen Zverev ___. (spielen)",
+         "loesung": [
+          "gespielt"
+         ]
+        },
+        {
+         "text": "Ich ___ das Spiel im Fernsehen gesehen.",
+         "loesung": [
+          "habe"
+         ]
+        }
+       ]
+      },
+      {
+       "typ": "auswahl",
+       "titel": "Wo oder wohin?",
+       "anweisung": "Wähle das Fragewort.",
+       "regel": "Wo? → Ort (in der Schule). Wohin? → Richtung (in die Schule).",
+       "items": [
+        {
+         "text": "___ war das Turnier? – In Turin.",
+         "optionen": [
+          "Wo",
+          "Wohin"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "___ fährt Alcaraz jetzt? – Nach Hause.",
+         "optionen": [
+          "Wo",
+          "Wohin"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "___ spielst du Tennis? – Im Park.",
+         "optionen": [
+          "Wo",
+          "Wohin"
+         ],
+         "richtig": 0
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Schule & Welt",
+     "titel": "Südkorea: Nur Bleistifte in der Prüfung",
+     "text": "In Südkorea haben am Donnerstag viele Menschen eine wichtige Prüfung geschrieben. Mit dieser Prüfung können sie an die Universität gehen.\n\nEs gibt neue Regeln: Man darf nur Bleistifte mitnehmen. Auf die Knöpfe von der Kleidung kommen Sticker. Warum? Niemand soll mit einer kleinen Kamera und KI schummeln.\n\nViele Leute finden die Regeln schlecht. Am Sonntag ist der Bildungsminister zurückgetreten.",
+     "vokabeln": [
+      {
+       "de": "die Prüfung",
+       "im_text": "Prüfung",
+       "erkl": "ein Test in der Schule oder an der Universität"
+      },
+      {
+       "de": "die Regel",
+       "im_text": "Regeln",
+       "erkl": "das sagt, was man darf und was man nicht darf"
+      },
+      {
+       "de": "der Bleistift",
+       "im_text": "Bleistifte",
+       "erkl": "damit schreibt man; man kann es wegradieren"
+      },
+      {
+       "de": "der Knopf",
+       "im_text": "Knöpfe",
+       "erkl": "ein kleines rundes Ding an Hemd oder Jacke"
+      },
+      {
+       "de": "schummeln",
+       "im_text": "schummeln",
+       "erkl": "im Test heimlich Hilfe benutzen; das ist nicht fair"
+      },
+      {
+       "de": "zurücktreten",
+       "im_text": "zurückgetreten",
+       "erkl": "seine Arbeit als Chef oder Minister aufgeben"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Was darf man in die Prüfung mitnehmen?",
+       "optionen": [
+        "ein Handy",
+        "nur Bleistifte",
+        "Kugelschreiber und Bücher"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die Prüfung ist für die Universität.",
+       "richtig": true
+      },
+      {
+       "typ": "rf",
+       "aussage": "Alle Leute finden die Regeln super.",
+       "richtig": false,
+       "erkl": "Viele Leute finden die Regeln schlecht."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wo?",
+         "in Südkorea"
+        ],
+        [
+         "Wann war die Prüfung?",
+         "am Donnerstag"
+        ],
+        [
+         "Was kommt auf die Knöpfe?",
+         "Sticker"
+        ],
+        [
+         "Wer ist zurückgetreten?",
+         "der Bildungsminister"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Was ist in deiner Schule bei Tests verboten?",
+      "Findest du die Regeln in Südkorea gut oder schlecht? Warum?"
+     ],
+     "uebungen": [
+      {
+       "typ": "auswahl",
+       "titel": "Satzbau",
+       "anweisung": "Wähle den richtigen Satz.",
+       "regel": "Zeitangabe am Anfang → Verb auf Position 2: Heute habe ich …",
+       "items": [
+        {
+         "text": "Am Donnerstag ___",
+         "optionen": [
+          "viele Menschen haben eine Prüfung geschrieben.",
+          "haben viele Menschen eine Prüfung geschrieben."
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Am Sonntag ___",
+         "optionen": [
+          "ist der Minister zurückgetreten.",
+          "der Minister ist zurückgetreten."
+         ],
+         "richtig": 0
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Perfekt: haben oder sein?",
+       "anweisung": "Ergänze habe, hat oder ist.",
+       "items": [
+        {
+         "text": "Ich ___ in der Schule einen Test geschrieben.",
+         "loesung": [
+          "habe"
+         ]
+        },
+        {
+         "text": "Der Minister ___ zurückgetreten.",
+         "loesung": [
+          "ist"
+         ]
+        },
+        {
+         "text": "Ein Mann ___ geschummelt.",
+         "loesung": [
+          "hat"
+         ]
+        }
+       ]
+      },
+      {
+       "typ": "auswahl",
+       "titel": "Wo oder wohin?",
+       "anweisung": "Wähle das Fragewort.",
+       "regel": "Wo? → Ort (in der Schule). Wohin? → Richtung (in die Schule).",
+       "items": [
+        {
+         "text": "___ gehen die Schüler nach der Prüfung? – An die Universität.",
+         "optionen": [
+          "Wo",
+          "Wohin"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "___ schreiben sie die Prüfung? – In der Schule.",
+         "optionen": [
+          "Wo",
+          "Wohin"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "___ legst du den Bleistift? – Auf den Tisch.",
+         "optionen": [
+          "Wo",
+          "Wohin"
+         ],
+         "richtig": 1
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Sport",
+     "titel": "Verstappen gewinnt in Las Vegas",
+     "text": "Am Wochenende hat es in Las Vegas in den USA ein Formel-1-Rennen gegeben. Das Rennen ist in der Nacht. Die Stadt hat viele bunte Lichter.\n\nMax Verstappen aus den Niederlanden hat gewonnen. Er ist ganz vorne gestartet. Das Rennen war sehr spannend: Mehr als 30 Mal hat ein anderes Auto geführt. Für Verstappen ist es der dritte Sieg in Las Vegas.",
+     "vokabeln": [
+      {
+       "de": "das Rennen",
+       "im_text": "Rennen",
+       "erkl": "ein Wettkampf: Wer ist am schnellsten?"
+      },
+      {
+       "de": "die Nacht",
+       "im_text": "Nacht",
+       "erkl": "die Zeit, wenn es dunkel ist"
+      },
+      {
+       "de": "bunt",
+       "im_text": "bunte",
+       "erkl": "mit vielen Farben"
+      },
+      {
+       "de": "starten",
+       "im_text": "gestartet",
+       "erkl": "beginnen, losfahren"
+      },
+      {
+       "de": "führen",
+       "im_text": "geführt",
+       "erkl": "auf Platz 1 sein"
+      },
+      {
+       "de": "der Sieg",
+       "im_text": "Sieg",
+       "erkl": "wenn man gewinnt"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wo war das Rennen?",
+       "optionen": [
+        "in Las Vegas",
+        "in Wien",
+        "in Paris"
+       ],
+       "richtig": 0
+      },
+      {
+       "typ": "rf",
+       "aussage": "Das Rennen ist am Vormittag.",
+       "richtig": false,
+       "erkl": "Das Rennen ist in der Nacht."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Verstappen hat schon dreimal in Las Vegas gewonnen.",
+       "richtig": true
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wer hat gewonnen?",
+         "Max Verstappen"
+        ],
+        [
+         "Woher kommt er?",
+         "aus den Niederlanden"
+        ],
+        [
+         "Wo ist Las Vegas?",
+         "in den USA"
+        ],
+        [
+         "Wie oft hat ein anderes Auto geführt?",
+         "mehr als 30 Mal"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Möchtest du einmal ein Autorennen sehen? Warum (nicht)?",
+      "Was ist dein Lieblingssport?"
+     ],
+     "uebungen": [
+      {
+       "typ": "auswahl",
+       "titel": "Satzbau",
+       "anweisung": "Wähle den richtigen Satz.",
+       "regel": "Zeitangabe am Anfang → Verb auf Position 2: Heute habe ich …",
+       "items": [
+        {
+         "text": "Am Wochenende ___",
+         "optionen": [
+          "es hat ein Rennen gegeben.",
+          "hat es ein Rennen gegeben."
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Heute ___",
+         "optionen": [
+          "fahre ich mit dem Scooter.",
+          "ich fahre mit dem Scooter."
+         ],
+         "richtig": 0
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Perfekt: haben oder sein?",
+       "anweisung": "Ergänze hat, ist oder bin.",
+       "regel": "fahren, starten (Bewegung) → sein.",
+       "items": [
+        {
+         "text": "Verstappen ___ gewonnen.",
+         "loesung": [
+          "hat"
+         ]
+        },
+        {
+         "text": "Er ___ ganz vorne gestartet.",
+         "loesung": [
+          "ist"
+         ]
+        },
+        {
+         "text": "Ich ___ mit dem Scooter zur Schule gefahren.",
+         "loesung": [
+          "bin"
+         ]
+        }
+       ]
+      },
+      {
+       "typ": "auswahl",
+       "titel": "Wo oder wohin?",
+       "anweisung": "Wähle das Fragewort.",
+       "regel": "Wo? → Ort (in der Schule). Wohin? → Richtung (in die Schule).",
+       "items": [
+        {
+         "text": "___ ist Las Vegas? – In den USA.",
+         "optionen": [
+          "Wo",
+          "Wohin"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "___ fährst du mit dem Scooter? – In die Schule.",
+         "optionen": [
+          "Wo",
+          "Wohin"
+         ],
+         "richtig": 1
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Kino",
+     "titel": "Der neue Panem-Film ist ein Hit",
+     "text": "Es gibt einen neuen Film von „Die Tribute von Panem“. Die Geschichte kommt aus einem Roman von Suzanne Collins.\n\nAm Wochenende sind in den USA sehr viele Menschen ins Kino gegangen. Der Film hat dort schon etwa 120 Millionen Dollar gemacht. Das ist sehr viel! Er ist jetzt auf Platz 1.",
+     "vokabeln": [
+      {
+       "de": "der Film",
+       "im_text": "Film",
+       "erkl": "man sieht ihn im Kino oder im Fernsehen"
+      },
+      {
+       "de": "die Geschichte",
+       "im_text": "Geschichte",
+       "erkl": "das, was im Buch oder Film passiert"
+      },
+      {
+       "de": "der Roman",
+       "im_text": "Roman",
+       "erkl": "ein langes Buch mit einer Geschichte"
+      },
+      {
+       "de": "das Kino",
+       "im_text": "Kino",
+       "erkl": "dort sieht man Filme auf einer großen Leinwand"
+      },
+      {
+       "de": "die Million",
+       "im_text": "Millionen",
+       "erkl": "1.000.000"
+      },
+      {
+       "de": "der Platz",
+       "im_text": "Platz",
+       "erkl": "hier: die Position in einer Liste"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wer hat den Roman geschrieben?",
+       "optionen": [
+        "Suzanne Collins",
+        "J. K. Rowling",
+        "Carlos Alcaraz"
+       ],
+       "richtig": 0
+      },
+      {
+       "typ": "rf",
+       "aussage": "Der Film ist auf Platz 1.",
+       "richtig": true
+      },
+      {
+       "typ": "rf",
+       "aussage": "Nur wenige Menschen sind ins Kino gegangen.",
+       "richtig": false,
+       "erkl": "Sehr viele Menschen sind ins Kino gegangen."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wo?",
+         "in den USA"
+        ],
+        [
+         "Wann?",
+         "am Wochenende"
+        ],
+        [
+         "Wie viel Geld?",
+         "etwa 120 Millionen Dollar"
+        ],
+        [
+         "Woher kommt die Geschichte?",
+         "aus einem Roman"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Liest du lieber Bücher oder schaust du lieber Filme?",
+      "Was ist dein Lieblingsfilm?"
+     ],
+     "uebungen": [
+      {
+       "typ": "auswahl",
+       "titel": "Satzbau",
+       "anweisung": "Wähle den richtigen Satz.",
+       "regel": "Zeitangabe am Anfang → Verb auf Position 2: Heute habe ich …",
+       "items": [
+        {
+         "text": "Am Wochenende ___",
+         "optionen": [
+          "sind viele Menschen ins Kino gegangen.",
+          "viele Menschen sind ins Kino gegangen."
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Heute Abend ___",
+         "optionen": [
+          "ich lese einen Manga.",
+          "lese ich einen Manga."
+         ],
+         "richtig": 1
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Perfekt",
+       "anweisung": "Ergänze das Wort.",
+       "items": [
+        {
+         "text": "Wir sind ins Kino ___. (gehen)",
+         "loesung": [
+          "gegangen"
+         ]
+        },
+        {
+         "text": "Ich habe das Buch ___. (lesen)",
+         "loesung": [
+          "gelesen"
+         ]
+        },
+        {
+         "text": "Der Film hat viel Geld ___. (machen)",
+         "loesung": [
+          "gemacht"
+         ]
+        }
+       ]
+      },
+      {
+       "typ": "auswahl",
+       "titel": "Wo oder wohin?",
+       "anweisung": "Wähle das Fragewort.",
+       "regel": "Wo? → Ort (in der Schule). Wohin? → Richtung (in die Schule).",
+       "items": [
+        {
+         "text": "___ gehst du heute Abend? – Ins Kino.",
+         "optionen": [
+          "Wo",
+          "Wohin"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "___ ist der Film auf Platz 1? – In den USA.",
+         "optionen": [
+          "Wo",
+          "Wohin"
+         ],
+         "richtig": 0
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Wetter",
+     "titel": "Viel Regen und Sturm in Frankreich",
+     "text": "In Frankreich ist das Wetter im Moment schlecht. Am Sonntag hat es in einigen Regionen sehr viel geregnet, zum Beispiel im Norden. Manche Flüsse haben jetzt sehr viel Wasser.\n\nHeute, am Montag, gibt es auf Korsika einen Sturm. Der Wind ist sehr stark. Die Menschen sollen gut aufpassen und zu Hause bleiben.",
+     "vokabeln": [
+      {
+       "de": "das Wetter",
+       "im_text": "Wetter",
+       "erkl": "Sonne, Regen, Wind, Schnee …"
+      },
+      {
+       "de": "regnen",
+       "im_text": "geregnet",
+       "erkl": "Wasser fällt vom Himmel"
+      },
+      {
+       "de": "der Fluss",
+       "im_text": "Flüsse",
+       "erkl": "viel Wasser, das sich bewegt, z. B. die Seine"
+      },
+      {
+       "de": "der Sturm",
+       "im_text": "Sturm",
+       "erkl": "sehr starker Wind"
+      },
+      {
+       "de": "stark",
+       "im_text": "stark",
+       "erkl": "mit viel Kraft"
+      },
+      {
+       "de": "aufpassen",
+       "im_text": "aufpassen",
+       "erkl": "vorsichtig sein"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wo gibt es heute einen Sturm?",
+       "optionen": [
+        "in Paris",
+        "auf Korsika",
+        "in Wien"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Am Sonntag hat es viel geregnet.",
+       "richtig": true
+      },
+      {
+       "typ": "rf",
+       "aussage": "Das Wetter in Frankreich ist im Moment sehr schön.",
+       "richtig": false,
+       "erkl": "Das Wetter ist schlecht."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wann war viel Regen?",
+         "am Sonntag"
+        ],
+        [
+         "Wann ist der Sturm?",
+         "am Montag"
+        ],
+        [
+         "Was haben manche Flüsse?",
+         "sehr viel Wasser"
+        ],
+        [
+         "Was sollen die Menschen machen?",
+         "aufpassen und zu Hause bleiben"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Was machst du, wenn es draußen regnet?",
+      "Hast du Angst vor Sturm oder Gewitter?"
+     ],
+     "uebungen": [
+      {
+       "typ": "auswahl",
+       "titel": "Satzbau",
+       "anweisung": "Wähle den richtigen Satz.",
+       "regel": "Zeitangabe am Anfang → Verb auf Position 2: Heute habe ich …",
+       "items": [
+        {
+         "text": "Am Sonntag ___",
+         "optionen": [
+          "hat es viel geregnet.",
+          "es hat viel geregnet."
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Heute ___",
+         "optionen": [
+          "es gibt einen Sturm.",
+          "gibt es einen Sturm."
+         ],
+         "richtig": 1
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Perfekt",
+       "anweisung": "Ergänze das Wort.",
+       "items": [
+        {
+         "text": "Es hat viel ___. (regnen)",
+         "loesung": [
+          "geregnet"
+         ]
+        },
+        {
+         "text": "Ich bin zu Hause ___. (bleiben)",
+         "loesung": [
+          "geblieben"
+         ]
+        }
+       ]
+      },
+      {
+       "typ": "zuordnen",
+       "titel": "Das Wetter",
+       "anweisung": "Finde die Paare.",
+       "paare": [
+        [
+         "die Sonne",
+         "es ist warm"
+        ],
+        [
+         "der Regen",
+         "man braucht einen Schirm"
+        ],
+        [
+         "der Sturm",
+         "sehr starker Wind"
+        ],
+        [
+         "der Schnee",
+         "es ist sehr kalt"
+        ]
+       ]
+      },
+      {
+       "typ": "auswahl",
+       "titel": "Wo oder wohin?",
+       "anweisung": "Wähle das Fragewort.",
+       "regel": "Wo? → Ort (in der Schule). Wohin? → Richtung (in die Schule).",
+       "items": [
+        {
+         "text": "___ gibt es einen Sturm? – Auf Korsika.",
+         "optionen": [
+          "Wo",
+          "Wohin"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "___ fließt das Wasser? – Auf die Straße.",
+         "optionen": [
+          "Wo",
+          "Wohin"
+         ],
+         "richtig": 1
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
    "datum": "2026-11-22",
    "nachrichten": [
     {

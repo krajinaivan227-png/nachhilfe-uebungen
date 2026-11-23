@@ -4,6 +4,878 @@ window.NACHRICHTEN = {
  "spiel": true,
  "tage": [
   {
+   "datum": "2026-11-23",
+   "nachrichten": [
+    {
+     "kategorie": "Sport",
+     "titel": "Alcaraz gewinnt ein großes Tennisturnier",
+     "text": "Carlos Alcaraz ist ein Tennisspieler aus Spanien. Am Sonntag hat er in Turin ein großes Turnier gewonnen: die ATP Finals. Dort spielen nur die acht besten Spieler des Jahres.\n\nIm Finale hat Alcaraz gegen Alexander Zverev aus Deutschland gespielt. Zverev ist die Nummer eins der Welt. Alcaraz hat 6:2 und 7:6 gewonnen. Er ist sehr glücklich.",
+     "vokabeln": [
+      {
+       "de": "der Tennisspieler",
+       "im_text": "Tennisspieler",
+       "erkl": "ein Mann, der Tennis spielt"
+      },
+      {
+       "de": "das Turnier",
+       "im_text": "Turnier",
+       "erkl": "viele Spiele hintereinander; am Ende gibt es einen Sieger"
+      },
+      {
+       "de": "gewinnen",
+       "im_text": "gewonnen",
+       "erkl": "Platz 1 machen"
+      },
+      {
+       "de": "das Finale",
+       "im_text": "Finale",
+       "erkl": "das letzte Spiel"
+      },
+      {
+       "de": "die Nummer eins",
+       "im_text": "Nummer eins",
+       "erkl": "der Beste, Platz 1"
+      },
+      {
+       "de": "glücklich",
+       "im_text": "glücklich",
+       "erkl": "sehr froh"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Woher kommt Carlos Alcaraz?",
+       "optionen": [
+        "aus Deutschland",
+        "aus Spanien",
+        "aus Italien"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Alcaraz hat das Finale verloren.",
+       "richtig": false,
+       "erkl": "Er hat gewonnen."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Zverev ist die Nummer eins der Welt.",
+       "richtig": true
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wer hat gewonnen?",
+         "Carlos Alcaraz"
+        ],
+        [
+         "Wo?",
+         "in Turin"
+        ],
+        [
+         "Wann?",
+         "am Sonntag"
+        ],
+        [
+         "Gegen wen?",
+         "gegen Alexander Zverev"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Spielst du gern Tennis oder einen anderen Sport?",
+      "Wer ist dein Lieblingssportler oder deine Lieblingssportlerin?"
+     ],
+     "uebungen": [
+      {
+       "typ": "auswahl",
+       "titel": "Wochentage",
+       "anweisung": "Wähle den richtigen Tag.",
+       "regel": "Wiederholung (02.11.): vor und nach.",
+       "items": [
+        {
+         "text": "Das Finale war am ___.",
+         "optionen": [
+          "Sonntag",
+          "Dienstag",
+          "Freitag"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Nach Sonntag kommt ___.",
+         "optionen": [
+          "Samstag",
+          "Montag",
+          "Mittwoch"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Vor Sonntag kommt ___.",
+         "optionen": [
+          "Montag",
+          "Donnerstag",
+          "Samstag"
+         ],
+         "richtig": 2
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Wörter aus der Stunde",
+       "anweisung": "Ergänze das Wort.",
+       "regel": "Wiederholung (02.11.): beeindruckt sein, bewundern, sich entspannen.",
+       "items": [
+        {
+         "text": "Alcaraz spielt super. Ich bin ___!",
+         "loesung": [
+          "beeindruckt"
+         ],
+         "hinweis": "beein…"
+        },
+        {
+         "text": "Ich ___ Alcaraz. (bewundern)",
+         "loesung": [
+          "bewundere"
+         ]
+        },
+        {
+         "text": "Nach dem Finale macht Alcaraz Pause. Er ___ sich. (entspannen)",
+         "loesung": [
+          "entspannt"
+         ]
+        }
+       ]
+      },
+      {
+       "typ": "zuordnen",
+       "titel": "Gegenteile",
+       "anweisung": "Finde die Paare.",
+       "paare": [
+        [
+         "gewinnen",
+         "verlieren"
+        ],
+        [
+         "groß",
+         "klein"
+        ],
+        [
+         "nah",
+         "weit"
+        ],
+        [
+         "vor",
+         "nach"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Schule & Welt",
+     "titel": "Südkorea: Nur Bleistifte in der Prüfung",
+     "text": "In Südkorea haben am Donnerstag viele Menschen eine wichtige Prüfung geschrieben. Mit dieser Prüfung können sie an die Universität gehen.\n\nEs gibt neue Regeln: Man darf nur Bleistifte mitnehmen. Auf die Knöpfe von der Kleidung kommen Sticker. Warum? Niemand soll mit einer kleinen Kamera und KI schummeln.\n\nViele Leute finden die Regeln schlecht. Am Sonntag ist der Bildungsminister zurückgetreten.",
+     "vokabeln": [
+      {
+       "de": "die Prüfung",
+       "im_text": "Prüfung",
+       "erkl": "ein Test in der Schule oder an der Universität"
+      },
+      {
+       "de": "die Regel",
+       "im_text": "Regeln",
+       "erkl": "das sagt, was man darf und was man nicht darf"
+      },
+      {
+       "de": "der Bleistift",
+       "im_text": "Bleistifte",
+       "erkl": "damit schreibt man; man kann es wegradieren"
+      },
+      {
+       "de": "der Knopf",
+       "im_text": "Knöpfe",
+       "erkl": "ein kleines rundes Ding an Hemd oder Jacke"
+      },
+      {
+       "de": "schummeln",
+       "im_text": "schummeln",
+       "erkl": "im Test heimlich Hilfe benutzen; das ist nicht fair"
+      },
+      {
+       "de": "zurücktreten",
+       "im_text": "zurückgetreten",
+       "erkl": "seine Arbeit als Chef oder Minister aufgeben"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Was darf man in die Prüfung mitnehmen?",
+       "optionen": [
+        "ein Handy",
+        "nur Bleistifte",
+        "Kugelschreiber und Bücher"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die Prüfung ist für die Universität.",
+       "richtig": true
+      },
+      {
+       "typ": "rf",
+       "aussage": "Alle Leute finden die Regeln super.",
+       "richtig": false,
+       "erkl": "Viele Leute finden die Regeln schlecht."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wo?",
+         "in Südkorea"
+        ],
+        [
+         "Wann war die Prüfung?",
+         "am Donnerstag"
+        ],
+        [
+         "Was kommt auf die Knöpfe?",
+         "Sticker"
+        ],
+        [
+         "Wer ist zurückgetreten?",
+         "der Bildungsminister"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Was ist in deiner Schule bei Tests verboten?",
+      "Findest du die Regeln in Südkorea gut oder schlecht? Warum?"
+     ],
+     "uebungen": [
+      {
+       "typ": "eingabe",
+       "titel": "Was ist verboten?",
+       "anweisung": "Ergänze verboten oder erlaubt.",
+       "regel": "Wiederholung (02.11.): verbieten → verboten. Handy spielen ist verboten.",
+       "items": [
+        {
+         "text": "In der Prüfung ist das Handy ___.",
+         "loesung": [
+          "verboten"
+         ]
+        },
+        {
+         "text": "Schummeln ist ___.",
+         "loesung": [
+          "verboten"
+         ]
+        },
+        {
+         "text": "Bleistifte sind ___.",
+         "loesung": [
+          "erlaubt"
+         ]
+        }
+       ]
+      },
+      {
+       "typ": "auswahl",
+       "titel": "empfehlen",
+       "anweisung": "Wähle die richtige Form.",
+       "regel": "ich empfehle, du empfiehlst, er/sie empfiehlt.",
+       "items": [
+        {
+         "text": "Ich ___ dir: Lern viel!",
+         "optionen": [
+          "empfehle",
+          "empfiehlst",
+          "empfiehlt"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Der Lehrer ___ einen Bleistift.",
+         "optionen": [
+          "empfehle",
+          "empfiehlt",
+          "empfiehlst"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Was ___ du mir?",
+         "optionen": [
+          "empfiehlt",
+          "empfehle",
+          "empfiehlst"
+         ],
+         "richtig": 2
+        }
+       ]
+      },
+      {
+       "typ": "zuordnen",
+       "titel": "Was passt?",
+       "anweisung": "Finde die Paare.",
+       "paare": [
+        [
+         "der Bleistift",
+         "damit schreibt man"
+        ],
+        [
+         "der Knopf",
+         "an der Jacke"
+        ],
+        [
+         "die Prüfung",
+         "ein Test"
+        ],
+        [
+         "die Universität",
+         "dort studiert man"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Wetter",
+     "titel": "Bald kommt der Schnee!",
+     "text": "In Österreich wird es kalt. Am Sonntag hat es in den Bergen im Westen schon geschneit. Dort gibt es bis zu 20 Zentimeter Schnee.\n\nAb Mittwoch kann es auch weiter unten schneien. Vielleicht schneit es am Donnerstag sogar in Wien! Bleibt der Schnee liegen? Das weiß man noch nicht. Zieh eine warme Jacke an!",
+     "vokabeln": [
+      {
+       "de": "kalt",
+       "im_text": "kalt",
+       "erkl": "Gegenteil von warm"
+      },
+      {
+       "de": "der Berg",
+       "im_text": "Bergen",
+       "erkl": "sehr hoch, z. B. der Großglockner"
+      },
+      {
+       "de": "schneien",
+       "im_text": "geschneit",
+       "erkl": "Schnee fällt vom Himmel"
+      },
+      {
+       "de": "der Zentimeter",
+       "im_text": "Zentimeter",
+       "erkl": "1 Meter hat 100 davon"
+      },
+      {
+       "de": "liegen bleiben",
+       "im_text": "Bleibt",
+       "erkl": "auf dem Boden bleiben, nicht schmelzen"
+      },
+      {
+       "de": "die Jacke",
+       "im_text": "Jacke",
+       "erkl": "man trägt sie über dem Pullover, wenn es kalt ist"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wo hat es am Sonntag geschneit?",
+       "optionen": [
+        "in Wien",
+        "in den Bergen im Westen",
+        "am Meer"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Vielleicht schneit es am Donnerstag in Wien.",
+       "richtig": true
+      },
+      {
+       "typ": "rf",
+       "aussage": "Man weiß schon, dass der Schnee liegen bleibt.",
+       "richtig": false,
+       "erkl": "Das weiß man noch nicht."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wie viel Schnee?",
+         "bis zu 20 Zentimeter"
+        ],
+        [
+         "Ab wann schneit es weiter unten?",
+         "ab Mittwoch"
+        ],
+        [
+         "Wann vielleicht in Wien?",
+         "am Donnerstag"
+        ],
+        [
+         "Was soll man anziehen?",
+         "eine warme Jacke"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Was machst du gern im Schnee?",
+      "Magst du den Winter oder lieber den Sommer?"
+     ],
+     "uebungen": [
+      {
+       "typ": "zuordnen",
+       "titel": "Gegenteile",
+       "anweisung": "Finde die Paare.",
+       "regel": "Wiederholung: nah ↔ weit.",
+       "paare": [
+        [
+         "kalt",
+         "warm"
+        ],
+        [
+         "nah",
+         "weit"
+        ],
+        [
+         "oben",
+         "unten"
+        ],
+        [
+         "der Sommer",
+         "der Winter"
+        ]
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Wörter aus der Stunde",
+       "anweisung": "Ergänze das Wort.",
+       "regel": "Wiederholung (02.11.): einen Berg besteigen, zu Hause bleiben, Rast machen, prächtig.",
+       "items": [
+        {
+         "text": "Im Winter ___ ich keinen Berg. (besteigen)",
+         "loesung": [
+          "besteige"
+         ]
+        },
+        {
+         "text": "Bei Schnee ___ wir zu Hause. (bleiben)",
+         "loesung": [
+          "bleiben"
+         ]
+        },
+        {
+         "text": "Auf dem Berg machen wir eine Pause = wir machen ___.",
+         "loesung": [
+          "Rast"
+         ]
+        },
+        {
+         "text": "Der Schnee auf den Bergen ist wunderschön, er ist ___.",
+         "loesung": [
+          "prächtig"
+         ],
+         "hinweis": "prä…"
+        }
+       ]
+      },
+      {
+       "typ": "auswahl",
+       "titel": "Wochentage",
+       "anweisung": "Wähle den richtigen Tag (aus dem Text).",
+       "items": [
+        {
+         "text": "Ab ___ kann es weiter unten schneien.",
+         "optionen": [
+          "Mittwoch",
+          "Sonntag",
+          "Samstag"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Vielleicht schneit es am ___ in Wien.",
+         "optionen": [
+          "Montag",
+          "Donnerstag",
+          "Dienstag"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Am ___ hat es in den Bergen geschneit.",
+         "optionen": [
+          "Freitag",
+          "Mittwoch",
+          "Sonntag"
+         ],
+         "richtig": 2
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Sport",
+     "titel": "Verstappen gewinnt in Las Vegas",
+     "text": "Am Wochenende hat es in Las Vegas in den USA ein Formel-1-Rennen gegeben. Das Rennen ist in der Nacht. Die Stadt hat viele bunte Lichter.\n\nMax Verstappen aus den Niederlanden hat gewonnen. Er ist ganz vorne gestartet. Das Rennen war sehr spannend: Mehr als 30 Mal hat ein anderes Auto geführt. Für Verstappen ist es der dritte Sieg in Las Vegas.",
+     "vokabeln": [
+      {
+       "de": "das Rennen",
+       "im_text": "Rennen",
+       "erkl": "ein Wettkampf: Wer ist am schnellsten?"
+      },
+      {
+       "de": "die Nacht",
+       "im_text": "Nacht",
+       "erkl": "die Zeit, wenn es dunkel ist"
+      },
+      {
+       "de": "bunt",
+       "im_text": "bunte",
+       "erkl": "mit vielen Farben"
+      },
+      {
+       "de": "starten",
+       "im_text": "gestartet",
+       "erkl": "beginnen, losfahren"
+      },
+      {
+       "de": "führen",
+       "im_text": "geführt",
+       "erkl": "auf Platz 1 sein"
+      },
+      {
+       "de": "der Sieg",
+       "im_text": "Sieg",
+       "erkl": "wenn man gewinnt"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wo war das Rennen?",
+       "optionen": [
+        "in Las Vegas",
+        "in Wien",
+        "in Paris"
+       ],
+       "richtig": 0
+      },
+      {
+       "typ": "rf",
+       "aussage": "Das Rennen ist am Vormittag.",
+       "richtig": false,
+       "erkl": "Das Rennen ist in der Nacht."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Verstappen hat schon dreimal in Las Vegas gewonnen.",
+       "richtig": true
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wer hat gewonnen?",
+         "Max Verstappen"
+        ],
+        [
+         "Woher kommt er?",
+         "aus den Niederlanden"
+        ],
+        [
+         "Wo ist Las Vegas?",
+         "in den USA"
+        ],
+        [
+         "Wie oft hat ein anderes Auto geführt?",
+         "mehr als 30 Mal"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Möchtest du einmal ein Autorennen sehen? Warum (nicht)?",
+      "Was ist dein Lieblingssport?"
+     ],
+     "uebungen": [
+      {
+       "typ": "auswahl",
+       "titel": "sich entspannen",
+       "anweisung": "Wähle die richtige Form.",
+       "regel": "Wiederholung (02.11.): Ich entspanne mich zu Hause.",
+       "items": [
+        {
+         "text": "Nach dem Rennen ___ sich Verstappen.",
+         "optionen": [
+          "entspannt",
+          "entspannst",
+          "entspanne"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Ich entspanne ___ zu Hause.",
+         "optionen": [
+          "dich",
+          "mich",
+          "sich"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Wir entspannen ___ im Park.",
+         "optionen": [
+          "euch",
+          "mich",
+          "uns"
+         ],
+         "richtig": 2
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Lückentext",
+       "anweisung": "Ergänze ein Wort aus dem Text.",
+       "items": [
+        {
+         "text": "Das Rennen ist in der ___.",
+         "loesung": [
+          "Nacht"
+         ]
+        },
+        {
+         "text": "Die Stadt hat viele bunte ___.",
+         "loesung": [
+          "Lichter"
+         ]
+        },
+        {
+         "text": "Verstappen ist ganz vorne ___.",
+         "loesung": [
+          "gestartet"
+         ]
+        }
+       ]
+      },
+      {
+       "typ": "zuordnen",
+       "titel": "Bunte Farben",
+       "anweisung": "Welche Farbe passt?",
+       "paare": [
+        [
+         "die Sonne",
+         "gelb"
+        ],
+        [
+         "das Gras",
+         "grün"
+        ],
+        [
+         "der Himmel",
+         "blau"
+        ],
+        [
+         "der Schnee",
+         "weiß"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Sport",
+     "titel": "Rapid Wien: so viele Punkte wie nie",
+     "text": "Rapid ist ein Fußballklub aus Wien. Am Samstag hat Rapid in Graz gespielt und 3:0 gewonnen.\n\nRapid hat jetzt 36 Punkte. Das ist ein Rekord! Noch nie hat eine Mannschaft nach 13 Spielen so viele Punkte gehabt. Rapid hat zwölf Spiele gewonnen und nur ein Spiel verloren. Die Fans in Wien sind sehr froh.",
+     "vokabeln": [
+      {
+       "de": "der Fußballklub",
+       "im_text": "Fußballklub",
+       "erkl": "ein Verein, in dem man Fußball spielt"
+      },
+      {
+       "de": "der Punkt",
+       "im_text": "Punkte",
+       "erkl": "für einen Sieg bekommt man im Fußball 3 davon"
+      },
+      {
+       "de": "der Rekord",
+       "im_text": "Rekord",
+       "erkl": "das Beste, was es je gegeben hat"
+      },
+      {
+       "de": "die Mannschaft",
+       "im_text": "Mannschaft",
+       "erkl": "das Team"
+      },
+      {
+       "de": "verlieren",
+       "im_text": "verloren",
+       "erkl": "nicht gewinnen"
+      },
+      {
+       "de": "der Fan",
+       "im_text": "Fans",
+       "erkl": "eine Person, die ein Team sehr liebt"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wie viele Punkte hat Rapid?",
+       "optionen": [
+        "13",
+        "36",
+        "3"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Rapid hat in Graz 3:0 gewonnen.",
+       "richtig": true
+      },
+      {
+       "typ": "rf",
+       "aussage": "Rapid hat fünf Spiele verloren.",
+       "richtig": false,
+       "erkl": "Rapid hat nur ein Spiel verloren."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Woher kommt Rapid?",
+         "aus Wien"
+        ],
+        [
+         "Wann war das Spiel?",
+         "am Samstag"
+        ],
+        [
+         "Wo war das Spiel?",
+         "in Graz"
+        ],
+        [
+         "Wie viele Spiele hat Rapid gewonnen?",
+         "zwölf"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Magst du Fußball? Hast du ein Lieblingsteam?",
+      "Warst du schon einmal in einem Stadion?"
+     ],
+     "uebungen": [
+      {
+       "typ": "eingabe",
+       "titel": "verboten und empfehlen",
+       "anweisung": "Ergänze das Wort.",
+       "regel": "Wiederholung (02.11.): verboten; ich empfehle, du empfiehlst.",
+       "items": [
+        {
+         "text": "Im Stadion ist Feuer ___.",
+         "loesung": [
+          "verboten"
+         ]
+        },
+        {
+         "text": "Ich ___ dir Rapid! (empfehlen)",
+         "loesung": [
+          "empfehle"
+         ]
+        },
+        {
+         "text": "Welches Team ___ du mir? (empfehlen)",
+         "loesung": [
+          "empfiehlst"
+         ]
+        }
+       ]
+      },
+      {
+       "typ": "auswahl",
+       "titel": "Zahlen",
+       "anweisung": "Wie schreibt man die Zahl?",
+       "items": [
+        {
+         "text": "36",
+         "optionen": [
+          "sechsunddreißig",
+          "dreiundsechzig",
+          "sechzehn"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "13",
+         "optionen": [
+          "dreißig",
+          "dreizehn",
+          "dreiunddreißig"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "12",
+         "optionen": [
+          "zwanzig",
+          "elf",
+          "zwölf"
+         ],
+         "richtig": 2
+        }
+       ]
+      },
+      {
+       "typ": "zuordnen",
+       "titel": "Was passt?",
+       "anweisung": "Finde die Paare.",
+       "regel": "Wiederholung (02.11.): der Nachbar.",
+       "paare": [
+        [
+         "der Fan",
+         "liebt ein Team"
+        ],
+        [
+         "der Nachbar",
+         "wohnt nah bei mir"
+        ],
+        [
+         "die Mannschaft",
+         "das Team"
+        ],
+        [
+         "das Stadion",
+         "dort spielt man Fußball"
+        ]
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
    "datum": "2026-11-22",
    "nachrichten": [
     {

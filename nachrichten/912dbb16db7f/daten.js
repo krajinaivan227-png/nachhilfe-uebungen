@@ -4,6 +4,1000 @@ window.NACHRICHTEN = {
  "spiel": false,
  "tage": [
   {
+   "datum": "2026-11-23",
+   "nachrichten": [
+    {
+     "kategorie": "Sport",
+     "titel": "Alcaraz schlägt die Nummer eins",
+     "text": "Am Sonntag hat Carlos Alcaraz aus Spanien die ATP Finals in Turin gewonnen. Bei diesem Turnier spielen am Ende der Saison nur die acht besten Tennisspieler des Jahres.\n\nIm Finale hat Alcaraz gegen Alexander Zverev aus Deutschland gespielt. Zverev ist im Moment die Nummer eins der Welt. Vor dem Finale hat er keinen einzigen Satz verloren. Doch Alcaraz war stärker: Er hat mit 6:2 und 7:6 gewonnen. Der zweite Satz war sehr spannend.\n\nFür Alcaraz ist es der erste Sieg bei diesem Turnier.",
+     "vokabeln": [
+      {
+       "de": "die Saison",
+       "im_text": "Saison",
+       "erkl": "die Zeit im Jahr, in der ein Sport gespielt wird"
+      },
+      {
+       "de": "das Turnier",
+       "im_text": "Turnier",
+       "erkl": "ein Wettbewerb mit vielen Spielen; am Ende gibt es einen Sieger"
+      },
+      {
+       "de": "das Finale",
+       "im_text": "Finale",
+       "erkl": "das letzte und wichtigste Spiel"
+      },
+      {
+       "de": "der Satz",
+       "im_text": "Satz",
+       "erkl": "ein Teil von einem Tennisspiel"
+      },
+      {
+       "de": "verlieren",
+       "im_text": "verloren",
+       "erkl": "nicht gewinnen"
+      },
+      {
+       "de": "spannend",
+       "im_text": "spannend",
+       "erkl": "so interessant, dass man unbedingt das Ende wissen will"
+      },
+      {
+       "de": "der Sieg",
+       "im_text": "Sieg",
+       "erkl": "wenn man gewinnt"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wo war das Turnier?",
+       "optionen": [
+        "in Madrid",
+        "in Turin",
+        "in Berlin"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Zverev hat vor dem Finale keinen Satz verloren.",
+       "richtig": true
+      },
+      {
+       "typ": "rf",
+       "aussage": "Alcaraz hat das Turnier schon oft gewonnen.",
+       "richtig": false,
+       "erkl": "Es ist sein erster Sieg bei diesem Turnier."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wer spielt bei den ATP Finals?",
+         "die acht besten Spieler des Jahres"
+        ],
+        [
+         "Woher kommt Zverev?",
+         "aus Deutschland"
+        ],
+        [
+         "Wie ist das Ergebnis?",
+         "6:2 und 7:6"
+        ],
+        [
+         "Welcher Satz war spannend?",
+         "der zweite Satz"
+        ]
+       ]
+      },
+      {
+       "typ": "offen",
+       "frage": "Warum war der Sieg von Alcaraz eine kleine Überraschung?",
+       "loesung": "Weil Zverev die Nummer eins ist und vor dem Finale keinen Satz verloren hat."
+      }
+     ],
+     "diskussion": [
+      "Schaust du gern Tennis oder andere Sportarten im Fernsehen? Welche?",
+      "Was ist wichtiger im Sport: Talent oder Training?"
+     ],
+     "uebungen": [
+      {
+       "typ": "auswahl",
+       "titel": "weil oder deswegen?",
+       "anweisung": "Wähle das passende Wort.",
+       "regel": "weil → Verb am Ende. deswegen → Verb direkt danach (Position 2). Wiederholung (15.11.): Ich bin so traurig, deswegen kann ich nicht in meine Arbeit kommen.",
+       "items": [
+        {
+         "text": "Alcaraz hat gewonnen, ___ er stärker war.",
+         "optionen": [
+          "weil",
+          "deswegen"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Zverev ist die Nummer eins, ___ war er der Favorit.",
+         "optionen": [
+          "weil",
+          "deswegen"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Der zweite Satz war spannend, ___ es einen Tiebreak gab.",
+         "optionen": [
+          "weil",
+          "deswegen"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Ich mag Tennis, ___ schaue ich das Finale.",
+         "optionen": [
+          "weil",
+          "deswegen"
+         ],
+         "richtig": 1
+        }
+       ]
+      },
+      {
+       "typ": "fehler",
+       "titel": "Fehler finden",
+       "anweisung": "In jedem Satz ist ein Wort an der falschen Stelle.",
+       "items": [
+        {
+         "woerter": [
+          "Alcaraz",
+          "ist",
+          "glücklich,",
+          "weil",
+          "er",
+          "hat",
+          "gewonnen."
+         ],
+         "fehler": 5,
+         "korrektur": "…, weil er gewonnen hat.",
+         "erkl": "Nach weil steht das Verb (hat) am Ende."
+        },
+        {
+         "woerter": [
+          "Zverev",
+          "hat",
+          "verloren,",
+          "deswegen",
+          "er",
+          "ist",
+          "traurig."
+         ],
+         "fehler": 4,
+         "korrektur": "…, deswegen ist er traurig.",
+         "erkl": "Nach deswegen kommt sofort das Verb."
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Gegenteile",
+       "anweisung": "Schreib das Gegenteil.",
+       "items": [
+        {
+         "text": "gewinnen ↔ ___",
+         "loesung": [
+          "verlieren"
+         ]
+        },
+        {
+         "text": "der Sieg ↔ ___",
+         "loesung": [
+          "die Niederlage"
+         ]
+        },
+        {
+         "text": "stark ↔ ___",
+         "loesung": [
+          "schwach"
+         ]
+        },
+        {
+         "text": "spannend ↔ ___",
+         "loesung": [
+          "langweilig"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Bildung",
+     "titel": "Südkorea: Minister geht nach Chaos bei Prüfung",
+     "text": "In Südkorea haben am Donnerstag viele Schülerinnen und Schüler eine sehr wichtige Prüfung geschrieben: den Test für die Universität.\n\nKurz vorher hat ein Mann zugegeben, dass er bei einer anderen Prüfung mit einer Mini-Kamera und einem Handy geschummelt hat. Deshalb hatte das Bildungsministerium Angst vor Betrug mit KI. Es hat ganz schnell neue Regeln gemacht: Nur Bleistifte waren erlaubt, und auf Knöpfe an der Kleidung mussten Sticker.\n\nViele Menschen haben das Chaos kritisiert. Am Sonntag ist der Bildungsminister zurückgetreten.",
+     "vokabeln": [
+      {
+       "de": "zugeben",
+       "im_text": "zugegeben",
+       "erkl": "sagen, dass man etwas Falsches gemacht hat"
+      },
+      {
+       "de": "schummeln",
+       "im_text": "geschummelt",
+       "erkl": "in einem Test heimlich verbotene Hilfe benutzen"
+      },
+      {
+       "de": "der Betrug",
+       "im_text": "Betrug",
+       "erkl": "wenn jemand unehrlich ist, um einen Vorteil zu bekommen"
+      },
+      {
+       "de": "erlaubt",
+       "im_text": "erlaubt",
+       "erkl": "man darf es machen; Gegenteil von verboten"
+      },
+      {
+       "de": "kritisieren",
+       "im_text": "kritisiert",
+       "erkl": "sagen, dass etwas schlecht ist"
+      },
+      {
+       "de": "zurücktreten",
+       "im_text": "zurückgetreten",
+       "erkl": "ein wichtiges Amt (z. B. Minister) freiwillig aufgeben"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wofür ist die Prüfung?",
+       "optionen": [
+        "für den Führerschein",
+        "für die Universität",
+        "für eine Arbeitsstelle"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Ein Mann hat mit einer Mini-Kamera geschummelt.",
+       "richtig": true
+      },
+      {
+       "typ": "rf",
+       "aussage": "In der Prüfung waren Kugelschreiber erlaubt.",
+       "richtig": false,
+       "erkl": "Nur Bleistifte waren erlaubt."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wann war die Prüfung?",
+         "am Donnerstag"
+        ],
+        [
+         "Wovor hatte das Ministerium Angst?",
+         "vor Betrug mit KI"
+        ],
+        [
+         "Was kam auf die Knöpfe?",
+         "Sticker"
+        ],
+        [
+         "Wann ist der Minister zurückgetreten?",
+         "am Sonntag"
+        ]
+       ]
+      },
+      {
+       "typ": "offen",
+       "frage": "Warum ist der Minister zurückgetreten?",
+       "loesung": "Weil viele Menschen das Chaos mit den neuen Regeln kritisiert haben."
+      }
+     ],
+     "diskussion": [
+      "Wie kann man in Prüfungen Betrug mit KI verhindern?",
+      "Hast du in der Schule schon einmal eine sehr wichtige Prüfung gemacht? Wie war das?"
+     ],
+     "uebungen": [
+      {
+       "typ": "eingabe",
+       "titel": "werden konjugieren",
+       "anweisung": "Ergänze die richtige Form von werden.",
+       "regel": "Wiederholung (15.11.): ich werde, du wirst, er/sie/es wird, wir werden, ihr werdet, sie/Sie werden.",
+       "items": [
+        {
+         "text": "Die Regeln ___ jedes Jahr strenger.",
+         "loesung": [
+          "werden"
+         ]
+        },
+        {
+         "text": "Du ___ bald Student.",
+         "loesung": [
+          "wirst"
+         ]
+        },
+        {
+         "text": "Ich ___ vor Prüfungen immer nervös.",
+         "loesung": [
+          "werde"
+         ]
+        },
+        {
+         "text": "Ihr ___ sicher gute Noten bekommen.",
+         "loesung": [
+          "werdet"
+         ]
+        },
+        {
+         "text": "Der Test ___ schwieriger.",
+         "loesung": [
+          "wird"
+         ]
+        }
+       ]
+      },
+      {
+       "typ": "auswahl",
+       "titel": "Satzbau nach deswegen",
+       "anweisung": "Wähle den richtigen Satz.",
+       "regel": "deswegen + Verb + Subjekt …",
+       "items": [
+        {
+         "text": "Viele Menschen waren wütend. Deswegen ___",
+         "optionen": [
+          "ist der Minister zurückgetreten.",
+          "der Minister ist zurückgetreten.",
+          "der Minister zurückgetreten ist."
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Das Ministerium hatte Angst vor Betrug. Deswegen ___",
+         "optionen": [
+          "es hat neue Regeln gemacht.",
+          "hat es neue Regeln gemacht.",
+          "es neue Regeln gemacht hat."
+         ],
+         "richtig": 1
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Perfekt: haben oder sein?",
+       "anweisung": "Ergänze hat, ist oder haben.",
+       "items": [
+        {
+         "text": "Ein Mann ___ bei einer Prüfung geschummelt.",
+         "loesung": [
+          "hat"
+         ]
+        },
+        {
+         "text": "Der Minister ___ am Sonntag zurückgetreten.",
+         "loesung": [
+          "ist"
+         ]
+        },
+        {
+         "text": "Viele Menschen ___ das Chaos kritisiert.",
+         "loesung": [
+          "haben"
+         ]
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Verb → Nomen",
+       "anweisung": "Bilde das Nomen mit Artikel.",
+       "regel": "Wiederholung (15.11.): kündigen → die Kündigung, bestechen → die Bestechung.",
+       "items": [
+        {
+         "text": "prüfen → ___",
+         "loesung": [
+          "die Prüfung"
+         ]
+        },
+        {
+         "text": "kündigen → ___",
+         "loesung": [
+          "die Kündigung"
+         ]
+        },
+        {
+         "text": "bestechen → ___",
+         "loesung": [
+          "die Bestechung"
+         ]
+        },
+        {
+         "text": "drohen → ___",
+         "loesung": [
+          "die Drohung"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Wetter",
+     "titel": "Wintereinbruch: Schnee bis ins Flachland möglich",
+     "text": "In Österreich gibt es diese Woche einen Wintereinbruch. Schon am Sonntag hat es in Vorarlberg und Tirol geschneit, zum Beispiel am Arlberg und im Bregenzerwald. Dort hat es bis zu 20 Zentimeter Neuschnee gegeben.\n\nAb Mittwoch kommt von Süden ein Tief. Es bringt Regen und Schnee, und gleichzeitig kommt kalte Luft aus dem Norden. Deshalb kann es bis in tiefe Lagen schneien, vielleicht am Donnerstag sogar in Wien. Ob der Schnee dort liegen bleibt, ist aber noch unsicher.\n\nAutofahrer sollten jetzt Winterreifen haben.",
+     "vokabeln": [
+      {
+       "de": "der Wintereinbruch",
+       "im_text": "Wintereinbruch",
+       "erkl": "wenn es plötzlich kalt wird und schneit"
+      },
+      {
+       "de": "der Neuschnee",
+       "im_text": "Neuschnee",
+       "erkl": "Schnee, der gerade frisch gefallen ist"
+      },
+      {
+       "de": "das Tief",
+       "im_text": "Tief",
+       "erkl": "ein Wettergebiet, das oft Regen oder Schnee bringt"
+      },
+      {
+       "de": "gleichzeitig",
+       "im_text": "gleichzeitig",
+       "erkl": "zur selben Zeit"
+      },
+      {
+       "de": "tiefe Lagen",
+       "im_text": "tiefe Lagen",
+       "erkl": "Orte, die nicht hoch in den Bergen liegen"
+      },
+      {
+       "de": "unsicher",
+       "im_text": "unsicher",
+       "erkl": "man weiß es noch nicht genau"
+      },
+      {
+       "de": "der Winterreifen",
+       "im_text": "Winterreifen",
+       "erkl": "spezielle Reifen für das Auto bei Schnee und Eis"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wo hat es am Sonntag schon geschneit?",
+       "optionen": [
+        "in Wien und Graz",
+        "in Vorarlberg und Tirol",
+        "in Kärnten"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Das Tief kommt aus dem Norden.",
+       "richtig": false,
+       "erkl": "Das Tief kommt von Süden, die kalte Luft aus dem Norden."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Es ist noch unsicher, ob der Schnee in Wien liegen bleibt.",
+       "richtig": true
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wie viel Neuschnee?",
+         "bis zu 20 Zentimeter"
+        ],
+        [
+         "Ab wann kommt das Tief?",
+         "ab Mittwoch"
+        ],
+        [
+         "Wann vielleicht Schnee in Wien?",
+         "am Donnerstag"
+        ],
+        [
+         "Was brauchen Autofahrer?",
+         "Winterreifen"
+        ]
+       ]
+      },
+      {
+       "typ": "offen",
+       "frage": "Warum kann es bis in tiefe Lagen schneien?",
+       "loesung": "Weil ein Tief von Süden kommt und gleichzeitig kalte Luft aus dem Norden kommt."
+      }
+     ],
+     "diskussion": [
+      "Wie ist der Winter in deinem Heimatland?",
+      "Was machst du am liebsten, wenn es draußen kalt ist?"
+     ],
+     "uebungen": [
+      {
+       "typ": "auswahl",
+       "titel": "Satzbau mit weil",
+       "anweisung": "Wähle den richtigen Satzteil.",
+       "regel": "Nach weil steht das Verb am Ende.",
+       "items": [
+        {
+         "text": "Ich brauche Winterreifen, weil ___",
+         "optionen": [
+          "es bald schneit.",
+          "es schneit bald.",
+          "schneit es bald."
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Ich bleibe zu Hause, weil ___",
+         "optionen": [
+          "die Straßen sind glatt.",
+          "die Straßen glatt sind.",
+          "sind die Straßen glatt."
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Ich ziehe eine Jacke an, weil ___",
+         "optionen": [
+          "mir kalt ist.",
+          "mir ist kalt.",
+          "ist mir kalt."
+         ],
+         "richtig": 0
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Zusammengesetzte Nomen",
+       "anweisung": "Bilde ein Wort mit Artikel.",
+       "regel": "Der Artikel kommt vom letzten Wort. Wiederholung (15.11.): der Wald + der Brand → der Waldbrand.",
+       "items": [
+        {
+         "text": "der Winter + der Reifen → ___",
+         "loesung": [
+          "der Winterreifen"
+         ]
+        },
+        {
+         "text": "der Schnee + der Fall → ___",
+         "loesung": [
+          "der Schneefall"
+         ]
+        },
+        {
+         "text": "der Wald + der Brand → ___",
+         "loesung": [
+          "der Waldbrand"
+         ]
+        },
+        {
+         "text": "das Wetter + die Warnung → ___",
+         "loesung": [
+          "die Wetterwarnung"
+         ]
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "werden",
+       "anweisung": "Ergänze die richtige Form von werden.",
+       "items": [
+        {
+         "text": "Morgen ___ es kalt.",
+         "loesung": [
+          "wird"
+         ]
+        },
+        {
+         "text": "Die Straßen ___ glatt.",
+         "loesung": [
+          "werden"
+         ]
+        },
+        {
+         "text": "Wir ___ vielleicht Schnee in Wien haben.",
+         "loesung": [
+          "werden"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Reisen & Arbeit",
+     "titel": "Streik in Belgien: Fast keine Flüge",
+     "text": "Heute, am Montag, gibt es in Belgien einen großen Streik. Viele Menschen protestieren gegen Sparmaßnahmen der Regierung.\n\nAuch ein Teil der Fluglotsen streikt. Deshalb fliegen von 7 bis 21 Uhr fast keine Flugzeuge. In Brüssel und Charleroi sind fast alle Flüge abgesagt. Allein am Flughafen Brüssel hat man heute fast 60.000 Passagiere erwartet. Auch Busse und U-Bahnen in Brüssel fahren nicht normal. Die Züge fahren aber, sagt die Bahn.\n\nDie Fluggesellschaften sind sehr verärgert.",
+     "vokabeln": [
+      {
+       "de": "der Streik",
+       "im_text": "Streik",
+       "erkl": "Arbeiter arbeiten nicht, weil sie protestieren"
+      },
+      {
+       "de": "die Sparmaßnahme",
+       "im_text": "Sparmaßnahmen",
+       "erkl": "ein Plan, wie der Staat weniger Geld ausgibt"
+      },
+      {
+       "de": "der Fluglotse",
+       "im_text": "Fluglotsen",
+       "erkl": "eine Person, die vom Boden aus die Flugzeuge sicher lenkt"
+      },
+      {
+       "de": "absagen",
+       "im_text": "abgesagt",
+       "erkl": "sagen, dass etwas nicht stattfindet"
+      },
+      {
+       "de": "erwarten",
+       "im_text": "erwartet",
+       "erkl": "glauben, dass jemand oder etwas kommt"
+      },
+      {
+       "de": "der Passagier",
+       "im_text": "Passagiere",
+       "erkl": "eine Person, die im Flugzeug, Zug oder Schiff mitfährt"
+      },
+      {
+       "de": "verärgert",
+       "im_text": "verärgert",
+       "erkl": "böse, wütend"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wann fliegen fast keine Flugzeuge?",
+       "optionen": [
+        "von 7 bis 21 Uhr",
+        "die ganze Woche",
+        "nur am Abend"
+       ],
+       "richtig": 0
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die Züge fahren normal.",
+       "richtig": true,
+       "erkl": "Das sagt die Bahn."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die Fluggesellschaften finden den Streik gut.",
+       "richtig": false,
+       "erkl": "Sie sind sehr verärgert."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wogegen protestieren die Menschen?",
+         "gegen Sparmaßnahmen"
+        ],
+        [
+         "Wer streikt auch?",
+         "ein Teil der Fluglotsen"
+        ],
+        [
+         "Wie viele Passagiere in Brüssel?",
+         "fast 60.000"
+        ],
+        [
+         "Welche Flughäfen?",
+         "Brüssel und Charleroi"
+        ]
+       ]
+      },
+      {
+       "typ": "offen",
+       "frage": "Was fährt in Brüssel heute nicht normal?",
+       "loesung": "Busse und U-Bahnen."
+      }
+     ],
+     "diskussion": [
+      "Was machst du, wenn dein Flug abgesagt ist?",
+      "Findest du Streiks richtig, auch wenn viele Menschen Probleme bekommen?"
+     ],
+     "uebungen": [
+      {
+       "typ": "eingabe",
+       "titel": "Partizip II",
+       "anweisung": "Schreib das Partizip.",
+       "regel": "Trennbare Verben: ab-ge-sagt. Wiederholung (15.11.): bestechen → bestochen.",
+       "items": [
+        {
+         "text": "absagen → ___",
+         "loesung": [
+          "abgesagt"
+         ]
+        },
+        {
+         "text": "streiken → ___",
+         "loesung": [
+          "gestreikt"
+         ]
+        },
+        {
+         "text": "fliegen → ___",
+         "loesung": [
+          "geflogen"
+         ]
+        },
+        {
+         "text": "bestechen → ___",
+         "loesung": [
+          "bestochen"
+         ]
+        }
+       ]
+      },
+      {
+       "typ": "auswahl",
+       "titel": "weil oder deswegen?",
+       "anweisung": "Wähle das passende Wort.",
+       "items": [
+        {
+         "text": "Die Fluglotsen streiken, ___ fliegen fast keine Flugzeuge.",
+         "optionen": [
+          "weil",
+          "deswegen"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Viele Passagiere sind verärgert, ___ ihr Flug abgesagt ist.",
+         "optionen": [
+          "weil",
+          "deswegen"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Die U-Bahn fährt nicht normal. ___ nehme ich den Zug.",
+         "optionen": [
+          "Weil",
+          "Deswegen"
+         ],
+         "richtig": 1
+        }
+       ]
+      },
+      {
+       "typ": "fehler",
+       "titel": "Fehler finden",
+       "anweisung": "Ein Wort steht an der falschen Stelle.",
+       "items": [
+        {
+         "woerter": [
+          "Ich",
+          "kündige,",
+          "weil",
+          "ich",
+          "will",
+          "nicht",
+          "mehr",
+          "arbeiten."
+         ],
+         "fehler": 4,
+         "korrektur": "…, weil ich nicht mehr arbeiten will.",
+         "erkl": "Wiederholung (15.11.): weil → Verb am Ende."
+        },
+        {
+         "woerter": [
+          "Gestern",
+          "ich",
+          "bin",
+          "nach",
+          "Brüssel",
+          "geflogen."
+         ],
+         "fehler": 1,
+         "korrektur": "Gestern bin ich nach Brüssel geflogen.",
+         "erkl": "Das Verb steht auf Position 2."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Fußball",
+     "titel": "Rapid Wien stellt einen Punkterekord auf",
+     "text": "Der SK Rapid Wien spielt im Moment eine fantastische Saison. Am Samstag hat die Mannschaft beim GAK in Graz mit 3:0 gewonnen.\n\nNach 13 Runden hat Rapid jetzt 36 Punkte. Das ist ein neuer Rekord in der österreichischen Bundesliga: Noch nie hat ein Klub nach 13 Spielen so viele Punkte gesammelt. Der alte Rekord hat Red Bull Salzburg gehört. Rapid hat zwölf Spiele gewonnen und nur einmal verloren.\n\nViele Fans träumen jetzt vom Meistertitel. Aber die Saison ist noch lang.",
+     "vokabeln": [
+      {
+       "de": "die Runde",
+       "im_text": "Runden",
+       "erkl": "ein Spieltag; alle Teams spielen einmal"
+      },
+      {
+       "de": "der Rekord",
+       "im_text": "Rekord",
+       "erkl": "das beste Ergebnis, das es je gegeben hat"
+      },
+      {
+       "de": "sammeln",
+       "im_text": "gesammelt",
+       "erkl": "nach und nach mehr bekommen"
+      },
+      {
+       "de": "gehören",
+       "im_text": "gehört",
+       "erkl": "jemandes Besitz sein"
+      },
+      {
+       "de": "träumen von",
+       "im_text": "träumen",
+       "erkl": "sich etwas sehr wünschen"
+      },
+      {
+       "de": "der Meistertitel",
+       "im_text": "Meistertitel",
+       "erkl": "der Titel für das beste Team am Ende der Saison"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Gegen wen hat Rapid am Samstag gespielt?",
+       "optionen": [
+        "gegen Salzburg",
+        "gegen den GAK",
+        "gegen Sturm Graz"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Rapid hat nach 13 Runden 36 Punkte.",
+       "richtig": true
+      },
+      {
+       "typ": "rf",
+       "aussage": "Der alte Rekord hat der Austria Wien gehört.",
+       "richtig": false,
+       "erkl": "Er hat Red Bull Salzburg gehört."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wie war das Ergebnis?",
+         "3:0"
+        ],
+        [
+         "Wo war das Spiel?",
+         "in Graz"
+        ],
+        [
+         "Wie oft hat Rapid verloren?",
+         "einmal"
+        ],
+        [
+         "Wovon träumen die Fans?",
+         "vom Meistertitel"
+        ]
+       ]
+      },
+      {
+       "typ": "offen",
+       "frage": "Warum ist Rapid noch nicht sicher Meister?",
+       "loesung": "Weil die Saison noch lang ist."
+      }
+     ],
+     "diskussion": [
+      "Welcher Fußballklub ist dein Lieblingsklub? Warum?",
+      "Ist es besser, wenn immer dasselbe Team gewinnt, oder wenn es Überraschungen gibt?"
+     ],
+     "uebungen": [
+      {
+       "typ": "eingabe",
+       "titel": "Perfekt: haben oder sein?",
+       "anweisung": "Ergänze hat, ist, haben oder sind.",
+       "regel": "Bewegung von A nach B (fahren, kommen) → sein.",
+       "items": [
+        {
+         "text": "Rapid ___ in Graz gewonnen.",
+         "loesung": [
+          "hat"
+         ]
+        },
+        {
+         "text": "Die Fans ___ nach Graz gefahren.",
+         "loesung": [
+          "sind"
+         ]
+        },
+        {
+         "text": "Rapid ___ nur einmal verloren.",
+         "loesung": [
+          "hat"
+         ]
+        },
+        {
+         "text": "Die Mannschaft ___ am Abend nach Wien zurückgekommen.",
+         "loesung": [
+          "ist"
+         ]
+        }
+       ]
+      },
+      {
+       "typ": "auswahl",
+       "titel": "werden",
+       "anweisung": "Wähle die richtige Form.",
+       "items": [
+        {
+         "text": "Rapid ___ vielleicht Meister.",
+         "optionen": [
+          "wird",
+          "werden",
+          "wirst"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Ich glaube, die Fans ___ feiern.",
+         "optionen": [
+          "werden",
+          "wird",
+          "werdet"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "___ du am Samstag ins Stadion gehen?",
+         "optionen": [
+          "Wirst",
+          "Wird",
+          "Werde"
+         ],
+         "richtig": 0
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Lückentext",
+       "anweisung": "Ergänze ein Wort aus dem Text.",
+       "items": [
+        {
+         "text": "Nach 13 ___ hat Rapid 36 Punkte.",
+         "loesung": [
+          "Runden"
+         ]
+        },
+        {
+         "text": "Das ist ein neuer ___.",
+         "loesung": [
+          "Rekord"
+         ]
+        },
+        {
+         "text": "Viele Fans träumen vom ___.",
+         "loesung": [
+          "Meistertitel"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
    "datum": "2026-11-22",
    "nachrichten": [
     {

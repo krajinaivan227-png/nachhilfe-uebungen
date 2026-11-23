@@ -4,6 +4,947 @@ window.NACHRICHTEN = {
  "spiel": false,
  "tage": [
   {
+   "datum": "2026-11-23",
+   "nachrichten": [
+    {
+     "kategorie": "Sport",
+     "titel": "Alcaraz schlägt die Nummer eins",
+     "text": "Am Sonntag hat Carlos Alcaraz aus Spanien die ATP Finals in Turin gewonnen. Bei diesem Turnier spielen am Ende der Saison nur die acht besten Tennisspieler des Jahres.\n\nIm Finale hat Alcaraz gegen Alexander Zverev aus Deutschland gespielt. Zverev ist im Moment die Nummer eins der Welt. Vor dem Finale hat er keinen einzigen Satz verloren. Doch Alcaraz war stärker: Er hat mit 6:2 und 7:6 gewonnen. Der zweite Satz war sehr spannend.\n\nFür Alcaraz ist es der erste Sieg bei diesem Turnier.",
+     "vokabeln": [
+      {
+       "de": "die Saison",
+       "im_text": "Saison",
+       "erkl": "die Zeit im Jahr, in der ein Sport gespielt wird"
+      },
+      {
+       "de": "das Turnier",
+       "im_text": "Turnier",
+       "erkl": "ein Wettbewerb mit vielen Spielen; am Ende gibt es einen Sieger"
+      },
+      {
+       "de": "das Finale",
+       "im_text": "Finale",
+       "erkl": "das letzte und wichtigste Spiel"
+      },
+      {
+       "de": "der Satz",
+       "im_text": "Satz",
+       "erkl": "ein Teil von einem Tennisspiel"
+      },
+      {
+       "de": "verlieren",
+       "im_text": "verloren",
+       "erkl": "nicht gewinnen"
+      },
+      {
+       "de": "spannend",
+       "im_text": "spannend",
+       "erkl": "so interessant, dass man unbedingt das Ende wissen will"
+      },
+      {
+       "de": "der Sieg",
+       "im_text": "Sieg",
+       "erkl": "wenn man gewinnt"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wo war das Turnier?",
+       "optionen": [
+        "in Madrid",
+        "in Turin",
+        "in Berlin"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Zverev hat vor dem Finale keinen Satz verloren.",
+       "richtig": true
+      },
+      {
+       "typ": "rf",
+       "aussage": "Alcaraz hat das Turnier schon oft gewonnen.",
+       "richtig": false,
+       "erkl": "Es ist sein erster Sieg bei diesem Turnier."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wer spielt bei den ATP Finals?",
+         "die acht besten Spieler des Jahres"
+        ],
+        [
+         "Woher kommt Zverev?",
+         "aus Deutschland"
+        ],
+        [
+         "Wie ist das Ergebnis?",
+         "6:2 und 7:6"
+        ],
+        [
+         "Welcher Satz war spannend?",
+         "der zweite Satz"
+        ]
+       ]
+      },
+      {
+       "typ": "offen",
+       "frage": "Warum war der Sieg von Alcaraz eine kleine Überraschung?",
+       "loesung": "Weil Zverev die Nummer eins ist und vor dem Finale keinen Satz verloren hat."
+      }
+     ],
+     "diskussion": [
+      "Schaust du gern Tennis oder andere Sportarten im Fernsehen? Welche?",
+      "Was ist wichtiger im Sport: Talent oder Training?"
+     ],
+     "uebungen": [
+      {
+       "typ": "auswahl",
+       "titel": "Komparativ",
+       "anweisung": "Wähle die richtige Form.",
+       "regel": "Komparativ: Adjektiv + -er (+ als). Oft mit Umlaut: stark → stärker, alt → älter.",
+       "items": [
+        {
+         "text": "Alcaraz war im Finale ___ als Zverev.",
+         "optionen": [
+          "stärker",
+          "starker",
+          "am stärksten"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Der zweite Satz war ___ als der erste.",
+         "optionen": [
+          "spannend",
+          "spannender",
+          "am spannendsten"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Zverev ist ___ als Alcaraz.",
+         "optionen": [
+          "alter",
+          "am ältesten",
+          "älter"
+         ],
+         "richtig": 2
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Genitiv",
+       "anweisung": "Ergänze den Artikel.",
+       "regel": "Wiederholung (22.11.): Genitiv – des (m), der (f), des (n), der (Pl.).",
+       "items": [
+        {
+         "text": "die Nummer eins ___ Welt",
+         "loesung": [
+          "der"
+         ]
+        },
+        {
+         "text": "das Ende ___ Saison",
+         "loesung": [
+          "der"
+         ]
+        },
+        {
+         "text": "der Sieger ___ Turniers",
+         "loesung": [
+          "des"
+         ]
+        },
+        {
+         "text": "die Fans ___ Spieler (Plural)",
+         "loesung": [
+          "der"
+         ]
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "gefallen",
+       "anweisung": "Ergänze die richtige Form.",
+       "regel": "Etwas gefällt mir (Dativ). Plural: Die Spiele gefallen mir.",
+       "items": [
+        {
+         "text": "Das Finale ___ mir sehr gut.",
+         "loesung": [
+          "gefällt"
+         ]
+        },
+        {
+         "text": "Die Spiele ___ den Fans.",
+         "loesung": [
+          "gefallen"
+         ]
+        },
+        {
+         "text": "Hat ___ das Finale gefallen? (du)",
+         "loesung": [
+          "dir"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Bildung",
+     "titel": "Südkorea: Minister geht nach Chaos bei Prüfung",
+     "text": "In Südkorea haben am Donnerstag viele Schülerinnen und Schüler eine sehr wichtige Prüfung geschrieben: den Test für die Universität.\n\nKurz vorher hat ein Mann zugegeben, dass er bei einer anderen Prüfung mit einer Mini-Kamera und einem Handy geschummelt hat. Deshalb hatte das Bildungsministerium Angst vor Betrug mit KI. Es hat ganz schnell neue Regeln gemacht: Nur Bleistifte waren erlaubt, und auf Knöpfe an der Kleidung mussten Sticker.\n\nViele Menschen haben das Chaos kritisiert. Am Sonntag ist der Bildungsminister zurückgetreten.",
+     "vokabeln": [
+      {
+       "de": "zugeben",
+       "im_text": "zugegeben",
+       "erkl": "sagen, dass man etwas Falsches gemacht hat"
+      },
+      {
+       "de": "schummeln",
+       "im_text": "geschummelt",
+       "erkl": "in einem Test heimlich verbotene Hilfe benutzen"
+      },
+      {
+       "de": "der Betrug",
+       "im_text": "Betrug",
+       "erkl": "wenn jemand unehrlich ist, um einen Vorteil zu bekommen"
+      },
+      {
+       "de": "erlaubt",
+       "im_text": "erlaubt",
+       "erkl": "man darf es machen; Gegenteil von verboten"
+      },
+      {
+       "de": "kritisieren",
+       "im_text": "kritisiert",
+       "erkl": "sagen, dass etwas schlecht ist"
+      },
+      {
+       "de": "zurücktreten",
+       "im_text": "zurückgetreten",
+       "erkl": "ein wichtiges Amt (z. B. Minister) freiwillig aufgeben"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wofür ist die Prüfung?",
+       "optionen": [
+        "für den Führerschein",
+        "für die Universität",
+        "für eine Arbeitsstelle"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Ein Mann hat mit einer Mini-Kamera geschummelt.",
+       "richtig": true
+      },
+      {
+       "typ": "rf",
+       "aussage": "In der Prüfung waren Kugelschreiber erlaubt.",
+       "richtig": false,
+       "erkl": "Nur Bleistifte waren erlaubt."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wann war die Prüfung?",
+         "am Donnerstag"
+        ],
+        [
+         "Wovor hatte das Ministerium Angst?",
+         "vor Betrug mit KI"
+        ],
+        [
+         "Was kam auf die Knöpfe?",
+         "Sticker"
+        ],
+        [
+         "Wann ist der Minister zurückgetreten?",
+         "am Sonntag"
+        ]
+       ]
+      },
+      {
+       "typ": "offen",
+       "frage": "Warum ist der Minister zurückgetreten?",
+       "loesung": "Weil viele Menschen das Chaos mit den neuen Regeln kritisiert haben."
+      }
+     ],
+     "diskussion": [
+      "Wie kann man in Prüfungen Betrug mit KI verhindern?",
+      "Hast du in der Schule schon einmal eine sehr wichtige Prüfung gemacht? Wie war das?"
+     ],
+     "uebungen": [
+      {
+       "typ": "eingabe",
+       "titel": "mit + Dativ",
+       "anweisung": "Ergänze den Artikel.",
+       "regel": "mit + Dativ: mit einem (m/n), mit einer (f), mit der (f).",
+       "items": [
+        {
+         "text": "Er hat mit ___ Mini-Kamera geschummelt.",
+         "loesung": [
+          "einer"
+         ]
+        },
+        {
+         "text": "… und mit ___ Handy.",
+         "loesung": [
+          "einem"
+         ]
+        },
+        {
+         "text": "Man schreibt nur mit ___ Bleistift.",
+         "loesung": [
+          "einem"
+         ]
+        },
+        {
+         "text": "Betrug mit ___ KI ist ein großes Problem.",
+         "loesung": [
+          "der"
+         ]
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Wörter aus der Stunde",
+       "anweisung": "Ergänze das passende Wort.",
+       "regel": "Wiederholung (22.11.): aufmerksam → die Aufmerksamkeit, der Fehler, gereizt, erziehen.",
+       "items": [
+        {
+         "text": "Bei einer Prüfung braucht man viel ___. (Nomen von aufmerksam)",
+         "loesung": [
+          "Aufmerksamkeit"
+         ]
+        },
+        {
+         "text": "Das ist nicht der ___ der Schüler.",
+         "loesung": [
+          "Fehler"
+         ]
+        },
+        {
+         "text": "Vor einer Prüfung sind viele Schüler nervös und ___.",
+         "loesung": [
+          "gereizt"
+         ],
+         "hinweis": "ger…"
+        },
+        {
+         "text": "Eltern wollen ihre Kinder gut ___.",
+         "loesung": [
+          "erziehen"
+         ]
+        }
+       ]
+      },
+      {
+       "typ": "auswahl",
+       "titel": "Genitiv",
+       "anweisung": "Wähle den richtigen Artikel.",
+       "regel": "Wiederholung (22.11.): Genitiv – des (m), der (f), des (n), der (Pl.).",
+       "items": [
+        {
+         "text": "der Rücktritt ___ Ministers",
+         "optionen": [
+          "des",
+          "dem",
+          "der"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "die Regeln ___ Prüfung",
+         "optionen": [
+          "die",
+          "der",
+          "des"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "die Angst ___ Eltern",
+         "optionen": [
+          "den",
+          "die",
+          "der"
+         ],
+         "richtig": 2
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Reisen & Arbeit",
+     "titel": "Streik in Belgien: Fast keine Flüge",
+     "text": "Heute, am Montag, gibt es in Belgien einen großen Streik. Viele Menschen protestieren gegen Sparmaßnahmen der Regierung.\n\nAuch ein Teil der Fluglotsen streikt. Deshalb fliegen von 7 bis 21 Uhr fast keine Flugzeuge. In Brüssel und Charleroi sind fast alle Flüge abgesagt. Allein am Flughafen Brüssel hat man heute fast 60.000 Passagiere erwartet. Auch Busse und U-Bahnen in Brüssel fahren nicht normal. Die Züge fahren aber, sagt die Bahn.\n\nDie Fluggesellschaften sind sehr verärgert.",
+     "vokabeln": [
+      {
+       "de": "der Streik",
+       "im_text": "Streik",
+       "erkl": "Arbeiter arbeiten nicht, weil sie protestieren"
+      },
+      {
+       "de": "die Sparmaßnahme",
+       "im_text": "Sparmaßnahmen",
+       "erkl": "ein Plan, wie der Staat weniger Geld ausgibt"
+      },
+      {
+       "de": "der Fluglotse",
+       "im_text": "Fluglotsen",
+       "erkl": "eine Person, die vom Boden aus die Flugzeuge sicher lenkt"
+      },
+      {
+       "de": "absagen",
+       "im_text": "abgesagt",
+       "erkl": "sagen, dass etwas nicht stattfindet"
+      },
+      {
+       "de": "erwarten",
+       "im_text": "erwartet",
+       "erkl": "glauben, dass jemand oder etwas kommt"
+      },
+      {
+       "de": "der Passagier",
+       "im_text": "Passagiere",
+       "erkl": "eine Person, die im Flugzeug, Zug oder Schiff mitfährt"
+      },
+      {
+       "de": "verärgert",
+       "im_text": "verärgert",
+       "erkl": "böse, wütend"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wann fliegen fast keine Flugzeuge?",
+       "optionen": [
+        "von 7 bis 21 Uhr",
+        "die ganze Woche",
+        "nur am Abend"
+       ],
+       "richtig": 0
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die Züge fahren normal.",
+       "richtig": true,
+       "erkl": "Das sagt die Bahn."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die Fluggesellschaften finden den Streik gut.",
+       "richtig": false,
+       "erkl": "Sie sind sehr verärgert."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wogegen protestieren die Menschen?",
+         "gegen Sparmaßnahmen"
+        ],
+        [
+         "Wer streikt auch?",
+         "ein Teil der Fluglotsen"
+        ],
+        [
+         "Wie viele Passagiere in Brüssel?",
+         "fast 60.000"
+        ],
+        [
+         "Welche Flughäfen?",
+         "Brüssel und Charleroi"
+        ]
+       ]
+      },
+      {
+       "typ": "offen",
+       "frage": "Was fährt in Brüssel heute nicht normal?",
+       "loesung": "Busse und U-Bahnen."
+      }
+     ],
+     "diskussion": [
+      "Was machst du, wenn dein Flug abgesagt ist?",
+      "Findest du Streiks richtig, auch wenn viele Menschen Probleme bekommen?"
+     ],
+     "uebungen": [
+      {
+       "typ": "auswahl",
+       "titel": "Komparativ",
+       "anweisung": "Wähle die richtige Form.",
+       "regel": "Wiederholung (22.11.): teuer → teurer (ohne e!), billig → billiger.",
+       "items": [
+        {
+         "text": "Heute ist der Zug ___ als das Flugzeug.",
+         "optionen": [
+          "praktischer",
+          "praktisch",
+          "am praktischsten"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Für mich ist der Zug ___ als das Flugzeug. (bequem)",
+         "optionen": [
+          "bequem",
+          "bequemer",
+          "bequemerer"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Ein Taxi ist ___ als der Bus. (teuer)",
+         "optionen": [
+          "teuerer",
+          "teuer",
+          "teurer"
+         ],
+         "richtig": 2
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "mit + Dativ",
+       "anweisung": "Ergänze den Artikel.",
+       "regel": "mit dem (m/n), mit der (f).",
+       "items": [
+        {
+         "text": "Ich fahre mit ___ Zug nach Brüssel.",
+         "loesung": [
+          "dem"
+         ]
+        },
+        {
+         "text": "Heute fahre ich nicht mit ___ U-Bahn.",
+         "loesung": [
+          "der"
+         ]
+        },
+        {
+         "text": "Viele wollten mit ___ Flugzeug fliegen.",
+         "loesung": [
+          "dem"
+         ]
+        },
+        {
+         "text": "Ich komme mit ___ Bus.",
+         "loesung": [
+          "dem"
+         ]
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Genitiv",
+       "anweisung": "Ergänze den Artikel.",
+       "regel": "Wiederholung (22.11.): Genitiv – des (m), der (f), des (n), der (Pl.).",
+       "items": [
+        {
+         "text": "die Passagiere ___ Flughafens",
+         "loesung": [
+          "des"
+         ]
+        },
+        {
+         "text": "die Pläne ___ Regierung",
+         "loesung": [
+          "der"
+         ]
+        },
+        {
+         "text": "fast alle Flüge ___ Tages",
+         "loesung": [
+          "des"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Fußball",
+     "titel": "Standard Lüttich gewinnt zum ersten Mal in Lommel",
+     "text": "Am Sonntag hat Standard Lüttich in der belgischen Pro League beim Lommel SK gespielt und mit 2:1 gewonnen. Standard hat seine beiden Tore jeweils kurz nach dem Beginn einer Halbzeit geschossen. Lommel hat erst in der Nachspielzeit ein Tor gemacht.\n\nEs war das letzte Spiel des 12. Spieltags. Mit dem Sieg hat Standard jetzt 18 Punkte und ist auf Platz 7. Die Mannschaft ist damit nah an den ersten sechs Plätzen.\n\nEs war außerdem ein historischer Sieg: Zum ersten Mal hat Standard in Lommel ein Ligaspiel gewonnen.",
+     "vokabeln": [
+      {
+       "de": "das Tor",
+       "im_text": "Tore",
+       "erkl": "wenn der Ball ins Netz geht, gibt es einen Punkt"
+      },
+      {
+       "de": "jeweils",
+       "im_text": "jeweils",
+       "erkl": "jedes Mal, bei jedem"
+      },
+      {
+       "de": "die Halbzeit",
+       "im_text": "Halbzeit",
+       "erkl": "eine Hälfte von einem Fußballspiel (45 Minuten)"
+      },
+      {
+       "de": "die Nachspielzeit",
+       "im_text": "Nachspielzeit",
+       "erkl": "die Minuten, die nach der 90. Minute noch gespielt werden"
+      },
+      {
+       "de": "der Spieltag",
+       "im_text": "Spieltags",
+       "erkl": "eine Runde; alle Teams spielen einmal"
+      },
+      {
+       "de": "historisch",
+       "im_text": "historischer",
+       "erkl": "so wichtig, dass man sich lange daran erinnert"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wie ist das Spiel ausgegangen?",
+       "optionen": [
+        "1:1",
+        "2:1 für Standard",
+        "2:1 für Lommel"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Lommel hat sein Tor in der Nachspielzeit gemacht.",
+       "richtig": true
+      },
+      {
+       "typ": "rf",
+       "aussage": "Standard hat in Lommel schon oft gewonnen.",
+       "richtig": false,
+       "erkl": "Es war der erste Ligasieg in Lommel."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wann war das Spiel?",
+         "am Sonntag"
+        ],
+        [
+         "Wie viele Punkte hat Standard?",
+         "18"
+        ],
+        [
+         "Auf welchem Platz ist Standard?",
+         "auf Platz 7"
+        ],
+        [
+         "Welcher Spieltag?",
+         "der 12. Spieltag"
+        ]
+       ]
+      },
+      {
+       "typ": "offen",
+       "frage": "Warum war es ein historischer Sieg?",
+       "loesung": "Weil Standard zum ersten Mal in Lommel ein Ligaspiel gewonnen hat."
+      }
+     ],
+     "diskussion": [
+      "Gehst du in Lüttich manchmal ins Stadion? Wie ist die Stimmung?",
+      "Welcher Sport ist in Belgien am beliebtesten?"
+     ],
+     "uebungen": [
+      {
+       "typ": "eingabe",
+       "titel": "Genitiv",
+       "anweisung": "Ergänze den Artikel.",
+       "regel": "Wiederholung (22.11.): Genitiv – des (m), der (f), des (n), der (Pl.).",
+       "items": [
+        {
+         "text": "das letzte Spiel ___ Spieltags",
+         "loesung": [
+          "des"
+         ]
+        },
+        {
+         "text": "die Fans ___ Mannschaft",
+         "loesung": [
+          "der"
+         ]
+        },
+        {
+         "text": "der Beginn ___ Halbzeit",
+         "loesung": [
+          "der"
+         ]
+        },
+        {
+         "text": "die Tore ___ Spieler (Plural)",
+         "loesung": [
+          "der"
+         ]
+        }
+       ]
+      },
+      {
+       "typ": "auswahl",
+       "titel": "Komparativ",
+       "anweisung": "Wähle die richtige Form.",
+       "items": [
+        {
+         "text": "Standard war am Sonntag ___ als Lommel.",
+         "optionen": [
+          "gut",
+          "besser",
+          "guter"
+         ],
+         "richtig": 1,
+         "erkl": "gut → besser → am besten"
+        },
+        {
+         "text": "Mit 18 Punkten hat Standard ___ Punkte als Lommel.",
+         "optionen": [
+          "mehr",
+          "vieler",
+          "viel"
+         ],
+         "richtig": 0,
+         "erkl": "viel → mehr → am meisten"
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "gefallen",
+       "anweisung": "Ergänze die richtige Form.",
+       "regel": "Etwas gefällt mir (Dativ).",
+       "items": [
+        {
+         "text": "Der Sieg ___ den Fans aus Lüttich.",
+         "loesung": [
+          "gefällt"
+         ]
+        },
+        {
+         "text": "Fußballspiele ___ mir.",
+         "loesung": [
+          "gefallen"
+         ]
+        },
+        {
+         "text": "Gefällt ___ Fußball? (du)",
+         "loesung": [
+          "dir"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Wetter",
+     "titel": "Frankreich: Hochwasser im Norden, Sturm auf Korsika",
+     "text": "In Frankreich gibt es gerade viel schlechtes Wetter. Der Wetterdienst Météo-France hat für mehrere Regionen die Warnstufe Orange ausgerufen.\n\nIm Departement Pas-de-Calais im Norden, nicht weit von Belgien, hat es am Wochenende sehr stark geregnet. Dort sollten bis zu 80 Liter Regen pro Quadratmeter fallen. Die Flüsse können über die Ufer treten. Auch im Osten, in den Departements Ain und Jura, gab es eine Warnung wegen Regen.\n\nAuf Korsika gibt es heute einen Sturm mit Böen von teilweise mehr als 130 Kilometern pro Stunde.",
+     "vokabeln": [
+      {
+       "de": "der Wetterdienst",
+       "im_text": "Wetterdienst",
+       "erkl": "eine Organisation, die das Wetter vorhersagt"
+      },
+      {
+       "de": "die Warnstufe",
+       "im_text": "Warnstufe",
+       "erkl": "zeigt, wie gefährlich etwas ist"
+      },
+      {
+       "de": "ausrufen",
+       "im_text": "ausgerufen",
+       "erkl": "offiziell bekannt geben"
+      },
+      {
+       "de": "über die Ufer treten",
+       "im_text": "Ufer",
+       "erkl": "ein Fluss hat so viel Wasser, dass es auf das Land fließt"
+      },
+      {
+       "de": "die Böe",
+       "im_text": "Böen",
+       "erkl": "ein plötzlicher, sehr starker Windstoß"
+      },
+      {
+       "de": "teilweise",
+       "im_text": "teilweise",
+       "erkl": "nicht überall, nur an manchen Orten"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Welche Warnstufe hat Météo-France ausgerufen?",
+       "optionen": [
+        "Grün",
+        "Orange",
+        "Blau"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Pas-de-Calais liegt im Süden von Frankreich.",
+       "richtig": false,
+       "erkl": "Es liegt im Norden, nicht weit von Belgien."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Auf Korsika gibt es heute einen Sturm.",
+       "richtig": true
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wie viel Regen im Pas-de-Calais?",
+         "bis zu 80 Liter pro Quadratmeter"
+        ],
+        [
+         "Welche Departements im Osten?",
+         "Ain und Jura"
+        ],
+        [
+         "Wie schnell sind die Böen?",
+         "teilweise mehr als 130 km/h"
+        ],
+        [
+         "Wer warnt?",
+         "Météo-France"
+        ]
+       ]
+      },
+      {
+       "typ": "offen",
+       "frage": "Was kann bei so viel Regen mit den Flüssen passieren?",
+       "loesung": "Sie können über die Ufer treten."
+      }
+     ],
+     "diskussion": [
+      "Wie ist das Wetter gerade bei dir in Belgien?",
+      "Warst du schon einmal auf Korsika oder an einem anderen Ort am Meer bei Sturm?"
+     ],
+     "uebungen": [
+      {
+       "typ": "eingabe",
+       "titel": "Komparativ",
+       "anweisung": "Schreib den Komparativ.",
+       "regel": "Kurze Adjektive oft mit Umlaut: stark → stärker, kalt → kälter.",
+       "items": [
+        {
+         "text": "stark → ___",
+         "loesung": [
+          "stärker"
+         ]
+        },
+        {
+         "text": "kalt → ___",
+         "loesung": [
+          "kälter"
+         ]
+        },
+        {
+         "text": "nass → ___",
+         "loesung": [
+          "nasser",
+          "nässer"
+         ]
+        },
+        {
+         "text": "gefährlich → ___",
+         "loesung": [
+          "gefährlicher"
+         ]
+        }
+       ]
+      },
+      {
+       "typ": "auswahl",
+       "titel": "mit + Dativ",
+       "anweisung": "Wähle den richtigen Artikel.",
+       "items": [
+        {
+         "text": "ein Sturm mit ___ Wind",
+         "optionen": [
+          "den",
+          "dem",
+          "der"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "ein Wochenende mit ___ Regen",
+         "optionen": [
+          "viel",
+          "vielem",
+          "vieler"
+         ],
+         "richtig": 0,
+         "erkl": "viel bleibt meistens ohne Endung: mit viel Regen."
+        },
+        {
+         "text": "Météo-France kommt mit ___ Warnung.",
+         "optionen": [
+          "eine",
+          "einen",
+          "einer"
+         ],
+         "richtig": 2
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Wörter aus der Stunde",
+       "anweisung": "Ergänze das passende Wort.",
+       "regel": "Wiederholung (22.11.): den ganzen Tag, aufmerksam.",
+       "items": [
+        {
+         "text": "Es hat den ___ Tag geregnet.",
+         "loesung": [
+          "ganzen"
+         ]
+        },
+        {
+         "text": "Bei Sturm muss man sehr ___ sein. (= gut aufpassen)",
+         "loesung": [
+          "aufmerksam",
+          "vorsichtig"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
    "datum": "2026-11-22",
    "nachrichten": [
     {

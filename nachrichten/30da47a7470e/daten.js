@@ -4,6 +4,932 @@ window.NACHRICHTEN = {
  "spiel": false,
  "tage": [
   {
+   "datum": "2026-11-23",
+   "nachrichten": [
+    {
+     "kategorie": "Sport",
+     "titel": "Alcaraz schlägt die Nummer eins",
+     "text": "Am Sonntag hat Carlos Alcaraz aus Spanien die ATP Finals in Turin gewonnen. Bei diesem Turnier spielen am Ende der Saison nur die acht besten Tennisspieler des Jahres.\n\nIm Finale hat Alcaraz gegen Alexander Zverev aus Deutschland gespielt. Zverev ist im Moment die Nummer eins der Welt. Vor dem Finale hat er keinen einzigen Satz verloren. Doch Alcaraz war stärker: Er hat mit 6:2 und 7:6 gewonnen. Der zweite Satz war sehr spannend.\n\nFür Alcaraz ist es der erste Sieg bei diesem Turnier.",
+     "vokabeln": [
+      {
+       "de": "die Saison",
+       "im_text": "Saison",
+       "erkl": "die Zeit im Jahr, in der ein Sport gespielt wird"
+      },
+      {
+       "de": "das Turnier",
+       "im_text": "Turnier",
+       "erkl": "ein Wettbewerb mit vielen Spielen; am Ende gibt es einen Sieger"
+      },
+      {
+       "de": "das Finale",
+       "im_text": "Finale",
+       "erkl": "das letzte und wichtigste Spiel"
+      },
+      {
+       "de": "der Satz",
+       "im_text": "Satz",
+       "erkl": "ein Teil von einem Tennisspiel"
+      },
+      {
+       "de": "verlieren",
+       "im_text": "verloren",
+       "erkl": "nicht gewinnen"
+      },
+      {
+       "de": "spannend",
+       "im_text": "spannend",
+       "erkl": "so interessant, dass man unbedingt das Ende wissen will"
+      },
+      {
+       "de": "der Sieg",
+       "im_text": "Sieg",
+       "erkl": "wenn man gewinnt"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wo war das Turnier?",
+       "optionen": [
+        "in Madrid",
+        "in Turin",
+        "in Berlin"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Zverev hat vor dem Finale keinen Satz verloren.",
+       "richtig": true
+      },
+      {
+       "typ": "rf",
+       "aussage": "Alcaraz hat das Turnier schon oft gewonnen.",
+       "richtig": false,
+       "erkl": "Es ist sein erster Sieg bei diesem Turnier."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wer spielt bei den ATP Finals?",
+         "die acht besten Spieler des Jahres"
+        ],
+        [
+         "Woher kommt Zverev?",
+         "aus Deutschland"
+        ],
+        [
+         "Wie ist das Ergebnis?",
+         "6:2 und 7:6"
+        ],
+        [
+         "Welcher Satz war spannend?",
+         "der zweite Satz"
+        ]
+       ]
+      },
+      {
+       "typ": "offen",
+       "frage": "Warum war der Sieg von Alcaraz eine kleine Überraschung?",
+       "loesung": "Weil Zverev die Nummer eins ist und vor dem Finale keinen Satz verloren hat."
+      }
+     ],
+     "diskussion": [
+      "Schaust du gern Tennis oder andere Sportarten im Fernsehen? Welche?",
+      "Was ist wichtiger im Sport: Talent oder Training?"
+     ],
+     "uebungen": [
+      {
+       "typ": "auswahl",
+       "titel": "Satzbau mit weil und dass",
+       "anweisung": "Wähle den richtigen Satzteil.",
+       "regel": "Nach weil und dass steht das Verb am Ende.",
+       "items": [
+        {
+         "text": "Alcaraz ist glücklich, weil ___",
+         "optionen": [
+          "er gewonnen hat.",
+          "er hat gewonnen.",
+          "hat er gewonnen."
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Zverev ist traurig, weil ___",
+         "optionen": [
+          "er hat verloren.",
+          "er verloren hat.",
+          "hat er verloren."
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Ich glaube, dass ___",
+         "optionen": [
+          "Tennis ist schwierig.",
+          "ist Tennis schwierig.",
+          "Tennis schwierig ist."
+         ],
+         "richtig": 2
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Adjektiv → Nomen",
+       "anweisung": "Bilde das Nomen mit Artikel.",
+       "regel": "-heit, -keit → immer die. Wiederholung (17.11.): schwierig → die Schwierigkeit.",
+       "items": [
+        {
+         "text": "schwierig → ___",
+         "loesung": [
+          "die Schwierigkeit"
+         ]
+        },
+        {
+         "text": "wahrscheinlich → ___",
+         "loesung": [
+          "die Wahrscheinlichkeit"
+         ]
+        },
+        {
+         "text": "sicher → ___",
+         "loesung": [
+          "die Sicherheit"
+         ]
+        },
+        {
+         "text": "schnell → ___",
+         "loesung": [
+          "die Schnelligkeit"
+         ]
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Gegenteile",
+       "anweisung": "Schreib das Gegenteil.",
+       "items": [
+        {
+         "text": "gewinnen ↔ ___",
+         "loesung": [
+          "verlieren"
+         ]
+        },
+        {
+         "text": "der Sieg ↔ ___",
+         "loesung": [
+          "die Niederlage"
+         ]
+        },
+        {
+         "text": "stark ↔ ___",
+         "loesung": [
+          "schwach"
+         ]
+        },
+        {
+         "text": "spannend ↔ ___",
+         "loesung": [
+          "langweilig"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Bildung",
+     "titel": "Südkorea: Minister geht nach Chaos bei Prüfung",
+     "text": "In Südkorea haben am Donnerstag viele Schülerinnen und Schüler eine sehr wichtige Prüfung geschrieben: den Test für die Universität.\n\nKurz vorher hat ein Mann zugegeben, dass er bei einer anderen Prüfung mit einer Mini-Kamera und einem Handy geschummelt hat. Deshalb hatte das Bildungsministerium Angst vor Betrug mit KI. Es hat ganz schnell neue Regeln gemacht: Nur Bleistifte waren erlaubt, und auf Knöpfe an der Kleidung mussten Sticker.\n\nViele Menschen haben das Chaos kritisiert. Am Sonntag ist der Bildungsminister zurückgetreten.",
+     "vokabeln": [
+      {
+       "de": "zugeben",
+       "im_text": "zugegeben",
+       "erkl": "sagen, dass man etwas Falsches gemacht hat"
+      },
+      {
+       "de": "schummeln",
+       "im_text": "geschummelt",
+       "erkl": "in einem Test heimlich verbotene Hilfe benutzen"
+      },
+      {
+       "de": "der Betrug",
+       "im_text": "Betrug",
+       "erkl": "wenn jemand unehrlich ist, um einen Vorteil zu bekommen"
+      },
+      {
+       "de": "erlaubt",
+       "im_text": "erlaubt",
+       "erkl": "man darf es machen; Gegenteil von verboten"
+      },
+      {
+       "de": "kritisieren",
+       "im_text": "kritisiert",
+       "erkl": "sagen, dass etwas schlecht ist"
+      },
+      {
+       "de": "zurücktreten",
+       "im_text": "zurückgetreten",
+       "erkl": "ein wichtiges Amt (z. B. Minister) freiwillig aufgeben"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wofür ist die Prüfung?",
+       "optionen": [
+        "für den Führerschein",
+        "für die Universität",
+        "für eine Arbeitsstelle"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Ein Mann hat mit einer Mini-Kamera geschummelt.",
+       "richtig": true
+      },
+      {
+       "typ": "rf",
+       "aussage": "In der Prüfung waren Kugelschreiber erlaubt.",
+       "richtig": false,
+       "erkl": "Nur Bleistifte waren erlaubt."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wann war die Prüfung?",
+         "am Donnerstag"
+        ],
+        [
+         "Wovor hatte das Ministerium Angst?",
+         "vor Betrug mit KI"
+        ],
+        [
+         "Was kam auf die Knöpfe?",
+         "Sticker"
+        ],
+        [
+         "Wann ist der Minister zurückgetreten?",
+         "am Sonntag"
+        ]
+       ]
+      },
+      {
+       "typ": "offen",
+       "frage": "Warum ist der Minister zurückgetreten?",
+       "loesung": "Weil viele Menschen das Chaos mit den neuen Regeln kritisiert haben."
+      }
+     ],
+     "diskussion": [
+      "Wie kann man in Prüfungen Betrug mit KI verhindern?",
+      "Hast du in der Schule schon einmal eine sehr wichtige Prüfung gemacht? Wie war das?"
+     ],
+     "uebungen": [
+      {
+       "typ": "eingabe",
+       "titel": "Perfekt",
+       "anweisung": "Ergänze das Partizip.",
+       "regel": "Verben auf -ieren: ohne ge- (korrigiert). Wiederholung (17.11.): korrigieren.",
+       "items": [
+        {
+         "text": "Die Schüler haben eine Prüfung ___. (schreiben)",
+         "loesung": [
+          "geschrieben"
+         ]
+        },
+        {
+         "text": "Ein Mann hat ___. (schummeln)",
+         "loesung": [
+          "geschummelt"
+         ]
+        },
+        {
+         "text": "Der Minister ist ___. (zurücktreten)",
+         "loesung": [
+          "zurückgetreten"
+         ]
+        },
+        {
+         "text": "Der Lehrer hat den Test ___. (korrigieren)",
+         "loesung": [
+          "korrigiert"
+         ]
+        }
+       ]
+      },
+      {
+       "typ": "fehler",
+       "titel": "Fehler finden",
+       "anweisung": "Ein Wort steht an der falschen Stelle.",
+       "items": [
+        {
+         "woerter": [
+          "Ich",
+          "glaube,",
+          "dass",
+          "die",
+          "Regeln",
+          "sind",
+          "zu",
+          "streng."
+         ],
+         "fehler": 5,
+         "korrektur": "…, dass die Regeln zu streng sind.",
+         "erkl": "dass → Verb am Ende."
+        },
+        {
+         "woerter": [
+          "Er",
+          "ist",
+          "zurückgetreten,",
+          "weil",
+          "viele",
+          "Menschen",
+          "waren",
+          "wütend."
+         ],
+         "fehler": 6,
+         "korrektur": "…, weil viele Menschen wütend waren.",
+         "erkl": "weil → Verb am Ende."
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Verb → Nomen",
+       "anweisung": "Bilde das Nomen mit Artikel.",
+       "regel": "Wiederholung (17.11.): korrigieren → die Korrektur, bestellen → die Bestellung.",
+       "items": [
+        {
+         "text": "korrigieren → ___",
+         "loesung": [
+          "die Korrektur"
+         ]
+        },
+        {
+         "text": "bestellen → ___",
+         "loesung": [
+          "die Bestellung"
+         ]
+        },
+        {
+         "text": "prüfen → ___",
+         "loesung": [
+          "die Prüfung"
+         ]
+        },
+        {
+         "text": "versuchen → ___",
+         "loesung": [
+          "der Versuch"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "E-Sport",
+     "titel": "Counter-Strike 2: Das große Major in Singapur beginnt",
+     "text": "Am Mittwoch beginnt in Singapur ein großes Turnier im Computerspiel Counter-Strike 2: das PGL Major. Ein Major ist eines der wichtigsten Turniere in diesem Spiel.\n\n32 Teams aus der ganzen Welt spielen mit. Zuerst gibt es drei Gruppenphasen. Danach spielen die besten acht Teams die Play-offs in einer großen Halle, dem Singapore Indoor Stadium. Das Turnier dauert bis zum 13. Dezember.\n\nDer Titelverteidiger ist Team Falcons. Das Team hat das letzte Major in Köln gewonnen – im Finale mit 3:0 gegen FURIA.",
+     "vokabeln": [
+      {
+       "de": "das Turnier",
+       "im_text": "Turnier",
+       "erkl": "ein Wettbewerb mit vielen Spielen und einem Sieger am Ende"
+      },
+      {
+       "de": "mitspielen",
+       "im_text": "spielen mit",
+       "erkl": "bei einem Spiel oder Turnier dabei sein"
+      },
+      {
+       "de": "die Gruppenphase",
+       "im_text": "Gruppenphasen",
+       "erkl": "der erste Teil eines Turniers; die Teams spielen in Gruppen"
+      },
+      {
+       "de": "die Halle",
+       "im_text": "Halle",
+       "erkl": "ein sehr großer Raum, z. B. für Sport oder Konzerte"
+      },
+      {
+       "de": "dauern",
+       "im_text": "dauert",
+       "erkl": "eine bestimmte Zeit lang gehen"
+      },
+      {
+       "de": "der Titelverteidiger",
+       "im_text": "Titelverteidiger",
+       "erkl": "das Team, das das letzte Mal gewonnen hat"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wo findet das Major statt?",
+       "optionen": [
+        "in Köln",
+        "in Singapur",
+        "in Las Vegas"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Es spielen 32 Teams mit.",
+       "richtig": true
+      },
+      {
+       "typ": "rf",
+       "aussage": "FURIA hat das letzte Major gewonnen.",
+       "richtig": false,
+       "erkl": "Team Falcons hat gewonnen."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wann beginnt das Major?",
+         "am Mittwoch"
+        ],
+        [
+         "Wie viele Gruppenphasen gibt es?",
+         "drei"
+        ],
+        [
+         "Wie viele Teams spielen die Play-offs?",
+         "acht"
+        ],
+        [
+         "Bis wann dauert das Turnier?",
+         "bis zum 13. Dezember"
+        ]
+       ]
+      },
+      {
+       "typ": "offen",
+       "frage": "Was ist ein Titelverteidiger? Erkläre mit einem Beispiel aus dem Text.",
+       "loesung": "Das Team, das das letzte Mal gewonnen hat – hier Team Falcons."
+      }
+     ],
+     "diskussion": [
+      "Ist E-Sport für dich ein richtiger Sport? Warum (nicht)?",
+      "Welches Team findest du in Counter-Strike am besten?"
+     ],
+     "uebungen": [
+      {
+       "typ": "auswahl",
+       "titel": "Satzbau mit weil und dass",
+       "anweisung": "Wähle den richtigen Satzteil.",
+       "regel": "Nach weil und dass steht das Verb am Ende.",
+       "items": [
+        {
+         "text": "Ich schaue das Major, weil ___",
+         "optionen": [
+          "ich Counter-Strike mag.",
+          "ich mag Counter-Strike.",
+          "mag ich Counter-Strike."
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Ich glaube, dass ___",
+         "optionen": [
+          "Team Falcons gewinnt wieder.",
+          "Team Falcons wieder gewinnt.",
+          "gewinnt Team Falcons wieder."
+         ],
+         "richtig": 1
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Perfekt",
+       "anweisung": "Ergänze das Partizip.",
+       "regel": "Wiederholung (17.11.): mit dem Hund hinausgehen → Ich bin mit dem Hund hinausgegangen.",
+       "items": [
+        {
+         "text": "Team Falcons hat das Major in Köln ___. (gewinnen)",
+         "loesung": [
+          "gewonnen"
+         ]
+        },
+        {
+         "text": "Wir haben gestern Counter-Strike ___. (spielen)",
+         "loesung": [
+          "gespielt"
+         ]
+        },
+        {
+         "text": "Ich bin danach mit dem Hund ___. (hinausgehen)",
+         "loesung": [
+          "hinausgegangen"
+         ]
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Wiederholung",
+       "anweisung": "Ergänze das passende Wort.",
+       "regel": "Wiederholung (17.11.): Vielleicht spiele ich Counter-Strike. – vielleicht, wahrscheinlich, versuchen.",
+       "items": [
+        {
+         "text": "Vielleicht ___ ich heute Abend Counter-Strike. (spielen)",
+         "loesung": [
+          "spiele"
+         ]
+        },
+        {
+         "text": "Ich ___, alle Spiele zu schauen. (versuchen)",
+         "loesung": [
+          "versuche"
+         ]
+        },
+        {
+         "text": "Team Falcons gewinnt ___ wieder. (= sehr möglich)",
+         "loesung": [
+          "wahrscheinlich"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Sport",
+     "titel": "Formel 1: Verstappen gewinnt in Las Vegas",
+     "text": "Am Wochenende ist die Formel 1 in Las Vegas in den USA gefahren. Das Rennen findet in der Nacht statt, mitten in der Stadt zwischen den großen Hotels und Casinos.\n\nMax Verstappen ist von Platz 1 gestartet und hat am Ende auch gewonnen. Einfach war das aber nicht: Mehr als 30 Mal hat die Führung gewechselt. Für Verstappen ist es der vierte Sieg in dieser Saison und schon der dritte in Las Vegas.\n\nPech hatte Ferrari: Die beiden Fahrer Lewis Hamilton und Charles Leclerc sind wieder zusammengestoßen.",
+     "vokabeln": [
+      {
+       "de": "stattfinden",
+       "im_text": "findet",
+       "erkl": "passieren (für Termine und Veranstaltungen)"
+      },
+      {
+       "de": "mitten in",
+       "im_text": "mitten",
+       "erkl": "genau im Zentrum von"
+      },
+      {
+       "de": "die Führung",
+       "im_text": "Führung",
+       "erkl": "Platz 1 während des Rennens"
+      },
+      {
+       "de": "wechseln",
+       "im_text": "gewechselt",
+       "erkl": "anders werden, von einem zum anderen gehen"
+      },
+      {
+       "de": "das Pech",
+       "im_text": "Pech",
+       "erkl": "Gegenteil von Glück"
+      },
+      {
+       "de": "zusammenstoßen",
+       "im_text": "zusammengestoßen",
+       "erkl": "gegeneinander fahren, ein Unfall"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wann fährt die Formel 1 in Las Vegas?",
+       "optionen": [
+        "am Morgen",
+        "in der Nacht",
+        "am Nachmittag"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Verstappen ist von Platz 1 gestartet.",
+       "richtig": true
+      },
+      {
+       "typ": "rf",
+       "aussage": "Es ist Verstappens erster Sieg in Las Vegas.",
+       "richtig": false,
+       "erkl": "Es ist schon der dritte."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wie oft hat die Führung gewechselt?",
+         "mehr als 30 Mal"
+        ],
+        [
+         "Der wievielte Sieg in dieser Saison?",
+         "der vierte"
+        ],
+        [
+         "Welches Team hatte Pech?",
+         "Ferrari"
+        ],
+        [
+         "Wo fahren die Autos?",
+         "mitten in der Stadt"
+        ]
+       ]
+      },
+      {
+       "typ": "offen",
+       "frage": "Was ist mit Hamilton und Leclerc passiert?",
+       "loesung": "Sie sind wieder zusammengestoßen."
+      }
+     ],
+     "diskussion": [
+      "Würdest du gern einmal nach Las Vegas reisen? Warum (nicht)?",
+      "Ist Formel 1 für dich spannend oder langweilig?"
+     ],
+     "uebungen": [
+      {
+       "typ": "eingabe",
+       "titel": "Perfekt: haben oder sein?",
+       "anweisung": "Ergänze hat, ist oder sind.",
+       "regel": "Bewegung (starten, fahren) und Unfall (zusammenstoßen) → sein.",
+       "items": [
+        {
+         "text": "Verstappen ___ von Platz 1 gestartet.",
+         "loesung": [
+          "ist"
+         ]
+        },
+        {
+         "text": "Die Führung ___ oft gewechselt.",
+         "loesung": [
+          "hat"
+         ]
+        },
+        {
+         "text": "Hamilton und Leclerc ___ zusammengestoßen.",
+         "loesung": [
+          "sind"
+         ]
+        },
+        {
+         "text": "Verstappen ___ das Rennen gewonnen.",
+         "loesung": [
+          "hat"
+         ]
+        }
+       ]
+      },
+      {
+       "typ": "fehler",
+       "titel": "Fehler finden",
+       "anweisung": "Ein Wort steht an der falschen Stelle.",
+       "items": [
+        {
+         "woerter": [
+          "Ferrari",
+          "ist",
+          "traurig,",
+          "weil",
+          "die",
+          "Fahrer",
+          "sind",
+          "zusammengestoßen."
+         ],
+         "fehler": 6,
+         "korrektur": "…, weil die Fahrer zusammengestoßen sind.",
+         "erkl": "weil → Verb am Ende."
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Wiederholung",
+       "anweisung": "Ergänze das passende Wort.",
+       "regel": "Wiederholung (17.11.): teuer ↔ billig, die Wahrscheinlichkeit, langweilig.",
+       "items": [
+        {
+         "text": "Ein Ticket für Las Vegas ist sehr ___. (≠ billig)",
+         "loesung": [
+          "teuer"
+         ]
+        },
+        {
+         "text": "Mit großer ___ gewinnt Verstappen wieder.",
+         "loesung": [
+          "Wahrscheinlichkeit"
+         ]
+        },
+        {
+         "text": "Das Rennen war nicht ___, es war spannend.",
+         "loesung": [
+          "langweilig"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Kino",
+     "titel": "Panem-Film: Riesenerfolg in den USA",
+     "text": "Der neue Film aus der Reihe „Die Tribute von Panem“ ist am Wochenende in den USA gestartet. Die Geschichte basiert auf einem Roman der Autorin Suzanne Collins.\n\nDer Start war ein großer Erfolg: In den ersten drei Tagen hat der Film in den USA etwa 120 Millionen Dollar eingespielt. Damit ist er klar auf Platz 1. Der zweite Film auf der Liste hatte nur etwa 9 Millionen Dollar.\n\nEs ist schon der fünfte Panem-Film, der am ersten Wochenende mehr als 100 Millionen Dollar gemacht hat.",
+     "vokabeln": [
+      {
+       "de": "die Reihe",
+       "im_text": "Reihe",
+       "erkl": "mehrere Filme oder Bücher, die zusammengehören"
+      },
+      {
+       "de": "basieren auf",
+       "im_text": "basiert",
+       "erkl": "als Grundlage haben"
+      },
+      {
+       "de": "die Autorin",
+       "im_text": "Autorin",
+       "erkl": "eine Frau, die Bücher schreibt"
+      },
+      {
+       "de": "der Erfolg",
+       "im_text": "Erfolg",
+       "erkl": "wenn etwas sehr gut funktioniert"
+      },
+      {
+       "de": "einspielen",
+       "im_text": "eingespielt",
+       "erkl": "mit einem Film Geld verdienen"
+      },
+      {
+       "de": "klar",
+       "im_text": "klar",
+       "erkl": "hier: deutlich, ohne Zweifel"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wie viel Geld hat der Film in den ersten drei Tagen eingespielt?",
+       "optionen": [
+        "etwa 9 Millionen Dollar",
+        "etwa 120 Millionen Dollar",
+        "etwa 1 Milliarde Dollar"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die Geschichte basiert auf einem Roman.",
+       "richtig": true
+      },
+      {
+       "typ": "rf",
+       "aussage": "Es ist der erste Panem-Film mit über 100 Millionen am ersten Wochenende.",
+       "richtig": false,
+       "erkl": "Es ist schon der fünfte."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wer hat den Roman geschrieben?",
+         "Suzanne Collins"
+        ],
+        [
+         "Wo ist der Film gestartet?",
+         "in den USA"
+        ],
+        [
+         "Welcher Platz?",
+         "Platz 1"
+        ],
+        [
+         "Wie viel hatte Platz 2?",
+         "etwa 9 Millionen Dollar"
+        ]
+       ]
+      },
+      {
+       "typ": "offen",
+       "frage": "Warum kann man sagen, dass der Start ein großer Erfolg war?",
+       "loesung": "Weil der Film in drei Tagen etwa 120 Millionen Dollar eingespielt hat und klar auf Platz 1 ist."
+      }
+     ],
+     "diskussion": [
+      "Gehst du gern ins Kino, oder schaust du Filme lieber zu Hause?",
+      "Ist das Buch meistens besser als der Film? Warum?"
+     ],
+     "uebungen": [
+      {
+       "typ": "fehler",
+       "titel": "Fehler finden",
+       "anweisung": "Ein Wort steht an der falschen Stelle.",
+       "items": [
+        {
+         "woerter": [
+          "Ich",
+          "finde,",
+          "dass",
+          "das",
+          "Buch",
+          "ist",
+          "besser."
+         ],
+         "fehler": 5,
+         "korrektur": "…, dass das Buch besser ist.",
+         "erkl": "dass → Verb am Ende."
+        },
+        {
+         "woerter": [
+          "Viele",
+          "gehen",
+          "ins",
+          "Kino,",
+          "weil",
+          "der",
+          "Film",
+          "ist",
+          "spannend."
+         ],
+         "fehler": 7,
+         "korrektur": "…, weil der Film spannend ist.",
+         "erkl": "weil → Verb am Ende."
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Perfekt",
+       "anweisung": "Ergänze das Partizip.",
+       "items": [
+        {
+         "text": "Der Film ist am Wochenende ___. (starten)",
+         "loesung": [
+          "gestartet"
+         ]
+        },
+        {
+         "text": "Suzanne Collins hat den Roman ___. (schreiben)",
+         "loesung": [
+          "geschrieben"
+         ]
+        },
+        {
+         "text": "Viele Menschen sind ins Kino ___. (gehen)",
+         "loesung": [
+          "gegangen"
+         ]
+        },
+        {
+         "text": "Der Film hat 120 Millionen Dollar ___. (einspielen)",
+         "loesung": [
+          "eingespielt"
+         ]
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Wiederholung",
+       "anweisung": "Ergänze das passende Wort.",
+       "regel": "Wiederholung (17.11.): bestellen, langweilig, teuer.",
+       "items": [
+        {
+         "text": "Ich will eine Pizza ___ und einen Film schauen.",
+         "loesung": [
+          "bestellen"
+         ]
+        },
+        {
+         "text": "Der Film war nicht spannend, er war ___.",
+         "loesung": [
+          "langweilig"
+         ]
+        },
+        {
+         "text": "Die Tickets im Kino sind leider ___. (≠ billig)",
+         "loesung": [
+          "teuer"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
    "datum": "2026-11-22",
    "nachrichten": [
     {
