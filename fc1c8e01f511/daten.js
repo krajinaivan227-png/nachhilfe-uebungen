@@ -643,6 +643,141 @@ window.HEFT = {
           uebers: { fr: "Qu'est-ce qui est interdit chez toi ? Dis 3 phrases. Enregistre-toi et écoute-toi." }
         }
       ]
+    },
+    {
+      id: "2026-11-23",
+      titel: "aussuchen, ausleihen, bestellen, Dorf und Stadt",
+      vokabeln: [
+        { de: "die Wissenschaft", en: "science", fr: "la science", beispiel: "Chemie und Physik sind Wissenschaften." },
+        { de: "aussuchen", en: "to choose, to pick", fr: "choisir", beispiel: "Ich suche mein Geschenk aus." },
+        { de: "ausleihen", en: "to borrow", fr: "emprunter", beispiel: "Ich habe Bücher ausgeliehen." },
+        { de: "beenden", en: "to finish", fr: "finir, terminer", beispiel: "Wir beenden das Spiel." },
+        { de: "bestellen", en: "to order", fr: "commander", beispiel: "Ich bestelle Pizza." },
+        { de: "das Müsli", en: "the muesli, cereal", fr: "le muesli, les céréales", beispiel: "Ich esse Müsli zum Frühstück." },
+        { de: "schicken", en: "to send", fr: "envoyer", beispiel: "Ich schicke einen Brief." },
+        { de: "die Bushaltestelle", en: "the bus stop", fr: "l'arrêt de bus", beispiel: "Ich sehe eine Bushaltestelle." },
+        { de: "das Dorf", en: "the village", fr: "le village", beispiel: "Ich wohne in einem Dorf." },
+        { de: "der Dieb", en: "the thief", fr: "le voleur", beispiel: "Die Polizei sucht den Dieb." }
+      ],
+      aufgaben: [
+        {
+          typ: "mc", stufe: 1,
+          frage: "Ich ___ mein Geschenk aus.",
+          optionen: ["suche", "suchst", "sucht"], richtig: 0,
+          regel: "aussuchen ist trennbar: ich suche … aus. Das „aus“ steht am Ende.",
+          uebers: { fr: "Choisis la bonne forme de « aussuchen » (choisir)." }
+        },
+        {
+          typ: "satz", stufe: 2,
+          woerter: ["Ich", "suche", "ein", "Buch", "aus"],
+          loesung: "Ich suche ein Buch aus",
+          regel: "Trennbares Verb: suche auf Position 2, aus ganz am Ende.",
+          uebers: { fr: "Remets les mots dans l'ordre." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Ich habe Bücher ___.",
+          optionen: ["ausgeliehen", "ausgeleiht", "geausleiht"], richtig: 0,
+          regel: "ausleihen → ich habe ausgeliehen. Bei trennbaren Verben steht „ge“ in der Mitte.",
+          uebers: { fr: "Choisis le participe passé de « ausleihen » (emprunter)." }
+        },
+        {
+          typ: "luecke", stufe: 1,
+          text: "Ich ___ eine Pizza. (bestellen)",
+          antworten: ["bestelle"],
+          regel: "bestellen: ich bestelle, du bestellst, er bestellt.",
+          uebers: { fr: "Conjugue « bestellen » (commander) avec « ich »." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Ich esse ___ zum Frühstück.",
+          optionen: ["Müsli", "Dieb", "Dorf"], richtig: 0,
+          regel: "das Müsli = le muesli, les céréales.",
+          uebers: { fr: "Je mange des céréales au petit-déjeuner : choisis le bon mot." }
+        },
+        {
+          typ: "luecke", stufe: 1,
+          text: "Ich ___ einen Brief. (schicken)",
+          antworten: ["schicke"],
+          regel: "schicken: ich schicke, du schickst, er schickt. der Brief = la lettre.",
+          uebers: { fr: "Conjugue « schicken » (envoyer) avec « ich »." }
+        },
+        {
+          typ: "zuordnen", stufe: 1,
+          paare: [["die Stadt", "la ville"], ["das Dorf", "le village"], ["die Bushaltestelle", "l'arrêt de bus"], ["der Dieb", "le voleur"]],
+          regel: "Neue Wörter der Stunde.",
+          uebers: { fr: "Relie les mots." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Ich wohne in einem ___.",
+          optionen: ["Dorf", "Stadt", "Bushaltestelle"], richtig: 0,
+          regel: "das Dorf → in einem Dorf. die Stadt → in einer Stadt.",
+          uebers: { fr: "J'habite dans un village : choisis le mot qui va avec « einem »." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "ein Dieb, zwei ___",
+          optionen: ["Diebe", "Dieben", "Diebs"], richtig: 0,
+          regel: "der Dieb → die Diebe (pluriel).",
+          uebers: { fr: "Choisis le pluriel de « der Dieb » (le voleur)." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Chemie, Biologie und Physik sind ___.",
+          optionen: ["Wissenschaften", "Wissenschaft", "Wissenschafts"], richtig: 0,
+          regel: "die Wissenschaft → die Wissenschaften (pluriel).",
+          uebers: { fr: "Choisis le pluriel de « die Wissenschaft » (la science)." }
+        },
+        {
+          typ: "mc", stufe: 3,
+          frage: "Ich habe einen Dieb ___.",
+          optionen: ["gesehen", "gesieht", "sehen"], richtig: 0,
+          regel: "sehen → ich habe gesehen. der Dieb → einen Dieb (Akkusativ).",
+          uebers: { fr: "J'ai vu un voleur : choisis le participe passé de « sehen »." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Wir ___ das Spiel um 18 Uhr.",
+          optionen: ["beenden", "beendet", "beende"], richtig: 0,
+          regel: "beenden: ich beende, du beendest, wir beenden.",
+          uebers: { fr: "Conjugue « beenden » (finir) avec « wir »." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Ich ___ mich zu Hause.",
+          optionen: ["entspanne", "entspannst", "entspannt"], richtig: 0,
+          regel: "Wiederholung (02.11.): sich entspannen = se détendre. Ich entspanne mich.",
+          uebers: { fr: "Je me détends à la maison : choisis la bonne forme." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Wir ___ den Berg.",
+          optionen: ["besteigen", "besteigt", "besteige"], richtig: 0,
+          regel: "Wiederholung (02.11.): besteigen = monter, faire l'ascension. Wir besteigen den Berg.",
+          uebers: { fr: "Nous montons sur la montagne : choisis la bonne forme." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Ist der Park weit weg? Nein, er ist ganz ___.",
+          optionen: ["nah", "weit", "laut"], richtig: 0,
+          regel: "Wiederholung (26.10.): weit = loin, nah = proche.",
+          uebers: { fr: "Le parc n'est pas loin, il est tout près : choisis le bon mot." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Heute ___ die Sonne.",
+          optionen: ["scheint", "scheinst", "scheinen"], richtig: 0,
+          regel: "Wiederholung (26.10.): scheinen = briller. Die Sonne scheint.",
+          uebers: { fr: "Aujourd'hui le soleil brille : choisis la bonne forme." }
+        },
+        {
+          typ: "sprechen", stufe: 2,
+          auftrag: "Du bist im Restaurant. Was suchst du aus? Was bestellst du? Sprich 3 Sätze. Nimm dich auf und höre dich an.",
+          hinweis: "Ich suche … aus. / Ich bestelle … / Zum Frühstück esse ich …",
+          uebers: { fr: "Tu es au restaurant. Qu'est-ce que tu choisis ? Qu'est-ce que tu commandes ? Dis 3 phrases. Enregistre-toi et écoute-toi." }
+        }
+      ]
     }
   ]
 };
