@@ -941,6 +941,160 @@ window.HEFT = {
           uebers: { fr: "Une journée avec trop de portable : écris 4–5 phrases." }
         }
       ]
+    },
+    {
+      id: "2026-11-24",
+      titel: "Auto, Richtung, Präpositionen",
+      vokabeln: [
+        { de: "die Drehung", en: "the turn, the rotation", fr: "la rotation, le tour", beispiel: "Das Rad macht eine Drehung." },
+        { de: "sich drehen", en: "to turn (around)", fr: "se tourner", beispiel: "Ich habe mich gedreht." },
+        { de: "das Lenkrad", en: "the steering wheel", fr: "le volant", beispiel: "Wir drehen das Lenkrad in die andere Richtung." },
+        { de: "die Richtung", en: "the direction", fr: "la direction, le sens", beispiel: "Wir fahren in die falsche Richtung." },
+        { de: "der Bildschirm", en: "the screen", fr: "l'écran", beispiel: "Im Auto gibt es einen Bildschirm." },
+        { de: "auswählen", en: "to choose, to select", fr: "choisir, sélectionner", beispiel: "Wir können Musik auswählen." },
+        { de: "die Klimaerwärmung", en: "global warming", fr: "le réchauffement climatique", beispiel: "Die Klimaerwärmung ist ein großes Problem." },
+        { de: "der Knopf (die Knöpfe)", en: "the button", fr: "le bouton", beispiel: "Drück auf den Knopf!" },
+        { de: "das Jahrhundert", en: "the century", fr: "le siècle", beispiel: "Wir leben im 21. Jahrhundert." },
+        { de: "eineinhalb", en: "one and a half", fr: "un et demi", beispiel: "Nach eineinhalb Stunden war ich zu Hause." }
+      ],
+      aufgaben: [
+        {
+          typ: "zuordnen", stufe: 1,
+          paare: [["das Lenkrad", "le volant"], ["der Bildschirm", "l'écran"], ["der Knopf", "le bouton"], ["das Jahrhundert", "le siècle"], ["das Jahrzehnt", "la décennie"]],
+          regel: "Neue Wörter der Stunde.",
+          uebers: { fr: "Relie les mots à leur traduction." }
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Ich habe mich ___. (sich drehen)",
+          antworten: ["gedreht"],
+          regel: "sich drehen – hat sich gedreht (Perfekt mit haben).",
+          uebers: { fr: "Complète avec le participe passé de « drehen »." }
+        },
+        {
+          typ: "satz", stufe: 2,
+          woerter: ["Wir", "drehen", "das", "Lenkrad", "in", "die", "andere", "Richtung."],
+          loesung: "Wir drehen das Lenkrad in die andere Richtung.",
+          regel: "Das Verb steht auf Position 2.",
+          uebers: { fr: "Mets les mots dans le bon ordre." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Ich gehe ___ Arbeit.",
+          optionen: ["zur", "zum", "im"], richtig: 0,
+          regel: "zu + Dativ. zu + der = zur (die Arbeit), zu + dem = zum (der Arzt, das Kino).",
+          uebers: { fr: "Choisis la bonne forme (zu + der = zur)." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "___ 18. Jahrhundert gab es noch keine Autos.",
+          optionen: ["Im", "In", "Am"], richtig: 0,
+          regel: "in + dem = im: im 18. Jahrhundert, im Sommer, im Auto.",
+          uebers: { fr: "Choisis la bonne forme (in + dem = im)." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Ich spaziere mit ___ Bruder.",
+          optionen: ["meinem", "meinen", "mein"], richtig: 0,
+          regel: "mit + Dativ: mit meinem Bruder, mit meiner Schwester.",
+          uebers: { fr: "Choisis la bonne forme (datif)." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Ich mache das für ___.",
+          optionen: ["dich", "dir", "du"], richtig: 0,
+          regel: "für + Akkusativ: für dich, für mich, für meinen Bruder.",
+          uebers: { fr: "Choisis le bon pronom (accusatif)." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Ich danke ___ für die Hilfe.",
+          optionen: ["dir", "dich", "du"], richtig: 0,
+          regel: "jemandem danken: danken + Dativ (dir, ihm, ihr).",
+          uebers: { fr: "Choisis le bon pronom (datif)." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "___ gehst du heute Abend? – Ins Kino.",
+          optionen: ["Wohin", "Wo", "Woher"], richtig: 0,
+          regel: "Wohin? = Bewegung zu einem Ziel (où, avec mouvement). Wo? = ohne Bewegung.",
+          uebers: { fr: "Choisis le bon mot interrogatif." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "___ kommst du? – Aus Belgien.",
+          optionen: ["Woher", "Wohin", "Wo"], richtig: 0,
+          regel: "Woher? = d'où. Antwort mit aus: aus Belgien.",
+          uebers: { fr: "Choisis le bon mot interrogatif." }
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Der Flug dauert ___ Stunden. (1,5)",
+          antworten: ["eineinhalb", "anderthalb"],
+          regel: "1,5 = eineinhalb (oder anderthalb), danach Plural: eineinhalb Stunden, eineinhalb Jahre.",
+          uebers: { fr: "Écris « 1,5 » en lettres." }
+        },
+        {
+          typ: "mc", stufe: 3,
+          frage: "Ich ___ ihr eine Frage.",
+          optionen: ["stelle", "frage", "mache"], richtig: 0,
+          regel: "eine Frage stellen (+ Dativ): Ich stelle ihr eine Frage. Oder kurz: Ich frage sie (+ Akkusativ).",
+          uebers: { fr: "Choisis le bon verbe (« poser une question »)." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Ich war ___ Monat in Belgien.",
+          optionen: ["den ganzen", "der ganze", "dem ganzen"], richtig: 0,
+          regel: "Wiederholung (22.11.): Zeitangaben ohne Präposition im Akkusativ: den ganzen Monat.",
+          uebers: { fr: "Choisis la bonne forme (« tout le mois »)." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Das ist der Bildschirm ___ Computers.",
+          optionen: ["des", "der", "dem"], richtig: 0,
+          regel: "Wiederholung (22.11.): Genitiv maskulin/neutral: des Computers.",
+          uebers: { fr: "Choisis l'article au génitif." }
+        },
+        {
+          typ: "luecke", stufe: 1,
+          text: "Ich kümmere ___ um meine Katze.",
+          antworten: ["mich"],
+          regel: "Wiederholung (15.11.): sich kümmern um ist reflexiv: ich kümmere mich, du kümmerst dich.",
+          uebers: { fr: "Complète avec le pronom réfléchi." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Elon Musk ist sehr ___.",
+          optionen: ["erfolgreich", "Erfolg", "erfolgen"], richtig: 0,
+          regel: "Wiederholung (15.11.): der Erfolg (Nomen) → erfolgreich (Adjektiv).",
+          uebers: { fr: "Choisis le bon mot (« couronné de succès »)." }
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Ich ___ meine Freundin bei ihrem Studium. (unterstützen)",
+          antworten: ["unterstütze"],
+          regel: "Wiederholung (12.11.): jemanden unterstützen (+ Akkusativ): Ich unterstütze sie.",
+          uebers: { fr: "Conjugue « unterstützen » (ich)." }
+        },
+        {
+          typ: "sprechen", stufe: 2,
+          auftrag: "Auto und Klima: Wie oft fährst du Auto? Was machst du im Auto? Was denkst du über die Klimaerwärmung? Sprich 4 Sätze. Nimm dich auf und höre dich an.",
+          hinweis: "Ich fahre jeden Tag … / Am Bildschirm wähle ich Musik aus. / Die Klimaerwärmung ist … / Ich fahre lieber mit …",
+          uebers: { fr: "La voiture et le climat : dis 4 phrases. Enregistre-toi et écoute-toi." }
+        },
+        {
+          typ: "schreiben", stufe: 3,
+          auftrag: "Dein Weg zur Arbeit oder zum Sport: Schreibe 4–5 Sätze.",
+          checkliste: [
+            "Ich habe zur oder zum benutzt.",
+            "Ich habe mit + Dativ benutzt (mit dem Auto, mit meiner Freundin).",
+            "Ich habe eineinhalb oder eine halbe Stunde benutzt.",
+            "Ich habe ein neues Wort benutzt (Lenkrad, Bildschirm, auswählen, Richtung)."
+          ],
+          muster: "Ich fahre jeden Tag mit dem Auto zur Arbeit. Die Fahrt dauert eine halbe Stunde. Im Auto wähle ich am Bildschirm Musik aus. Am Wochenende fahre ich mit meiner Freundin zum Meer. Die Fahrt dauert eineinhalb Stunden.",
+          uebers: { fr: "Ton trajet pour aller au travail ou au sport : écris 4–5 phrases." }
+        }
+      ]
     }
   ]
 };
