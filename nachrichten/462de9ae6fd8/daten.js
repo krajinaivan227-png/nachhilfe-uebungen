@@ -4,6 +4,915 @@ window.NACHRICHTEN = {
  "spiel": false,
  "tage": [
   {
+   "datum": "2026-11-24",
+   "nachrichten": [
+    {
+     "kategorie": "Wirtschaft",
+     "titel": "Nvidia: Der alte Chef kommt zurück",
+     "text": "Jensen Huang hat die Firma Nvidia gegründet. Nvidia baut Computerchips, zum Beispiel für künstliche Intelligenz. Vor etwa zwei Wochen ist Huang nach einem Skandal als Chef zurückgetreten.\n\nAm 17. November hat die Firmenleitung noch gesagt: Huang kommt nicht zurück. Aber am Montag hat Nvidia ihn doch wieder zum Chef gemacht. US-Präsident Donald Trump hat das öffentlich gefordert. Er sagt jetzt, dass er geholfen hat.\n\nViele Mitarbeiter haben Huang mit Jubel begrüßt. Auch die Aktie von Nvidia ist gestiegen. Aber es gibt noch Untersuchungen.",
+     "vokabeln": [
+      {
+       "de": "gründen",
+       "im_text": "gegründet",
+       "erkl": "eine Firma neu starten"
+      },
+      {
+       "de": "zurücktreten",
+       "im_text": "zurückgetreten",
+       "erkl": "seine Stelle freiwillig verlassen"
+      },
+      {
+       "de": "öffentlich",
+       "im_text": "öffentlich",
+       "erkl": "so, dass alle es hören oder sehen können"
+      },
+      {
+       "de": "fordern",
+       "im_text": "gefordert",
+       "erkl": "deutlich sagen, dass man etwas will"
+      },
+      {
+       "de": "der Jubel",
+       "im_text": "Jubel",
+       "erkl": "lautes, frohes Rufen"
+      },
+      {
+       "de": "die Aktie",
+       "im_text": "Aktie",
+       "erkl": "ein kleiner Teil einer Firma; man kann ihn kaufen"
+      },
+      {
+       "de": "die Untersuchung",
+       "im_text": "Untersuchungen",
+       "erkl": "man prüft genau, was passiert ist"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Was baut Nvidia?",
+       "optionen": [
+        "Autos",
+        "Computerchips",
+        "Handys"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Huang ist am Montag zurückgetreten.",
+       "richtig": false,
+       "erkl": "Er ist vor zwei Wochen zurückgetreten. Am Montag ist er zurückgekommen."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die Aktie von Nvidia ist gestiegen.",
+       "richtig": true
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wer hat Nvidia gegründet?",
+         "Jensen Huang"
+        ],
+        [
+         "Wann ist Huang zurückgekommen?",
+         "am Montag"
+        ],
+        [
+         "Wer hat die Rückkehr öffentlich gefordert?",
+         "Donald Trump"
+        ],
+        [
+         "Wie haben die Mitarbeiter reagiert?",
+         "mit Jubel"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Darf ein Chef nach einem Skandal zurückkommen? Warum (nicht)?",
+      "Sollen Politiker bei Firmen mitreden?",
+      "Wärst du lieber Chef oder Mitarbeiter?"
+     ],
+     "uebungen": [
+      {
+       "typ": "auswahl",
+       "titel": "Genitiv",
+       "anweisung": "Wähle den richtigen Artikel.",
+       "regel": "Wiederholung (22.11.): Genitiv – des (m), der (f), des (n), der (Pl.).",
+       "items": [
+        {
+         "text": "Huang ist der Gründer ___ Firma.",
+         "optionen": [
+          "der",
+          "des",
+          "dem"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Das ist die Meinung ___ Präsidenten.",
+         "optionen": [
+          "der",
+          "des",
+          "den"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Der Jubel ___ Mitarbeiter war laut.",
+         "optionen": [
+          "des",
+          "die",
+          "der"
+         ],
+         "richtig": 2
+        }
+       ]
+      },
+      {
+       "typ": "auswahl",
+       "titel": "mit + Dativ",
+       "anweisung": "Wähle den richtigen Artikel.",
+       "regel": "mit + Dativ: dem (m), der (f), dem (n), den (Pl. + n).",
+       "items": [
+        {
+         "text": "Huang spricht mit ___ Mitarbeitern.",
+         "optionen": [
+          "den",
+          "die",
+          "der"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Trump hat mit ___ Firmenleitung gesprochen.",
+         "optionen": [
+          "die",
+          "der",
+          "den"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Viele Computer arbeiten mit ___ Chip von Nvidia.",
+         "optionen": [
+          "ein",
+          "einen",
+          "einem"
+         ],
+         "richtig": 2
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Komparativ",
+       "anweisung": "Bilde den Komparativ.",
+       "items": [
+        {
+         "text": "Die Aktie ist jetzt ___ als letzte Woche. (hoch)",
+         "loesung": [
+          "höher"
+         ]
+        },
+        {
+         "text": "Die Mitarbeiter sind jetzt ___ als vor zwei Wochen. (froh)",
+         "loesung": [
+          "froher"
+         ]
+        },
+        {
+         "text": "Nvidia ist ___ als viele andere Firmen. (groß)",
+         "loesung": [
+          "größer"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Wissenschaft",
+     "titel": "Ariane 6: Der Start ist verschoben",
+     "text": "Die europäische Rakete Ariane 6 sollte am Montag starten. Sie sollte 36 Satelliten von Amazon ins All bringen. Mit diesen Satelliten will Amazon Internet aus dem Weltraum anbieten.\n\nDer Start war in Kourou in Französisch-Guayana geplant. Aber während des Countdowns gab es ein technisches Problem am Boden. Deswegen hat die Firma Arianespace den Countdown gestoppt. Die Rakete und die Satelliten sind sicher.\n\nDer neue Termin ist Dienstag. Es ist der zehnte Flug der Ariane 6.",
+     "vokabeln": [
+      {
+       "de": "die Rakete",
+       "im_text": "Rakete",
+       "erkl": "ein Fahrzeug, das ins All fliegt"
+      },
+      {
+       "de": "der Satellit",
+       "im_text": "Satelliten",
+       "erkl": "ein Gerät, das um die Erde fliegt"
+      },
+      {
+       "de": "der Weltraum",
+       "im_text": "Weltraum",
+       "erkl": "der Raum außerhalb der Erde, mit Sternen und Planeten"
+      },
+      {
+       "de": "anbieten",
+       "im_text": "anbieten",
+       "erkl": "etwas für andere Menschen bereitstellen"
+      },
+      {
+       "de": "der Countdown",
+       "im_text": "Countdown",
+       "erkl": "man zählt rückwärts bis zum Start"
+      },
+      {
+       "de": "stoppen",
+       "im_text": "gestoppt",
+       "erkl": "anhalten, beenden"
+      },
+      {
+       "de": "der Termin",
+       "im_text": "Termin",
+       "erkl": "ein fester Tag und eine feste Zeit"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wie viele Satelliten soll die Rakete ins All bringen?",
+       "optionen": [
+        "6",
+        "36",
+        "100"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die Rakete ist am Montag gestartet.",
+       "richtig": false,
+       "erkl": "Arianespace hat den Countdown gestoppt."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die Rakete ist kaputt.",
+       "richtig": false,
+       "erkl": "Die Rakete und die Satelliten sind sicher."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wo sollte die Rakete starten?",
+         "in Kourou"
+        ],
+        [
+         "Was will Amazon anbieten?",
+         "Internet aus dem Weltraum"
+        ],
+        [
+         "Wann ist der neue Termin?",
+         "am Dienstag"
+        ],
+        [
+         "Wo gab es das Problem?",
+         "am Boden"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Brauchen wir Internet aus dem Weltraum? Wofür?",
+      "Würdest du gern einmal ins All fliegen?",
+      "Sollte Europa mehr Geld für Raumfahrt ausgeben?"
+     ],
+     "uebungen": [
+      {
+       "typ": "auswahl",
+       "titel": "Genitiv",
+       "anweisung": "Wähle den richtigen Artikel.",
+       "items": [
+        {
+         "text": "Der Start ___ Rakete ist verschoben.",
+         "optionen": [
+          "der",
+          "des",
+          "die"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Das ist ein Problem ___ Countdowns.",
+         "optionen": [
+          "der",
+          "des",
+          "dem"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Die Satelliten ___ Firma Amazon sind sicher.",
+         "optionen": [
+          "des",
+          "dem",
+          "der"
+         ],
+         "richtig": 2
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Komparativ",
+       "anweisung": "Bilde den Komparativ.",
+       "items": [
+        {
+         "text": "Ein Satellit fliegt ___ als ein Flugzeug. (hoch)",
+         "loesung": [
+          "höher"
+         ]
+        },
+        {
+         "text": "Eine Rakete ist ___ als ein Flugzeug. (schnell)",
+         "loesung": [
+          "schneller"
+         ]
+        },
+        {
+         "text": "Internet aus dem Weltraum ist manchmal ___ als normales Internet. (langsam)",
+         "loesung": [
+          "langsamer"
+         ]
+        }
+       ]
+      },
+      {
+       "typ": "auswahl",
+       "titel": "gefallen",
+       "anweisung": "Wähle die richtige Form.",
+       "regel": "Was gefällt? Singular → gefällt, Plural → gefallen. Die Person steht im Dativ.",
+       "items": [
+        {
+         "text": "Raketen ___ mir sehr.",
+         "optionen": [
+          "gefällt",
+          "gefallen"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Der Weltraum ___ meinem Sohn.",
+         "optionen": [
+          "gefällt",
+          "gefallen"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "___ dir die Idee von Amazon?",
+         "optionen": [
+          "Gefällt",
+          "Gefallen"
+         ],
+         "richtig": 0
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Politik",
+     "titel": "Belgien: Streit um das Geld",
+     "text": "Belgien hat noch keinen Haushalt für das nächste Jahr. Im Haushalt steht, wie viel Geld der Staat ausgeben darf. Premierminister Bart De Wever will bis 2029 etwa zehn Milliarden Euro sparen. Aber die Parteien in seiner Regierung streiten.\n\nAm Montag gab es wieder ein Treffen, aber keine Einigung. Danach war De Wever beim König. Der König hat gesagt, dass er das schade findet. Die Politiker sollen weiter verhandeln.\n\nJetzt gibt es eine neue Frist: der 31. Dezember. Ohne Einigung ist die Regierung am Ende.",
+     "vokabeln": [
+      {
+       "de": "der Haushalt",
+       "im_text": "Haushalt",
+       "erkl": "der Plan: Wie viel Geld gibt der Staat aus?"
+      },
+      {
+       "de": "sparen",
+       "im_text": "sparen",
+       "erkl": "weniger Geld ausgeben"
+      },
+      {
+       "de": "streiten",
+       "im_text": "streiten",
+       "erkl": "nicht die gleiche Meinung haben und laut diskutieren"
+      },
+      {
+       "de": "die Einigung",
+       "im_text": "Einigung",
+       "erkl": "am Ende sagen alle Ja"
+      },
+      {
+       "de": "der König",
+       "im_text": "König",
+       "erkl": "der Chef von einem Königreich, zum Beispiel in Belgien"
+      },
+      {
+       "de": "verhandeln",
+       "im_text": "verhandeln",
+       "erkl": "lange reden, bis man eine Lösung findet"
+      },
+      {
+       "de": "die Frist",
+       "im_text": "Frist",
+       "erkl": "der letzte Tag für etwas"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wie viel Geld will De Wever sparen?",
+       "optionen": [
+        "eine Milliarde Euro",
+        "zehn Milliarden Euro",
+        "hundert Milliarden Euro"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Am Montag haben die Parteien eine Einigung gefunden.",
+       "richtig": false,
+       "erkl": "Es gab keine Einigung."
+      },
+      {
+       "typ": "rf",
+       "aussage": "De Wever hat mit dem König gesprochen.",
+       "richtig": true
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wer ist Premierminister von Belgien?",
+         "Bart De Wever"
+        ],
+        [
+         "Was hat Belgien noch nicht?",
+         "einen Haushalt"
+        ],
+        [
+         "Was ist die neue Frist?",
+         "der 31. Dezember"
+        ],
+        [
+         "Was passiert ohne Einigung?",
+         "Die Regierung ist am Ende."
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Wo sollte ein Staat sparen und wo nicht?",
+      "Sollen reiche Menschen mehr Steuern zahlen?",
+      "Findest du es gut, dass ein Land einen König hat?"
+     ],
+     "uebungen": [
+      {
+       "typ": "auswahl",
+       "titel": "Genitiv",
+       "anweisung": "Wähle den richtigen Artikel.",
+       "items": [
+        {
+         "text": "Der Haushalt ___ Staates fehlt.",
+         "optionen": [
+          "des",
+          "der"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Das ist die Frist ___ Regierung.",
+         "optionen": [
+          "des",
+          "der"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Der Palast ___ Königs ist in Brüssel.",
+         "optionen": [
+          "der",
+          "des"
+         ],
+         "richtig": 1
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Komparativ",
+       "anweisung": "Bilde den Komparativ.",
+       "items": [
+        {
+         "text": "Die Schulden sind ___ als erlaubt. (hoch)",
+         "loesung": [
+          "höher"
+         ]
+        },
+        {
+         "text": "Die Gespräche dauern ___ als geplant. (lang)",
+         "loesung": [
+          "länger"
+         ]
+        },
+        {
+         "text": "Die Situation ist jetzt ___ als im Oktober. (ernst)",
+         "loesung": [
+          "ernster"
+         ]
+        }
+       ]
+      },
+      {
+       "typ": "auswahl",
+       "titel": "mit + Dativ",
+       "anweisung": "Wähle den richtigen Artikel.",
+       "items": [
+        {
+         "text": "De Wever spricht mit ___ König.",
+         "optionen": [
+          "der",
+          "dem",
+          "den"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Er verhandelt mit ___ Parteien.",
+         "optionen": [
+          "den",
+          "die",
+          "der"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Er trifft sich mit ___ Ministerin.",
+         "optionen": [
+          "die",
+          "dem",
+          "der"
+         ],
+         "richtig": 2
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Reisen",
+     "titel": "Thanksgiving: Millionen Amerikaner reisen",
+     "text": "In den USA ist am Donnerstag Thanksgiving. An diesem Feiertag essen viele Familien zusammen, oft gibt es Truthahn.\n\nViele Menschen fahren deshalb zu ihrer Familie. Der Autoklub AAA glaubt, dass vom 24. bis 30. November etwa 81,5 Millionen Amerikaner reisen. Das sind ein bisschen weniger als letztes Jahr.\n\nDie meisten fahren mit dem Auto: fast 73 Millionen. Etwa 6 Millionen Menschen fliegen. Fliegen ist aber teurer geworden: Ein Flug kostet im Durchschnitt 17 Prozent mehr. Auch das Benzin ist teurer als letztes Jahr.",
+     "vokabeln": [
+      {
+       "de": "der Feiertag",
+       "im_text": "Feiertag",
+       "erkl": "ein Tag, an dem viele nicht arbeiten, zum Beispiel Weihnachten"
+      },
+      {
+       "de": "der Truthahn",
+       "im_text": "Truthahn",
+       "erkl": "ein großer Vogel; man isst ihn zu Thanksgiving"
+      },
+      {
+       "de": "reisen",
+       "im_text": "reisen",
+       "erkl": "an einen anderen Ort fahren oder fliegen"
+      },
+      {
+       "de": "weniger",
+       "im_text": "weniger",
+       "erkl": "nicht so viel"
+      },
+      {
+       "de": "im Durchschnitt",
+       "im_text": "Durchschnitt",
+       "erkl": "normalerweise, wenn man alles zusammenrechnet"
+      },
+      {
+       "de": "das Benzin",
+       "im_text": "Benzin",
+       "erkl": "das braucht ein Auto zum Fahren"
+      },
+      {
+       "de": "teuer",
+       "im_text": "teurer",
+       "erkl": "es kostet viel Geld"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wann ist Thanksgiving?",
+       "optionen": [
+        "am Montag",
+        "am Donnerstag",
+        "am Sonntag"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "mc",
+       "frage": "Wie reisen die meisten Menschen?",
+       "optionen": [
+        "mit dem Zug",
+        "mit dem Flugzeug",
+        "mit dem Auto"
+       ],
+       "richtig": 2
+      },
+      {
+       "typ": "rf",
+       "aussage": "Dieses Jahr reisen mehr Menschen als letztes Jahr.",
+       "richtig": false,
+       "erkl": "Es sind ein bisschen weniger."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Fliegen ist billiger geworden.",
+       "richtig": false,
+       "erkl": "Ein Flug kostet im Durchschnitt 17 Prozent mehr."
+      },
+      {
+       "typ": "offen",
+       "frage": "Was essen viele Familien zu Thanksgiving?",
+       "loesung": "Oft essen sie Truthahn."
+      }
+     ],
+     "diskussion": [
+      "Welcher Feiertag ist für deine Familie besonders wichtig?",
+      "Reist du an Feiertagen lieber mit dem Auto, mit dem Zug oder mit dem Flugzeug?",
+      "Warst du schon einmal in den USA? Was hat dich überrascht?"
+     ],
+     "uebungen": [
+      {
+       "typ": "auswahl",
+       "titel": "mit + Dativ",
+       "anweisung": "Wähle den richtigen Artikel.",
+       "items": [
+        {
+         "text": "Die meisten reisen mit ___ Auto.",
+         "optionen": [
+          "das",
+          "dem",
+          "den"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Etwa 6 Millionen reisen mit ___ Flugzeug.",
+         "optionen": [
+          "dem",
+          "das",
+          "der"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Ich fahre mit ___ Familie.",
+         "optionen": [
+          "die",
+          "den",
+          "der"
+         ],
+         "richtig": 2
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Komparativ",
+       "anweisung": "Bilde den Komparativ.",
+       "regel": "teuer → teurer (ohne -e-).",
+       "items": [
+        {
+         "text": "Fliegen ist ___ als letztes Jahr. (teuer)",
+         "loesung": [
+          "teurer"
+         ]
+        },
+        {
+         "text": "Das Auto ist ___ als das Flugzeug. (beliebt)",
+         "loesung": [
+          "beliebter"
+         ]
+        },
+        {
+         "text": "Dieses Jahr reisen ___ Menschen als letztes Jahr. (wenig)",
+         "loesung": [
+          "weniger"
+         ]
+        }
+       ]
+      },
+      {
+       "typ": "auswahl",
+       "titel": "Genitiv",
+       "anweisung": "Wähle den richtigen Artikel.",
+       "regel": "Wiederholung (22.11.): des (m), der (f), des (n), der (Pl.).",
+       "items": [
+        {
+         "text": "Thanksgiving ist ein Feiertag ___ USA.",
+         "optionen": [
+          "der",
+          "des"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Der Preis ___ Benzins ist hoch.",
+         "optionen": [
+          "der",
+          "des"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Das Essen ___ Familie ist wichtig.",
+         "optionen": [
+          "des",
+          "der"
+         ],
+         "richtig": 1
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Kultur",
+     "titel": "Die Alhambra in Paris",
+     "text": "In Paris beginnt heute eine neue Ausstellung im Institut du monde arabe. Sie heißt „Die Geheimnisse der Alhambra“.\n\nDie Alhambra ist ein berühmter Palast in Granada in Südspanien. Im 14. Jahrhundert haben dort muslimische Sultane gewohnt. Die Ausstellung zeigt, wie der Palast damals ausgesehen hat. Ein wichtiges Stück ist eine Kopie vom berühmten Löwenbrunnen. Man sieht auch viele schöne geometrische Muster.\n\nDie Ausstellung dauert bis zum 16. Mai 2027. Wer nicht nach Spanien reisen kann, kann die Alhambra so ein bisschen in Paris entdecken.",
+     "vokabeln": [
+      {
+       "de": "die Ausstellung",
+       "im_text": "Ausstellung",
+       "erkl": "Bilder oder Dinge, die man in einem Museum zeigt"
+      },
+      {
+       "de": "das Geheimnis",
+       "im_text": "Geheimnisse",
+       "erkl": "etwas, das nicht alle wissen"
+      },
+      {
+       "de": "der Palast",
+       "im_text": "Palast",
+       "erkl": "ein sehr großes, schönes Haus für einen König"
+      },
+      {
+       "de": "das Jahrhundert",
+       "im_text": "Jahrhundert",
+       "erkl": "hundert Jahre"
+      },
+      {
+       "de": "der Brunnen",
+       "im_text": "Löwenbrunnen",
+       "erkl": "aus einem Brunnen kommt Wasser; hier gibt es Figuren von Löwen"
+      },
+      {
+       "de": "das Muster",
+       "im_text": "Muster",
+       "erkl": "Formen, die sich immer wiederholen"
+      },
+      {
+       "de": "entdecken",
+       "im_text": "entdecken",
+       "erkl": "etwas Neues finden und kennenlernen"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wo ist die Alhambra?",
+       "optionen": [
+        "in Paris",
+        "in Granada",
+        "in Madrid"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die Ausstellung dauert bis Dezember.",
+       "richtig": false,
+       "erkl": "Sie dauert bis zum 16. Mai 2027."
+      },
+      {
+       "typ": "rf",
+       "aussage": "In der Ausstellung gibt es eine Kopie vom Löwenbrunnen.",
+       "richtig": true
+      },
+      {
+       "typ": "offen",
+       "frage": "Was zeigt die Ausstellung?",
+       "loesung": "Wie die Alhambra im 14. Jahrhundert ausgesehen hat, zum Beispiel den Löwenbrunnen (als Kopie) und geometrische Muster."
+      }
+     ],
+     "diskussion": [
+      "Welches berühmte Gebäude möchtest du einmal sehen?",
+      "Schaust du dir lieber das Original an, oder reicht dir eine Ausstellung?",
+      "Was hast du auf deinen Reisen schon entdeckt?"
+     ],
+     "uebungen": [
+      {
+       "typ": "auswahl",
+       "titel": "Genitiv",
+       "anweisung": "Wähle den richtigen Artikel.",
+       "items": [
+        {
+         "text": "Das sind die Geheimnisse ___ Alhambra.",
+         "optionen": [
+          "der",
+          "des"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Die Kopie ___ Brunnens ist sehr schön.",
+         "optionen": [
+          "der",
+          "des"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Das Leben ___ Sultane war luxuriös.",
+         "optionen": [
+          "des",
+          "der"
+         ],
+         "richtig": 1
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Komparativ",
+       "anweisung": "Bilde den Komparativ.",
+       "items": [
+        {
+         "text": "Die Alhambra ist ___ als mein Haus. (alt)",
+         "loesung": [
+          "älter"
+         ]
+        },
+        {
+         "text": "Granada ist ___ als Paris. (klein)",
+         "loesung": [
+          "kleiner"
+         ]
+        },
+        {
+         "text": "Im Sommer ist es in Granada ___ als in Lüttich. (warm)",
+         "loesung": [
+          "wärmer"
+         ]
+        }
+       ]
+      },
+      {
+       "typ": "auswahl",
+       "titel": "gefallen",
+       "anweisung": "Wähle die richtige Form.",
+       "regel": "Was gefällt? Singular → gefällt, Plural → gefallen.",
+       "items": [
+        {
+         "text": "Die Muster ___ mir sehr.",
+         "optionen": [
+          "gefällt",
+          "gefallen"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Der Brunnen ___ meinem Freund.",
+         "optionen": [
+          "gefällt",
+          "gefallen"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Wie ___ dir die Ausstellung?",
+         "optionen": [
+          "gefallen",
+          "gefällt"
+         ],
+         "richtig": 1
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
    "datum": "2026-11-23",
    "nachrichten": [
     {

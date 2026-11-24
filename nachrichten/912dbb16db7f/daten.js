@@ -4,6 +4,922 @@ window.NACHRICHTEN = {
  "spiel": false,
  "tage": [
   {
+   "datum": "2026-11-24",
+   "nachrichten": [
+    {
+     "kategorie": "Wirtschaft",
+     "titel": "Nvidia: Der alte Chef kommt zurück",
+     "text": "Jensen Huang hat die Firma Nvidia gegründet. Nvidia baut Computerchips, zum Beispiel für künstliche Intelligenz. Vor etwa zwei Wochen ist Huang nach einem Skandal als Chef zurückgetreten.\n\nAm 17. November hat die Firmenleitung noch gesagt: Huang kommt nicht zurück. Aber am Montag hat Nvidia ihn doch wieder zum Chef gemacht. US-Präsident Donald Trump hat das öffentlich gefordert. Er sagt jetzt, dass er geholfen hat.\n\nViele Mitarbeiter haben Huang mit Jubel begrüßt. Auch die Aktie von Nvidia ist gestiegen. Aber es gibt noch Untersuchungen.",
+     "vokabeln": [
+      {
+       "de": "gründen",
+       "im_text": "gegründet",
+       "erkl": "eine Firma neu starten"
+      },
+      {
+       "de": "zurücktreten",
+       "im_text": "zurückgetreten",
+       "erkl": "seine Stelle freiwillig verlassen"
+      },
+      {
+       "de": "öffentlich",
+       "im_text": "öffentlich",
+       "erkl": "so, dass alle es hören oder sehen können"
+      },
+      {
+       "de": "fordern",
+       "im_text": "gefordert",
+       "erkl": "deutlich sagen, dass man etwas will"
+      },
+      {
+       "de": "der Jubel",
+       "im_text": "Jubel",
+       "erkl": "lautes, frohes Rufen"
+      },
+      {
+       "de": "die Aktie",
+       "im_text": "Aktie",
+       "erkl": "ein kleiner Teil einer Firma; man kann ihn kaufen"
+      },
+      {
+       "de": "die Untersuchung",
+       "im_text": "Untersuchungen",
+       "erkl": "man prüft genau, was passiert ist"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Was baut Nvidia?",
+       "optionen": [
+        "Autos",
+        "Computerchips",
+        "Handys"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Huang ist am Montag zurückgetreten.",
+       "richtig": false,
+       "erkl": "Er ist vor zwei Wochen zurückgetreten. Am Montag ist er zurückgekommen."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die Aktie von Nvidia ist gestiegen.",
+       "richtig": true
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wer hat Nvidia gegründet?",
+         "Jensen Huang"
+        ],
+        [
+         "Wann ist Huang zurückgekommen?",
+         "am Montag"
+        ],
+        [
+         "Wer hat die Rückkehr öffentlich gefordert?",
+         "Donald Trump"
+        ],
+        [
+         "Wie haben die Mitarbeiter reagiert?",
+         "mit Jubel"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Darf ein Chef nach einem Skandal zurückkommen? Warum (nicht)?",
+      "Sollen Politiker bei Firmen mitreden?",
+      "Wärst du lieber Chef oder Mitarbeiter?"
+     ],
+     "uebungen": [
+      {
+       "typ": "auswahl",
+       "titel": "weil oder deswegen?",
+       "anweisung": "Wähle das richtige Wort.",
+       "regel": "weil → Verb am Ende. deswegen → Verb auf Position 2.",
+       "items": [
+        {
+         "text": "Huang ist zurückgetreten, ___ es einen Skandal gab.",
+         "optionen": [
+          "weil",
+          "deswegen"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Es gab einen Skandal, ___ ist Huang zurückgetreten.",
+         "optionen": [
+          "weil",
+          "deswegen"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Die Mitarbeiter jubeln, ___ ihr Chef zurück ist.",
+         "optionen": [
+          "deswegen",
+          "weil"
+         ],
+         "richtig": 1
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "werden",
+       "anweisung": "Ergänze die richtige Form von werden.",
+       "regel": "Wiederholung (15.11.): ich werde, du wirst, er wird, wir werden, ihr werdet, sie werden.",
+       "items": [
+        {
+         "text": "Huang ___ wieder Chef.",
+         "loesung": [
+          "wird"
+         ]
+        },
+        {
+         "text": "Die Mitarbeiter ___ froh.",
+         "loesung": [
+          "werden"
+         ]
+        },
+        {
+         "text": "Ich ___ vielleicht auch einmal Chef.",
+         "loesung": [
+          "werde"
+         ]
+        },
+        {
+         "text": "Du ___ bestimmt reich.",
+         "loesung": [
+          "wirst"
+         ]
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Perfekt: haben oder sein?",
+       "anweisung": "Ergänze hat oder ist.",
+       "regel": "Bewegung von A nach B (gehen, fahren, fliegen) und Veränderung (werden, steigen) → sein.",
+       "items": [
+        {
+         "text": "Huang ___ Nvidia gegründet.",
+         "loesung": [
+          "hat"
+         ]
+        },
+        {
+         "text": "Er ___ vor zwei Wochen zurückgetreten.",
+         "loesung": [
+          "ist"
+         ]
+        },
+        {
+         "text": "Die Aktie ___ gestiegen.",
+         "loesung": [
+          "ist"
+         ]
+        },
+        {
+         "text": "Trump ___ das öffentlich gefordert.",
+         "loesung": [
+          "hat"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Wissenschaft",
+     "titel": "Ariane 6: Der Start ist verschoben",
+     "text": "Die europäische Rakete Ariane 6 sollte am Montag starten. Sie sollte 36 Satelliten von Amazon ins All bringen. Mit diesen Satelliten will Amazon Internet aus dem Weltraum anbieten.\n\nDer Start war in Kourou in Französisch-Guayana geplant. Aber während des Countdowns gab es ein technisches Problem am Boden. Deswegen hat die Firma Arianespace den Countdown gestoppt. Die Rakete und die Satelliten sind sicher.\n\nDer neue Termin ist Dienstag. Es ist der zehnte Flug der Ariane 6.",
+     "vokabeln": [
+      {
+       "de": "die Rakete",
+       "im_text": "Rakete",
+       "erkl": "ein Fahrzeug, das ins All fliegt"
+      },
+      {
+       "de": "der Satellit",
+       "im_text": "Satelliten",
+       "erkl": "ein Gerät, das um die Erde fliegt"
+      },
+      {
+       "de": "der Weltraum",
+       "im_text": "Weltraum",
+       "erkl": "der Raum außerhalb der Erde, mit Sternen und Planeten"
+      },
+      {
+       "de": "anbieten",
+       "im_text": "anbieten",
+       "erkl": "etwas für andere Menschen bereitstellen"
+      },
+      {
+       "de": "der Countdown",
+       "im_text": "Countdown",
+       "erkl": "man zählt rückwärts bis zum Start"
+      },
+      {
+       "de": "stoppen",
+       "im_text": "gestoppt",
+       "erkl": "anhalten, beenden"
+      },
+      {
+       "de": "der Termin",
+       "im_text": "Termin",
+       "erkl": "ein fester Tag und eine feste Zeit"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wie viele Satelliten soll die Rakete ins All bringen?",
+       "optionen": [
+        "6",
+        "36",
+        "100"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die Rakete ist am Montag gestartet.",
+       "richtig": false,
+       "erkl": "Arianespace hat den Countdown gestoppt."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die Rakete ist kaputt.",
+       "richtig": false,
+       "erkl": "Die Rakete und die Satelliten sind sicher."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wo sollte die Rakete starten?",
+         "in Kourou"
+        ],
+        [
+         "Was will Amazon anbieten?",
+         "Internet aus dem Weltraum"
+        ],
+        [
+         "Wann ist der neue Termin?",
+         "am Dienstag"
+        ],
+        [
+         "Wo gab es das Problem?",
+         "am Boden"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Brauchen wir Internet aus dem Weltraum? Wofür?",
+      "Würdest du gern einmal ins All fliegen?",
+      "Sollte Europa mehr Geld für Raumfahrt ausgeben?"
+     ],
+     "uebungen": [
+      {
+       "typ": "eingabe",
+       "titel": "Satzbau nach deswegen",
+       "anweisung": "Ergänze das Verb.",
+       "regel": "Wiederholung (15.11.): deswegen + Verb auf Position 2.",
+       "items": [
+        {
+         "text": "Es gab ein Problem. Deswegen ___ Arianespace den Countdown gestoppt. (haben)",
+         "loesung": [
+          "hat"
+         ]
+        },
+        {
+         "text": "Die Rakete ist sicher. Deswegen ___ sie am Dienstag starten. (können)",
+         "loesung": [
+          "kann"
+         ]
+        },
+        {
+         "text": "Amazon will Internet anbieten. Deswegen ___ es Satelliten. (brauchen)",
+         "loesung": [
+          "braucht"
+         ]
+        }
+       ]
+      },
+      {
+       "typ": "fehler",
+       "titel": "Satzbau mit weil",
+       "anweisung": "Ein Wort steht an der falschen Stelle.",
+       "items": [
+        {
+         "woerter": [
+          "Der",
+          "Start",
+          "ist",
+          "später,",
+          "weil",
+          "es",
+          "gab",
+          "ein",
+          "Problem."
+         ],
+         "fehler": 6,
+         "korrektur": "…, weil es ein Problem gab.",
+         "erkl": "Nach weil steht das Verb am Ende."
+        },
+        {
+         "woerter": [
+          "Ich",
+          "schaue",
+          "den",
+          "Start,",
+          "weil",
+          "Raketen",
+          "sind",
+          "spannend."
+         ],
+         "fehler": 6,
+         "korrektur": "…, weil Raketen spannend sind.",
+         "erkl": "Nach weil steht das Verb am Ende."
+        }
+       ]
+      },
+      {
+       "typ": "zuordnen",
+       "titel": "Was passt zusammen?",
+       "anweisung": "Finde die Paare.",
+       "paare": [
+        [
+         "der Weltraum",
+         "das All"
+        ],
+        [
+         "der Termin",
+         "ein fester Tag und eine feste Zeit"
+        ],
+        [
+         "stoppen",
+         "anhalten"
+        ],
+        [
+         "die Rakete",
+         "fliegt ins All"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Wirtschaft",
+     "titel": "Paketsteuer: Kritik aus Tirol",
+     "text": "In Österreich gibt es seit 1. Oktober eine neue Steuer: die Paketsteuer. Für jedes Paket aus dem Onlinehandel müssen die Händler zwei Euro zahlen. So bekommt der Staat mehr Geld.\n\nDie Wirtschaftskammer in Tirol ist dagegen. Sie sagt, dass die Steuer schlecht für den Handel ist. Viele kleine Geschäfte verkaufen ihre Waren über große Internet-Plattformen. Deswegen müssen auch sie die Steuer zahlen.\n\nDie Kammer glaubt, dass am Ende die Kunden mehr zahlen. Gerade vor Weihnachten bestellen viele Menschen Geschenke im Internet.",
+     "vokabeln": [
+      {
+       "de": "die Steuer",
+       "im_text": "Steuer",
+       "erkl": "Geld, das man an den Staat zahlen muss"
+      },
+      {
+       "de": "das Paket",
+       "im_text": "Paket",
+       "erkl": "eine Schachtel, die die Post bringt"
+      },
+      {
+       "de": "der Händler",
+       "im_text": "Händler",
+       "erkl": "eine Person oder Firma, die Waren verkauft"
+      },
+      {
+       "de": "dagegen sein",
+       "im_text": "dagegen",
+       "erkl": "etwas nicht gut finden und nicht wollen"
+      },
+      {
+       "de": "die Ware",
+       "im_text": "Waren",
+       "erkl": "Dinge, die man kaufen kann"
+      },
+      {
+       "de": "der Kunde",
+       "im_text": "Kunden",
+       "erkl": "eine Person, die etwas kauft"
+      },
+      {
+       "de": "bestellen",
+       "im_text": "bestellen",
+       "erkl": "sagen oder klicken, dass man etwas kaufen will"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wie viel kostet die Steuer pro Paket?",
+       "optionen": [
+        "einen Euro",
+        "zwei Euro",
+        "fünf Euro"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die Paketsteuer gibt es seit Jänner.",
+       "richtig": false,
+       "erkl": "Es gibt sie seit 1. Oktober."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die Wirtschaftskammer Tirol findet die Steuer gut.",
+       "richtig": false,
+       "erkl": "Sie ist dagegen."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wer muss die Steuer zahlen?",
+         "die Händler"
+        ],
+        [
+         "Wer ist dagegen?",
+         "die Wirtschaftskammer Tirol"
+        ],
+        [
+         "Wer zahlt am Ende vielleicht mehr?",
+         "die Kunden"
+        ],
+        [
+         "Wann bestellen viele Menschen Geschenke?",
+         "vor Weihnachten"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Bestellst du oft im Internet, oder kaufst du lieber im Geschäft?",
+      "Ist eine Steuer auf Pakete fair? Warum (nicht)?",
+      "Wofür soll der Staat das Geld ausgeben?"
+     ],
+     "uebungen": [
+      {
+       "typ": "auswahl",
+       "titel": "weil oder deswegen?",
+       "anweisung": "Wähle das richtige Wort.",
+       "items": [
+        {
+         "text": "Viele Händler verkaufen online, ___ müssen sie die Steuer zahlen.",
+         "optionen": [
+          "weil",
+          "deswegen"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Die Kammer ist dagegen, ___ die Steuer schlecht für den Handel ist.",
+         "optionen": [
+          "weil",
+          "deswegen"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Ich bestelle nicht online, ___ ich lieber ins Geschäft gehe.",
+         "optionen": [
+          "deswegen",
+          "weil"
+         ],
+         "richtig": 1
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Wörter aus der Stunde",
+       "anweisung": "Ergänze das Wort.",
+       "regel": "Wiederholung (15.11.): das Geschäft, beschäftigt, bekommen.",
+       "items": [
+        {
+         "text": "Media Markt hat viele ___ in Wien. (Läden)",
+         "loesung": [
+          "Geschäfte"
+         ]
+        },
+        {
+         "text": "Vor Weihnachten hat der Händler viel zu tun. Er ist sehr ___.",
+         "loesung": [
+          "beschäftigt"
+         ]
+        },
+        {
+         "text": "Ich ___ heute ein Paket von der Post. (bekommen)",
+         "loesung": [
+          "bekomme"
+         ]
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "werden",
+       "anweisung": "Ergänze die richtige Form von werden.",
+       "items": [
+        {
+         "text": "Die Pakete ___ teurer.",
+         "loesung": [
+          "werden"
+         ]
+        },
+        {
+         "text": "Ich glaube, die Steuer ___ bleiben.",
+         "loesung": [
+          "wird"
+         ]
+        },
+        {
+         "text": "Wir ___ weniger online bestellen.",
+         "loesung": [
+          "werden"
+         ]
+        },
+        {
+         "text": "___ du die Steuer bezahlen?",
+         "loesung": [
+          "Wirst"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Reisen",
+     "titel": "Thanksgiving: Millionen Amerikaner reisen",
+     "text": "In den USA ist am Donnerstag Thanksgiving. An diesem Feiertag essen viele Familien zusammen, oft gibt es Truthahn.\n\nViele Menschen fahren deshalb zu ihrer Familie. Der Autoklub AAA glaubt, dass vom 24. bis 30. November etwa 81,5 Millionen Amerikaner reisen. Das sind ein bisschen weniger als letztes Jahr.\n\nDie meisten fahren mit dem Auto: fast 73 Millionen. Etwa 6 Millionen Menschen fliegen. Fliegen ist aber teurer geworden: Ein Flug kostet im Durchschnitt 17 Prozent mehr. Auch das Benzin ist teurer als letztes Jahr.",
+     "vokabeln": [
+      {
+       "de": "der Feiertag",
+       "im_text": "Feiertag",
+       "erkl": "ein Tag, an dem viele nicht arbeiten, zum Beispiel Weihnachten"
+      },
+      {
+       "de": "der Truthahn",
+       "im_text": "Truthahn",
+       "erkl": "ein großer Vogel; man isst ihn zu Thanksgiving"
+      },
+      {
+       "de": "reisen",
+       "im_text": "reisen",
+       "erkl": "an einen anderen Ort fahren oder fliegen"
+      },
+      {
+       "de": "weniger",
+       "im_text": "weniger",
+       "erkl": "nicht so viel"
+      },
+      {
+       "de": "im Durchschnitt",
+       "im_text": "Durchschnitt",
+       "erkl": "normalerweise, wenn man alles zusammenrechnet"
+      },
+      {
+       "de": "das Benzin",
+       "im_text": "Benzin",
+       "erkl": "das braucht ein Auto zum Fahren"
+      },
+      {
+       "de": "teuer",
+       "im_text": "teurer",
+       "erkl": "es kostet viel Geld"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wann ist Thanksgiving?",
+       "optionen": [
+        "am Montag",
+        "am Donnerstag",
+        "am Sonntag"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "mc",
+       "frage": "Wie reisen die meisten Menschen?",
+       "optionen": [
+        "mit dem Zug",
+        "mit dem Flugzeug",
+        "mit dem Auto"
+       ],
+       "richtig": 2
+      },
+      {
+       "typ": "rf",
+       "aussage": "Dieses Jahr reisen mehr Menschen als letztes Jahr.",
+       "richtig": false,
+       "erkl": "Es sind ein bisschen weniger."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Fliegen ist billiger geworden.",
+       "richtig": false,
+       "erkl": "Ein Flug kostet im Durchschnitt 17 Prozent mehr."
+      },
+      {
+       "typ": "offen",
+       "frage": "Was essen viele Familien zu Thanksgiving?",
+       "loesung": "Oft essen sie Truthahn."
+      }
+     ],
+     "diskussion": [
+      "Welcher Feiertag ist für deine Familie besonders wichtig?",
+      "Reist du an Feiertagen lieber mit dem Auto, mit dem Zug oder mit dem Flugzeug?",
+      "Warst du schon einmal in den USA? Was hat dich überrascht?"
+     ],
+     "uebungen": [
+      {
+       "typ": "auswahl",
+       "titel": "weil oder deswegen?",
+       "anweisung": "Wähle das richtige Wort.",
+       "items": [
+        {
+         "text": "Fliegen ist teuer, ___ fahren viele mit dem Auto.",
+         "optionen": [
+          "weil",
+          "deswegen"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Viele fahren zur Familie, ___ Thanksgiving ist.",
+         "optionen": [
+          "weil",
+          "deswegen"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Benzin ist teurer, ___ ist die Reise teurer.",
+         "optionen": [
+          "weil",
+          "deswegen"
+         ],
+         "richtig": 1
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Perfekt: haben oder sein?",
+       "anweisung": "Bilde das Partizip.",
+       "regel": "Bewegung von A nach B (gehen, fahren, fliegen) und Veränderung (werden, steigen) → sein.",
+       "items": [
+        {
+         "text": "Fliegen ist teurer ___. (werden)",
+         "loesung": [
+          "geworden"
+         ]
+        },
+        {
+         "text": "Letztes Jahr sind mehr Menschen ___. (reisen)",
+         "loesung": [
+          "gereist"
+         ]
+        },
+        {
+         "text": "Wir haben Truthahn ___. (essen)",
+         "loesung": [
+          "gegessen"
+         ]
+        },
+        {
+         "text": "Ich bin nach New York ___. (fliegen)",
+         "loesung": [
+          "geflogen"
+         ]
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "werden",
+       "anweisung": "Ergänze die richtige Form von werden.",
+       "items": [
+        {
+         "text": "Die Straßen ___ am Mittwoch sehr voll.",
+         "loesung": [
+          "werden"
+         ]
+        },
+        {
+         "text": "Ich ___ einmal nach Amerika reisen.",
+         "loesung": [
+          "werde"
+         ]
+        },
+        {
+         "text": "Fliegen ___ immer teurer.",
+         "loesung": [
+          "wird"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Politik",
+     "titel": "Belgien: Streit um das Geld",
+     "text": "Belgien hat noch keinen Haushalt für das nächste Jahr. Im Haushalt steht, wie viel Geld der Staat ausgeben darf. Premierminister Bart De Wever will bis 2029 etwa zehn Milliarden Euro sparen. Aber die Parteien in seiner Regierung streiten.\n\nAm Montag gab es wieder ein Treffen, aber keine Einigung. Danach war De Wever beim König. Der König hat gesagt, dass er das schade findet. Die Politiker sollen weiter verhandeln.\n\nJetzt gibt es eine neue Frist: der 31. Dezember. Ohne Einigung ist die Regierung am Ende.",
+     "vokabeln": [
+      {
+       "de": "der Haushalt",
+       "im_text": "Haushalt",
+       "erkl": "der Plan: Wie viel Geld gibt der Staat aus?"
+      },
+      {
+       "de": "sparen",
+       "im_text": "sparen",
+       "erkl": "weniger Geld ausgeben"
+      },
+      {
+       "de": "streiten",
+       "im_text": "streiten",
+       "erkl": "nicht die gleiche Meinung haben und laut diskutieren"
+      },
+      {
+       "de": "die Einigung",
+       "im_text": "Einigung",
+       "erkl": "am Ende sagen alle Ja"
+      },
+      {
+       "de": "der König",
+       "im_text": "König",
+       "erkl": "der Chef von einem Königreich, zum Beispiel in Belgien"
+      },
+      {
+       "de": "verhandeln",
+       "im_text": "verhandeln",
+       "erkl": "lange reden, bis man eine Lösung findet"
+      },
+      {
+       "de": "die Frist",
+       "im_text": "Frist",
+       "erkl": "der letzte Tag für etwas"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wie viel Geld will De Wever sparen?",
+       "optionen": [
+        "eine Milliarde Euro",
+        "zehn Milliarden Euro",
+        "hundert Milliarden Euro"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Am Montag haben die Parteien eine Einigung gefunden.",
+       "richtig": false,
+       "erkl": "Es gab keine Einigung."
+      },
+      {
+       "typ": "rf",
+       "aussage": "De Wever hat mit dem König gesprochen.",
+       "richtig": true
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wer ist Premierminister von Belgien?",
+         "Bart De Wever"
+        ],
+        [
+         "Was hat Belgien noch nicht?",
+         "einen Haushalt"
+        ],
+        [
+         "Was ist die neue Frist?",
+         "der 31. Dezember"
+        ],
+        [
+         "Was passiert ohne Einigung?",
+         "Die Regierung ist am Ende."
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Wo sollte ein Staat sparen und wo nicht?",
+      "Sollen reiche Menschen mehr Steuern zahlen?",
+      "Findest du es gut, dass ein Land einen König hat?"
+     ],
+     "uebungen": [
+      {
+       "typ": "fehler",
+       "titel": "Satzbau mit weil",
+       "anweisung": "Ein Wort steht an der falschen Stelle.",
+       "items": [
+        {
+         "woerter": [
+          "Die",
+          "Parteien",
+          "streiten,",
+          "weil",
+          "sie",
+          "haben",
+          "andere",
+          "Ideen."
+         ],
+         "fehler": 5,
+         "korrektur": "…, weil sie andere Ideen haben.",
+         "erkl": "Nach weil steht das Verb am Ende."
+        },
+        {
+         "woerter": [
+          "Belgien",
+          "muss",
+          "sparen,",
+          "weil",
+          "es",
+          "hat",
+          "zu",
+          "viele",
+          "Schulden."
+         ],
+         "fehler": 5,
+         "korrektur": "…, weil es zu viele Schulden hat.",
+         "erkl": "Nach weil steht das Verb am Ende."
+        }
+       ]
+      },
+      {
+       "typ": "auswahl",
+       "titel": "weil oder deswegen?",
+       "anweisung": "Wähle das richtige Wort.",
+       "items": [
+        {
+         "text": "Es gibt keine Einigung, ___ war De Wever beim König.",
+         "optionen": [
+          "weil",
+          "deswegen"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Die Regierung ist in Gefahr, ___ es keinen Haushalt gibt.",
+         "optionen": [
+          "deswegen",
+          "weil"
+         ],
+         "richtig": 1
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Perfekt",
+       "anweisung": "Bilde das Partizip.",
+       "items": [
+        {
+         "text": "Die Parteien haben lange ___. (streiten)",
+         "loesung": [
+          "gestritten"
+         ]
+        },
+        {
+         "text": "De Wever ist zum König ___. (gehen)",
+         "loesung": [
+          "gegangen"
+         ]
+        },
+        {
+         "text": "Der König hat ___, dass er das schade findet. (sagen)",
+         "loesung": [
+          "gesagt"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
    "datum": "2026-11-23",
    "nachrichten": [
     {

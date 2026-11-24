@@ -4,6 +4,1062 @@ window.NACHRICHTEN = {
  "spiel": false,
  "tage": [
   {
+   "datum": "2026-11-24",
+   "nachrichten": [
+    {
+     "kategorie": "Wirtschaft",
+     "titel": "Überraschende Rückkehr: Jensen Huang führt wieder Nvidia",
+     "text": "Jensen Huang, der Gründer des Chipherstellers Nvidia, ist wieder Chef seines Unternehmens. Nvidia stellt Chips her, die vor allem für künstliche Intelligenz gebraucht werden. Das hat Nvidia am Montag bekannt gegeben. Huang war erst vor etwa zwei Wochen nach einem Skandal zurückgetreten.\n\nDie Rückkehr ist eine überraschende Wendung. Noch am 17. November hatte der Vorsitzende des Verwaltungsrats erklärt, man wolle Huang nicht zurückholen. Gleichzeitig drängte US-Präsident Donald Trump öffentlich auf seine Rückkehr. Der Verwaltungsrat erklärte nun, er habe auch Hinweise aus der US-Regierung berücksichtigt.\n\nViele Mitarbeiter begrüßten Huang mit Jubel, und auch die Aktie stieg deutlich. Ganz vorbei ist die Sache aber nicht: Es laufen noch Untersuchungen, unter anderem im US-Kongress.",
+     "vokabeln": [
+      {
+       "de": "der Gründer",
+       "im_text": "Gründer",
+       "erkl": "die Person, die eine Firma gestartet hat"
+      },
+      {
+       "de": "zurücktreten",
+       "im_text": "zurückgetreten",
+       "erkl": "freiwillig sein Amt abgeben"
+      },
+      {
+       "de": "die Wendung",
+       "im_text": "Wendung",
+       "erkl": "eine plötzliche Änderung in einer Geschichte"
+      },
+      {
+       "de": "der Verwaltungsrat",
+       "im_text": "Verwaltungsrats",
+       "erkl": "eine Gruppe, die die Leitung einer Firma kontrolliert"
+      },
+      {
+       "de": "auf etwas drängen",
+       "im_text": "drängte",
+       "erkl": "stark fordern, dass etwas passiert"
+      },
+      {
+       "de": "berücksichtigen",
+       "im_text": "berücksichtigt",
+       "erkl": "bei einer Entscheidung an etwas denken"
+      },
+      {
+       "de": "die Untersuchung",
+       "im_text": "Untersuchungen",
+       "erkl": "eine genaue Prüfung, was passiert ist"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wofür braucht man die Chips von Nvidia vor allem?",
+       "optionen": [
+        "für Autos",
+        "für künstliche Intelligenz",
+        "für Waschmaschinen"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Am 17. November wollte der Verwaltungsrat Huang zurückholen.",
+       "richtig": false,
+       "erkl": "Er sagte, man wolle ihn nicht zurückholen."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die Aktie ist nach der Nachricht gestiegen.",
+       "richtig": true
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wann wurde die Rückkehr bekannt gegeben?",
+         "am Montag"
+        ],
+        [
+         "Wer drängte öffentlich auf die Rückkehr?",
+         "Donald Trump"
+        ],
+        [
+         "Wie reagierten viele Mitarbeiter?",
+         "mit Jubel"
+        ],
+        [
+         "Wo laufen unter anderem Untersuchungen?",
+         "im US-Kongress"
+        ]
+       ]
+      },
+      {
+       "typ": "offen",
+       "frage": "Warum ist die Rückkehr eine überraschende Wendung?",
+       "loesung": "Weil der Verwaltungsrat noch am 17. November gesagt hatte, dass er Huang nicht zurückholen will."
+      }
+     ],
+     "diskussion": [
+      "Darf ein Chef nach einem Skandal zurückkommen, wenn er erfolgreich ist?",
+      "Wie viel Einfluss sollte die Politik auf große Firmen haben?",
+      "Was macht für dich einen guten Chef aus?"
+     ],
+     "uebungen": [
+      {
+       "typ": "eingabe",
+       "titel": "Perfekt: haben oder sein?",
+       "anweisung": "Ergänze die richtige Form von haben oder sein.",
+       "regel": "Bewegung von A nach B (gehen, fahren, fliegen) und Veränderung (werden, steigen) → sein.",
+       "items": [
+        {
+         "text": "Huang ___ vor zwei Wochen zurückgetreten.",
+         "loesung": [
+          "ist"
+         ]
+        },
+        {
+         "text": "Der Verwaltungsrat ___ seine Meinung geändert.",
+         "loesung": [
+          "hat"
+         ]
+        },
+        {
+         "text": "Huang ___ zu Nvidia zurückgekehrt.",
+         "loesung": [
+          "ist"
+         ]
+        },
+        {
+         "text": "Die Aktie ___ deutlich gestiegen.",
+         "loesung": [
+          "ist"
+         ]
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Verb → Nomen",
+       "anweisung": "Bilde das Nomen mit -ung.",
+       "regel": "Nomen auf -ung sind immer feminin (die).",
+       "items": [
+        {
+         "text": "untersuchen → die ___",
+         "loesung": [
+          "Untersuchung"
+         ]
+        },
+        {
+         "text": "wenden → die ___",
+         "loesung": [
+          "Wendung"
+         ]
+        },
+        {
+         "text": "entscheiden → die ___",
+         "loesung": [
+          "Entscheidung"
+         ]
+        },
+        {
+         "text": "erklären → die ___",
+         "loesung": [
+          "Erklärung"
+         ]
+        }
+       ]
+      },
+      {
+       "typ": "fehler",
+       "titel": "Wortstellung im Nebensatz",
+       "anweisung": "Ein Wort steht an der falschen Stelle.",
+       "items": [
+        {
+         "woerter": [
+          "Viele",
+          "glauben,",
+          "dass",
+          "Trump",
+          "hat",
+          "geholfen."
+         ],
+         "fehler": 4,
+         "korrektur": "…, dass Trump geholfen hat.",
+         "erkl": "Im dass-Satz steht das konjugierte Verb am Ende."
+        },
+        {
+         "woerter": [
+          "Huang",
+          "sagte,",
+          "dass",
+          "er",
+          "würde",
+          "gern",
+          "zurückkommen."
+         ],
+         "fehler": 4,
+         "korrektur": "…, dass er gern zurückkommen würde.",
+         "erkl": "Im dass-Satz steht das konjugierte Verb am Ende."
+        }
+       ]
+      },
+      {
+       "typ": "auswahl",
+       "titel": "Trennbare Verben im Perfekt",
+       "anweisung": "Wähle das richtige Partizip.",
+       "regel": "Präfix + ge + Verb: zurück-ge-kommen.",
+       "items": [
+        {
+         "text": "Huang ist ___. (zurückkommen)",
+         "optionen": [
+          "zurückgekommen",
+          "gezurückkommt",
+          "zurückkommt"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Nvidia hat die Nachricht ___. (bekannt geben)",
+         "optionen": [
+          "gebekannt geben",
+          "bekannt gegeben",
+          "bekanntgegebt"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Huang hat sein Amt ___. (niederlegen)",
+         "optionen": [
+          "niedergelegt",
+          "geniederlegt",
+          "niederlegt"
+         ],
+         "richtig": 0
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Wissenschaft",
+     "titel": "Ariane 6: Start mit Amazon-Satelliten verschoben",
+     "text": "Eigentlich sollte die europäische Trägerrakete Ariane 6 am Montag vom Weltraumbahnhof Kourou in Französisch-Guayana abheben. An Bord: 36 Satelliten für Amazon Leo, ein Netz, mit dem Amazon Internet aus dem All anbieten will. Doch während des Countdowns trat ein technisches Problem an den Bodenanlagen auf. Arianespace brach den Countdown daraufhin ab.\n\nLaut dem Unternehmen sind Rakete und Satelliten in einem stabilen und sicheren Zustand. Der neue Starttermin ist Dienstag. Etwa zwei Stunden nach dem Start sollen alle Satelliten ausgesetzt sein.\n\nFür Amazon ist der Flug wichtig: Erst am 15. November waren bei einem Fehlstart einer amerikanischen Vulcan-Rakete 40 Satelliten des Konzerns verloren gegangen.",
+     "vokabeln": [
+      {
+       "de": "die Trägerrakete",
+       "im_text": "Trägerrakete",
+       "erkl": "eine Rakete, die Satelliten ins All bringt"
+      },
+      {
+       "de": "abheben",
+       "im_text": "abheben",
+       "erkl": "vom Boden starten und in die Luft fliegen"
+      },
+      {
+       "de": "an Bord",
+       "im_text": "Bord",
+       "erkl": "im Flugzeug, im Schiff oder in der Rakete"
+      },
+      {
+       "de": "auftreten",
+       "im_text": "trat",
+       "erkl": "plötzlich da sein, passieren"
+      },
+      {
+       "de": "abbrechen",
+       "im_text": "brach",
+       "erkl": "etwas vor dem Ende stoppen"
+      },
+      {
+       "de": "der Zustand",
+       "im_text": "Zustand",
+       "erkl": "wie es jemandem oder etwas gerade geht"
+      },
+      {
+       "de": "verloren gehen",
+       "im_text": "verloren",
+       "erkl": "weg sein und nicht wiederkommen"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Warum wurde der Countdown abgebrochen?",
+       "optionen": [
+        "wegen schlechten Wetters",
+        "wegen eines Problems an den Bodenanlagen",
+        "wegen eines Problems an den Satelliten"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die Satelliten sind beschädigt.",
+       "richtig": false,
+       "erkl": "Rakete und Satelliten sind in einem stabilen und sicheren Zustand."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Bei einem Fehlstart am 15. November hat Amazon 40 Satelliten verloren.",
+       "richtig": true
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Von wo soll die Rakete starten?",
+         "von Kourou in Französisch-Guayana"
+        ],
+        [
+         "Was will Amazon anbieten?",
+         "Internet aus dem All"
+        ],
+        [
+         "Wann ist der neue Starttermin?",
+         "am Dienstag"
+        ],
+        [
+         "Wann sollen alle Satelliten ausgesetzt sein?",
+         "etwa zwei Stunden nach dem Start"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Sollte Europa eigene Raketen haben, oder reicht es, Raketen aus den USA zu nutzen?",
+      "Was hältst du davon, dass private Firmen wie Amazon das All nutzen?",
+      "Würdest du Internet über Satelliten nutzen?"
+     ],
+     "uebungen": [
+      {
+       "typ": "auswahl",
+       "titel": "Präpositionen und Fälle",
+       "anweisung": "Wähle den richtigen Artikel.",
+       "regel": "von, aus → Dativ; während → Genitiv; an (wo?) → Dativ.",
+       "items": [
+        {
+         "text": "Die Rakete startet von ___ Weltraumbahnhof Kourou.",
+         "optionen": [
+          "dem",
+          "den",
+          "des"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Während ___ Countdowns trat ein Problem auf.",
+         "optionen": [
+          "dem",
+          "des",
+          "den"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Das Problem trat an ___ Bodenanlagen auf.",
+         "optionen": [
+          "die",
+          "der",
+          "den"
+         ],
+         "richtig": 2
+        },
+        {
+         "text": "Amazon bietet Internet aus ___ All an.",
+         "optionen": [
+          "das",
+          "dem",
+          "des"
+         ],
+         "richtig": 1
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Trennbare Verben",
+       "anweisung": "Ergänze das Präfix.",
+       "items": [
+        {
+         "text": "Die Rakete hebt am Dienstag ___. (abheben)",
+         "loesung": [
+          "ab"
+         ]
+        },
+        {
+         "text": "Arianespace bricht den Countdown ___. (abbrechen)",
+         "loesung": [
+          "ab"
+         ]
+        },
+        {
+         "text": "Ein Problem tritt ___. (auftreten)",
+         "loesung": [
+          "auf"
+         ]
+        },
+        {
+         "text": "Amazon bietet Internet aus dem All ___. (anbieten)",
+         "loesung": [
+          "an"
+         ]
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Perfekt: haben oder sein?",
+       "anweisung": "Ergänze die richtige Form von haben oder sein.",
+       "regel": "Bewegung von A nach B (gehen, fahren, fliegen) und Veränderung (werden, steigen) → sein.",
+       "items": [
+        {
+         "text": "Die Rakete ___ nicht abgehoben.",
+         "loesung": [
+          "ist"
+         ]
+        },
+        {
+         "text": "Arianespace ___ den Countdown abgebrochen.",
+         "loesung": [
+          "hat"
+         ]
+        },
+        {
+         "text": "Ein Problem ___ aufgetreten.",
+         "loesung": [
+          "ist"
+         ]
+        },
+        {
+         "text": "40 Satelliten ___ verloren gegangen.",
+         "loesung": [
+          "sind"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Sport",
+     "titel": "Champions League: Dortmund in London gefordert",
+     "text": "Am Dienstagabend geht die Ligaphase der Champions League mit dem fünften Spieltag weiter. Im Mittelpunkt steht das Duell zwischen dem FC Arsenal und Borussia Dortmund in London. Für Dortmund kommt das Spiel zu einem guten Zeitpunkt: Am Wochenende hat der BVB die Tabellenführung in der Bundesliga übernommen. Für beide Teams geht es um wichtige Punkte im Kampf um die direkte Qualifikation für das Achtelfinale.\n\nAuch andere Spitzenteams sind gefordert. Real Madrid empfängt PSV Eindhoven, Manchester City trifft auf Napoli. Aus österreichischer Sicht ist vor allem ein Spiel interessant: Der LASK tritt bei Bodø/Glimt an, im hohen Norden Norwegens. Bodø liegt sogar nördlich des Polarkreises.\n\nDie übrigen Partien des Spieltags folgen am Mittwoch.",
+     "vokabeln": [
+      {
+       "de": "der Spieltag",
+       "im_text": "Spieltag",
+       "erkl": "eine Runde, in der alle Teams einmal spielen"
+      },
+      {
+       "de": "das Duell",
+       "im_text": "Duell",
+       "erkl": "ein Kampf oder Spiel zwischen zwei Gegnern"
+      },
+      {
+       "de": "die Tabellenführung",
+       "im_text": "Tabellenführung",
+       "erkl": "Platz 1 in der Tabelle"
+      },
+      {
+       "de": "übernehmen",
+       "im_text": "übernommen",
+       "erkl": "hier: etwas bekommen, das vorher ein anderer hatte"
+      },
+      {
+       "de": "gefordert sein",
+       "im_text": "gefordert",
+       "erkl": "eine schwierige Aufgabe haben"
+      },
+      {
+       "de": "empfangen",
+       "im_text": "empfängt",
+       "erkl": "hier: zu Hause gegen einen Gast spielen"
+      },
+      {
+       "de": "antreten",
+       "im_text": "tritt",
+       "erkl": "zu einem Spiel kommen und spielen"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wo spielt Arsenal gegen Dortmund?",
+       "optionen": [
+        "in Dortmund",
+        "in London",
+        "in Linz"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Dortmund ist zurzeit Tabellenführer in der Bundesliga.",
+       "richtig": true
+      },
+      {
+       "typ": "rf",
+       "aussage": "Der LASK spielt zu Hause.",
+       "richtig": false,
+       "erkl": "Er tritt in Bodø an."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Welcher Spieltag ist es?",
+         "der fünfte"
+        ],
+        [
+         "Gegen wen spielt Real Madrid?",
+         "gegen PSV Eindhoven"
+        ],
+        [
+         "Wo liegt Bodø?",
+         "nördlich des Polarkreises"
+        ],
+        [
+         "Wann folgen die übrigen Partien?",
+         "am Mittwoch"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Wie wichtig ist ein Heimspiel? Welche Rolle spielt das Stadion?",
+      "Was ist für einen Schiedsrichter bei einem Spiel mit so viel Druck besonders schwierig?",
+      "Welches Spiel würdest du heute am liebsten live sehen?"
+     ],
+     "uebungen": [
+      {
+       "typ": "auswahl",
+       "titel": "Präpositionen und Fälle",
+       "anweisung": "Wähle den richtigen Artikel.",
+       "regel": "in (wo?), mit, bei → Dativ.",
+       "items": [
+        {
+         "text": "Das Duell findet in ___ Hauptstadt Englands statt.",
+         "optionen": [
+          "die",
+          "der",
+          "den"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Dortmund fährt mit ___ guten Gefühl nach London.",
+         "optionen": [
+          "einem",
+          "ein",
+          "einen"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Der LASK spielt bei ___ Team aus Norwegen.",
+         "optionen": [
+          "ein",
+          "einen",
+          "einem"
+         ],
+         "richtig": 2
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Trennbare Verben",
+       "anweisung": "Ergänze das Präfix.",
+       "items": [
+        {
+         "text": "Der LASK tritt in Bodø ___. (antreten)",
+         "loesung": [
+          "an"
+         ]
+        },
+        {
+         "text": "Die Spiele finden am Dienstag ___. (stattfinden)",
+         "loesung": [
+          "statt"
+         ]
+        },
+        {
+         "text": "Der Schiedsrichter pfeift das Spiel um 21 Uhr ___. (anpfeifen)",
+         "loesung": [
+          "an"
+         ]
+        }
+       ]
+      },
+      {
+       "typ": "fehler",
+       "titel": "Wortstellung im Nebensatz",
+       "anweisung": "Ein Wort steht an der falschen Stelle.",
+       "items": [
+        {
+         "woerter": [
+          "Ich",
+          "glaube,",
+          "dass",
+          "Dortmund",
+          "wird",
+          "gewinnen."
+         ],
+         "fehler": 4,
+         "korrektur": "…, dass Dortmund gewinnen wird.",
+         "erkl": "Im dass-Satz steht das konjugierte Verb am Ende."
+        },
+        {
+         "woerter": [
+          "Ein",
+          "Schiedsrichter,",
+          "der",
+          "pfeift",
+          "ein",
+          "großes",
+          "Spiel,",
+          "braucht",
+          "starke",
+          "Nerven."
+         ],
+         "fehler": 3,
+         "korrektur": "Ein Schiedsrichter, der ein großes Spiel pfeift, braucht starke Nerven.",
+         "erkl": "Im Relativsatz steht das Verb am Ende."
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Adjektiv → Nomen",
+       "anweisung": "Bilde das Nomen mit Artikel.",
+       "regel": "-heit, -keit → immer feminin (die).",
+       "items": [
+        {
+         "text": "fähig → ___",
+         "loesung": [
+          "die Fähigkeit"
+         ]
+        },
+        {
+         "text": "sicher → ___",
+         "loesung": [
+          "die Sicherheit"
+         ]
+        },
+        {
+         "text": "schwierig → ___",
+         "loesung": [
+          "die Schwierigkeit"
+         ]
+        },
+        {
+         "text": "gesund → ___",
+         "loesung": [
+          "die Gesundheit"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Medizin",
+     "titel": "KI soll Brustkrebs früher finden",
+     "text": "In Großbritannien startet die bisher weltweit größte Studie zum Einsatz künstlicher Intelligenz bei der Brustkrebs-Früherkennung. Sie heißt EDITH und soll zeigen, ob KI-Programme die Früherkennung verbessern können.\n\nRund 660.000 Frauen zwischen 50 und 71 Jahren sollen teilnehmen. Bei ihren Mammografien, also Röntgenbildern der Brust, wird untersucht, wie gut KI-Werkzeuge die Ärztinnen und Ärzte unterstützen. Wer nicht mitmachen möchte, kann ablehnen. Wichtig: Jedes Bild wird weiterhin von mindestens einem Radiologen angesehen. Die KI soll die Fachleute also unterstützen, nicht ersetzen.\n\nBrustkrebs ist bei Frauen die häufigste Krebsart; je früher er entdeckt wird, desto besser sind meist die Heilungschancen. Die britische Regierung finanziert das Projekt mit zehn Millionen Pfund.",
+     "vokabeln": [
+      {
+       "de": "die Früherkennung",
+       "im_text": "Früherkennung",
+       "erkl": "eine Krankheit finden, bevor sie Probleme macht"
+      },
+      {
+       "de": "teilnehmen",
+       "im_text": "teilnehmen",
+       "erkl": "bei etwas mitmachen"
+      },
+      {
+       "de": "das Röntgenbild",
+       "im_text": "Röntgenbildern",
+       "erkl": "ein Bild vom Inneren des Körpers, mit Strahlen gemacht"
+      },
+      {
+       "de": "ablehnen",
+       "im_text": "ablehnen",
+       "erkl": "Nein sagen"
+      },
+      {
+       "de": "der Radiologe",
+       "im_text": "Radiologen",
+       "erkl": "ein Arzt, der Röntgenbilder und Scans beurteilt"
+      },
+      {
+       "de": "ersetzen",
+       "im_text": "ersetzen",
+       "erkl": "an die Stelle von etwas anderem treten"
+      },
+      {
+       "de": "die Heilungschance",
+       "im_text": "Heilungschancen",
+       "erkl": "wie wahrscheinlich es ist, wieder gesund zu werden"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wie viele Frauen sollen teilnehmen?",
+       "optionen": [
+        "rund 66.000",
+        "rund 660.000",
+        "rund 6,6 Millionen"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die KI soll die Radiologen ersetzen.",
+       "richtig": false,
+       "erkl": "Sie soll die Fachleute unterstützen, nicht ersetzen."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die Frauen können die Teilnahme ablehnen.",
+       "richtig": true
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wie heißt die Studie?",
+         "EDITH"
+        ],
+        [
+         "Wie alt sind die Teilnehmerinnen?",
+         "zwischen 50 und 71 Jahren"
+        ],
+        [
+         "Wer finanziert das Projekt?",
+         "die britische Regierung"
+        ],
+        [
+         "Mit wie viel Geld?",
+         "mit zehn Millionen Pfund"
+        ]
+       ]
+      },
+      {
+       "typ": "offen",
+       "frage": "Warum ist Früherkennung bei Brustkrebs so wichtig?",
+       "loesung": "Je früher der Krebs entdeckt wird, desto besser sind meist die Heilungschancen."
+      }
+     ],
+     "diskussion": [
+      "Würdest du einer KI bei einer medizinischen Diagnose vertrauen?",
+      "Welche Aufgaben in der Medizin sollte immer ein Mensch übernehmen?",
+      "Welche Vorsorgeuntersuchungen hältst du für besonders wichtig?"
+     ],
+     "uebungen": [
+      {
+       "typ": "eingabe",
+       "titel": "Wortbildung",
+       "anweisung": "Bilde das Nomen.",
+       "regel": "-ung (von Verben), -heit/-keit (von Adjektiven) → immer die.",
+       "items": [
+        {
+         "text": "erkennen → die ___",
+         "loesung": [
+          "Erkennung"
+         ]
+        },
+        {
+         "text": "heilen → die ___",
+         "loesung": [
+          "Heilung"
+         ]
+        },
+        {
+         "text": "krank → die ___",
+         "loesung": [
+          "Krankheit"
+         ]
+        },
+        {
+         "text": "möglich → die ___",
+         "loesung": [
+          "Möglichkeit"
+         ]
+        }
+       ]
+      },
+      {
+       "typ": "auswahl",
+       "titel": "Präpositionen und Fälle",
+       "anweisung": "Wähle den richtigen Artikel.",
+       "regel": "in (wo?), bei, an (teilnehmen an) → Dativ.",
+       "items": [
+        {
+         "text": "Die Studie läuft in ___ ganzen Land.",
+         "optionen": [
+          "das",
+          "dem",
+          "den"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Die KI hilft bei ___ Früherkennung.",
+         "optionen": [
+          "der",
+          "die",
+          "den"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Viele Frauen nehmen an ___ Studie teil.",
+         "optionen": [
+          "die",
+          "dem",
+          "der"
+         ],
+         "richtig": 2
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Trennbare Verben und Wiederholung",
+       "anweisung": "Ergänze das Verb.",
+       "regel": "Im Nebensatz steht das trennbare Verb zusammen am Ende. Wiederholung (20.11.): sich sorgen → die Sorge.",
+       "items": [
+        {
+         "text": "Frau M. nimmt an der Studie ___. (teilnehmen)",
+         "loesung": [
+          "teil"
+         ]
+        },
+        {
+         "text": "Ich weiß, dass viele Frauen an der Studie ___. (teilnehmen)",
+         "loesung": [
+          "teilnehmen"
+         ]
+        },
+        {
+         "text": "Die Ärzte sehen jedes Bild genau ___. (ansehen)",
+         "loesung": [
+          "an"
+         ]
+        },
+        {
+         "text": "Viele Patientinnen ___ sich vor der Untersuchung. (sich sorgen)",
+         "loesung": [
+          "sorgen"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Kultur",
+     "titel": "Paris zeigt die Geheimnisse der Alhambra",
+     "text": "Im Pariser Institut du monde arabe eröffnet am Dienstag die Ausstellung „Les secrets de l'Alhambra“. Sie ist einem der bedeutendsten Bauwerke der islamischen Kunst gewidmet: der Alhambra in Granada.\n\nDie Schau konzentriert sich auf die Zeit der Nasriden, einer muslimischen Herrscherfamilie, die bis Ende des 15. Jahrhunderts im Süden Spaniens regierte. Besonders im Blick ist die Regierungszeit von Sultan Muhammad V. im 14. Jahrhundert. Im Mittelpunkt steht eine Nachbildung des berühmten Löwenbrunnens. Der Brunnen wird von zwölf steinernen Löwen getragen. Außerdem zeigt die Ausstellung Objekte und erklärt die komplexe Geometrie der Verzierungen.\n\nDie Ausstellung ist bis zum 16. Mai 2027 zu sehen. Begleitend gibt es Gesprächsrunden über al-Andalus.",
+     "vokabeln": [
+      {
+       "de": "eröffnen",
+       "im_text": "eröffnet",
+       "erkl": "zum ersten Mal für Besucher öffnen"
+      },
+      {
+       "de": "einer Sache gewidmet sein",
+       "im_text": "gewidmet",
+       "erkl": "sich mit einem bestimmten Thema beschäftigen"
+      },
+      {
+       "de": "das Bauwerk",
+       "im_text": "Bauwerke",
+       "erkl": "ein großes Gebäude, zum Beispiel ein Palast oder eine Brücke"
+      },
+      {
+       "de": "regieren",
+       "im_text": "regierte",
+       "erkl": "ein Land führen und leiten"
+      },
+      {
+       "de": "die Nachbildung",
+       "im_text": "Nachbildung",
+       "erkl": "eine Kopie von einem Original"
+      },
+      {
+       "de": "die Verzierung",
+       "im_text": "Verzierungen",
+       "erkl": "Schmuck an einem Gebäude oder Gegenstand"
+      },
+      {
+       "de": "begleitend",
+       "im_text": "Begleitend",
+       "erkl": "zusätzlich, zur gleichen Zeit"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Worauf konzentriert sich die Ausstellung?",
+       "optionen": [
+        "auf die Römerzeit",
+        "auf die Zeit der Nasriden",
+        "auf das 20. Jahrhundert"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Im Mittelpunkt steht der originale Löwenbrunnen.",
+       "richtig": false,
+       "erkl": "Es ist eine Nachbildung."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die Ausstellung läuft bis Mai 2027.",
+       "richtig": true
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wo steht die Alhambra?",
+         "in Granada"
+        ],
+        [
+         "Wann regierte Muhammad V.?",
+         "im 14. Jahrhundert"
+        ],
+        [
+         "Wie viele Löwen tragen den Brunnen?",
+         "zwölf"
+        ],
+        [
+         "Worüber gibt es Gesprächsrunden?",
+         "über al-Andalus"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Ist eine Nachbildung im Museum genauso viel wert wie das Original vor Ort?",
+      "Welches historische Bauwerk hat dich am meisten beeindruckt?",
+      "Warum ist es wichtig, die Geschichte anderer Kulturen zu kennen?"
+     ],
+     "uebungen": [
+      {
+       "typ": "eingabe",
+       "titel": "Perfekt: haben oder sein?",
+       "anweisung": "Ergänze die richtige Form von haben oder sein.",
+       "regel": "Bewegung von A nach B (gehen, fahren, fliegen) und Veränderung (werden, steigen) → sein.",
+       "items": [
+        {
+         "text": "Die Nasriden ___ über Granada regiert.",
+         "loesung": [
+          "haben"
+         ]
+        },
+        {
+         "text": "Viele Besucher ___ nach Granada gereist.",
+         "loesung": [
+          "sind"
+         ]
+        },
+        {
+         "text": "Ich ___ die Alhambra vor drei Jahren besucht.",
+         "loesung": [
+          "habe"
+         ]
+        },
+        {
+         "text": "Wir ___ durch die Gärten gegangen.",
+         "loesung": [
+          "sind"
+         ]
+        }
+       ]
+      },
+      {
+       "typ": "auswahl",
+       "titel": "Wechselpräpositionen: wo? oder wohin?",
+       "anweisung": "Wähle den richtigen Artikel.",
+       "regel": "Wohin? → Akkusativ. Wo? → Dativ. „um“ steht immer mit Akkusativ.",
+       "items": [
+        {
+         "text": "Wir gehen in ___ Ausstellung.",
+         "optionen": [
+          "die",
+          "der"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Wir sind in ___ Ausstellung.",
+         "optionen": [
+          "die",
+          "der"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Die Herrscher lebten in ___ Palast.",
+         "optionen": [
+          "den",
+          "dem"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Die Löwen stehen um ___ Brunnen herum.",
+         "optionen": [
+          "den",
+          "dem"
+         ],
+         "richtig": 0
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Verb → Nomen",
+       "anweisung": "Bilde das Nomen.",
+       "items": [
+        {
+         "text": "verzieren → die ___",
+         "loesung": [
+          "Verzierung"
+         ]
+        },
+        {
+         "text": "regieren → die ___",
+         "loesung": [
+          "Regierung"
+         ]
+        },
+        {
+         "text": "ausstellen → die ___",
+         "loesung": [
+          "Ausstellung"
+         ]
+        },
+        {
+         "text": "nachbilden → die ___",
+         "loesung": [
+          "Nachbildung"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
    "datum": "2026-11-23",
    "nachrichten": [
     {

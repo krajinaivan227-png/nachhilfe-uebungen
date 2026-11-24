@@ -4,6 +4,958 @@ window.NACHRICHTEN = {
  "spiel": false,
  "tage": [
   {
+   "datum": "2026-11-24",
+   "nachrichten": [
+    {
+     "kategorie": "Wirtschaft",
+     "titel": "Kehrtwende bei Nvidia: Jensen Huang ist zurück",
+     "text": "Nur gut zwei Wochen nach seinem Rücktritt ist Jensen Huang an die Spitze von Nvidia zurückgekehrt. Der Chipkonzern, dessen Prozessoren als Herzstück des weltweiten KI-Booms gelten, setzte seinen Gründer am Montag wieder als Vorstandschef ein. Huang hatte seine Ämter nach Berichten über sein Privatleben niedergelegt.\n\nDie Kehrtwende kommt überraschend. Noch am 17. November hatte Verwaltungsratschef Harvey Jones betont, man beabsichtige nicht, Huang zurückzuholen. Gleichzeitig hatte sich US-Präsident Donald Trump öffentlich für ein Comeback starkgemacht. In seiner Erklärung räumte der Verwaltungsrat ein, auch Einschätzungen aus der US-Regierung berücksichtigt zu haben; Trump selbst reklamierte einen Teil des Erfolgs für sich. Eine Unterschriftenaktion unter dem Motto „Stand with Jensen“ hatte zuvor Unterstützer aus der Belegschaft, aus Investorenkreisen und aus dem Silicon Valley gesammelt.\n\nWährend Beschäftigte ihren alten Chef mit Applaus empfingen und die Aktie deutlich zulegte, bleiben Fragen offen. Zudem hat der Konzern einen neuen Ausschuss für nationale Sicherheit und Handelsregeln eingerichtet. Nvidia lässt untersuchen, ob Huang Ziel eines ausländischen Geheimdienstes war, und im Kongress stehen Befragungen an.",
+     "vokabeln": [
+      {
+       "de": "an die Spitze zurückkehren",
+       "im_text": "Spitze",
+       "erkl": "wieder die Leitung übernehmen"
+      },
+      {
+       "de": "ein Amt niederlegen",
+       "im_text": "niedergelegt",
+       "erkl": "eine offizielle Position aufgeben"
+      },
+      {
+       "de": "die Kehrtwende",
+       "im_text": "Kehrtwende",
+       "erkl": "eine vollständige Änderung der Richtung oder Meinung"
+      },
+      {
+       "de": "sich für etwas starkmachen",
+       "im_text": "starkgemacht",
+       "erkl": "sich engagiert für etwas einsetzen"
+      },
+      {
+       "de": "einräumen",
+       "im_text": "räumte",
+       "erkl": "etwas zugeben"
+      },
+      {
+       "de": "zulegen",
+       "im_text": "zulegte",
+       "erkl": "an Wert gewinnen, steigen"
+      },
+      {
+       "de": "der Ausschuss",
+       "im_text": "Ausschuss",
+       "erkl": "eine kleine Gruppe, die sich um ein bestimmtes Thema kümmert"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wer hatte sich noch am 17. November gegen eine Rückkehr ausgesprochen?",
+       "optionen": [
+        "die Belegschaft",
+        "Verwaltungsratschef Harvey Jones",
+        "Donald Trump"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Der Verwaltungsrat bestreitet jeden Einfluss der US-Regierung.",
+       "richtig": false,
+       "erkl": "Er räumte ein, Einschätzungen aus der US-Regierung berücksichtigt zu haben."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Nvidia hat einen Ausschuss für nationale Sicherheit eingerichtet.",
+       "richtig": true
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wie lange war Huang weg?",
+         "gut zwei Wochen"
+        ],
+        [
+         "Wie hieß die Unterschriftenaktion?",
+         "„Stand with Jensen“"
+        ],
+        [
+         "Wie entwickelte sich die Aktie?",
+         "Sie legte deutlich zu."
+        ],
+        [
+         "Wann setzte Nvidia Huang wieder ein?",
+         "am Montag"
+        ]
+       ]
+      },
+      {
+       "typ": "offen",
+       "frage": "Welche Fragen bleiben nach der Rückkehr offen?",
+       "loesung": "Ob Huang Ziel eines ausländischen Geheimdienstes war und was die Befragungen im Kongress ergeben."
+      }
+     ],
+     "diskussion": [
+      "Sollte das Privatleben einer Führungskraft Folgen für ihre berufliche Position haben?",
+      "Wie bewertest du es, wenn eine Regierung auf Personalentscheidungen eines privaten Unternehmens Einfluss nimmt?",
+      "Kann ein Unternehmen zu sehr von einer einzigen Person abhängen?"
+     ],
+     "uebungen": [
+      {
+       "typ": "eingabe",
+       "titel": "Verben mit Präpositionen",
+       "anweisung": "Ergänze die Präposition.",
+       "regel": "Wiederholung (14.11.): Auskunft geben über + Akkusativ.",
+       "items": [
+        {
+         "text": "Trump hat sich ___ Huangs Rückkehr starkgemacht.",
+         "loesung": [
+          "für"
+         ]
+        },
+        {
+         "text": "Die Beschäftigten freuen sich ___ die Rückkehr ihres Chefs.",
+         "loesung": [
+          "über"
+         ]
+        },
+        {
+         "text": "Nvidia hängt stark ___ seinem Gründer ab.",
+         "loesung": [
+          "von"
+         ]
+        },
+        {
+         "text": "Huang soll dem Kongress Auskunft ___ seine Kontakte geben.",
+         "loesung": [
+          "über"
+         ]
+        }
+       ]
+      },
+      {
+       "typ": "auswahl",
+       "titel": "Präpositionen mit Genitiv",
+       "anweisung": "Wähle die passende Präposition.",
+       "items": [
+        {
+         "text": "___ des Skandals trat Huang zurück.",
+         "optionen": [
+          "Wegen",
+          "Trotz",
+          "Statt"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "___ der laufenden Untersuchungen stieg die Aktie.",
+         "optionen": [
+          "Wegen",
+          "Trotz",
+          "Innerhalb"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "___ zweier Wochen kehrte er zurück.",
+         "optionen": [
+          "Trotz",
+          "Wegen",
+          "Innerhalb"
+         ],
+         "richtig": 2
+        }
+       ]
+      },
+      {
+       "typ": "fehler",
+       "titel": "gegenüber",
+       "anweisung": "Ein Wort steht an der falschen Stelle.",
+       "items": [
+        {
+         "woerter": [
+          "Der",
+          "Verwaltungsrat",
+          "war",
+          "gegenüber",
+          "ihm",
+          "zunächst",
+          "skeptisch."
+         ],
+         "fehler": 3,
+         "korrektur": "Der Verwaltungsrat war ihm gegenüber zunächst skeptisch.",
+         "erkl": "Bei Pronomen steht gegenüber immer nach dem Pronomen (ihm gegenüber)."
+        },
+        {
+         "woerter": [
+          "Trump",
+          "zeigte",
+          "sich",
+          "gegenüber",
+          "ihm",
+          "sehr",
+          "wohlwollend."
+         ],
+         "fehler": 3,
+         "korrektur": "Trump zeigte sich ihm gegenüber sehr wohlwollend.",
+         "erkl": "Bei Pronomen steht gegenüber immer nach dem Pronomen (ihm gegenüber)."
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Wem …, der …",
+       "anweisung": "Ergänze das fehlende Wort.",
+       "regel": "Wiederholung (14.11.): Wem … am Herzen liegt, der …",
+       "items": [
+        {
+         "text": "___ die Firma am Herzen liegt, der will einen stabilen Chef.",
+         "loesung": [
+          "Wem"
+         ]
+        },
+        {
+         "text": "Wem Huang am Herzen liegt, ___ hat die Petition unterschrieben.",
+         "loesung": [
+          "der"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Wissenschaft",
+     "titel": "Ariane 6: Technischer Zwischenfall stoppt Countdown",
+     "text": "Der zehnte Flug der europäischen Ariane 6 muss warten. Es wäre bereits der vierte Start für Amazon Leo in diesem Jahr. Eigentlich hätte die Rakete am Montag vom Weltraumbahnhof Kourou in Französisch-Guayana abheben sollen, an Bord 36 Satelliten für Amazons Internetkonstellation Amazon Leo. Während des Countdowns kam es jedoch zu einem technischen Zwischenfall an den Bodenanlagen, woraufhin Arianespace den Ablauf noch vor dem Wegfahren des mobilen Montageturms stoppte. Rakete und Satelliten befinden sich nach Angaben des Unternehmens in einem stabilen und sicheren Zustand. Als neuer Termin ist Dienstag vorgesehen; rund zwei Stunden nach dem Abheben sollen alle Satelliten ausgesetzt sein.\n\nFür Amazon steht viel auf dem Spiel. Der Konzern will mit Tausenden Satelliten in einer niedrigen Umlaufbahn eine Alternative zu Starlink aufbauen. Erst am 15. November waren beim Fehlschlag einer Vulcan-Rakete 40 Satelliten des Konzerns verloren gegangen. Für Europa wiederum ist jeder erfolgreiche Start wichtig, weil er einen eigenen Zugang zum All sichert.",
+     "vokabeln": [
+      {
+       "de": "abheben",
+       "im_text": "abheben",
+       "erkl": "vom Boden in die Luft starten"
+      },
+      {
+       "de": "der Zwischenfall",
+       "im_text": "Zwischenfall",
+       "erkl": "ein unerwartetes, meist kleines Problem"
+      },
+      {
+       "de": "der Montageturm",
+       "im_text": "Montageturms",
+       "erkl": "ein Gerüst, in dem die Rakete vor dem Start vorbereitet wird"
+      },
+      {
+       "de": "vorgesehen sein",
+       "im_text": "vorgesehen",
+       "erkl": "geplant sein"
+      },
+      {
+       "de": "die Umlaufbahn",
+       "im_text": "Umlaufbahn",
+       "erkl": "der Weg, auf dem ein Satellit um die Erde kreist"
+      },
+      {
+       "de": "auf dem Spiel stehen",
+       "im_text": "Spiel",
+       "erkl": "in Gefahr sein, verloren zu gehen"
+      },
+      {
+       "de": "der Fehlschlag",
+       "im_text": "Fehlschlag",
+       "erkl": "ein Misserfolg"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wann wurde der Countdown gestoppt?",
+       "optionen": [
+        "kurz nach dem Abheben",
+        "noch vor dem Wegfahren des Montageturms",
+        "während des Fluges"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Bei dem Zwischenfall wurden Satelliten beschädigt.",
+       "richtig": false,
+       "erkl": "Rakete und Satelliten sind in einem stabilen und sicheren Zustand."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Amazon hat Mitte November bereits 40 Satelliten verloren.",
+       "richtig": true
+      },
+      {
+       "typ": "offen",
+       "frage": "Warum ist der Start für Amazon besonders wichtig?",
+       "loesung": "Der Konzern will ein Satellitennetz als Alternative zu Starlink aufbauen und hat am 15. November bei einem Fehlschlag 40 Satelliten verloren."
+      }
+     ],
+     "diskussion": [
+      "Wie wichtig ist ein eigener europäischer Zugang zum All?",
+      "Sollte der erdnahe Weltraum stärker reguliert werden, wenn private Konzerne Tausende Satelliten starten?",
+      "Welche Vor- und Nachteile hat Internet aus dem All für ländliche Regionen?"
+     ],
+     "uebungen": [
+      {
+       "typ": "auswahl",
+       "titel": "Präpositionen mit Genitiv",
+       "anweisung": "Wähle die passende Präposition.",
+       "items": [
+        {
+         "text": "___ eines technischen Zwischenfalls wurde der Start verschoben.",
+         "optionen": [
+          "Aufgrund",
+          "Trotz",
+          "Anstatt"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "___ des Rückschlags hält Amazon an seinen Plänen fest.",
+         "optionen": [
+          "Wegen",
+          "Trotz",
+          "Mithilfe"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "___ zweier Stunden sollen alle Satelliten ausgesetzt sein.",
+         "optionen": [
+          "Statt",
+          "Wegen",
+          "Innerhalb"
+         ],
+         "richtig": 2
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Verben mit Präpositionen",
+       "anweisung": "Ergänze die Präposition.",
+       "items": [
+        {
+         "text": "Amazon setzt ___ ein eigenes Satellitennetz.",
+         "loesung": [
+          "auf"
+         ]
+        },
+        {
+         "text": "Europa verfügt ___ einen eigenen Zugang zum All.",
+         "loesung": [
+          "über"
+         ]
+        },
+        {
+         "text": "Arianespace hat ___ den Zwischenfall informiert.",
+         "loesung": [
+          "über"
+         ]
+        },
+        {
+         "text": "Während des Countdowns kam es ___ einem Zwischenfall.",
+         "loesung": [
+          "zu"
+         ]
+        }
+       ]
+      },
+      {
+       "typ": "zuordnen",
+       "titel": "Nominalisierung",
+       "anweisung": "Finde die Paare.",
+       "paare": [
+        [
+         "starten",
+         "der Start"
+        ],
+        [
+         "verlieren",
+         "der Verlust"
+        ],
+        [
+         "fehlschlagen",
+         "der Fehlschlag"
+        ],
+        [
+         "verschieben",
+         "die Verschiebung"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Politik",
+     "titel": "Belgien: Koalition ringt um Milliarden",
+     "text": "Belgien steuert auf eine politische Zerreißprobe zu. Die Fünf-Parteien-Koalition von Premierminister Bart De Wever kann sich seit Wochen nicht auf einen Haushalt für 2027 einigen. Streitpunkt sind Einsparungen von rund zehn Milliarden Euro bis 2029, mit denen das Defizit von mehr als fünf Prozent gesenkt werden soll. Vor allem die flämischen Sozialdemokraten von Vooruit bestehen darauf, dass Spitzenverdiener einen größeren Beitrag leisten.\n\nAm Montag endete eine zweistündige Sitzung der Vizepremiers erneut ohne Ergebnis, weil ein Koalitionspartner den vorgeschlagenen Haushaltsrahmen ablehnte. Anschließend wurde De Wever – bereits zum vierten Mal im November – im Königspalast empfangen. König Philippe bedauerte den Mangel an Fortschritten und appellierte an alle Parteien, das Gemeinwohl über Parteiinteressen zu stellen.\n\nBrisant ist die Vorgeschichte: Anfang November hatte De Wever seinen Rücktritt angeboten, den der König jedoch nicht annahm. Nun hat sich der Premier selbst eine Frist bis zum 31. Dezember gesetzt. Kommt bis dahin keine Einigung zustande, wäre die Regierung nach Angaben seines Büros faktisch handlungsunfähig – Neuwahlen wären dann wahrscheinlich.",
+     "vokabeln": [
+      {
+       "de": "auf etwas zusteuern",
+       "im_text": "steuert",
+       "erkl": "sich in Richtung einer Situation bewegen"
+      },
+      {
+       "de": "die Zerreißprobe",
+       "im_text": "Zerreißprobe",
+       "erkl": "eine Situation, die eine Gruppe fast zerbrechen lässt"
+      },
+      {
+       "de": "der Streitpunkt",
+       "im_text": "Streitpunkt",
+       "erkl": "das Thema, über das man sich nicht einig ist"
+      },
+      {
+       "de": "einen Beitrag leisten",
+       "im_text": "Beitrag",
+       "erkl": "etwas zu einer gemeinsamen Sache geben"
+      },
+      {
+       "de": "appellieren an",
+       "im_text": "appellierte",
+       "erkl": "jemanden dringend auffordern"
+      },
+      {
+       "de": "das Gemeinwohl",
+       "im_text": "Gemeinwohl",
+       "erkl": "das, was für alle Menschen einer Gesellschaft gut ist"
+      },
+      {
+       "de": "handlungsunfähig",
+       "im_text": "handlungsunfähig",
+       "erkl": "nicht mehr in der Lage, zu handeln oder zu entscheiden"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Was fordert Vooruit?",
+       "optionen": [
+        "weniger Steuern für alle",
+        "einen größeren Beitrag von Spitzenverdienern",
+        "sofortige Neuwahlen"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Der König hat De Wevers Rücktritt angenommen.",
+       "richtig": false,
+       "erkl": "Er nahm ihn nicht an."
+      },
+      {
+       "typ": "rf",
+       "aussage": "De Wever hat sich selbst eine Frist gesetzt.",
+       "richtig": true
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wie viele Parteien bilden die Koalition?",
+         "fünf"
+        ],
+        [
+         "Wie hoch ist das Defizit?",
+         "mehr als fünf Prozent"
+        ],
+        [
+         "Wie oft war De Wever im November beim König?",
+         "viermal"
+        ],
+        [
+         "Wie lange dauerte die Sitzung am Montag?",
+         "zwei Stunden"
+        ]
+       ]
+      },
+      {
+       "typ": "offen",
+       "frage": "Was droht, wenn bis zum 31. Dezember keine Einigung zustande kommt?",
+       "loesung": "Die Regierung wäre faktisch handlungsunfähig, Neuwahlen wären wahrscheinlich."
+      }
+     ],
+     "diskussion": [
+      "Ist es gerecht, Spitzenverdiener bei Sparpaketen stärker zu belasten?",
+      "Welche Vor- und Nachteile haben Koalitionen aus vielen Parteien?",
+      "Sollte ein Staatsoberhaupt in politischen Krisen aktiv eingreifen?"
+     ],
+     "uebungen": [
+      {
+       "typ": "eingabe",
+       "titel": "Verben mit Präpositionen",
+       "anweisung": "Ergänze die Präposition oder das Pronominaladverb.",
+       "items": [
+        {
+         "text": "Die Koalition kann sich nicht ___ einen Haushalt einigen.",
+         "loesung": [
+          "auf"
+         ]
+        },
+        {
+         "text": "Vooruit besteht ___, dass Spitzenverdiener mehr beitragen.",
+         "loesung": [
+          "darauf"
+         ]
+        },
+        {
+         "text": "Der König appellierte ___ alle Parteien.",
+         "loesung": [
+          "an"
+         ]
+        },
+        {
+         "text": "Der Streit dreht sich ___ zehn Milliarden Euro.",
+         "loesung": [
+          "um"
+         ]
+        }
+       ]
+      },
+      {
+       "typ": "auswahl",
+       "titel": "Präpositionen mit Genitiv",
+       "anweisung": "Wähle die passende Präposition.",
+       "items": [
+        {
+         "text": "___ langer Gespräche gab es keinen Fortschritt.",
+         "optionen": [
+          "Trotz",
+          "Wegen"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "___ des Haushaltsstreits drohen Neuwahlen.",
+         "optionen": [
+          "Trotz",
+          "Infolge"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "___ des Novembers traf De Wever den König viermal.",
+         "optionen": [
+          "Innerhalb",
+          "Statt"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Die Parteien sollen das Gemeinwohl ___ ihrer Parteiinteressen in den Mittelpunkt stellen.",
+         "optionen": [
+          "wegen",
+          "anstelle"
+         ],
+         "richtig": 1
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Wem …, der …",
+       "anweisung": "Ergänze das fehlende Wort.",
+       "regel": "Wiederholung (14.11.): Wem …, der …",
+       "items": [
+        {
+         "text": "Wem das Gemeinwohl am Herzen liegt, ___ sucht einen Kompromiss.",
+         "loesung": [
+          "der"
+         ]
+        },
+        {
+         "text": "___ die Steuern zu hoch sind, der wählt vielleicht eine andere Partei.",
+         "loesung": [
+          "Wem"
+         ]
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "gegenüber",
+       "anweisung": "Ergänze gegenüber an der richtigen Stelle.",
+       "regel": "Wiederholung (14.11.): Bei Pronomen steht gegenüber immer nach dem Pronomen (ihm gegenüber).",
+       "items": [
+        {
+         "text": "Der König ist allen Parteien ___ neutral.",
+         "loesung": [
+          "gegenüber"
+         ]
+        },
+        {
+         "text": "Vooruit ist den Sparplänen ___ kritisch.",
+         "loesung": [
+          "gegenüber"
+         ]
+        },
+        {
+         "text": "De Wever zeigte sich ihm ___ respektvoll.",
+         "loesung": [
+          "gegenüber"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Gesundheit",
+     "titel": "Weltgrößte Studie: KI in der Brustkrebs-Früherkennung",
+     "text": "Großbritannien startet die bislang größte Studie weltweit, die den Einsatz künstlicher Intelligenz in der Brustkrebs-Früherkennung untersucht. Das Projekt mit dem Namen EDITH wird von der Regierung mit zehn Millionen Pfund gefördert und soll klären, ob KI-Werkzeuge die Untersuchungen im staatlichen Screening-Programm verbessern können.\n\nTeilnehmen sollen rund 660.000 Frauen im Alter von 50 bis 71 Jahren. Wer nicht einbezogen werden möchte, kann widersprechen. Ein zentraler Punkt für die Akzeptanz: Jedes Mammogramm wird auch künftig von mindestens einer Radiologin oder einem Radiologen begutachtet. Die KI soll also nicht allein die Diagnose stellen, sondern das Fachpersonal unterstützen.\n\nHintergrund: In vielen Gesundheitssystemen ist die Auswertung von Röntgenbildern aufwendig, und Fachkräfte sind knapp. Die Hoffnung ist, dass Tumoren früher entdeckt und Wartezeiten verkürzt werden können. Gleichzeitig stellen sich Fragen zum Datenschutz und zur Verantwortung, falls ein Algorithmus einen Befund übersieht. Gerade solche Fragen soll die groß angelegte Studie auf eine solide Grundlage stellen. Am Ende soll sich zeigen, ob sich der Einsatz von KI flächendeckend lohnt.",
+     "vokabeln": [
+      {
+       "de": "fördern",
+       "im_text": "gefördert",
+       "erkl": "mit Geld unterstützen"
+      },
+      {
+       "de": "das Screening",
+       "im_text": "Screening",
+       "erkl": "eine Reihenuntersuchung vieler gesunder Menschen, um Krankheiten früh zu finden"
+      },
+      {
+       "de": "widersprechen",
+       "im_text": "widersprechen",
+       "erkl": "offiziell sagen, dass man nicht einverstanden ist"
+      },
+      {
+       "de": "begutachten",
+       "im_text": "begutachtet",
+       "erkl": "genau prüfen und bewerten"
+      },
+      {
+       "de": "die Akzeptanz",
+       "im_text": "Akzeptanz",
+       "erkl": "die Bereitschaft, etwas anzunehmen"
+      },
+      {
+       "de": "der Befund",
+       "im_text": "Befund",
+       "erkl": "das Ergebnis einer medizinischen Untersuchung"
+      },
+      {
+       "de": "übersehen",
+       "im_text": "übersieht",
+       "erkl": "etwas nicht bemerken"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wer fördert die Studie?",
+       "optionen": [
+        "eine Krankenkasse",
+        "die britische Regierung",
+        "ein Technologiekonzern"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Künftig entscheidet allein die KI über die Diagnose.",
+       "richtig": false,
+       "erkl": "Jedes Mammogramm wird weiterhin von mindestens einer Fachperson begutachtet."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Frauen können einer Teilnahme widersprechen.",
+       "richtig": true
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wie heißt das Projekt?",
+         "EDITH"
+        ],
+        [
+         "Wie viele Frauen sollen teilnehmen?",
+         "rund 660.000"
+        ],
+        [
+         "Welche Altersgruppe ist betroffen?",
+         "50 bis 71 Jahre"
+        ],
+        [
+         "Wie hoch ist die Förderung?",
+         "zehn Millionen Pfund"
+        ]
+       ]
+      },
+      {
+       "typ": "offen",
+       "frage": "Welche Hoffnungen verbinden sich mit dem KI-Einsatz?",
+       "loesung": "Tumoren sollen früher entdeckt und Wartezeiten verkürzt werden; das Fachpersonal soll entlastet werden."
+      }
+     ],
+     "diskussion": [
+      "Wer sollte haften, wenn eine KI einen Befund übersieht?",
+      "Würdest du zustimmen, dass deine Gesundheitsdaten von einer KI ausgewertet werden?",
+      "Kann KI den Fachkräftemangel im Gesundheitswesen wirklich lindern?"
+     ],
+     "uebungen": [
+      {
+       "typ": "eingabe",
+       "titel": "Verben mit Präpositionen",
+       "anweisung": "Ergänze die Präposition.",
+       "regel": "Wiederholung (14.11.): Auskunft geben über + Akkusativ.",
+       "items": [
+        {
+         "text": "Die Studie soll ___ der Frage beitragen, wie nützlich KI ist.",
+         "loesung": [
+          "zu"
+         ]
+        },
+        {
+         "text": "Viele verweisen ___ den Datenschutz.",
+         "loesung": [
+          "auf"
+         ]
+        },
+        {
+         "text": "Man erhofft sich viel ___ der neuen Technik.",
+         "loesung": [
+          "von"
+         ]
+        },
+        {
+         "text": "Die Ärztin hat der Patientin Auskunft ___ den Befund gegeben.",
+         "loesung": [
+          "über"
+         ]
+        }
+       ]
+      },
+      {
+       "typ": "auswahl",
+       "titel": "Präpositionen mit Genitiv",
+       "anweisung": "Wähle die passende Präposition.",
+       "items": [
+        {
+         "text": "___ des Fachkräftemangels setzt man auf KI.",
+         "optionen": [
+          "Angesichts",
+          "Trotz"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "___ aller Technik bleibt der Mensch verantwortlich.",
+         "optionen": [
+          "Wegen",
+          "Trotz"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "___ der Studie werden rund 660.000 Frauen einbezogen.",
+         "optionen": [
+          "Im Rahmen",
+          "Anstatt"
+         ],
+         "richtig": 0
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Wiederholung",
+       "anweisung": "Ergänze das Wort.",
+       "regel": "Wiederholung (14.11.): die Fürsorge → fürsorglich, suggerieren, Wem …, der …",
+       "items": [
+        {
+         "text": "Gute Ärztinnen sind ihren Patientinnen gegenüber sehr ___. (Adjektiv zu „die Fürsorge“)",
+         "loesung": [
+          "fürsorglich"
+         ]
+        },
+        {
+         "text": "Die Therapeutin hat ihr ___, öfter zur Vorsorge zu gehen. (vorschlagen, Fremdwort, Partizip)",
+         "loesung": [
+          "suggeriert"
+         ]
+        },
+        {
+         "text": "Wem die eigene Gesundheit am Herzen liegt, ___ geht regelmäßig zur Vorsorge.",
+         "loesung": [
+          "der"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Politik",
+     "titel": "Haushaltswoche im Bundestag: Stromsteuer sinkt – vorerst",
+     "text": "Im Bundestag hat die entscheidende Woche für den Bundeshaushalt 2027 begonnen. Bis Freitag beraten die Abgeordneten über die einzelnen Etats der Ministerien; am 27. November soll der Haushalt endgültig beschlossen werden. Damit legt das Parlament fest, wie viel Geld die Regierung von Bundeskanzler Friedrich Merz im kommenden Jahr wofür ausgeben darf.\n\nKurz vor Beginn der Haushaltswoche hatte sich die Koalition aus Union und SPD nach langem Ringen auf eine Senkung der Stromsteuer geeinigt. Sie soll für alle Verbraucherinnen und Verbraucher auf das europäische Mindestmaß sinken – zunächst allerdings befristet bis Ende 2027. Ob die Entlastung danach fortgesetzt wird, hängt davon ab, ob sich im Haushalt 2028 eine dauerhafte Gegenfinanzierung findet. Die Senkung kostet den Staat jährlich rund 5,4 Milliarden Euro und muss nun noch nachträglich in den Etat eingearbeitet werden.\n\nFür die Haushaltswoche bedeutet das zusätzlichen Druck. Traditionell nutzt die Opposition die Debatte über den Etat des Kanzleramts zu einer Generalabrechnung mit der Regierungspolitik.",
+     "vokabeln": [
+      {
+       "de": "der Etat",
+       "im_text": "Etats",
+       "erkl": "der Haushalt, das Budget"
+      },
+      {
+       "de": "beschließen",
+       "im_text": "beschlossen",
+       "erkl": "offiziell entscheiden"
+      },
+      {
+       "de": "das Ringen",
+       "im_text": "Ringen",
+       "erkl": "ein langer, schwieriger Streit um eine Lösung"
+      },
+      {
+       "de": "das Mindestmaß",
+       "im_text": "Mindestmaß",
+       "erkl": "das Niedrigste, was erlaubt ist"
+      },
+      {
+       "de": "befristet",
+       "im_text": "befristet",
+       "erkl": "nur für eine bestimmte Zeit gültig"
+      },
+      {
+       "de": "die Gegenfinanzierung",
+       "im_text": "Gegenfinanzierung",
+       "erkl": "Geld, das an anderer Stelle gespart oder eingenommen wird, um eine Ausgabe zu bezahlen"
+      },
+      {
+       "de": "die Generalabrechnung",
+       "im_text": "Generalabrechnung",
+       "erkl": "eine umfassende, scharfe Kritik"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wann soll der Haushalt beschlossen werden?",
+       "optionen": [
+        "am 24. November",
+        "am 27. November",
+        "am 31. Dezember"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die Stromsteuer wird dauerhaft gesenkt.",
+       "richtig": false,
+       "erkl": "Die Senkung ist zunächst bis Ende 2027 befristet."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die Senkung kostet jährlich rund 5,4 Milliarden Euro.",
+       "richtig": true
+      },
+      {
+       "typ": "offen",
+       "frage": "Wovon hängt ab, ob die Senkung nach 2027 fortgesetzt wird?",
+       "loesung": "Davon, ob sich im Haushalt 2028 eine dauerhafte Gegenfinanzierung findet."
+      }
+     ],
+     "diskussion": [
+      "Würdest du eine niedrigere Stromsteuer oder lieber andere Entlastungen bevorzugen?",
+      "Welche Ausgaben sollten im Bundeshaushalt Vorrang haben – Bildung, Gesundheit oder Verteidigung?",
+      "Wie wirken sich Energiepreise auf Mieterinnen und Mieter in Städten wie Gießen aus?"
+     ],
+     "uebungen": [
+      {
+       "typ": "eingabe",
+       "titel": "Verben mit Präpositionen",
+       "anweisung": "Ergänze die Präposition.",
+       "items": [
+        {
+         "text": "Die Abgeordneten beraten ___ die Etats.",
+         "loesung": [
+          "über"
+         ]
+        },
+        {
+         "text": "Ob es weitergeht, hängt ___ der Gegenfinanzierung ab.",
+         "loesung": [
+          "von"
+         ]
+        },
+        {
+         "text": "Die Koalition hat sich ___ eine Senkung geeinigt.",
+         "loesung": [
+          "auf"
+         ]
+        },
+        {
+         "text": "Die Opposition rechnet ___ der Regierung ab.",
+         "loesung": [
+          "mit"
+         ]
+        }
+       ]
+      },
+      {
+       "typ": "auswahl",
+       "titel": "Präpositionen mit Genitiv",
+       "anweisung": "Wähle die passende Präposition.",
+       "items": [
+        {
+         "text": "___ der Haushaltswoche wird viel debattiert.",
+         "optionen": [
+          "Während",
+          "Trotz"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "___ des langen Ringens gab es am Ende eine Einigung.",
+         "optionen": [
+          "Wegen",
+          "Trotz"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "___ einer dauerhaften Lösung gibt es nur eine befristete Senkung.",
+         "optionen": [
+          "Statt",
+          "Während"
+         ],
+         "richtig": 0
+        }
+       ]
+      },
+      {
+       "typ": "fehler",
+       "titel": "gegenüber",
+       "anweisung": "Ein Wort steht an der falschen Stelle.",
+       "items": [
+        {
+         "woerter": [
+          "Die",
+          "Opposition",
+          "ist",
+          "kritisch",
+          "gegenüber",
+          "ihr."
+         ],
+         "fehler": 4,
+         "korrektur": "Die Opposition ist ihr gegenüber kritisch.",
+         "erkl": "Bei Pronomen steht gegenüber nach dem Pronomen."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
    "datum": "2026-11-23",
    "nachrichten": [
     {

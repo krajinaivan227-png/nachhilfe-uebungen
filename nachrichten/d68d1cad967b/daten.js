@@ -4,6 +4,844 @@ window.NACHRICHTEN = {
  "spiel": true,
  "tage": [
   {
+   "datum": "2026-11-24",
+   "nachrichten": [
+    {
+     "kategorie": "Wissenschaft",
+     "titel": "Die Rakete muss warten",
+     "text": "Ariane 6 ist eine Rakete aus Europa. Sie fliegt bald ins All. Sie hat 36 Satelliten für Amazon dabei. Die Satelliten sollen Internet bringen.\n\nAm Montag hat es aber ein Problem am Boden gegeben. Die Rakete ist nicht gestartet. Sie ist aber nicht kaputt. Am Dienstag probiert man es noch einmal.",
+     "vokabeln": [
+      {
+       "de": "die Rakete",
+       "im_text": "Rakete",
+       "erkl": "sie fliegt sehr schnell ins All"
+      },
+      {
+       "de": "das All",
+       "im_text": "All",
+       "erkl": "ganz weit oben, über der Erde; dort sind die Sterne"
+      },
+      {
+       "de": "der Satellit",
+       "im_text": "Satelliten",
+       "erkl": "ein Gerät; es fliegt um die Erde"
+      },
+      {
+       "de": "das Problem",
+       "im_text": "Problem",
+       "erkl": "etwas funktioniert nicht"
+      },
+      {
+       "de": "starten",
+       "im_text": "gestartet",
+       "erkl": "losfliegen"
+      },
+      {
+       "de": "kaputt",
+       "im_text": "kaputt",
+       "erkl": "es funktioniert nicht mehr"
+      },
+      {
+       "de": "noch einmal",
+       "im_text": "noch einmal",
+       "erkl": "wieder, ein zweites Mal"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Woher kommt Ariane 6?",
+       "optionen": [
+        "aus Amerika",
+        "aus Europa",
+        "aus China"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die Rakete ist am Montag gestartet.",
+       "richtig": false,
+       "erkl": "Es hat ein Problem gegeben."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die Rakete ist kaputt.",
+       "richtig": false,
+       "erkl": "Sie ist nicht kaputt."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wie viele Satelliten hat die Rakete dabei?",
+         "36"
+        ],
+        [
+         "Für wen sind die Satelliten?",
+         "für Amazon"
+        ],
+        [
+         "Wann probiert man es noch einmal?",
+         "am Dienstag"
+        ],
+        [
+         "Wo war das Problem?",
+         "am Boden"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Möchtest du einmal ins All fliegen?",
+      "Was findest du spannender: Raketen oder Flugzeuge?"
+     ],
+     "uebungen": [
+      {
+       "typ": "auswahl",
+       "titel": "Wochentage",
+       "anweisung": "Wähle den richtigen Tag.",
+       "items": [
+        {
+         "text": "Der erste Versuch war am ___.",
+         "optionen": [
+          "Montag",
+          "Mittwoch"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Der neue Versuch ist am ___.",
+         "optionen": [
+          "Sonntag",
+          "Dienstag"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Nach Dienstag kommt ___.",
+         "optionen": [
+          "Mittwoch",
+          "Montag"
+         ],
+         "richtig": 0
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Wörter aus der Stunde",
+       "anweisung": "Ergänze das Wort.",
+       "regel": "Wiederholung (23.11.): die Wissenschaft, schicken, ausleihen.",
+       "items": [
+        {
+         "text": "Physik und Chemie sind ___. (Plural von: die Wissenschaft)",
+         "loesung": [
+          "Wissenschaften"
+         ]
+        },
+        {
+         "text": "Amazon ___ Satelliten ins All. (schicken)",
+         "loesung": [
+          "schickt"
+         ]
+        },
+        {
+         "text": "Ich habe ein Buch über Raketen ___. (ausleihen)",
+         "loesung": [
+          "ausgeliehen"
+         ]
+        }
+       ]
+      },
+      {
+       "typ": "zuordnen",
+       "titel": "Gegenteile",
+       "anweisung": "Finde die Paare.",
+       "paare": [
+        [
+         "nah",
+         "weit"
+        ],
+        [
+         "oben",
+         "unten"
+        ],
+        [
+         "schnell",
+         "langsam"
+        ],
+        [
+         "groß",
+         "klein"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Natur",
+     "titel": "Heute ist Vollmond!",
+     "text": "Heute ist Vollmond. Der Mond ist ganz rund und hell. Im November heißt er in Nordamerika „Bibermond“. Biber sind Tiere. Sie bauen jetzt ihre Häuser für den Winter.\n\nDer Mond hat kein eigenes Licht. Die Sonne macht ihn hell. Ist der Himmel heute Nacht klar? Dann siehst du den Mond sehr gut!",
+     "vokabeln": [
+      {
+       "de": "der Vollmond",
+       "im_text": "Vollmond",
+       "erkl": "man sieht den ganzen Mond"
+      },
+      {
+       "de": "rund",
+       "im_text": "rund",
+       "erkl": "wie ein Ball oder ein Kreis"
+      },
+      {
+       "de": "hell",
+       "im_text": "hell",
+       "erkl": "mit viel Licht; Gegenteil von dunkel"
+      },
+      {
+       "de": "der Biber",
+       "im_text": "Biber",
+       "erkl": "ein Tier mit großen Zähnen; es lebt am Wasser"
+      },
+      {
+       "de": "das Licht",
+       "im_text": "Licht",
+       "erkl": "damit sehen wir in der Nacht"
+      },
+      {
+       "de": "klar",
+       "im_text": "klar",
+       "erkl": "hier: ohne Wolken"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wie heißt der Vollmond im November in Nordamerika?",
+       "optionen": [
+        "Wolfsmond",
+        "Bibermond",
+        "Bärenmond"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Der Mond hat eigenes Licht.",
+       "richtig": false,
+       "erkl": "Die Sonne macht ihn hell."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Biber bauen Häuser für den Winter.",
+       "richtig": true
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wann ist Vollmond?",
+         "heute"
+        ],
+        [
+         "Wie ist der Mond?",
+         "rund und hell"
+        ],
+        [
+         "Wer macht den Mond hell?",
+         "die Sonne"
+        ],
+        [
+         "Wann siehst du den Mond gut?",
+         "wenn der Himmel klar ist"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Schaust du gern den Mond und die Sterne an?",
+      "Welches Tier magst du am liebsten?"
+     ],
+     "uebungen": [
+      {
+       "typ": "auswahl",
+       "titel": "empfehlen oder verbieten?",
+       "anweisung": "Wähle das richtige Wort.",
+       "items": [
+        {
+         "text": "Ich ___ dir: Schau heute den Mond an!",
+         "optionen": [
+          "empfehle",
+          "verbiete"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Im Park ist es nachts ___.",
+         "optionen": [
+          "empfohlen",
+          "verboten"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Meine Mama ___ mir das Handy im Bett.",
+         "optionen": [
+          "verbietet",
+          "empfiehlt"
+         ],
+         "richtig": 0
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "sich entspannen",
+       "anweisung": "Ergänze die richtige Form.",
+       "items": [
+        {
+         "text": "Ich schaue den Mond an und ___ mich.",
+         "loesung": [
+          "entspanne"
+         ]
+        },
+        {
+         "text": "Wir ___ uns im Garten.",
+         "loesung": [
+          "entspannen"
+         ]
+        },
+        {
+         "text": "Evan ___ sich im Bett.",
+         "loesung": [
+          "entspannt"
+         ]
+        }
+       ]
+      },
+      {
+       "typ": "zuordnen",
+       "titel": "Gegenteile",
+       "anweisung": "Finde die Paare.",
+       "paare": [
+        [
+         "hell",
+         "dunkel"
+        ],
+        [
+         "Tag",
+         "Nacht"
+        ],
+        [
+         "nah",
+         "weit"
+        ],
+        [
+         "rund",
+         "eckig"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Reisen",
+     "titel": "Thanksgiving: Alle fahren zur Familie",
+     "text": "In den USA ist am Donnerstag ein großes Fest: Thanksgiving. Die Familien essen zusammen. Oft gibt es Truthahn. Das ist ein großer Vogel.\n\nViele Menschen besuchen ihre Familie. Mehr als 81 Millionen Amerikaner reisen. Die meisten fahren mit dem Auto. Etwa 6 Millionen Menschen fliegen. Auf den Straßen ist viel los.",
+     "vokabeln": [
+      {
+       "de": "das Fest",
+       "im_text": "Fest",
+       "erkl": "ein besonderer Tag; man feiert"
+      },
+      {
+       "de": "zusammen",
+       "im_text": "zusammen",
+       "erkl": "mit anderen, nicht allein"
+      },
+      {
+       "de": "der Truthahn",
+       "im_text": "Truthahn",
+       "erkl": "ein großer Vogel; man isst ihn zu Thanksgiving"
+      },
+      {
+       "de": "besuchen",
+       "im_text": "besuchen",
+       "erkl": "zu jemandem nach Hause gehen oder fahren"
+      },
+      {
+       "de": "reisen",
+       "im_text": "reisen",
+       "erkl": "an einen anderen Ort fahren oder fliegen"
+      },
+      {
+       "de": "fliegen",
+       "im_text": "fliegen",
+       "erkl": "mit dem Flugzeug reisen"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wann ist Thanksgiving?",
+       "optionen": [
+        "am Donnerstag",
+        "am Samstag",
+        "am Montag"
+       ],
+       "richtig": 0
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die meisten Menschen fliegen.",
+       "richtig": false,
+       "erkl": "Die meisten fahren mit dem Auto."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Ein Truthahn ist ein Vogel.",
+       "richtig": true
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wo ist Thanksgiving?",
+         "in den USA"
+        ],
+        [
+         "Was essen viele Familien?",
+         "Truthahn"
+        ],
+        [
+         "Wie reisen die meisten?",
+         "mit dem Auto"
+        ],
+        [
+         "Wie viele Menschen fliegen?",
+         "etwa 6 Millionen"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Welches Fest feierst du gern mit deiner Familie?",
+      "Was isst deine Familie an einem Fest?"
+     ],
+     "uebungen": [
+      {
+       "typ": "auswahl",
+       "titel": "Wochentage",
+       "anweisung": "Wähle den richtigen Tag.",
+       "items": [
+        {
+         "text": "Thanksgiving ist am ___.",
+         "optionen": [
+          "Donnerstag",
+          "Dienstag"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Vor Donnerstag kommt ___.",
+         "optionen": [
+          "Freitag",
+          "Mittwoch"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Nach Donnerstag kommt ___.",
+         "optionen": [
+          "Freitag",
+          "Sonntag"
+         ],
+         "richtig": 0
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Wörter aus der Stunde",
+       "anweisung": "Ergänze das Wort.",
+       "regel": "Wiederholung (23.11.): bestellen, das Müsli, die Stadt – das Dorf.",
+       "items": [
+        {
+         "text": "Im Restaurant ___ ich Pizza. (bestellen)",
+         "loesung": [
+          "bestelle"
+         ]
+        },
+        {
+         "text": "Zum Frühstück esse ich ___. (M…)",
+         "loesung": [
+          "Müsli"
+         ]
+        },
+        {
+         "text": "Die Familie wohnt nicht in einer Stadt, sondern in einem ___.",
+         "loesung": [
+          "Dorf"
+         ]
+        }
+       ]
+      },
+      {
+       "typ": "zuordnen",
+       "titel": "Gegenteile",
+       "anweisung": "Finde die Paare.",
+       "paare": [
+        [
+         "nah",
+         "weit"
+        ],
+        [
+         "viel",
+         "wenig"
+        ],
+        [
+         "zusammen",
+         "allein"
+        ],
+        [
+         "groß",
+         "klein"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Sport",
+     "titel": "Fußball: Heute ist Champions League",
+     "text": "Heute ist wieder Champions League. Viele große Teams spielen. Arsenal spielt gegen Dortmund in London. Real Madrid spielt gegen Eindhoven.\n\nAuch ein Team aus Österreich spielt: der LASK aus Linz. Der LASK spielt in Norwegen. Der Gegner heißt Bodø/Glimt. Bodø liegt ganz im Norden von Norwegen. Viel Glück, LASK!",
+     "vokabeln": [
+      {
+       "de": "das Team",
+       "im_text": "Teams",
+       "erkl": "eine Gruppe; sie spielt zusammen"
+      },
+      {
+       "de": "spielen gegen",
+       "im_text": "gegen",
+       "erkl": "zwei Teams spielen; einer gewinnt"
+      },
+      {
+       "de": "der Gegner",
+       "im_text": "Gegner",
+       "erkl": "das andere Team"
+      },
+      {
+       "de": "der Norden",
+       "im_text": "Norden",
+       "erkl": "oben auf der Landkarte"
+      },
+      {
+       "de": "das Glück",
+       "im_text": "Glück",
+       "erkl": "es geht gut, man hat Erfolg"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wo spielt Arsenal gegen Dortmund?",
+       "optionen": [
+        "in London",
+        "in Linz",
+        "in Madrid"
+       ],
+       "richtig": 0
+      },
+      {
+       "typ": "rf",
+       "aussage": "Der LASK kommt aus Österreich.",
+       "richtig": true
+      },
+      {
+       "typ": "rf",
+       "aussage": "Der LASK spielt in Spanien.",
+       "richtig": false,
+       "erkl": "Er spielt in Norwegen."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Woher kommt der LASK?",
+         "aus Linz"
+        ],
+        [
+         "Gegen wen spielt Real Madrid?",
+         "gegen Eindhoven"
+        ],
+        [
+         "Wie heißt der Gegner vom LASK?",
+         "Bodø/Glimt"
+        ],
+        [
+         "Wo liegt Bodø?",
+         "im Norden von Norwegen"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Spielst du gern Fußball?",
+      "Welches Team findest du gut? Warum?"
+     ],
+     "uebungen": [
+      {
+       "typ": "auswahl",
+       "titel": "Wochentage",
+       "anweisung": "Wähle den richtigen Tag.",
+       "items": [
+        {
+         "text": "Heute ist ___.",
+         "optionen": [
+          "Dienstag",
+          "Freitag"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Morgen ist ___.",
+         "optionen": [
+          "Montag",
+          "Mittwoch"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Das Wochenende: ___ und Sonntag.",
+         "optionen": [
+          "Samstag",
+          "Donnerstag"
+         ],
+         "richtig": 0
+        }
+       ]
+      },
+      {
+       "typ": "auswahl",
+       "titel": "nah oder weit?",
+       "anweisung": "Wähle das richtige Wort.",
+       "items": [
+        {
+         "text": "Norwegen ist ___ von Wien.",
+         "optionen": [
+          "nah",
+          "weit"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Von Wien nach Linz fährt der Zug nur etwa eine Stunde. Linz ist ___.",
+         "optionen": [
+          "nah",
+          "weit"
+         ],
+         "richtig": 0
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "empfehlen",
+       "anweisung": "Ergänze die richtige Form.",
+       "regel": "ich empfehle, du empfiehlst, er/sie empfiehlt.",
+       "items": [
+        {
+         "text": "Ich ___ dir das Spiel. (empfehlen)",
+         "loesung": [
+          "empfehle"
+         ]
+        },
+        {
+         "text": "Evan ___ mir Brawl Stars. (empfehlen)",
+         "loesung": [
+          "empfiehlt"
+         ]
+        },
+        {
+         "text": "Was ___ du mir? (empfehlen)",
+         "loesung": [
+          "empfiehlst"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Kultur",
+     "titel": "Ein Palast aus Spanien in Paris",
+     "text": "In Paris gibt es ab heute eine neue Ausstellung. Sie zeigt die Alhambra. Die Alhambra ist ein sehr alter Palast in Spanien.\n\nDort gibt es einen berühmten Brunnen mit zwölf Löwen. Die Löwen sind aus Stein. In Paris sieht man eine Kopie. Es gibt auch viele schöne Muster.",
+     "vokabeln": [
+      {
+       "de": "die Ausstellung",
+       "im_text": "Ausstellung",
+       "erkl": "im Museum zeigt man Bilder oder Dinge"
+      },
+      {
+       "de": "der Palast",
+       "im_text": "Palast",
+       "erkl": "ein großes Haus für einen König"
+      },
+      {
+       "de": "der Brunnen",
+       "im_text": "Brunnen",
+       "erkl": "aus ihm kommt Wasser"
+      },
+      {
+       "de": "der Löwe",
+       "im_text": "Löwen",
+       "erkl": "ein großes Tier, der König der Tiere"
+      },
+      {
+       "de": "der Stein",
+       "im_text": "Stein",
+       "erkl": "sehr hart; Berge sind aus Stein"
+      },
+      {
+       "de": "die Kopie",
+       "im_text": "Kopie",
+       "erkl": "es sieht gleich aus, ist aber nicht das Original"
+      },
+      {
+       "de": "das Muster",
+       "im_text": "Muster",
+       "erkl": "Formen und Farben, sie wiederholen sich"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wo ist die Alhambra?",
+       "optionen": [
+        "in Spanien",
+        "in Frankreich",
+        "in Österreich"
+       ],
+       "richtig": 0
+      },
+      {
+       "typ": "mc",
+       "frage": "Wie viele Löwen hat der Brunnen?",
+       "optionen": [
+        "zwei",
+        "zwölf",
+        "zwanzig"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die Löwen sind aus Holz.",
+       "richtig": false,
+       "erkl": "Sie sind aus Stein."
+      },
+      {
+       "typ": "rf",
+       "aussage": "In Paris sieht man eine Kopie vom Brunnen.",
+       "richtig": true
+      }
+     ],
+     "diskussion": [
+      "Warst du schon einmal in einem Palast oder in einem Schloss?",
+      "Welches Tier möchtest du als Figur in deinem Garten haben?"
+     ],
+     "uebungen": [
+      {
+       "typ": "eingabe",
+       "titel": "Wörter aus der Stunde",
+       "anweisung": "Ergänze das Wort.",
+       "regel": "Wiederholung (23.11.): aussuchen, der Dieb, beenden.",
+       "items": [
+        {
+         "text": "Im Museumsshop ___ ich ein Geschenk aus. (aussuchen)",
+         "loesung": [
+          "suche"
+         ]
+        },
+        {
+         "text": "Der ___ will den Löwen stehlen! (eine Person, die stiehlt)",
+         "loesung": [
+          "Dieb"
+         ]
+        },
+        {
+         "text": "Wir haben das Buch über Spanien ___. (beenden)",
+         "loesung": [
+          "beendet"
+         ]
+        }
+       ]
+      },
+      {
+       "typ": "auswahl",
+       "titel": "verboten oder empfohlen?",
+       "anweisung": "Wähle das richtige Wort.",
+       "items": [
+        {
+         "text": "Im Museum ist Essen ___.",
+         "optionen": [
+          "verboten",
+          "empfohlen"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Fotos mit Blitz sind oft ___.",
+         "optionen": [
+          "empfohlen",
+          "verboten"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Ich ___ dir die Ausstellung!",
+         "optionen": [
+          "verbiete",
+          "empfehle"
+         ],
+         "richtig": 1
+        }
+       ]
+      },
+      {
+       "typ": "zuordnen",
+       "titel": "Gegenteile",
+       "anweisung": "Finde die Paare.",
+       "paare": [
+        [
+         "alt",
+         "neu"
+        ],
+        [
+         "nah",
+         "weit"
+        ],
+        [
+         "hart",
+         "weich"
+        ],
+        [
+         "die Stadt",
+         "das Dorf"
+        ]
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
    "datum": "2026-11-23",
    "nachrichten": [
     {

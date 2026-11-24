@@ -4,6 +4,910 @@ window.NACHRICHTEN = {
  "spiel": false,
  "tage": [
   {
+   "datum": "2026-11-24",
+   "nachrichten": [
+    {
+     "kategorie": "Wirtschaft",
+     "titel": "Nvidia: Der alte Chef kommt zurück",
+     "text": "Jensen Huang hat die Firma Nvidia gegründet. Nvidia baut Computerchips, zum Beispiel für künstliche Intelligenz. Vor etwa zwei Wochen ist Huang nach einem Skandal als Chef zurückgetreten.\n\nAm 17. November hat die Firmenleitung noch gesagt: Huang kommt nicht zurück. Aber am Montag hat Nvidia ihn doch wieder zum Chef gemacht. US-Präsident Donald Trump hat das öffentlich gefordert. Er sagt jetzt, dass er geholfen hat.\n\nViele Mitarbeiter haben Huang mit Jubel begrüßt. Auch die Aktie von Nvidia ist gestiegen. Aber es gibt noch Untersuchungen.",
+     "vokabeln": [
+      {
+       "de": "gründen",
+       "im_text": "gegründet",
+       "erkl": "eine Firma neu starten"
+      },
+      {
+       "de": "zurücktreten",
+       "im_text": "zurückgetreten",
+       "erkl": "seine Stelle freiwillig verlassen"
+      },
+      {
+       "de": "öffentlich",
+       "im_text": "öffentlich",
+       "erkl": "so, dass alle es hören oder sehen können"
+      },
+      {
+       "de": "fordern",
+       "im_text": "gefordert",
+       "erkl": "deutlich sagen, dass man etwas will"
+      },
+      {
+       "de": "der Jubel",
+       "im_text": "Jubel",
+       "erkl": "lautes, frohes Rufen"
+      },
+      {
+       "de": "die Aktie",
+       "im_text": "Aktie",
+       "erkl": "ein kleiner Teil einer Firma; man kann ihn kaufen"
+      },
+      {
+       "de": "die Untersuchung",
+       "im_text": "Untersuchungen",
+       "erkl": "man prüft genau, was passiert ist"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Was baut Nvidia?",
+       "optionen": [
+        "Autos",
+        "Computerchips",
+        "Handys"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Huang ist am Montag zurückgetreten.",
+       "richtig": false,
+       "erkl": "Er ist vor zwei Wochen zurückgetreten. Am Montag ist er zurückgekommen."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die Aktie von Nvidia ist gestiegen.",
+       "richtig": true
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wer hat Nvidia gegründet?",
+         "Jensen Huang"
+        ],
+        [
+         "Wann ist Huang zurückgekommen?",
+         "am Montag"
+        ],
+        [
+         "Wer hat die Rückkehr öffentlich gefordert?",
+         "Donald Trump"
+        ],
+        [
+         "Wie haben die Mitarbeiter reagiert?",
+         "mit Jubel"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Darf ein Chef nach einem Skandal zurückkommen? Warum (nicht)?",
+      "Sollen Politiker bei Firmen mitreden?",
+      "Wärst du lieber Chef oder Mitarbeiter?"
+     ],
+     "uebungen": [
+      {
+       "typ": "fehler",
+       "titel": "Satzbau mit weil und dass",
+       "anweisung": "Ein Wort steht an der falschen Stelle.",
+       "items": [
+        {
+         "woerter": [
+          "Die",
+          "Mitarbeiter",
+          "jubeln,",
+          "weil",
+          "Huang",
+          "ist",
+          "zurück."
+         ],
+         "fehler": 5,
+         "korrektur": "…, weil Huang zurück ist.",
+         "erkl": "Nach weil steht das Verb am Ende."
+        },
+        {
+         "woerter": [
+          "Trump",
+          "sagt,",
+          "dass",
+          "er",
+          "hat",
+          "geholfen."
+         ],
+         "fehler": 4,
+         "korrektur": "…, dass er geholfen hat.",
+         "erkl": "Nach dass steht das Verb am Ende."
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Perfekt",
+       "anweisung": "Bilde das Partizip.",
+       "items": [
+        {
+         "text": "Huang hat Nvidia ___. (gründen)",
+         "loesung": [
+          "gegründet"
+         ]
+        },
+        {
+         "text": "Die Aktie ist ___. (steigen)",
+         "loesung": [
+          "gestiegen"
+         ]
+        },
+        {
+         "text": "Viele Mitarbeiter haben ___. (jubeln)",
+         "loesung": [
+          "gejubelt"
+         ]
+        },
+        {
+         "text": "Huang ist ___. (zurücktreten)",
+         "loesung": [
+          "zurückgetreten"
+         ]
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Adjektiv → Nomen",
+       "anweisung": "Bilde das Nomen.",
+       "regel": "Wiederholung (17.11.): schwierig → die Schwierigkeit, wahrscheinlich → die Wahrscheinlichkeit. Nomen auf -heit/-keit sind immer feminin (die).",
+       "items": [
+        {
+         "text": "möglich → die ___",
+         "loesung": [
+          "Möglichkeit"
+         ]
+        },
+        {
+         "text": "sicher → die ___",
+         "loesung": [
+          "Sicherheit"
+         ]
+        },
+        {
+         "text": "schwierig → die ___",
+         "loesung": [
+          "Schwierigkeit"
+         ]
+        },
+        {
+         "text": "wahrscheinlich → die ___",
+         "loesung": [
+          "Wahrscheinlichkeit"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Wissenschaft",
+     "titel": "Ariane 6: Der Start ist verschoben",
+     "text": "Die europäische Rakete Ariane 6 sollte am Montag starten. Sie sollte 36 Satelliten von Amazon ins All bringen. Mit diesen Satelliten will Amazon Internet aus dem Weltraum anbieten.\n\nDer Start war in Kourou in Französisch-Guayana geplant. Aber während des Countdowns gab es ein technisches Problem am Boden. Deswegen hat die Firma Arianespace den Countdown gestoppt. Die Rakete und die Satelliten sind sicher.\n\nDer neue Termin ist Dienstag. Es ist der zehnte Flug der Ariane 6.",
+     "vokabeln": [
+      {
+       "de": "die Rakete",
+       "im_text": "Rakete",
+       "erkl": "ein Fahrzeug, das ins All fliegt"
+      },
+      {
+       "de": "der Satellit",
+       "im_text": "Satelliten",
+       "erkl": "ein Gerät, das um die Erde fliegt"
+      },
+      {
+       "de": "der Weltraum",
+       "im_text": "Weltraum",
+       "erkl": "der Raum außerhalb der Erde, mit Sternen und Planeten"
+      },
+      {
+       "de": "anbieten",
+       "im_text": "anbieten",
+       "erkl": "etwas für andere Menschen bereitstellen"
+      },
+      {
+       "de": "der Countdown",
+       "im_text": "Countdown",
+       "erkl": "man zählt rückwärts bis zum Start"
+      },
+      {
+       "de": "stoppen",
+       "im_text": "gestoppt",
+       "erkl": "anhalten, beenden"
+      },
+      {
+       "de": "der Termin",
+       "im_text": "Termin",
+       "erkl": "ein fester Tag und eine feste Zeit"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wie viele Satelliten soll die Rakete ins All bringen?",
+       "optionen": [
+        "6",
+        "36",
+        "100"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die Rakete ist am Montag gestartet.",
+       "richtig": false,
+       "erkl": "Arianespace hat den Countdown gestoppt."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die Rakete ist kaputt.",
+       "richtig": false,
+       "erkl": "Die Rakete und die Satelliten sind sicher."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wo sollte die Rakete starten?",
+         "in Kourou"
+        ],
+        [
+         "Was will Amazon anbieten?",
+         "Internet aus dem Weltraum"
+        ],
+        [
+         "Wann ist der neue Termin?",
+         "am Dienstag"
+        ],
+        [
+         "Wo gab es das Problem?",
+         "am Boden"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Brauchen wir Internet aus dem Weltraum? Wofür?",
+      "Würdest du gern einmal ins All fliegen?",
+      "Sollte Europa mehr Geld für Raumfahrt ausgeben?"
+     ],
+     "uebungen": [
+      {
+       "typ": "fehler",
+       "titel": "Satzbau mit weil und dass",
+       "anweisung": "Ein Wort steht an der falschen Stelle.",
+       "items": [
+        {
+         "woerter": [
+          "Ich",
+          "glaube,",
+          "dass",
+          "die",
+          "Rakete",
+          "startet",
+          "am",
+          "Dienstag."
+         ],
+         "fehler": 5,
+         "korrektur": "…, dass die Rakete am Dienstag startet.",
+         "erkl": "Nach dass steht das Verb am Ende."
+        },
+        {
+         "woerter": [
+          "Der",
+          "Start",
+          "ist",
+          "später,",
+          "weil",
+          "es",
+          "gibt",
+          "ein",
+          "Problem."
+         ],
+         "fehler": 6,
+         "korrektur": "…, weil es ein Problem gibt.",
+         "erkl": "Nach weil steht das Verb am Ende."
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Perfekt",
+       "anweisung": "Bilde das Partizip.",
+       "items": [
+        {
+         "text": "Arianespace hat den Countdown ___. (stoppen)",
+         "loesung": [
+          "gestoppt"
+         ]
+        },
+        {
+         "text": "Die Rakete ist nicht ___. (starten)",
+         "loesung": [
+          "gestartet"
+         ]
+        },
+        {
+         "text": "Es hat ein Problem ___. (geben)",
+         "loesung": [
+          "gegeben"
+         ]
+        }
+       ]
+      },
+      {
+       "typ": "zuordnen",
+       "titel": "Verb → Nomen",
+       "anweisung": "Finde die Paare.",
+       "regel": "Wiederholung (17.11.): korrigieren → die Korrektur, bestellen → die Bestellung.",
+       "paare": [
+        [
+         "versuchen",
+         "der Versuch"
+        ],
+        [
+         "korrigieren",
+         "die Korrektur"
+        ],
+        [
+         "bestellen",
+         "die Bestellung"
+        ],
+        [
+         "starten",
+         "der Start"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Reisen",
+     "titel": "Thanksgiving: Millionen Amerikaner reisen",
+     "text": "In den USA ist am Donnerstag Thanksgiving. An diesem Feiertag essen viele Familien zusammen, oft gibt es Truthahn.\n\nViele Menschen fahren deshalb zu ihrer Familie. Der Autoklub AAA glaubt, dass vom 24. bis 30. November etwa 81,5 Millionen Amerikaner reisen. Das sind ein bisschen weniger als letztes Jahr.\n\nDie meisten fahren mit dem Auto: fast 73 Millionen. Etwa 6 Millionen Menschen fliegen. Fliegen ist aber teurer geworden: Ein Flug kostet im Durchschnitt 17 Prozent mehr. Auch das Benzin ist teurer als letztes Jahr.",
+     "vokabeln": [
+      {
+       "de": "der Feiertag",
+       "im_text": "Feiertag",
+       "erkl": "ein Tag, an dem viele nicht arbeiten, zum Beispiel Weihnachten"
+      },
+      {
+       "de": "der Truthahn",
+       "im_text": "Truthahn",
+       "erkl": "ein großer Vogel; man isst ihn zu Thanksgiving"
+      },
+      {
+       "de": "reisen",
+       "im_text": "reisen",
+       "erkl": "an einen anderen Ort fahren oder fliegen"
+      },
+      {
+       "de": "weniger",
+       "im_text": "weniger",
+       "erkl": "nicht so viel"
+      },
+      {
+       "de": "im Durchschnitt",
+       "im_text": "Durchschnitt",
+       "erkl": "normalerweise, wenn man alles zusammenrechnet"
+      },
+      {
+       "de": "das Benzin",
+       "im_text": "Benzin",
+       "erkl": "das braucht ein Auto zum Fahren"
+      },
+      {
+       "de": "teuer",
+       "im_text": "teurer",
+       "erkl": "es kostet viel Geld"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wann ist Thanksgiving?",
+       "optionen": [
+        "am Montag",
+        "am Donnerstag",
+        "am Sonntag"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "mc",
+       "frage": "Wie reisen die meisten Menschen?",
+       "optionen": [
+        "mit dem Zug",
+        "mit dem Flugzeug",
+        "mit dem Auto"
+       ],
+       "richtig": 2
+      },
+      {
+       "typ": "rf",
+       "aussage": "Dieses Jahr reisen mehr Menschen als letztes Jahr.",
+       "richtig": false,
+       "erkl": "Es sind ein bisschen weniger."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Fliegen ist billiger geworden.",
+       "richtig": false,
+       "erkl": "Ein Flug kostet im Durchschnitt 17 Prozent mehr."
+      },
+      {
+       "typ": "offen",
+       "frage": "Was essen viele Familien zu Thanksgiving?",
+       "loesung": "Oft essen sie Truthahn."
+      }
+     ],
+     "diskussion": [
+      "Welcher Feiertag ist für deine Familie besonders wichtig?",
+      "Reist du an Feiertagen lieber mit dem Auto, mit dem Zug oder mit dem Flugzeug?",
+      "Warst du schon einmal in den USA? Was hat dich überrascht?"
+     ],
+     "uebungen": [
+      {
+       "typ": "fehler",
+       "titel": "Satzbau mit weil und dass",
+       "anweisung": "Ein Wort steht an der falschen Stelle.",
+       "items": [
+        {
+         "woerter": [
+          "Viele",
+          "fahren",
+          "mit",
+          "dem",
+          "Auto,",
+          "weil",
+          "Fliegen",
+          "ist",
+          "teuer."
+         ],
+         "fehler": 7,
+         "korrektur": "…, weil Fliegen teuer ist.",
+         "erkl": "Nach weil steht das Verb am Ende."
+        },
+        {
+         "woerter": [
+          "Ich",
+          "weiß,",
+          "dass",
+          "Thanksgiving",
+          "ist",
+          "am",
+          "Donnerstag."
+         ],
+         "fehler": 4,
+         "korrektur": "…, dass Thanksgiving am Donnerstag ist.",
+         "erkl": "Nach dass steht das Verb am Ende."
+        }
+       ]
+      },
+      {
+       "typ": "zuordnen",
+       "titel": "Gegenteile",
+       "anweisung": "Finde die Paare.",
+       "regel": "Wiederholung (17.11.): teuer ↔ billig.",
+       "paare": [
+        [
+         "teuer",
+         "billig"
+        ],
+        [
+         "mehr",
+         "weniger"
+        ],
+        [
+         "zusammen",
+         "allein"
+        ],
+        [
+         "schnell",
+         "langsam"
+        ]
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Perfekt",
+       "anweisung": "Bilde das Partizip.",
+       "items": [
+        {
+         "text": "Wir sind zu Oma ___. (fahren)",
+         "loesung": [
+          "gefahren"
+         ]
+        },
+        {
+         "text": "Ich habe Truthahn ___. (essen)",
+         "loesung": [
+          "gegessen"
+         ]
+        },
+        {
+         "text": "Mein Vater ist nach Chicago ___. (fliegen)",
+         "loesung": [
+          "geflogen"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Sport",
+     "titel": "Champions League: Arsenal gegen Dortmund",
+     "text": "Heute Abend geht die Champions League weiter. Es ist schon der fünfte Spieltag. Das größte Spiel ist Arsenal gegen Borussia Dortmund in London. Dortmund ist gerade Tabellenführer in der deutschen Bundesliga.\n\nAuch Real Madrid spielt heute, gegen PSV Eindhoven. Manchester City trifft auf Napoli aus Italien. Ein Team aus Österreich ist auch dabei: Der LASK aus Linz spielt in Norwegen gegen Bodø/Glimt.\n\nAm Mittwoch gibt es noch mehr Spiele. Viele Fans schauen die Spiele im Fernsehen oder im Stream.",
+     "vokabeln": [
+      {
+       "de": "der Spieltag",
+       "im_text": "Spieltag",
+       "erkl": "eine Runde, in der viele Teams spielen"
+      },
+      {
+       "de": "der Tabellenführer",
+       "im_text": "Tabellenführer",
+       "erkl": "das Team auf Platz 1"
+      },
+      {
+       "de": "auf jemanden treffen",
+       "im_text": "trifft",
+       "erkl": "gegen jemanden spielen"
+      },
+      {
+       "de": "dabei sein",
+       "im_text": "dabei",
+       "erkl": "mitmachen, auch da sein"
+      },
+      {
+       "de": "der Fan",
+       "im_text": "Fans",
+       "erkl": "eine Person, die ein Team sehr mag"
+      },
+      {
+       "de": "der Stream",
+       "im_text": "Stream",
+       "erkl": "ein Video, das man live im Internet sieht"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wo spielt Dortmund heute?",
+       "optionen": [
+        "in Dortmund",
+        "in London",
+        "in Madrid"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Der LASK spielt heute zu Hause in Linz.",
+       "richtig": false,
+       "erkl": "Er spielt in Norwegen."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Real Madrid spielt gegen PSV Eindhoven.",
+       "richtig": true
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Welcher Spieltag ist es?",
+         "der fünfte"
+        ],
+        [
+         "Gegen wen spielt Manchester City?",
+         "gegen Napoli"
+        ],
+        [
+         "Woher kommt der LASK?",
+         "aus Linz"
+        ],
+        [
+         "Wann gibt es noch mehr Spiele?",
+         "am Mittwoch"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Für welches Team bist du heute Abend?",
+      "Schaust du Fußball lieber im Stadion oder zu Hause?",
+      "Welches Spiel ist für dich diese Woche am spannendsten?"
+     ],
+     "uebungen": [
+      {
+       "typ": "fehler",
+       "titel": "Satzbau mit weil und dass",
+       "anweisung": "Ein Wort steht an der falschen Stelle.",
+       "items": [
+        {
+         "woerter": [
+          "Ich",
+          "glaube,",
+          "dass",
+          "Arsenal",
+          "wird",
+          "gewinnen."
+         ],
+         "fehler": 4,
+         "korrektur": "…, dass Arsenal gewinnen wird.",
+         "erkl": "Nach dass steht das Verb am Ende."
+        },
+        {
+         "woerter": [
+          "Ich",
+          "schaue",
+          "das",
+          "Spiel,",
+          "weil",
+          "ich",
+          "mag",
+          "Fußball."
+         ],
+         "fehler": 6,
+         "korrektur": "…, weil ich Fußball mag.",
+         "erkl": "Nach weil steht das Verb am Ende."
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Perfekt",
+       "anweisung": "Bilde das Partizip.",
+       "items": [
+        {
+         "text": "Dortmund hat am Wochenende ___. (gewinnen)",
+         "loesung": [
+          "gewonnen"
+         ]
+        },
+        {
+         "text": "Die Fans sind nach London ___. (fahren)",
+         "loesung": [
+          "gefahren"
+         ]
+        },
+        {
+         "text": "Ich habe das Spiel im Stream ___. (sehen)",
+         "loesung": [
+          "gesehen"
+         ]
+        }
+       ]
+      },
+      {
+       "typ": "zuordnen",
+       "titel": "Gegenteile",
+       "anweisung": "Finde die Paare.",
+       "regel": "Wiederholung (17.11.): langweilig.",
+       "paare": [
+        [
+         "gewinnen",
+         "verlieren"
+        ],
+        [
+         "zu Hause",
+         "auswärts"
+        ],
+        [
+         "spannend",
+         "langweilig"
+        ],
+        [
+         "stark",
+         "schwach"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Natur",
+     "titel": "Heute Nacht: der Bibermond",
+     "text": "Heute, am Dienstag, ist Vollmond. Dann sieht man den Mond als runde, helle Scheibe am Himmel. Im November nennt man den Vollmond in Nordamerika oft „Bibermond“. Viele erklären den Namen so: Im November bauen die Biber ihre Burgen für den Winter.\n\nVon einem Vollmond bis zum nächsten dauert es etwa 29,5 Tage. Deshalb gibt es ungefähr jeden Monat einen Vollmond. Der Mond leuchtet übrigens nicht selbst. Er reflektiert das Licht der Sonne.\n\nWenn der Himmel heute Nacht klar ist, kann man den Mond sehr gut sehen.",
+     "vokabeln": [
+      {
+       "de": "der Vollmond",
+       "im_text": "Vollmond",
+       "erkl": "man sieht den ganzen Mond, rund und hell"
+      },
+      {
+       "de": "die Scheibe",
+       "im_text": "Scheibe",
+       "erkl": "eine flache, runde Form"
+      },
+      {
+       "de": "der Biber",
+       "im_text": "Biber",
+       "erkl": "ein Tier mit großen Zähnen; es baut Häuser aus Holz im Wasser"
+      },
+      {
+       "de": "ungefähr",
+       "im_text": "ungefähr",
+       "erkl": "nicht genau, etwa"
+      },
+      {
+       "de": "leuchten",
+       "im_text": "leuchtet",
+       "erkl": "Licht geben"
+      },
+      {
+       "de": "reflektieren",
+       "im_text": "reflektiert",
+       "erkl": "Licht zurückschicken wie ein Spiegel"
+      },
+      {
+       "de": "klar",
+       "im_text": "klar",
+       "erkl": "hier: ohne Wolken"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wann ist Vollmond?",
+       "optionen": [
+        "am Montag",
+        "am Dienstag",
+        "am Freitag"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Der Mond leuchtet selbst.",
+       "richtig": false,
+       "erkl": "Er reflektiert das Licht der Sonne."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Ungefähr jeden Monat gibt es einen Vollmond.",
+       "richtig": true
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wie heißt der Vollmond im November in Nordamerika?",
+         "Bibermond"
+        ],
+        [
+         "Wie lange dauert es bis zum nächsten Vollmond?",
+         "etwa 29,5 Tage"
+        ],
+        [
+         "Welches Licht reflektiert der Mond?",
+         "das Licht der Sonne"
+        ],
+        [
+         "Wann sieht man den Mond gut?",
+         "wenn der Himmel klar ist"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Schaust du manchmal in der Nacht den Mond oder die Sterne an?",
+      "Glaubst du, dass der Vollmond Menschen beeinflusst, zum Beispiel beim Schlafen?",
+      "Möchtest du einmal mit einem Teleskop den Mond ansehen?"
+     ],
+     "uebungen": [
+      {
+       "typ": "fehler",
+       "titel": "Satzbau mit wenn und dass",
+       "anweisung": "Ein Wort steht an der falschen Stelle.",
+       "items": [
+        {
+         "woerter": [
+          "Man",
+          "sieht",
+          "den",
+          "Mond",
+          "gut,",
+          "wenn",
+          "der",
+          "Himmel",
+          "ist",
+          "klar."
+         ],
+         "fehler": 8,
+         "korrektur": "…, wenn der Himmel klar ist.",
+         "erkl": "Nach wenn steht das Verb am Ende."
+        },
+        {
+         "woerter": [
+          "Ich",
+          "weiß,",
+          "dass",
+          "der",
+          "Mond",
+          "leuchtet",
+          "nicht",
+          "selbst."
+         ],
+         "fehler": 5,
+         "korrektur": "…, dass der Mond nicht selbst leuchtet.",
+         "erkl": "Nach dass steht das Verb am Ende."
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Mathe mit dem Mond",
+       "anweisung": "Rechne und schreib die Zahl.",
+       "items": [
+        {
+         "text": "Von einem Vollmond bis zum übernächsten dauert es etwa ___ Tage. (2 × 29,5)",
+         "loesung": [
+          "59"
+         ]
+        },
+        {
+         "text": "365 Tage : 29,5 ≈ ___ – so viele Vollmonde gibt es meistens in einem Jahr.",
+         "loesung": [
+          "12",
+          "zwölf"
+         ]
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Perfekt",
+       "anweisung": "Bilde das Partizip.",
+       "regel": "Wiederholung (17.11.): mit dem Hund hinausgehen → wir sind hinausgegangen.",
+       "items": [
+        {
+         "text": "Ich habe den Mond ___. (sehen)",
+         "loesung": [
+          "gesehen"
+         ]
+        },
+        {
+         "text": "Der Biber hat ein Haus ___. (bauen)",
+         "loesung": [
+          "gebaut"
+         ]
+        },
+        {
+         "text": "Wir sind mit dem Hund ___. (hinausgehen)",
+         "loesung": [
+          "hinausgegangen"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
    "datum": "2026-11-23",
    "nachrichten": [
     {

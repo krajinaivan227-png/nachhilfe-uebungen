@@ -4,6 +4,901 @@ window.NACHRICHTEN = {
  "spiel": false,
  "tage": [
   {
+   "datum": "2026-11-24",
+   "nachrichten": [
+    {
+     "kategorie": "Wirtschaft",
+     "titel": "Nvidia: Der alte Chef kommt zurück",
+     "text": "Jensen Huang hat die Firma Nvidia gegründet. Nvidia baut Computerchips, zum Beispiel für künstliche Intelligenz. Vor etwa zwei Wochen ist Huang nach einem Skandal als Chef zurückgetreten.\n\nAm 17. November hat die Firmenleitung noch gesagt: Huang kommt nicht zurück. Aber am Montag hat Nvidia ihn doch wieder zum Chef gemacht. US-Präsident Donald Trump hat das öffentlich gefordert. Er sagt jetzt, dass er geholfen hat.\n\nViele Mitarbeiter haben Huang mit Jubel begrüßt. Auch die Aktie von Nvidia ist gestiegen. Aber es gibt noch Untersuchungen.",
+     "vokabeln": [
+      {
+       "de": "gründen",
+       "im_text": "gegründet",
+       "erkl": "eine Firma neu starten"
+      },
+      {
+       "de": "zurücktreten",
+       "im_text": "zurückgetreten",
+       "erkl": "seine Stelle freiwillig verlassen"
+      },
+      {
+       "de": "öffentlich",
+       "im_text": "öffentlich",
+       "erkl": "so, dass alle es hören oder sehen können"
+      },
+      {
+       "de": "fordern",
+       "im_text": "gefordert",
+       "erkl": "deutlich sagen, dass man etwas will"
+      },
+      {
+       "de": "der Jubel",
+       "im_text": "Jubel",
+       "erkl": "lautes, frohes Rufen"
+      },
+      {
+       "de": "die Aktie",
+       "im_text": "Aktie",
+       "erkl": "ein kleiner Teil einer Firma; man kann ihn kaufen"
+      },
+      {
+       "de": "die Untersuchung",
+       "im_text": "Untersuchungen",
+       "erkl": "man prüft genau, was passiert ist"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Was baut Nvidia?",
+       "optionen": [
+        "Autos",
+        "Computerchips",
+        "Handys"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Huang ist am Montag zurückgetreten.",
+       "richtig": false,
+       "erkl": "Er ist vor zwei Wochen zurückgetreten. Am Montag ist er zurückgekommen."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die Aktie von Nvidia ist gestiegen.",
+       "richtig": true
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wer hat Nvidia gegründet?",
+         "Jensen Huang"
+        ],
+        [
+         "Wann ist Huang zurückgekommen?",
+         "am Montag"
+        ],
+        [
+         "Wer hat die Rückkehr öffentlich gefordert?",
+         "Donald Trump"
+        ],
+        [
+         "Wie haben die Mitarbeiter reagiert?",
+         "mit Jubel"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Darf ein Chef nach einem Skandal zurückkommen? Warum (nicht)?",
+      "Sollen Politiker bei Firmen mitreden?",
+      "Wärst du lieber Chef oder Mitarbeiter?"
+     ],
+     "uebungen": [
+      {
+       "typ": "fehler",
+       "titel": "Verb auf Position 2",
+       "anweisung": "Ein Wort steht an der falschen Stelle.",
+       "items": [
+        {
+         "woerter": [
+          "Ab",
+          "sofort",
+          "Huang",
+          "ist",
+          "wieder",
+          "Chef."
+         ],
+         "fehler": 3,
+         "korrektur": "Ab sofort ist Huang wieder Chef.",
+         "erkl": "Nach „ab sofort“ steht das Verb auf Position 2."
+        },
+        {
+         "woerter": [
+          "Hoffentlich",
+          "die",
+          "Aktie",
+          "steigt",
+          "weiter."
+         ],
+         "fehler": 3,
+         "korrektur": "Hoffentlich steigt die Aktie weiter.",
+         "erkl": "Nach „hoffentlich“ steht das Verb auf Position 2."
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "dass-Sätze",
+       "anweisung": "Ergänze das Verb.",
+       "regel": "Wiederholung (20.11.): Ich würde sagen, dass … / sich freuen, dass … – im dass-Satz steht das Verb am Ende.",
+       "items": [
+        {
+         "text": "Trump sagt, dass er ___. (helfen, Perfekt)",
+         "loesung": [
+          "geholfen hat"
+         ]
+        },
+        {
+         "text": "Die Mitarbeiter freuen sich, dass Huang wieder Chef ___. (sein)",
+         "loesung": [
+          "ist"
+         ]
+        },
+        {
+         "text": "Ich würde sagen, dass das eine gute Nachricht ___. (sein)",
+         "loesung": [
+          "ist"
+         ]
+        }
+       ]
+      },
+      {
+       "typ": "zuordnen",
+       "titel": "Gegenteile",
+       "anweisung": "Finde die Paare.",
+       "paare": [
+        [
+         "steigen",
+         "fallen"
+        ],
+        [
+         "öffentlich",
+         "geheim"
+        ],
+        [
+         "froh",
+         "traurig"
+        ],
+        [
+         "zurückkommen",
+         "weggehen"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Wissenschaft",
+     "titel": "Ariane 6: Der Start ist verschoben",
+     "text": "Die europäische Rakete Ariane 6 sollte am Montag starten. Sie sollte 36 Satelliten von Amazon ins All bringen. Mit diesen Satelliten will Amazon Internet aus dem Weltraum anbieten.\n\nDer Start war in Kourou in Französisch-Guayana geplant. Aber während des Countdowns gab es ein technisches Problem am Boden. Deswegen hat die Firma Arianespace den Countdown gestoppt. Die Rakete und die Satelliten sind sicher.\n\nDer neue Termin ist Dienstag. Es ist der zehnte Flug der Ariane 6.",
+     "vokabeln": [
+      {
+       "de": "die Rakete",
+       "im_text": "Rakete",
+       "erkl": "ein Fahrzeug, das ins All fliegt"
+      },
+      {
+       "de": "der Satellit",
+       "im_text": "Satelliten",
+       "erkl": "ein Gerät, das um die Erde fliegt"
+      },
+      {
+       "de": "der Weltraum",
+       "im_text": "Weltraum",
+       "erkl": "der Raum außerhalb der Erde, mit Sternen und Planeten"
+      },
+      {
+       "de": "anbieten",
+       "im_text": "anbieten",
+       "erkl": "etwas für andere Menschen bereitstellen"
+      },
+      {
+       "de": "der Countdown",
+       "im_text": "Countdown",
+       "erkl": "man zählt rückwärts bis zum Start"
+      },
+      {
+       "de": "stoppen",
+       "im_text": "gestoppt",
+       "erkl": "anhalten, beenden"
+      },
+      {
+       "de": "der Termin",
+       "im_text": "Termin",
+       "erkl": "ein fester Tag und eine feste Zeit"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wie viele Satelliten soll die Rakete ins All bringen?",
+       "optionen": [
+        "6",
+        "36",
+        "100"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die Rakete ist am Montag gestartet.",
+       "richtig": false,
+       "erkl": "Arianespace hat den Countdown gestoppt."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die Rakete ist kaputt.",
+       "richtig": false,
+       "erkl": "Die Rakete und die Satelliten sind sicher."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wo sollte die Rakete starten?",
+         "in Kourou"
+        ],
+        [
+         "Was will Amazon anbieten?",
+         "Internet aus dem Weltraum"
+        ],
+        [
+         "Wann ist der neue Termin?",
+         "am Dienstag"
+        ],
+        [
+         "Wo gab es das Problem?",
+         "am Boden"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Brauchen wir Internet aus dem Weltraum? Wofür?",
+      "Würdest du gern einmal ins All fliegen?",
+      "Sollte Europa mehr Geld für Raumfahrt ausgeben?"
+     ],
+     "uebungen": [
+      {
+       "typ": "auswahl",
+       "titel": "um … zu",
+       "anweisung": "Wähle das richtige Wort.",
+       "regel": "um … zu + Infinitiv am Ende.",
+       "items": [
+        {
+         "text": "Amazon baut Satelliten, ___ Internet aus dem Weltraum anzubieten.",
+         "optionen": [
+          "um",
+          "dass",
+          "weil"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Die Rakete fliegt ins All, um die Satelliten dorthin zu ___.",
+         "optionen": [
+          "bringt",
+          "bringen",
+          "gebracht"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Ich warte bis Dienstag, um den Start zu ___.",
+         "optionen": [
+          "sehe",
+          "gesehen",
+          "sehen"
+         ],
+         "richtig": 2
+        }
+       ]
+      },
+      {
+       "typ": "fehler",
+       "titel": "Verb auf Position 2",
+       "anweisung": "Ein Wort steht an der falschen Stelle.",
+       "items": [
+        {
+         "woerter": [
+          "Dann",
+          "die",
+          "Rakete",
+          "startet",
+          "am",
+          "Dienstag."
+         ],
+         "fehler": 3,
+         "korrektur": "Dann startet die Rakete am Dienstag.",
+         "erkl": "Nach „dann“ steht das Verb auf Position 2."
+        },
+        {
+         "woerter": [
+          "Hoffentlich",
+          "alles",
+          "funktioniert",
+          "morgen."
+         ],
+         "fehler": 2,
+         "korrektur": "Hoffentlich funktioniert alles morgen.",
+         "erkl": "Nach „hoffentlich“ steht das Verb auf Position 2."
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Wortbildung mit -bar",
+       "anweisung": "Bilde das Adjektiv.",
+       "regel": "Wiederholung (20.11.): machen → machbar, erreichen → erreichbar.",
+       "items": [
+        {
+         "text": "Man kann die Rakete reparieren. → Die Rakete ist ___.",
+         "loesung": [
+          "reparierbar"
+         ]
+        },
+        {
+         "text": "Man kann das Internet überall erreichen. → Das Internet ist überall ___.",
+         "loesung": [
+          "erreichbar"
+         ]
+        },
+        {
+         "text": "Man kann den Start machen. → Der Start ist ___.",
+         "loesung": [
+          "machbar"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Reisen",
+     "titel": "Thanksgiving: Millionen Amerikaner reisen",
+     "text": "In den USA ist am Donnerstag Thanksgiving. An diesem Feiertag essen viele Familien zusammen, oft gibt es Truthahn.\n\nViele Menschen fahren deshalb zu ihrer Familie. Der Autoklub AAA glaubt, dass vom 24. bis 30. November etwa 81,5 Millionen Amerikaner reisen. Das sind ein bisschen weniger als letztes Jahr.\n\nDie meisten fahren mit dem Auto: fast 73 Millionen. Etwa 6 Millionen Menschen fliegen. Fliegen ist aber teurer geworden: Ein Flug kostet im Durchschnitt 17 Prozent mehr. Auch das Benzin ist teurer als letztes Jahr.",
+     "vokabeln": [
+      {
+       "de": "der Feiertag",
+       "im_text": "Feiertag",
+       "erkl": "ein Tag, an dem viele nicht arbeiten, zum Beispiel Weihnachten"
+      },
+      {
+       "de": "der Truthahn",
+       "im_text": "Truthahn",
+       "erkl": "ein großer Vogel; man isst ihn zu Thanksgiving"
+      },
+      {
+       "de": "reisen",
+       "im_text": "reisen",
+       "erkl": "an einen anderen Ort fahren oder fliegen"
+      },
+      {
+       "de": "weniger",
+       "im_text": "weniger",
+       "erkl": "nicht so viel"
+      },
+      {
+       "de": "im Durchschnitt",
+       "im_text": "Durchschnitt",
+       "erkl": "normalerweise, wenn man alles zusammenrechnet"
+      },
+      {
+       "de": "das Benzin",
+       "im_text": "Benzin",
+       "erkl": "das braucht ein Auto zum Fahren"
+      },
+      {
+       "de": "teuer",
+       "im_text": "teurer",
+       "erkl": "es kostet viel Geld"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wann ist Thanksgiving?",
+       "optionen": [
+        "am Montag",
+        "am Donnerstag",
+        "am Sonntag"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "mc",
+       "frage": "Wie reisen die meisten Menschen?",
+       "optionen": [
+        "mit dem Zug",
+        "mit dem Flugzeug",
+        "mit dem Auto"
+       ],
+       "richtig": 2
+      },
+      {
+       "typ": "rf",
+       "aussage": "Dieses Jahr reisen mehr Menschen als letztes Jahr.",
+       "richtig": false,
+       "erkl": "Es sind ein bisschen weniger."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Fliegen ist billiger geworden.",
+       "richtig": false,
+       "erkl": "Ein Flug kostet im Durchschnitt 17 Prozent mehr."
+      },
+      {
+       "typ": "offen",
+       "frage": "Was essen viele Familien zu Thanksgiving?",
+       "loesung": "Oft essen sie Truthahn."
+      }
+     ],
+     "diskussion": [
+      "Welcher Feiertag ist für deine Familie besonders wichtig?",
+      "Reist du an Feiertagen lieber mit dem Auto, mit dem Zug oder mit dem Flugzeug?",
+      "Warst du schon einmal in den USA? Was hat dich überrascht?"
+     ],
+     "uebungen": [
+      {
+       "typ": "eingabe",
+       "titel": "dass-Sätze",
+       "anweisung": "Ergänze das Verb.",
+       "regel": "Im dass-Satz steht das Verb am Ende.",
+       "items": [
+        {
+         "text": "AAA glaubt, dass 81,5 Millionen Menschen ___. (reisen)",
+         "loesung": [
+          "reisen"
+         ]
+        },
+        {
+         "text": "Ich weiß, dass Fliegen teuer ___. (sein)",
+         "loesung": [
+          "ist"
+         ]
+        },
+        {
+         "text": "Ich glaube, dass die Familie Truthahn ___. (essen)",
+         "loesung": [
+          "isst"
+         ]
+        }
+       ]
+      },
+      {
+       "typ": "fehler",
+       "titel": "Verb auf Position 2",
+       "anweisung": "Ein Wort steht an der falschen Stelle.",
+       "items": [
+        {
+         "woerter": [
+          "Ab",
+          "Mittwoch",
+          "viele",
+          "Menschen",
+          "fahren",
+          "zur",
+          "Familie."
+         ],
+         "fehler": 4,
+         "korrektur": "Ab Mittwoch fahren viele Menschen zur Familie.",
+         "erkl": "Nach „ab Mittwoch“ steht das Verb auf Position 2."
+        },
+        {
+         "woerter": [
+          "Dann",
+          "wir",
+          "essen",
+          "Truthahn."
+         ],
+         "fehler": 2,
+         "korrektur": "Dann essen wir Truthahn.",
+         "erkl": "Nach „dann“ steht das Verb auf Position 2."
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Wörter aus der Stunde",
+       "anweisung": "Ergänze das Wort.",
+       "regel": "Wiederholung (20.11.): Trinkgeld geben, bestellen, sich freuen.",
+       "items": [
+        {
+         "text": "In den USA gibt man im Restaurant oft 20 Prozent ___.",
+         "loesung": [
+          "Trinkgeld"
+         ]
+        },
+        {
+         "text": "Ich ___ eine Pizza. (bestellen)",
+         "loesung": [
+          "bestelle"
+         ]
+        },
+        {
+         "text": "Ich ___ mich auf Thanksgiving. (sich freuen)",
+         "loesung": [
+          "freue"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Sport",
+     "titel": "Champions League: Arsenal gegen Dortmund",
+     "text": "Heute Abend geht die Champions League weiter. Es ist schon der fünfte Spieltag. Das größte Spiel ist Arsenal gegen Borussia Dortmund in London. Dortmund ist gerade Tabellenführer in der deutschen Bundesliga.\n\nAuch Real Madrid spielt heute, gegen PSV Eindhoven. Manchester City trifft auf Napoli aus Italien. Ein Team aus Österreich ist auch dabei: Der LASK aus Linz spielt in Norwegen gegen Bodø/Glimt.\n\nAm Mittwoch gibt es noch mehr Spiele. Viele Fans schauen die Spiele im Fernsehen oder im Stream.",
+     "vokabeln": [
+      {
+       "de": "der Spieltag",
+       "im_text": "Spieltag",
+       "erkl": "eine Runde, in der viele Teams spielen"
+      },
+      {
+       "de": "der Tabellenführer",
+       "im_text": "Tabellenführer",
+       "erkl": "das Team auf Platz 1"
+      },
+      {
+       "de": "auf jemanden treffen",
+       "im_text": "trifft",
+       "erkl": "gegen jemanden spielen"
+      },
+      {
+       "de": "dabei sein",
+       "im_text": "dabei",
+       "erkl": "mitmachen, auch da sein"
+      },
+      {
+       "de": "der Fan",
+       "im_text": "Fans",
+       "erkl": "eine Person, die ein Team sehr mag"
+      },
+      {
+       "de": "der Stream",
+       "im_text": "Stream",
+       "erkl": "ein Video, das man live im Internet sieht"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wo spielt Dortmund heute?",
+       "optionen": [
+        "in Dortmund",
+        "in London",
+        "in Madrid"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Der LASK spielt heute zu Hause in Linz.",
+       "richtig": false,
+       "erkl": "Er spielt in Norwegen."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Real Madrid spielt gegen PSV Eindhoven.",
+       "richtig": true
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Welcher Spieltag ist es?",
+         "der fünfte"
+        ],
+        [
+         "Gegen wen spielt Manchester City?",
+         "gegen Napoli"
+        ],
+        [
+         "Woher kommt der LASK?",
+         "aus Linz"
+        ],
+        [
+         "Wann gibt es noch mehr Spiele?",
+         "am Mittwoch"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Für welches Team bist du heute Abend?",
+      "Schaust du Fußball lieber im Stadion oder zu Hause?",
+      "Welches Spiel ist für dich diese Woche am spannendsten?"
+     ],
+     "uebungen": [
+      {
+       "typ": "fehler",
+       "titel": "Verb auf Position 2",
+       "anweisung": "Ein Wort steht an der falschen Stelle.",
+       "items": [
+        {
+         "woerter": [
+          "Heute",
+          "Abend",
+          "Arsenal",
+          "spielt",
+          "gegen",
+          "Dortmund."
+         ],
+         "fehler": 3,
+         "korrektur": "Heute Abend spielt Arsenal gegen Dortmund.",
+         "erkl": "Nach „heute Abend“ steht das Verb auf Position 2."
+        },
+        {
+         "woerter": [
+          "Hoffentlich",
+          "der",
+          "LASK",
+          "gewinnt",
+          "in",
+          "Norwegen."
+         ],
+         "fehler": 3,
+         "korrektur": "Hoffentlich gewinnt der LASK in Norwegen.",
+         "erkl": "Nach „hoffentlich“ steht das Verb auf Position 2."
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "dass-Sätze",
+       "anweisung": "Ergänze das Verb.",
+       "items": [
+        {
+         "text": "Ich hoffe, dass Dortmund ___. (gewinnen)",
+         "loesung": [
+          "gewinnt"
+         ]
+        },
+        {
+         "text": "Ich glaube, dass das Spiel spannend ___. (sein)",
+         "loesung": [
+          "ist",
+          "wird"
+         ]
+        },
+        {
+         "text": "Ich weiß, dass Real Madrid heute ___. (spielen)",
+         "loesung": [
+          "spielt"
+         ]
+        }
+       ]
+      },
+      {
+       "typ": "auswahl",
+       "titel": "um … zu oder dass?",
+       "anweisung": "Wähle das richtige Wort.",
+       "items": [
+        {
+         "text": "Ich gehe in die Bar, ___ das Spiel zu sehen.",
+         "optionen": [
+          "um",
+          "dass"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Ich hoffe, ___ Arsenal verliert.",
+         "optionen": [
+          "um",
+          "dass"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Viele Fans fliegen nach London, ___ Dortmund zu unterstützen.",
+         "optionen": [
+          "dass",
+          "um"
+         ],
+         "richtig": 1
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Wirtschaft",
+     "titel": "Paketsteuer: Kritik aus Tirol",
+     "text": "In Österreich gibt es seit 1. Oktober eine neue Steuer: die Paketsteuer. Für jedes Paket aus dem Onlinehandel müssen die Händler zwei Euro zahlen. So bekommt der Staat mehr Geld.\n\nDie Wirtschaftskammer in Tirol ist dagegen. Sie sagt, dass die Steuer schlecht für den Handel ist. Viele kleine Geschäfte verkaufen ihre Waren über große Internet-Plattformen. Deswegen müssen auch sie die Steuer zahlen.\n\nDie Kammer glaubt, dass am Ende die Kunden mehr zahlen. Gerade vor Weihnachten bestellen viele Menschen Geschenke im Internet.",
+     "vokabeln": [
+      {
+       "de": "die Steuer",
+       "im_text": "Steuer",
+       "erkl": "Geld, das man an den Staat zahlen muss"
+      },
+      {
+       "de": "das Paket",
+       "im_text": "Paket",
+       "erkl": "eine Schachtel, die die Post bringt"
+      },
+      {
+       "de": "der Händler",
+       "im_text": "Händler",
+       "erkl": "eine Person oder Firma, die Waren verkauft"
+      },
+      {
+       "de": "dagegen sein",
+       "im_text": "dagegen",
+       "erkl": "etwas nicht gut finden und nicht wollen"
+      },
+      {
+       "de": "die Ware",
+       "im_text": "Waren",
+       "erkl": "Dinge, die man kaufen kann"
+      },
+      {
+       "de": "der Kunde",
+       "im_text": "Kunden",
+       "erkl": "eine Person, die etwas kauft"
+      },
+      {
+       "de": "bestellen",
+       "im_text": "bestellen",
+       "erkl": "sagen oder klicken, dass man etwas kaufen will"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wie viel kostet die Steuer pro Paket?",
+       "optionen": [
+        "einen Euro",
+        "zwei Euro",
+        "fünf Euro"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die Paketsteuer gibt es seit Jänner.",
+       "richtig": false,
+       "erkl": "Es gibt sie seit 1. Oktober."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die Wirtschaftskammer Tirol findet die Steuer gut.",
+       "richtig": false,
+       "erkl": "Sie ist dagegen."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wer muss die Steuer zahlen?",
+         "die Händler"
+        ],
+        [
+         "Wer ist dagegen?",
+         "die Wirtschaftskammer Tirol"
+        ],
+        [
+         "Wer zahlt am Ende vielleicht mehr?",
+         "die Kunden"
+        ],
+        [
+         "Wann bestellen viele Menschen Geschenke?",
+         "vor Weihnachten"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Bestellst du oft im Internet, oder kaufst du lieber im Geschäft?",
+      "Ist eine Steuer auf Pakete fair? Warum (nicht)?",
+      "Wofür soll der Staat das Geld ausgeben?"
+     ],
+     "uebungen": [
+      {
+       "typ": "eingabe",
+       "titel": "dass-Sätze",
+       "anweisung": "Ergänze das Verb.",
+       "items": [
+        {
+         "text": "Die Kammer sagt, dass die Steuer schlecht für den Handel ___. (sein)",
+         "loesung": [
+          "ist"
+         ]
+        },
+        {
+         "text": "Ich glaube, dass die Kunden mehr ___. (zahlen)",
+         "loesung": [
+          "zahlen"
+         ]
+        },
+        {
+         "text": "Ich finde gut, dass ich online Kleidung bestellen ___. (können)",
+         "loesung": [
+          "kann"
+         ]
+        }
+       ]
+      },
+      {
+       "typ": "auswahl",
+       "titel": "um … zu",
+       "anweisung": "Wähle das richtige Wort.",
+       "items": [
+        {
+         "text": "Viele bestellen online, ___ Zeit zu sparen.",
+         "optionen": [
+          "um",
+          "dass"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Der Staat macht die Steuer, ___ mehr Geld zu bekommen.",
+         "optionen": [
+          "dass",
+          "um"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Ich gehe ins Geschäft, ___ die Kleidung zu probieren.",
+         "optionen": [
+          "um",
+          "dass"
+         ],
+         "richtig": 0
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Wörter aus der Stunde",
+       "anweisung": "Ergänze das Wort.",
+       "regel": "Wiederholung (20.11.): der Kunde, die Kundin, Kleidung falten.",
+       "items": [
+        {
+         "text": "Der ___ kauft ein T-Shirt. (Person, männlich)",
+         "loesung": [
+          "Kunde"
+         ]
+        },
+        {
+         "text": "Die ___ bezahlt mit Karte. (Person, weiblich)",
+         "loesung": [
+          "Kundin"
+         ]
+        },
+        {
+         "text": "Im Geschäft muss ich die Kleidung ordentlich ___.",
+         "loesung": [
+          "falten"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
    "datum": "2026-11-23",
    "nachrichten": [
     {

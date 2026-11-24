@@ -4,6 +4,981 @@ window.NACHRICHTEN = {
  "spiel": false,
  "tage": [
   {
+   "datum": "2026-11-24",
+   "nachrichten": [
+    {
+     "kategorie": "Wirtschaft",
+     "titel": "Überraschende Rückkehr: Jensen Huang führt wieder Nvidia",
+     "text": "Jensen Huang, der Gründer des Chipherstellers Nvidia, ist wieder Chef seines Unternehmens. Nvidia stellt Chips her, die vor allem für künstliche Intelligenz gebraucht werden. Das hat Nvidia am Montag bekannt gegeben. Huang war erst vor etwa zwei Wochen nach einem Skandal zurückgetreten.\n\nDie Rückkehr ist eine überraschende Wendung. Noch am 17. November hatte der Vorsitzende des Verwaltungsrats erklärt, man wolle Huang nicht zurückholen. Gleichzeitig drängte US-Präsident Donald Trump öffentlich auf seine Rückkehr. Der Verwaltungsrat erklärte nun, er habe auch Hinweise aus der US-Regierung berücksichtigt.\n\nViele Mitarbeiter begrüßten Huang mit Jubel, und auch die Aktie stieg deutlich. Ganz vorbei ist die Sache aber nicht: Es laufen noch Untersuchungen, unter anderem im US-Kongress.",
+     "vokabeln": [
+      {
+       "de": "der Gründer",
+       "im_text": "Gründer",
+       "erkl": "die Person, die eine Firma gestartet hat"
+      },
+      {
+       "de": "zurücktreten",
+       "im_text": "zurückgetreten",
+       "erkl": "freiwillig sein Amt abgeben"
+      },
+      {
+       "de": "die Wendung",
+       "im_text": "Wendung",
+       "erkl": "eine plötzliche Änderung in einer Geschichte"
+      },
+      {
+       "de": "der Verwaltungsrat",
+       "im_text": "Verwaltungsrats",
+       "erkl": "eine Gruppe, die die Leitung einer Firma kontrolliert"
+      },
+      {
+       "de": "auf etwas drängen",
+       "im_text": "drängte",
+       "erkl": "stark fordern, dass etwas passiert"
+      },
+      {
+       "de": "berücksichtigen",
+       "im_text": "berücksichtigt",
+       "erkl": "bei einer Entscheidung an etwas denken"
+      },
+      {
+       "de": "die Untersuchung",
+       "im_text": "Untersuchungen",
+       "erkl": "eine genaue Prüfung, was passiert ist"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wofür braucht man die Chips von Nvidia vor allem?",
+       "optionen": [
+        "für Autos",
+        "für künstliche Intelligenz",
+        "für Waschmaschinen"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Am 17. November wollte der Verwaltungsrat Huang zurückholen.",
+       "richtig": false,
+       "erkl": "Er sagte, man wolle ihn nicht zurückholen."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die Aktie ist nach der Nachricht gestiegen.",
+       "richtig": true
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wann wurde die Rückkehr bekannt gegeben?",
+         "am Montag"
+        ],
+        [
+         "Wer drängte öffentlich auf die Rückkehr?",
+         "Donald Trump"
+        ],
+        [
+         "Wie reagierten viele Mitarbeiter?",
+         "mit Jubel"
+        ],
+        [
+         "Wo laufen unter anderem Untersuchungen?",
+         "im US-Kongress"
+        ]
+       ]
+      },
+      {
+       "typ": "offen",
+       "frage": "Warum ist die Rückkehr eine überraschende Wendung?",
+       "loesung": "Weil der Verwaltungsrat noch am 17. November gesagt hatte, dass er Huang nicht zurückholen will."
+      }
+     ],
+     "diskussion": [
+      "Darf ein Chef nach einem Skandal zurückkommen, wenn er erfolgreich ist?",
+      "Wie viel Einfluss sollte die Politik auf große Firmen haben?",
+      "Was macht für dich einen guten Chef aus?"
+     ],
+     "uebungen": [
+      {
+       "typ": "eingabe",
+       "titel": "Futur mit werden",
+       "anweisung": "Ergänze die richtige Form von werden.",
+       "items": [
+        {
+         "text": "Huang ___ die Firma wieder leiten.",
+         "loesung": [
+          "wird"
+         ]
+        },
+        {
+         "text": "Die Untersuchungen ___ noch lange dauern.",
+         "loesung": [
+          "werden"
+         ]
+        },
+        {
+         "text": "Was ___ du an seiner Stelle tun?",
+         "loesung": [
+          "wirst"
+         ]
+        },
+        {
+         "text": "Ich ___ die Nachrichten weiter verfolgen.",
+         "loesung": [
+          "werde"
+         ]
+        }
+       ]
+      },
+      {
+       "typ": "fehler",
+       "titel": "wenn-Sätze",
+       "anweisung": "Ein Wort steht an der falschen Stelle.",
+       "items": [
+        {
+         "woerter": [
+          "Wenn",
+          "Huang",
+          "zurückkommt,",
+          "die",
+          "Mitarbeiter",
+          "jubeln."
+         ],
+         "fehler": 5,
+         "korrektur": "Wenn Huang zurückkommt, jubeln die Mitarbeiter.",
+         "erkl": "Nach dem wenn-Satz kommt sofort das Verb."
+        },
+        {
+         "woerter": [
+          "Wenn",
+          "die",
+          "Aktie",
+          "steigt,",
+          "die",
+          "Anleger",
+          "sind",
+          "zufrieden."
+         ],
+         "fehler": 6,
+         "korrektur": "…, sind die Anleger zufrieden.",
+         "erkl": "Nach dem wenn-Satz kommt sofort das Verb."
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Reflexive Verben und Wiederholung",
+       "anweisung": "Ergänze das Wort.",
+       "regel": "Wiederholung (20.11.): sich (Dat.) etwas vorstellen; enttäuscht sein.",
+       "items": [
+        {
+         "text": "Kannst du dir ___, wie die Mitarbeiter gejubelt haben? (sich vorstellen)",
+         "loesung": [
+          "vorstellen"
+         ]
+        },
+        {
+         "text": "Ich stelle ___ einen Chef ohne Skandal vor.",
+         "loesung": [
+          "mir"
+         ]
+        },
+        {
+         "text": "Viele Anleger waren vom Rücktritt ___. (nicht zufrieden)",
+         "loesung": [
+          "enttäuscht"
+         ]
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Partizip II",
+       "anweisung": "Bilde das Partizip.",
+       "regel": "Verben auf be- bekommen kein ge-: berücksichtigt.",
+       "items": [
+        {
+         "text": "Nvidia hat die Rückkehr bekannt ___. (geben)",
+         "loesung": [
+          "gegeben"
+         ]
+        },
+        {
+         "text": "Trump hat auf die Rückkehr ___. (drängen)",
+         "loesung": [
+          "gedrängt"
+         ]
+        },
+        {
+         "text": "Der Verwaltungsrat hat die Hinweise ___. (berücksichtigen)",
+         "loesung": [
+          "berücksichtigt"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Wissenschaft",
+     "titel": "Ariane 6: Start mit Amazon-Satelliten verschoben",
+     "text": "Eigentlich sollte die europäische Trägerrakete Ariane 6 am Montag vom Weltraumbahnhof Kourou in Französisch-Guayana abheben. An Bord: 36 Satelliten für Amazon Leo, ein Netz, mit dem Amazon Internet aus dem All anbieten will. Doch während des Countdowns trat ein technisches Problem an den Bodenanlagen auf. Arianespace brach den Countdown daraufhin ab.\n\nLaut dem Unternehmen sind Rakete und Satelliten in einem stabilen und sicheren Zustand. Der neue Starttermin ist Dienstag. Etwa zwei Stunden nach dem Start sollen alle Satelliten ausgesetzt sein.\n\nFür Amazon ist der Flug wichtig: Erst am 15. November waren bei einem Fehlstart einer amerikanischen Vulcan-Rakete 40 Satelliten des Konzerns verloren gegangen.",
+     "vokabeln": [
+      {
+       "de": "die Trägerrakete",
+       "im_text": "Trägerrakete",
+       "erkl": "eine Rakete, die Satelliten ins All bringt"
+      },
+      {
+       "de": "abheben",
+       "im_text": "abheben",
+       "erkl": "vom Boden starten und in die Luft fliegen"
+      },
+      {
+       "de": "an Bord",
+       "im_text": "Bord",
+       "erkl": "im Flugzeug, im Schiff oder in der Rakete"
+      },
+      {
+       "de": "auftreten",
+       "im_text": "trat",
+       "erkl": "plötzlich da sein, passieren"
+      },
+      {
+       "de": "abbrechen",
+       "im_text": "brach",
+       "erkl": "etwas vor dem Ende stoppen"
+      },
+      {
+       "de": "der Zustand",
+       "im_text": "Zustand",
+       "erkl": "wie es jemandem oder etwas gerade geht"
+      },
+      {
+       "de": "verloren gehen",
+       "im_text": "verloren",
+       "erkl": "weg sein und nicht wiederkommen"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Warum wurde der Countdown abgebrochen?",
+       "optionen": [
+        "wegen schlechten Wetters",
+        "wegen eines Problems an den Bodenanlagen",
+        "wegen eines Problems an den Satelliten"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die Satelliten sind beschädigt.",
+       "richtig": false,
+       "erkl": "Rakete und Satelliten sind in einem stabilen und sicheren Zustand."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Bei einem Fehlstart am 15. November hat Amazon 40 Satelliten verloren.",
+       "richtig": true
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Von wo soll die Rakete starten?",
+         "von Kourou in Französisch-Guayana"
+        ],
+        [
+         "Was will Amazon anbieten?",
+         "Internet aus dem All"
+        ],
+        [
+         "Wann ist der neue Starttermin?",
+         "am Dienstag"
+        ],
+        [
+         "Wann sollen alle Satelliten ausgesetzt sein?",
+         "etwa zwei Stunden nach dem Start"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Sollte Europa eigene Raketen haben, oder reicht es, Raketen aus den USA zu nutzen?",
+      "Was hältst du davon, dass private Firmen wie Amazon das All nutzen?",
+      "Würdest du Internet über Satelliten nutzen?"
+     ],
+     "uebungen": [
+      {
+       "typ": "eingabe",
+       "titel": "Futur mit werden",
+       "anweisung": "Ergänze die richtige Form von werden.",
+       "items": [
+        {
+         "text": "Die Rakete ___ am Dienstag starten.",
+         "loesung": [
+          "wird"
+         ]
+        },
+        {
+         "text": "Die Satelliten ___ Internet liefern.",
+         "loesung": [
+          "werden"
+         ]
+        },
+        {
+         "text": "Ich ___ den Start im Livestream anschauen.",
+         "loesung": [
+          "werde"
+         ]
+        }
+       ]
+      },
+      {
+       "typ": "fehler",
+       "titel": "wenn-Sätze",
+       "anweisung": "Ein Wort steht an der falschen Stelle.",
+       "items": [
+        {
+         "woerter": [
+          "Wenn",
+          "alles",
+          "funktioniert,",
+          "die",
+          "Rakete",
+          "startet",
+          "am",
+          "Dienstag."
+         ],
+         "fehler": 5,
+         "korrektur": "…, startet die Rakete am Dienstag.",
+         "erkl": "Nach dem wenn-Satz kommt sofort das Verb."
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Partizip II",
+       "anweisung": "Bilde das Partizip.",
+       "items": [
+        {
+         "text": "Arianespace hat den Countdown ___. (abbrechen)",
+         "loesung": [
+          "abgebrochen"
+         ]
+        },
+        {
+         "text": "Die Rakete ist nicht ___. (abheben)",
+         "loesung": [
+          "abgehoben"
+         ]
+        },
+        {
+         "text": "Ein Problem ist ___. (auftreten)",
+         "loesung": [
+          "aufgetreten"
+         ]
+        }
+       ]
+      },
+      {
+       "typ": "zuordnen",
+       "titel": "Wortfamilien",
+       "anweisung": "Finde die Paare.",
+       "paare": [
+        [
+         "starten",
+         "der Start"
+        ],
+        [
+         "verlieren",
+         "der Verlust"
+        ],
+        [
+         "anbieten",
+         "das Angebot"
+        ],
+        [
+         "abbrechen",
+         "der Abbruch"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Kultur",
+     "titel": "Paris zeigt die Geheimnisse der Alhambra",
+     "text": "Im Pariser Institut du monde arabe eröffnet am Dienstag die Ausstellung „Les secrets de l'Alhambra“. Sie ist einem der bedeutendsten Bauwerke der islamischen Kunst gewidmet: der Alhambra in Granada.\n\nDie Schau konzentriert sich auf die Zeit der Nasriden, einer muslimischen Herrscherfamilie, die bis Ende des 15. Jahrhunderts im Süden Spaniens regierte. Besonders im Blick ist die Regierungszeit von Sultan Muhammad V. im 14. Jahrhundert. Im Mittelpunkt steht eine Nachbildung des berühmten Löwenbrunnens. Der Brunnen wird von zwölf steinernen Löwen getragen. Außerdem zeigt die Ausstellung Objekte und erklärt die komplexe Geometrie der Verzierungen.\n\nDie Ausstellung ist bis zum 16. Mai 2027 zu sehen. Begleitend gibt es Gesprächsrunden über al-Andalus.",
+     "vokabeln": [
+      {
+       "de": "eröffnen",
+       "im_text": "eröffnet",
+       "erkl": "zum ersten Mal für Besucher öffnen"
+      },
+      {
+       "de": "einer Sache gewidmet sein",
+       "im_text": "gewidmet",
+       "erkl": "sich mit einem bestimmten Thema beschäftigen"
+      },
+      {
+       "de": "das Bauwerk",
+       "im_text": "Bauwerke",
+       "erkl": "ein großes Gebäude, zum Beispiel ein Palast oder eine Brücke"
+      },
+      {
+       "de": "regieren",
+       "im_text": "regierte",
+       "erkl": "ein Land führen und leiten"
+      },
+      {
+       "de": "die Nachbildung",
+       "im_text": "Nachbildung",
+       "erkl": "eine Kopie von einem Original"
+      },
+      {
+       "de": "die Verzierung",
+       "im_text": "Verzierungen",
+       "erkl": "Schmuck an einem Gebäude oder Gegenstand"
+      },
+      {
+       "de": "begleitend",
+       "im_text": "Begleitend",
+       "erkl": "zusätzlich, zur gleichen Zeit"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Worauf konzentriert sich die Ausstellung?",
+       "optionen": [
+        "auf die Römerzeit",
+        "auf die Zeit der Nasriden",
+        "auf das 20. Jahrhundert"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Im Mittelpunkt steht der originale Löwenbrunnen.",
+       "richtig": false,
+       "erkl": "Es ist eine Nachbildung."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die Ausstellung läuft bis Mai 2027.",
+       "richtig": true
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wo steht die Alhambra?",
+         "in Granada"
+        ],
+        [
+         "Wann regierte Muhammad V.?",
+         "im 14. Jahrhundert"
+        ],
+        [
+         "Wie viele Löwen tragen den Brunnen?",
+         "zwölf"
+        ],
+        [
+         "Worüber gibt es Gesprächsrunden?",
+         "über al-Andalus"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Ist eine Nachbildung im Museum genauso viel wert wie das Original vor Ort?",
+      "Welches historische Bauwerk hat dich am meisten beeindruckt?",
+      "Warum ist es wichtig, die Geschichte anderer Kulturen zu kennen?"
+     ],
+     "uebungen": [
+      {
+       "typ": "eingabe",
+       "titel": "Futur mit werden",
+       "anweisung": "Ergänze die richtige Form von werden.",
+       "items": [
+        {
+         "text": "Ich ___ die Ausstellung bestimmt besuchen.",
+         "loesung": [
+          "werde"
+         ]
+        },
+        {
+         "text": "Die Ausstellung ___ viele Besucher anziehen.",
+         "loesung": [
+          "wird"
+         ]
+        },
+        {
+         "text": "___ ihr im Winter nach Granada reisen?",
+         "loesung": [
+          "Werdet"
+         ]
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Reflexive Verben und Wiederholung",
+       "anweisung": "Ergänze das Wort.",
+       "regel": "Wiederholung (20.11.): sich (Dat.) etwas vorstellen; bevorzugen.",
+       "items": [
+        {
+         "text": "Ich kann ___ gut vorstellen, wie schön die Alhambra ist.",
+         "loesung": [
+          "mir"
+         ]
+        },
+        {
+         "text": "Stellst du ___ den Palast im Abendlicht vor?",
+         "loesung": [
+          "dir"
+         ]
+        },
+        {
+         "text": "Ich ___ Originale. (bevorzugen)",
+         "loesung": [
+          "bevorzuge"
+         ]
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Partizip II",
+       "anweisung": "Bilde das Partizip.",
+       "items": [
+        {
+         "text": "Die Nasriden haben die Alhambra ___. (bauen)",
+         "loesung": [
+          "gebaut"
+         ]
+        },
+        {
+         "text": "Das Institut hat eine Kopie des Brunnens ___. (ausstellen)",
+         "loesung": [
+          "ausgestellt"
+         ]
+        },
+        {
+         "text": "Ich habe die Alhambra schon ___. (besuchen)",
+         "loesung": [
+          "besucht"
+         ]
+        }
+       ]
+      },
+      {
+       "typ": "zuordnen",
+       "titel": "Kunst-Wörter",
+       "anweisung": "Finde die Paare.",
+       "regel": "Wiederholung (20.11.): der Künstler, die Künstlerin.",
+       "paare": [
+        [
+         "der Künstler",
+         "er macht Kunst"
+        ],
+        [
+         "die Nachbildung",
+         "die Kopie"
+        ],
+        [
+         "die Verzierung",
+         "der Schmuck an einem Gebäude"
+        ],
+        [
+         "die Ausstellung",
+         "Kunst im Museum zeigen"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Politik",
+     "titel": "Belgien: Haushaltsstreit ohne Ende",
+     "text": "In Belgien steckt die Regierung von Premierminister Bart De Wever weiter in der Krise. Die Koalition kann sich nicht auf einen Haushalt für 2027 einigen. Im Kern geht es um Einsparungen von rund zehn Milliarden Euro bis 2029, denn das Haushaltsdefizit liegt bei über fünf Prozent.\n\nAm Montag scheiterte ein weiteres Treffen der Koalitionspartner. Die sozialdemokratische Partei Vooruit fordert, dass Menschen mit hohem Einkommen mehr beitragen. Danach traf De Wever König Philippe – bereits zum vierten Mal in diesem Monat wegen des Haushalts. Der König bedauerte den fehlenden Fortschritt. Schon Anfang November hatte De Wever ihm seinen Rücktritt angeboten, doch der König lehnte ab.\n\nDe Wever hat nun den 31. Dezember als Frist gesetzt. Ohne Einigung wäre die Regierung nach Angaben seines Büros praktisch am Ende.",
+     "vokabeln": [
+      {
+       "de": "in der Krise stecken",
+       "im_text": "steckt",
+       "erkl": "in einer schwierigen Lage sein"
+      },
+      {
+       "de": "sich einigen auf",
+       "im_text": "einigen",
+       "erkl": "eine gemeinsame Lösung finden"
+      },
+      {
+       "de": "die Einsparung",
+       "im_text": "Einsparungen",
+       "erkl": "Geld, das man nicht mehr ausgibt"
+      },
+      {
+       "de": "scheitern",
+       "im_text": "scheiterte",
+       "erkl": "keinen Erfolg haben"
+      },
+      {
+       "de": "beitragen",
+       "im_text": "beitragen",
+       "erkl": "einen Teil zu etwas geben"
+      },
+      {
+       "de": "bedauern",
+       "im_text": "bedauerte",
+       "erkl": "traurig sein, dass etwas so ist"
+      },
+      {
+       "de": "die Frist",
+       "im_text": "Frist",
+       "erkl": "der späteste Termin für etwas"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wie hoch ist das Haushaltsdefizit?",
+       "optionen": [
+        "unter zwei Prozent",
+        "über fünf Prozent",
+        "genau zehn Prozent"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Am Montag haben sich die Koalitionspartner geeinigt.",
+       "richtig": false,
+       "erkl": "Das Treffen scheiterte."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Der König hat De Wevers Rücktritt Anfang November abgelehnt.",
+       "richtig": true
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Was fordert Vooruit?",
+         "mehr Beiträge von Menschen mit hohem Einkommen"
+        ],
+        [
+         "Wie oft traf De Wever den König im November wegen des Haushalts?",
+         "viermal"
+        ],
+        [
+         "Was ist die neue Frist?",
+         "der 31. Dezember"
+        ],
+        [
+         "Wie viel soll bis 2029 eingespart werden?",
+         "rund zehn Milliarden Euro"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Kennst du ähnliche Haushaltsstreits aus Frankreich?",
+      "Sollten Menschen mit hohem Einkommen mehr beitragen? Warum (nicht)?",
+      "Welche Rolle sollte ein König oder ein Präsident in so einer Krise spielen?"
+     ],
+     "uebungen": [
+      {
+       "typ": "fehler",
+       "titel": "wenn-Sätze",
+       "anweisung": "Ein Wort steht an der falschen Stelle.",
+       "items": [
+        {
+         "woerter": [
+          "Wenn",
+          "die",
+          "Parteien",
+          "sich",
+          "nicht",
+          "einigen,",
+          "die",
+          "Regierung",
+          "ist",
+          "am",
+          "Ende."
+         ],
+         "fehler": 8,
+         "korrektur": "…, ist die Regierung am Ende.",
+         "erkl": "Nach dem wenn-Satz steht das Verb an erster Stelle."
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Futur mit werden",
+       "anweisung": "Ergänze die richtige Form von werden.",
+       "items": [
+        {
+         "text": "Die Verhandlungen ___ weitergehen.",
+         "loesung": [
+          "werden"
+         ]
+        },
+        {
+         "text": "De Wever ___ den König jede Woche informieren.",
+         "loesung": [
+          "wird"
+         ]
+        },
+        {
+         "text": "Ich glaube, die Belgier ___ bald wählen müssen.",
+         "loesung": [
+          "werden"
+         ]
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Reflexive Verben",
+       "anweisung": "Ergänze das Reflexivpronomen.",
+       "items": [
+        {
+         "text": "Die Parteien können ___ nicht einigen.",
+         "loesung": [
+          "sich"
+         ]
+        },
+        {
+         "text": "Ich stelle ___ vor, wie schwierig das ist.",
+         "loesung": [
+          "mir"
+         ]
+        },
+        {
+         "text": "Wir müssen ___ beeilen.",
+         "loesung": [
+          "uns"
+         ]
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Wortfamilien",
+       "anweisung": "Bilde das Nomen.",
+       "regel": "Wiederholung (20.11.): die Regierung, die Wahl, die Enttäuschung, die Neuigkeit.",
+       "items": [
+        {
+         "text": "regieren → die ___",
+         "loesung": [
+          "Regierung"
+         ]
+        },
+        {
+         "text": "wählen → die ___",
+         "loesung": [
+          "Wahl"
+         ]
+        },
+        {
+         "text": "enttäuschen → die ___",
+         "loesung": [
+          "Enttäuschung"
+         ]
+        },
+        {
+         "text": "neu → die ___",
+         "loesung": [
+          "Neuigkeit"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Reisen & Verkehr",
+     "titel": "Thanksgiving: Die große Reisewelle beginnt",
+     "text": "In den USA beginnt die Reisewelle vor Thanksgiving. Der Feiertag fällt in diesem Jahr auf Donnerstag, den 26. November. Nach einer Prognose des Automobilclubs AAA werden zwischen dem 24. und dem 30. November rund 81,5 Millionen Menschen mindestens 80 Kilometer weit verreisen. Damit endet eine Serie von drei Rekordjahren: Es sind etwa 0,1 Prozent weniger Reisende als im Vorjahr.\n\nFast neun von zehn Reisenden sind mit dem Auto unterwegs, knapp sechs Millionen nehmen das Flugzeug. Ein Grund für den leichten Rückgang sind die Kosten: Inlandsflüge sind im Schnitt 17 Prozent teurer, und auch Benzin kostet deutlich mehr als vor einem Jahr.",
+     "vokabeln": [
+      {
+       "de": "die Reisewelle",
+       "im_text": "Reisewelle",
+       "erkl": "sehr viele Menschen reisen zur gleichen Zeit"
+      },
+      {
+       "de": "die Prognose",
+       "im_text": "Prognose",
+       "erkl": "eine Vorhersage für die Zukunft"
+      },
+      {
+       "de": "verreisen",
+       "im_text": "verreisen",
+       "erkl": "eine Reise machen, wegfahren"
+      },
+      {
+       "de": "der Rekord",
+       "im_text": "Rekordjahren",
+       "erkl": "das beste oder höchste Ergebnis bisher"
+      },
+      {
+       "de": "unterwegs sein",
+       "im_text": "unterwegs",
+       "erkl": "auf dem Weg, auf Reisen sein"
+      },
+      {
+       "de": "der Rückgang",
+       "im_text": "Rückgang",
+       "erkl": "wenn etwas weniger wird"
+      },
+      {
+       "de": "der Inlandsflug",
+       "im_text": "Inlandsflüge",
+       "erkl": "ein Flug innerhalb eines Landes"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wie reisen die meisten Amerikaner?",
+       "optionen": [
+        "mit dem Zug",
+        "mit dem Auto",
+        "mit dem Flugzeug"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Dieses Jahr verreisen so viele Menschen wie nie zuvor.",
+       "richtig": false,
+       "erkl": "Es sind etwas weniger als im Vorjahr."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Inlandsflüge sind teurer geworden.",
+       "richtig": true
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wann ist Thanksgiving?",
+         "am 26. November"
+        ],
+        [
+         "Wer hat die Prognose gemacht?",
+         "der Automobilclub AAA"
+        ],
+        [
+         "Wie viele Menschen verreisen?",
+         "rund 81,5 Millionen"
+        ],
+        [
+         "Um wie viel Prozent sind Inlandsflüge teurer?",
+         "um 17 Prozent"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Wie reist du in Frankreich am liebsten: mit dem Zug, dem Auto oder dem Flugzeug?",
+      "Gibt es in Frankreich ähnliche Reisewellen? Wann?",
+      "Würdest du wegen hoher Preise auf eine Reise verzichten?"
+     ],
+     "uebungen": [
+      {
+       "typ": "eingabe",
+       "titel": "Futur mit werden",
+       "anweisung": "Ergänze die richtige Form von werden.",
+       "items": [
+        {
+         "text": "Morgen ___ viele Menschen losfahren.",
+         "loesung": [
+          "werden"
+         ]
+        },
+        {
+         "text": "Die Straßen ___ sehr voll sein.",
+         "loesung": [
+          "werden"
+         ]
+        },
+        {
+         "text": "___ du über Weihnachten verreisen?",
+         "loesung": [
+          "Wirst"
+         ]
+        }
+       ]
+      },
+      {
+       "typ": "fehler",
+       "titel": "wenn-Sätze",
+       "anweisung": "Ein Wort steht an der falschen Stelle.",
+       "items": [
+        {
+         "woerter": [
+          "Wenn",
+          "die",
+          "Flüge",
+          "teurer",
+          "sind,",
+          "viele",
+          "Leute",
+          "fahren",
+          "mit",
+          "dem",
+          "Auto."
+         ],
+         "fehler": 7,
+         "korrektur": "…, fahren viele Leute mit dem Auto.",
+         "erkl": "Nach dem wenn-Satz kommt sofort das Verb."
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Partizip II",
+       "anweisung": "Bilde das Partizip.",
+       "items": [
+        {
+         "text": "Die Preise sind ___. (steigen)",
+         "loesung": [
+          "gestiegen"
+         ]
+        },
+        {
+         "text": "AAA hat eine Prognose ___. (veröffentlichen)",
+         "loesung": [
+          "veröffentlicht"
+         ]
+        },
+        {
+         "text": "Wir sind nach Lyon ___. (fahren)",
+         "loesung": [
+          "gefahren"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
    "datum": "2026-11-23",
    "nachrichten": [
     {
