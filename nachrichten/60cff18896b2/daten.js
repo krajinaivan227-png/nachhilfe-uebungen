@@ -4,6 +4,1075 @@ window.NACHRICHTEN = {
  "spiel": false,
  "tage": [
   {
+   "datum": "2026-11-25",
+   "nachrichten": [
+    {
+     "kategorie": "Wissenschaft",
+     "titel": "Shenzhou-24: Erster ausländischer Gast auf Chinas Raumstation",
+     "text": "Am Mittwoch ist vom Raumfahrtzentrum Jiuquan in der Wüste Gobi eine chinesische Rakete vom Typ „Langer Marsch 2F“ gestartet. Ihr Ziel: die chinesische Raumstation Tiangong. An Bord der Kapsel Shenzhou-24 sind drei Raumfahrer, darunter ein Pilot aus Pakistan.\n\nEr ist der erste Ausländer, der die Station betritt. Bisher haben dort nur chinesische Astronauten gearbeitet. Der Pakistaner soll nur einige Tage bleiben und als Fachmann wissenschaftliche Experimente betreuen. Danach kehrt er mit der älteren Kapsel Shenzhou-23 zur Erde zurück.\n\nChina und Pakistan arbeiten in der Raumfahrt seit den 1990er-Jahren zusammen. Die chinesische Station könnte in Zukunft noch wichtiger werden: Die Internationale Raumstation ISS soll um 2030 außer Betrieb gehen.",
+     "vokabeln": [
+      {
+       "de": "das Ziel",
+       "im_text": "Ziel",
+       "erkl": "der Ort, wohin man will"
+      },
+      {
+       "de": "die Kapsel",
+       "im_text": "Kapsel",
+       "erkl": "der kleine Teil der Rakete, in dem die Menschen sitzen"
+      },
+      {
+       "de": "darunter",
+       "im_text": "darunter",
+       "erkl": "unter ihnen; dazu gehört auch"
+      },
+      {
+       "de": "betreten",
+       "im_text": "betritt",
+       "erkl": "in einen Raum hineingehen"
+      },
+      {
+       "de": "der Fachmann",
+       "im_text": "Fachmann",
+       "erkl": "eine Person, die etwas sehr gut kann; ein Experte"
+      },
+      {
+       "de": "zurückkehren",
+       "im_text": "kehrt",
+       "erkl": "wieder an den Ort kommen, wo man vorher war"
+      },
+      {
+       "de": "außer Betrieb gehen",
+       "im_text": "Betrieb",
+       "erkl": "nicht mehr arbeiten, abgeschaltet werden"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Woher ist die Rakete gestartet?",
+       "optionen": [
+        "aus Peking",
+        "aus der Wüste Gobi",
+        "aus Pakistan"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Vor ihm haben schon viele Ausländer auf Tiangong gearbeitet.",
+       "richtig": false,
+       "erkl": "Bisher haben dort nur chinesische Astronauten gearbeitet."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Der Pilot kehrt mit Shenzhou-23 zur Erde zurück.",
+       "richtig": true
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wie heißt die Kapsel?",
+         "Shenzhou-24"
+        ],
+        [
+         "Wie lange bleibt der Pilot?",
+         "einige Tage"
+        ],
+        [
+         "Seit wann arbeiten China und Pakistan zusammen?",
+         "seit den 1990er-Jahren"
+        ],
+        [
+         "Wann soll die ISS außer Betrieb gehen?",
+         "um 2030"
+        ]
+       ]
+      },
+      {
+       "typ": "offen",
+       "frage": "Warum könnte Tiangong in Zukunft wichtiger werden?",
+       "loesung": "Weil die ISS um 2030 außer Betrieb gehen soll."
+      }
+     ],
+     "diskussion": [
+      "Sollte die Raumfahrt eher national oder international organisiert sein?",
+      "Wofür sollte man im All forschen – und wofür nicht?",
+      "Würdest du für ein paar Tage auf eine Raumstation fliegen?"
+     ],
+     "uebungen": [
+      {
+       "typ": "eingabe",
+       "titel": "Futur mit werden",
+       "anweisung": "Ergänze die richtige Form von werden.",
+       "items": [
+        {
+         "text": "Der Pilot ___ einige Tage bleiben.",
+         "loesung": [
+          "wird"
+         ]
+        },
+        {
+         "text": "Die ISS ___ um 2030 außer Betrieb gehen.",
+         "loesung": [
+          "wird"
+         ]
+        },
+        {
+         "text": "Ich ___ nie ins All fliegen.",
+         "loesung": [
+          "werde"
+         ]
+        },
+        {
+         "text": "___ ihr die Mission verfolgen?",
+         "loesung": [
+          "Werdet"
+         ]
+        }
+       ],
+       "regel": "Wiederholung (20.11.): werden + Infinitiv (Futur): ich werde, du wirst, er/sie/es wird, wir werden, ihr werdet, sie werden."
+      },
+      {
+       "typ": "auswahl",
+       "titel": "sich vorstellen & Co.",
+       "anweisung": "Wähle das richtige Pronomen.",
+       "items": [
+        {
+         "text": "Kannst du ___ ein Leben im All vorstellen?",
+         "optionen": [
+          "dich",
+          "dir",
+          "du"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Ich kann ___ das gut vorstellen.",
+         "optionen": [
+          "mich",
+          "mir"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Er freut ___ auf die Experimente.",
+         "optionen": [
+          "sich",
+          "ihm"
+         ],
+         "richtig": 0
+        }
+       ],
+       "regel": "Wiederholung (20.11.): sich etwas vorstellen → Ich stelle mir das vor. Reflexivpronomen: mich/mir, dich/dir, sich."
+      },
+      {
+       "typ": "fehler",
+       "titel": "wenn-Sätze",
+       "anweisung": "Ein Wort steht an der falschen Stelle.",
+       "items": [
+        {
+         "woerter": [
+          "Wenn",
+          "die",
+          "ISS",
+          "geht",
+          "außer",
+          "Betrieb,",
+          "wird",
+          "Tiangong",
+          "wichtiger."
+         ],
+         "fehler": 3,
+         "korrektur": "Wenn die ISS außer Betrieb geht, …",
+         "erkl": "Im wenn-Satz steht das konjugierte Verb am Ende."
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Partizip II",
+       "anweisung": "Ergänze das Partizip.",
+       "items": [
+        {
+         "text": "starten → Die Rakete ist ___.",
+         "loesung": [
+          "gestartet"
+         ]
+        },
+        {
+         "text": "betreten → Er hat die Station ___.",
+         "loesung": [
+          "betreten"
+         ]
+        },
+        {
+         "text": "zurückkehren → Er ist zur Erde ___.",
+         "loesung": [
+          "zurückgekehrt"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Wirtschaft",
+     "titel": "USA bereiten neue Zölle gegen 16 Handelspartner vor",
+     "text": "Die US-Regierung bereitet offenbar neue Zölle gegen 16 Handelspartner vor, darunter die Europäische Union, China, Japan, Indien, Mexiko und die Schweiz. Das berichten die Nachrichtenagentur AP und das „Handelsblatt“ unter Berufung auf Insider.\n\nDer Vorwurf aus Washington: Diese Länder unterstützen ihre Industrie mit staatlichem Geld und produzieren dadurch mehr, als der Markt braucht. Als größten Verursacher solcher Überkapazitäten sieht die US-Regierung China.\n\nWie hoch die neuen Zölle sein sollen, ist noch offen. Mit ihnen will die Regierung frühere Zölle ersetzen, die der Oberste Gerichtshof der USA gekippt hat. Das Büro des US-Handelsbeauftragten und das Weiße Haus haben sich zunächst nicht dazu geäußert.",
+     "vokabeln": [
+      {
+       "de": "vorbereiten",
+       "im_text": "bereitet",
+       "erkl": "etwas planen und fertig machen"
+      },
+      {
+       "de": "unter Berufung auf",
+       "im_text": "Berufung",
+       "erkl": "man nennt die Quelle: Diese Personen haben es gesagt"
+      },
+      {
+       "de": "der Vorwurf",
+       "im_text": "Vorwurf",
+       "erkl": "man sagt, dass jemand etwas falsch macht"
+      },
+      {
+       "de": "die Überkapazität",
+       "im_text": "Überkapazitäten",
+       "erkl": "man kann viel mehr produzieren, als man verkaufen kann"
+      },
+      {
+       "de": "der Verursacher",
+       "im_text": "Verursacher",
+       "erkl": "wer etwas (meist Negatives) auslöst"
+      },
+      {
+       "de": "kippen",
+       "im_text": "gekippt",
+       "erkl": "hier: eine Regel für ungültig erklären"
+      },
+      {
+       "de": "sich äußern",
+       "im_text": "geäußert",
+       "erkl": "etwas dazu sagen, seine Meinung sagen"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wen sieht die US-Regierung als größten Verursacher?",
+       "optionen": [
+        "Mexiko",
+        "China",
+        "die Schweiz"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die Höhe der Zölle steht schon fest.",
+       "richtig": false,
+       "erkl": "Sie ist noch offen."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Der Oberste Gerichtshof hat frühere Zölle gekippt.",
+       "richtig": true
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wer berichtet darüber?",
+         "AP und das „Handelsblatt“"
+        ],
+        [
+         "Wie viele Handelspartner sind betroffen?",
+         "16"
+        ],
+        [
+         "Was soll mit den alten Zöllen passieren?",
+         "Sie sollen ersetzt werden."
+        ],
+        [
+         "Wer hat sich zunächst nicht geäußert?",
+         "das Weiße Haus"
+        ]
+       ]
+      },
+      {
+       "typ": "offen",
+       "frage": "Was werfen die USA den Ländern vor?",
+       "loesung": "Dass sie ihre Industrie mit staatlichem Geld unterstützen und zu viel produzieren."
+      }
+     ],
+     "diskussion": [
+      "Helfen Zölle der eigenen Wirtschaft – oder schaden sie am Ende allen?",
+      "Sollte die EU mit Gegenzöllen reagieren?",
+      "Achtest du beim Einkaufen darauf, woher ein Produkt kommt?"
+     ],
+     "uebungen": [
+      {
+       "typ": "eingabe",
+       "titel": "Futur mit werden",
+       "anweisung": "Ergänze die richtige Form von werden.",
+       "items": [
+        {
+         "text": "Die Zölle ___ vielleicht hoch sein.",
+         "loesung": [
+          "werden"
+         ]
+        },
+        {
+         "text": "Die EU ___ sicher reagieren.",
+         "loesung": [
+          "wird"
+         ]
+        },
+        {
+         "text": "Ich ___ weniger amerikanische Produkte kaufen.",
+         "loesung": [
+          "werde"
+         ]
+        },
+        {
+         "text": "___ du darauf achten?",
+         "loesung": [
+          "Wirst"
+         ]
+        }
+       ],
+       "regel": "Wiederholung (20.11.): werden + Infinitiv (Futur): ich werde, du wirst, er/sie/es wird, wir werden, ihr werdet, sie werden."
+      },
+      {
+       "typ": "auswahl",
+       "titel": "wenn-Sätze",
+       "anweisung": "Welcher Satz ist richtig?",
+       "items": [
+        {
+         "text": "Wenn die Zölle steigen, …",
+         "optionen": [
+          "… werden viele Produkte teurer.",
+          "… viele Produkte werden teurer."
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Wenn die EU reagiert, …",
+         "optionen": [
+          "… es gibt einen Handelsstreit.",
+          "… gibt es einen Handelsstreit."
+         ],
+         "richtig": 1
+        }
+       ],
+       "regel": "Nach dem wenn-Satz kommt sofort das Verb."
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Partizip II",
+       "anweisung": "Ergänze das Partizip.",
+       "items": [
+        {
+         "text": "berichten → AP hat darüber ___.",
+         "loesung": [
+          "berichtet"
+         ]
+        },
+        {
+         "text": "kippen → Das Gericht hat die Zölle ___.",
+         "loesung": [
+          "gekippt"
+         ]
+        },
+        {
+         "text": "verkaufen → Die Firma hat weniger ___.",
+         "loesung": [
+          "verkauft"
+         ]
+        }
+       ],
+       "regel": "Wiederholung (20.11.): verkaufen → verkauft (kein ge- bei ver-)."
+      },
+      {
+       "typ": "auswahl",
+       "titel": "Reflexive Verben",
+       "anweisung": "Wähle das richtige Pronomen.",
+       "items": [
+        {
+         "text": "Das Weiße Haus hat ___ nicht geäußert.",
+         "optionen": [
+          "sich",
+          "ihm"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Kannst du ___ einen Handelskrieg vorstellen?",
+         "optionen": [
+          "dich",
+          "dir"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Ich frage ___, was das für Europa bedeutet.",
+         "optionen": [
+          "mich",
+          "mir"
+         ],
+         "richtig": 0
+        }
+       ],
+       "regel": "Wiederholung (20.11.): sich etwas vorstellen → Ich stelle mir das vor. Reflexivpronomen: mich/mir, dich/dir, sich."
+      }
+     ]
+    },
+    {
+     "kategorie": "Kultur",
+     "titel": "Buch Wien: Österreichs größtes Literaturtreffen beginnt",
+     "text": "Am Mittwochabend wird in Wien die Buch Wien eröffnet, Österreichs größtes Literaturtreffen. Nach der offiziellen Eröffnung durch Kulturminister Andreas Babler hält der Publizist Michel Friedman die Festrede. Von Donnerstag bis Sonntag erwarten die Besucherinnen und Besucher dann Lesungen, Diskussionen und viele Verlage.\n\nZu den prominentesten Gästen gehört der ungarische Schriftsteller László Krasznahorkai, der den Literaturnobelpreis erhalten hat. Ein Schwerpunkt der Messe ist die Ukraine. Außerdem wird ein neuer Literaturpreis vergeben, der an Ingeborg Bachmann erinnert: Die Kärntner Autorin wurde vor 100 Jahren geboren.\n\nEine Neuerung gibt es auch für die Zukunft: 2027 hat die Messe zum ersten Mal ein Schwerpunktland. Den Anfang macht Tschechien.",
+     "vokabeln": [
+      {
+       "de": "eröffnen",
+       "im_text": "eröffnet",
+       "erkl": "offiziell beginnen lassen"
+      },
+      {
+       "de": "der Publizist",
+       "im_text": "Publizist",
+       "erkl": "eine Person, die in Medien über Politik und Gesellschaft schreibt und spricht"
+      },
+      {
+       "de": "die Festrede",
+       "im_text": "Festrede",
+       "erkl": "eine feierliche Rede bei einem besonderen Anlass"
+      },
+      {
+       "de": "der Verlag",
+       "im_text": "Verlage",
+       "erkl": "eine Firma, die Bücher macht und verkauft"
+      },
+      {
+       "de": "prominent",
+       "im_text": "prominentesten",
+       "erkl": "sehr bekannt"
+      },
+      {
+       "de": "vergeben",
+       "im_text": "vergeben",
+       "erkl": "einen Preis jemandem geben"
+      },
+      {
+       "de": "die Neuerung",
+       "im_text": "Neuerung",
+       "erkl": "etwas Neues, eine Änderung"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wer hält die Festrede?",
+       "optionen": [
+        "Andreas Babler",
+        "Michel Friedman",
+        "László Krasznahorkai"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Ingeborg Bachmann wurde vor 100 Jahren geboren.",
+       "richtig": true
+      },
+      {
+       "typ": "rf",
+       "aussage": "Tschechien ist schon heuer Schwerpunktland.",
+       "richtig": false,
+       "erkl": "Erst 2027."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Woher kommt Krasznahorkai?",
+         "aus Ungarn"
+        ],
+        [
+         "Was ist ein Schwerpunkt der Messe?",
+         "die Ukraine"
+        ],
+        [
+         "Wann können Besucher die Messe besuchen?",
+         "von Donnerstag bis Sonntag"
+        ],
+        [
+         "Wer eröffnet die Messe offiziell?",
+         "Kulturminister Andreas Babler"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Welches Buch hat dich zuletzt beeindruckt?",
+      "Haben Buchmessen in Zeiten von Online-Shops noch einen Sinn?",
+      "Sollten Kulturveranstaltungen auch politische Themen haben?"
+     ],
+     "uebungen": [
+      {
+       "typ": "eingabe",
+       "titel": "Futur mit werden",
+       "anweisung": "Ergänze die richtige Form von werden.",
+       "items": [
+        {
+         "text": "Viele Menschen ___ die Messe besuchen.",
+         "loesung": [
+          "werden"
+         ]
+        },
+        {
+         "text": "Tschechien ___ 2027 Schwerpunktland sein.",
+         "loesung": [
+          "wird"
+         ]
+        },
+        {
+         "text": "Ich ___ ein Buch kaufen.",
+         "loesung": [
+          "werde"
+         ]
+        }
+       ],
+       "regel": "Wiederholung (20.11.): werden + Infinitiv (Futur): ich werde, du wirst, er/sie/es wird, wir werden, ihr werdet, sie werden."
+      },
+      {
+       "typ": "fehler",
+       "titel": "wenn-Sätze",
+       "anweisung": "Ein Wort steht an der falschen Stelle.",
+       "items": [
+        {
+         "woerter": [
+          "Wenn",
+          "ich",
+          "habe",
+          "Zeit,",
+          "gehe",
+          "ich",
+          "zur",
+          "Buch",
+          "Wien."
+         ],
+         "fehler": 2,
+         "korrektur": "Wenn ich Zeit habe, gehe ich zur Buch Wien.",
+         "erkl": "Im wenn-Satz steht das konjugierte Verb am Ende."
+        }
+       ]
+      },
+      {
+       "typ": "auswahl",
+       "titel": "Reflexive Verben",
+       "anweisung": "Wähle das richtige Pronomen.",
+       "items": [
+        {
+         "text": "Ich interessiere ___ für Literatur.",
+         "optionen": [
+          "mich",
+          "mir"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Kannst du ___ eine Welt ohne Bücher vorstellen?",
+         "optionen": [
+          "dich",
+          "dir"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Die Besucher freuen ___ auf die Lesungen.",
+         "optionen": [
+          "sich",
+          "ihnen"
+         ],
+         "richtig": 0
+        }
+       ],
+       "regel": "Wiederholung (20.11.): sich etwas vorstellen → Ich stelle mir das vor. Reflexivpronomen: mich/mir, dich/dir, sich."
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Partizip II",
+       "anweisung": "Ergänze das Partizip.",
+       "items": [
+        {
+         "text": "eröffnen → Die Messe wird ___.",
+         "loesung": [
+          "eröffnet"
+         ]
+        },
+        {
+         "text": "erhalten → Er hat den Nobelpreis ___.",
+         "loesung": [
+          "erhalten"
+         ]
+        },
+        {
+         "text": "vergeben → Ein neuer Preis wird ___.",
+         "loesung": [
+          "vergeben"
+         ]
+        }
+       ],
+       "regel": "Verben mit er-, ver- haben kein ge- im Partizip II."
+      }
+     ]
+    },
+    {
+     "kategorie": "Wetter",
+     "titel": "Früher Wintereinbruch: Schnee bis ins Flachland",
+     "text": "Österreich steht vor einem frühen Wintereinbruch. Laut dem Wetterdienst GeoSphere Austria regnet oder schneit es am Mittwoch zunächst südlich des Alpenhauptkamms. Am Donnerstag soll es dann bis in tiefe Lagen schneien. Ein großer Teil des Landes bekommt laut ORF zumindest eine dünne Schneedecke, im Süden und Osten sind bis zu 15 Zentimeter möglich.\n\nEs gibt aber Ausnahmen: In manchen Alpentälern, etwa im Ennstal und in Teilen Kärntens, dürfte es eher regnen. Auch im Westen bleibt es in tiefen Lagen teilweise grün, zum Beispiel in Bregenz.\n\nFür Wien wäre eine Schneedecke Ende November ungewöhnlich früh – im langjährigen Durchschnitt kommt sie erst Anfang Dezember. Die Meteorologen betonen aber, dass die Prognose noch unsicher ist.",
+     "vokabeln": [
+      {
+       "de": "der Wintereinbruch",
+       "im_text": "Wintereinbruch",
+       "erkl": "der Winter kommt plötzlich, mit Kälte und Schnee"
+      },
+      {
+       "de": "zunächst",
+       "im_text": "zunächst",
+       "erkl": "am Anfang, zuerst"
+      },
+      {
+       "de": "der Alpenhauptkamm",
+       "im_text": "Alpenhauptkamms",
+       "erkl": "die Linie der höchsten Berge in der Mitte der Alpen"
+      },
+      {
+       "de": "die Schneedecke",
+       "im_text": "Schneedecke",
+       "erkl": "eine Schicht Schnee, die auf dem Boden liegt"
+      },
+      {
+       "de": "die Ausnahme",
+       "im_text": "Ausnahmen",
+       "erkl": "etwas, das nicht der Regel entspricht"
+      },
+      {
+       "de": "der Durchschnitt",
+       "im_text": "Durchschnitt",
+       "erkl": "der normale Wert, wenn man viele Jahre vergleicht"
+      },
+      {
+       "de": "betonen",
+       "im_text": "betonen",
+       "erkl": "etwas besonders deutlich sagen"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wo dürfte es eher regnen?",
+       "optionen": [
+        "in Wien",
+        "im Ennstal und in Teilen Kärntens",
+        "im ganzen Osten"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "In Wien gibt es die erste Schneedecke im Durchschnitt Anfang Dezember.",
+       "richtig": true
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die Prognose ist schon ganz sicher.",
+       "richtig": false,
+       "erkl": "Die Meteorologen sagen, sie ist noch unsicher."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wann soll es bis in tiefe Lagen schneien?",
+         "am Donnerstag"
+        ],
+        [
+         "Wie viel Schnee ist im Süden und Osten möglich?",
+         "bis zu 15 Zentimeter"
+        ],
+        [
+         "Welcher Wetterdienst wird genannt?",
+         "GeoSphere Austria"
+        ],
+        [
+         "Wo bleibt es teilweise grün?",
+         "in Bregenz"
+        ]
+       ]
+      },
+      {
+       "typ": "offen",
+       "frage": "Warum ist der Schnee für Wien ungewöhnlich?",
+       "loesung": "Weil die erste Schneedecke dort im Durchschnitt erst Anfang Dezember kommt."
+      }
+     ],
+     "diskussion": [
+      "Wie verändert Schnee den Alltag in einer großen Stadt?",
+      "Bist du eher Winter- oder Sommermensch?",
+      "Wie sollten Städte sich auf Schnee und Glätte vorbereiten?"
+     ],
+     "uebungen": [
+      {
+       "typ": "eingabe",
+       "titel": "Futur mit werden",
+       "anweisung": "Ergänze die richtige Form von werden.",
+       "items": [
+        {
+         "text": "Am Donnerstag ___ es in Wien schneien.",
+         "loesung": [
+          "wird"
+         ]
+        },
+        {
+         "text": "Die Straßen ___ glatt sein.",
+         "loesung": [
+          "werden"
+         ]
+        },
+        {
+         "text": "Ich ___ eine warme Jacke anziehen.",
+         "loesung": [
+          "werde"
+         ]
+        },
+        {
+         "text": "___ ihr Ski fahren?",
+         "loesung": [
+          "Werdet"
+         ]
+        }
+       ],
+       "regel": "Wiederholung (20.11.): werden + Infinitiv (Futur): ich werde, du wirst, er/sie/es wird, wir werden, ihr werdet, sie werden."
+      },
+      {
+       "typ": "fehler",
+       "titel": "wenn-Sätze",
+       "anweisung": "Ein Wort steht an der falschen Stelle.",
+       "items": [
+        {
+         "woerter": [
+          "Wenn",
+          "es",
+          "schneit",
+          "viel,",
+          "fahren",
+          "die",
+          "Züge",
+          "langsamer."
+         ],
+         "fehler": 2,
+         "korrektur": "Wenn es viel schneit, …",
+         "erkl": "Im wenn-Satz steht das konjugierte Verb am Ende."
+        },
+        {
+         "woerter": [
+          "Wenn",
+          "es",
+          "viel",
+          "schneit,",
+          "die",
+          "Züge",
+          "fahren",
+          "langsamer."
+         ],
+         "fehler": 6,
+         "korrektur": "…, fahren die Züge langsamer.",
+         "erkl": "Nach dem wenn-Satz kommt sofort das Verb."
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Partizip II",
+       "anweisung": "Ergänze das Partizip.",
+       "items": [
+        {
+         "text": "schneien → Es hat ___.",
+         "loesung": [
+          "geschneit"
+         ]
+        },
+        {
+         "text": "regnen → Es hat stark ___.",
+         "loesung": [
+          "geregnet"
+         ]
+        },
+        {
+         "text": "fallen → Viel Schnee ist ___.",
+         "loesung": [
+          "gefallen"
+         ]
+        },
+        {
+         "text": "bleiben → Der Schnee ist liegen ___.",
+         "loesung": [
+          "geblieben"
+         ]
+        }
+       ],
+       "regel": "Wiederholung (20.11.): Es schüttet = es regnet sehr stark."
+      },
+      {
+       "typ": "auswahl",
+       "titel": "Reflexive Verben",
+       "anweisung": "Wähle das richtige Pronomen.",
+       "items": [
+        {
+         "text": "Ich kann ___ Wien im Schnee gut vorstellen.",
+         "optionen": [
+          "mich",
+          "mir"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Zieh ___ warm an!",
+         "optionen": [
+          "dich",
+          "dir"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Die Autofahrer müssen ___ gut vorbereiten.",
+         "optionen": [
+          "sich",
+          "ihnen"
+         ],
+         "richtig": 0
+        }
+       ],
+       "regel": "Wiederholung (20.11.): sich etwas vorstellen → Ich stelle mir das vor. Reflexivpronomen: mich/mir, dich/dir, sich."
+      }
+     ]
+    },
+    {
+     "kategorie": "Kurioses",
+     "titel": "Thanksgiving: Trump begnadigt Freedom und Feathers",
+     "text": "Kurz vor Thanksgiving hat US-Präsident Donald Trump am Dienstag im Weißen Haus zwei Truthähne „begnadigt“. Die Tiere heißen Freedom und Feathers – die Namen hatte die Bevölkerung vorher in einer Online-Abstimmung ausgewählt. Aufgezogen wurden beide in West Virginia.\n\nDie Zeremonie ist eine humorvolle Tradition: Während am Donnerstag in vielen amerikanischen Familien ein Truthahn auf dem Tisch steht, dürfen diese zwei Vögel weiterleben. Sie ziehen an die Texas A&M University, wo sie in der Abteilung für Geflügelwissenschaft versorgt werden.\n\nAls jährliche Tradition findet die Begnadigung erst seit 1989 statt, damals unter Präsident George H. W. Bush. Laut Weißem Haus war es aber bereits die 79. Begnadigung dieser Art.",
+     "vokabeln": [
+      {
+       "de": "begnadigen",
+       "im_text": "begnadigt",
+       "erkl": "jemandem eine Strafe erlassen"
+      },
+      {
+       "de": "die Abstimmung",
+       "im_text": "Abstimmung",
+       "erkl": "alle sagen, was sie wollen; die Mehrheit gewinnt"
+      },
+      {
+       "de": "aufziehen",
+       "im_text": "Aufgezogen",
+       "erkl": "ein junges Tier groß werden lassen"
+      },
+      {
+       "de": "humorvoll",
+       "im_text": "humorvolle",
+       "erkl": "lustig, mit Humor"
+      },
+      {
+       "de": "die Geflügelwissenschaft",
+       "im_text": "Geflügelwissenschaft",
+       "erkl": "die Wissenschaft über Vögel wie Hühner und Truthähne"
+      },
+      {
+       "de": "versorgen",
+       "im_text": "versorgt",
+       "erkl": "sich um jemanden kümmern und ihm geben, was er braucht"
+      },
+      {
+       "de": "stattfinden",
+       "im_text": "statt",
+       "erkl": "passieren, organisiert werden"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wer hat die Namen ausgewählt?",
+       "optionen": [
+        "Trump",
+        "die Bevölkerung",
+        "die Universität"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die Begnadigung findet seit 1989 jedes Jahr statt.",
+       "richtig": true
+      },
+      {
+       "typ": "rf",
+       "aussage": "Freedom und Feathers werden am Donnerstag gegessen.",
+       "richtig": false,
+       "erkl": "Sie dürfen weiterleben."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wo wurden die Tiere aufgezogen?",
+         "in West Virginia"
+        ],
+        [
+         "Wohin ziehen sie?",
+         "an die Texas A&M University"
+        ],
+        [
+         "Wann ist Thanksgiving?",
+         "am Donnerstag"
+        ],
+        [
+         "Die wievielte Begnadigung war es?",
+         "die 79."
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Welche Feiertagstraditionen in deinem Land findest du seltsam oder lustig?",
+      "Sollte ein Präsident Zeit für solche Zeremonien haben?"
+     ],
+     "uebungen": [
+      {
+       "typ": "eingabe",
+       "titel": "Futur mit werden",
+       "anweisung": "Ergänze die richtige Form von werden.",
+       "items": [
+        {
+         "text": "Die Vögel ___ in Texas leben.",
+         "loesung": [
+          "werden"
+         ]
+        },
+        {
+         "text": "Am Donnerstag ___ viele Familien Truthahn essen.",
+         "loesung": [
+          "werden"
+         ]
+        },
+        {
+         "text": "Ich ___ dieses Jahr kein Thanksgiving feiern.",
+         "loesung": [
+          "werde"
+         ]
+        }
+       ],
+       "regel": "Wiederholung (20.11.): werden + Infinitiv (Futur): ich werde, du wirst, er/sie/es wird, wir werden, ihr werdet, sie werden."
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Partizip II",
+       "anweisung": "Ergänze das Partizip.",
+       "items": [
+        {
+         "text": "begnadigen → Trump hat die Tiere ___.",
+         "loesung": [
+          "begnadigt"
+         ]
+        },
+        {
+         "text": "auswählen → Die Bevölkerung hatte die Namen ___.",
+         "loesung": [
+          "ausgewählt"
+         ]
+        },
+        {
+         "text": "versorgen → Die Tiere werden gut ___.",
+         "loesung": [
+          "versorgt"
+         ]
+        },
+        {
+         "text": "stattfinden → Die Zeremonie hat ___.",
+         "loesung": [
+          "stattgefunden"
+         ]
+        }
+       ]
+      },
+      {
+       "typ": "auswahl",
+       "titel": "wenn-Sätze",
+       "anweisung": "Welcher Satz ist richtig?",
+       "items": [
+        {
+         "text": "Wenn Thanksgiving ist, …",
+         "optionen": [
+          "… isst man Truthahn.",
+          "… man isst Truthahn."
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Wenn die Zeremonie vorbei ist, …",
+         "optionen": [
+          "… die Tiere fahren nach Texas.",
+          "… fahren die Tiere nach Texas."
+         ],
+         "richtig": 1
+        }
+       ],
+       "regel": "Nach dem wenn-Satz kommt sofort das Verb."
+      },
+      {
+       "typ": "auswahl",
+       "titel": "Reflexive Verben",
+       "anweisung": "Wähle das richtige Pronomen.",
+       "items": [
+        {
+         "text": "Die Tiere können ___ jetzt ausruhen.",
+         "optionen": [
+          "sich",
+          "ihnen"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Stell ___ vor: ein Truthahn im Weißen Haus!",
+         "optionen": [
+          "dich",
+          "dir"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Ich freue ___ auf die Feiertage.",
+         "optionen": [
+          "mich",
+          "mir"
+         ],
+         "richtig": 0
+        }
+       ],
+       "regel": "Wiederholung (20.11.): sich etwas vorstellen → Ich stelle mir das vor. Reflexivpronomen: mich/mir, dich/dir, sich."
+      }
+     ]
+    }
+   ]
+  },
+  {
    "datum": "2026-11-24",
    "nachrichten": [
     {

@@ -4,6 +4,1140 @@ window.NACHRICHTEN = {
  "spiel": false,
  "tage": [
   {
+   "datum": "2026-11-25",
+   "nachrichten": [
+    {
+     "kategorie": "Wissenschaft",
+     "titel": "Shenzhou-24: Erster ausländischer Gast auf Chinas Raumstation",
+     "text": "Am Mittwoch ist vom Raumfahrtzentrum Jiuquan in der Wüste Gobi eine chinesische Rakete vom Typ „Langer Marsch 2F“ gestartet. Ihr Ziel: die chinesische Raumstation Tiangong. An Bord der Kapsel Shenzhou-24 sind drei Raumfahrer, darunter ein Pilot aus Pakistan.\n\nEr ist der erste Ausländer, der die Station betritt. Bisher haben dort nur chinesische Astronauten gearbeitet. Der Pakistaner soll nur einige Tage bleiben und als Fachmann wissenschaftliche Experimente betreuen. Danach kehrt er mit der älteren Kapsel Shenzhou-23 zur Erde zurück.\n\nChina und Pakistan arbeiten in der Raumfahrt seit den 1990er-Jahren zusammen. Die chinesische Station könnte in Zukunft noch wichtiger werden: Die Internationale Raumstation ISS soll um 2030 außer Betrieb gehen.",
+     "vokabeln": [
+      {
+       "de": "das Ziel",
+       "im_text": "Ziel",
+       "erkl": "der Ort, wohin man will"
+      },
+      {
+       "de": "die Kapsel",
+       "im_text": "Kapsel",
+       "erkl": "der kleine Teil der Rakete, in dem die Menschen sitzen"
+      },
+      {
+       "de": "darunter",
+       "im_text": "darunter",
+       "erkl": "unter ihnen; dazu gehört auch"
+      },
+      {
+       "de": "betreten",
+       "im_text": "betritt",
+       "erkl": "in einen Raum hineingehen"
+      },
+      {
+       "de": "der Fachmann",
+       "im_text": "Fachmann",
+       "erkl": "eine Person, die etwas sehr gut kann; ein Experte"
+      },
+      {
+       "de": "zurückkehren",
+       "im_text": "kehrt",
+       "erkl": "wieder an den Ort kommen, wo man vorher war"
+      },
+      {
+       "de": "außer Betrieb gehen",
+       "im_text": "Betrieb",
+       "erkl": "nicht mehr arbeiten, abgeschaltet werden"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Woher ist die Rakete gestartet?",
+       "optionen": [
+        "aus Peking",
+        "aus der Wüste Gobi",
+        "aus Pakistan"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Vor ihm haben schon viele Ausländer auf Tiangong gearbeitet.",
+       "richtig": false,
+       "erkl": "Bisher haben dort nur chinesische Astronauten gearbeitet."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Der Pilot kehrt mit Shenzhou-23 zur Erde zurück.",
+       "richtig": true
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wie heißt die Kapsel?",
+         "Shenzhou-24"
+        ],
+        [
+         "Wie lange bleibt der Pilot?",
+         "einige Tage"
+        ],
+        [
+         "Seit wann arbeiten China und Pakistan zusammen?",
+         "seit den 1990er-Jahren"
+        ],
+        [
+         "Wann soll die ISS außer Betrieb gehen?",
+         "um 2030"
+        ]
+       ]
+      },
+      {
+       "typ": "offen",
+       "frage": "Warum könnte Tiangong in Zukunft wichtiger werden?",
+       "loesung": "Weil die ISS um 2030 außer Betrieb gehen soll."
+      }
+     ],
+     "diskussion": [
+      "Sollte die Raumfahrt eher national oder international organisiert sein?",
+      "Wofür sollte man im All forschen – und wofür nicht?",
+      "Würdest du für ein paar Tage auf eine Raumstation fliegen?"
+     ],
+     "uebungen": [
+      {
+       "typ": "eingabe",
+       "titel": "Perfekt: haben oder sein?",
+       "anweisung": "Ergänze die richtige Form von haben oder sein.",
+       "items": [
+        {
+         "text": "Die Rakete ___ gestartet.",
+         "loesung": [
+          "ist"
+         ]
+        },
+        {
+         "text": "Der Pilot ___ lange trainiert.",
+         "loesung": [
+          "hat"
+         ]
+        },
+        {
+         "text": "Er ___ zur Station geflogen.",
+         "loesung": [
+          "ist"
+         ]
+        },
+        {
+         "text": "Bisher ___ dort nur Chinesen gearbeitet.",
+         "loesung": [
+          "haben"
+         ]
+        }
+       ],
+       "regel": "Bewegung von A nach B (fliegen, fahren, starten) und Veränderung → sein. Die meisten anderen Verben → haben."
+      },
+      {
+       "typ": "auswahl",
+       "titel": "Trennbare Verben im Perfekt",
+       "anweisung": "Wähle das richtige Partizip.",
+       "items": [
+        {
+         "text": "Er ist zur Erde ___. (zurückkehren)",
+         "optionen": [
+          "zurückgekehrt",
+          "gezurückkehrt",
+          "zurückkehrt"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Die Rakete ist ___. (abheben)",
+         "optionen": [
+          "geabhebt",
+          "abgehoben",
+          "abhebt"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "China und Pakistan haben ___. (zusammenarbeiten)",
+         "optionen": [
+          "gezusammenarbeitet",
+          "zusammenarbeitet",
+          "zusammengearbeitet"
+         ],
+         "richtig": 2
+        }
+       ],
+       "regel": "Präfix + ge + Verb: zurück-ge-kehrt."
+      },
+      {
+       "typ": "fehler",
+       "titel": "Wortstellung im Nebensatz",
+       "anweisung": "Ein Wort steht an der falschen Stelle.",
+       "items": [
+        {
+         "woerter": [
+          "Er",
+          "ist",
+          "der",
+          "erste",
+          "Ausländer,",
+          "der",
+          "betritt",
+          "die",
+          "Station."
+         ],
+         "fehler": 6,
+         "korrektur": "…, der die Station betritt.",
+         "erkl": "Im Relativsatz steht das konjugierte Verb am Ende."
+        }
+       ]
+      },
+      {
+       "typ": "auswahl",
+       "titel": "Fälle nach Präpositionen",
+       "anweisung": "Wähle den richtigen Artikel.",
+       "items": [
+        {
+         "text": "mit ___ Kapsel Shenzhou-23",
+         "optionen": [
+          "der",
+          "die",
+          "den"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "in ___ Wüste Gobi (wo?)",
+         "optionen": [
+          "die",
+          "der",
+          "den"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "für ___ Experimente",
+         "optionen": [
+          "den",
+          "die",
+          "der"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "seit ___ 1990er-Jahren",
+         "optionen": [
+          "den",
+          "die",
+          "der"
+         ],
+         "richtig": 0
+        }
+       ],
+       "regel": "mit, seit → Dativ; in + wo? → Dativ; für → Akkusativ."
+      }
+     ]
+    },
+    {
+     "kategorie": "Wirtschaft",
+     "titel": "USA bereiten neue Zölle gegen 16 Handelspartner vor",
+     "text": "Die US-Regierung bereitet offenbar neue Zölle gegen 16 Handelspartner vor, darunter die Europäische Union, China, Japan, Indien, Mexiko und die Schweiz. Das berichten die Nachrichtenagentur AP und das „Handelsblatt“ unter Berufung auf Insider.\n\nDer Vorwurf aus Washington: Diese Länder unterstützen ihre Industrie mit staatlichem Geld und produzieren dadurch mehr, als der Markt braucht. Als größten Verursacher solcher Überkapazitäten sieht die US-Regierung China.\n\nWie hoch die neuen Zölle sein sollen, ist noch offen. Mit ihnen will die Regierung frühere Zölle ersetzen, die der Oberste Gerichtshof der USA gekippt hat. Das Büro des US-Handelsbeauftragten und das Weiße Haus haben sich zunächst nicht dazu geäußert.",
+     "vokabeln": [
+      {
+       "de": "vorbereiten",
+       "im_text": "bereitet",
+       "erkl": "etwas planen und fertig machen"
+      },
+      {
+       "de": "unter Berufung auf",
+       "im_text": "Berufung",
+       "erkl": "man nennt die Quelle: Diese Personen haben es gesagt"
+      },
+      {
+       "de": "der Vorwurf",
+       "im_text": "Vorwurf",
+       "erkl": "man sagt, dass jemand etwas falsch macht"
+      },
+      {
+       "de": "die Überkapazität",
+       "im_text": "Überkapazitäten",
+       "erkl": "man kann viel mehr produzieren, als man verkaufen kann"
+      },
+      {
+       "de": "der Verursacher",
+       "im_text": "Verursacher",
+       "erkl": "wer etwas (meist Negatives) auslöst"
+      },
+      {
+       "de": "kippen",
+       "im_text": "gekippt",
+       "erkl": "hier: eine Regel für ungültig erklären"
+      },
+      {
+       "de": "sich äußern",
+       "im_text": "geäußert",
+       "erkl": "etwas dazu sagen, seine Meinung sagen"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wen sieht die US-Regierung als größten Verursacher?",
+       "optionen": [
+        "Mexiko",
+        "China",
+        "die Schweiz"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die Höhe der Zölle steht schon fest.",
+       "richtig": false,
+       "erkl": "Sie ist noch offen."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Der Oberste Gerichtshof hat frühere Zölle gekippt.",
+       "richtig": true
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wer berichtet darüber?",
+         "AP und das „Handelsblatt“"
+        ],
+        [
+         "Wie viele Handelspartner sind betroffen?",
+         "16"
+        ],
+        [
+         "Was soll mit den alten Zöllen passieren?",
+         "Sie sollen ersetzt werden."
+        ],
+        [
+         "Wer hat sich zunächst nicht geäußert?",
+         "das Weiße Haus"
+        ]
+       ]
+      },
+      {
+       "typ": "offen",
+       "frage": "Was werfen die USA den Ländern vor?",
+       "loesung": "Dass sie ihre Industrie mit staatlichem Geld unterstützen und zu viel produzieren."
+      }
+     ],
+     "diskussion": [
+      "Helfen Zölle der eigenen Wirtschaft – oder schaden sie am Ende allen?",
+      "Sollte die EU mit Gegenzöllen reagieren?",
+      "Achtest du beim Einkaufen darauf, woher ein Produkt kommt?"
+     ],
+     "uebungen": [
+      {
+       "typ": "fehler",
+       "titel": "Wortstellung im Nebensatz",
+       "anweisung": "Ein Wort steht an der falschen Stelle.",
+       "items": [
+        {
+         "woerter": [
+          "Die",
+          "USA",
+          "sagen,",
+          "dass",
+          "die",
+          "Länder",
+          "produzieren",
+          "zu",
+          "viel."
+         ],
+         "fehler": 6,
+         "korrektur": "…, dass die Länder zu viel produzieren.",
+         "erkl": "Im Nebensatz steht das konjugierte Verb am Ende."
+        },
+        {
+         "woerter": [
+          "Niemand",
+          "weiß,",
+          "wie",
+          "hoch",
+          "die",
+          "Zölle",
+          "werden",
+          "sein."
+         ],
+         "fehler": 6,
+         "korrektur": "…, wie hoch die Zölle sein werden.",
+         "erkl": "Im Nebensatz steht das konjugierte Verb am Ende."
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Verb → Nomen mit -ung",
+       "anweisung": "Bilde das Nomen.",
+       "items": [
+        {
+         "text": "unterstützen → die ___",
+         "loesung": [
+          "Unterstützung"
+         ]
+        },
+        {
+         "text": "berufen → die ___",
+         "loesung": [
+          "Berufung"
+         ]
+        },
+        {
+         "text": "regieren → die ___",
+         "loesung": [
+          "Regierung"
+         ]
+        },
+        {
+         "text": "äußern → die ___",
+         "loesung": [
+          "Äußerung"
+         ]
+        }
+       ],
+       "regel": "Nomen auf -ung sind immer feminin (die)."
+      },
+      {
+       "typ": "auswahl",
+       "titel": "Fälle nach Präpositionen",
+       "anweisung": "Wähle den richtigen Artikel.",
+       "items": [
+        {
+         "text": "Zölle gegen ___ EU",
+         "optionen": [
+          "der",
+          "die"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "mit ___ staatlichen Geld",
+         "optionen": [
+          "dem",
+          "das",
+          "den"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "für ___ Industrie",
+         "optionen": [
+          "der",
+          "die"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "seit ___ letzten Jahr",
+         "optionen": [
+          "das",
+          "dem"
+         ],
+         "richtig": 1
+        }
+       ],
+       "regel": "gegen, für → Akkusativ; mit, seit → Dativ."
+      },
+      {
+       "typ": "auswahl",
+       "titel": "Perfekt: haben oder sein?",
+       "anweisung": "Wähle das richtige Verb.",
+       "items": [
+        {
+         "text": "Der Gerichtshof ___ die Zölle gekippt.",
+         "optionen": [
+          "hat",
+          "ist"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Die Preise ___ gestiegen.",
+         "optionen": [
+          "haben",
+          "sind"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Das Weiße Haus ___ sich nicht geäußert.",
+         "optionen": [
+          "hat",
+          "ist"
+         ],
+         "richtig": 0
+        }
+       ],
+       "regel": "Bewegung von A nach B (fliegen, fahren, starten) und Veränderung → sein. Die meisten anderen Verben → haben."
+      }
+     ]
+    },
+    {
+     "kategorie": "Gesundheit",
+     "titel": "Gesundheitsreform: Ärztekammer greift Ministerin an",
+     "text": "In Österreich wächst der Streit um die geplante Gesundheitsreform. Gesundheitsministerin Korinna Schumann hat lange nur wenige Details genannt, jetzt kursieren erste Entwürfe. Die Österreichische Ärztekammer kritisiert sie scharf: Ihrer Meinung nach gefährden die Pläne die Versorgung der Patientinnen und Patienten. Für Mittwoch hat die Kammer eine Pressekonferenz angekündigt.\n\nSchon am Wochenende hatte Kammerpräsident Johannes Steinhart der Ministerin ein schlechtes Zeugnis ausgestellt. Sein Vorwurf: Das Ziel, die Wartezeiten auf Arzttermine zu verkürzen, sei gescheitert. Außerdem fehlten weiterhin Kassenverträge in Teilzeit, die besonders für Ärztinnen wichtig seien. Kritisch sieht er auch, dass Aufgaben von Ärzten auf andere Berufsgruppen verlagert werden sollen.",
+     "vokabeln": [
+      {
+       "de": "die Versorgung",
+       "im_text": "Versorgung",
+       "erkl": "hier: dass kranke Menschen Hilfe und Behandlung bekommen"
+      },
+      {
+       "de": "kursieren",
+       "im_text": "kursieren",
+       "erkl": "von Person zu Person weitergegeben werden"
+      },
+      {
+       "de": "der Entwurf",
+       "im_text": "Entwürfe",
+       "erkl": "eine erste Version, noch nicht fertig"
+      },
+      {
+       "de": "gefährden",
+       "im_text": "gefährden",
+       "erkl": "in Gefahr bringen"
+      },
+      {
+       "de": "ein Zeugnis ausstellen",
+       "im_text": "Zeugnis",
+       "erkl": "hier: eine Bewertung über die Arbeit einer Person geben"
+      },
+      {
+       "de": "scheitern",
+       "im_text": "gescheitert",
+       "erkl": "ein Ziel nicht erreichen"
+      },
+      {
+       "de": "verlagern",
+       "im_text": "verlagert",
+       "erkl": "an einen anderen Ort oder zu anderen Personen bringen"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Was kritisiert die Ärztekammer?",
+       "optionen": [
+        "die Krankenhäuser",
+        "die Entwürfe zur Gesundheitsreform",
+        "die Apotheken"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Laut Steinhart sind die Wartezeiten kürzer geworden.",
+       "richtig": false,
+       "erkl": "Das Ziel ist laut ihm gescheitert."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die Kammer hat eine Pressekonferenz angekündigt.",
+       "richtig": true
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wer ist Gesundheitsministerin?",
+         "Korinna Schumann"
+        ],
+        [
+         "Wer ist Kammerpräsident?",
+         "Johannes Steinhart"
+        ],
+        [
+         "Was fehlt laut Kammer weiterhin?",
+         "Kassenverträge in Teilzeit"
+        ],
+        [
+         "Wann ist die Pressekonferenz?",
+         "am Mittwoch"
+        ]
+       ]
+      },
+      {
+       "typ": "offen",
+       "frage": "Warum sind Kassenverträge in Teilzeit laut Kammer wichtig?",
+       "loesung": "Weil sie besonders für Ärztinnen wichtig sind."
+      }
+     ],
+     "diskussion": [
+      "Wie lange wartest du in deinem Land auf einen Arzttermin?",
+      "Sollen Apotheker oder Pflegekräfte mehr Aufgaben übernehmen?",
+      "Was macht ein gutes Gesundheitssystem aus?"
+     ],
+     "uebungen": [
+      {
+       "typ": "eingabe",
+       "titel": "Perfekt: haben oder sein?",
+       "anweisung": "Ergänze die richtige Form von haben oder sein.",
+       "items": [
+        {
+         "text": "Der Streit ___ größer geworden.",
+         "loesung": [
+          "ist"
+         ]
+        },
+        {
+         "text": "Die Kammer ___ eine Pressekonferenz angekündigt.",
+         "loesung": [
+          "hat"
+         ]
+        },
+        {
+         "text": "Das Ziel ___ gescheitert.",
+         "loesung": [
+          "ist"
+         ]
+        },
+        {
+         "text": "Der Präsident ___ die Ministerin kritisiert.",
+         "loesung": [
+          "hat"
+         ]
+        }
+       ],
+       "regel": "Bewegung von A nach B (fliegen, fahren, starten) und Veränderung → sein. Die meisten anderen Verben → haben."
+      },
+      {
+       "typ": "auswahl",
+       "titel": "Trennbare Verben im Perfekt",
+       "anweisung": "Wähle das richtige Partizip.",
+       "items": [
+        {
+         "text": "Die Kammer hat eine Pressekonferenz ___. (ankündigen)",
+         "optionen": [
+          "geankündigt",
+          "angekündigt",
+          "ankündigt"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Er hat ein schlechtes Zeugnis ___. (ausstellen)",
+         "optionen": [
+          "ausgestellt",
+          "geausstellt",
+          "ausstellt"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Die Ministerin hat die Pläne ___. (vorstellen)",
+         "optionen": [
+          "gevorstellt",
+          "vorstellt",
+          "vorgestellt"
+         ],
+         "richtig": 2
+        }
+       ],
+       "regel": "Präfix + ge + Verb: an-ge-kündigt."
+      },
+      {
+       "typ": "zuordnen",
+       "titel": "Wortbildung",
+       "anweisung": "Finde die Paare.",
+       "paare": [
+        [
+         "versorgen",
+         "die Versorgung"
+        ],
+        [
+         "entwerfen",
+         "der Entwurf"
+        ],
+        [
+         "kritisieren",
+         "die Kritik"
+        ],
+        [
+         "verkürzen",
+         "die Verkürzung"
+        ]
+       ]
+      },
+      {
+       "typ": "fehler",
+       "titel": "Wortstellung im Nebensatz",
+       "anweisung": "Ein Wort steht an der falschen Stelle.",
+       "items": [
+        {
+         "woerter": [
+          "Er",
+          "kritisiert,",
+          "dass",
+          "Aufgaben",
+          "sollen",
+          "verlagert",
+          "werden."
+         ],
+         "fehler": 4,
+         "korrektur": "…, dass Aufgaben verlagert werden sollen.",
+         "erkl": "Im dass-Satz steht das konjugierte Verb (hier: sollen) ganz am Ende."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Kultur",
+     "titel": "Buch Wien: Österreichs größtes Literaturtreffen beginnt",
+     "text": "Am Mittwochabend wird in Wien die Buch Wien eröffnet, Österreichs größtes Literaturtreffen. Nach der offiziellen Eröffnung durch Kulturminister Andreas Babler hält der Publizist Michel Friedman die Festrede. Von Donnerstag bis Sonntag erwarten die Besucherinnen und Besucher dann Lesungen, Diskussionen und viele Verlage.\n\nZu den prominentesten Gästen gehört der ungarische Schriftsteller László Krasznahorkai, der den Literaturnobelpreis erhalten hat. Ein Schwerpunkt der Messe ist die Ukraine. Außerdem wird ein neuer Literaturpreis vergeben, der an Ingeborg Bachmann erinnert: Die Kärntner Autorin wurde vor 100 Jahren geboren.\n\nEine Neuerung gibt es auch für die Zukunft: 2027 hat die Messe zum ersten Mal ein Schwerpunktland. Den Anfang macht Tschechien.",
+     "vokabeln": [
+      {
+       "de": "eröffnen",
+       "im_text": "eröffnet",
+       "erkl": "offiziell beginnen lassen"
+      },
+      {
+       "de": "der Publizist",
+       "im_text": "Publizist",
+       "erkl": "eine Person, die in Medien über Politik und Gesellschaft schreibt und spricht"
+      },
+      {
+       "de": "die Festrede",
+       "im_text": "Festrede",
+       "erkl": "eine feierliche Rede bei einem besonderen Anlass"
+      },
+      {
+       "de": "der Verlag",
+       "im_text": "Verlage",
+       "erkl": "eine Firma, die Bücher macht und verkauft"
+      },
+      {
+       "de": "prominent",
+       "im_text": "prominentesten",
+       "erkl": "sehr bekannt"
+      },
+      {
+       "de": "vergeben",
+       "im_text": "vergeben",
+       "erkl": "einen Preis jemandem geben"
+      },
+      {
+       "de": "die Neuerung",
+       "im_text": "Neuerung",
+       "erkl": "etwas Neues, eine Änderung"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wer hält die Festrede?",
+       "optionen": [
+        "Andreas Babler",
+        "Michel Friedman",
+        "László Krasznahorkai"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Ingeborg Bachmann wurde vor 100 Jahren geboren.",
+       "richtig": true
+      },
+      {
+       "typ": "rf",
+       "aussage": "Tschechien ist schon heuer Schwerpunktland.",
+       "richtig": false,
+       "erkl": "Erst 2027."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Woher kommt Krasznahorkai?",
+         "aus Ungarn"
+        ],
+        [
+         "Was ist ein Schwerpunkt der Messe?",
+         "die Ukraine"
+        ],
+        [
+         "Wann können Besucher die Messe besuchen?",
+         "von Donnerstag bis Sonntag"
+        ],
+        [
+         "Wer eröffnet die Messe offiziell?",
+         "Kulturminister Andreas Babler"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Welches Buch hat dich zuletzt beeindruckt?",
+      "Haben Buchmessen in Zeiten von Online-Shops noch einen Sinn?",
+      "Sollten Kulturveranstaltungen auch politische Themen haben?"
+     ],
+     "uebungen": [
+      {
+       "typ": "fehler",
+       "titel": "Wortstellung im Nebensatz",
+       "anweisung": "Ein Wort steht an der falschen Stelle.",
+       "items": [
+        {
+         "woerter": [
+          "Krasznahorkai",
+          "ist",
+          "ein",
+          "Autor,",
+          "der",
+          "hat",
+          "den",
+          "Nobelpreis",
+          "erhalten."
+         ],
+         "fehler": 5,
+         "korrektur": "…, der den Nobelpreis erhalten hat.",
+         "erkl": "Im Relativsatz steht das konjugierte Verb am Ende."
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Wortbildung: -ung, -heit",
+       "anweisung": "Bilde das Nomen.",
+       "items": [
+        {
+         "text": "eröffnen → die ___",
+         "loesung": [
+          "Eröffnung"
+         ]
+        },
+        {
+         "text": "erinnern → die ___",
+         "loesung": [
+          "Erinnerung"
+         ]
+        },
+        {
+         "text": "neu → die ___",
+         "loesung": [
+          "Neuheit",
+          "Neuerung"
+         ]
+        },
+        {
+         "text": "frei → die ___",
+         "loesung": [
+          "Freiheit"
+         ]
+        }
+       ],
+       "regel": "Wiederholung (20.11.): die Erinnerung an … – Nomen auf -ung, -heit, -keit sind immer feminin."
+      },
+      {
+       "typ": "auswahl",
+       "titel": "Fälle nach Präpositionen",
+       "anweisung": "Wähle den richtigen Artikel.",
+       "items": [
+        {
+         "text": "Der Preis erinnert an ___ Autorin.",
+         "optionen": [
+          "der",
+          "die"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "die Eröffnung durch ___ Kulturminister",
+         "optionen": [
+          "dem",
+          "den"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Er gehört zu ___ Gästen.",
+         "optionen": [
+          "die",
+          "den"
+         ],
+         "richtig": 1
+        }
+       ],
+       "regel": "erinnern an + Akkusativ; durch → Akkusativ; zu → Dativ."
+      },
+      {
+       "typ": "auswahl",
+       "titel": "Trennbare Verben im Perfekt",
+       "anweisung": "Wähle das richtige Partizip.",
+       "items": [
+        {
+         "text": "Der Minister hat die Messe ___. (aufmachen)",
+         "optionen": [
+          "aufgemacht",
+          "geaufmacht",
+          "aufmacht"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Viele Leute sind zur Messe ___. (hingehen)",
+         "optionen": [
+          "gehingangen",
+          "hingegangen",
+          "hingeht"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Der Autor hat aus seinem Buch ___. (vorlesen)",
+         "optionen": [
+          "gevorlesen",
+          "vorlest",
+          "vorgelesen"
+         ],
+         "richtig": 2
+        }
+       ],
+       "regel": "Präfix + ge + Verb: vor-ge-lesen."
+      }
+     ]
+    },
+    {
+     "kategorie": "Kurioses",
+     "titel": "Thanksgiving: Trump begnadigt Freedom und Feathers",
+     "text": "Kurz vor Thanksgiving hat US-Präsident Donald Trump am Dienstag im Weißen Haus zwei Truthähne „begnadigt“. Die Tiere heißen Freedom und Feathers – die Namen hatte die Bevölkerung vorher in einer Online-Abstimmung ausgewählt. Aufgezogen wurden beide in West Virginia.\n\nDie Zeremonie ist eine humorvolle Tradition: Während am Donnerstag in vielen amerikanischen Familien ein Truthahn auf dem Tisch steht, dürfen diese zwei Vögel weiterleben. Sie ziehen an die Texas A&M University, wo sie in der Abteilung für Geflügelwissenschaft versorgt werden.\n\nAls jährliche Tradition findet die Begnadigung erst seit 1989 statt, damals unter Präsident George H. W. Bush. Laut Weißem Haus war es aber bereits die 79. Begnadigung dieser Art.",
+     "vokabeln": [
+      {
+       "de": "begnadigen",
+       "im_text": "begnadigt",
+       "erkl": "jemandem eine Strafe erlassen"
+      },
+      {
+       "de": "die Abstimmung",
+       "im_text": "Abstimmung",
+       "erkl": "alle sagen, was sie wollen; die Mehrheit gewinnt"
+      },
+      {
+       "de": "aufziehen",
+       "im_text": "Aufgezogen",
+       "erkl": "ein junges Tier groß werden lassen"
+      },
+      {
+       "de": "humorvoll",
+       "im_text": "humorvolle",
+       "erkl": "lustig, mit Humor"
+      },
+      {
+       "de": "die Geflügelwissenschaft",
+       "im_text": "Geflügelwissenschaft",
+       "erkl": "die Wissenschaft über Vögel wie Hühner und Truthähne"
+      },
+      {
+       "de": "versorgen",
+       "im_text": "versorgt",
+       "erkl": "sich um jemanden kümmern und ihm geben, was er braucht"
+      },
+      {
+       "de": "stattfinden",
+       "im_text": "statt",
+       "erkl": "passieren, organisiert werden"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wer hat die Namen ausgewählt?",
+       "optionen": [
+        "Trump",
+        "die Bevölkerung",
+        "die Universität"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die Begnadigung findet seit 1989 jedes Jahr statt.",
+       "richtig": true
+      },
+      {
+       "typ": "rf",
+       "aussage": "Freedom und Feathers werden am Donnerstag gegessen.",
+       "richtig": false,
+       "erkl": "Sie dürfen weiterleben."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wo wurden die Tiere aufgezogen?",
+         "in West Virginia"
+        ],
+        [
+         "Wohin ziehen sie?",
+         "an die Texas A&M University"
+        ],
+        [
+         "Wann ist Thanksgiving?",
+         "am Donnerstag"
+        ],
+        [
+         "Die wievielte Begnadigung war es?",
+         "die 79."
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Welche Feiertagstraditionen in deinem Land findest du seltsam oder lustig?",
+      "Sollte ein Präsident Zeit für solche Zeremonien haben?"
+     ],
+     "uebungen": [
+      {
+       "typ": "auswahl",
+       "titel": "Perfekt: haben oder sein?",
+       "anweisung": "Wähle das richtige Verb.",
+       "items": [
+        {
+         "text": "Trump ___ die Tiere begnadigt.",
+         "optionen": [
+          "hat",
+          "ist"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Die Vögel ___ nach Texas gefahren.",
+         "optionen": [
+          "haben",
+          "sind"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Die Zeremonie ___ am Dienstag stattgefunden.",
+         "optionen": [
+          "hat",
+          "ist"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Feathers ___ im Weißen Haus geblieben.",
+         "optionen": [
+          "hat",
+          "ist"
+         ],
+         "richtig": 1
+        }
+       ],
+       "regel": "Bewegung von A nach B (fliegen, fahren, starten) und Veränderung → sein. Die meisten anderen Verben → haben."
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Trennbare Verben",
+       "anweisung": "Ergänze das Partizip oder das Präfix.",
+       "items": [
+        {
+         "text": "stattfinden → Die Zeremonie hat am Dienstag ___.",
+         "loesung": [
+          "stattgefunden"
+         ]
+        },
+        {
+         "text": "auswählen → Die Leute haben die Namen ___.",
+         "loesung": [
+          "ausgewählt"
+         ]
+        },
+        {
+         "text": "umziehen → Die Tiere sind nach Texas ___.",
+         "loesung": [
+          "umgezogen"
+         ]
+        },
+        {
+         "text": "aufpassen → Die Studenten passen gut auf die Tiere ___.",
+         "loesung": [
+          "auf"
+         ]
+        }
+       ]
+      },
+      {
+       "typ": "auswahl",
+       "titel": "Fälle nach Präpositionen",
+       "anweisung": "Wähle den richtigen Artikel.",
+       "items": [
+        {
+         "text": "in ___ Weißen Haus (wo?)",
+         "optionen": [
+          "das",
+          "dem"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "an ___ Universität ziehen (wohin?)",
+         "optionen": [
+          "der",
+          "die"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "auf ___ Tisch stehen (wo?)",
+         "optionen": [
+          "den",
+          "dem"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "aus ___ Bevölkerung",
+         "optionen": [
+          "die",
+          "der"
+         ],
+         "richtig": 1
+        }
+       ],
+       "regel": "Wo? → Dativ, wohin? → Akkusativ (Wechselpräpositionen). aus → immer Dativ."
+      },
+      {
+       "typ": "fehler",
+       "titel": "Wortstellung im Nebensatz",
+       "anweisung": "Ein Wort steht an der falschen Stelle.",
+       "items": [
+        {
+         "woerter": [
+          "Sie",
+          "ziehen",
+          "an",
+          "eine",
+          "Universität,",
+          "wo",
+          "sie",
+          "werden",
+          "versorgt."
+         ],
+         "fehler": 7,
+         "korrektur": "…, wo sie versorgt werden.",
+         "erkl": "Im Nebensatz steht das konjugierte Verb am Ende."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
    "datum": "2026-11-24",
    "nachrichten": [
     {

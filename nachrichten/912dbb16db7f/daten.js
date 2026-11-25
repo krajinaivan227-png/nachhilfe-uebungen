@@ -4,6 +4,1040 @@ window.NACHRICHTEN = {
  "spiel": false,
  "tage": [
   {
+   "datum": "2026-11-25",
+   "nachrichten": [
+    {
+     "kategorie": "Wissenschaft",
+     "titel": "Erster Ausländer auf Chinas Raumstation",
+     "text": "China hat eine eigene Raumstation im All. Sie heißt Tiangong. Am Mittwoch ist eine neue Mission gestartet: Die Rakete ist aus der Wüste Gobi ins All geflogen. An Bord sind drei Astronauten.\n\nEiner von ihnen ist ein Pilot aus Pakistan. Er ist der erste Ausländer, der die chinesische Station besucht. Er bleibt nur ein paar Tage und macht wissenschaftliche Experimente. China und Pakistan arbeiten schon seit vielen Jahren in der Raumfahrt zusammen.",
+     "vokabeln": [
+      {
+       "de": "eigen",
+       "im_text": "eigene",
+       "erkl": "es gehört nur dir"
+      },
+      {
+       "de": "die Mission",
+       "im_text": "Mission",
+       "erkl": "eine wichtige Aufgabe; hier: ein Flug ins All"
+      },
+      {
+       "de": "die Wüste",
+       "im_text": "Wüste",
+       "erkl": "ein sehr trockenes Land mit viel Sand und Steinen"
+      },
+      {
+       "de": "der Ausländer",
+       "im_text": "Ausländer",
+       "erkl": "eine Person aus einem anderen Land"
+      },
+      {
+       "de": "wissenschaftlich",
+       "im_text": "wissenschaftliche",
+       "erkl": "so, wie Forscher arbeiten"
+      },
+      {
+       "de": "zusammenarbeiten",
+       "im_text": "zusammen",
+       "erkl": "gemeinsam an etwas arbeiten"
+      },
+      {
+       "de": "die Raumfahrt",
+       "im_text": "Raumfahrt",
+       "erkl": "alles rund um Flüge ins All"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Woher kommt der Pilot?",
+       "optionen": [
+        "aus China",
+        "aus Pakistan",
+        "aus Indien"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Der Pilot bleibt ein halbes Jahr auf der Station.",
+       "richtig": false,
+       "erkl": "Er bleibt nur ein paar Tage."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die Rakete ist aus der Wüste Gobi gestartet.",
+       "richtig": true
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wie heißt die Station?",
+         "Tiangong"
+        ],
+        [
+         "Wie viele Astronauten sind an Bord?",
+         "drei"
+        ],
+        [
+         "Was macht der Pilot auf der Station?",
+         "Experimente"
+        ],
+        [
+         "Seit wann arbeiten China und Pakistan zusammen?",
+         "seit vielen Jahren"
+        ]
+       ]
+      },
+      {
+       "typ": "offen",
+       "frage": "Warum ist diese Mission etwas Besonderes?",
+       "loesung": "Weil zum ersten Mal ein Ausländer die chinesische Station besucht."
+      }
+     ],
+     "diskussion": [
+      "Würdest du gern ins All fliegen? Warum (nicht)?",
+      "Sollen Länder im All mehr zusammenarbeiten?"
+     ],
+     "uebungen": [
+      {
+       "typ": "eingabe",
+       "titel": "Perfekt",
+       "anweisung": "Ergänze das Partizip.",
+       "items": [
+        {
+         "text": "starten → Die Mission ist ___.",
+         "loesung": [
+          "gestartet"
+         ]
+        },
+        {
+         "text": "fliegen → Die Rakete ist ins All ___.",
+         "loesung": [
+          "geflogen"
+         ]
+        },
+        {
+         "text": "besuchen → Er hat die Station ___.",
+         "loesung": [
+          "besucht"
+         ]
+        },
+        {
+         "text": "machen → Er hat Experimente ___.",
+         "loesung": [
+          "gemacht"
+         ]
+        }
+       ],
+       "regel": "Bewegung von A nach B (fliegen, fahren, starten) und Veränderung → sein. Die meisten anderen Verben → haben."
+      },
+      {
+       "typ": "zuordnen",
+       "titel": "Gegenteile",
+       "anweisung": "Finde die Paare.",
+       "paare": [
+        [
+         "starten",
+         "landen"
+        ],
+        [
+         "kurz",
+         "lang"
+        ],
+        [
+         "der erste",
+         "der letzte"
+        ],
+        [
+         "zusammen",
+         "allein"
+        ]
+       ]
+      },
+      {
+       "typ": "fehler",
+       "titel": "weil: Verb am Ende",
+       "anweisung": "Ein Wort steht an der falschen Stelle.",
+       "items": [
+        {
+         "woerter": [
+          "Er",
+          "fliegt",
+          "ins",
+          "All,",
+          "weil",
+          "er",
+          "will",
+          "forschen."
+         ],
+         "fehler": 6,
+         "korrektur": "…, weil er forschen will.",
+         "erkl": "Wiederholung (15.11.): weil → das Verb steht immer am Ende."
+        },
+        {
+         "woerter": [
+          "Die",
+          "Mission",
+          "ist",
+          "besonders,",
+          "weil",
+          "ein",
+          "Ausländer",
+          "ist",
+          "dabei."
+         ],
+         "fehler": 7,
+         "korrektur": "…, weil ein Ausländer dabei ist.",
+         "erkl": "Wiederholung (15.11.): weil → das Verb steht immer am Ende."
+        }
+       ]
+      },
+      {
+       "typ": "auswahl",
+       "titel": "deswegen",
+       "anweisung": "Welcher Satz ist richtig?",
+       "items": [
+        {
+         "text": "Er ist Pilot. Deswegen …",
+         "optionen": [
+          "… er kann gut fliegen.",
+          "… kann er gut fliegen."
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Es gibt nur drei Plätze. Deswegen …",
+         "optionen": [
+          "… fliegen nicht mehr Leute mit.",
+          "… nicht mehr Leute fliegen mit."
+         ],
+         "richtig": 0
+        }
+       ],
+       "regel": "Wiederholung (15.11.): deswegen → sofort danach kommt das Verb."
+      }
+     ]
+    },
+    {
+     "kategorie": "Wirtschaft",
+     "titel": "USA planen neue Zölle – auch gegen die EU",
+     "text": "Die US-Regierung plant offenbar neue Zölle. Das berichtet die Nachrichtenagentur AP. Betroffen sind 16 Handelspartner, zum Beispiel die EU, China, Japan, Indien, Mexiko und die Schweiz.\n\nDie USA sagen: Diese Länder produzieren zu viel und unterstützen ihre Firmen mit Geld vom Staat. Wie hoch die neuen Zölle werden, ist noch nicht klar. Das Oberste Gericht der USA hat frühere Zölle von Präsident Trump gestoppt. Die neuen Zölle sollen sie jetzt ersetzen.",
+     "vokabeln": [
+      {
+       "de": "der Zoll",
+       "im_text": "Zölle",
+       "erkl": "Geld, das man zahlt, wenn Waren über die Grenze kommen"
+      },
+      {
+       "de": "offenbar",
+       "im_text": "offenbar",
+       "erkl": "es sieht so aus, aber es ist nicht offiziell"
+      },
+      {
+       "de": "betroffen",
+       "im_text": "Betroffen",
+       "erkl": "etwas passiert mit dir, oft etwas Negatives"
+      },
+      {
+       "de": "der Handelspartner",
+       "im_text": "Handelspartner",
+       "erkl": "ein Land, mit dem man kauft und verkauft"
+      },
+      {
+       "de": "unterstützen",
+       "im_text": "unterstützen",
+       "erkl": "helfen"
+      },
+      {
+       "de": "das Gericht",
+       "im_text": "Gericht",
+       "erkl": "dort entscheiden Richter über Gesetze und Streit"
+      },
+      {
+       "de": "ersetzen",
+       "im_text": "ersetzen",
+       "erkl": "statt etwas Altem etwas Neues nehmen"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wie viele Handelspartner sind betroffen?",
+       "optionen": [
+        "6",
+        "16",
+        "60"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die Höhe der neuen Zölle ist schon klar.",
+       "richtig": false,
+       "erkl": "Das ist noch nicht klar."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Auch die Schweiz ist betroffen.",
+       "richtig": true
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wer hat das berichtet?",
+         "die Nachrichtenagentur AP"
+        ],
+        [
+         "Wer hat frühere Zölle gestoppt?",
+         "das Oberste Gericht der USA"
+        ],
+        [
+         "Was sollen die neuen Zölle machen?",
+         "die alten Zölle ersetzen"
+        ],
+        [
+         "Was machen die Länder laut USA?",
+         "Sie produzieren zu viel."
+        ]
+       ]
+      },
+      {
+       "typ": "offen",
+       "frage": "Warum wollen die USA neue Zölle?",
+       "loesung": "Weil die Länder laut USA zu viel produzieren und ihre Firmen mit Geld vom Staat unterstützen."
+      }
+     ],
+     "diskussion": [
+      "Kaufst du oft Produkte aus anderen Ländern?",
+      "Sind Zölle gut oder schlecht für die Menschen? Warum?"
+     ],
+     "uebungen": [
+      {
+       "typ": "eingabe",
+       "titel": "Verb → Nomen",
+       "anweisung": "Ergänze das Nomen.",
+       "items": [
+        {
+         "text": "produzieren → die ___",
+         "loesung": [
+          "Produktion"
+         ]
+        },
+        {
+         "text": "unterstützen → die ___",
+         "loesung": [
+          "Unterstützung"
+         ]
+        },
+        {
+         "text": "berichten → der ___",
+         "loesung": [
+          "Bericht"
+         ]
+        },
+        {
+         "text": "planen → der ___",
+         "loesung": [
+          "Plan"
+         ]
+        }
+       ]
+      },
+      {
+       "typ": "auswahl",
+       "titel": "Rechnen mit Zöllen",
+       "anweisung": "Wie viel kostet das Produkt mit Zoll?",
+       "items": [
+        {
+         "text": "100 Dollar + 10 Prozent Zoll = ?",
+         "optionen": [
+          "100 Dollar",
+          "110 Dollar",
+          "1000 Dollar"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "50 Dollar + 20 Prozent Zoll = ?",
+         "optionen": [
+          "52 Dollar",
+          "60 Dollar",
+          "70 Dollar"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "200 Dollar + 15 Prozent Zoll = ?",
+         "optionen": [
+          "215 Dollar",
+          "230 Dollar",
+          "300 Dollar"
+         ],
+         "richtig": 1
+        }
+       ]
+      },
+      {
+       "typ": "fehler",
+       "titel": "weil: Verb am Ende",
+       "anweisung": "Ein Wort steht an der falschen Stelle.",
+       "items": [
+        {
+         "woerter": [
+          "Die",
+          "Preise",
+          "steigen,",
+          "weil",
+          "die",
+          "Zölle",
+          "sind",
+          "hoch."
+         ],
+         "fehler": 6,
+         "korrektur": "…, weil die Zölle hoch sind.",
+         "erkl": "Wiederholung (15.11.): weil → das Verb steht immer am Ende."
+        }
+       ]
+      },
+      {
+       "typ": "auswahl",
+       "titel": "deswegen",
+       "anweisung": "Welcher Satz ist richtig?",
+       "items": [
+        {
+         "text": "Zölle machen Produkte teuer. Deswegen …",
+         "optionen": [
+          "… kaufen die Leute weniger.",
+          "… die Leute kaufen weniger."
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Die Höhe ist noch unklar. Deswegen …",
+         "optionen": [
+          "… die Firmen warten.",
+          "… warten die Firmen."
+         ],
+         "richtig": 1
+        }
+       ],
+       "regel": "Wiederholung (15.11.): deswegen → sofort danach kommt das Verb."
+      }
+     ]
+    },
+    {
+     "kategorie": "Kultur",
+     "titel": "Buch Wien: Die große Bücherwoche beginnt",
+     "text": "Am Mittwochabend beginnt in Wien die Buch Wien, die größte Buchmesse in Österreich. Kulturminister Andreas Babler eröffnet die Messe, der Journalist Michel Friedman hält eine Rede. Von Donnerstag bis Sonntag gibt es dann Lesungen, Gespräche und viele Bücher zum Kaufen.\n\nEin berühmter Gast ist der ungarische Autor László Krasznahorkai. Er hat den Literaturnobelpreis bekommen. Ein Schwerpunkt ist die Ukraine. Außerdem gibt es einen neuen Preis: Er erinnert an die Autorin Ingeborg Bachmann. Sie wurde vor 100 Jahren geboren.",
+     "vokabeln": [
+      {
+       "de": "die Buchmesse",
+       "im_text": "Buchmesse",
+       "erkl": "eine große Ausstellung für Bücher"
+      },
+      {
+       "de": "eröffnen",
+       "im_text": "eröffnet",
+       "erkl": "etwas offiziell beginnen"
+      },
+      {
+       "de": "eine Rede halten",
+       "im_text": "Rede",
+       "erkl": "vor vielen Menschen sprechen"
+      },
+      {
+       "de": "die Lesung",
+       "im_text": "Lesungen",
+       "erkl": "ein Autor liest aus seinem Buch vor"
+      },
+      {
+       "de": "der Schwerpunkt",
+       "im_text": "Schwerpunkt",
+       "erkl": "das wichtigste Thema"
+      },
+      {
+       "de": "erinnern an",
+       "im_text": "erinnert",
+       "erkl": "an etwas oder jemanden denken lassen"
+      },
+      {
+       "de": "geboren",
+       "im_text": "geboren",
+       "erkl": "auf die Welt gekommen"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wer eröffnet die Messe?",
+       "optionen": [
+        "der Bürgermeister",
+        "Kulturminister Andreas Babler",
+        "ein Fußballer"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "László Krasznahorkai kommt aus Ungarn.",
+       "richtig": true
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die Messe dauert nur einen Tag.",
+       "richtig": false,
+       "erkl": "Sie geht von Mittwochabend bis Sonntag."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wer hält eine Rede?",
+         "Michel Friedman"
+        ],
+        [
+         "Was ist ein Schwerpunkt?",
+         "die Ukraine"
+        ],
+        [
+         "An wen erinnert der neue Preis?",
+         "an Ingeborg Bachmann"
+        ],
+        [
+         "Was hat Krasznahorkai bekommen?",
+         "den Literaturnobelpreis"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Liest du lieber Bücher oder E-Books?",
+      "Welches Buch würdest du einem Freund empfehlen?"
+     ],
+     "uebungen": [
+      {
+       "typ": "zuordnen",
+       "titel": "Wer macht was?",
+       "anweisung": "Finde die Paare.",
+       "paare": [
+        [
+         "der Autor",
+         "schreibt Bücher"
+        ],
+        [
+         "der Leser",
+         "liest Bücher"
+        ],
+        [
+         "der Minister",
+         "arbeitet für die Regierung"
+        ],
+        [
+         "der Journalist",
+         "schreibt für Zeitungen"
+        ]
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Perfekt",
+       "anweisung": "Ergänze das Partizip.",
+       "items": [
+        {
+         "text": "bekommen → Er hat den Nobelpreis ___.",
+         "loesung": [
+          "bekommen"
+         ]
+        },
+        {
+         "text": "lesen → Ich habe ein Buch ___.",
+         "loesung": [
+          "gelesen"
+         ]
+        },
+        {
+         "text": "gehen → Wir sind zur Messe ___.",
+         "loesung": [
+          "gegangen"
+         ]
+        },
+        {
+         "text": "kaufen → Hast du ein Buch ___?",
+         "loesung": [
+          "gekauft"
+         ]
+        }
+       ]
+      },
+      {
+       "typ": "fehler",
+       "titel": "weil: Verb am Ende",
+       "anweisung": "Ein Wort steht an der falschen Stelle.",
+       "items": [
+        {
+         "woerter": [
+          "Ich",
+          "gehe",
+          "zur",
+          "Messe,",
+          "weil",
+          "ich",
+          "will",
+          "neue",
+          "Bücher",
+          "sehen."
+         ],
+         "fehler": 6,
+         "korrektur": "…, weil ich neue Bücher sehen will.",
+         "erkl": "Wiederholung (15.11.): weil → das Verb steht immer am Ende."
+        }
+       ]
+      },
+      {
+       "typ": "auswahl",
+       "titel": "deswegen",
+       "anweisung": "Welcher Satz ist richtig?",
+       "items": [
+        {
+         "text": "Ich lese gern. Deswegen …",
+         "optionen": [
+          "… gehe ich zur Buch Wien.",
+          "… ich gehe zur Buch Wien."
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Der Autor ist berühmt. Deswegen …",
+         "optionen": [
+          "… viele Leute kommen.",
+          "… kommen viele Leute."
+         ],
+         "richtig": 1
+        }
+       ],
+       "regel": "Wiederholung (15.11.): deswegen → sofort danach kommt das Verb."
+      }
+     ]
+    },
+    {
+     "kategorie": "Sport",
+     "titel": "Champions League: Dortmund holt Punkt in London",
+     "text": "In der Champions League hat Borussia Dortmund am Dienstag beim FC Arsenal in London 1:1 gespielt. Arsenal ist sehr gut gestartet: Schon in der 10. Minute hat Viktor Gyökeres das 1:0 geschossen.\n\nNach der Pause ist Dortmund der Ausgleich gelungen: In der 55. Minute hat Maximilian Beier getroffen. Danach hatte Arsenal noch gute Chancen und hat mehrmals nur Pfosten oder Latte getroffen. Arsenal hat in dieser Saison in der Champions League noch kein Spiel verloren.",
+     "vokabeln": [
+      {
+       "de": "der Ausgleich",
+       "im_text": "Ausgleich",
+       "erkl": "ein Tor; danach steht es unentschieden"
+      },
+      {
+       "de": "gelingen",
+       "im_text": "gelungen",
+       "erkl": "etwas klappt"
+      },
+      {
+       "de": "treffen",
+       "im_text": "getroffen",
+       "erkl": "hier: ein Tor schießen oder etwas mit dem Ball berühren"
+      },
+      {
+       "de": "die Chance",
+       "im_text": "Chancen",
+       "erkl": "eine gute Möglichkeit"
+      },
+      {
+       "de": "der Pfosten",
+       "im_text": "Pfosten",
+       "erkl": "die Stange links oder rechts am Tor"
+      },
+      {
+       "de": "die Latte",
+       "im_text": "Latte",
+       "erkl": "die Stange oben am Tor"
+      },
+      {
+       "de": "verlieren",
+       "im_text": "verloren",
+       "erkl": "nicht gewinnen"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wie ist das Spiel ausgegangen?",
+       "optionen": [
+        "2:1 für Arsenal",
+        "1:1",
+        "0:1"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Gyökeres hat in der 10. Minute getroffen.",
+       "richtig": true
+      },
+      {
+       "typ": "rf",
+       "aussage": "Arsenal hat diese Saison in der Champions League schon zwei Spiele verloren.",
+       "richtig": false,
+       "erkl": "Arsenal hat noch kein Spiel verloren."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wo war das Spiel?",
+         "in London"
+        ],
+        [
+         "Wer hat für Dortmund getroffen?",
+         "Maximilian Beier"
+        ],
+        [
+         "Wann ist der Ausgleich gefallen?",
+         "in der 55. Minute"
+        ],
+        [
+         "Was hat Arsenal mehrmals getroffen?",
+         "Pfosten oder Latte"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Schaust du gern Fußball? Welche Mannschaft magst du?",
+      "Ist ein Unentschieden auswärts ein gutes Ergebnis?"
+     ],
+     "uebungen": [
+      {
+       "typ": "auswahl",
+       "titel": "Perfekt: haben oder sein?",
+       "anweisung": "Wähle das richtige Verb.",
+       "items": [
+        {
+         "text": "Dortmund ___ 1:1 gespielt.",
+         "optionen": [
+          "hat",
+          "ist"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Arsenal ___ gut gestartet.",
+         "optionen": [
+          "hat",
+          "ist"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Beier ___ getroffen.",
+         "optionen": [
+          "hat",
+          "ist"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Die Fans ___ nach London gefahren.",
+         "optionen": [
+          "haben",
+          "sind"
+         ],
+         "richtig": 1
+        }
+       ],
+       "regel": "Bewegung von A nach B (fliegen, fahren, starten) und Veränderung → sein. Die meisten anderen Verben → haben."
+      },
+      {
+       "typ": "fehler",
+       "titel": "weil: Verb am Ende",
+       "anweisung": "Ein Wort steht an der falschen Stelle.",
+       "items": [
+        {
+         "woerter": [
+          "Die",
+          "Fans",
+          "sind",
+          "froh,",
+          "weil",
+          "Dortmund",
+          "hat",
+          "einen",
+          "Punkt",
+          "geholt."
+         ],
+         "fehler": 6,
+         "korrektur": "…, weil Dortmund einen Punkt geholt hat.",
+         "erkl": "Wiederholung (15.11.): weil → das Verb steht immer am Ende."
+        }
+       ]
+      },
+      {
+       "typ": "auswahl",
+       "titel": "deswegen",
+       "anweisung": "Welcher Satz ist richtig?",
+       "items": [
+        {
+         "text": "Arsenal hat mehrmals nur den Pfosten getroffen. Deswegen …",
+         "optionen": [
+          "… hat Arsenal nicht gewonnen.",
+          "… Arsenal hat nicht gewonnen."
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Dortmund hat gut gekämpft. Deswegen …",
+         "optionen": [
+          "… die Fans sind zufrieden.",
+          "… sind die Fans zufrieden."
+         ],
+         "richtig": 1
+        }
+       ],
+       "regel": "Wiederholung (15.11.): deswegen → sofort danach kommt das Verb."
+      },
+      {
+       "typ": "eingabe",
+       "titel": "werden",
+       "anweisung": "Ergänze die richtige Form von werden.",
+       "items": [
+        {
+         "text": "Dortmund ___ immer besser.",
+         "loesung": [
+          "wird"
+         ]
+        },
+        {
+         "text": "Die Spiele ___ spannender.",
+         "loesung": [
+          "werden"
+         ]
+        },
+        {
+         "text": "___ du ein Fan von Dortmund?",
+         "loesung": [
+          "Wirst"
+         ]
+        }
+       ],
+       "regel": "Wiederholung (15.11.): ich werde, du wirst, er/sie/es wird, wir werden, ihr werdet, sie werden."
+      }
+     ]
+    },
+    {
+     "kategorie": "Wetter",
+     "titel": "Winter kommt früh: Schnee bis ins Flachland",
+     "text": "In Österreich kommt der Winter dieses Jahr früh. Am Mittwoch regnet oder schneit es zuerst im Süden. Am Donnerstag schneit es dann in vielen Teilen des Landes, auch in Wien und im Flachland. Im Süden und Osten sind bis zu 15 Zentimeter Neuschnee möglich.\n\nFür Wien ist das ungewöhnlich: Normalerweise liegt der erste Schnee dort erst Anfang Dezember. Im Westen bleibt es in tiefen Lagen teilweise grün. Die Meteorologen sagen aber: Die Prognose ist noch nicht ganz sicher.",
+     "vokabeln": [
+      {
+       "de": "das Flachland",
+       "im_text": "Flachland",
+       "erkl": "Land ohne Berge"
+      },
+      {
+       "de": "zuerst",
+       "im_text": "zuerst",
+       "erkl": "am Anfang, als Erstes"
+      },
+      {
+       "de": "der Neuschnee",
+       "im_text": "Neuschnee",
+       "erkl": "Schnee, der gerade gefallen ist"
+      },
+      {
+       "de": "möglich",
+       "im_text": "möglich",
+       "erkl": "es kann passieren"
+      },
+      {
+       "de": "ungewöhnlich",
+       "im_text": "ungewöhnlich",
+       "erkl": "nicht normal, selten"
+      },
+      {
+       "de": "die Lage",
+       "im_text": "Lagen",
+       "erkl": "hier: wie hoch ein Ort liegt"
+      },
+      {
+       "de": "die Prognose",
+       "im_text": "Prognose",
+       "erkl": "was Experten für die Zukunft sagen"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wo schneit es am Mittwoch zuerst?",
+       "optionen": [
+        "im Norden",
+        "im Süden",
+        "im Westen"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "In Wien liegt der erste Schnee normalerweise Anfang Dezember.",
+       "richtig": true
+      },
+      {
+       "typ": "rf",
+       "aussage": "Im Westen gibt es überall viel Schnee.",
+       "richtig": false,
+       "erkl": "In tiefen Lagen bleibt es teilweise grün."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wann schneit es in Wien?",
+         "am Donnerstag"
+        ],
+        [
+         "Wie viel Neuschnee ist möglich?",
+         "bis zu 15 Zentimeter"
+        ],
+        [
+         "Wo bleibt es teilweise grün?",
+         "im Westen"
+        ],
+        [
+         "Was ist noch nicht ganz sicher?",
+         "die Prognose"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Wie ist der Winter in deinem Land?",
+      "Was machst du gern, wenn es schneit?"
+     ],
+     "uebungen": [
+      {
+       "typ": "zuordnen",
+       "titel": "Gegenteile",
+       "anweisung": "Finde die Paare.",
+       "paare": [
+        [
+         "früh",
+         "spät"
+        ],
+        [
+         "der Süden",
+         "der Norden"
+        ],
+        [
+         "der Westen",
+         "der Osten"
+        ],
+        [
+         "sicher",
+         "unsicher"
+        ]
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Perfekt",
+       "anweisung": "Ergänze das Partizip.",
+       "items": [
+        {
+         "text": "schneien → Es hat ___.",
+         "loesung": [
+          "geschneit"
+         ]
+        },
+        {
+         "text": "regnen → Es hat ___.",
+         "loesung": [
+          "geregnet"
+         ]
+        },
+        {
+         "text": "fallen → Viel Schnee ist ___.",
+         "loesung": [
+          "gefallen"
+         ]
+        },
+        {
+         "text": "bleiben → Der Schnee ist liegen ___.",
+         "loesung": [
+          "geblieben"
+         ]
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "werden",
+       "anweisung": "Ergänze die richtige Form von werden.",
+       "items": [
+        {
+         "text": "Es ___ kalt.",
+         "loesung": [
+          "wird"
+         ]
+        },
+        {
+         "text": "Die Straßen ___ weiß.",
+         "loesung": [
+          "werden"
+         ]
+        },
+        {
+         "text": "Du ___ nass.",
+         "loesung": [
+          "wirst"
+         ]
+        },
+        {
+         "text": "Ihr ___ müde.",
+         "loesung": [
+          "werdet"
+         ]
+        }
+       ],
+       "regel": "Wiederholung (15.11.): ich werde, du wirst, er/sie/es wird, wir werden, ihr werdet, sie werden."
+      },
+      {
+       "typ": "auswahl",
+       "titel": "deswegen",
+       "anweisung": "Welcher Satz ist richtig?",
+       "items": [
+        {
+         "text": "Es schneit stark. Deswegen …",
+         "optionen": [
+          "… fahren wir langsam.",
+          "… wir fahren langsam."
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Die Straßen sind glatt. Deswegen …",
+         "optionen": [
+          "… ich bleibe zu Hause.",
+          "… bleibe ich zu Hause."
+         ],
+         "richtig": 1
+        }
+       ],
+       "regel": "Wiederholung (15.11.): deswegen → sofort danach kommt das Verb."
+      }
+     ]
+    }
+   ]
+  },
+  {
    "datum": "2026-11-24",
    "nachrichten": [
     {

@@ -4,6 +4,1026 @@ window.NACHRICHTEN = {
  "spiel": false,
  "tage": [
   {
+   "datum": "2026-11-25",
+   "nachrichten": [
+    {
+     "kategorie": "Wissenschaft",
+     "titel": "Tiangong öffnet sich: Erster ausländischer Raumfahrer an Bord",
+     "text": "Mit dem Start von Shenzhou-24 hat China am Mittwoch ein neues Kapitel seiner Raumfahrt aufgeschlagen. Eine Rakete vom Typ „Langer Marsch 2F“ hob vom Raumfahrtzentrum Jiuquan in der Wüste Gobi ab. An Bord der Kapsel: drei Raumfahrer, darunter ein Pilot aus Pakistan. Er ist der erste ausländische Staatsbürger, der die chinesische Raumstation Tiangong betritt.\n\nSein Aufenthalt ist bewusst kurz angelegt. Als sogenannter Nutzlastspezialist soll er einige Tage lang wissenschaftliche Experimente betreuen und anschließend mit der Kapsel Shenzhou-23 zur Erde zurückkehren. Damit weicht China von seinem üblichen Muster ab, bei dem jeweils drei Raumfahrer eine komplette Besatzung ablösen.\n\nDie Zusammenarbeit zwischen China und Pakistan in der Raumfahrt reicht bis in die frühen 1990er-Jahre zurück. Beobachter weisen zudem auf einen größeren Zusammenhang hin: Da die Internationale Raumstation ISS voraussichtlich um 2030 außer Dienst gestellt wird, könnte Tiangong für internationale Partner an Bedeutung gewinnen.",
+     "vokabeln": [
+      {
+       "de": "ein Kapitel aufschlagen",
+       "im_text": "Kapitel",
+       "erkl": "hier: etwas Neues beginnen"
+      },
+      {
+       "de": "der Staatsbürger",
+       "im_text": "Staatsbürger",
+       "erkl": "eine Person mit der Staatsangehörigkeit eines Landes"
+      },
+      {
+       "de": "der Aufenthalt",
+       "im_text": "Aufenthalt",
+       "erkl": "die Zeit, die man an einem Ort bleibt"
+      },
+      {
+       "de": "betreuen",
+       "im_text": "betreuen",
+       "erkl": "sich um etwas kümmern und dafür verantwortlich sein"
+      },
+      {
+       "de": "abweichen von",
+       "im_text": "weicht",
+       "erkl": "es anders machen als normal"
+      },
+      {
+       "de": "ablösen",
+       "im_text": "ablösen",
+       "erkl": "die Arbeit von jemandem übernehmen, damit er gehen kann"
+      },
+      {
+       "de": "an Bedeutung gewinnen",
+       "im_text": "Bedeutung",
+       "erkl": "wichtiger werden"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Was ist an der Mission neu?",
+       "optionen": [
+        "Sie startet zum ersten Mal nachts.",
+        "Ein Ausländer betritt zum ersten Mal Tiangong.",
+        "Es fliegen nur Frauen."
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Der Pilot bleibt so lange wie eine normale Besatzung.",
+       "richtig": false,
+       "erkl": "Sein Aufenthalt ist bewusst kurz angelegt."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die Zusammenarbeit beider Länder begann in den frühen 1990er-Jahren.",
+       "richtig": true
+      },
+      {
+       "typ": "offen",
+       "frage": "Inwiefern weicht China von seinem üblichen Muster ab?",
+       "loesung": "Normalerweise lösen drei Raumfahrer eine komplette Besatzung ab; diesmal kehrt der Pakistaner nach wenigen Tagen mit Shenzhou-23 zurück."
+      },
+      {
+       "typ": "offen",
+       "frage": "Warum könnte Tiangong für andere Länder wichtiger werden?",
+       "loesung": "Weil die ISS voraussichtlich um 2030 außer Dienst gestellt wird."
+      }
+     ],
+     "diskussion": [
+      "Sollte der Weltraum ein Ort der Zusammenarbeit oder des Wettbewerbs sein?",
+      "Welche Rolle spielt Prestige, wenn Staaten Geld in die Raumfahrt stecken?",
+      "Sollten auch Privatpersonen ins All fliegen dürfen?"
+     ],
+     "uebungen": [
+      {
+       "typ": "eingabe",
+       "titel": "Verben mit Präpositionen",
+       "anweisung": "Ergänze die Präposition.",
+       "items": [
+        {
+         "text": "Die Mission weicht ___ dem üblichen Muster ab.",
+         "loesung": [
+          "von"
+         ]
+        },
+        {
+         "text": "Pakistan arbeitet seit Jahren ___ China zusammen.",
+         "loesung": [
+          "mit"
+         ]
+        },
+        {
+         "text": "Beobachter weisen ___ einen größeren Zusammenhang hin.",
+         "loesung": [
+          "auf"
+         ]
+        },
+        {
+         "text": "Der Pilot kümmert sich ___ die Experimente.",
+         "loesung": [
+          "um"
+         ]
+        }
+       ]
+      },
+      {
+       "typ": "auswahl",
+       "titel": "Präpositionen mit Genitiv",
+       "anweisung": "Wähle die passende Präposition.",
+       "items": [
+        {
+         "text": "___ des kurzen Aufenthalts kann er nur wenige Experimente betreuen.",
+         "optionen": [
+          "Wegen",
+          "Trotz"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "___ der hohen Kosten investieren viele Staaten in die Raumfahrt.",
+         "optionen": [
+          "Wegen",
+          "Trotz"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "___ der Mission arbeitet er als Nutzlastspezialist.",
+         "optionen": [
+          "Während",
+          "Statt"
+         ],
+         "richtig": 0
+        }
+       ],
+       "regel": "wegen, trotz, während, statt + Genitiv."
+      },
+      {
+       "typ": "fehler",
+       "titel": "gegenüber",
+       "anweisung": "Ein Wort steht an der falschen Stelle.",
+       "items": [
+        {
+         "woerter": [
+          "China",
+          "ist",
+          "offen",
+          "gegenüber",
+          "ihnen."
+         ],
+         "fehler": 3,
+         "korrektur": "China ist ihnen gegenüber offen.",
+         "erkl": "Bei Pronomen steht gegenüber nach dem Pronomen."
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Wem …, der …",
+       "anweisung": "Ergänze wer, wen oder wem.",
+       "items": [
+        {
+         "text": "___ die Raumfahrt am Herzen liegt, der verfolgt diese Mission genau.",
+         "loesung": [
+          "Wem"
+         ]
+        },
+        {
+         "text": "___ das All interessiert, der sollte den Start anschauen.",
+         "loesung": [
+          "Wen"
+         ]
+        },
+        {
+         "text": "___ ins All fliegen will, der muss lange trainieren.",
+         "loesung": [
+          "Wer"
+         ]
+        }
+       ],
+       "regel": "Wiederholung (14.11.): Wem …, der … (Wem seine Mutter am Herzen liegt, der passt auf sie auf.) – das Fragewort richtet sich nach dem Verb im ersten Teil."
+      }
+     ]
+    },
+    {
+     "kategorie": "Wirtschaft",
+     "titel": "Neue US-Zölle in Vorbereitung: EU und China im Visier",
+     "text": "Die US-Regierung bereitet offenbar eine neue Runde von Zöllen vor. Wie die Nachrichtenagentur AP und das „Handelsblatt“ unter Berufung auf Insider berichten, richten sich die Maßnahmen gegen 16 Handelspartner, darunter die Europäische Union, China, Indien, Japan, Mexiko und die Schweiz. Damit geraten erneut auch Europa und China ins Visier der US-Handelspolitik.\n\nWashington wirft diesen Staaten vor, ihre Industrie mit staatlichen Subventionen zu stützen und dadurch Überkapazitäten zu schaffen – also mehr zu produzieren, als der Weltmarkt aufnehmen kann. Als größten Verursacher betrachtet die US-Regierung China. Wie hoch die Zölle ausfallen sollen und wann sie in Kraft treten, ist noch unklar; der Zeitplan kann sich laut den Quellen noch ändern.\n\nHintergrund: Die neuen Abgaben sollen breitere Zölle ersetzen, die die Regierung im vergangenen Jahr verhängt hatte und die der Oberste Gerichtshof der USA anschließend gekippt hat. Das Büro des US-Handelsbeauftragten und das Weiße Haus äußerten sich zunächst nicht zu den Berichten. Für europäische Exporteure bedeutet das vorerst vor allem eines: Unsicherheit.",
+     "vokabeln": [
+      {
+       "de": "im Visier",
+       "im_text": "Visier",
+       "erkl": "im Fokus; jemand ist das Ziel von etwas"
+      },
+      {
+       "de": "die Subvention",
+       "im_text": "Subventionen",
+       "erkl": "Geld vom Staat für Firmen"
+      },
+      {
+       "de": "stützen",
+       "im_text": "stützen",
+       "erkl": "helfen, damit etwas stabil bleibt"
+      },
+      {
+       "de": "ausfallen",
+       "im_text": "ausfallen",
+       "erkl": "hier: ein bestimmtes Ergebnis haben (hoch oder niedrig)"
+      },
+      {
+       "de": "in Kraft treten",
+       "im_text": "Kraft",
+       "erkl": "ab einem bestimmten Zeitpunkt gültig sein"
+      },
+      {
+       "de": "verhängen",
+       "im_text": "verhängt",
+       "erkl": "eine Strafe oder Maßnahme offiziell beschließen"
+      },
+      {
+       "de": "die Abgabe",
+       "im_text": "Abgaben",
+       "erkl": "Geld, das man dem Staat zahlen muss"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Was wirft Washington den Handelspartnern vor?",
+       "optionen": [
+        "zu wenig zu produzieren",
+        "mit Subventionen Überkapazitäten zu schaffen",
+        "keine Steuern zu zahlen"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Der Zeitplan für die neuen Zölle steht fest.",
+       "richtig": false,
+       "erkl": "Er kann sich laut den Quellen noch ändern."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Frühere Zölle wurden vom Obersten Gerichtshof gekippt.",
+       "richtig": true
+      },
+      {
+       "typ": "offen",
+       "frage": "Was versteht der Text unter Überkapazitäten?",
+       "loesung": "Dass mehr produziert wird, als der Weltmarkt aufnehmen kann."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wen sieht die US-Regierung als größten Verursacher?",
+         "China"
+        ],
+        [
+         "Worauf berufen sich AP und Handelsblatt?",
+         "auf Insider"
+        ],
+        [
+         "Was sollen die neuen Abgaben ersetzen?",
+         "breitere Zölle aus dem vergangenen Jahr"
+        ],
+        [
+         "Wer äußerte sich zunächst nicht?",
+         "das Weiße Haus"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Sind Subventionen für die eigene Industrie fairer Wettbewerb oder Marktverzerrung?",
+      "Wie sollte die EU auf neue US-Zölle reagieren?",
+      "Wer zahlt am Ende die Zölle – Unternehmen oder Verbraucher?"
+     ],
+     "uebungen": [
+      {
+       "typ": "eingabe",
+       "titel": "Verben mit Präpositionen",
+       "anweisung": "Ergänze die Präposition.",
+       "items": [
+        {
+         "text": "Die Maßnahmen richten sich ___ 16 Handelspartner.",
+         "loesung": [
+          "gegen"
+         ]
+        },
+        {
+         "text": "Die Medien berufen sich ___ Insider.",
+         "loesung": [
+          "auf"
+         ]
+        },
+        {
+         "text": "Die EU muss ___ die Zölle reagieren.",
+         "loesung": [
+          "auf"
+         ]
+        },
+        {
+         "text": "Viele Firmen leiden ___ den hohen Abgaben.",
+         "loesung": [
+          "unter"
+         ]
+        }
+       ]
+      },
+      {
+       "typ": "auswahl",
+       "titel": "Präpositionen mit Genitiv",
+       "anweisung": "Wähle die passende Präposition.",
+       "items": [
+        {
+         "text": "___ der Subventionen sind manche Produkte sehr billig.",
+         "optionen": [
+          "Aufgrund",
+          "Trotz"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "___ der Kritik hält Washington an den Plänen fest.",
+         "optionen": [
+          "Wegen",
+          "Trotz"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Die Zölle könnten ___ eines Jahres in Kraft treten.",
+         "optionen": [
+          "innerhalb",
+          "trotz"
+         ],
+         "richtig": 0
+        }
+       ],
+       "regel": "aufgrund, trotz, innerhalb + Genitiv."
+      },
+      {
+       "typ": "fehler",
+       "titel": "gegenüber",
+       "anweisung": "Ein Wort steht an der falschen Stelle.",
+       "items": [
+        {
+         "woerter": [
+          "Die",
+          "USA",
+          "sind",
+          "kritisch",
+          "gegenüber",
+          "ihnen."
+         ],
+         "fehler": 4,
+         "korrektur": "Die USA sind ihnen gegenüber kritisch.",
+         "erkl": "Bei Pronomen steht gegenüber nach dem Pronomen."
+        }
+       ]
+      },
+      {
+       "typ": "auswahl",
+       "titel": "Wem …, der …",
+       "anweisung": "Wähle das richtige Wort.",
+       "items": [
+        {
+         "text": "___ freier Handel wichtig ist, der sieht die Pläne kritisch.",
+         "optionen": [
+          "Wer",
+          "Wem",
+          "Wen"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "___ Zölle befürwortet, der hofft auf mehr Jobs.",
+         "optionen": [
+          "Wer",
+          "Wem",
+          "Wen"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "___ die Pläne nicht gefallen, der protestiert.",
+         "optionen": [
+          "Wer",
+          "Wen",
+          "Wem"
+         ],
+         "richtig": 2
+        }
+       ],
+       "regel": "Wiederholung (14.11.): Wem …, der … (Wem seine Mutter am Herzen liegt, der passt auf sie auf.) – das Fragewort richtet sich nach dem Verb im ersten Teil."
+      }
+     ]
+    },
+    {
+     "kategorie": "Gesundheit",
+     "titel": "Gesundheitsreform: Ärztekammer warnt vor schlechterer Versorgung",
+     "text": "In Österreich spitzt sich der Konflikt um die geplante Gesundheitsreform zu. Nachdem sich Gesundheitsministerin Korinna Schumann lange mit Details zurückgehalten hatte, kursieren nun erste Entwürfe. Die Österreichische Ärztekammer reagiert alarmiert: Unter dem Titel „Ministerin gefährdet Versorgung“ hat sie für Mittwoch eine Pressekonferenz angekündigt, in der sie die Pläne analysieren und weitere Informationsmaßnahmen vorstellen will. Wie die Entwürfe im Detail aussehen, ist öffentlich noch nicht vollständig bekannt. Die Ärztekammer ist die gesetzliche Interessenvertretung der Ärztinnen und Ärzte in Österreich.\n\nBereits am Wochenende hatte Kammerpräsident Johannes Steinhart eine vernichtende Zwischenbilanz gezogen. Die versprochene Verkürzung der Wartezeiten auf Arzttermine sei „krachend gescheitert“, der Trend gehe sogar in die Gegenrichtung. Zudem fehlten weiterhin Kassenverträge in Teilzeit, obwohl diese angesichts des steigenden Frauenanteils in der Ärzteschaft dringender gebraucht würden denn je. Auch die Primärversorgungsnetzwerke, die vor allem für den ländlichen Raum wichtig seien, seien nicht gestärkt worden.\n\nBesonders kritisch sieht die Kammer, dass Aufgaben auf andere Berufsgruppen verlagert werden sollen, die dafür aus ihrer Sicht weniger geeignet sind.",
+     "vokabeln": [
+      {
+       "de": "sich zuspitzen",
+       "im_text": "spitzt",
+       "erkl": "schärfer, gefährlicher werden"
+      },
+      {
+       "de": "sich zurückhalten",
+       "im_text": "zurückgehalten",
+       "erkl": "wenig sagen oder tun"
+      },
+      {
+       "de": "die Zwischenbilanz",
+       "im_text": "Zwischenbilanz",
+       "erkl": "eine Bewertung in der Mitte eines Projekts"
+      },
+      {
+       "de": "vernichtend",
+       "im_text": "vernichtende",
+       "erkl": "extrem negativ"
+      },
+      {
+       "de": "angesichts",
+       "im_text": "angesichts",
+       "erkl": "wenn man … betrachtet; mit Blick auf"
+      },
+      {
+       "de": "die Ärzteschaft",
+       "im_text": "Ärzteschaft",
+       "erkl": "alle Ärztinnen und Ärzte zusammen"
+      },
+      {
+       "de": "geeignet",
+       "im_text": "geeignet",
+       "erkl": "passend, fähig für eine Aufgabe"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Worüber will die Kammer am Mittwoch informieren?",
+       "optionen": [
+        "über neue Medikamente",
+        "über die Entwürfe zur Gesundheitsreform",
+        "über ihre Wahlen"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Laut Steinhart sind die Wartezeiten deutlich kürzer geworden.",
+       "richtig": false,
+       "erkl": "Die Verkürzung sei „krachend gescheitert“."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die Primärversorgungsnetzwerke sind laut Kammer vor allem für ländliche Regionen wichtig.",
+       "richtig": true
+      },
+      {
+       "typ": "offen",
+       "frage": "Warum sind Kassenverträge in Teilzeit laut Kammer besonders dringend?",
+       "loesung": "Wegen des steigenden Frauenanteils in der Ärzteschaft."
+      },
+      {
+       "typ": "offen",
+       "frage": "Was kritisiert die Kammer an der Verlagerung von Aufgaben?",
+       "loesung": "Dass die anderen Berufsgruppen dafür aus ihrer Sicht weniger geeignet sind."
+      }
+     ],
+     "diskussion": [
+      "Sollten Pflegekräfte oder Apotheker Aufgaben übernehmen, die bisher Ärzten vorbehalten waren?",
+      "Wie lassen sich Wartezeiten im Gesundheitssystem realistisch verkürzen?",
+      "Wie neutral ist die Kritik einer Interessenvertretung wie der Ärztekammer?"
+     ],
+     "uebungen": [
+      {
+       "typ": "eingabe",
+       "titel": "Verben mit Präpositionen",
+       "anweisung": "Ergänze die Präposition.",
+       "items": [
+        {
+         "text": "Die Kammer warnt ___ einer schlechteren Versorgung.",
+         "loesung": [
+          "vor"
+         ]
+        },
+        {
+         "text": "Die Ministerin hielt sich lange ___ Details zurück.",
+         "loesung": [
+          "mit"
+         ]
+        },
+        {
+         "text": "Die Ärzte reagieren ___ die Pläne.",
+         "loesung": [
+          "auf"
+         ]
+        },
+        {
+         "text": "Der Arzt hat mir Auskunft ___ meine Gesundheit gegeben.",
+         "loesung": [
+          "über"
+         ]
+        }
+       ],
+       "regel": "Wiederholung (14.11.): Auskunft geben über + Akkusativ."
+      },
+      {
+       "typ": "auswahl",
+       "titel": "Präpositionen mit Genitiv",
+       "anweisung": "Wähle die passende Präposition.",
+       "items": [
+        {
+         "text": "___ des steigenden Frauenanteils braucht man Teilzeitverträge.",
+         "optionen": [
+          "Angesichts",
+          "Trotz"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "___ der Kritik hält die Ministerin an der Reform fest.",
+         "optionen": [
+          "Angesichts",
+          "Trotz"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "___ der nächsten Wochen soll es Gespräche geben.",
+         "optionen": [
+          "Innerhalb",
+          "Wegen"
+         ],
+         "richtig": 0
+        }
+       ],
+       "regel": "angesichts, trotz, innerhalb + Genitiv."
+      },
+      {
+       "typ": "fehler",
+       "titel": "gegenüber",
+       "anweisung": "Ein Wort steht an der falschen Stelle.",
+       "items": [
+        {
+         "woerter": [
+          "Die",
+          "Kammer",
+          "ist",
+          "misstrauisch",
+          "gegenüber",
+          "ihr."
+         ],
+         "fehler": 4,
+         "korrektur": "Die Kammer ist ihr gegenüber misstrauisch.",
+         "erkl": "Bei Pronomen steht gegenüber nach dem Pronomen."
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Wem …, der …",
+       "anweisung": "Ergänze wer, wen oder wem.",
+       "items": [
+        {
+         "text": "___ eine gute Versorgung am Herzen liegt, der hört sich die Kritik an.",
+         "loesung": [
+          "Wem"
+         ]
+        },
+        {
+         "text": "___ lange auf einen Termin wartet, der ärgert sich.",
+         "loesung": [
+          "Wer"
+         ]
+        },
+        {
+         "text": "___ der Hausarzt nicht helfen kann, der braucht einen Facharzt.",
+         "loesung": [
+          "Wem"
+         ]
+        }
+       ],
+       "regel": "Wiederholung (14.11.): Wem …, der … (Wem seine Mutter am Herzen liegt, der passt auf sie auf.) – das Fragewort richtet sich nach dem Verb im ersten Teil."
+      }
+     ]
+    },
+    {
+     "kategorie": "Kultur",
+     "titel": "Buch Wien eröffnet: Literatur zwischen Politik und Jubiläum",
+     "text": "Mit einem Festakt wird am Mittwochabend die Buch Wien eröffnet, das größte Literaturtreffen Österreichs. Nach der offiziellen Eröffnung durch Kulturminister Andreas Babler hält der Publizist Michel Friedman die Festrede; anschließend spricht der designierte ORF-Generaldirektor Clemens Pig über Kulturjournalismus und Demokratie. Von Donnerstag bis Sonntag folgen Lesungen, Debatten und Buchpräsentationen. Die Messe ist damit nicht nur ein Ort des Lesens, sondern auch der politischen Debatte.\n\nZu den prominentesten Gästen zählt der ungarische Literaturnobelpreisträger László Krasznahorkai. Inhaltlich setzt die Messe einen Schwerpunkt auf die Ukraine. Zudem wird erstmals ein Literaturpreis vergeben, der an Ingeborg Bachmann erinnert – die Kärntner Schriftstellerin wäre heuer 100 Jahre alt geworden. Sie gilt bis heute als eine der wichtigsten deutschsprachigen Autorinnen des 20. Jahrhunderts.\n\nAuch strukturell verändert sich die Messe: 2027 führt die Buch Wien erstmals ein Schwerpunktland ein. Den Auftakt macht Tschechien; erste Details sollen bereits am Eröffnungsabend bekanntgegeben werden. Für Verlage und Buchhandel ist die Messe traditionell ein wichtiger Termin vor dem Weihnachtsgeschäft.",
+     "vokabeln": [
+      {
+       "de": "der Festakt",
+       "im_text": "Festakt",
+       "erkl": "eine feierliche Veranstaltung"
+      },
+      {
+       "de": "designiert",
+       "im_text": "designierte",
+       "erkl": "schon gewählt, aber noch nicht im Amt"
+      },
+      {
+       "de": "die Debatte",
+       "im_text": "Debatten",
+       "erkl": "eine Diskussion über ein wichtiges Thema"
+      },
+      {
+       "de": "zählen zu",
+       "im_text": "zählt",
+       "erkl": "zu einer Gruppe gehören"
+      },
+      {
+       "de": "strukturell",
+       "im_text": "strukturell",
+       "erkl": "den Aufbau, die Organisation betreffend"
+      },
+      {
+       "de": "der Auftakt",
+       "im_text": "Auftakt",
+       "erkl": "der Anfang"
+      },
+      {
+       "de": "das Weihnachtsgeschäft",
+       "im_text": "Weihnachtsgeschäft",
+       "erkl": "die Zeit vor Weihnachten, in der Geschäfte besonders viel verkaufen"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Worüber spricht Clemens Pig?",
+       "optionen": [
+        "über Sport",
+        "über Kulturjournalismus und Demokratie",
+        "über Tschechien"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Ingeborg Bachmann stammt aus Kärnten.",
+       "richtig": true
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die Buch Wien hat schon seit Jahren ein Schwerpunktland.",
+       "richtig": false,
+       "erkl": "Das gibt es erstmals 2027."
+      },
+      {
+       "typ": "offen",
+       "frage": "Warum ist die Messe für Verlage und Buchhandel wichtig?",
+       "loesung": "Weil sie kurz vor dem Weihnachtsgeschäft stattfindet."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wer eröffnet die Messe offiziell?",
+         "Andreas Babler"
+        ],
+        [
+         "Wer hält die Festrede?",
+         "Michel Friedman"
+        ],
+        [
+         "Welches Land ist 2027 Schwerpunktland?",
+         "Tschechien"
+        ],
+        [
+         "Woher kommt Krasznahorkai?",
+         "aus Ungarn"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Sollte Literatur politisch Stellung beziehen?",
+      "Welche Bedeutung haben Buchmessen in Zeiten von Social Media und Online-Handel?",
+      "Welches Buch sollte deiner Meinung nach jeder einmal gelesen haben?"
+     ],
+     "uebungen": [
+      {
+       "typ": "eingabe",
+       "titel": "Verben mit Präpositionen",
+       "anweisung": "Ergänze die Präposition.",
+       "items": [
+        {
+         "text": "Clemens Pig spricht ___ Kulturjournalismus.",
+         "loesung": [
+          "über"
+         ]
+        },
+        {
+         "text": "Der Preis erinnert ___ Ingeborg Bachmann.",
+         "loesung": [
+          "an"
+         ]
+        },
+        {
+         "text": "Die Messe setzt einen Schwerpunkt ___ die Ukraine.",
+         "loesung": [
+          "auf"
+         ]
+        },
+        {
+         "text": "Krasznahorkai zählt ___ den prominentesten Gästen.",
+         "loesung": [
+          "zu"
+         ]
+        }
+       ]
+      },
+      {
+       "typ": "auswahl",
+       "titel": "Präpositionen mit Genitiv",
+       "anweisung": "Wähle die passende Präposition.",
+       "items": [
+        {
+         "text": "___ der Messetage finden viele Lesungen statt.",
+         "optionen": [
+          "Während",
+          "Wegen"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "___ des Jubiläums gibt es einen neuen Preis.",
+         "optionen": [
+          "Anlässlich",
+          "Trotz"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "___ des großen Andrangs sollte man früh kommen.",
+         "optionen": [
+          "Wegen",
+          "Trotz"
+         ],
+         "richtig": 0
+        }
+       ],
+       "regel": "während, anlässlich, wegen + Genitiv."
+      },
+      {
+       "typ": "fehler",
+       "titel": "gegenüber",
+       "anweisung": "Ein Wort steht an der falschen Stelle.",
+       "items": [
+        {
+         "woerter": [
+          "Der",
+          "Minister",
+          "ist",
+          "freundlich",
+          "gegenüber",
+          "uns."
+         ],
+         "fehler": 4,
+         "korrektur": "Der Minister ist uns gegenüber freundlich.",
+         "erkl": "Bei Pronomen steht gegenüber nach dem Pronomen."
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Wem …, der …",
+       "anweisung": "Ergänze wer, wen oder wem.",
+       "items": [
+        {
+         "text": "___ Literatur am Herzen liegt, der besucht die Buch Wien.",
+         "loesung": [
+          "Wem"
+         ]
+        },
+        {
+         "text": "___ Bücher liebt, der findet dort viel.",
+         "loesung": [
+          "Wer"
+         ]
+        },
+        {
+         "text": "___ das Lesen schwerfällt, dem helfen vielleicht Hörbücher.",
+         "loesung": [
+          "Wem"
+         ]
+        }
+       ],
+       "regel": "Wiederholung (14.11.): Wem …, der … (Wem seine Mutter am Herzen liegt, der passt auf sie auf.) – das Fragewort richtet sich nach dem Verb im ersten Teil."
+      }
+     ]
+    },
+    {
+     "kategorie": "Gesellschaft",
+     "titel": "Freedom und Feathers: Ein skurriles Ritual im Weißen Haus",
+     "text": "Zwei Tage vor Thanksgiving hat US-Präsident Donald Trump am Dienstag im Weißen Haus die Truthähne Freedom und Feathers „begnadigt“. Die Namen hatte die Öffentlichkeit zuvor in einer Online-Abstimmung bestimmt; aufgezogen wurden die Tiere in West Virginia. Nur einer der beiden Vögel erhält die Ehre, bei der Zeremonie persönlich aufzutreten – für Heiterkeit sorgte Trumps Frage, wo denn Feathers sei. Laut Mitarbeitern ruhte sich das Tier im Gebäude aus.\n\nDie Begnadigung ist eine bewusst humorvolle Geste: Während am Donnerstag Millionen Truthähne auf amerikanischen Tellern landen, verbringen diese beiden ihren Lebensabend an der Texas A&M University, die sie in ihrer Abteilung für Geflügelwissenschaft betreut.\n\nLaut Weißem Haus war es bereits die 79. Begnadigung dieser Art. Zu einer jährlichen Tradition wurde der Brauch allerdings erst 1989 unter Präsident George H. W. Bush. Seither gehört er fest zum Kalender des Weißen Hauses in der Woche vor dem Feiertag. Für Außenstehende wirkt das Ritual skurril, für viele Amerikaner gehört es einfach zur Thanksgiving-Woche.",
+     "vokabeln": [
+      {
+       "de": "skurril",
+       "im_text": "skurril",
+       "erkl": "seltsam und ein bisschen komisch"
+      },
+      {
+       "de": "die Öffentlichkeit",
+       "im_text": "Öffentlichkeit",
+       "erkl": "alle Menschen, die Bevölkerung"
+      },
+      {
+       "de": "aufziehen",
+       "im_text": "aufgezogen",
+       "erkl": "ein junges Tier groß werden lassen"
+      },
+      {
+       "de": "die Heiterkeit",
+       "im_text": "Heiterkeit",
+       "erkl": "fröhliche Stimmung, Lachen"
+      },
+      {
+       "de": "die Geste",
+       "im_text": "Geste",
+       "erkl": "eine Handlung mit symbolischer Bedeutung"
+      },
+      {
+       "de": "der Lebensabend",
+       "im_text": "Lebensabend",
+       "erkl": "die letzte Zeit im Leben"
+      },
+      {
+       "de": "der Brauch",
+       "im_text": "Brauch",
+       "erkl": "eine Tradition, eine feste Gewohnheit einer Gruppe"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wer bestimmte die Namen der Truthähne?",
+       "optionen": [
+        "Trump",
+        "die Öffentlichkeit",
+        "die Universität"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Beide Vögel traten bei der Zeremonie persönlich auf.",
+       "richtig": false,
+       "erkl": "Nur einer der beiden erhält diese Ehre."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Jährlich findet die Begnadigung erst seit 1989 statt.",
+       "richtig": true
+      },
+      {
+       "typ": "offen",
+       "frage": "Warum gab es bei der Zeremonie Heiterkeit?",
+       "loesung": "Weil Trump fragte, wo Feathers sei – das Tier ruhte sich im Gebäude aus."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wo wurden die Tiere aufgezogen?",
+         "in West Virginia"
+        ],
+        [
+         "Wo verbringen sie ihren Lebensabend?",
+         "an der Texas A&M University"
+        ],
+        [
+         "Die wievielte Begnadigung war es?",
+         "die 79."
+        ],
+        [
+         "Unter welchem Präsidenten wurde sie jährlich?",
+         "George H. W. Bush"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Welche Rolle spielen symbolische Rituale in der Politik?",
+      "Gibt es in deinem Herkunftsland vergleichbare Bräuche rund um Feiertage?",
+      "Wie stehst du zum Fleischkonsum an Feiertagen?"
+     ],
+     "uebungen": [
+      {
+       "typ": "eingabe",
+       "titel": "Verben mit Präpositionen",
+       "anweisung": "Ergänze die Präposition.",
+       "items": [
+        {
+         "text": "Trumps Frage sorgte ___ Heiterkeit.",
+         "loesung": [
+          "für"
+         ]
+        },
+        {
+         "text": "Die Universität kümmert sich ___ die Vögel.",
+         "loesung": [
+          "um"
+         ]
+        },
+        {
+         "text": "Viele Familien freuen sich ___ das Fest.",
+         "loesung": [
+          "auf"
+         ]
+        },
+        {
+         "text": "Der Brauch gehört ___ dem Kalender des Weißen Hauses.",
+         "loesung": [
+          "zu"
+         ]
+        }
+       ]
+      },
+      {
+       "typ": "auswahl",
+       "titel": "Präpositionen mit Genitiv",
+       "anweisung": "Wähle die passende Präposition.",
+       "items": [
+        {
+         "text": "___ der Zeremonie ruhte sich Feathers im Gebäude aus.",
+         "optionen": [
+          "Während",
+          "Trotz"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "___ des Feiertags reisen Millionen Menschen.",
+         "optionen": [
+          "Wegen",
+          "Trotz"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "___ aller Kritik hält man an dem Brauch fest.",
+         "optionen": [
+          "Wegen",
+          "Trotz"
+         ],
+         "richtig": 1
+        }
+       ],
+       "regel": "während, wegen, trotz + Genitiv."
+      },
+      {
+       "typ": "fehler",
+       "titel": "gegenüber",
+       "anweisung": "Ein Wort steht an der falschen Stelle.",
+       "items": [
+        {
+         "woerter": [
+          "Die",
+          "Studenten",
+          "sind",
+          "fürsorglich",
+          "gegenüber",
+          "ihnen."
+         ],
+         "fehler": 4,
+         "korrektur": "Die Studenten sind ihnen gegenüber fürsorglich.",
+         "erkl": "Wiederholung (14.11.): gegenüber steht nach dem Pronomen: Ich bin ihr gegenüber freundlich."
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Wem …, der …",
+       "anweisung": "Ergänze wer, wen oder wem.",
+       "items": [
+        {
+         "text": "___ Tiere am Herzen liegen, der freut sich über die Begnadigung.",
+         "loesung": [
+          "Wem"
+         ]
+        },
+        {
+         "text": "___ Traditionen mag, der feiert gern Thanksgiving.",
+         "loesung": [
+          "Wer"
+         ]
+        },
+        {
+         "text": "___ Truthahn schmeckt, der isst ihn am Donnerstag.",
+         "loesung": [
+          "Wem"
+         ]
+        }
+       ],
+       "regel": "Wiederholung (14.11.): Wem …, der … (Wem seine Mutter am Herzen liegt, der passt auf sie auf.) – das Fragewort richtet sich nach dem Verb im ersten Teil."
+      }
+     ]
+    }
+   ]
+  },
+  {
    "datum": "2026-11-24",
    "nachrichten": [
     {

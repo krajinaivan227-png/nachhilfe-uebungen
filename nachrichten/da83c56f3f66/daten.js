@@ -4,6 +4,1053 @@ window.NACHRICHTEN = {
  "spiel": false,
  "tage": [
   {
+   "datum": "2026-11-25",
+   "nachrichten": [
+    {
+     "kategorie": "Wissenschaft",
+     "titel": "Erster Ausländer auf Chinas Raumstation",
+     "text": "China hat eine eigene Raumstation im All. Sie heißt Tiangong. Am Mittwoch ist eine neue Mission gestartet: Die Rakete ist aus der Wüste Gobi ins All geflogen. An Bord sind drei Astronauten.\n\nEiner von ihnen ist ein Pilot aus Pakistan. Er ist der erste Ausländer, der die chinesische Station besucht. Er bleibt nur ein paar Tage und macht wissenschaftliche Experimente. China und Pakistan arbeiten schon seit vielen Jahren in der Raumfahrt zusammen.",
+     "vokabeln": [
+      {
+       "de": "eigen",
+       "im_text": "eigene",
+       "erkl": "es gehört nur dir"
+      },
+      {
+       "de": "die Mission",
+       "im_text": "Mission",
+       "erkl": "eine wichtige Aufgabe; hier: ein Flug ins All"
+      },
+      {
+       "de": "die Wüste",
+       "im_text": "Wüste",
+       "erkl": "ein sehr trockenes Land mit viel Sand und Steinen"
+      },
+      {
+       "de": "der Ausländer",
+       "im_text": "Ausländer",
+       "erkl": "eine Person aus einem anderen Land"
+      },
+      {
+       "de": "wissenschaftlich",
+       "im_text": "wissenschaftliche",
+       "erkl": "so, wie Forscher arbeiten"
+      },
+      {
+       "de": "zusammenarbeiten",
+       "im_text": "zusammen",
+       "erkl": "gemeinsam an etwas arbeiten"
+      },
+      {
+       "de": "die Raumfahrt",
+       "im_text": "Raumfahrt",
+       "erkl": "alles rund um Flüge ins All"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Woher kommt der Pilot?",
+       "optionen": [
+        "aus China",
+        "aus Pakistan",
+        "aus Indien"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Der Pilot bleibt ein halbes Jahr auf der Station.",
+       "richtig": false,
+       "erkl": "Er bleibt nur ein paar Tage."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die Rakete ist aus der Wüste Gobi gestartet.",
+       "richtig": true
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wie heißt die Station?",
+         "Tiangong"
+        ],
+        [
+         "Wie viele Astronauten sind an Bord?",
+         "drei"
+        ],
+        [
+         "Was macht der Pilot auf der Station?",
+         "Experimente"
+        ],
+        [
+         "Seit wann arbeiten China und Pakistan zusammen?",
+         "seit vielen Jahren"
+        ]
+       ]
+      },
+      {
+       "typ": "offen",
+       "frage": "Warum ist diese Mission etwas Besonderes?",
+       "loesung": "Weil zum ersten Mal ein Ausländer die chinesische Station besucht."
+      }
+     ],
+     "diskussion": [
+      "Würdest du gern ins All fliegen? Warum (nicht)?",
+      "Sollen Länder im All mehr zusammenarbeiten?"
+     ],
+     "uebungen": [
+      {
+       "typ": "eingabe",
+       "titel": "Perfekt",
+       "anweisung": "Ergänze das Partizip.",
+       "items": [
+        {
+         "text": "starten → Die Mission ist ___.",
+         "loesung": [
+          "gestartet"
+         ]
+        },
+        {
+         "text": "fliegen → Die Rakete ist ins All ___.",
+         "loesung": [
+          "geflogen"
+         ]
+        },
+        {
+         "text": "besuchen → Er hat die Station ___.",
+         "loesung": [
+          "besucht"
+         ]
+        },
+        {
+         "text": "machen → Er hat Experimente ___.",
+         "loesung": [
+          "gemacht"
+         ]
+        }
+       ],
+       "regel": "Bewegung von A nach B (fliegen, fahren, starten) und Veränderung → sein. Die meisten anderen Verben → haben."
+      },
+      {
+       "typ": "zuordnen",
+       "titel": "Gegenteile",
+       "anweisung": "Finde die Paare.",
+       "paare": [
+        [
+         "starten",
+         "landen"
+        ],
+        [
+         "kurz",
+         "lang"
+        ],
+        [
+         "der erste",
+         "der letzte"
+        ],
+        [
+         "zusammen",
+         "allein"
+        ]
+       ]
+      },
+      {
+       "typ": "fehler",
+       "titel": "dass-Sätze",
+       "anweisung": "Ein Wort steht an der falschen Stelle.",
+       "items": [
+        {
+         "woerter": [
+          "Ich",
+          "finde",
+          "toll,",
+          "dass",
+          "China",
+          "und",
+          "Pakistan",
+          "arbeiten",
+          "zusammen."
+         ],
+         "fehler": 7,
+         "korrektur": "…, dass China und Pakistan zusammenarbeiten.",
+         "erkl": "Im dass-Satz steht das Verb am Ende – trennbare Verben stehen dann zusammen."
+        },
+        {
+         "woerter": [
+          "Viele",
+          "hoffen,",
+          "dass",
+          "die",
+          "Mission",
+          "ist",
+          "ein",
+          "Erfolg."
+         ],
+         "fehler": 5,
+         "korrektur": "…, dass die Mission ein Erfolg ist.",
+         "erkl": "Im Nebensatz steht das konjugierte Verb am Ende."
+        }
+       ]
+      },
+      {
+       "typ": "auswahl",
+       "titel": "um … zu",
+       "anweisung": "Wähle das richtige Wort.",
+       "items": [
+        {
+         "text": "Er fliegt ins All, ___ Experimente zu machen.",
+         "optionen": [
+          "um",
+          "dass",
+          "weil"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Die Astronauten trainieren lange, ___ fit zu sein.",
+         "optionen": [
+          "dass",
+          "um",
+          "weil"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Er fliegt ins All, ___ er Experimente machen will.",
+         "optionen": [
+          "um",
+          "zu",
+          "weil"
+         ],
+         "richtig": 2
+        }
+       ],
+       "regel": "um … zu + Infinitiv am Ende: um Experimente zu machen."
+      }
+     ]
+    },
+    {
+     "kategorie": "Wirtschaft",
+     "titel": "USA planen neue Zölle – auch gegen die EU",
+     "text": "Die US-Regierung plant offenbar neue Zölle. Das berichtet die Nachrichtenagentur AP. Betroffen sind 16 Handelspartner, zum Beispiel die EU, China, Japan, Indien, Mexiko und die Schweiz.\n\nDie USA sagen: Diese Länder produzieren zu viel und unterstützen ihre Firmen mit Geld vom Staat. Wie hoch die neuen Zölle werden, ist noch nicht klar. Das Oberste Gericht der USA hat frühere Zölle von Präsident Trump gestoppt. Die neuen Zölle sollen sie jetzt ersetzen.",
+     "vokabeln": [
+      {
+       "de": "der Zoll",
+       "im_text": "Zölle",
+       "erkl": "Geld, das man zahlt, wenn Waren über die Grenze kommen"
+      },
+      {
+       "de": "offenbar",
+       "im_text": "offenbar",
+       "erkl": "es sieht so aus, aber es ist nicht offiziell"
+      },
+      {
+       "de": "betroffen",
+       "im_text": "Betroffen",
+       "erkl": "etwas passiert mit dir, oft etwas Negatives"
+      },
+      {
+       "de": "der Handelspartner",
+       "im_text": "Handelspartner",
+       "erkl": "ein Land, mit dem man kauft und verkauft"
+      },
+      {
+       "de": "unterstützen",
+       "im_text": "unterstützen",
+       "erkl": "helfen"
+      },
+      {
+       "de": "das Gericht",
+       "im_text": "Gericht",
+       "erkl": "dort entscheiden Richter über Gesetze und Streit"
+      },
+      {
+       "de": "ersetzen",
+       "im_text": "ersetzen",
+       "erkl": "statt etwas Altem etwas Neues nehmen"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wie viele Handelspartner sind betroffen?",
+       "optionen": [
+        "6",
+        "16",
+        "60"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die Höhe der neuen Zölle ist schon klar.",
+       "richtig": false,
+       "erkl": "Das ist noch nicht klar."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Auch die Schweiz ist betroffen.",
+       "richtig": true
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wer hat das berichtet?",
+         "die Nachrichtenagentur AP"
+        ],
+        [
+         "Wer hat frühere Zölle gestoppt?",
+         "das Oberste Gericht der USA"
+        ],
+        [
+         "Was sollen die neuen Zölle machen?",
+         "die alten Zölle ersetzen"
+        ],
+        [
+         "Was machen die Länder laut USA?",
+         "Sie produzieren zu viel."
+        ]
+       ]
+      },
+      {
+       "typ": "offen",
+       "frage": "Warum wollen die USA neue Zölle?",
+       "loesung": "Weil die Länder laut USA zu viel produzieren und ihre Firmen mit Geld vom Staat unterstützen."
+      }
+     ],
+     "diskussion": [
+      "Kaufst du oft Produkte aus anderen Ländern?",
+      "Sind Zölle gut oder schlecht für die Menschen? Warum?"
+     ],
+     "uebungen": [
+      {
+       "typ": "eingabe",
+       "titel": "Verb → Nomen",
+       "anweisung": "Ergänze das Nomen.",
+       "items": [
+        {
+         "text": "produzieren → die ___",
+         "loesung": [
+          "Produktion"
+         ]
+        },
+        {
+         "text": "unterstützen → die ___",
+         "loesung": [
+          "Unterstützung"
+         ]
+        },
+        {
+         "text": "berichten → der ___",
+         "loesung": [
+          "Bericht"
+         ]
+        },
+        {
+         "text": "planen → der ___",
+         "loesung": [
+          "Plan"
+         ]
+        }
+       ]
+      },
+      {
+       "typ": "auswahl",
+       "titel": "Rechnen mit Zöllen",
+       "anweisung": "Wie viel kostet das Produkt mit Zoll?",
+       "items": [
+        {
+         "text": "100 Dollar + 10 Prozent Zoll = ?",
+         "optionen": [
+          "100 Dollar",
+          "110 Dollar",
+          "1000 Dollar"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "50 Dollar + 20 Prozent Zoll = ?",
+         "optionen": [
+          "52 Dollar",
+          "60 Dollar",
+          "70 Dollar"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "200 Dollar + 15 Prozent Zoll = ?",
+         "optionen": [
+          "215 Dollar",
+          "230 Dollar",
+          "300 Dollar"
+         ],
+         "richtig": 1
+        }
+       ]
+      },
+      {
+       "typ": "fehler",
+       "titel": "dass-Sätze",
+       "anweisung": "Ein Wort steht an der falschen Stelle.",
+       "items": [
+        {
+         "woerter": [
+          "Die",
+          "USA",
+          "sagen,",
+          "dass",
+          "die",
+          "Produkte",
+          "sind",
+          "zu",
+          "billig."
+         ],
+         "fehler": 6,
+         "korrektur": "…, dass die Produkte zu billig sind.",
+         "erkl": "Im Nebensatz steht das konjugierte Verb am Ende."
+        }
+       ]
+      },
+      {
+       "typ": "auswahl",
+       "titel": "um … zu",
+       "anweisung": "Wähle das richtige Wort.",
+       "items": [
+        {
+         "text": "Die USA planen Zölle, ___ ihre Firmen zu schützen.",
+         "optionen": [
+          "um",
+          "weil",
+          "dass"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Viele Firmen senken die Preise, ___ Kunden zu bekommen.",
+         "optionen": [
+          "dass",
+          "um",
+          "weil"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Ich glaube, ___ die Preise steigen.",
+         "optionen": [
+          "um",
+          "dass",
+          "zu"
+         ],
+         "richtig": 1
+        }
+       ],
+       "regel": "um … zu + Infinitiv am Ende; dass + Verb am Ende."
+      }
+     ]
+    },
+    {
+     "kategorie": "Videospiele",
+     "titel": "GTA 6: Erstes großes Update",
+     "text": "Seit dem 19. November kann man GTA 6 auf der PlayStation 5 und der Xbox Series X|S spielen. Am Montag hat Rockstar Games ein Update veröffentlicht. Es repariert mehrere Fehler.\n\nEin Problem war das Wetter im Spiel: Manchmal hat es sich lange nicht geändert. Außerdem hat das Update einen Absturz und ein Problem beim automatischen Speichern behoben. Eine Version für den PC gibt es noch nicht. Rockstar hat dafür auch noch kein Datum genannt.",
+     "vokabeln": [
+      {
+       "de": "das Update",
+       "im_text": "Update",
+       "erkl": "eine neue Version von einem Programm"
+      },
+      {
+       "de": "veröffentlichen",
+       "im_text": "veröffentlicht",
+       "erkl": "für alle zugänglich machen"
+      },
+      {
+       "de": "reparieren",
+       "im_text": "repariert",
+       "erkl": "etwas Kaputtes wieder gut machen"
+      },
+      {
+       "de": "sich ändern",
+       "im_text": "geändert",
+       "erkl": "anders werden"
+      },
+      {
+       "de": "der Absturz",
+       "im_text": "Absturz",
+       "erkl": "das Programm geht plötzlich aus"
+      },
+      {
+       "de": "speichern",
+       "im_text": "Speichern",
+       "erkl": "Daten sichern, damit sie nicht verloren gehen"
+      },
+      {
+       "de": "beheben",
+       "im_text": "behoben",
+       "erkl": "ein Problem lösen"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Seit wann kann man GTA 6 spielen?",
+       "optionen": [
+        "seit dem 1. November",
+        "seit dem 19. November",
+        "seit Dezember"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Es gibt schon eine Version für den PC.",
+       "richtig": false,
+       "erkl": "Eine PC-Version gibt es noch nicht."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Das Update repariert ein Problem mit dem Wetter.",
+       "richtig": true
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wer hat das Update veröffentlicht?",
+         "Rockstar Games"
+        ],
+        [
+         "Wann kam das Update?",
+         "am Montag"
+        ],
+        [
+         "Was hat sich manchmal lange nicht geändert?",
+         "das Wetter"
+        ],
+        [
+         "Was fehlt noch?",
+         "eine Version für den PC"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Welche Videospiele spielst du gern?",
+      "Ärgerst du dich über Fehler in Spielen? Was machst du dann?"
+     ],
+     "uebungen": [
+      {
+       "typ": "eingabe",
+       "titel": "Verb → Nomen",
+       "anweisung": "Ergänze das Nomen.",
+       "items": [
+        {
+         "text": "reparieren → die ___",
+         "loesung": [
+          "Reparatur"
+         ]
+        },
+        {
+         "text": "abstürzen → der ___",
+         "loesung": [
+          "Absturz"
+         ]
+        },
+        {
+         "text": "ändern → die ___",
+         "loesung": [
+          "Änderung"
+         ]
+        },
+        {
+         "text": "veröffentlichen → die ___",
+         "loesung": [
+          "Veröffentlichung"
+         ]
+        }
+       ]
+      },
+      {
+       "typ": "auswahl",
+       "titel": "Perfekt: haben oder sein?",
+       "anweisung": "Wähle das richtige Verb.",
+       "items": [
+        {
+         "text": "Rockstar ___ ein Update veröffentlicht.",
+         "optionen": [
+          "hat",
+          "ist"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Das Spiel ___ abgestürzt.",
+         "optionen": [
+          "hat",
+          "ist"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Viele ___ das Spiel gekauft.",
+         "optionen": [
+          "haben",
+          "sind"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Das Wetter ___ sich nicht geändert.",
+         "optionen": [
+          "hat",
+          "ist"
+         ],
+         "richtig": 0
+        }
+       ],
+       "regel": "Bewegung von A nach B (fliegen, fahren, starten) und Veränderung → sein. Die meisten anderen Verben → haben."
+      },
+      {
+       "typ": "fehler",
+       "titel": "Satzbau nach Adverbien",
+       "anweisung": "Ein Wort steht an der falschen Stelle.",
+       "items": [
+        {
+         "woerter": [
+          "Ab",
+          "sofort",
+          "das",
+          "Wetter",
+          "funktioniert",
+          "besser."
+         ],
+         "fehler": 4,
+         "korrektur": "Ab sofort funktioniert das Wetter besser.",
+         "erkl": "Wiederholung (20.11.): Ab sofort kann ich … → nach Wörtern wie ab sofort, hoffentlich, dann kommt sofort das Verb."
+        },
+        {
+         "woerter": [
+          "Hoffentlich",
+          "Rockstar",
+          "bringt",
+          "bald",
+          "eine",
+          "PC-Version."
+         ],
+         "fehler": 2,
+         "korrektur": "Hoffentlich bringt Rockstar bald eine PC-Version.",
+         "erkl": "Wiederholung (20.11.): Ab sofort kann ich … → nach Wörtern wie ab sofort, hoffentlich, dann kommt sofort das Verb."
+        },
+        {
+         "woerter": [
+          "Dann",
+          "ich",
+          "spiele",
+          "wieder",
+          "GTA."
+         ],
+         "fehler": 2,
+         "korrektur": "Dann spiele ich wieder GTA.",
+         "erkl": "Wiederholung (20.11.): Ab sofort kann ich … → nach Wörtern wie ab sofort, hoffentlich, dann kommt sofort das Verb."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Kurioses",
+     "titel": "Zwei Truthähne dürfen weiterleben",
+     "text": "Am Donnerstag feiern die Amerikaner Thanksgiving. An diesem Tag essen viele Familien Truthahn. Eine alte Tradition im Weißen Haus ist deshalb ein bisschen lustig: Der Präsident „begnadigt“ jedes Jahr zwei Truthähne.\n\nAm Dienstag hat Donald Trump die Truthähne Freedom und Feathers begnadigt. Die Namen haben die Menschen online ausgewählt. Die zwei Vögel kommen aus West Virginia. Jetzt ziehen sie an die Universität Texas A&M. Seit 1989 gibt es diese Tradition jedes Jahr.",
+     "vokabeln": [
+      {
+       "de": "die Tradition",
+       "im_text": "Tradition",
+       "erkl": "etwas, das man schon sehr lange so macht"
+      },
+      {
+       "de": "das Weiße Haus",
+       "im_text": "Weißen Haus",
+       "erkl": "Haus und Büro des US-Präsidenten"
+      },
+      {
+       "de": "begnadigen",
+       "im_text": "begnadigt",
+       "erkl": "jemandem die Strafe schenken; hier: das Tier darf leben"
+      },
+      {
+       "de": "auswählen",
+       "im_text": "ausgewählt",
+       "erkl": "aus mehreren Dingen eins nehmen"
+      },
+      {
+       "de": "der Vogel",
+       "im_text": "Vögel",
+       "erkl": "ein Tier mit Federn und Flügeln"
+      },
+      {
+       "de": "ziehen",
+       "im_text": "ziehen",
+       "erkl": "an einen neuen Ort gehen, um dort zu wohnen"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Was essen viele Familien zu Thanksgiving?",
+       "optionen": [
+        "Fisch",
+        "Truthahn",
+        "Pizza"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Der Präsident hat die Namen ausgewählt.",
+       "richtig": false,
+       "erkl": "Die Menschen haben sie online ausgewählt."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die Vögel kommen aus West Virginia.",
+       "richtig": true
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wann ist Thanksgiving?",
+         "am Donnerstag"
+        ],
+        [
+         "Wie heißen die Truthähne?",
+         "Freedom und Feathers"
+        ],
+        [
+         "Wohin ziehen sie?",
+         "an die Universität Texas A&M"
+        ],
+        [
+         "Seit wann gibt es die Tradition jedes Jahr?",
+         "seit 1989"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Welche Traditionen gibt es in deinem Land vor Feiertagen?",
+      "Findest du diese Tradition lustig oder seltsam?"
+     ],
+     "uebungen": [
+      {
+       "typ": "eingabe",
+       "titel": "Perfekt",
+       "anweisung": "Ergänze das Partizip.",
+       "items": [
+        {
+         "text": "auswählen → Die Menschen haben die Namen ___.",
+         "loesung": [
+          "ausgewählt"
+         ]
+        },
+        {
+         "text": "begnadigen → Trump hat die Tiere ___.",
+         "loesung": [
+          "begnadigt"
+         ]
+        },
+        {
+         "text": "feiern → Wir haben Thanksgiving ___.",
+         "loesung": [
+          "gefeiert"
+         ]
+        },
+        {
+         "text": "kommen → Die Vögel sind aus West Virginia ___.",
+         "loesung": [
+          "gekommen"
+         ]
+        }
+       ]
+      },
+      {
+       "typ": "zuordnen",
+       "titel": "Was passt zusammen?",
+       "anweisung": "Finde die Paare.",
+       "paare": [
+        [
+         "der Truthahn",
+         "ein Vogel"
+        ],
+        [
+         "Thanksgiving",
+         "ein Fest"
+        ],
+        [
+         "das Weiße Haus",
+         "das Büro des Präsidenten"
+        ],
+        [
+         "die Universität",
+         "eine Hochschule"
+        ]
+       ]
+      },
+      {
+       "typ": "fehler",
+       "titel": "dass-Sätze",
+       "anweisung": "Ein Wort steht an der falschen Stelle.",
+       "items": [
+        {
+         "woerter": [
+          "Ich",
+          "finde",
+          "lustig,",
+          "dass",
+          "Trump",
+          "begnadigt",
+          "Truthähne."
+         ],
+         "fehler": 5,
+         "korrektur": "…, dass Trump Truthähne begnadigt.",
+         "erkl": "Im Nebensatz steht das konjugierte Verb am Ende."
+        }
+       ]
+      },
+      {
+       "typ": "auswahl",
+       "titel": "um … zu oder dass?",
+       "anweisung": "Wähle das richtige Wort.",
+       "items": [
+        {
+         "text": "Viele Amerikaner reisen, ___ ihre Familie zu sehen.",
+         "optionen": [
+          "um",
+          "dass"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Die Leute haben online abgestimmt, ___ die Namen auszuwählen.",
+         "optionen": [
+          "dass",
+          "um"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Ich hoffe, ___ die Tiere ein gutes Leben haben.",
+         "optionen": [
+          "dass",
+          "um"
+         ],
+         "richtig": 0
+        }
+       ],
+       "regel": "um … zu + Infinitiv am Ende; dass + Verb am Ende."
+      }
+     ]
+    },
+    {
+     "kategorie": "Wetter",
+     "titel": "Winter kommt früh: Schnee bis ins Flachland",
+     "text": "In Österreich kommt der Winter dieses Jahr früh. Am Mittwoch regnet oder schneit es zuerst im Süden. Am Donnerstag schneit es dann in vielen Teilen des Landes, auch in Wien und im Flachland. Im Süden und Osten sind bis zu 15 Zentimeter Neuschnee möglich.\n\nFür Wien ist das ungewöhnlich: Normalerweise liegt der erste Schnee dort erst Anfang Dezember. Im Westen bleibt es in tiefen Lagen teilweise grün. Die Meteorologen sagen aber: Die Prognose ist noch nicht ganz sicher.",
+     "vokabeln": [
+      {
+       "de": "das Flachland",
+       "im_text": "Flachland",
+       "erkl": "Land ohne Berge"
+      },
+      {
+       "de": "zuerst",
+       "im_text": "zuerst",
+       "erkl": "am Anfang, als Erstes"
+      },
+      {
+       "de": "der Neuschnee",
+       "im_text": "Neuschnee",
+       "erkl": "Schnee, der gerade gefallen ist"
+      },
+      {
+       "de": "möglich",
+       "im_text": "möglich",
+       "erkl": "es kann passieren"
+      },
+      {
+       "de": "ungewöhnlich",
+       "im_text": "ungewöhnlich",
+       "erkl": "nicht normal, selten"
+      },
+      {
+       "de": "die Lage",
+       "im_text": "Lagen",
+       "erkl": "hier: wie hoch ein Ort liegt"
+      },
+      {
+       "de": "die Prognose",
+       "im_text": "Prognose",
+       "erkl": "was Experten für die Zukunft sagen"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wo schneit es am Mittwoch zuerst?",
+       "optionen": [
+        "im Norden",
+        "im Süden",
+        "im Westen"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "In Wien liegt der erste Schnee normalerweise Anfang Dezember.",
+       "richtig": true
+      },
+      {
+       "typ": "rf",
+       "aussage": "Im Westen gibt es überall viel Schnee.",
+       "richtig": false,
+       "erkl": "In tiefen Lagen bleibt es teilweise grün."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wann schneit es in Wien?",
+         "am Donnerstag"
+        ],
+        [
+         "Wie viel Neuschnee ist möglich?",
+         "bis zu 15 Zentimeter"
+        ],
+        [
+         "Wo bleibt es teilweise grün?",
+         "im Westen"
+        ],
+        [
+         "Was ist noch nicht ganz sicher?",
+         "die Prognose"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Wie ist der Winter in deinem Land?",
+      "Was machst du gern, wenn es schneit?"
+     ],
+     "uebungen": [
+      {
+       "typ": "zuordnen",
+       "titel": "Gegenteile",
+       "anweisung": "Finde die Paare.",
+       "paare": [
+        [
+         "früh",
+         "spät"
+        ],
+        [
+         "der Süden",
+         "der Norden"
+        ],
+        [
+         "der Westen",
+         "der Osten"
+        ],
+        [
+         "sicher",
+         "unsicher"
+        ]
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Perfekt",
+       "anweisung": "Ergänze das Partizip.",
+       "items": [
+        {
+         "text": "schneien → Es hat ___.",
+         "loesung": [
+          "geschneit"
+         ]
+        },
+        {
+         "text": "regnen → Es hat ___.",
+         "loesung": [
+          "geregnet"
+         ]
+        },
+        {
+         "text": "fallen → Viel Schnee ist ___.",
+         "loesung": [
+          "gefallen"
+         ]
+        },
+        {
+         "text": "bleiben → Der Schnee ist liegen ___.",
+         "loesung": [
+          "geblieben"
+         ]
+        }
+       ]
+      },
+      {
+       "typ": "fehler",
+       "titel": "Satzbau nach Adverbien",
+       "anweisung": "Ein Wort steht an der falschen Stelle.",
+       "items": [
+        {
+         "woerter": [
+          "Hoffentlich",
+          "es",
+          "schneit",
+          "viel."
+         ],
+         "fehler": 2,
+         "korrektur": "Hoffentlich schneit es viel.",
+         "erkl": "Wiederholung (20.11.): Ab sofort kann ich … → nach Wörtern wie ab sofort, hoffentlich, dann kommt sofort das Verb."
+        },
+        {
+         "woerter": [
+          "Dann",
+          "ich",
+          "baue",
+          "einen",
+          "Schneemann."
+         ],
+         "fehler": 2,
+         "korrektur": "Dann baue ich einen Schneemann.",
+         "erkl": "Wiederholung (20.11.): Ab sofort kann ich … → nach Wörtern wie ab sofort, hoffentlich, dann kommt sofort das Verb."
+        },
+        {
+         "woerter": [
+          "Ab",
+          "sofort",
+          "ich",
+          "brauche",
+          "eine",
+          "warme",
+          "Jacke."
+         ],
+         "fehler": 3,
+         "korrektur": "Ab sofort brauche ich eine warme Jacke.",
+         "erkl": "Wiederholung (20.11.): Ab sofort kann ich … → nach Wörtern wie ab sofort, hoffentlich, dann kommt sofort das Verb."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
    "datum": "2026-11-24",
    "nachrichten": [
     {

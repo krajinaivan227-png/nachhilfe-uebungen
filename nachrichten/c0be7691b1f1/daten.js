@@ -4,6 +4,958 @@ window.NACHRICHTEN = {
  "spiel": false,
  "tage": [
   {
+   "datum": "2026-11-25",
+   "nachrichten": [
+    {
+     "kategorie": "Wissenschaft",
+     "titel": "Ein Pilot aus Pakistan fliegt ins All",
+     "text": "China hat eine Raumstation. Sie heißt Tiangong. Am Mittwoch ist eine Rakete aus China gestartet. Drei Astronauten sind an Bord. Einer kommt aus Pakistan. Er ist Pilot.\n\nZum ersten Mal besucht ein Ausländer die Station. Er bleibt nur ein paar Tage. Er macht dort Experimente. Dann fliegt er zurück zur Erde.",
+     "vokabeln": [
+      {
+       "de": "die Raumstation",
+       "im_text": "Raumstation",
+       "erkl": "ein Haus im All; dort wohnen und arbeiten Astronauten"
+      },
+      {
+       "de": "der Astronaut",
+       "im_text": "Astronauten",
+       "erkl": "eine Person, die ins All fliegt"
+      },
+      {
+       "de": "an Bord",
+       "im_text": "Bord",
+       "erkl": "in der Rakete, im Schiff oder im Flugzeug"
+      },
+      {
+       "de": "der Ausländer",
+       "im_text": "Ausländer",
+       "erkl": "eine Person aus einem anderen Land"
+      },
+      {
+       "de": "das Experiment",
+       "im_text": "Experimente",
+       "erkl": "ein Test; man probiert etwas aus und lernt Neues"
+      },
+      {
+       "de": "die Erde",
+       "im_text": "Erde",
+       "erkl": "unser Planet; hier wohnen wir"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Woher kommt die Rakete?",
+       "optionen": [
+        "aus Amerika",
+        "aus China",
+        "aus Europa"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Drei Astronauten sind an Bord.",
+       "richtig": true
+      },
+      {
+       "typ": "rf",
+       "aussage": "Der Pilot bleibt ein Jahr auf der Station.",
+       "richtig": false,
+       "erkl": "Er bleibt nur ein paar Tage."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wie heißt die Station?",
+         "Tiangong"
+        ],
+        [
+         "Woher kommt der Pilot?",
+         "aus Pakistan"
+        ],
+        [
+         "Wann ist die Rakete gestartet?",
+         "am Mittwoch"
+        ],
+        [
+         "Was macht er auf der Station?",
+         "Experimente"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Möchtest du einmal auf einer Raumstation wohnen?",
+      "Was möchtest du im All machen?"
+     ],
+     "uebungen": [
+      {
+       "typ": "auswahl",
+       "titel": "Perfekt: haben oder sein?",
+       "anweisung": "Wähle das richtige Verb.",
+       "items": [
+        {
+         "text": "Die Rakete ___ gestartet.",
+         "optionen": [
+          "ist",
+          "hat"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Der Pilot ___ viel gelernt.",
+         "optionen": [
+          "ist",
+          "hat"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Er ___ ins All geflogen.",
+         "optionen": [
+          "ist",
+          "hat"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Die Astronauten ___ Experimente gemacht.",
+         "optionen": [
+          "sind",
+          "haben"
+         ],
+         "richtig": 1
+        }
+       ],
+       "regel": "Bewegung von A nach B (fliegen, fahren, starten) und Veränderung → sein. Die meisten anderen Verben → haben."
+      },
+      {
+       "typ": "fehler",
+       "titel": "Satzbau",
+       "anweisung": "Ein Wort steht an der falschen Stelle.",
+       "items": [
+        {
+         "woerter": [
+          "Am",
+          "Mittwoch",
+          "die",
+          "Rakete",
+          "ist",
+          "gestartet."
+         ],
+         "fehler": 4,
+         "korrektur": "Am Mittwoch ist die Rakete gestartet.",
+         "erkl": "Nach einer Zeitangabe am Anfang kommt sofort das Verb."
+        },
+        {
+         "woerter": [
+          "Heute",
+          "er",
+          "macht",
+          "Experimente."
+         ],
+         "fehler": 2,
+         "korrektur": "Heute macht er Experimente.",
+         "erkl": "Nach einer Zeitangabe am Anfang kommt sofort das Verb."
+        }
+       ]
+      },
+      {
+       "typ": "auswahl",
+       "titel": "Wo oder wohin?",
+       "anweisung": "Wähle das richtige Fragewort.",
+       "items": [
+        {
+         "text": "___ fliegt die Rakete? – Ins All.",
+         "optionen": [
+          "Wo",
+          "Wohin"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "___ ist die Station? – Im All.",
+         "optionen": [
+          "Wo",
+          "Wohin"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "___ fliegt der Pilot dann? – Zur Erde.",
+         "optionen": [
+          "Wo",
+          "Wohin"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "___ arbeiten die Astronauten? – Auf der Station.",
+         "optionen": [
+          "Wo",
+          "Wohin"
+         ],
+         "richtig": 0
+        }
+       ],
+       "regel": "Wo? → ein Ort (im All). Wohin? → eine Richtung (ins All, zur Erde)."
+      }
+     ]
+    },
+    {
+     "kategorie": "Wetter",
+     "titel": "Bald liegt Schnee in Wien",
+     "text": "In Österreich wird es jetzt Winter. Am Donnerstag schneit es in vielen Orten, auch in Wien. Im Süden und im Osten kommen vielleicht 15 Zentimeter Schnee.\n\nFür Wien ist das sehr früh. Meistens liegt der erste Schnee dort erst im Dezember. Es ist auch sehr kalt: ungefähr null Grad. Der Schnee bleibt vielleicht bis zum Wochenende liegen.",
+     "vokabeln": [
+      {
+       "de": "schneien",
+       "im_text": "schneit",
+       "erkl": "Schnee fällt vom Himmel"
+      },
+      {
+       "de": "der Süden",
+       "im_text": "Süden",
+       "erkl": "auf der Landkarte unten"
+      },
+      {
+       "de": "der Osten",
+       "im_text": "Osten",
+       "erkl": "auf der Landkarte rechts; dort kommt am Morgen die Sonne"
+      },
+      {
+       "de": "der Zentimeter",
+       "im_text": "Zentimeter",
+       "erkl": "ein Maß; 100 Zentimeter sind ein Meter"
+      },
+      {
+       "de": "früh",
+       "im_text": "früh",
+       "erkl": "vor der normalen Zeit"
+      },
+      {
+       "de": "das Wochenende",
+       "im_text": "Wochenende",
+       "erkl": "Samstag und Sonntag"
+      },
+      {
+       "de": "liegen bleiben",
+       "im_text": "liegen",
+       "erkl": "nicht weggehen; der Schnee schmilzt nicht"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wann schneit es in Wien?",
+       "optionen": [
+        "am Montag",
+        "am Donnerstag",
+        "am Sonntag"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "In Wien liegt der erste Schnee meistens im Dezember.",
+       "richtig": true
+      },
+      {
+       "typ": "rf",
+       "aussage": "Es ist sehr warm.",
+       "richtig": false,
+       "erkl": "Es ist ungefähr null Grad."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wie viel Schnee kommt vielleicht im Süden?",
+         "15 Zentimeter"
+        ],
+        [
+         "Wie kalt ist es?",
+         "ungefähr null Grad"
+        ],
+        [
+         "Wie lange bleibt der Schnee vielleicht liegen?",
+         "bis zum Wochenende"
+        ],
+        [
+         "Wo schneit es am Donnerstag?",
+         "in vielen Orten"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Was machst du gern im Schnee?",
+      "Magst du den Winter? Warum (nicht)?"
+     ],
+     "uebungen": [
+      {
+       "typ": "zuordnen",
+       "titel": "Gegenteile",
+       "anweisung": "Finde die Paare.",
+       "paare": [
+        [
+         "kalt",
+         "warm"
+        ],
+        [
+         "früh",
+         "spät"
+        ],
+        [
+         "viel",
+         "wenig"
+        ],
+        [
+         "Winter",
+         "Sommer"
+        ]
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Perfekt",
+       "anweisung": "Ergänze das Partizip.",
+       "items": [
+        {
+         "text": "schneien → Es hat ___.",
+         "loesung": [
+          "geschneit"
+         ]
+        },
+        {
+         "text": "kommen → Der Winter ist ___.",
+         "loesung": [
+          "gekommen"
+         ]
+        },
+        {
+         "text": "bleiben → Der Schnee ist ___.",
+         "loesung": [
+          "geblieben"
+         ]
+        },
+        {
+         "text": "spielen → Wir haben im Schnee ___.",
+         "loesung": [
+          "gespielt"
+         ]
+        }
+       ]
+      },
+      {
+       "typ": "fehler",
+       "titel": "Satzbau",
+       "anweisung": "Ein Wort steht an der falschen Stelle.",
+       "items": [
+        {
+         "woerter": [
+          "Am",
+          "Donnerstag",
+          "es",
+          "schneit",
+          "in",
+          "Wien."
+         ],
+         "fehler": 3,
+         "korrektur": "Am Donnerstag schneit es in Wien.",
+         "erkl": "Nach einer Zeitangabe am Anfang kommt sofort das Verb."
+        },
+        {
+         "woerter": [
+          "Heute",
+          "es",
+          "ist",
+          "sehr",
+          "kalt."
+         ],
+         "fehler": 2,
+         "korrektur": "Heute ist es sehr kalt.",
+         "erkl": "Nach einer Zeitangabe am Anfang kommt sofort das Verb."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Kultur",
+     "titel": "Ein großes Fest für Bücher in Wien",
+     "text": "In Wien beginnt am Mittwochabend die Buch Wien. Das ist eine große Messe für Bücher. Von Donnerstag bis Sonntag kommen viele Besucher. Sie hören Lesungen und kaufen Bücher.\n\nAuch berühmte Autoren sind da, zum Beispiel ein Nobelpreisträger aus Ungarn. Ein Thema ist die Ukraine. Nächstes Jahr gibt es zum ersten Mal ein Gastland: Tschechien.",
+     "vokabeln": [
+      {
+       "de": "die Messe",
+       "im_text": "Messe",
+       "erkl": "eine große Ausstellung; dort zeigen viele Firmen ihre Sachen"
+      },
+      {
+       "de": "der Besucher",
+       "im_text": "Besucher",
+       "erkl": "eine Person, die kommt und schaut"
+      },
+      {
+       "de": "die Lesung",
+       "im_text": "Lesungen",
+       "erkl": "ein Autor liest aus seinem Buch vor"
+      },
+      {
+       "de": "berühmt",
+       "im_text": "berühmte",
+       "erkl": "sehr viele Menschen kennen die Person"
+      },
+      {
+       "de": "der Autor",
+       "im_text": "Autoren",
+       "erkl": "eine Person, die Bücher schreibt"
+      },
+      {
+       "de": "das Thema",
+       "im_text": "Thema",
+       "erkl": "darüber spricht man"
+      },
+      {
+       "de": "das Gastland",
+       "im_text": "Gastland",
+       "erkl": "ein Land, das man besonders zeigt"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Was ist die Buch Wien?",
+       "optionen": [
+        "ein Konzert",
+        "eine Messe für Bücher",
+        "ein Fußballspiel"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die Messe ist von Donnerstag bis Sonntag.",
+       "richtig": true
+      },
+      {
+       "typ": "rf",
+       "aussage": "Der Nobelpreisträger kommt aus Polen.",
+       "richtig": false,
+       "erkl": "Er kommt aus Ungarn."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wann beginnt die Buch Wien?",
+         "am Mittwochabend"
+        ],
+        [
+         "Was machen die Besucher?",
+         "Sie hören Lesungen und kaufen Bücher."
+        ],
+        [
+         "Was ist ein Thema?",
+         "die Ukraine"
+        ],
+        [
+         "Wer ist nächstes Jahr Gastland?",
+         "Tschechien"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Liest du gern? Was liest du?",
+      "Welches Buch empfiehlst du?"
+     ],
+     "uebungen": [
+      {
+       "typ": "zuordnen",
+       "titel": "Wer macht was?",
+       "anweisung": "Finde die Paare.",
+       "paare": [
+        [
+         "der Autor",
+         "schreibt Bücher"
+        ],
+        [
+         "der Leser",
+         "liest Bücher"
+        ],
+        [
+         "der Besucher",
+         "kommt zur Messe"
+        ],
+        [
+         "der Verkäufer",
+         "verkauft Bücher"
+        ]
+       ]
+      },
+      {
+       "typ": "auswahl",
+       "titel": "Wo oder wohin?",
+       "anweisung": "Wähle das richtige Fragewort.",
+       "items": [
+        {
+         "text": "___ ist die Buch Wien? – In Wien.",
+         "optionen": [
+          "Wo",
+          "Wohin"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "___ gehen die Besucher? – Zur Messe.",
+         "optionen": [
+          "Wo",
+          "Wohin"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "___ kaufst du Bücher? – In der Buchhandlung.",
+         "optionen": [
+          "Wo",
+          "Wohin"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "___ fährst du am Sonntag? – Nach Wien.",
+         "optionen": [
+          "Wo",
+          "Wohin"
+         ],
+         "richtig": 1
+        }
+       ],
+       "regel": "Wo? → ein Ort (in Wien). Wohin? → eine Richtung (zur Messe, nach Wien)."
+      },
+      {
+       "typ": "fehler",
+       "titel": "Satzbau",
+       "anweisung": "Ein Wort steht an der falschen Stelle.",
+       "items": [
+        {
+         "woerter": [
+          "Am",
+          "Mittwoch",
+          "die",
+          "Messe",
+          "beginnt."
+         ],
+         "fehler": 4,
+         "korrektur": "Am Mittwoch beginnt die Messe.",
+         "erkl": "Nach einer Zeitangabe am Anfang kommt sofort das Verb."
+        },
+        {
+         "woerter": [
+          "Nächstes",
+          "Jahr",
+          "Tschechien",
+          "ist",
+          "Gastland."
+         ],
+         "fehler": 3,
+         "korrektur": "Nächstes Jahr ist Tschechien Gastland.",
+         "erkl": "Nach einer Zeitangabe am Anfang kommt sofort das Verb."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Kurioses",
+     "titel": "Zwei Truthähne haben Glück",
+     "text": "In den USA feiert man am Donnerstag Thanksgiving. Dann essen viele Familien einen Truthahn.\n\nAber zwei Truthähne haben Glück: Präsident Donald Trump hat sie am Dienstag begnadigt. Sie heißen Freedom und Feathers. Die Menschen haben die Namen im Internet ausgesucht. Die Tiere kommen jetzt an eine Universität in Texas. Dort leben sie in Ruhe.",
+     "vokabeln": [
+      {
+       "de": "feiern",
+       "im_text": "feiert",
+       "erkl": "ein Fest machen"
+      },
+      {
+       "de": "der Truthahn",
+       "im_text": "Truthahn",
+       "erkl": "ein großer Vogel; man isst ihn oft zu Thanksgiving"
+      },
+      {
+       "de": "Glück haben",
+       "im_text": "Glück",
+       "erkl": "etwas Gutes passiert dir"
+      },
+      {
+       "de": "begnadigen",
+       "im_text": "begnadigt",
+       "erkl": "hier: sagen, das Tier darf weiterleben"
+      },
+      {
+       "de": "aussuchen",
+       "im_text": "ausgesucht",
+       "erkl": "wählen, was man möchte"
+      },
+      {
+       "de": "die Universität",
+       "im_text": "Universität",
+       "erkl": "eine große Schule für Erwachsene"
+      },
+      {
+       "de": "in Ruhe",
+       "im_text": "Ruhe",
+       "erkl": "ohne Stress, ganz ruhig"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wann ist Thanksgiving?",
+       "optionen": [
+        "am Dienstag",
+        "am Donnerstag",
+        "am Sonntag"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die Truthähne heißen Freedom und Feathers.",
+       "richtig": true
+      },
+      {
+       "typ": "rf",
+       "aussage": "Der Präsident hat die Namen ausgesucht.",
+       "richtig": false,
+       "erkl": "Die Menschen haben sie im Internet ausgesucht."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wer hat die Truthähne begnadigt?",
+         "Donald Trump"
+        ],
+        [
+         "Wann hat er sie begnadigt?",
+         "am Dienstag"
+        ],
+        [
+         "Wohin kommen die Tiere?",
+         "an eine Universität in Texas"
+        ],
+        [
+         "Was essen viele Familien zu Thanksgiving?",
+         "einen Truthahn"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Welches Fest feierst du gern?",
+      "Welches Tier möchtest du retten?"
+     ],
+     "uebungen": [
+      {
+       "typ": "eingabe",
+       "titel": "Perfekt",
+       "anweisung": "Ergänze das Partizip.",
+       "items": [
+        {
+         "text": "aussuchen → Die Menschen haben die Namen ___.",
+         "loesung": [
+          "ausgesucht"
+         ]
+        },
+        {
+         "text": "feiern → Wir haben ___.",
+         "loesung": [
+          "gefeiert"
+         ]
+        },
+        {
+         "text": "essen → Sie haben Truthahn ___.",
+         "loesung": [
+          "gegessen"
+         ]
+        },
+        {
+         "text": "begnadigen → Trump hat die Tiere ___.",
+         "loesung": [
+          "begnadigt"
+         ]
+        }
+       ]
+      },
+      {
+       "typ": "auswahl",
+       "titel": "Wo oder wohin?",
+       "anweisung": "Wähle das richtige Fragewort.",
+       "items": [
+        {
+         "text": "___ feiert man Thanksgiving? – In den USA.",
+         "optionen": [
+          "Wo",
+          "Wohin"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "___ kommen die Truthähne? – An eine Universität.",
+         "optionen": [
+          "Wo",
+          "Wohin"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "___ leben sie dann? – In Texas.",
+         "optionen": [
+          "Wo",
+          "Wohin"
+         ],
+         "richtig": 0
+        }
+       ],
+       "regel": "Wo? → ein Ort (in Texas). Wohin? → eine Richtung (an eine Universität)."
+      },
+      {
+       "typ": "fehler",
+       "titel": "Satzbau",
+       "anweisung": "Ein Wort steht an der falschen Stelle.",
+       "items": [
+        {
+         "woerter": [
+          "Am",
+          "Donnerstag",
+          "man",
+          "feiert",
+          "Thanksgiving."
+         ],
+         "fehler": 3,
+         "korrektur": "Am Donnerstag feiert man Thanksgiving.",
+         "erkl": "Nach einer Zeitangabe am Anfang kommt sofort das Verb."
+        },
+        {
+         "woerter": [
+          "Am",
+          "Dienstag",
+          "Trump",
+          "hat",
+          "die",
+          "Tiere",
+          "begnadigt."
+         ],
+         "fehler": 3,
+         "korrektur": "Am Dienstag hat Trump die Tiere begnadigt.",
+         "erkl": "Nach einer Zeitangabe am Anfang kommt sofort das Verb."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Wissenschaft",
+     "titel": "Jetzt ist die Rakete gestartet!",
+     "text": "Am Montag hat die Rakete Ariane 6 ein Problem gehabt. Sie ist nicht gestartet.\n\nAm Dienstag hat es geklappt! Die Rakete ist in Französisch-Guayana gestartet. Sie hat 36 Satelliten für Amazon ins All gebracht. Die Satelliten fliegen jetzt um die Erde, 460 Kilometer hoch. Der Flug hat ungefähr zwei Stunden gedauert.",
+     "vokabeln": [
+      {
+       "de": "klappen",
+       "im_text": "geklappt",
+       "erkl": "gut funktionieren"
+      },
+      {
+       "de": "der Satellit",
+       "im_text": "Satelliten",
+       "erkl": "ein Gerät; es fliegt um die Erde"
+      },
+      {
+       "de": "bringen",
+       "im_text": "gebracht",
+       "erkl": "etwas an einen Ort tragen"
+      },
+      {
+       "de": "hoch",
+       "im_text": "hoch",
+       "erkl": "weit oben"
+      },
+      {
+       "de": "dauern",
+       "im_text": "gedauert",
+       "erkl": "so viel Zeit braucht etwas"
+      },
+      {
+       "de": "der Flug",
+       "im_text": "Flug",
+       "erkl": "die Reise mit einem Flugzeug oder einer Rakete"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wann ist die Rakete gestartet?",
+       "optionen": [
+        "am Montag",
+        "am Dienstag",
+        "am Freitag"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die Rakete hat 36 Satelliten ins All gebracht.",
+       "richtig": true
+      },
+      {
+       "typ": "rf",
+       "aussage": "Der Flug hat zwei Tage gedauert.",
+       "richtig": false,
+       "erkl": "Er hat ungefähr zwei Stunden gedauert."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wo ist die Rakete gestartet?",
+         "in Französisch-Guayana"
+        ],
+        [
+         "Für wen sind die Satelliten?",
+         "für Amazon"
+        ],
+        [
+         "Wie hoch fliegen die Satelliten?",
+         "460 Kilometer"
+        ],
+        [
+         "Was ist am Montag passiert?",
+         "Die Rakete hat ein Problem gehabt."
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Raketen oder Flugzeuge: Was findest du spannender?",
+      "Was möchtest du gern vom All aus sehen?"
+     ],
+     "uebungen": [
+      {
+       "typ": "auswahl",
+       "titel": "Perfekt: haben oder sein?",
+       "anweisung": "Wähle das richtige Verb.",
+       "items": [
+        {
+         "text": "Die Rakete ___ gestartet.",
+         "optionen": [
+          "ist",
+          "hat"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Der Flug ___ zwei Stunden gedauert.",
+         "optionen": [
+          "ist",
+          "hat"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Die Satelliten ___ ins All geflogen.",
+         "optionen": [
+          "sind",
+          "haben"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Es ___ am Dienstag geklappt.",
+         "optionen": [
+          "ist",
+          "hat"
+         ],
+         "richtig": 1
+        }
+       ],
+       "regel": "Bewegung von A nach B (fliegen, fahren, starten) und Veränderung → sein. Die meisten anderen Verben → haben."
+      },
+      {
+       "typ": "fehler",
+       "titel": "Satzbau",
+       "anweisung": "Ein Wort steht an der falschen Stelle.",
+       "items": [
+        {
+         "woerter": [
+          "Am",
+          "Dienstag",
+          "es",
+          "hat",
+          "geklappt."
+         ],
+         "fehler": 3,
+         "korrektur": "Am Dienstag hat es geklappt.",
+         "erkl": "Nach einer Zeitangabe am Anfang kommt sofort das Verb."
+        },
+        {
+         "woerter": [
+          "Jetzt",
+          "die",
+          "Satelliten",
+          "fliegen",
+          "um",
+          "die",
+          "Erde."
+         ],
+         "fehler": 3,
+         "korrektur": "Jetzt fliegen die Satelliten um die Erde.",
+         "erkl": "Nach einer Zeitangabe am Anfang kommt sofort das Verb."
+        }
+       ]
+      },
+      {
+       "typ": "auswahl",
+       "titel": "Wo oder wohin?",
+       "anweisung": "Wähle das richtige Fragewort.",
+       "items": [
+        {
+         "text": "___ fliegen die Satelliten? – Ins All.",
+         "optionen": [
+          "Wo",
+          "Wohin"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "___ ist die Rakete gestartet? – In Französisch-Guayana.",
+         "optionen": [
+          "Wo",
+          "Wohin"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "___ sind die Satelliten jetzt? – Im All.",
+         "optionen": [
+          "Wo",
+          "Wohin"
+         ],
+         "richtig": 0
+        }
+       ],
+       "regel": "Wo? → ein Ort (im All). Wohin? → eine Richtung (ins All)."
+      }
+     ]
+    }
+   ]
+  },
+  {
    "datum": "2026-11-24",
    "nachrichten": [
     {
