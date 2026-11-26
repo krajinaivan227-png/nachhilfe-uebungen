@@ -155,6 +155,140 @@ window.HEFT = {
           muster: "Fußball ist beliebter als Tennis. Tennis ist aber genauso schwer wie Fußball. Ich schaue gern Fußball, wenn das Wetter schlecht ist. Wenn ich Zeit habe, spiele ich auch selbst. Meine Freunde spielen besser als ich."
         }
       ]
+    },
+    {
+      id: "2026-11-18",
+      titel: "Zelten, Geräusche, Überraschungen · Wortfamilien",
+      vokabeln: [
+        { de: "das Geräusch", en: "the sound, the noise", fr: "le bruit", beispiel: "Wenn das Auto schnell fährt, gibt es viele Geräusche." },
+        { de: "schummeln", en: "to cheat", fr: "tricher", beispiel: "Im Test darf man nicht schummeln." },
+        { de: "zelten", en: "to camp (in a tent)", fr: "camper", beispiel: "Ich habe am Wochenende gezeltet." },
+        { de: "der Schlafsack", en: "the sleeping bag", fr: "le sac de couchage", beispiel: "Im Zelt schlafe ich in einem warmen Schlafsack." },
+        { de: "die Ausrüstung", en: "the equipment", fr: "l'équipement", beispiel: "Für das Zelten braucht man eine gute Ausrüstung." },
+        { de: "vorbereitet sein", en: "to be prepared", fr: "être préparé", beispiel: "Ich war für das Wetter sehr gut vorbereitet." },
+        { de: "die Überraschung", en: "the surprise", fr: "la surprise", beispiel: "Das Geschenk war eine schöne Überraschung." },
+        { de: "besorgt", en: "worried, concerned", fr: "inquiet", beispiel: "Meine Mutter ist besorgt, weil ich krank bin." },
+        { de: "grauenvoll", en: "awful, terrible", fr: "épouvantable", beispiel: "Die Internetverbindung ist heute grauenvoll." },
+        { de: "anbieten", en: "to offer", fr: "offrir, proposer", beispiel: "Ich biete dir einen Kaffee an." }
+      ],
+      aufgaben: [
+        {
+          typ: "mc", stufe: 1,
+          frage: "Am Wochenende habe ich mit Freunden ___.",
+          optionen: ["gezeltet", "gezelten", "zeltet"], richtig: 0,
+          regel: "zelten ist ein regelmäßiges Verb. Perfekt: haben + ge…t → ich habe gezeltet."
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Die Internetverbindung ist ___. Ich höre dich kaum.",
+          optionen: ["grauenvoll", "erfolgreich", "vorbereitet"], richtig: 0,
+          regel: "grauenvoll = schrecklich = sehr schlimm."
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Sprich bitte ___, das Baby schläft.",
+          optionen: ["leise", "laut", "besorgt"], richtig: 0,
+          regel: "leise = quiet, laut = loud. Das Gegenteil von leise ist laut."
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Wenn das Auto schnell fährt, ___ viele Geräusche.",
+          optionen: ["gibt es", "es gibt"], richtig: 0,
+          regel: "Der wenn-Satz steht auf Position 1. Danach kommt sofort das Verb: Wenn …, gibt es …"
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Ich war für das Wetter sehr gut ___. (vorbereiten)",
+          antworten: ["vorbereitet"],
+          regel: "vorbereiten → vorbereitet (ohne ge-, weil „bereiten“ schon die Vorsilbe be- hat)."
+        },
+        {
+          typ: "satz", stufe: 2,
+          woerter: ["Ich", "biete", "dir", "meine", "Hilfe", "an"],
+          loesung: "Ich biete dir meine Hilfe an",
+          regel: "anbieten ist trennbar: Das Verb steht auf Position 2, „an“ geht ans Ende."
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Dieses ___ fahre ich mit dem Zug, nicht mit dem Auto.",
+          antworten: ["Mal"],
+          regel: "das Mal = the time (wie oft): dieses Mal, jedes Mal, das erste Mal."
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Mein Bruder ___ manchmal beim Kartenspielen. (schummeln)",
+          antworten: ["schummelt"],
+          regel: "schummeln: ich schumm(e)le, du schummelst, er schummelt."
+        },
+        {
+          typ: "zuordnen", stufe: 2,
+          paare: [["erfolgreich", "der Erfolg"], ["streiten", "der Streit"], ["verbinden", "die Verbindung"], ["überraschend", "die Überraschung"]],
+          regel: "Wortfamilien: Nomen auf -ung sind immer feminin (die Verbindung, die Überraschung)."
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Im Zelt schläft man meistens in einem ___.",
+          optionen: ["Schlafsack", "Rucksack", "Schlafzimmer"], richtig: 0,
+          regel: "schlafen + der Sack = der Schlafsack. Bei zusammengesetzten Nomen bestimmt das letzte Wort den Artikel."
+        },
+        {
+          typ: "mc", stufe: 3,
+          frage: "Meine Eltern sind ___, weil ich so spät nach Hause komme.",
+          optionen: ["besorgt", "erfahren", "erfolgreich"], richtig: 0,
+          regel: "besorgt sein = sich Sorgen machen (die Sorge)."
+        },
+        {
+          typ: "mc", stufe: 3,
+          frage: "Wir ___ sind nach der Wanderung total erschöpft.",
+          optionen: ["beide", "beiden", "beides"], richtig: 0,
+          regel: "wir beide / ihr beide, aber mit Artikel: die beiden. „beides“ steht für zwei Sachen (Ich nehme beides)."
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "___ ich letzten Sommer gezeltet habe, war es in der Nacht sehr kalt.",
+          optionen: ["Als", "Wenn", "Wie"], richtig: 0,
+          regel: "Wiederholung (30.09.): als = ein Mal in der Vergangenheit, wenn = immer wieder oder Gegenwart/Zukunft."
+        },
+        {
+          typ: "luecke", stufe: 1,
+          text: "___ bitte ehrlich und sag die Wahrheit! (sein, du)",
+          antworten: ["Sei"],
+          regel: "Wiederholung (30.09.): Imperativ von sein: du → sei, ihr → seid, Sie → seien Sie."
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Mein Geburtstag ist am ___ Mai.",
+          optionen: ["zwanzigsten", "zwanzigten", "zwanzigen"], richtig: 0,
+          regel: "Wiederholung (30.09.): Ordnungszahlen ab 20 mit -ste: am zwanzigsten."
+        },
+        {
+          typ: "zuordnen", stufe: 2,
+          paare: [["frei", "die Freiheit"], ["möglich", "die Möglichkeit"], ["krank", "die Krankheit"], ["schwierig", "die Schwierigkeit"]],
+          regel: "Wiederholung (30.09.): Adjektiv → Nomen mit -heit oder -keit (nach -lich und -ig meist -keit). Immer feminin."
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Die ___ der Technik geht heute sehr schnell.",
+          optionen: ["Entwicklung", "Spende", "Wahl"], richtig: 0,
+          regel: "Wiederholung (16.09.): die Entwicklung = the development."
+        },
+        {
+          typ: "sprechen", stufe: 2,
+          auftrag: "Erzähle von einem Ausflug oder einer Nacht draußen (zum Beispiel Zelten). Was hattest du dabei? Warst du gut vorbereitet? Was war überraschend? Sprich 5–6 Sätze im Perfekt. Nimm dich auf und höre dich an.",
+          hinweis: "Zum Beispiel: Ich habe einmal am See gezeltet. Ich hatte einen Schlafsack dabei ... In der Nacht habe ich viele Geräusche gehört ..."
+        },
+        {
+          typ: "schreiben", stufe: 3,
+          auftrag: "Schreibe 5–6 Sätze über ein Erlebnis draußen (Zelten, Wandern, Reise). Benutze mindestens drei neue Wörter aus dieser Stunde.",
+          checkliste: [
+            "Ich habe im Perfekt erzählt (habe gezeltet, bin gefahren ...).",
+            "Ich habe mindestens drei Wörter aus der Stunde benutzt (Geräusch, Ausrüstung, vorbereitet, Überraschung ...).",
+            "Ich habe einen wenn- oder als-Satz geschrieben und danach das Verb an Position 1 gestellt.",
+            "Nomen schreibe ich groß, jeder Satz endet mit einem Punkt."
+          ],
+          muster: "Letzten Sommer habe ich mit Freunden am See gezeltet. Wir waren gut vorbereitet und hatten eine gute Ausrüstung: ein großes Zelt, warme Schlafsäcke und viel Essen. In der Nacht haben wir viele Geräusche gehört, das war ein bisschen grauenvoll. Als wir am Morgen aufgewacht sind, gab es eine Überraschung: Die Sonne schien und der See war ganz ruhig. Wenn ich wieder zelte, nehme ich eine noch wärmere Jacke mit."
+        }
+      ]
     }
   ]
 };
