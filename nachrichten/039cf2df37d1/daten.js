@@ -4,6 +4,976 @@ window.NACHRICHTEN = {
  "spiel": false,
  "tage": [
   {
+   "datum": "2026-11-26",
+   "nachrichten": [
+    {
+     "kategorie": "Politik",
+     "titel": "EU-Sondergipfel: Ringen um den Haushalt",
+     "text": "Die Staats- und Regierungschefs der EU treffen sich heute in Brüssel zu einem Sondergipfel. Es geht um den langfristigen Haushalt für die Jahre 2028 bis 2034. Ratspräsident António Costa hat einen neuen Kompromiss vorgelegt: rund 1,78 Billionen Euro. Das sind etwa 204 Milliarden weniger, als die EU-Kommission geplant hatte. Neues Geld soll unter anderem aus einer Digitalsteuer kommen.\n\nTrotzdem sind viele Länder unzufrieden. Für Bundeskanzler Friedrich Merz ist der Vorschlag keine Grundlage für eine Einigung; Deutschland will noch stärker kürzen. Italiens Regierungschefin Giorgia Meloni warnt dagegen vor Kürzungen bei der Landwirtschaft und bei Geld für ärmere Regionen. Außerdem soll über neue Hilfen für die Ukraine gesprochen werden. Weil alle Länder zustimmen müssen, rechnen Beobachter frühestens beim Gipfel im Dezember mit einer Lösung.",
+     "vokabeln": [
+      {
+       "de": "der Sondergipfel",
+       "im_text": "Sondergipfel",
+       "erkl": "ein zusätzliches Treffen der Regierungschefs außerhalb des normalen Plans"
+      },
+      {
+       "de": "langfristig",
+       "im_text": "langfristigen",
+       "erkl": "für eine lange Zeit"
+      },
+      {
+       "de": "der Kompromiss",
+       "im_text": "Kompromiss",
+       "erkl": "eine Lösung, bei der jede Seite etwas nachgibt"
+      },
+      {
+       "de": "vorlegen",
+       "im_text": "vorgelegt",
+       "erkl": "einen Plan offiziell zeigen"
+      },
+      {
+       "de": "die Grundlage",
+       "im_text": "Grundlage",
+       "erkl": "die Basis, auf der man weiterarbeiten kann"
+      },
+      {
+       "de": "kürzen",
+       "im_text": "kürzen",
+       "erkl": "weniger Geld geben als vorher"
+      },
+      {
+       "de": "die Landwirtschaft",
+       "im_text": "Landwirtschaft",
+       "erkl": "die Arbeit der Bauern: Felder, Tiere, Lebensmittel"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wie viel Geld schlägt Costa vor?",
+       "optionen": [
+        "rund 1,78 Billionen Euro",
+        "204 Milliarden Euro",
+        "2 Billionen Euro"
+       ],
+       "richtig": 0
+      },
+      {
+       "typ": "rf",
+       "aussage": "Costas Plan ist größer als der Plan der Kommission.",
+       "richtig": false,
+       "erkl": "Er ist etwa 204 Milliarden Euro kleiner."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Meloni ist gegen Kürzungen in der Landwirtschaft.",
+       "richtig": true
+      },
+      {
+       "typ": "offen",
+       "frage": "Woher soll neues Geld kommen?",
+       "loesung": "Unter anderem aus einer Digitalsteuer."
+      },
+      {
+       "typ": "offen",
+       "frage": "Warum gibt es wahrscheinlich heute noch keine Lösung?",
+       "loesung": "Weil alle Länder zustimmen müssen und viele unzufrieden sind."
+      }
+     ],
+     "diskussion": [
+      "Sollte die EU mehr oder weniger Geld ausgeben? Wofür?",
+      "Ist es sinnvoll, dass alle Länder zustimmen müssen?",
+      "Wie wichtig ist das Geld der EU für dein Land?"
+     ],
+     "uebungen": [
+      {
+       "typ": "auswahl",
+       "titel": "Präpositionen und Fälle",
+       "anweisung": "Wähle den richtigen Artikel.",
+       "items": [
+        {
+         "text": "Es geht um ___ Haushalt.",
+         "optionen": [
+          "den",
+          "dem"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Meloni warnt vor ___ Kürzungen.",
+         "optionen": [
+          "die",
+          "den"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Die Chefs treffen sich in ___ Hauptstadt Belgiens.",
+         "optionen": [
+          "der",
+          "die"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Beobachter rechnen mit ___ Lösung im Dezember.",
+         "optionen": [
+          "eine",
+          "einer"
+         ],
+         "richtig": 1
+        }
+       ],
+       "regel": "um + Akkusativ; vor, mit + Dativ; in + Dativ (Wo?) / Akkusativ (Wohin?)."
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Wortbildung -ung/-heit/-keit",
+       "anweisung": "Bilde das Nomen.",
+       "items": [
+        {
+         "text": "einigen → die ___",
+         "loesung": [
+          "Einigung"
+         ]
+        },
+        {
+         "text": "kürzen → die ___",
+         "loesung": [
+          "Kürzung"
+         ]
+        },
+        {
+         "text": "unzufrieden → die ___",
+         "loesung": [
+          "Unzufriedenheit"
+         ]
+        },
+        {
+         "text": "möglich → die ___",
+         "loesung": [
+          "Möglichkeit"
+         ]
+        }
+       ],
+       "regel": "Verb → -ung; Adjektiv → -heit oder -keit (-keit oft nach -ig, -lich, -bar). Alle Nomen sind feminin."
+      },
+      {
+       "typ": "zuordnen",
+       "titel": "Gegenteile",
+       "anweisung": "Finde die Paare.",
+       "paare": [
+        [
+         "kürzen",
+         "erhöhen"
+        ],
+        [
+         "zufrieden",
+         "unzufrieden"
+        ],
+        [
+         "zustimmen",
+         "ablehnen"
+        ],
+        [
+         "langfristig",
+         "kurzfristig"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Sport",
+     "titel": "Davis Cup: Österreich trifft auf Spanien – und Alcaraz?",
+     "text": "Im Viertelfinale des Davis Cups trifft Österreich heute in Bologna auf Spanien. Beim Finalturnier der besten acht Nationen, das noch bis Sonntag läuft, ist es das letzte Viertelfinale. Die beiden Länder haben zuletzt 2012 gegeneinander gespielt.\n\nGroßes Thema ist Carlos Alcaraz: Der Spanier ist mit einer Verletzung am linken Oberschenkel nach Italien gereist und hat erst am Mittwoch wieder trainiert. Medien berichten, dass er vielleicht nur im Doppel antritt. Spaniens Teamchef David Ferrer hat seine Aufstellung zunächst nicht bekannt gegeben. Österreichs Kapitän Jürgen Melzer sieht trotzdem eine Chance, auch wenn Alcaraz spielt. Gespielt werden zwei Einzel und ein Doppel. Auch Deutschland mit Alexander Zverev ist heute im Einsatz – gegen Großbritannien.",
+     "vokabeln": [
+      {
+       "de": "das Viertelfinale",
+       "im_text": "Viertelfinale",
+       "erkl": "die Runde vor dem Halbfinale; acht Teams sind noch dabei"
+      },
+      {
+       "de": "treffen auf",
+       "im_text": "trifft",
+       "erkl": "gegen jemanden spielen"
+      },
+      {
+       "de": "die Verletzung",
+       "im_text": "Verletzung",
+       "erkl": "ein Schaden am Körper, zum Beispiel nach einem Sturz"
+      },
+      {
+       "de": "antreten",
+       "im_text": "antritt",
+       "erkl": "bei einem Wettkampf mitmachen, spielen"
+      },
+      {
+       "de": "die Aufstellung",
+       "im_text": "Aufstellung",
+       "erkl": "die Liste: Wer spielt?"
+      },
+      {
+       "de": "bekannt geben",
+       "im_text": "bekannt gegeben",
+       "erkl": "offiziell sagen"
+      },
+      {
+       "de": "im Einsatz sein",
+       "im_text": "Einsatz",
+       "erkl": "aktiv dabei sein, spielen"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Bis wann läuft das Finalturnier?",
+       "optionen": [
+        "bis Freitag",
+        "bis Sonntag",
+        "bis Dezember"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Österreich und Spanien haben 2012 zuletzt gegeneinander gespielt.",
+       "richtig": true
+      },
+      {
+       "typ": "rf",
+       "aussage": "Ferrer hat seine Aufstellung sofort bekannt gegeben.",
+       "richtig": false,
+       "erkl": "Er hat sie zunächst nicht bekannt gegeben."
+      },
+      {
+       "typ": "offen",
+       "frage": "Warum ist Alcaraz ein großes Thema?",
+       "loesung": "Weil er eine Verletzung am linken Oberschenkel hat und vielleicht nur im Doppel spielt."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wo wird gespielt?",
+         "in Bologna"
+        ],
+        [
+         "Wer ist Österreichs Kapitän?",
+         "Jürgen Melzer"
+        ],
+        [
+         "Gegen wen spielt Deutschland?",
+         "gegen Großbritannien"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Sollten verletzte Spieler trotzdem spielen, wenn es um viel geht?",
+      "Was ist schwerer: Einzel oder Doppel? Warum?"
+     ],
+     "uebungen": [
+      {
+       "typ": "eingabe",
+       "titel": "Trennbare Verben",
+       "anweisung": "Ergänze das fehlende Wort.",
+       "items": [
+        {
+         "text": "Alcaraz tritt vielleicht nur im Doppel ___. (antreten)",
+         "loesung": [
+          "an"
+         ]
+        },
+        {
+         "text": "Ferrer gibt die Aufstellung später ___. (bekannt geben)",
+         "loesung": [
+          "bekannt"
+         ]
+        },
+        {
+         "text": "Das Turnier hört am Sonntag ___. (aufhören)",
+         "loesung": [
+          "auf"
+         ]
+        },
+        {
+         "text": "Wann fängt das erste Spiel ___? (anfangen)",
+         "loesung": [
+          "an"
+         ]
+        }
+       ],
+       "regel": "Trennbare Verben: Das Präfix steht am Satzende: Er tritt im Doppel an."
+      },
+      {
+       "typ": "auswahl",
+       "titel": "Perfekt: haben oder sein?",
+       "anweisung": "Wähle das richtige Hilfsverb.",
+       "items": [
+        {
+         "text": "Alcaraz ___ mit einer Verletzung nach Italien gereist.",
+         "optionen": [
+          "ist",
+          "hat"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Er ___ erst am Mittwoch trainiert.",
+         "optionen": [
+          "ist",
+          "hat"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Die Teams ___ nach Bologna geflogen.",
+         "optionen": [
+          "sind",
+          "haben"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Melzer ___ von einer Chance gesprochen.",
+         "optionen": [
+          "ist",
+          "hat"
+         ],
+         "richtig": 1
+        }
+       ],
+       "regel": "Bewegung von A nach B (reisen, fliegen) → sein; die meisten anderen Verben → haben."
+      },
+      {
+       "typ": "zuordnen",
+       "titel": "Gegenteile",
+       "anweisung": "Finde die Paare.",
+       "paare": [
+        [
+         "gewinnen",
+         "verlieren"
+        ],
+        [
+         "verletzt",
+         "gesund"
+        ],
+        [
+         "Einzel",
+         "Doppel"
+        ],
+        [
+         "zuletzt",
+         "zuerst"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Medizin",
+     "titel": "Knie-OP mit Roboter: genauer, aber nicht besser",
+     "text": "Roboter helfen in vielen Krankenhäusern bei Operationen. Aber bringen sie den Patienten auch mehr? Die bisher größte Studie zu Knieprothesen sagt: nicht unbedingt. In Großbritannien haben 33 Chirurgen in zehn Kliniken 339 Patientinnen und Patienten operiert, entweder mit oder ohne Roboterarm. Die Ergebnisse sind in der Fachzeitschrift „The Lancet“ erschienen.\n\nDer Roboter hat zwar genauer gearbeitet. Doch ein Jahr nach der Operation hatten die Patienten mit Roboter nicht weniger Schmerzen, sie konnten sich nicht besser bewegen und haben sich auch nicht schneller erholt. Gleichzeitig hat die Operation mit Roboter im Schnitt zehneinhalb Minuten länger gedauert und rund 950 Pfund mehr gekostet. Gefährlicher war sie aber nicht. Die Forscher wollen die Patienten nun zehn Jahre lang begleiten.",
+     "vokabeln": [
+      {
+       "de": "die Knieprothese",
+       "im_text": "Knieprothesen",
+       "erkl": "ein künstliches Kniegelenk aus Metall und Kunststoff"
+      },
+      {
+       "de": "der Chirurg",
+       "im_text": "Chirurgen",
+       "erkl": "ein Arzt, der operiert"
+      },
+      {
+       "de": "die Fachzeitschrift",
+       "im_text": "Fachzeitschrift",
+       "erkl": "eine Zeitschrift für Experten eines Fachs"
+      },
+      {
+       "de": "erscheinen",
+       "im_text": "erschienen",
+       "erkl": "veröffentlicht werden"
+      },
+      {
+       "de": "sich erholen",
+       "im_text": "erholt",
+       "erkl": "nach einer Krankheit wieder gesund und stark werden"
+      },
+      {
+       "de": "im Schnitt",
+       "im_text": "Schnitt",
+       "erkl": "im Durchschnitt"
+      },
+      {
+       "de": "begleiten",
+       "im_text": "begleiten",
+       "erkl": "eine Zeit lang bei jemandem bleiben; hier: beobachten und untersuchen"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wie viele Patienten wurden operiert?",
+       "optionen": [
+        "33",
+        "339",
+        "950"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Mit dem Roboter hatten die Patienten weniger Schmerzen.",
+       "richtig": false,
+       "erkl": "Nach einem Jahr gab es keinen Unterschied bei den Schmerzen."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Der Roboter hat genauer gearbeitet.",
+       "richtig": true
+      },
+      {
+       "typ": "offen",
+       "frage": "Welche Nachteile hatte die Operation mit Roboter?",
+       "loesung": "Sie hat im Schnitt zehneinhalb Minuten länger gedauert und rund 950 Pfund mehr gekostet."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wo sind die Ergebnisse erschienen?",
+         "in „The Lancet“"
+        ],
+        [
+         "Wie lange wollen die Forscher die Patienten begleiten?",
+         "zehn Jahre"
+        ],
+        [
+         "In wie vielen Kliniken wurde operiert?",
+         "in zehn"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Würdest du dich lieber von einem Roboter oder von einem Menschen operieren lassen?",
+      "Sollten Krankenhäuser teure Technik kaufen, wenn der Nutzen unklar ist?"
+     ],
+     "uebungen": [
+      {
+       "typ": "eingabe",
+       "titel": "Wiederholung: Partizip II",
+       "anweisung": "Ergänze das Partizip.",
+       "items": [
+        {
+         "text": "Nach der Operation hat sich der Patient gut ___. (sich erholen)",
+         "loesung": [
+          "erholt"
+         ]
+        },
+        {
+         "text": "Der Arzt hat die Operation auf Montag ___. (verschieben)",
+         "loesung": [
+          "verschoben"
+         ]
+        },
+        {
+         "text": "Wir haben einen Termin um 9 Uhr ___. (vereinbaren)",
+         "loesung": [
+          "vereinbart"
+         ]
+        },
+        {
+         "text": "Bei der Physiotherapie hat er stark ___. (schwitzen)",
+         "loesung": [
+          "geschwitzt"
+         ]
+        }
+       ],
+       "regel": "Wiederholung (25.11.): sich erholen → erholt, verschieben → verschoben, vereinbaren → vereinbart, schwitzen → geschwitzt."
+      },
+      {
+       "typ": "fehler",
+       "titel": "Wortstellung im Nebensatz",
+       "anweisung": "Ein Wort steht an der falschen Stelle.",
+       "items": [
+        {
+         "woerter": [
+          "Die",
+          "Studie",
+          "zeigt,",
+          "dass",
+          "der",
+          "Roboter",
+          "ist",
+          "nicht",
+          "besser."
+         ],
+         "fehler": 6,
+         "korrektur": "Die Studie zeigt, dass der Roboter nicht besser ist.",
+         "erkl": "Im Nebensatz (weil, dass, obwohl …) steht das konjugierte Verb am Ende. Nach einem Nebensatz am Anfang kommt im Hauptsatz sofort das Verb."
+        },
+        {
+         "woerter": [
+          "Der",
+          "Patient",
+          "ist",
+          "froh,",
+          "weil",
+          "er",
+          "kann",
+          "wieder",
+          "gehen."
+         ],
+         "fehler": 6,
+         "korrektur": "Der Patient ist froh, weil er wieder gehen kann.",
+         "erkl": "Im Nebensatz (weil, dass, obwohl …) steht das konjugierte Verb am Ende. Nach einem Nebensatz am Anfang kommt im Hauptsatz sofort das Verb."
+        },
+        {
+         "woerter": [
+          "Obwohl",
+          "der",
+          "Roboter",
+          "genauer",
+          "arbeitet,",
+          "die",
+          "Patienten",
+          "haben",
+          "nicht",
+          "weniger",
+          "Schmerzen."
+         ],
+         "fehler": 7,
+         "korrektur": "Obwohl der Roboter genauer arbeitet, haben die Patienten nicht weniger Schmerzen.",
+         "erkl": "Im Nebensatz (weil, dass, obwohl …) steht das konjugierte Verb am Ende. Nach einem Nebensatz am Anfang kommt im Hauptsatz sofort das Verb."
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Wortbildung -ung/-heit/-keit",
+       "anweisung": "Bilde das Nomen.",
+       "items": [
+        {
+         "text": "genau → die ___",
+         "loesung": [
+          "Genauigkeit"
+         ]
+        },
+        {
+         "text": "untersuchen → die ___",
+         "loesung": [
+          "Untersuchung"
+         ]
+        },
+        {
+         "text": "sicher → die ___",
+         "loesung": [
+          "Sicherheit"
+         ]
+        },
+        {
+         "text": "behandeln → die ___",
+         "loesung": [
+          "Behandlung"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Gesundheit",
+     "titel": "Masern: Belgien hat eine der niedrigsten Impfquoten der EU",
+     "text": "Belgien hat in der EU die zweitniedrigste Impfquote gegen Masern. Das zeigt der neue Bericht „Health at a Glance: Europe 2026“ der OECD, der am Mittwoch erschienen ist. Laut den Daten der WHO für 2025 haben in Belgien nur 73 Prozent der Kinder beide Impfdosen bekommen. Der EU-Durchschnitt liegt bei 87 Prozent, nur Rumänien liegt mit 68 Prozent noch tiefer.\n\nDie WHO empfiehlt eine Quote von 95 Prozent, damit die ganze Bevölkerung geschützt ist – man spricht von Herdenimmunität. In Belgien ist die Quote in sechs Jahren um neun Prozentpunkte gesunken, stärker als im EU-Schnitt. Besonders niedrig sind die erfassten Zahlen in Wallonien und Brüssel. In Österreich gibt es übrigens keine Impfpflicht gegen Masern.",
+     "vokabeln": [
+      {
+       "de": "die Impfquote",
+       "im_text": "Impfquote",
+       "erkl": "der Anteil der Menschen, die geimpft sind"
+      },
+      {
+       "de": "die Impfdosis",
+       "im_text": "Impfdosen",
+       "erkl": "eine Spritze mit Impfstoff"
+      },
+      {
+       "de": "der Durchschnitt",
+       "im_text": "Durchschnitt",
+       "erkl": "der mittlere Wert von allen Zahlen"
+      },
+      {
+       "de": "die Bevölkerung",
+       "im_text": "Bevölkerung",
+       "erkl": "alle Menschen in einem Land"
+      },
+      {
+       "de": "die Herdenimmunität",
+       "im_text": "Herdenimmunität",
+       "erkl": "so viele Menschen sind geimpft, dass sich eine Krankheit kaum verbreiten kann"
+      },
+      {
+       "de": "erfassen",
+       "im_text": "erfassten",
+       "erkl": "notieren und zählen"
+      },
+      {
+       "de": "die Impfpflicht",
+       "im_text": "Impfpflicht",
+       "erkl": "man muss sich impfen lassen; ein Gesetz verlangt es"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Welches Land hat eine noch niedrigere Quote als Belgien?",
+       "optionen": [
+        "Österreich",
+        "Rumänien",
+        "Frankreich"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Der Bericht ist am Mittwoch erschienen.",
+       "richtig": true
+      },
+      {
+       "typ": "rf",
+       "aussage": "In Belgien ist die Quote in den letzten Jahren gestiegen.",
+       "richtig": false,
+       "erkl": "Sie ist in sechs Jahren um neun Prozentpunkte gesunken."
+      },
+      {
+       "typ": "offen",
+       "frage": "Warum empfiehlt die WHO 95 Prozent?",
+       "loesung": "Damit die ganze Bevölkerung geschützt ist (Herdenimmunität)."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wie hoch ist der EU-Durchschnitt?",
+         "87 Prozent"
+        ],
+        [
+         "Wo sind die Zahlen besonders niedrig?",
+         "in Wallonien und Brüssel"
+        ],
+        [
+         "Gibt es in Österreich eine Impfpflicht gegen Masern?",
+         "nein"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Sollte es eine Impfpflicht für Kinder geben? Warum (nicht)?",
+      "Warum sinken in manchen Ländern die Impfquoten?"
+     ],
+     "uebungen": [
+      {
+       "typ": "eingabe",
+       "titel": "Wiederholung: sich impfen",
+       "anweisung": "Ergänze das fehlende Wort.",
+       "items": [
+        {
+         "text": "Ich habe mich vor zwei Wochen gegen die Grippe ___. (impfen)",
+         "loesung": [
+          "geimpft"
+         ]
+        },
+        {
+         "text": "Als Ärzte müssen wir ___ gegen die Grippe impfen lassen.",
+         "loesung": [
+          "uns"
+         ]
+        },
+        {
+         "text": "Hast du ___ schon impfen lassen?",
+         "loesung": [
+          "dich"
+         ]
+        },
+        {
+         "text": "In Österreich gibt es keine ___, sich gegen Masern zu impfen.",
+         "loesung": [
+          "Pflicht"
+         ]
+        }
+       ],
+       "regel": "Wiederholung (25.11.): sich impfen (lassen) – Partizip: geimpft. Die Pflicht = etwas, das man machen muss."
+      },
+      {
+       "typ": "auswahl",
+       "titel": "Präpositionen und Fälle",
+       "anweisung": "Wähle den richtigen Artikel.",
+       "items": [
+        {
+         "text": "Belgien liegt unter ___ EU-Durchschnitt.",
+         "optionen": [
+          "dem",
+          "den"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Die Impfung schützt vor ___ Krankheit.",
+         "optionen": [
+          "die",
+          "der"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Die Quote ist in ___ letzten sechs Jahren gesunken.",
+         "optionen": [
+          "den",
+          "die"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Der Bericht ist für ___ ganze EU wichtig.",
+         "optionen": [
+          "der",
+          "die"
+         ],
+         "richtig": 1
+        }
+       ],
+       "regel": "unter, vor, in → Dativ (Wo? / Wann?); für → immer Akkusativ."
+      },
+      {
+       "typ": "zuordnen",
+       "titel": "Gegenteile",
+       "anweisung": "Finde die Paare.",
+       "paare": [
+        [
+         "steigen",
+         "sinken"
+        ],
+        [
+         "hoch",
+         "niedrig"
+        ],
+        [
+         "gesund",
+         "krank"
+        ],
+        [
+         "geschützt",
+         "ungeschützt"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Kultur",
+     "titel": "Paris: Die Weltausstellung von 1867 in Fotos",
+     "text": "In Paris hat am Mittwoch eine neue Ausstellung der Archives nationales eröffnet. Sie heißt „Traverser le monde“ und zeigt Fotos der Weltausstellung von 1867. Damals kamen Länder aus der ganzen Welt nach Paris, um ihre Erfindungen, ihre Kunst und ihre Industrie zu präsentieren.\n\nDie Ausstellung ist in vier Kapitel gegliedert. Jedes Kapitel stellt eine Person in den Mittelpunkt – zum Beispiel den Fotografen Pierre Petit, der damals als Einziger auf dem Gelände fotografieren durfte. Besonders spannend: Alte 3D-Bilder aus dem Archiv wurden digitalisiert und mit maschinellem Lernen bearbeitet. So kann man die Weltausstellung heute virtuell erkunden. Der Eintritt ist frei, die Schau läuft bis zum 22. Februar 2027. Sie gehört zum Jubiläum „200 Jahre Fotografie“.",
+     "vokabeln": [
+      {
+       "de": "eröffnen",
+       "im_text": "eröffnet",
+       "erkl": "zum ersten Mal für Besucher öffnen"
+      },
+      {
+       "de": "die Weltausstellung",
+       "im_text": "Weltausstellung",
+       "erkl": "eine große internationale Messe; Länder zeigen ihre Erfindungen"
+      },
+      {
+       "de": "die Erfindung",
+       "im_text": "Erfindungen",
+       "erkl": "etwas Neues, das jemand entwickelt hat"
+      },
+      {
+       "de": "gliedern",
+       "im_text": "gegliedert",
+       "erkl": "in Teile ordnen"
+      },
+      {
+       "de": "das Gelände",
+       "im_text": "Gelände",
+       "erkl": "ein großes Stück Land, zum Beispiel für eine Messe"
+      },
+      {
+       "de": "erkunden",
+       "im_text": "erkunden",
+       "erkl": "etwas Neues anschauen und kennenlernen"
+      },
+      {
+       "de": "das Jubiläum",
+       "im_text": "Jubiläum",
+       "erkl": "ein besonderer Jahrestag, zum Beispiel 100 Jahre"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wie lange läuft die Ausstellung?",
+       "optionen": [
+        "bis Weihnachten",
+        "bis 22. Februar 2027",
+        "bis Ende 2027"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Der Eintritt kostet 15 Euro.",
+       "richtig": false,
+       "erkl": "Der Eintritt ist frei."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Pierre Petit durfte als Einziger auf dem Gelände fotografieren.",
+       "richtig": true
+      },
+      {
+       "typ": "offen",
+       "frage": "Was haben die Länder 1867 in Paris gezeigt?",
+       "loesung": "Ihre Erfindungen, ihre Kunst und ihre Industrie."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "In wie viele Kapitel ist die Ausstellung gegliedert?",
+         "in vier"
+        ],
+        [
+         "Womit wurden die 3D-Bilder bearbeitet?",
+         "mit maschinellem Lernen"
+        ],
+        [
+         "Wozu gehört die Ausstellung?",
+         "zum Jubiläum „200 Jahre Fotografie“"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Welche Erfindung würdest du heute auf einer Weltausstellung zeigen?",
+      "Gehst du gern in Ausstellungen? Welche hat dir zuletzt gefallen?"
+     ],
+     "uebungen": [
+      {
+       "typ": "fehler",
+       "titel": "Wortstellung im Nebensatz",
+       "anweisung": "Ein Wort steht an der falschen Stelle.",
+       "items": [
+        {
+         "woerter": [
+          "Ich",
+          "möchte",
+          "die",
+          "Ausstellung",
+          "sehen,",
+          "weil",
+          "ich",
+          "mag",
+          "Geschichte."
+         ],
+         "fehler": 7,
+         "korrektur": "Ich möchte die Ausstellung sehen, weil ich Geschichte mag.",
+         "erkl": "Im Nebensatz (weil, dass, obwohl …) steht das konjugierte Verb am Ende. Nach einem Nebensatz am Anfang kommt im Hauptsatz sofort das Verb."
+        },
+        {
+         "woerter": [
+          "Man",
+          "weiß,",
+          "dass",
+          "Pierre",
+          "Petit",
+          "durfte",
+          "als",
+          "Einziger",
+          "fotografieren."
+         ],
+         "fehler": 5,
+         "korrektur": "Man weiß, dass Pierre Petit als Einziger fotografieren durfte.",
+         "erkl": "Im Nebensatz (weil, dass, obwohl …) steht das konjugierte Verb am Ende. Nach einem Nebensatz am Anfang kommt im Hauptsatz sofort das Verb."
+        }
+       ]
+      },
+      {
+       "typ": "auswahl",
+       "titel": "Präpositionen und Fälle",
+       "anweisung": "Wähle den richtigen Artikel.",
+       "items": [
+        {
+         "text": "Die Fotos zeigen die Weltausstellung aus ___ Jahr 1867.",
+         "optionen": [
+          "dem",
+          "das"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Die Länder kamen aus ___ ganzen Welt.",
+         "optionen": [
+          "die",
+          "der"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Die Bilder wurden mit ___ Computer bearbeitet.",
+         "optionen": [
+          "einem",
+          "einen"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Man geht durch ___ Ausstellung.",
+         "optionen": [
+          "der",
+          "die"
+         ],
+         "richtig": 1
+        }
+       ],
+       "regel": "aus, mit → immer Dativ; durch → immer Akkusativ."
+      },
+      {
+       "typ": "zuordnen",
+       "titel": "Nomen und Verb",
+       "anweisung": "Finde die Paare.",
+       "paare": [
+        [
+         "die Ausstellung",
+         "ausstellen"
+        ],
+        [
+         "die Erfindung",
+         "erfinden"
+        ],
+        [
+         "die Eröffnung",
+         "eröffnen"
+        ],
+        [
+         "die Bearbeitung",
+         "bearbeiten"
+        ]
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
    "datum": "2026-11-25",
    "nachrichten": [
     {

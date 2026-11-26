@@ -4,6 +4,942 @@ window.NACHRICHTEN = {
  "spiel": true,
  "tage": [
   {
+   "datum": "2026-11-26",
+   "nachrichten": [
+    {
+     "kategorie": "Sport",
+     "titel": "Tennis: Österreich spielt heute gegen Spanien",
+     "text": "Heute spielt Österreich Tennis gegen Spanien. Das Turnier heißt Davis Cup. Es ist in Bologna, in Italien. Acht Länder sind dort.\n\nSpanien hat einen Star: Carlos Alcaraz. Aber sein Bein tut weh. Vielleicht spielt er nicht. Der Teamchef von Österreich sagt: „Wir haben eine Chance.“ Auch Deutschland spielt heute. Der Gegner ist Großbritannien.",
+     "vokabeln": [
+      {
+       "de": "das Turnier",
+       "im_text": "Turnier",
+       "erkl": "ein Wettkampf mit vielen Spielen und Teams"
+      },
+      {
+       "de": "das Land",
+       "im_text": "Länder",
+       "erkl": "zum Beispiel Österreich, Spanien oder Italien"
+      },
+      {
+       "de": "der Star",
+       "im_text": "Star",
+       "erkl": "ein sehr bekannter Sportler; viele Leute kennen ihn"
+      },
+      {
+       "de": "wehtun",
+       "im_text": "tut",
+       "erkl": "Schmerzen machen: Mein Bein tut weh."
+      },
+      {
+       "de": "vielleicht",
+       "im_text": "Vielleicht",
+       "erkl": "es ist möglich, aber nicht sicher"
+      },
+      {
+       "de": "die Chance",
+       "im_text": "Chance",
+       "erkl": "man kann vielleicht gewinnen"
+      },
+      {
+       "de": "der Gegner",
+       "im_text": "Gegner",
+       "erkl": "das andere Team in einem Spiel"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Gegen wen spielt Österreich heute?",
+       "optionen": [
+        "gegen Deutschland",
+        "gegen Spanien",
+        "gegen Italien"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Das Turnier ist in Wien.",
+       "richtig": false,
+       "erkl": "Es ist in Bologna, in Italien."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Das Bein von Alcaraz tut weh.",
+       "richtig": true
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wie heißt das Turnier?",
+         "Davis Cup"
+        ],
+        [
+         "Wo ist das Turnier?",
+         "in Bologna"
+        ],
+        [
+         "Wie viele Länder sind dort?",
+         "acht"
+        ],
+        [
+         "Gegen wen spielt Deutschland?",
+         "gegen Großbritannien"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Spielst du Tennis oder einen anderen Sport?",
+      "Welchen Sport siehst du gern im Fernsehen?"
+     ],
+     "uebungen": [
+      {
+       "typ": "auswahl",
+       "titel": "Die Wochentage",
+       "anweisung": "Wähle den richtigen Tag.",
+       "items": [
+        {
+         "text": "Heute ist Donnerstag. Morgen ist ___.",
+         "optionen": [
+          "Freitag",
+          "Mittwoch"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Heute ist Donnerstag. Gestern war ___.",
+         "optionen": [
+          "Freitag",
+          "Mittwoch"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Das Turnier endet am Sonntag. Der Tag davor ist ___.",
+         "optionen": [
+          "Samstag",
+          "Montag"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Nach Sonntag kommt ___.",
+         "optionen": [
+          "Dienstag",
+          "Montag"
+         ],
+         "richtig": 1
+        }
+       ],
+       "regel": "Montag, Dienstag, Mittwoch, Donnerstag, Freitag, Samstag, Sonntag."
+      },
+      {
+       "typ": "auswahl",
+       "titel": "Nah oder weit?",
+       "anweisung": "Wähle das richtige Wort.",
+       "items": [
+        {
+         "text": "Italien und Österreich sind Nachbarn. Italien ist ___.",
+         "optionen": [
+          "nah",
+          "weit"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Spanien ist ___ weg. Man fliegt lange.",
+         "optionen": [
+          "nah",
+          "weit"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Der Park ist ___: nur zwei Minuten zu Fuß.",
+         "optionen": [
+          "nah",
+          "weit"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Amerika ist sehr ___ weg.",
+         "optionen": [
+          "nah",
+          "weit"
+         ],
+         "richtig": 1
+        }
+       ],
+       "regel": "Wiederholung: nah ↔ weit."
+      },
+      {
+       "typ": "zuordnen",
+       "titel": "Gegenteile",
+       "anweisung": "Finde die Paare.",
+       "paare": [
+        [
+         "gewinnen",
+         "verlieren"
+        ],
+        [
+         "groß",
+         "klein"
+        ],
+        [
+         "viel",
+         "wenig"
+        ],
+        [
+         "schnell",
+         "langsam"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Wissenschaft",
+     "titel": "Ein Teleskop findet einen neuen Kometen",
+     "text": "Euclid ist ein Teleskop im All. Es macht Fotos von Galaxien. Sie sind sehr weit weg.\n\nAuf ein paar Fotos hat ein junger Forscher in Finnland etwas Neues gefunden: einen Kometen! Niemand hat ihn vorher gesehen. Der Komet heißt jetzt auch „Euclid“. Er ist ungefähr 1,3 Milliarden Kilometer weit weg. Das Teleskop sucht eigentlich keine Kometen. Es war ein Glück.",
+     "vokabeln": [
+      {
+       "de": "das Teleskop",
+       "im_text": "Teleskop",
+       "erkl": "ein großes Gerät; damit sieht man sehr weit"
+      },
+      {
+       "de": "das All",
+       "im_text": "All",
+       "erkl": "der Raum über der Erde; dort sind Sterne und Planeten"
+      },
+      {
+       "de": "die Galaxie",
+       "im_text": "Galaxien",
+       "erkl": "sehr, sehr viele Sterne zusammen"
+      },
+      {
+       "de": "der Forscher",
+       "im_text": "Forscher",
+       "erkl": "eine Person; sie sucht Neues für die Wissenschaft"
+      },
+      {
+       "de": "der Komet",
+       "im_text": "Kometen",
+       "erkl": "ein Ball aus Eis und Staub im All; er hat oft einen langen Schweif"
+      },
+      {
+       "de": "niemand",
+       "im_text": "Niemand",
+       "erkl": "keine Person"
+      },
+      {
+       "de": "das Glück",
+       "im_text": "Glück",
+       "erkl": "etwas Gutes passiert, aber man hat es nicht geplant"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Was ist Euclid?",
+       "optionen": [
+        "ein Teleskop",
+        "ein Planet",
+        "eine Rakete"
+       ],
+       "richtig": 0
+      },
+      {
+       "typ": "rf",
+       "aussage": "Der Forscher hat einen Kometen gefunden.",
+       "richtig": true
+      },
+      {
+       "typ": "rf",
+       "aussage": "Euclid sucht normalerweise Kometen.",
+       "richtig": false,
+       "erkl": "Das Teleskop macht Fotos von Galaxien. Es sucht eigentlich keine Kometen."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wo ist das Teleskop?",
+         "im All"
+        ],
+        [
+         "Was findet der Forscher?",
+         "einen Kometen"
+        ],
+        [
+         "Wie heißt der Komet?",
+         "Euclid"
+        ],
+        [
+         "Wie weit weg ist der Komet?",
+         "ungefähr 1,3 Milliarden Kilometer"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Möchtest du einmal durch ein Teleskop schauen? Was möchtest du sehen?",
+      "Was ist für dich das Spannendste im All?"
+     ],
+     "uebungen": [
+      {
+       "typ": "eingabe",
+       "titel": "empfehlen",
+       "anweisung": "Ergänze die richtige Form von empfehlen.",
+       "items": [
+        {
+         "text": "Ich ___ dir ein Buch über Kometen.",
+         "loesung": [
+          "empfehle"
+         ]
+        },
+        {
+         "text": "Was ___ du mir?",
+         "loesung": [
+          "empfiehlst"
+         ]
+        },
+        {
+         "text": "Die Lehrerin ___ uns ein Video über das All.",
+         "loesung": [
+          "empfiehlt"
+         ]
+        },
+        {
+         "text": "Wir ___ euch das Planetarium.",
+         "loesung": [
+          "empfehlen"
+         ]
+        }
+       ],
+       "regel": "Wiederholung: ich empfehle, du empfiehlst, er/sie empfiehlt, wir empfehlen."
+      },
+      {
+       "typ": "auswahl",
+       "titel": "Nah oder weit?",
+       "anweisung": "Wähle das richtige Wort.",
+       "items": [
+        {
+         "text": "Die Galaxien sind sehr ___ weg.",
+         "optionen": [
+          "weit",
+          "nah"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Die Schule ist ___: nur fünf Minuten zu Fuß.",
+         "optionen": [
+          "weit",
+          "nah"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Der Komet ist ___ weg: 1,3 Milliarden Kilometer!",
+         "optionen": [
+          "weit",
+          "nah"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Mein Bett ist ___: nur zwei Meter.",
+         "optionen": [
+          "weit",
+          "nah"
+         ],
+         "richtig": 1
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Perfekt",
+       "anweisung": "Ergänze das Partizip.",
+       "items": [
+        {
+         "text": "finden → Er hat einen Kometen ___.",
+         "loesung": [
+          "gefunden"
+         ]
+        },
+        {
+         "text": "sehen → Niemand hat ihn vorher ___.",
+         "loesung": [
+          "gesehen"
+         ]
+        },
+        {
+         "text": "machen → Das Teleskop hat Fotos ___.",
+         "loesung": [
+          "gemacht"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Gesundheit",
+     "titel": "Hilft ein Roboter bei der Knie-Operation?",
+     "text": "In Großbritannien gibt es eine große Studie. Über 300 Menschen bekommen ein neues Knie. Manchmal hilft ein Roboter bei der Operation, manchmal nicht.\n\nDer Roboter arbeitet sehr genau. Aber nach einem Jahr sehen die Forscher: Die Patienten haben gleich viele Schmerzen. Sie gehen auch gleich gut. Der Roboter ist nicht besser. Er ist aber teurer, und die Operation dauert länger.",
+     "vokabeln": [
+      {
+       "de": "die Studie",
+       "im_text": "Studie",
+       "erkl": "ein Test von Forschern; sie wollen etwas genau wissen"
+      },
+      {
+       "de": "das Knie",
+       "im_text": "Knie",
+       "erkl": "das Gelenk in der Mitte vom Bein"
+      },
+      {
+       "de": "der Roboter",
+       "im_text": "Roboter",
+       "erkl": "eine Maschine; sie arbeitet allein oder hilft Menschen"
+      },
+      {
+       "de": "genau",
+       "im_text": "genau",
+       "erkl": "ganz richtig, ohne kleine Fehler"
+      },
+      {
+       "de": "der Schmerz",
+       "im_text": "Schmerzen",
+       "erkl": "etwas tut weh"
+      },
+      {
+       "de": "teuer",
+       "im_text": "teurer",
+       "erkl": "es kostet viel Geld"
+      },
+      {
+       "de": "dauern",
+       "im_text": "dauert",
+       "erkl": "eine Zeit brauchen: Der Film dauert zwei Stunden."
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wo ist die Studie?",
+       "optionen": [
+        "in Österreich",
+        "in Großbritannien",
+        "in Spanien"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Der Roboter arbeitet sehr genau.",
+       "richtig": true
+      },
+      {
+       "typ": "rf",
+       "aussage": "Mit dem Roboter haben die Patienten weniger Schmerzen.",
+       "richtig": false,
+       "erkl": "Sie haben gleich viele Schmerzen."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wie viele Menschen bekommen ein neues Knie?",
+         "über 300"
+        ],
+        [
+         "Wann sehen die Forscher das Ergebnis?",
+         "nach einem Jahr"
+        ],
+        [
+         "Wie arbeitet der Roboter?",
+         "sehr genau"
+        ],
+        [
+         "Was dauert mit Roboter länger?",
+         "die Operation"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Möchtest du einen Roboter zu Hause haben? Was soll er machen?",
+      "Wo helfen Roboter heute schon?"
+     ],
+     "uebungen": [
+      {
+       "typ": "auswahl",
+       "titel": "sich entspannen",
+       "anweisung": "Wähle das richtige Wort.",
+       "items": [
+        {
+         "text": "Ich entspanne ___ im Park.",
+         "optionen": [
+          "mich",
+          "dich"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Du entspannst ___ auf dem Sofa.",
+         "optionen": [
+          "mich",
+          "dich"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Nach der Operation entspannt ___ der Patient.",
+         "optionen": [
+          "sich",
+          "mich"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Wir entspannen ___ am Wochenende.",
+         "optionen": [
+          "euch",
+          "uns"
+         ],
+         "richtig": 1
+        }
+       ],
+       "regel": "Wiederholung: ich entspanne mich, du entspannst dich, er/sie entspannt sich, wir entspannen uns."
+      },
+      {
+       "typ": "zuordnen",
+       "titel": "Gegenteile",
+       "anweisung": "Finde die Paare.",
+       "paare": [
+        [
+         "teuer",
+         "billig"
+        ],
+        [
+         "länger",
+         "kürzer"
+        ],
+        [
+         "besser",
+         "schlechter"
+        ],
+        [
+         "neu",
+         "alt"
+        ]
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "empfehlen",
+       "anweisung": "Ergänze die richtige Form von empfehlen.",
+       "items": [
+        {
+         "text": "Die Ärztin ___ viel Ruhe.",
+         "loesung": [
+          "empfiehlt"
+         ]
+        },
+        {
+         "text": "Ich ___ dir Tee.",
+         "loesung": [
+          "empfehle"
+         ]
+        },
+        {
+         "text": "Was ___ du?",
+         "loesung": [
+          "empfiehlst"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Sport",
+     "titel": "Bayern verliert in Lille",
+     "text": "Bayern München hat in der Champions League gespielt. Das Spiel war in Lille, in Frankreich. Zuerst hat Bayern ein Tor geschossen: 1:0.\n\nDann hat Lille ein Tor gemacht: 1:1. Danach hat ein Spieler von Bayern ein Tor geschossen – aber ins eigene Tor! Am Ende steht es 2:1 für Lille. Bayern hat zum ersten Mal in dieser Saison verloren.",
+     "vokabeln": [
+      {
+       "de": "das Tor",
+       "im_text": "Tor",
+       "erkl": "ein Punkt im Fußball: Der Ball ist im Netz."
+      },
+      {
+       "de": "schießen",
+       "im_text": "geschossen",
+       "erkl": "den Ball fest mit dem Fuß treten"
+      },
+      {
+       "de": "zuerst",
+       "im_text": "Zuerst",
+       "erkl": "am Anfang"
+      },
+      {
+       "de": "danach",
+       "im_text": "Danach",
+       "erkl": "später, nach dieser Sache"
+      },
+      {
+       "de": "eigen",
+       "im_text": "eigene",
+       "erkl": "von mir oder von meinem Team"
+      },
+      {
+       "de": "verlieren",
+       "im_text": "verloren",
+       "erkl": "nicht gewinnen"
+      },
+      {
+       "de": "die Saison",
+       "im_text": "Saison",
+       "erkl": "die Zeit im Jahr mit vielen Spielen"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wo war das Spiel?",
+       "optionen": [
+        "in München",
+        "in Lille",
+        "in Wien"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Bayern hat zuerst ein Tor geschossen.",
+       "richtig": true
+      },
+      {
+       "typ": "rf",
+       "aussage": "Bayern hat 2:1 gewonnen.",
+       "richtig": false,
+       "erkl": "Lille hat 2:1 gewonnen."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wer hat gewonnen?",
+         "Lille"
+        ],
+        [
+         "In welchem Land ist Lille?",
+         "in Frankreich"
+        ],
+        [
+         "Wie steht es am Ende?",
+         "2:1 für Lille"
+        ],
+        [
+         "Was ist zum ersten Mal passiert?",
+         "Bayern hat verloren."
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Hast du ein Lieblingsteam? Welches?",
+      "Was machst du, wenn dein Team verliert?"
+     ],
+     "uebungen": [
+      {
+       "typ": "eingabe",
+       "titel": "Perfekt",
+       "anweisung": "Ergänze das Partizip.",
+       "items": [
+        {
+         "text": "spielen → Bayern hat in Lille ___.",
+         "loesung": [
+          "gespielt"
+         ]
+        },
+        {
+         "text": "gewinnen → Lille hat ___.",
+         "loesung": [
+          "gewonnen"
+         ]
+        },
+        {
+         "text": "verlieren → Bayern hat ___.",
+         "loesung": [
+          "verloren"
+         ]
+        },
+        {
+         "text": "schießen → Ein Spieler hat ein Tor ___.",
+         "loesung": [
+          "geschossen"
+         ]
+        }
+       ]
+      },
+      {
+       "typ": "auswahl",
+       "titel": "Die Wochentage",
+       "anweisung": "Wähle den richtigen Tag.",
+       "items": [
+        {
+         "text": "Montag, ___, Mittwoch",
+         "optionen": [
+          "Dienstag",
+          "Freitag"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Mittwoch, Donnerstag, ___",
+         "optionen": [
+          "Sonntag",
+          "Freitag"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Samstag und ___ sind das Wochenende.",
+         "optionen": [
+          "Sonntag",
+          "Montag"
+         ],
+         "richtig": 0
+        }
+       ]
+      },
+      {
+       "typ": "zuordnen",
+       "titel": "Gegenteile",
+       "anweisung": "Finde die Paare.",
+       "paare": [
+        [
+         "gewinnen",
+         "verlieren"
+        ],
+        [
+         "Anfang",
+         "Ende"
+        ],
+        [
+         "schnell",
+         "langsam"
+        ],
+        [
+         "laut",
+         "leise"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Tiere",
+     "titel": "Advent im Tiergarten Schönbrunn",
+     "text": "Im Tiergarten Schönbrunn in Wien gibt es im Advent ein Programm für Familien. An drei Sonntagen gibt es Führungen.\n\nAm Sonntag, 29. November, geht es um Giganten: Elefanten, Nashörner und Flusspferde. Im Dezember sieht man Eisbären, Wölfe und Rentiere. Danach kommen Schafe und Ziegen. Am 24. Dezember können Kinder dort basteln. Die Führungen kosten nichts. Man zahlt nur den Eintritt.",
+     "vokabeln": [
+      {
+       "de": "der Tiergarten",
+       "im_text": "Tiergarten",
+       "erkl": "ein Zoo; dort leben viele Tiere"
+      },
+      {
+       "de": "der Advent",
+       "im_text": "Advent",
+       "erkl": "die Zeit vor Weihnachten"
+      },
+      {
+       "de": "die Führung",
+       "im_text": "Führungen",
+       "erkl": "eine Person zeigt und erklärt etwas"
+      },
+      {
+       "de": "der Gigant",
+       "im_text": "Giganten",
+       "erkl": "ein sehr, sehr großes Tier oder Ding"
+      },
+      {
+       "de": "das Nashorn",
+       "im_text": "Nashörner",
+       "erkl": "ein großes, graues Tier mit einem Horn auf der Nase"
+      },
+      {
+       "de": "basteln",
+       "im_text": "basteln",
+       "erkl": "mit Papier, Schere und Kleber etwas machen"
+      },
+      {
+       "de": "der Eintritt",
+       "im_text": "Eintritt",
+       "erkl": "das Geld für das Ticket"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wo ist der Tiergarten Schönbrunn?",
+       "optionen": [
+        "in Salzburg",
+        "in Wien",
+        "in Graz"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die Führungen sind am Sonntag.",
+       "richtig": true
+      },
+      {
+       "typ": "rf",
+       "aussage": "Im Dezember sieht man Elefanten und Nashörner.",
+       "richtig": false,
+       "erkl": "Im Dezember sieht man Eisbären, Wölfe und Rentiere."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wann ist die erste Führung?",
+         "am 29. November"
+        ],
+        [
+         "Welche Tiere sind Giganten?",
+         "Elefanten, Nashörner, Flusspferde"
+        ],
+        [
+         "Was zahlt man?",
+         "nur den Eintritt"
+        ],
+        [
+         "Was können Kinder am 24. Dezember machen?",
+         "basteln"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Welches Tier möchtest du im Zoo sehen? Warum?",
+      "Was machst du gern im Advent?"
+     ],
+     "uebungen": [
+      {
+       "typ": "auswahl",
+       "titel": "verboten oder erlaubt?",
+       "anweisung": "Was passt im Zoo?",
+       "items": [
+        {
+         "text": "Die Tiere füttern? Das ist ___.",
+         "optionen": [
+          "verboten",
+          "erlaubt"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Fotos machen? Das ist ___.",
+         "optionen": [
+          "verboten",
+          "erlaubt"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Auf den Zaun klettern? Das ist ___.",
+         "optionen": [
+          "verboten",
+          "erlaubt"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Mama ___ mir das Eis vor dem Essen.",
+         "optionen": [
+          "verboten",
+          "verbietet"
+         ],
+         "richtig": 1
+        }
+       ],
+       "regel": "Wiederholung: verbieten = sagen: Das darfst du nicht. Mama verbietet es. → Es ist verboten."
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Die Wochentage",
+       "anweisung": "Ergänze den Tag.",
+       "items": [
+        {
+         "text": "Die Führung ist am ___. (der Tag nach Samstag)",
+         "loesung": [
+          "Sonntag"
+         ]
+        },
+        {
+         "text": "Heute ist Donnerstag. Morgen ist ___.",
+         "loesung": [
+          "Freitag"
+         ]
+        },
+        {
+         "text": "Montag, Dienstag, ___, Donnerstag",
+         "loesung": [
+          "Mittwoch"
+         ]
+        },
+        {
+         "text": "Am ___ und am Sonntag ist Wochenende.",
+         "loesung": [
+          "Samstag"
+         ]
+        }
+       ]
+      },
+      {
+       "typ": "zuordnen",
+       "titel": "Gegenteile",
+       "anweisung": "Finde die Paare.",
+       "paare": [
+        [
+         "groß",
+         "klein"
+        ],
+        [
+         "warm",
+         "kalt"
+        ],
+        [
+         "viel",
+         "wenig"
+        ],
+        [
+         "laut",
+         "leise"
+        ]
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
    "datum": "2026-11-25",
    "nachrichten": [
     {

@@ -4,6 +4,960 @@ window.NACHRICHTEN = {
  "spiel": false,
  "tage": [
   {
+   "datum": "2026-11-26",
+   "nachrichten": [
+    {
+     "kategorie": "Politik",
+     "titel": "EU-Gipfel: Streit um viel Geld",
+     "text": "Heute treffen sich die Chefinnen und Chefs der EU-Länder in Brüssel. Sie sprechen über viel Geld: den Haushalt der EU für die Jahre 2028 bis 2034. Der Haushalt ist ein Plan. Er zeigt, wie viel Geld die EU ausgeben kann.\n\nRatspräsident António Costa schlägt etwa 1,78 Billionen Euro vor. Das ist weniger als der Plan der EU-Kommission. Deutschland möchte noch mehr sparen. Italien möchte kein Geld bei den Bauern sparen. Alle Länder müssen Ja sagen. Eine Lösung gibt es vielleicht erst im Dezember.",
+     "vokabeln": [
+      {
+       "de": "sich treffen",
+       "im_text": "treffen",
+       "erkl": "zusammenkommen und miteinander sprechen"
+      },
+      {
+       "de": "der Haushalt",
+       "im_text": "Haushalt",
+       "erkl": "ein Plan für Geld: Wie viel bekommt man, wie viel gibt man aus?"
+      },
+      {
+       "de": "ausgeben",
+       "im_text": "ausgeben",
+       "erkl": "Geld bezahlen, Geld verwenden"
+      },
+      {
+       "de": "vorschlagen",
+       "im_text": "schlägt",
+       "erkl": "eine Idee sagen; die anderen sollen sie prüfen"
+      },
+      {
+       "de": "sparen",
+       "im_text": "sparen",
+       "erkl": "weniger Geld ausgeben"
+      },
+      {
+       "de": "der Bauer",
+       "im_text": "Bauern",
+       "erkl": "eine Person; sie arbeitet auf dem Feld und mit Tieren"
+      },
+      {
+       "de": "die Lösung",
+       "im_text": "Lösung",
+       "erkl": "eine Antwort auf ein Problem"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wo treffen sich die Chefs der EU-Länder?",
+       "optionen": [
+        "in Wien",
+        "in Brüssel",
+        "in Rom"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Der Haushalt ist für die Jahre 2028 bis 2034.",
+       "richtig": true
+      },
+      {
+       "typ": "rf",
+       "aussage": "Deutschland möchte mehr Geld ausgeben.",
+       "richtig": false,
+       "erkl": "Deutschland möchte noch mehr sparen."
+      },
+      {
+       "typ": "offen",
+       "frage": "Warum gibt es heute vielleicht noch keine Lösung?",
+       "loesung": "Weil alle Länder Ja sagen müssen und sie noch nicht einig sind."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wer schlägt 1,78 Billionen Euro vor?",
+         "António Costa"
+        ],
+        [
+         "Wo möchte Italien nicht sparen?",
+         "bei den Bauern"
+        ],
+        [
+         "Wann gibt es vielleicht eine Lösung?",
+         "im Dezember"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Wofür sollte die EU mehr Geld ausgeben?",
+      "Ist es gut, dass alle Länder Ja sagen müssen? Warum (nicht)?"
+     ],
+     "uebungen": [
+      {
+       "typ": "auswahl",
+       "titel": "werden",
+       "anweisung": "Wähle die richtige Form.",
+       "items": [
+        {
+         "text": "Eine Lösung ___ es vielleicht im Dezember geben.",
+         "optionen": [
+          "wird",
+          "werden"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Die Länder ___ weiter sprechen.",
+         "optionen": [
+          "wird",
+          "werden"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Ich ___ die Nachrichten morgen lesen.",
+         "optionen": [
+          "werde",
+          "wirst"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Du ___ es im Dezember sehen.",
+         "optionen": [
+          "wird",
+          "wirst"
+         ],
+         "richtig": 1
+        }
+       ],
+       "regel": "werden: ich werde, du wirst, er/sie/es wird, wir werden, ihr werdet, sie werden."
+      },
+      {
+       "typ": "fehler",
+       "titel": "weil und deswegen",
+       "anweisung": "Ein Wort steht an der falschen Stelle.",
+       "items": [
+        {
+         "woerter": [
+          "Deutschland",
+          "möchte",
+          "sparen,",
+          "weil",
+          "der",
+          "Plan",
+          "ist",
+          "zu",
+          "teuer."
+         ],
+         "fehler": 6,
+         "korrektur": "Deutschland möchte sparen, weil der Plan zu teuer ist.",
+         "erkl": "weil, dass → das Verb steht am Satzende."
+        },
+        {
+         "woerter": [
+          "Alle",
+          "Länder",
+          "müssen",
+          "zustimmen.",
+          "Deswegen",
+          "es",
+          "dauert",
+          "lange."
+         ],
+         "fehler": 5,
+         "korrektur": "Alle Länder müssen zustimmen. Deswegen dauert es lange.",
+         "erkl": "deswegen → Position 1, dann sofort das Verb (Inversion)."
+        }
+       ]
+      },
+      {
+       "typ": "zuordnen",
+       "titel": "Gegenteile",
+       "anweisung": "Finde die Paare.",
+       "paare": [
+        [
+         "sparen",
+         "ausgeben"
+        ],
+        [
+         "mehr",
+         "weniger"
+        ],
+        [
+         "Ja",
+         "Nein"
+        ],
+        [
+         "früh",
+         "spät"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Sport",
+     "titel": "Davis Cup: Österreich gegen Spanien",
+     "text": "Heute spielt Österreich im Davis Cup gegen Spanien. Das Turnier ist eine Art Weltmeisterschaft im Tennis für Länder-Teams. Die besten acht Teams spielen diese Woche in Bologna in Italien. Österreich und Spanien haben seit 2012 nicht mehr gegeneinander gespielt.\n\nSpanien hat Carlos Alcaraz, einen der besten Spieler der Welt. Aber er hat Probleme mit dem Oberschenkel. Vielleicht spielt er nur im Doppel, schreiben Zeitungen. Österreichs Teamchef Jürgen Melzer glaubt trotzdem an eine Chance. Auch Deutschland spielt heute, gegen Großbritannien.",
+     "vokabeln": [
+      {
+       "de": "das Turnier",
+       "im_text": "Turnier",
+       "erkl": "ein Wettkampf mit vielen Spielen"
+      },
+      {
+       "de": "die Weltmeisterschaft",
+       "im_text": "Weltmeisterschaft",
+       "erkl": "ein Wettkampf; am Ende hat man das beste Team der Welt"
+      },
+      {
+       "de": "gegeneinander",
+       "im_text": "gegeneinander",
+       "erkl": "der eine gegen den anderen"
+      },
+      {
+       "de": "der Oberschenkel",
+       "im_text": "Oberschenkel",
+       "erkl": "der obere Teil vom Bein, über dem Knie"
+      },
+      {
+       "de": "das Doppel",
+       "im_text": "Doppel",
+       "erkl": "Tennis mit zwei Spielern in jedem Team"
+      },
+      {
+       "de": "der Teamchef",
+       "im_text": "Teamchef",
+       "erkl": "der Chef von einem Team; er plant und hilft den Spielern"
+      },
+      {
+       "de": "trotzdem",
+       "im_text": "trotzdem",
+       "erkl": "obwohl es ein Problem gibt"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wo spielen die Teams?",
+       "optionen": [
+        "in Wien",
+        "in Madrid",
+        "in Bologna"
+       ],
+       "richtig": 2
+      },
+      {
+       "typ": "rf",
+       "aussage": "Österreich und Spanien haben letztes Jahr gegeneinander gespielt.",
+       "richtig": false,
+       "erkl": "Sie haben seit 2012 nicht mehr gegeneinander gespielt."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Alcaraz hat Probleme mit dem Oberschenkel.",
+       "richtig": true
+      },
+      {
+       "typ": "offen",
+       "frage": "Warum spielt Alcaraz vielleicht nur im Doppel?",
+       "loesung": "Weil er Probleme mit dem Oberschenkel hat."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wie viele Teams spielen in Bologna?",
+         "acht"
+        ],
+        [
+         "Wer ist Österreichs Teamchef?",
+         "Jürgen Melzer"
+        ],
+        [
+         "Gegen wen spielt Deutschland?",
+         "gegen Großbritannien"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Welche Sportarten sind in deinem Land beliebt?",
+      "Siehst du lieber Einzelsport oder Teamsport? Warum?"
+     ],
+     "uebungen": [
+      {
+       "typ": "fehler",
+       "titel": "weil und deswegen",
+       "anweisung": "Ein Wort steht an der falschen Stelle.",
+       "items": [
+        {
+         "woerter": [
+          "Alcaraz",
+          "spielt",
+          "vielleicht",
+          "nicht,",
+          "weil",
+          "er",
+          "hat",
+          "Probleme."
+         ],
+         "fehler": 6,
+         "korrektur": "Alcaraz spielt vielleicht nicht, weil er Probleme hat.",
+         "erkl": "weil, dass → das Verb steht am Satzende."
+        },
+        {
+         "woerter": [
+          "Sein",
+          "Bein",
+          "tut",
+          "weh.",
+          "Deswegen",
+          "er",
+          "spielt",
+          "nur",
+          "im",
+          "Doppel."
+         ],
+         "fehler": 5,
+         "korrektur": "Sein Bein tut weh. Deswegen spielt er nur im Doppel.",
+         "erkl": "deswegen → Position 1, dann sofort das Verb (Inversion)."
+        },
+        {
+         "woerter": [
+          "Österreich",
+          "hat",
+          "eine",
+          "Chance,",
+          "weil",
+          "Alcaraz",
+          "ist",
+          "verletzt."
+         ],
+         "fehler": 6,
+         "korrektur": "Österreich hat eine Chance, weil Alcaraz verletzt ist.",
+         "erkl": "weil, dass → das Verb steht am Satzende."
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Perfekt",
+       "anweisung": "Ergänze das Partizip.",
+       "items": [
+        {
+         "text": "spielen → Sie haben seit 2012 nicht gegeneinander ___.",
+         "loesung": [
+          "gespielt"
+         ]
+        },
+        {
+         "text": "fahren → Die Teams sind nach Bologna ___.",
+         "loesung": [
+          "gefahren"
+         ]
+        },
+        {
+         "text": "trainieren → Alcaraz hat am Mittwoch ___.",
+         "loesung": [
+          "trainiert"
+         ]
+        },
+        {
+         "text": "gewinnen → Deutschland hat gegen Kroatien ___.",
+         "loesung": [
+          "gewonnen"
+         ]
+        }
+       ],
+       "regel": "Perfekt: haben/sein + Partizip II am Satzende."
+      },
+      {
+       "typ": "zuordnen",
+       "titel": "Gegenteile",
+       "anweisung": "Finde die Paare.",
+       "paare": [
+        [
+         "gewinnen",
+         "verlieren"
+        ],
+        [
+         "stark",
+         "schwach"
+        ],
+        [
+         "gesund",
+         "krank"
+        ],
+        [
+         "vorher",
+         "nachher"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Wirtschaft",
+     "titel": "Black Friday: Wie viel geben die Österreicher aus?",
+     "text": "Morgen ist Black Friday, am Montag folgt der Cyber Monday. An diesen Tagen gibt es viele Angebote. Der Handelsverband hat Menschen in Österreich gefragt: 58 Prozent möchten etwas kaufen. Im Durchschnitt planen sie 314 Euro ein – etwa sieben Prozent mehr als letztes Jahr.\n\nAm beliebtesten sind Mode, Elektrogeräte und Kosmetik. Mehr Menschen bestellen dieses Jahr in österreichischen Online-Shops. Bei Temu und Shein kaufen weniger Leute ein: nur noch 13 statt 21 Prozent. Laut Handelsverband sind neue Gebühren der EU ein Grund.",
+     "vokabeln": [
+      {
+       "de": "das Angebot",
+       "im_text": "Angebote",
+       "erkl": "ein besonderer Preis; die Sache kostet weniger"
+      },
+      {
+       "de": "der Handelsverband",
+       "im_text": "Handelsverband",
+       "erkl": "eine Gruppe von vielen Geschäften; sie arbeiten zusammen"
+      },
+      {
+       "de": "im Durchschnitt",
+       "im_text": "Durchschnitt",
+       "erkl": "man rechnet alle Zahlen zusammen und teilt sie"
+      },
+      {
+       "de": "beliebt",
+       "im_text": "beliebtesten",
+       "erkl": "viele Menschen mögen es"
+      },
+      {
+       "de": "bestellen",
+       "im_text": "bestellen",
+       "erkl": "sagen oder online klicken: Das möchte ich kaufen."
+      },
+      {
+       "de": "die Gebühr",
+       "im_text": "Gebühren",
+       "erkl": "Geld, das man für einen Service zahlen muss"
+      },
+      {
+       "de": "der Grund",
+       "im_text": "Grund",
+       "erkl": "die Antwort auf die Frage: Warum?"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wie viel Geld planen die Menschen im Durchschnitt ein?",
+       "optionen": [
+        "214 Euro",
+        "314 Euro",
+        "460 Euro"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Mode ist sehr beliebt.",
+       "richtig": true
+      },
+      {
+       "typ": "rf",
+       "aussage": "Bei Temu und Shein kaufen mehr Leute ein.",
+       "richtig": false,
+       "erkl": "Nur noch 13 statt 21 Prozent kaufen dort ein."
+      },
+      {
+       "typ": "offen",
+       "frage": "Warum kaufen weniger Leute bei Temu und Shein?",
+       "loesung": "Wegen neuer Gebühren der EU."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wann ist Black Friday?",
+         "morgen"
+        ],
+        [
+         "Wer hat die Menschen gefragt?",
+         "der Handelsverband"
+        ],
+        [
+         "Wie viele Menschen möchten etwas kaufen?",
+         "58 Prozent"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Kaufst du am Black Friday ein? Was?",
+      "Sind Angebote immer gute Angebote? Warum (nicht)?",
+      "Bestellst du oft im Internet?"
+     ],
+     "uebungen": [
+      {
+       "typ": "auswahl",
+       "titel": "weil oder deswegen?",
+       "anweisung": "Wähle das richtige Wort.",
+       "items": [
+        {
+         "text": "Ich bestelle online, ___ es bequem ist.",
+         "optionen": [
+          "weil",
+          "deswegen"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Es gibt Rabatt. ___ kaufe ich heute ein.",
+         "optionen": [
+          "Weil",
+          "Deswegen"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Weniger Leute kaufen bei Temu, ___ es neue Gebühren gibt.",
+         "optionen": [
+          "weil",
+          "deswegen"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Die Pakete sind teurer. ___ bestellen viele in Österreich.",
+         "optionen": [
+          "Weil",
+          "Deswegen"
+         ],
+         "richtig": 1
+        }
+       ],
+       "regel": "weil, dass → das Verb steht am Satzende. deswegen → Position 1, dann sofort das Verb (Inversion)."
+      },
+      {
+       "typ": "fehler",
+       "titel": "deswegen",
+       "anweisung": "Ein Wort steht an der falschen Stelle.",
+       "items": [
+        {
+         "woerter": [
+          "Die",
+          "Angebote",
+          "sind",
+          "gut.",
+          "Deswegen",
+          "ich",
+          "kaufe",
+          "eine",
+          "Jacke."
+         ],
+         "fehler": 5,
+         "korrektur": "Die Angebote sind gut. Deswegen kaufe ich eine Jacke.",
+         "erkl": "deswegen → Position 1, dann sofort das Verb (Inversion)."
+        }
+       ]
+      },
+      {
+       "typ": "zuordnen",
+       "titel": "Gegenteile",
+       "anweisung": "Finde die Paare.",
+       "paare": [
+        [
+         "mehr",
+         "weniger"
+        ],
+        [
+         "kaufen",
+         "verkaufen"
+        ],
+        [
+         "billig",
+         "teuer"
+        ],
+        [
+         "beliebt",
+         "unbeliebt"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Wirtschaft",
+     "titel": "UniCredit darf die Commerzbank übernehmen",
+     "text": "Die italienische Bank UniCredit darf die deutsche Commerzbank übernehmen. Jetzt hat auch die Finanzaufsicht in Polen Ja gesagt. Sie war die letzte Behörde. Warum Polen? Die Commerzbank hat dort eine Tochterfirma, die mBank. Vorher haben schon die EU-Kommission und die Europäische Zentralbank zugestimmt.\n\nUniCredit hat schon fast 50 Prozent der Commerzbank-Aktien. Die deutsche Regierung war lange dagegen, aber jetzt nicht mehr. UniCredit-Chef Andrea Orcel soll bald Chef des Aufsichtsrats der Commerzbank werden. Später soll die Commerzbank vielleicht mit der HypoVereinsbank zusammengehen.",
+     "vokabeln": [
+      {
+       "de": "übernehmen",
+       "im_text": "übernehmen",
+       "erkl": "eine Firma kaufen und dann leiten"
+      },
+      {
+       "de": "die Behörde",
+       "im_text": "Behörde",
+       "erkl": "ein Amt vom Staat"
+      },
+      {
+       "de": "die Tochterfirma",
+       "im_text": "Tochterfirma",
+       "erkl": "eine Firma, die einer anderen Firma gehört"
+      },
+      {
+       "de": "zustimmen",
+       "im_text": "zugestimmt",
+       "erkl": "Ja sagen"
+      },
+      {
+       "de": "die Aktie",
+       "im_text": "Aktien",
+       "erkl": "ein kleiner Teil von einer Firma; man kann ihn kaufen"
+      },
+      {
+       "de": "dagegen",
+       "im_text": "dagegen",
+       "erkl": "nicht einverstanden; man will es nicht"
+      },
+      {
+       "de": "der Aufsichtsrat",
+       "im_text": "Aufsichtsrats",
+       "erkl": "eine Gruppe; sie kontrolliert die Chefs von einer Firma"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Aus welchem Land kommt UniCredit?",
+       "optionen": [
+        "aus Deutschland",
+        "aus Italien",
+        "aus Polen"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die Finanzaufsicht in Polen war die erste Behörde.",
+       "richtig": false,
+       "erkl": "Sie war die letzte Behörde."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die deutsche Regierung ist jetzt nicht mehr dagegen.",
+       "richtig": true
+      },
+      {
+       "typ": "offen",
+       "frage": "Warum musste auch Polen Ja sagen?",
+       "loesung": "Weil die Commerzbank in Polen eine Tochterfirma hat, die mBank."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wie viel Prozent der Aktien hat UniCredit?",
+         "fast 50 Prozent"
+        ],
+        [
+         "Wer soll Chef des Aufsichtsrats werden?",
+         "Andrea Orcel"
+        ],
+        [
+         "Mit welcher Bank soll die Commerzbank zusammengehen?",
+         "mit der HypoVereinsbank"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Bei welcher Bank bist du? Bist du zufrieden?",
+      "Ist es gut, wenn große Firmen andere Firmen kaufen? Warum (nicht)?"
+     ],
+     "uebungen": [
+      {
+       "typ": "auswahl",
+       "titel": "werden",
+       "anweisung": "Wähle die richtige Form.",
+       "items": [
+        {
+         "text": "Orcel ___ bald Chef des Aufsichtsrats.",
+         "optionen": [
+          "wird",
+          "werden"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Die Banken ___ vielleicht zusammengehen.",
+         "optionen": [
+          "wird",
+          "werden"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "___ du später bei einer Bank arbeiten?",
+         "optionen": [
+          "Wirst",
+          "Wird"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Ich ___ morgen mein Konto prüfen.",
+         "optionen": [
+          "wirst",
+          "werde"
+         ],
+         "richtig": 1
+        }
+       ],
+       "regel": "werden: ich werde, du wirst, er/sie/es wird, wir werden, ihr werdet, sie werden."
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Perfekt",
+       "anweisung": "Ergänze das Partizip.",
+       "items": [
+        {
+         "text": "zustimmen → Die Zentralbank hat ___.",
+         "loesung": [
+          "zugestimmt"
+         ]
+        },
+        {
+         "text": "sagen → Polen hat Ja ___.",
+         "loesung": [
+          "gesagt"
+         ]
+        },
+        {
+         "text": "übernehmen → UniCredit hat viele Aktien ___.",
+         "loesung": [
+          "übernommen"
+         ]
+        },
+        {
+         "text": "sein → Die Regierung ist lange dagegen ___.",
+         "loesung": [
+          "gewesen"
+         ]
+        }
+       ],
+       "regel": "Perfekt: haben/sein + Partizip II am Satzende. Trennbare Verben: zu|stimmen → zugestimmt."
+      },
+      {
+       "typ": "zuordnen",
+       "titel": "Verb und Nomen",
+       "anweisung": "Finde die Paare.",
+       "paare": [
+        [
+         "übernehmen",
+         "die Übernahme"
+        ],
+        [
+         "zustimmen",
+         "die Zustimmung"
+        ],
+        [
+         "regieren",
+         "die Regierung"
+        ],
+        [
+         "entscheiden",
+         "die Entscheidung"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Wissenschaft",
+     "titel": "Euclid entdeckt einen neuen Kometen",
+     "text": "Das Weltraumteleskop Euclid von der europäischen Raumfahrtagentur ESA soll eigentlich ferne Galaxien fotografieren. Jetzt hat es zum ersten Mal einen unbekannten Kometen entdeckt.\n\nEin Doktorand an der Universität Helsinki hat auf Fotos vom September eine kleine Spur gesehen. Er hat eine spezielle Software benutzt. Im Oktober haben Experten bestätigt: Das ist ein neuer Komet. Er heißt jetzt „C/2026 S1 (Euclid)“ und ist ungefähr 1,3 Milliarden Kilometer von der Erde entfernt. Ein ESA-Forscher spricht von einem glücklichen Zufall.",
+     "vokabeln": [
+      {
+       "de": "das Weltraumteleskop",
+       "im_text": "Weltraumteleskop",
+       "erkl": "ein Teleskop im All; es macht Fotos von Sternen"
+      },
+      {
+       "de": "entdecken",
+       "im_text": "entdeckt",
+       "erkl": "etwas Neues zum ersten Mal finden"
+      },
+      {
+       "de": "der Doktorand",
+       "im_text": "Doktorand",
+       "erkl": "eine Person; sie schreibt an der Uni eine große Forschungsarbeit"
+      },
+      {
+       "de": "die Spur",
+       "im_text": "Spur",
+       "erkl": "eine Linie; sie zeigt, wo sich etwas bewegt hat"
+      },
+      {
+       "de": "bestätigen",
+       "im_text": "bestätigt",
+       "erkl": "sagen: Ja, das ist richtig."
+      },
+      {
+       "de": "entfernt",
+       "im_text": "entfernt",
+       "erkl": "weit weg"
+      },
+      {
+       "de": "der Zufall",
+       "im_text": "Zufall",
+       "erkl": "etwas passiert, aber niemand hat es geplant"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Was soll Euclid eigentlich fotografieren?",
+       "optionen": [
+        "Kometen",
+        "ferne Galaxien",
+        "die Erde"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Der Doktorand arbeitet an der Universität Helsinki.",
+       "richtig": true
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die Fotos sind vom Oktober.",
+       "richtig": false,
+       "erkl": "Die Fotos sind vom September. Im Oktober haben Experten den Kometen bestätigt."
+      },
+      {
+       "typ": "offen",
+       "frage": "Warum spricht ein Forscher von einem glücklichen Zufall?",
+       "loesung": "Weil Euclid eigentlich Galaxien fotografieren soll und keine Kometen sucht."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Von wann sind die Fotos?",
+         "vom September"
+        ],
+        [
+         "Was hat der Doktorand benutzt?",
+         "eine spezielle Software"
+        ],
+        [
+         "Wie weit ist der Komet entfernt?",
+         "ungefähr 1,3 Milliarden Kilometer"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Interessierst du dich für das Weltall? Warum (nicht)?",
+      "Glaubst du, man findet in Zukunft noch viele neue Kometen?"
+     ],
+     "uebungen": [
+      {
+       "typ": "eingabe",
+       "titel": "Perfekt",
+       "anweisung": "Ergänze das Partizip.",
+       "items": [
+        {
+         "text": "sehen → Er hat eine Spur ___.",
+         "loesung": [
+          "gesehen"
+         ]
+        },
+        {
+         "text": "benutzen → Er hat Software ___.",
+         "loesung": [
+          "benutzt"
+         ]
+        },
+        {
+         "text": "entdecken → Euclid hat einen Kometen ___.",
+         "loesung": [
+          "entdeckt"
+         ]
+        },
+        {
+         "text": "fliegen → Euclid ist 2023 ins All ___.",
+         "loesung": [
+          "geflogen"
+         ]
+        }
+       ],
+       "regel": "Perfekt: haben/sein + Partizip II am Satzende."
+      },
+      {
+       "typ": "fehler",
+       "titel": "weil",
+       "anweisung": "Ein Wort steht an der falschen Stelle.",
+       "items": [
+        {
+         "woerter": [
+          "Es",
+          "ist",
+          "ein",
+          "Zufall,",
+          "weil",
+          "Euclid",
+          "sucht",
+          "keine",
+          "Kometen."
+         ],
+         "fehler": 6,
+         "korrektur": "Es ist ein Zufall, weil Euclid keine Kometen sucht.",
+         "erkl": "weil, dass → das Verb steht am Satzende."
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Verb → Nomen",
+       "anweisung": "Bilde das Nomen.",
+       "items": [
+        {
+         "text": "entdecken → die ___",
+         "loesung": [
+          "Entdeckung"
+         ]
+        },
+        {
+         "text": "bestätigen → die ___",
+         "loesung": [
+          "Bestätigung"
+         ]
+        },
+        {
+         "text": "forschen → die ___",
+         "loesung": [
+          "Forschung"
+         ]
+        },
+        {
+         "text": "benutzen → die ___",
+         "loesung": [
+          "Benutzung"
+         ]
+        }
+       ],
+       "regel": "Viele Verben → Nomen mit -ung (immer die)."
+      }
+     ]
+    }
+   ]
+  },
+  {
    "datum": "2026-11-25",
    "nachrichten": [
     {

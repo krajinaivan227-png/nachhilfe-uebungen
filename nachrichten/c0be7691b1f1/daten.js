@@ -4,6 +4,987 @@ window.NACHRICHTEN = {
  "spiel": false,
  "tage": [
   {
+   "datum": "2026-11-26",
+   "nachrichten": [
+    {
+     "kategorie": "Sport",
+     "titel": "Tennis: Österreich spielt heute gegen Spanien",
+     "text": "Heute spielt Österreich Tennis gegen Spanien. Das Turnier heißt Davis Cup. Es ist in Bologna, in Italien. Acht Länder sind dort.\n\nSpanien hat einen Star: Carlos Alcaraz. Aber sein Bein tut weh. Vielleicht spielt er nicht. Der Teamchef von Österreich sagt: „Wir haben eine Chance.“ Auch Deutschland spielt heute. Der Gegner ist Großbritannien.",
+     "vokabeln": [
+      {
+       "de": "das Turnier",
+       "im_text": "Turnier",
+       "erkl": "ein Wettkampf mit vielen Spielen und Teams"
+      },
+      {
+       "de": "das Land",
+       "im_text": "Länder",
+       "erkl": "zum Beispiel Österreich, Spanien oder Italien"
+      },
+      {
+       "de": "der Star",
+       "im_text": "Star",
+       "erkl": "ein sehr bekannter Sportler; viele Leute kennen ihn"
+      },
+      {
+       "de": "wehtun",
+       "im_text": "tut",
+       "erkl": "Schmerzen machen: Mein Bein tut weh."
+      },
+      {
+       "de": "vielleicht",
+       "im_text": "Vielleicht",
+       "erkl": "es ist möglich, aber nicht sicher"
+      },
+      {
+       "de": "die Chance",
+       "im_text": "Chance",
+       "erkl": "man kann vielleicht gewinnen"
+      },
+      {
+       "de": "der Gegner",
+       "im_text": "Gegner",
+       "erkl": "das andere Team in einem Spiel"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Gegen wen spielt Österreich heute?",
+       "optionen": [
+        "gegen Deutschland",
+        "gegen Spanien",
+        "gegen Italien"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Das Turnier ist in Wien.",
+       "richtig": false,
+       "erkl": "Es ist in Bologna, in Italien."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Das Bein von Alcaraz tut weh.",
+       "richtig": true
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wie heißt das Turnier?",
+         "Davis Cup"
+        ],
+        [
+         "Wo ist das Turnier?",
+         "in Bologna"
+        ],
+        [
+         "Wie viele Länder sind dort?",
+         "acht"
+        ],
+        [
+         "Gegen wen spielt Deutschland?",
+         "gegen Großbritannien"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Spielst du Tennis oder einen anderen Sport?",
+      "Welchen Sport siehst du gern im Fernsehen?"
+     ],
+     "uebungen": [
+      {
+       "typ": "fehler",
+       "titel": "Satzbau",
+       "anweisung": "Ein Wort steht an der falschen Stelle.",
+       "items": [
+        {
+         "woerter": [
+          "Heute",
+          "Österreich",
+          "spielt",
+          "gegen",
+          "Spanien."
+         ],
+         "fehler": 2,
+         "korrektur": "Heute spielt Österreich gegen Spanien.",
+         "erkl": "Nach einer Zeitangabe oder einem Wort wie dann, vielleicht am Satzanfang kommt sofort das Verb (Position 2)."
+        },
+        {
+         "woerter": [
+          "Vielleicht",
+          "er",
+          "spielt",
+          "nicht."
+         ],
+         "fehler": 2,
+         "korrektur": "Vielleicht spielt er nicht.",
+         "erkl": "Nach einer Zeitangabe oder einem Wort wie dann, vielleicht am Satzanfang kommt sofort das Verb (Position 2)."
+        },
+        {
+         "woerter": [
+          "Am",
+          "Sonntag",
+          "das",
+          "Turnier",
+          "endet."
+         ],
+         "fehler": 4,
+         "korrektur": "Am Sonntag endet das Turnier.",
+         "erkl": "Nach einer Zeitangabe oder einem Wort wie dann, vielleicht am Satzanfang kommt sofort das Verb (Position 2)."
+        }
+       ]
+      },
+      {
+       "typ": "auswahl",
+       "titel": "Wo oder wohin?",
+       "anweisung": "Wähle das richtige Fragewort.",
+       "items": [
+        {
+         "text": "___ ist das Turnier? – In Bologna.",
+         "optionen": [
+          "Wo",
+          "Wohin"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "___ fahren die Spieler? – Nach Italien.",
+         "optionen": [
+          "Wo",
+          "Wohin"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "___ spielt Deutschland? – Auch in Bologna.",
+         "optionen": [
+          "Wo",
+          "Wohin"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "___ fliegt der Ball? – Ins Netz.",
+         "optionen": [
+          "Wo",
+          "Wohin"
+         ],
+         "richtig": 1
+        }
+       ],
+       "regel": "Wo? → ein Ort (in Bologna, im Geschäft). Wohin? → eine Richtung (nach Italien, ins Tor, nach Hause)."
+      },
+      {
+       "typ": "zuordnen",
+       "titel": "Gegenteile",
+       "anweisung": "Finde die Paare.",
+       "paare": [
+        [
+         "gewinnen",
+         "verlieren"
+        ],
+        [
+         "groß",
+         "klein"
+        ],
+        [
+         "viel",
+         "wenig"
+        ],
+        [
+         "schnell",
+         "langsam"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Wissenschaft",
+     "titel": "Ein Teleskop findet einen neuen Kometen",
+     "text": "Euclid ist ein Teleskop im All. Es macht Fotos von Galaxien. Sie sind sehr weit weg.\n\nAuf ein paar Fotos hat ein junger Forscher in Finnland etwas Neues gefunden: einen Kometen! Niemand hat ihn vorher gesehen. Der Komet heißt jetzt auch „Euclid“. Er ist ungefähr 1,3 Milliarden Kilometer weit weg. Das Teleskop sucht eigentlich keine Kometen. Es war ein Glück.",
+     "vokabeln": [
+      {
+       "de": "das Teleskop",
+       "im_text": "Teleskop",
+       "erkl": "ein großes Gerät; damit sieht man sehr weit"
+      },
+      {
+       "de": "das All",
+       "im_text": "All",
+       "erkl": "der Raum über der Erde; dort sind Sterne und Planeten"
+      },
+      {
+       "de": "die Galaxie",
+       "im_text": "Galaxien",
+       "erkl": "sehr, sehr viele Sterne zusammen"
+      },
+      {
+       "de": "der Forscher",
+       "im_text": "Forscher",
+       "erkl": "eine Person; sie sucht Neues für die Wissenschaft"
+      },
+      {
+       "de": "der Komet",
+       "im_text": "Kometen",
+       "erkl": "ein Ball aus Eis und Staub im All; er hat oft einen langen Schweif"
+      },
+      {
+       "de": "niemand",
+       "im_text": "Niemand",
+       "erkl": "keine Person"
+      },
+      {
+       "de": "das Glück",
+       "im_text": "Glück",
+       "erkl": "etwas Gutes passiert, aber man hat es nicht geplant"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Was ist Euclid?",
+       "optionen": [
+        "ein Teleskop",
+        "ein Planet",
+        "eine Rakete"
+       ],
+       "richtig": 0
+      },
+      {
+       "typ": "rf",
+       "aussage": "Der Forscher hat einen Kometen gefunden.",
+       "richtig": true
+      },
+      {
+       "typ": "rf",
+       "aussage": "Euclid sucht normalerweise Kometen.",
+       "richtig": false,
+       "erkl": "Das Teleskop macht Fotos von Galaxien. Es sucht eigentlich keine Kometen."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wo ist das Teleskop?",
+         "im All"
+        ],
+        [
+         "Was findet der Forscher?",
+         "einen Kometen"
+        ],
+        [
+         "Wie heißt der Komet?",
+         "Euclid"
+        ],
+        [
+         "Wie weit weg ist der Komet?",
+         "ungefähr 1,3 Milliarden Kilometer"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Möchtest du einmal durch ein Teleskop schauen? Was möchtest du sehen?",
+      "Was ist für dich das Spannendste im All?"
+     ],
+     "uebungen": [
+      {
+       "typ": "eingabe",
+       "titel": "Perfekt",
+       "anweisung": "Ergänze das Partizip.",
+       "items": [
+        {
+         "text": "finden → Er hat einen Kometen ___.",
+         "loesung": [
+          "gefunden"
+         ]
+        },
+        {
+         "text": "sehen → Niemand hat ihn vorher ___.",
+         "loesung": [
+          "gesehen"
+         ]
+        },
+        {
+         "text": "machen → Das Teleskop hat Fotos ___.",
+         "loesung": [
+          "gemacht"
+         ]
+        },
+        {
+         "text": "suchen → Die Forscher haben lange ___.",
+         "loesung": [
+          "gesucht"
+         ]
+        }
+       ],
+       "regel": "Perfekt = haben/sein + Partizip am Satzende: Er hat einen Kometen gefunden."
+      },
+      {
+       "typ": "fehler",
+       "titel": "Satzbau",
+       "anweisung": "Ein Wort steht an der falschen Stelle.",
+       "items": [
+        {
+         "woerter": [
+          "Jetzt",
+          "der",
+          "Komet",
+          "heißt",
+          "Euclid."
+         ],
+         "fehler": 3,
+         "korrektur": "Jetzt heißt der Komet Euclid.",
+         "erkl": "Nach einer Zeitangabe oder einem Wort wie dann, vielleicht am Satzanfang kommt sofort das Verb (Position 2)."
+        },
+        {
+         "woerter": [
+          "Im",
+          "September",
+          "das",
+          "Teleskop",
+          "hat",
+          "Fotos",
+          "gemacht."
+         ],
+         "fehler": 4,
+         "korrektur": "Im September hat das Teleskop Fotos gemacht.",
+         "erkl": "Nach einer Zeitangabe oder einem Wort wie dann, vielleicht am Satzanfang kommt sofort das Verb (Position 2)."
+        }
+       ]
+      },
+      {
+       "typ": "zuordnen",
+       "titel": "Gegenteile",
+       "anweisung": "Finde die Paare.",
+       "paare": [
+        [
+         "weit",
+         "nah"
+        ],
+        [
+         "neu",
+         "alt"
+        ],
+        [
+         "finden",
+         "verlieren"
+        ],
+        [
+         "groß",
+         "klein"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Gesundheit",
+     "titel": "Hilft ein Roboter bei der Knie-Operation?",
+     "text": "In Großbritannien gibt es eine große Studie. Über 300 Menschen bekommen ein neues Knie. Manchmal hilft ein Roboter bei der Operation, manchmal nicht.\n\nDer Roboter arbeitet sehr genau. Aber nach einem Jahr sehen die Forscher: Die Patienten haben gleich viele Schmerzen. Sie gehen auch gleich gut. Der Roboter ist nicht besser. Er ist aber teurer, und die Operation dauert länger.",
+     "vokabeln": [
+      {
+       "de": "die Studie",
+       "im_text": "Studie",
+       "erkl": "ein Test von Forschern; sie wollen etwas genau wissen"
+      },
+      {
+       "de": "das Knie",
+       "im_text": "Knie",
+       "erkl": "das Gelenk in der Mitte vom Bein"
+      },
+      {
+       "de": "der Roboter",
+       "im_text": "Roboter",
+       "erkl": "eine Maschine; sie arbeitet allein oder hilft Menschen"
+      },
+      {
+       "de": "genau",
+       "im_text": "genau",
+       "erkl": "ganz richtig, ohne kleine Fehler"
+      },
+      {
+       "de": "der Schmerz",
+       "im_text": "Schmerzen",
+       "erkl": "etwas tut weh"
+      },
+      {
+       "de": "teuer",
+       "im_text": "teurer",
+       "erkl": "es kostet viel Geld"
+      },
+      {
+       "de": "dauern",
+       "im_text": "dauert",
+       "erkl": "eine Zeit brauchen: Der Film dauert zwei Stunden."
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wo ist die Studie?",
+       "optionen": [
+        "in Österreich",
+        "in Großbritannien",
+        "in Spanien"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Der Roboter arbeitet sehr genau.",
+       "richtig": true
+      },
+      {
+       "typ": "rf",
+       "aussage": "Mit dem Roboter haben die Patienten weniger Schmerzen.",
+       "richtig": false,
+       "erkl": "Sie haben gleich viele Schmerzen."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wie viele Menschen bekommen ein neues Knie?",
+         "über 300"
+        ],
+        [
+         "Wann sehen die Forscher das Ergebnis?",
+         "nach einem Jahr"
+        ],
+        [
+         "Wie arbeitet der Roboter?",
+         "sehr genau"
+        ],
+        [
+         "Was dauert mit Roboter länger?",
+         "die Operation"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Möchtest du einen Roboter zu Hause haben? Was soll er machen?",
+      "Wo helfen Roboter heute schon?"
+     ],
+     "uebungen": [
+      {
+       "typ": "fehler",
+       "titel": "Satzbau",
+       "anweisung": "Ein Wort steht an der falschen Stelle.",
+       "items": [
+        {
+         "woerter": [
+          "Nach",
+          "einem",
+          "Jahr",
+          "die",
+          "Forscher",
+          "sehen",
+          "das",
+          "Ergebnis."
+         ],
+         "fehler": 5,
+         "korrektur": "Nach einem Jahr sehen die Forscher das Ergebnis.",
+         "erkl": "Nach einer Zeitangabe oder einem Wort wie dann, vielleicht am Satzanfang kommt sofort das Verb (Position 2)."
+        },
+        {
+         "woerter": [
+          "Manchmal",
+          "ein",
+          "Roboter",
+          "hilft."
+         ],
+         "fehler": 3,
+         "korrektur": "Manchmal hilft ein Roboter.",
+         "erkl": "Nach einer Zeitangabe oder einem Wort wie dann, vielleicht am Satzanfang kommt sofort das Verb (Position 2)."
+        },
+        {
+         "woerter": [
+          "Heute",
+          "ich",
+          "habe",
+          "Physik."
+         ],
+         "fehler": 2,
+         "korrektur": "Heute habe ich Physik.",
+         "erkl": "Nach einer Zeitangabe oder einem Wort wie dann, vielleicht am Satzanfang kommt sofort das Verb (Position 2)."
+        }
+       ]
+      },
+      {
+       "typ": "zuordnen",
+       "titel": "Gegenteile",
+       "anweisung": "Finde die Paare.",
+       "paare": [
+        [
+         "teuer",
+         "billig"
+        ],
+        [
+         "länger",
+         "kürzer"
+        ],
+        [
+         "besser",
+         "schlechter"
+        ],
+        [
+         "neu",
+         "alt"
+        ]
+       ]
+      },
+      {
+       "typ": "auswahl",
+       "titel": "Perfekt: haben oder sein?",
+       "anweisung": "Wähle das richtige Verb.",
+       "items": [
+        {
+         "text": "Der Roboter ___ genau gearbeitet.",
+         "optionen": [
+          "hat",
+          "ist"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Die Patientin ___ nach Hause gegangen.",
+         "optionen": [
+          "hat",
+          "ist"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Die Forscher ___ viel gelernt.",
+         "optionen": [
+          "haben",
+          "sind"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Der Arzt ___ ins Krankenhaus gefahren.",
+         "optionen": [
+          "hat",
+          "ist"
+         ],
+         "richtig": 1
+        }
+       ],
+       "regel": "Bewegung (gehen, fahren) → sein. Die meisten anderen Verben → haben."
+      }
+     ]
+    },
+    {
+     "kategorie": "Sport",
+     "titel": "Bayern verliert in Lille",
+     "text": "Bayern München hat in der Champions League gespielt. Das Spiel war in Lille, in Frankreich. Zuerst hat Bayern ein Tor geschossen: 1:0.\n\nDann hat Lille ein Tor gemacht: 1:1. Danach hat ein Spieler von Bayern ein Tor geschossen – aber ins eigene Tor! Am Ende steht es 2:1 für Lille. Bayern hat zum ersten Mal in dieser Saison verloren.",
+     "vokabeln": [
+      {
+       "de": "das Tor",
+       "im_text": "Tor",
+       "erkl": "ein Punkt im Fußball: Der Ball ist im Netz."
+      },
+      {
+       "de": "schießen",
+       "im_text": "geschossen",
+       "erkl": "den Ball fest mit dem Fuß treten"
+      },
+      {
+       "de": "zuerst",
+       "im_text": "Zuerst",
+       "erkl": "am Anfang"
+      },
+      {
+       "de": "danach",
+       "im_text": "Danach",
+       "erkl": "später, nach dieser Sache"
+      },
+      {
+       "de": "eigen",
+       "im_text": "eigene",
+       "erkl": "von mir oder von meinem Team"
+      },
+      {
+       "de": "verlieren",
+       "im_text": "verloren",
+       "erkl": "nicht gewinnen"
+      },
+      {
+       "de": "die Saison",
+       "im_text": "Saison",
+       "erkl": "die Zeit im Jahr mit vielen Spielen"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wo war das Spiel?",
+       "optionen": [
+        "in München",
+        "in Lille",
+        "in Wien"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Bayern hat zuerst ein Tor geschossen.",
+       "richtig": true
+      },
+      {
+       "typ": "rf",
+       "aussage": "Bayern hat 2:1 gewonnen.",
+       "richtig": false,
+       "erkl": "Lille hat 2:1 gewonnen."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wer hat gewonnen?",
+         "Lille"
+        ],
+        [
+         "In welchem Land ist Lille?",
+         "in Frankreich"
+        ],
+        [
+         "Wie steht es am Ende?",
+         "2:1 für Lille"
+        ],
+        [
+         "Was ist zum ersten Mal passiert?",
+         "Bayern hat verloren."
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Hast du ein Lieblingsteam? Welches?",
+      "Was machst du, wenn dein Team verliert?"
+     ],
+     "uebungen": [
+      {
+       "typ": "auswahl",
+       "titel": "Perfekt: haben oder sein?",
+       "anweisung": "Wähle das richtige Verb.",
+       "items": [
+        {
+         "text": "Bayern ___ nach Lille gefahren.",
+         "optionen": [
+          "ist",
+          "hat"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Bayern ___ verloren.",
+         "optionen": [
+          "ist",
+          "hat"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Die Spieler ___ viel gelaufen.",
+         "optionen": [
+          "sind",
+          "haben"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Lille ___ zwei Tore geschossen.",
+         "optionen": [
+          "ist",
+          "hat"
+         ],
+         "richtig": 1
+        }
+       ],
+       "regel": "Bewegung von A nach B (fahren, laufen) → sein. Die meisten anderen Verben → haben."
+      },
+      {
+       "typ": "auswahl",
+       "titel": "Wo oder wohin?",
+       "anweisung": "Wähle das richtige Fragewort.",
+       "items": [
+        {
+         "text": "___ fährt Bayern? – Nach Frankreich.",
+         "optionen": [
+          "Wohin",
+          "Wo"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "___ war das Spiel? – In Lille.",
+         "optionen": [
+          "Wohin",
+          "Wo"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "___ fliegt der Ball? – Ins Tor.",
+         "optionen": [
+          "Wohin",
+          "Wo"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "___ wohnt der Trainer? – In München.",
+         "optionen": [
+          "Wohin",
+          "Wo"
+         ],
+         "richtig": 1
+        }
+       ],
+       "regel": "Wo? → ein Ort (in Bologna, im Geschäft). Wohin? → eine Richtung (nach Italien, ins Tor, nach Hause)."
+      },
+      {
+       "typ": "zuordnen",
+       "titel": "Gegenteile",
+       "anweisung": "Finde die Paare.",
+       "paare": [
+        [
+         "gewinnen",
+         "verlieren"
+        ],
+        [
+         "zuerst",
+         "am Ende"
+        ],
+        [
+         "schnell",
+         "langsam"
+        ],
+        [
+         "laut",
+         "leise"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Wirtschaft",
+     "titel": "Morgen ist Black Friday",
+     "text": "Morgen ist Black Friday. Viele Geschäfte haben dann Angebote. Die Sachen sind billiger.\n\nIn Österreich möchten 58 von 100 Menschen Angebote kaufen. Sie planen im Durchschnitt 314 Euro ein. Viele kaufen Kleidung, Elektrogeräte wie Handys und Kosmetik. Sehr viele Leute bestellen im Internet. Dann kommen die Pakete nach Hause.",
+     "vokabeln": [
+      {
+       "de": "das Geschäft",
+       "im_text": "Geschäfte",
+       "erkl": "dort kann man Sachen kaufen"
+      },
+      {
+       "de": "das Angebot",
+       "im_text": "Angebote",
+       "erkl": "eine Sache kostet weniger als normal"
+      },
+      {
+       "de": "billig",
+       "im_text": "billiger",
+       "erkl": "es kostet wenig Geld"
+      },
+      {
+       "de": "im Durchschnitt",
+       "im_text": "Durchschnitt",
+       "erkl": "ungefähr; man rechnet alle Leute zusammen"
+      },
+      {
+       "de": "die Kleidung",
+       "im_text": "Kleidung",
+       "erkl": "Hose, Jacke, T-Shirt …"
+      },
+      {
+       "de": "bestellen",
+       "im_text": "bestellen",
+       "erkl": "im Internet sagen: Das möchte ich kaufen."
+      },
+      {
+       "de": "das Paket",
+       "im_text": "Pakete",
+       "erkl": "ein Karton mit Sachen; die Post bringt ihn"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wann ist Black Friday?",
+       "optionen": [
+        "heute",
+        "morgen",
+        "am Sonntag"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die Sachen sind am Black Friday teurer.",
+       "richtig": false,
+       "erkl": "Sie sind billiger."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Viele Leute kaufen Kleidung.",
+       "richtig": true
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wie viele Menschen möchten Angebote kaufen?",
+         "58 von 100"
+        ],
+        [
+         "Wie viel Geld planen sie ein?",
+         "314 Euro"
+        ],
+        [
+         "Wo bestellen viele Leute?",
+         "im Internet"
+        ],
+        [
+         "Was kommt nach Hause?",
+         "die Pakete"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Kaufst du gern im Internet oder lieber im Geschäft?",
+      "Was möchtest du gern billig kaufen?"
+     ],
+     "uebungen": [
+      {
+       "typ": "fehler",
+       "titel": "Satzbau",
+       "anweisung": "Ein Wort steht an der falschen Stelle.",
+       "items": [
+        {
+         "woerter": [
+          "Morgen",
+          "viele",
+          "Leute",
+          "kaufen",
+          "Kleidung."
+         ],
+         "fehler": 3,
+         "korrektur": "Morgen kaufen viele Leute Kleidung.",
+         "erkl": "Nach einer Zeitangabe oder einem Wort wie dann, vielleicht am Satzanfang kommt sofort das Verb (Position 2)."
+        },
+        {
+         "woerter": [
+          "Am",
+          "Freitag",
+          "ich",
+          "gehe",
+          "ins",
+          "Geschäft."
+         ],
+         "fehler": 3,
+         "korrektur": "Am Freitag gehe ich ins Geschäft.",
+         "erkl": "Nach einer Zeitangabe oder einem Wort wie dann, vielleicht am Satzanfang kommt sofort das Verb (Position 2)."
+        },
+        {
+         "woerter": [
+          "Dann",
+          "die",
+          "Pakete",
+          "kommen",
+          "nach",
+          "Hause."
+         ],
+         "fehler": 3,
+         "korrektur": "Dann kommen die Pakete nach Hause.",
+         "erkl": "Nach einer Zeitangabe oder einem Wort wie dann, vielleicht am Satzanfang kommt sofort das Verb (Position 2)."
+        }
+       ]
+      },
+      {
+       "typ": "auswahl",
+       "titel": "Wo oder wohin?",
+       "anweisung": "Wähle das richtige Fragewort.",
+       "items": [
+        {
+         "text": "___ kaufst du ein? – Im Geschäft.",
+         "optionen": [
+          "Wo",
+          "Wohin"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "___ kommt das Paket? – Nach Hause.",
+         "optionen": [
+          "Wo",
+          "Wohin"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "___ gehst du am Freitag? – Ins Einkaufszentrum.",
+         "optionen": [
+          "Wohin",
+          "Wo"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "___ bestellst du? – Im Internet.",
+         "optionen": [
+          "Wohin",
+          "Wo"
+         ],
+         "richtig": 1
+        }
+       ],
+       "regel": "Wo? → ein Ort (in Bologna, im Geschäft). Wohin? → eine Richtung (nach Italien, ins Tor, nach Hause)."
+      },
+      {
+       "typ": "zuordnen",
+       "titel": "Gegenteile",
+       "anweisung": "Finde die Paare.",
+       "paare": [
+        [
+         "billig",
+         "teuer"
+        ],
+        [
+         "viel",
+         "wenig"
+        ],
+        [
+         "kaufen",
+         "verkaufen"
+        ],
+        [
+         "morgen",
+         "gestern"
+        ]
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
    "datum": "2026-11-25",
    "nachrichten": [
     {

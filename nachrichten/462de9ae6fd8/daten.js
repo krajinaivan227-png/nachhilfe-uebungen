@@ -4,6 +4,961 @@ window.NACHRICHTEN = {
  "spiel": false,
  "tage": [
   {
+   "datum": "2026-11-26",
+   "nachrichten": [
+    {
+     "kategorie": "Politik",
+     "titel": "EU-Gipfel: Streit um viel Geld",
+     "text": "Heute treffen sich die Chefinnen und Chefs der EU-Länder in Brüssel. Sie sprechen über viel Geld: den Haushalt der EU für die Jahre 2028 bis 2034. Der Haushalt ist ein Plan. Er zeigt, wie viel Geld die EU ausgeben kann.\n\nRatspräsident António Costa schlägt etwa 1,78 Billionen Euro vor. Das ist weniger als der Plan der EU-Kommission. Deutschland möchte noch mehr sparen. Italien möchte kein Geld bei den Bauern sparen. Alle Länder müssen Ja sagen. Eine Lösung gibt es vielleicht erst im Dezember.",
+     "vokabeln": [
+      {
+       "de": "sich treffen",
+       "im_text": "treffen",
+       "erkl": "zusammenkommen und miteinander sprechen"
+      },
+      {
+       "de": "der Haushalt",
+       "im_text": "Haushalt",
+       "erkl": "ein Plan für Geld: Wie viel bekommt man, wie viel gibt man aus?"
+      },
+      {
+       "de": "ausgeben",
+       "im_text": "ausgeben",
+       "erkl": "Geld bezahlen, Geld verwenden"
+      },
+      {
+       "de": "vorschlagen",
+       "im_text": "schlägt",
+       "erkl": "eine Idee sagen; die anderen sollen sie prüfen"
+      },
+      {
+       "de": "sparen",
+       "im_text": "sparen",
+       "erkl": "weniger Geld ausgeben"
+      },
+      {
+       "de": "der Bauer",
+       "im_text": "Bauern",
+       "erkl": "eine Person; sie arbeitet auf dem Feld und mit Tieren"
+      },
+      {
+       "de": "die Lösung",
+       "im_text": "Lösung",
+       "erkl": "eine Antwort auf ein Problem"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wo treffen sich die Chefs der EU-Länder?",
+       "optionen": [
+        "in Wien",
+        "in Brüssel",
+        "in Rom"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Der Haushalt ist für die Jahre 2028 bis 2034.",
+       "richtig": true
+      },
+      {
+       "typ": "rf",
+       "aussage": "Deutschland möchte mehr Geld ausgeben.",
+       "richtig": false,
+       "erkl": "Deutschland möchte noch mehr sparen."
+      },
+      {
+       "typ": "offen",
+       "frage": "Warum gibt es heute vielleicht noch keine Lösung?",
+       "loesung": "Weil alle Länder Ja sagen müssen und sie noch nicht einig sind."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wer schlägt 1,78 Billionen Euro vor?",
+         "António Costa"
+        ],
+        [
+         "Wo möchte Italien nicht sparen?",
+         "bei den Bauern"
+        ],
+        [
+         "Wann gibt es vielleicht eine Lösung?",
+         "im Dezember"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Wofür sollte die EU mehr Geld ausgeben?",
+      "Ist es gut, dass alle Länder Ja sagen müssen? Warum (nicht)?"
+     ],
+     "uebungen": [
+      {
+       "typ": "auswahl",
+       "titel": "Genitiv",
+       "anweisung": "Wähle den richtigen Artikel.",
+       "items": [
+        {
+         "text": "die Chefs ___ Länder",
+         "optionen": [
+          "der",
+          "die"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "der Plan ___ Kommission",
+         "optionen": [
+          "die",
+          "der"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "der Haushalt ___ EU",
+         "optionen": [
+          "der",
+          "die"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "der Vorschlag ___ Ratspräsidenten",
+         "optionen": [
+          "dem",
+          "des"
+         ],
+         "richtig": 1
+        }
+       ],
+       "regel": "Genitiv: der → der (die EU → der EU), das/der → des … -s (das Teleskop → des Teleskops)."
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Komparativ",
+       "anweisung": "Ergänze die richtige Form.",
+       "items": [
+        {
+         "text": "viel → Deutschland möchte ___ sparen.",
+         "loesung": [
+          "mehr"
+         ]
+        },
+        {
+         "text": "klein → Costas Plan ist ___ als der Plan der Kommission.",
+         "loesung": [
+          "kleiner"
+         ]
+        },
+        {
+         "text": "groß → Der EU-Haushalt ist viel ___ als der Haushalt von Belgien.",
+         "loesung": [
+          "größer"
+         ]
+        }
+       ],
+       "regel": "Komparativ: Adjektiv + -er (billig → billiger). Unregelmäßig: viel → mehr, gut → besser, hoch → höher."
+      },
+      {
+       "typ": "zuordnen",
+       "titel": "Gegenteile",
+       "anweisung": "Finde die Paare.",
+       "paare": [
+        [
+         "sparen",
+         "ausgeben"
+        ],
+        [
+         "mehr",
+         "weniger"
+        ],
+        [
+         "Ja",
+         "Nein"
+        ],
+        [
+         "früh",
+         "spät"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Sport",
+     "titel": "Davis Cup: Österreich gegen Spanien",
+     "text": "Heute spielt Österreich im Davis Cup gegen Spanien. Das Turnier ist eine Art Weltmeisterschaft im Tennis für Länder-Teams. Die besten acht Teams spielen diese Woche in Bologna in Italien. Österreich und Spanien haben seit 2012 nicht mehr gegeneinander gespielt.\n\nSpanien hat Carlos Alcaraz, einen der besten Spieler der Welt. Aber er hat Probleme mit dem Oberschenkel. Vielleicht spielt er nur im Doppel, schreiben Zeitungen. Österreichs Teamchef Jürgen Melzer glaubt trotzdem an eine Chance. Auch Deutschland spielt heute, gegen Großbritannien.",
+     "vokabeln": [
+      {
+       "de": "das Turnier",
+       "im_text": "Turnier",
+       "erkl": "ein Wettkampf mit vielen Spielen"
+      },
+      {
+       "de": "die Weltmeisterschaft",
+       "im_text": "Weltmeisterschaft",
+       "erkl": "ein Wettkampf; am Ende hat man das beste Team der Welt"
+      },
+      {
+       "de": "gegeneinander",
+       "im_text": "gegeneinander",
+       "erkl": "der eine gegen den anderen"
+      },
+      {
+       "de": "der Oberschenkel",
+       "im_text": "Oberschenkel",
+       "erkl": "der obere Teil vom Bein, über dem Knie"
+      },
+      {
+       "de": "das Doppel",
+       "im_text": "Doppel",
+       "erkl": "Tennis mit zwei Spielern in jedem Team"
+      },
+      {
+       "de": "der Teamchef",
+       "im_text": "Teamchef",
+       "erkl": "der Chef von einem Team; er plant und hilft den Spielern"
+      },
+      {
+       "de": "trotzdem",
+       "im_text": "trotzdem",
+       "erkl": "obwohl es ein Problem gibt"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wo spielen die Teams?",
+       "optionen": [
+        "in Wien",
+        "in Madrid",
+        "in Bologna"
+       ],
+       "richtig": 2
+      },
+      {
+       "typ": "rf",
+       "aussage": "Österreich und Spanien haben letztes Jahr gegeneinander gespielt.",
+       "richtig": false,
+       "erkl": "Sie haben seit 2012 nicht mehr gegeneinander gespielt."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Alcaraz hat Probleme mit dem Oberschenkel.",
+       "richtig": true
+      },
+      {
+       "typ": "offen",
+       "frage": "Warum spielt Alcaraz vielleicht nur im Doppel?",
+       "loesung": "Weil er Probleme mit dem Oberschenkel hat."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wie viele Teams spielen in Bologna?",
+         "acht"
+        ],
+        [
+         "Wer ist Österreichs Teamchef?",
+         "Jürgen Melzer"
+        ],
+        [
+         "Gegen wen spielt Deutschland?",
+         "gegen Großbritannien"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Welche Sportarten sind in deinem Land beliebt?",
+      "Siehst du lieber Einzelsport oder Teamsport? Warum?"
+     ],
+     "uebungen": [
+      {
+       "typ": "auswahl",
+       "titel": "gefallen",
+       "anweisung": "Wähle das richtige Wort.",
+       "items": [
+        {
+         "text": "Tennis ___ mir sehr.",
+         "optionen": [
+          "gefällt",
+          "gefallen"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Die Spiele ___ den Fans.",
+         "optionen": [
+          "gefällt",
+          "gefallen"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Gefällt ___ das Turnier?",
+         "optionen": [
+          "dir",
+          "du"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Das Doppel gefällt ___ Bruder.",
+         "optionen": [
+          "mein",
+          "meinem"
+         ],
+         "richtig": 1
+        }
+       ],
+       "regel": "Wiederholung (24.11.): gefallen + Dativ: Das gefällt mir / dir / meinem Bruder. Plural: Die Spiele gefallen mir."
+      },
+      {
+       "typ": "auswahl",
+       "titel": "Komparativ",
+       "anweisung": "Wähle die richtige Form.",
+       "items": [
+        {
+         "text": "Alcaraz ist ___ als viele andere Spieler.",
+         "optionen": [
+          "besser",
+          "gut"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Spanien ist ___ als Österreich, sagen viele.",
+         "optionen": [
+          "stark",
+          "stärker"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Das Turnier dauert ___ als ein Wochenende.",
+         "optionen": [
+          "länger",
+          "lang"
+         ],
+         "richtig": 0
+        }
+       ],
+       "regel": "Komparativ: Adjektiv + -er (billig → billiger). Unregelmäßig: viel → mehr, gut → besser, hoch → höher."
+      },
+      {
+       "typ": "zuordnen",
+       "titel": "Gegenteile",
+       "anweisung": "Finde die Paare.",
+       "paare": [
+        [
+         "gewinnen",
+         "verlieren"
+        ],
+        [
+         "stark",
+         "schwach"
+        ],
+        [
+         "gesund",
+         "krank"
+        ],
+        [
+         "vorher",
+         "nachher"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Gesundheit",
+     "titel": "Belgien: Zu wenige Kinder gegen Masern geimpft",
+     "text": "Ein neuer Bericht der OECD zeigt: In Belgien sind zu wenige Kinder gegen Masern geimpft. 2025 haben nur 73 Prozent der Kinder zwei Impfungen bekommen. In der EU sind es im Durchschnitt 87 Prozent. Nur Rumänien hat noch weniger: 68 Prozent.\n\nDie Weltgesundheitsorganisation WHO empfiehlt 95 Prozent. Dann sind alle besser geschützt. Masern sind sehr ansteckend. In Belgien ist die Zahl in sechs Jahren um neun Prozentpunkte gesunken. In Wallonien und Brüssel ist die Quote besonders niedrig.",
+     "vokabeln": [
+      {
+       "de": "der Bericht",
+       "im_text": "Bericht",
+       "erkl": "ein Text mit Informationen und Zahlen"
+      },
+      {
+       "de": "die Masern",
+       "im_text": "Masern",
+       "erkl": "eine Krankheit; man hat Fieber und rote Punkte auf der Haut"
+      },
+      {
+       "de": "impfen",
+       "im_text": "geimpft",
+       "erkl": "eine Spritze geben; dann wird man nicht oder weniger krank"
+      },
+      {
+       "de": "empfehlen",
+       "im_text": "empfiehlt",
+       "erkl": "sagen: Das ist gut, mach das."
+      },
+      {
+       "de": "geschützt",
+       "im_text": "geschützt",
+       "erkl": "sicher; die Krankheit kommt nicht so leicht"
+      },
+      {
+       "de": "ansteckend",
+       "im_text": "ansteckend",
+       "erkl": "die Krankheit geht leicht von einer Person zur anderen"
+      },
+      {
+       "de": "sinken",
+       "im_text": "gesunken",
+       "erkl": "kleiner werden, weniger werden"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wie viele Kinder in Belgien haben zwei Impfungen bekommen?",
+       "optionen": [
+        "68 Prozent",
+        "73 Prozent",
+        "87 Prozent"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "In der EU sind es im Durchschnitt 87 Prozent.",
+       "richtig": true
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die WHO empfiehlt 75 Prozent.",
+       "richtig": false,
+       "erkl": "Die WHO empfiehlt 95 Prozent."
+      },
+      {
+       "typ": "offen",
+       "frage": "Wo ist die Quote besonders niedrig?",
+       "loesung": "In Wallonien und Brüssel."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Welches Land hat noch weniger?",
+         "Rumänien"
+        ],
+        [
+         "Wer hat den Bericht gemacht?",
+         "die OECD"
+        ],
+        [
+         "Wie sind Masern?",
+         "sehr ansteckend"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Sollen Impfungen für Kinder Pflicht sein? Warum (nicht)?",
+      "Warum lassen manche Eltern ihre Kinder wohl nicht impfen?"
+     ],
+     "uebungen": [
+      {
+       "typ": "eingabe",
+       "titel": "Komparativ",
+       "anweisung": "Ergänze die richtige Form.",
+       "items": [
+        {
+         "text": "wenig → Rumänien hat ___ Impfungen als Belgien.",
+         "loesung": [
+          "weniger"
+         ]
+        },
+        {
+         "text": "hoch → Die Quote in der EU ist ___ als in Belgien.",
+         "loesung": [
+          "höher"
+         ]
+        },
+        {
+         "text": "gut → Mit Impfung ist man ___ geschützt.",
+         "loesung": [
+          "besser"
+         ]
+        },
+        {
+         "text": "niedrig → In Wallonien ist die Quote ___ als in Flandern.",
+         "loesung": [
+          "niedriger"
+         ]
+        }
+       ],
+       "regel": "Komparativ: Adjektiv + -er (billig → billiger). Unregelmäßig: viel → mehr, gut → besser, hoch → höher."
+      },
+      {
+       "typ": "auswahl",
+       "titel": "mit + Dativ",
+       "anweisung": "Wähle das richtige Wort.",
+       "items": [
+        {
+         "text": "Die Ärztin spricht mit ___ Eltern.",
+         "optionen": [
+          "den",
+          "die"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Theo fährt mit ___ Kindern zum Arzt.",
+         "optionen": [
+          "seine",
+          "seinen"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Die Impfung kommt mit ___ Spritze.",
+         "optionen": [
+          "einer",
+          "eine"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Ich telefoniere mit ___ Arzt.",
+         "optionen": [
+          "der",
+          "dem"
+         ],
+         "richtig": 1
+        }
+       ],
+       "regel": "Wiederholung (24.11.): mit + Dativ: mit dem Arzt, mit der Spritze, mit dem Teleskop, mit den Eltern (Plural: -n)."
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Verb → Nomen",
+       "anweisung": "Bilde das Nomen.",
+       "items": [
+        {
+         "text": "impfen → die ___",
+         "loesung": [
+          "Impfung"
+         ]
+        },
+        {
+         "text": "empfehlen → die ___",
+         "loesung": [
+          "Empfehlung"
+         ]
+        },
+        {
+         "text": "schützen → der ___",
+         "loesung": [
+          "Schutz"
+         ]
+        },
+        {
+         "text": "berichten → der ___",
+         "loesung": [
+          "Bericht"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Wissenschaft",
+     "titel": "Euclid entdeckt einen neuen Kometen",
+     "text": "Das Weltraumteleskop Euclid von der europäischen Raumfahrtagentur ESA soll eigentlich ferne Galaxien fotografieren. Jetzt hat es zum ersten Mal einen unbekannten Kometen entdeckt.\n\nEin Doktorand an der Universität Helsinki hat auf Fotos vom September eine kleine Spur gesehen. Er hat eine spezielle Software benutzt. Im Oktober haben Experten bestätigt: Das ist ein neuer Komet. Er heißt jetzt „C/2026 S1 (Euclid)“ und ist ungefähr 1,3 Milliarden Kilometer von der Erde entfernt. Ein ESA-Forscher spricht von einem glücklichen Zufall.",
+     "vokabeln": [
+      {
+       "de": "das Weltraumteleskop",
+       "im_text": "Weltraumteleskop",
+       "erkl": "ein Teleskop im All; es macht Fotos von Sternen"
+      },
+      {
+       "de": "entdecken",
+       "im_text": "entdeckt",
+       "erkl": "etwas Neues zum ersten Mal finden"
+      },
+      {
+       "de": "der Doktorand",
+       "im_text": "Doktorand",
+       "erkl": "eine Person; sie schreibt an der Uni eine große Forschungsarbeit"
+      },
+      {
+       "de": "die Spur",
+       "im_text": "Spur",
+       "erkl": "eine Linie; sie zeigt, wo sich etwas bewegt hat"
+      },
+      {
+       "de": "bestätigen",
+       "im_text": "bestätigt",
+       "erkl": "sagen: Ja, das ist richtig."
+      },
+      {
+       "de": "entfernt",
+       "im_text": "entfernt",
+       "erkl": "weit weg"
+      },
+      {
+       "de": "der Zufall",
+       "im_text": "Zufall",
+       "erkl": "etwas passiert, aber niemand hat es geplant"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Was soll Euclid eigentlich fotografieren?",
+       "optionen": [
+        "Kometen",
+        "ferne Galaxien",
+        "die Erde"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Der Doktorand arbeitet an der Universität Helsinki.",
+       "richtig": true
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die Fotos sind vom Oktober.",
+       "richtig": false,
+       "erkl": "Die Fotos sind vom September. Im Oktober haben Experten den Kometen bestätigt."
+      },
+      {
+       "typ": "offen",
+       "frage": "Warum spricht ein Forscher von einem glücklichen Zufall?",
+       "loesung": "Weil Euclid eigentlich Galaxien fotografieren soll und keine Kometen sucht."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Von wann sind die Fotos?",
+         "vom September"
+        ],
+        [
+         "Was hat der Doktorand benutzt?",
+         "eine spezielle Software"
+        ],
+        [
+         "Wie weit ist der Komet entfernt?",
+         "ungefähr 1,3 Milliarden Kilometer"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Interessierst du dich für das Weltall? Warum (nicht)?",
+      "Glaubst du, man findet in Zukunft noch viele neue Kometen?"
+     ],
+     "uebungen": [
+      {
+       "typ": "auswahl",
+       "titel": "Genitiv",
+       "anweisung": "Wähle den richtigen Artikel.",
+       "items": [
+        {
+         "text": "das Teleskop ___ ESA",
+         "optionen": [
+          "der",
+          "die"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "die Fotos ___ Teleskops",
+         "optionen": [
+          "dem",
+          "des"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "ein Doktorand ___ Universität Helsinki",
+         "optionen": [
+          "der",
+          "die"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "der Name ___ Kometen",
+         "optionen": [
+          "dem",
+          "des"
+         ],
+         "richtig": 1
+        }
+       ],
+       "regel": "Genitiv: der → der (die EU → der EU), das/der → des … -s (das Teleskop → des Teleskops). Der Komet → des Kometen."
+      },
+      {
+       "typ": "auswahl",
+       "titel": "mit + Dativ",
+       "anweisung": "Wähle das richtige Wort.",
+       "items": [
+        {
+         "text": "Er hat mit ___ Software gearbeitet.",
+         "optionen": [
+          "einer",
+          "eine"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Man sieht Galaxien mit ___ Teleskop.",
+         "optionen": [
+          "das",
+          "dem"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Er hat mit ___ Experten gesprochen.",
+         "optionen": [
+          "den",
+          "die"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Ich fotografiere mit ___ Handy.",
+         "optionen": [
+          "mein",
+          "meinem"
+         ],
+         "richtig": 1
+        }
+       ],
+       "regel": "mit + Dativ: mit dem Arzt, mit der Spritze, mit dem Teleskop, mit den Eltern (Plural: -n)."
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Verb → Nomen",
+       "anweisung": "Bilde das Nomen.",
+       "items": [
+        {
+         "text": "entdecken → die ___",
+         "loesung": [
+          "Entdeckung"
+         ]
+        },
+        {
+         "text": "bestätigen → die ___",
+         "loesung": [
+          "Bestätigung"
+         ]
+        },
+        {
+         "text": "forschen → die ___",
+         "loesung": [
+          "Forschung"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Wirtschaft",
+     "titel": "Black Friday: Wie viel geben die Österreicher aus?",
+     "text": "Morgen ist Black Friday, am Montag folgt der Cyber Monday. An diesen Tagen gibt es viele Angebote. Der Handelsverband hat Menschen in Österreich gefragt: 58 Prozent möchten etwas kaufen. Im Durchschnitt planen sie 314 Euro ein – etwa sieben Prozent mehr als letztes Jahr.\n\nAm beliebtesten sind Mode, Elektrogeräte und Kosmetik. Mehr Menschen bestellen dieses Jahr in österreichischen Online-Shops. Bei Temu und Shein kaufen weniger Leute ein: nur noch 13 statt 21 Prozent. Laut Handelsverband sind neue Gebühren der EU ein Grund.",
+     "vokabeln": [
+      {
+       "de": "das Angebot",
+       "im_text": "Angebote",
+       "erkl": "ein besonderer Preis; die Sache kostet weniger"
+      },
+      {
+       "de": "der Handelsverband",
+       "im_text": "Handelsverband",
+       "erkl": "eine Gruppe von vielen Geschäften; sie arbeiten zusammen"
+      },
+      {
+       "de": "im Durchschnitt",
+       "im_text": "Durchschnitt",
+       "erkl": "man rechnet alle Zahlen zusammen und teilt sie"
+      },
+      {
+       "de": "beliebt",
+       "im_text": "beliebtesten",
+       "erkl": "viele Menschen mögen es"
+      },
+      {
+       "de": "bestellen",
+       "im_text": "bestellen",
+       "erkl": "sagen oder online klicken: Das möchte ich kaufen."
+      },
+      {
+       "de": "die Gebühr",
+       "im_text": "Gebühren",
+       "erkl": "Geld, das man für einen Service zahlen muss"
+      },
+      {
+       "de": "der Grund",
+       "im_text": "Grund",
+       "erkl": "die Antwort auf die Frage: Warum?"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wie viel Geld planen die Menschen im Durchschnitt ein?",
+       "optionen": [
+        "214 Euro",
+        "314 Euro",
+        "460 Euro"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Mode ist sehr beliebt.",
+       "richtig": true
+      },
+      {
+       "typ": "rf",
+       "aussage": "Bei Temu und Shein kaufen mehr Leute ein.",
+       "richtig": false,
+       "erkl": "Nur noch 13 statt 21 Prozent kaufen dort ein."
+      },
+      {
+       "typ": "offen",
+       "frage": "Warum kaufen weniger Leute bei Temu und Shein?",
+       "loesung": "Wegen neuer Gebühren der EU."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wann ist Black Friday?",
+         "morgen"
+        ],
+        [
+         "Wer hat die Menschen gefragt?",
+         "der Handelsverband"
+        ],
+        [
+         "Wie viele Menschen möchten etwas kaufen?",
+         "58 Prozent"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Kaufst du am Black Friday ein? Was?",
+      "Sind Angebote immer gute Angebote? Warum (nicht)?",
+      "Bestellst du oft im Internet?"
+     ],
+     "uebungen": [
+      {
+       "typ": "eingabe",
+       "titel": "Komparativ",
+       "anweisung": "Ergänze die richtige Form.",
+       "items": [
+        {
+         "text": "billig → Am Black Friday sind viele Sachen ___.",
+         "loesung": [
+          "billiger"
+         ]
+        },
+        {
+         "text": "viel → Die Leute planen ___ Geld ein als letztes Jahr.",
+         "loesung": [
+          "mehr"
+         ]
+        },
+        {
+         "text": "wenig → ___ Leute kaufen bei Temu.",
+         "loesung": [
+          "Weniger"
+         ]
+        },
+        {
+         "text": "beliebt → Mode ist ___ als Bücher.",
+         "loesung": [
+          "beliebter"
+         ]
+        }
+       ],
+       "regel": "Komparativ: Adjektiv + -er (billig → billiger). Unregelmäßig: viel → mehr, gut → besser, hoch → höher."
+      },
+      {
+       "typ": "auswahl",
+       "titel": "gefallen",
+       "anweisung": "Wähle das richtige Wort.",
+       "items": [
+        {
+         "text": "Die Jacke ___ mir.",
+         "optionen": [
+          "gefällt",
+          "gefallen"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Die Angebote ___ meiner Frau.",
+         "optionen": [
+          "gefällt",
+          "gefallen"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Gefällt ___ der Black Friday?",
+         "optionen": [
+          "dir",
+          "du"
+         ],
+         "richtig": 0
+        }
+       ],
+       "regel": "Wiederholung (24.11.): gefallen + Dativ: Das gefällt mir / dir / meiner Frau."
+      },
+      {
+       "typ": "zuordnen",
+       "titel": "Gegenteile",
+       "anweisung": "Finde die Paare.",
+       "paare": [
+        [
+         "mehr",
+         "weniger"
+        ],
+        [
+         "kaufen",
+         "verkaufen"
+        ],
+        [
+         "billig",
+         "teuer"
+        ],
+        [
+         "beliebt",
+         "unbeliebt"
+        ]
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
    "datum": "2026-11-25",
    "nachrichten": [
     {

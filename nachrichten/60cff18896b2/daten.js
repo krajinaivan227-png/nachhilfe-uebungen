@@ -4,6 +4,973 @@ window.NACHRICHTEN = {
  "spiel": false,
  "tage": [
   {
+   "datum": "2026-11-26",
+   "nachrichten": [
+    {
+     "kategorie": "Politik",
+     "titel": "EU-Sondergipfel: Ringen um den Haushalt",
+     "text": "Die Staats- und Regierungschefs der EU treffen sich heute in Brüssel zu einem Sondergipfel. Es geht um den langfristigen Haushalt für die Jahre 2028 bis 2034. Ratspräsident António Costa hat einen neuen Kompromiss vorgelegt: rund 1,78 Billionen Euro. Das sind etwa 204 Milliarden weniger, als die EU-Kommission geplant hatte. Neues Geld soll unter anderem aus einer Digitalsteuer kommen.\n\nTrotzdem sind viele Länder unzufrieden. Für Bundeskanzler Friedrich Merz ist der Vorschlag keine Grundlage für eine Einigung; Deutschland will noch stärker kürzen. Italiens Regierungschefin Giorgia Meloni warnt dagegen vor Kürzungen bei der Landwirtschaft und bei Geld für ärmere Regionen. Außerdem soll über neue Hilfen für die Ukraine gesprochen werden. Weil alle Länder zustimmen müssen, rechnen Beobachter frühestens beim Gipfel im Dezember mit einer Lösung.",
+     "vokabeln": [
+      {
+       "de": "der Sondergipfel",
+       "im_text": "Sondergipfel",
+       "erkl": "ein zusätzliches Treffen der Regierungschefs außerhalb des normalen Plans"
+      },
+      {
+       "de": "langfristig",
+       "im_text": "langfristigen",
+       "erkl": "für eine lange Zeit"
+      },
+      {
+       "de": "der Kompromiss",
+       "im_text": "Kompromiss",
+       "erkl": "eine Lösung, bei der jede Seite etwas nachgibt"
+      },
+      {
+       "de": "vorlegen",
+       "im_text": "vorgelegt",
+       "erkl": "einen Plan offiziell zeigen"
+      },
+      {
+       "de": "die Grundlage",
+       "im_text": "Grundlage",
+       "erkl": "die Basis, auf der man weiterarbeiten kann"
+      },
+      {
+       "de": "kürzen",
+       "im_text": "kürzen",
+       "erkl": "weniger Geld geben als vorher"
+      },
+      {
+       "de": "die Landwirtschaft",
+       "im_text": "Landwirtschaft",
+       "erkl": "die Arbeit der Bauern: Felder, Tiere, Lebensmittel"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wie viel Geld schlägt Costa vor?",
+       "optionen": [
+        "rund 1,78 Billionen Euro",
+        "204 Milliarden Euro",
+        "2 Billionen Euro"
+       ],
+       "richtig": 0
+      },
+      {
+       "typ": "rf",
+       "aussage": "Costas Plan ist größer als der Plan der Kommission.",
+       "richtig": false,
+       "erkl": "Er ist etwa 204 Milliarden Euro kleiner."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Meloni ist gegen Kürzungen in der Landwirtschaft.",
+       "richtig": true
+      },
+      {
+       "typ": "offen",
+       "frage": "Woher soll neues Geld kommen?",
+       "loesung": "Unter anderem aus einer Digitalsteuer."
+      },
+      {
+       "typ": "offen",
+       "frage": "Warum gibt es wahrscheinlich heute noch keine Lösung?",
+       "loesung": "Weil alle Länder zustimmen müssen und viele unzufrieden sind."
+      }
+     ],
+     "diskussion": [
+      "Sollte die EU mehr oder weniger Geld ausgeben? Wofür?",
+      "Ist es sinnvoll, dass alle Länder zustimmen müssen?",
+      "Wie wichtig ist das Geld der EU für dein Land?"
+     ],
+     "uebungen": [
+      {
+       "typ": "eingabe",
+       "titel": "Futur mit werden",
+       "anweisung": "Ergänze die richtige Form von werden.",
+       "items": [
+        {
+         "text": "Die Länder ___ im Dezember weiter verhandeln.",
+         "loesung": [
+          "werden"
+         ]
+        },
+        {
+         "text": "Im Dezember ___ es vielleicht eine Lösung geben.",
+         "loesung": [
+          "wird"
+         ]
+        },
+        {
+         "text": "___ du die Nachrichten zum Gipfel verfolgen?",
+         "loesung": [
+          "Wirst"
+         ]
+        },
+        {
+         "text": "Ich ___ später mehr darüber lesen.",
+         "loesung": [
+          "werde"
+         ]
+        }
+       ],
+       "regel": "Futur I: werden + Infinitiv am Satzende: Er wird werben. (ich werde, du wirst, er wird, wir werden, ihr werdet, sie werden)"
+      },
+      {
+       "typ": "fehler",
+       "titel": "wenn-Sätze",
+       "anweisung": "Ein Wort steht an der falschen Stelle.",
+       "items": [
+        {
+         "woerter": [
+          "Wenn",
+          "alle",
+          "Länder",
+          "zustimmen,",
+          "es",
+          "gibt",
+          "einen",
+          "neuen",
+          "Haushalt."
+         ],
+         "fehler": 5,
+         "korrektur": "Wenn alle Länder zustimmen, gibt es einen neuen Haushalt.",
+         "erkl": "Nach einem wenn-Satz am Anfang steht im Hauptsatz sofort das Verb: Wenn …, gibt es …"
+        },
+        {
+         "woerter": [
+          "Wenn",
+          "Deutschland",
+          "Nein",
+          "sagt,",
+          "die",
+          "Einigung",
+          "scheitert."
+         ],
+         "fehler": 6,
+         "korrektur": "Wenn Deutschland Nein sagt, scheitert die Einigung.",
+         "erkl": "Nach einem wenn-Satz am Anfang steht im Hauptsatz sofort das Verb: Wenn …, gibt es …"
+        }
+       ]
+      },
+      {
+       "typ": "zuordnen",
+       "titel": "Gegenteile",
+       "anweisung": "Finde die Paare.",
+       "paare": [
+        [
+         "kürzen",
+         "erhöhen"
+        ],
+        [
+         "zufrieden",
+         "unzufrieden"
+        ],
+        [
+         "zustimmen",
+         "ablehnen"
+        ],
+        [
+         "langfristig",
+         "kurzfristig"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Sport",
+     "titel": "Davis Cup: Österreich trifft auf Spanien – und Alcaraz?",
+     "text": "Im Viertelfinale des Davis Cups trifft Österreich heute in Bologna auf Spanien. Beim Finalturnier der besten acht Nationen, das noch bis Sonntag läuft, ist es das letzte Viertelfinale. Die beiden Länder haben zuletzt 2012 gegeneinander gespielt.\n\nGroßes Thema ist Carlos Alcaraz: Der Spanier ist mit einer Verletzung am linken Oberschenkel nach Italien gereist und hat erst am Mittwoch wieder trainiert. Medien berichten, dass er vielleicht nur im Doppel antritt. Spaniens Teamchef David Ferrer hat seine Aufstellung zunächst nicht bekannt gegeben. Österreichs Kapitän Jürgen Melzer sieht trotzdem eine Chance, auch wenn Alcaraz spielt. Gespielt werden zwei Einzel und ein Doppel. Auch Deutschland mit Alexander Zverev ist heute im Einsatz – gegen Großbritannien.",
+     "vokabeln": [
+      {
+       "de": "das Viertelfinale",
+       "im_text": "Viertelfinale",
+       "erkl": "die Runde vor dem Halbfinale; acht Teams sind noch dabei"
+      },
+      {
+       "de": "treffen auf",
+       "im_text": "trifft",
+       "erkl": "gegen jemanden spielen"
+      },
+      {
+       "de": "die Verletzung",
+       "im_text": "Verletzung",
+       "erkl": "ein Schaden am Körper, zum Beispiel nach einem Sturz"
+      },
+      {
+       "de": "antreten",
+       "im_text": "antritt",
+       "erkl": "bei einem Wettkampf mitmachen, spielen"
+      },
+      {
+       "de": "die Aufstellung",
+       "im_text": "Aufstellung",
+       "erkl": "die Liste: Wer spielt?"
+      },
+      {
+       "de": "bekannt geben",
+       "im_text": "bekannt gegeben",
+       "erkl": "offiziell sagen"
+      },
+      {
+       "de": "im Einsatz sein",
+       "im_text": "Einsatz",
+       "erkl": "aktiv dabei sein, spielen"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Bis wann läuft das Finalturnier?",
+       "optionen": [
+        "bis Freitag",
+        "bis Sonntag",
+        "bis Dezember"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Österreich und Spanien haben 2012 zuletzt gegeneinander gespielt.",
+       "richtig": true
+      },
+      {
+       "typ": "rf",
+       "aussage": "Ferrer hat seine Aufstellung sofort bekannt gegeben.",
+       "richtig": false,
+       "erkl": "Er hat sie zunächst nicht bekannt gegeben."
+      },
+      {
+       "typ": "offen",
+       "frage": "Warum ist Alcaraz ein großes Thema?",
+       "loesung": "Weil er eine Verletzung am linken Oberschenkel hat und vielleicht nur im Doppel spielt."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wo wird gespielt?",
+         "in Bologna"
+        ],
+        [
+         "Wer ist Österreichs Kapitän?",
+         "Jürgen Melzer"
+        ],
+        [
+         "Gegen wen spielt Deutschland?",
+         "gegen Großbritannien"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Sollten verletzte Spieler trotzdem spielen, wenn es um viel geht?",
+      "Was ist schwerer: Einzel oder Doppel? Warum?"
+     ],
+     "uebungen": [
+      {
+       "typ": "eingabe",
+       "titel": "Partizip II",
+       "anweisung": "Ergänze das Partizip.",
+       "items": [
+        {
+         "text": "reisen → Alcaraz ist nach Italien ___.",
+         "loesung": [
+          "gereist"
+         ]
+        },
+        {
+         "text": "trainieren → Er hat am Mittwoch ___.",
+         "loesung": [
+          "trainiert"
+         ]
+        },
+        {
+         "text": "geben → Ferrer hat die Aufstellung nicht bekannt ___.",
+         "loesung": [
+          "gegeben"
+         ]
+        },
+        {
+         "text": "spielen → Sie haben 2012 gegeneinander ___.",
+         "loesung": [
+          "gespielt"
+         ]
+        }
+       ],
+       "regel": "Verben auf -ieren: ohne ge- (trainiert). Unregelmäßig: geben → gegeben."
+      },
+      {
+       "typ": "auswahl",
+       "titel": "wenn oder werden?",
+       "anweisung": "Wähle das richtige Wort.",
+       "items": [
+        {
+         "text": "___ Alcaraz spielt, ist es schwer für Österreich.",
+         "optionen": [
+          "Wenn",
+          "Wird"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Österreich ___ heute gegen Spanien spielen.",
+         "optionen": [
+          "wenn",
+          "wird"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "___ Österreich gewinnt, steht es im Halbfinale.",
+         "optionen": [
+          "Wenn",
+          "Wird"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Melzer ___ sein Team gut vorbereiten.",
+         "optionen": [
+          "wenn",
+          "wird"
+         ],
+         "richtig": 1
+        }
+       ],
+       "regel": "Nach einem wenn-Satz am Anfang steht im Hauptsatz sofort das Verb: Wenn …, gibt es … Futur I: werden + Infinitiv am Satzende: Er wird werben. (ich werde, du wirst, er wird, wir werden, ihr werdet, sie werden)"
+      },
+      {
+       "typ": "zuordnen",
+       "titel": "Gegenteile",
+       "anweisung": "Finde die Paare.",
+       "paare": [
+        [
+         "gewinnen",
+         "verlieren"
+        ],
+        [
+         "verletzt",
+         "gesund"
+        ],
+        [
+         "Einzel",
+         "Doppel"
+        ],
+        [
+         "zuletzt",
+         "zuerst"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Kultur",
+     "titel": "Paris: Die Weltausstellung von 1867 in Fotos",
+     "text": "In Paris hat am Mittwoch eine neue Ausstellung der Archives nationales eröffnet. Sie heißt „Traverser le monde“ und zeigt Fotos der Weltausstellung von 1867. Damals kamen Länder aus der ganzen Welt nach Paris, um ihre Erfindungen, ihre Kunst und ihre Industrie zu präsentieren.\n\nDie Ausstellung ist in vier Kapitel gegliedert. Jedes Kapitel stellt eine Person in den Mittelpunkt – zum Beispiel den Fotografen Pierre Petit, der damals als Einziger auf dem Gelände fotografieren durfte. Besonders spannend: Alte 3D-Bilder aus dem Archiv wurden digitalisiert und mit maschinellem Lernen bearbeitet. So kann man die Weltausstellung heute virtuell erkunden. Der Eintritt ist frei, die Schau läuft bis zum 22. Februar 2027. Sie gehört zum Jubiläum „200 Jahre Fotografie“.",
+     "vokabeln": [
+      {
+       "de": "eröffnen",
+       "im_text": "eröffnet",
+       "erkl": "zum ersten Mal für Besucher öffnen"
+      },
+      {
+       "de": "die Weltausstellung",
+       "im_text": "Weltausstellung",
+       "erkl": "eine große internationale Messe; Länder zeigen ihre Erfindungen"
+      },
+      {
+       "de": "die Erfindung",
+       "im_text": "Erfindungen",
+       "erkl": "etwas Neues, das jemand entwickelt hat"
+      },
+      {
+       "de": "gliedern",
+       "im_text": "gegliedert",
+       "erkl": "in Teile ordnen"
+      },
+      {
+       "de": "das Gelände",
+       "im_text": "Gelände",
+       "erkl": "ein großes Stück Land, zum Beispiel für eine Messe"
+      },
+      {
+       "de": "erkunden",
+       "im_text": "erkunden",
+       "erkl": "etwas Neues anschauen und kennenlernen"
+      },
+      {
+       "de": "das Jubiläum",
+       "im_text": "Jubiläum",
+       "erkl": "ein besonderer Jahrestag, zum Beispiel 100 Jahre"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wie lange läuft die Ausstellung?",
+       "optionen": [
+        "bis Weihnachten",
+        "bis 22. Februar 2027",
+        "bis Ende 2027"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Der Eintritt kostet 15 Euro.",
+       "richtig": false,
+       "erkl": "Der Eintritt ist frei."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Pierre Petit durfte als Einziger auf dem Gelände fotografieren.",
+       "richtig": true
+      },
+      {
+       "typ": "offen",
+       "frage": "Was haben die Länder 1867 in Paris gezeigt?",
+       "loesung": "Ihre Erfindungen, ihre Kunst und ihre Industrie."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "In wie viele Kapitel ist die Ausstellung gegliedert?",
+         "in vier"
+        ],
+        [
+         "Womit wurden die 3D-Bilder bearbeitet?",
+         "mit maschinellem Lernen"
+        ],
+        [
+         "Wozu gehört die Ausstellung?",
+         "zum Jubiläum „200 Jahre Fotografie“"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Welche Erfindung würdest du heute auf einer Weltausstellung zeigen?",
+      "Gehst du gern in Ausstellungen? Welche hat dir zuletzt gefallen?"
+     ],
+     "uebungen": [
+      {
+       "typ": "auswahl",
+       "titel": "Reflexive Verben",
+       "anweisung": "Wähle das richtige Pronomen.",
+       "items": [
+        {
+         "text": "Kannst du ___ vorstellen, wie Paris 1867 aussah?",
+         "optionen": [
+          "dir",
+          "dich"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Ich stelle ___ die Weltausstellung riesig vor.",
+         "optionen": [
+          "mich",
+          "mir"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Wir interessieren ___ für alte Fotos.",
+         "optionen": [
+          "uns",
+          "euch"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Die Besucher freuen ___ über den freien Eintritt.",
+         "optionen": [
+          "ihnen",
+          "sich"
+         ],
+         "richtig": 1
+        }
+       ],
+       "regel": "Wiederholung: sich etwas vorstellen → Dativ (Ich stelle mir etwas vor). sich interessieren, sich freuen → Akkusativ (mich, dich, sich, uns)."
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Partizip II",
+       "anweisung": "Ergänze das Partizip.",
+       "items": [
+        {
+         "text": "eröffnen → Die Ausstellung hat am Mittwoch ___.",
+         "loesung": [
+          "eröffnet"
+         ]
+        },
+        {
+         "text": "digitalisieren → Die Bilder wurden ___.",
+         "loesung": [
+          "digitalisiert"
+         ]
+        },
+        {
+         "text": "bearbeiten → Sie wurden mit maschinellem Lernen ___.",
+         "loesung": [
+          "bearbeitet"
+         ]
+        },
+        {
+         "text": "kommen → 1867 sind viele Länder nach Paris ___.",
+         "loesung": [
+          "gekommen"
+         ]
+        }
+       ],
+       "regel": "Verben mit untrennbarem Präfix (er-, be-) und auf -ieren: ohne ge-."
+      },
+      {
+       "typ": "zuordnen",
+       "titel": "Nomen und Verb",
+       "anweisung": "Finde die Paare.",
+       "paare": [
+        [
+         "die Ausstellung",
+         "ausstellen"
+        ],
+        [
+         "die Erfindung",
+         "erfinden"
+        ],
+        [
+         "die Eröffnung",
+         "eröffnen"
+        ],
+        [
+         "die Bearbeitung",
+         "bearbeiten"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Politik",
+     "titel": "Frankreich: Nachtragshaushalt beschlossen, Budget 2027 offen",
+     "text": "In Frankreich hat das Parlament am Dienstagabend einen Nachtragshaushalt für 2026 beschlossen. Mit diesem Gesetz passt die Regierung die Ausgaben und Einnahmen am Ende des Jahres an. In der Nationalversammlung stimmten 135 Abgeordnete dafür und 64 dagegen; 89 Abgeordnete der Opposition enthielten sich. Auch der Senat hat zugestimmt.\n\nFür Premierminister Sébastien Lecornu ist das eine kleine Erleichterung. Seine Minderheitsregierung hat keine eigene Mehrheit und muss für jedes Gesetz Partner suchen. Die größere Aufgabe kommt aber noch: Der Haushalt für 2027 ist noch nicht beschlossen. Lecornu wirbt um einen Kompromiss mit den Parteien. Frankreich braucht den neuen Haushalt eigentlich noch vor dem Jahresende.",
+     "vokabeln": [
+      {
+       "de": "der Nachtragshaushalt",
+       "im_text": "Nachtragshaushalt",
+       "erkl": "ein zusätzlicher Haushalt, der den alten Plan ändert"
+      },
+      {
+       "de": "anpassen",
+       "im_text": "passt",
+       "erkl": "etwas ändern, damit es besser passt"
+      },
+      {
+       "de": "der/die Abgeordnete",
+       "im_text": "Abgeordnete",
+       "erkl": "ein Mitglied im Parlament"
+      },
+      {
+       "de": "sich enthalten",
+       "im_text": "enthielten",
+       "erkl": "bei einer Abstimmung weder Ja noch Nein sagen"
+      },
+      {
+       "de": "die Erleichterung",
+       "im_text": "Erleichterung",
+       "erkl": "ein gutes Gefühl, wenn ein Problem kleiner wird"
+      },
+      {
+       "de": "die Minderheitsregierung",
+       "im_text": "Minderheitsregierung",
+       "erkl": "eine Regierung ohne eigene Mehrheit im Parlament"
+      },
+      {
+       "de": "werben um",
+       "im_text": "wirbt",
+       "erkl": "versuchen, Unterstützung zu bekommen"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wie viele Abgeordnete haben in der Nationalversammlung dafür gestimmt?",
+       "optionen": [
+        "64",
+        "89",
+        "135"
+       ],
+       "richtig": 2
+      },
+      {
+       "typ": "rf",
+       "aussage": "Der Haushalt für 2027 ist schon beschlossen.",
+       "richtig": false,
+       "erkl": "Er ist noch nicht beschlossen."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die Regierung von Lecornu hat keine eigene Mehrheit.",
+       "richtig": true
+      },
+      {
+       "typ": "offen",
+       "frage": "Was passt die Regierung mit einem Nachtragshaushalt an?",
+       "loesung": "Die Ausgaben und Einnahmen am Ende des Jahres."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wer ist Premierminister?",
+         "Sébastien Lecornu"
+        ],
+        [
+         "Wann wurde der Nachtragshaushalt beschlossen?",
+         "am Dienstagabend"
+        ],
+        [
+         "Bis wann braucht Frankreich den neuen Haushalt?",
+         "vor dem Jahresende"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Was sind Vor- und Nachteile einer Minderheitsregierung?",
+      "Wie wird in deinem Land über den Haushalt entschieden?"
+     ],
+     "uebungen": [
+      {
+       "typ": "eingabe",
+       "titel": "Futur mit werden",
+       "anweisung": "Ergänze die richtige Form von werden.",
+       "items": [
+        {
+         "text": "Lecornu ___ weiter um einen Kompromiss werben.",
+         "loesung": [
+          "wird"
+         ]
+        },
+        {
+         "text": "Die Abgeordneten ___ bald über das Budget 2027 abstimmen.",
+         "loesung": [
+          "werden"
+         ]
+        },
+        {
+         "text": "___ Frankreich rechtzeitig einen Haushalt haben?",
+         "loesung": [
+          "Wird"
+         ]
+        },
+        {
+         "text": "Ich ___ die Debatte weiter verfolgen.",
+         "loesung": [
+          "werde"
+         ]
+        }
+       ],
+       "regel": "Futur I: werden + Infinitiv am Satzende: Er wird werben. (ich werde, du wirst, er wird, wir werden, ihr werdet, sie werden)"
+      },
+      {
+       "typ": "fehler",
+       "titel": "wenn-Sätze",
+       "anweisung": "Ein Wort steht an der falschen Stelle.",
+       "items": [
+        {
+         "woerter": [
+          "Wenn",
+          "die",
+          "Parteien",
+          "sich",
+          "einigen,",
+          "Frankreich",
+          "bekommt",
+          "einen",
+          "Haushalt."
+         ],
+         "fehler": 6,
+         "korrektur": "Wenn die Parteien sich einigen, bekommt Frankreich einen Haushalt.",
+         "erkl": "Nach einem wenn-Satz am Anfang steht im Hauptsatz sofort das Verb: Wenn …, gibt es …"
+        },
+        {
+         "woerter": [
+          "Wenn",
+          "es",
+          "keine",
+          "Mehrheit",
+          "gibt,",
+          "die",
+          "Regierung",
+          "hat",
+          "ein",
+          "Problem."
+         ],
+         "fehler": 7,
+         "korrektur": "Wenn es keine Mehrheit gibt, hat die Regierung ein Problem.",
+         "erkl": "Nach einem wenn-Satz am Anfang steht im Hauptsatz sofort das Verb: Wenn …, gibt es …"
+        }
+       ]
+      },
+      {
+       "typ": "auswahl",
+       "titel": "Reflexive Verben",
+       "anweisung": "Wähle das richtige Pronomen.",
+       "items": [
+        {
+         "text": "89 Abgeordnete haben ___ enthalten.",
+         "optionen": [
+          "sich",
+          "ihnen"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Ich enthalte ___ lieber.",
+         "optionen": [
+          "mir",
+          "mich"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Die Parteien müssen ___ einigen.",
+         "optionen": [
+          "sich",
+          "ihnen"
+         ],
+         "richtig": 0
+        }
+       ],
+       "regel": "sich enthalten, sich einigen → Akkusativ: mich, dich, sich …"
+      },
+      {
+       "typ": "zuordnen",
+       "titel": "Gegenteile",
+       "anweisung": "Finde die Paare.",
+       "paare": [
+        [
+         "dafür",
+         "dagegen"
+        ],
+        [
+         "die Mehrheit",
+         "die Minderheit"
+        ],
+        [
+         "die Einnahmen",
+         "die Ausgaben"
+        ],
+        [
+         "beschließen",
+         "ablehnen"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Wissenschaft",
+     "titel": "Euclid findet ganz nebenbei einen Kometen",
+     "text": "Das europäische Weltraumteleskop Euclid ist eigentlich dafür gebaut, Milliarden ferner Galaxien zu kartieren. Nun hat es ganz nebenbei seinen ersten bisher unbekannten Kometen entdeckt. Das hat die Europäische Weltraumorganisation ESA mitgeteilt.\n\nAuf Aufnahmen vom September, die im sogenannten „Euclid Deep Field North“ entstanden sind, bemerkte der Doktorand Mikko Pöntinen von der Universität Helsinki eine bewegte Spur. Er hatte eine spezielle Software benutzt, die solche Spuren über mehrere Bilder hinweg erkennt. Am 8. Oktober bestätigte das Minor Planet Center, dass es sich um einen Kometen handelt. Er trägt nun den Namen C/2026 S1 (Euclid) und ist rund 1,3 Milliarden Kilometer von der Erde entfernt. Ein ESA-Forscher sprach von einem glücklichen Zufall.",
+     "vokabeln": [
+      {
+       "de": "kartieren",
+       "im_text": "kartieren",
+       "erkl": "eine genaue Karte von etwas machen"
+      },
+      {
+       "de": "nebenbei",
+       "im_text": "nebenbei",
+       "erkl": "ohne es zu planen, zusätzlich"
+      },
+      {
+       "de": "mitteilen",
+       "im_text": "mitgeteilt",
+       "erkl": "offiziell informieren"
+      },
+      {
+       "de": "die Aufnahme",
+       "im_text": "Aufnahmen",
+       "erkl": "ein Foto oder Bild"
+      },
+      {
+       "de": "bemerken",
+       "im_text": "bemerkte",
+       "erkl": "etwas sehen und darauf achten"
+      },
+      {
+       "de": "erkennen",
+       "im_text": "erkennt",
+       "erkl": "etwas sehen und verstehen, was es ist"
+      },
+      {
+       "de": "sich handeln um",
+       "im_text": "handelt",
+       "erkl": "es ist …: Es handelt sich um einen Kometen."
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wofür ist Euclid eigentlich gebaut?",
+       "optionen": [
+        "um Kometen zu suchen",
+        "um Galaxien zu kartieren",
+        "um die Erde zu fotografieren"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Mikko Pöntinen arbeitet an der Universität Helsinki.",
+       "richtig": true
+      },
+      {
+       "typ": "rf",
+       "aussage": "Der Komet ist 1,3 Millionen Kilometer entfernt.",
+       "richtig": false,
+       "erkl": "Er ist rund 1,3 Milliarden Kilometer entfernt."
+      },
+      {
+       "typ": "offen",
+       "frage": "Wie hat Pöntinen die Spur gefunden?",
+       "loesung": "Mit einer speziellen Software, die solche Spuren über mehrere Bilder erkennt."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wann wurde der Komet bestätigt?",
+         "am 8. Oktober"
+        ],
+        [
+         "Wer hat ihn bestätigt?",
+         "das Minor Planet Center"
+        ],
+        [
+         "Wie heißt der Komet?",
+         "C/2026 S1 (Euclid)"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Sollte Europa mehr Geld in die Raumfahrt investieren?",
+      "Welche Rolle spielt der Zufall in der Wissenschaft?"
+     ],
+     "uebungen": [
+      {
+       "typ": "eingabe",
+       "titel": "Partizip II",
+       "anweisung": "Ergänze das Partizip.",
+       "items": [
+        {
+         "text": "bauen → Euclid ist für Galaxien ___ worden.",
+         "loesung": [
+          "gebaut"
+         ]
+        },
+        {
+         "text": "entdecken → Euclid hat einen Kometen ___.",
+         "loesung": [
+          "entdeckt"
+         ]
+        },
+        {
+         "text": "bemerken → Pöntinen hat eine Spur ___.",
+         "loesung": [
+          "bemerkt"
+         ]
+        },
+        {
+         "text": "entstehen → Die Aufnahmen sind im September ___.",
+         "loesung": [
+          "entstanden"
+         ]
+        }
+       ],
+       "regel": "Untrennbare Präfixe (ent-, be-) → ohne ge-: entdeckt, bemerkt, entstanden."
+      },
+      {
+       "typ": "auswahl",
+       "titel": "werden und wenn",
+       "anweisung": "Wähle die richtige Form.",
+       "items": [
+        {
+         "text": "Wenn man Glück hat, ___ man noch mehr Kometen finden.",
+         "optionen": [
+          "wird",
+          "werden"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Euclid ___ noch viele Galaxien fotografieren.",
+         "optionen": [
+          "werden",
+          "wird"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Die Forscher ___ den Kometen weiter beobachten.",
+         "optionen": [
+          "werden",
+          "wird"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "___ das Wetter klar ist, sieht man viele Sterne.",
+         "optionen": [
+          "Wird",
+          "Wenn"
+         ],
+         "richtig": 1
+        }
+       ],
+       "regel": "Futur I: werden + Infinitiv am Satzende: Er wird werben. (ich werde, du wirst, er wird, wir werden, ihr werdet, sie werden)"
+      },
+      {
+       "typ": "zuordnen",
+       "titel": "Nomen und Verb",
+       "anweisung": "Finde die Paare.",
+       "paare": [
+        [
+         "die Entdeckung",
+         "entdecken"
+        ],
+        [
+         "die Bestätigung",
+         "bestätigen"
+        ],
+        [
+         "die Mitteilung",
+         "mitteilen"
+        ],
+        [
+         "die Aufnahme",
+         "aufnehmen"
+        ]
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
    "datum": "2026-11-25",
    "nachrichten": [
     {

@@ -4,6 +4,965 @@ window.NACHRICHTEN = {
  "spiel": false,
  "tage": [
   {
+   "datum": "2026-11-26",
+   "nachrichten": [
+    {
+     "kategorie": "Politik",
+     "titel": "EU-Sondergipfel: Ringen um 1,78 Billionen Euro",
+     "text": "Die Staats- und Regierungschefs der 27 EU-Länder kommen heute in Brüssel zu einem Sondergipfel zusammen. Im Mittelpunkt steht der nächste langfristige Haushalt, der von 2028 bis Ende 2034 gelten soll. Ratspräsident António Costa hat einen stark überarbeiteten Kompromissvorschlag vorgelegt: Er sieht rund 1,78 Billionen Euro vor – etwa 204 Milliarden weniger, als die EU-Kommission ursprünglich geplant hatte. Zusätzliche Einnahmen sollen unter anderem aus einer europäischen Digitalsteuer stammen.\n\nZufrieden ist damit kaum jemand. Für Bundeskanzler Friedrich Merz sind die bisherigen Vorschläge keine Grundlage für einen Abschluss; er dringt auf weitere Kürzungen. Gleichzeitig verlangt er, über die Finanzierung neuer Ukraine-Hilfen zu sprechen. Italiens Regierungschefin Giorgia Meloni warnt hingegen vor Einschnitten bei der Agrar- und Regionalförderung, von der vor allem ärmere Regionen profitieren. Costa mahnt zur Kompromissbereitschaft und möchte den Haushalt noch in diesem Jahr unter Dach und Fach bringen. Da Einstimmigkeit nötig ist, gilt eine Einigung frühestens beim regulären Gipfel im Dezember als realistisch.",
+     "vokabeln": [
+      {
+       "de": "überarbeiten",
+       "im_text": "überarbeiteten",
+       "erkl": "einen Plan oder Text verändern und verbessern"
+      },
+      {
+       "de": "vorsehen",
+       "im_text": "sieht",
+       "erkl": "planen, enthalten: Der Plan sieht 1,78 Billionen vor."
+      },
+      {
+       "de": "dringen auf",
+       "im_text": "dringt",
+       "erkl": "etwas energisch fordern"
+      },
+      {
+       "de": "der Einschnitt",
+       "im_text": "Einschnitten",
+       "erkl": "eine deutliche Kürzung"
+      },
+      {
+       "de": "profitieren von",
+       "im_text": "profitieren",
+       "erkl": "einen Vorteil haben durch etwas"
+      },
+      {
+       "de": "unter Dach und Fach bringen",
+       "im_text": "Dach und Fach",
+       "erkl": "etwas erfolgreich abschließen"
+      },
+      {
+       "de": "die Einstimmigkeit",
+       "im_text": "Einstimmigkeit",
+       "erkl": "alle stimmen zu, niemand ist dagegen"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Für welchen Zeitraum soll der Haushalt gelten?",
+       "optionen": [
+        "2026 bis 2030",
+        "2028 bis 2034",
+        "2027 bis 2033"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Costas Vorschlag liegt über dem Plan der Kommission.",
+       "richtig": false,
+       "erkl": "Er liegt etwa 204 Milliarden Euro darunter."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Merz möchte auch über Ukraine-Hilfen sprechen.",
+       "richtig": true
+      },
+      {
+       "typ": "offen",
+       "frage": "Woher sollen zusätzliche Einnahmen kommen?",
+       "loesung": "Unter anderem aus einer europäischen Digitalsteuer."
+      },
+      {
+       "typ": "offen",
+       "frage": "Warum ist eine Einigung heute unwahrscheinlich?",
+       "loesung": "Weil Einstimmigkeit nötig ist und viele Länder (z. B. Deutschland, Italien) unzufrieden sind."
+      }
+     ],
+     "diskussion": [
+      "Sollte die EU eigene Steuern wie eine Digitalsteuer erheben dürfen?",
+      "Ist die Einstimmigkeit bei Haushaltsfragen noch zeitgemäß?",
+      "Wie sollte man zwischen Agrarförderung, Ukraine-Hilfe und Sparzwang abwägen?"
+     ],
+     "uebungen": [
+      {
+       "typ": "auswahl",
+       "titel": "Verben mit Präpositionen",
+       "anweisung": "Wähle die richtige Präposition.",
+       "items": [
+        {
+         "text": "Merz dringt ___ weitere Kürzungen.",
+         "optionen": [
+          "auf",
+          "für",
+          "an"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Meloni warnt ___ Einschnitten.",
+         "optionen": [
+          "gegen",
+          "von",
+          "vor"
+         ],
+         "richtig": 2
+        },
+        {
+         "text": "Ärmere Regionen profitieren ___ der Förderung.",
+         "optionen": [
+          "aus",
+          "von",
+          "mit"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Die Länder verhandeln ___ den Haushalt.",
+         "optionen": [
+          "über",
+          "von",
+          "an"
+         ],
+         "richtig": 0
+        }
+       ],
+       "regel": "Verben mit festen Präpositionen lernt man am besten zusammen: dringen auf, warnen vor, profitieren von, verhandeln über."
+      },
+      {
+       "typ": "auswahl",
+       "titel": "Genitiv-Präpositionen",
+       "anweisung": "Wähle den richtigen Artikel.",
+       "items": [
+        {
+         "text": "Trotz ___ Kritik legt Costa den Plan vor.",
+         "optionen": [
+          "der",
+          "die"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Wegen ___ Streits gibt es noch keine Einigung.",
+         "optionen": [
+          "dem",
+          "des"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Innerhalb ___ EU braucht man Einstimmigkeit.",
+         "optionen": [
+          "der",
+          "die"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Anstelle ___ höheren Budgets schlägt Costa Kürzungen vor.",
+         "optionen": [
+          "einem",
+          "eines"
+         ],
+         "richtig": 1
+        }
+       ],
+       "regel": "trotz, wegen, innerhalb, während, aufgrund, anstelle + Genitiv: trotz der Kritik, wegen des Streits."
+      },
+      {
+       "typ": "zuordnen",
+       "titel": "Synonyme",
+       "anweisung": "Finde die Wörter mit ähnlicher Bedeutung.",
+       "paare": [
+        [
+         "der Einschnitt",
+         "die Kürzung"
+        ],
+        [
+         "der Abschluss",
+         "die Einigung"
+        ],
+        [
+         "ursprünglich",
+         "anfangs"
+        ],
+        [
+         "verlangen",
+         "fordern"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Sport",
+     "titel": "Davis Cup: Österreich gegen Spanien im Schatten von Alcaraz",
+     "text": "Im letzten Viertelfinale der Davis-Cup-Endrunde trifft Österreich heute in Bologna auf Spanien. Bei dem Turnier, das man als Weltmeisterschaft der Tennis-Nationalteams bezeichnen kann, kämpfen noch bis Sonntag die besten acht Länder um den Titel. Zuletzt standen sich Österreich und Spanien 2012 gegenüber.\n\nIm Vorfeld drehte sich fast alles um Carlos Alcaraz. Der Spanier reiste mit einer Verletzung am linken Oberschenkel an und trainierte erst am Mittwoch wieder. Medienberichten zufolge könnte er auf das Einzel verzichten und nur im Doppel antreten, falls es nach den beiden Einzeln 1:1 steht. Teamchef David Ferrer hatte die Aufstellung zunächst offengelassen. Österreichs Kapitän Jürgen Melzer rechnet seinem Team dennoch Chancen aus – selbst dann, wenn Alcaraz spielt, den er als derzeit wohl besten Spieler der Welt bezeichnete. Gespielt wird im Modus „zwei Einzel, ein Doppel“; wer zuerst zwei Partien gewinnt, zieht ins Halbfinale ein. Auch Deutschland ist heute gefordert: Das Team um Alexander Zverev trifft auf Großbritannien.",
+     "vokabeln": [
+      {
+       "de": "die Endrunde",
+       "im_text": "Endrunde",
+       "erkl": "die letzte Phase eines Turniers"
+      },
+      {
+       "de": "sich gegenüberstehen",
+       "im_text": "gegenüber",
+       "erkl": "gegeneinander antreten"
+      },
+      {
+       "de": "im Vorfeld",
+       "im_text": "Vorfeld",
+       "erkl": "in der Zeit davor"
+      },
+      {
+       "de": "verzichten auf",
+       "im_text": "verzichten",
+       "erkl": "etwas freiwillig nicht tun oder nicht nehmen"
+      },
+      {
+       "de": "jemandem Chancen ausrechnen",
+       "im_text": "rechnet",
+       "erkl": "glauben, dass jemand gewinnen kann"
+      },
+      {
+       "de": "die Partie",
+       "im_text": "Partien",
+       "erkl": "ein einzelnes Spiel"
+      },
+      {
+       "de": "gefordert sein",
+       "im_text": "gefordert",
+       "erkl": "vor einer schwierigen Aufgabe stehen"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wann standen sich Österreich und Spanien zuletzt gegenüber?",
+       "optionen": [
+        "2002",
+        "2012",
+        "2022"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Alcaraz trainierte schon am Montag wieder.",
+       "richtig": false,
+       "erkl": "Er trainierte erst am Mittwoch wieder."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Wer zuerst zwei Partien gewinnt, zieht ins Halbfinale ein.",
+       "richtig": true
+      },
+      {
+       "typ": "offen",
+       "frage": "Unter welcher Bedingung könnte Alcaraz nur im Doppel spielen?",
+       "loesung": "Falls es nach den beiden Einzeln 1:1 steht."
+      },
+      {
+       "typ": "offen",
+       "frage": "Wie schätzt Melzer die Lage ein?",
+       "loesung": "Er rechnet seinem Team Chancen aus, selbst wenn Alcaraz spielt."
+      }
+     ],
+     "diskussion": [
+      "Wie viel Verantwortung tragen Spitzensportler gegenüber ihrem Land?",
+      "Sind Wettbewerbe für Nationalteams im Tennis noch zeitgemäß?"
+     ],
+     "uebungen": [
+      {
+       "typ": "fehler",
+       "titel": "gegenüber mit Pronomen",
+       "anweisung": "Ein Wort steht an der falschen Stelle.",
+       "items": [
+        {
+         "woerter": [
+          "Melzer",
+          "ist",
+          "gegenüber",
+          "ihm",
+          "respektvoll."
+         ],
+         "fehler": 2,
+         "korrektur": "Melzer ist ihm gegenüber respektvoll.",
+         "erkl": "gegenüber: Bei Pronomen steht es immer NACH dem Pronomen: ihm gegenüber, uns gegenüber."
+        },
+        {
+         "woerter": [
+          "Die",
+          "Fans",
+          "sind",
+          "gegenüber",
+          "ihnen",
+          "freundlich."
+         ],
+         "fehler": 3,
+         "korrektur": "Die Fans sind ihnen gegenüber freundlich.",
+         "erkl": "gegenüber: Bei Pronomen steht es immer NACH dem Pronomen: ihm gegenüber, uns gegenüber."
+        },
+        {
+         "woerter": [
+          "Er",
+          "verhält",
+          "sich",
+          "gegenüber",
+          "uns",
+          "fair."
+         ],
+         "fehler": 3,
+         "korrektur": "Er verhält sich uns gegenüber fair.",
+         "erkl": "gegenüber: Bei Pronomen steht es immer NACH dem Pronomen: ihm gegenüber, uns gegenüber."
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Wer …, der …",
+       "anweisung": "Ergänze der, dem oder den.",
+       "items": [
+        {
+         "text": "Wer zuerst zwei Partien gewinnt, ___ zieht ins Halbfinale ein.",
+         "loesung": [
+          "der"
+         ]
+        },
+        {
+         "text": "Wem das Bein wehtut, ___ hilft eine Pause.",
+         "loesung": [
+          "dem"
+         ]
+        },
+        {
+         "text": "Wen die Fans lieben, ___ feuern sie lautstark an.",
+         "loesung": [
+          "den"
+         ]
+        },
+        {
+         "text": "Wem Tennis gefällt, ___ wird dieses Turnier Spaß machen.",
+         "loesung": [
+          "dem"
+         ]
+        }
+       ],
+       "regel": "Wer/Wem/Wen …, der/dem/den …: Das Pronomen im Hauptsatz richtet sich nach dem Verb im Hauptsatz."
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Verben mit Präpositionen",
+       "anweisung": "Ergänze die Präposition.",
+       "items": [
+        {
+         "text": "Alcaraz verzichtet vielleicht ___ das Einzel.",
+         "loesung": [
+          "auf"
+         ]
+        },
+        {
+         "text": "Die Teams kämpfen ___ den Titel.",
+         "loesung": [
+          "um"
+         ]
+        },
+        {
+         "text": "Melzer glaubt ___ eine Chance.",
+         "loesung": [
+          "an"
+         ]
+        }
+       ],
+       "regel": "Verben mit festen Präpositionen lernt man am besten zusammen: dringen auf, warnen vor, profitieren von, verhandeln über."
+      }
+     ]
+    },
+    {
+     "kategorie": "Gesundheit",
+     "titel": "Roboter-Knie-OP: präziser, aber nicht wirksamer",
+     "text": "Roboterassistierte Operationen gelten in vielen Kliniken als Zukunft der Chirurgie. Eine neue Studie aus Großbritannien dämpft nun die Erwartungen. Im Rahmen der RACER-Knee-Studie, der bisher weltweit größten ihrer Art, operierten 33 Chirurgen an zehn Krankenhäusern 339 Patientinnen und Patienten, die eine Knieprothese brauchten – nach dem Zufallsprinzip mit oder ohne Roboterarm. Die Ergebnisse wurden in der Fachzeitschrift „The Lancet“ veröffentlicht.\n\nZwar arbeitete der Roboter präziser. Ein Jahr nach dem Eingriff zeigte sich jedoch kein relevanter Unterschied bei Schmerzen, Beweglichkeit oder Genesung. Gleichzeitig dauerte jede Operation mit Roboter im Schnitt zehneinhalb Minuten länger und kostete rund 950 Pfund mehr. Nach den Maßstäben des staatlichen Gesundheitsdienstes NHS gilt das Verfahren damit als nicht kosteneffektiv. Immerhin traten nicht mehr schwere Komplikationen auf. Untersucht wurde ein einziges System, die Ergebnisse lassen sich also nicht ohne Weiteres auf andere Geräte übertragen. Die Forschenden wollen die Teilnehmenden nun zehn Jahre lang begleiten, um auch langfristige Folgen zu erfassen. Für Gesundheitssysteme mit knappen Budgets ist die Frage nach dem Nutzen teurer Technik hochaktuell.",
+     "vokabeln": [
+      {
+       "de": "dämpfen",
+       "im_text": "dämpft",
+       "erkl": "kleiner oder schwächer machen"
+      },
+      {
+       "de": "der Eingriff",
+       "im_text": "Eingriff",
+       "erkl": "eine Operation"
+      },
+      {
+       "de": "die Genesung",
+       "im_text": "Genesung",
+       "erkl": "das Gesundwerden"
+      },
+      {
+       "de": "der Maßstab",
+       "im_text": "Maßstäben",
+       "erkl": "eine Regel, nach der man etwas bewertet"
+      },
+      {
+       "de": "kosteneffektiv",
+       "im_text": "kosteneffektiv",
+       "erkl": "der Nutzen ist das Geld wert"
+      },
+      {
+       "de": "übertragen",
+       "im_text": "übertragen",
+       "erkl": "auf etwas anderes anwenden"
+      },
+      {
+       "de": "knapp",
+       "im_text": "knappen",
+       "erkl": "nur wenig vorhanden"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wie viel teurer war eine Operation mit Roboter?",
+       "optionen": [
+        "rund 95 Pfund",
+        "rund 950 Pfund",
+        "rund 9.500 Pfund"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Nach einem Jahr gab es keinen relevanten Unterschied bei den Schmerzen.",
+       "richtig": true
+      },
+      {
+       "typ": "rf",
+       "aussage": "Mit Roboter gab es mehr schwere Komplikationen.",
+       "richtig": false,
+       "erkl": "Es traten nicht mehr schwere Komplikationen auf."
+      },
+      {
+       "typ": "offen",
+       "frage": "Warum gilt das Verfahren nach NHS-Maßstäben als nicht kosteneffektiv?",
+       "loesung": "Weil es länger dauert und mehr kostet, den Patienten nach einem Jahr aber keinen messbaren Vorteil bringt."
+      },
+      {
+       "typ": "offen",
+       "frage": "Warum kann man die Ergebnisse nicht einfach auf andere Geräte übertragen?",
+       "loesung": "Weil nur ein einziges System untersucht wurde."
+      }
+     ],
+     "diskussion": [
+      "Wer sollte entscheiden, ob teure Medizintechnik bezahlt wird?",
+      "Wie lässt sich Innovation im Gesundheitswesen fördern, ohne die Budgets zu sprengen?"
+     ],
+     "uebungen": [
+      {
+       "typ": "auswahl",
+       "titel": "Genitiv-Präpositionen",
+       "anweisung": "Wähle den richtigen Artikel.",
+       "items": [
+        {
+         "text": "Trotz ___ höheren Präzision gab es keinen Vorteil.",
+         "optionen": [
+          "der",
+          "die"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Wegen ___ Kosten ist das Verfahren umstritten.",
+         "optionen": [
+          "den",
+          "der"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Innerhalb ___ ersten Jahres zeigte sich kein Unterschied.",
+         "optionen": [
+          "des",
+          "dem"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Aufgrund ___ knappen Budgets müssen Kliniken sparen.",
+         "optionen": [
+          "die",
+          "der"
+         ],
+         "richtig": 1
+        }
+       ],
+       "regel": "trotz, wegen, innerhalb, während, aufgrund, anstelle + Genitiv: trotz der Kritik, wegen des Streits."
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Verben und Nomen mit Präpositionen",
+       "anweisung": "Ergänze die Präposition.",
+       "items": [
+        {
+         "text": "Es geht um die Frage ___ dem Nutzen.",
+         "loesung": [
+          "nach"
+         ]
+        },
+        {
+         "text": "Viele Kliniken setzen ___ Roboter.",
+         "loesung": [
+          "auf"
+         ]
+        },
+        {
+         "text": "Ob sich das lohnt, hängt ___ den Kosten ab.",
+         "loesung": [
+          "von"
+         ]
+        },
+        {
+         "text": "Die Patienten litten ___ Knieschmerzen.",
+         "loesung": [
+          "unter"
+         ]
+        }
+       ],
+       "regel": "Verben mit festen Präpositionen lernt man am besten zusammen: dringen auf, warnen vor, profitieren von, verhandeln über."
+      },
+      {
+       "typ": "zuordnen",
+       "titel": "Synonyme",
+       "anweisung": "Finde die Wörter mit ähnlicher Bedeutung.",
+       "paare": [
+        [
+         "der Eingriff",
+         "die Operation"
+        ],
+        [
+         "präzise",
+         "genau"
+        ],
+        [
+         "die Genesung",
+         "die Erholung"
+        ],
+        [
+         "knapp",
+         "gering"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Wirtschaft",
+     "titel": "Konsumklima: Kaum Rückenwind fürs Weihnachtsgeschäft",
+     "text": "Die Kauflaune der Menschen in Deutschland bleibt kurz vor dem Weihnachtsgeschäft gedämpft. Das Konsumklima, das vom Nürnberg Institut für Marktentscheidungen (NIM) gemeinsam mit der GfK ermittelt wird, steigt für Dezember zwar leicht um 0,7 Punkte, liegt mit minus 30,2 Punkten aber weiterhin auf sehr niedrigem Niveau. Vor einem Jahr betrug der Wert noch minus 24,2 Punkte. Analysten hatten mit einem etwas besseren Ergebnis gerechnet.\n\nDie Einzelwerte zeichnen ein gemischtes Bild: Die Einkommenserwartungen haben sich verbessert, und die Menschen wollen etwas weniger sparen. Gleichzeitig sind die Konjunkturerwartungen gesunken, und die Sorge vor steigenden Preisen hat zugenommen. Auch die Anschaffungsneigung, also die Bereitschaft zu größeren Käufen, legte nur minimal zu. NIM-Experte Rolf Bürkl spricht von ungünstigen Vorzeichen für das Weihnachtsgeschäft. Der Handelsverband HDE erwartet für November und Dezember dennoch einen Umsatz von 129,2 Milliarden Euro, ein Plus von rund zwei Prozent. Ob Rabattaktionen wie der Black Friday morgen daran viel ändern, ist offen.",
+     "vokabeln": [
+      {
+       "de": "die Kauflaune",
+       "im_text": "Kauflaune",
+       "erkl": "die Lust, Geld auszugeben"
+      },
+      {
+       "de": "ermitteln",
+       "im_text": "ermittelt",
+       "erkl": "durch Befragung oder Rechnung herausfinden"
+      },
+      {
+       "de": "das Niveau",
+       "im_text": "Niveau",
+       "erkl": "die Höhe, auf der etwas liegt"
+      },
+      {
+       "de": "die Konjunkturerwartung",
+       "im_text": "Konjunkturerwartungen",
+       "erkl": "was Menschen über die künftige Entwicklung der Wirtschaft denken"
+      },
+      {
+       "de": "die Anschaffungsneigung",
+       "im_text": "Anschaffungsneigung",
+       "erkl": "die Bereitschaft, größere Dinge zu kaufen"
+      },
+      {
+       "de": "das Vorzeichen",
+       "im_text": "Vorzeichen",
+       "erkl": "ein Hinweis auf das, was kommen wird"
+      },
+      {
+       "de": "der Umsatz",
+       "im_text": "Umsatz",
+       "erkl": "das Geld, das Geschäfte durch Verkäufe einnehmen"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wie hoch ist das Konsumklima für Dezember?",
+       "optionen": [
+        "minus 24,2 Punkte",
+        "minus 30,2 Punkte",
+        "minus 30,9 Punkte"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die Einkommenserwartungen haben sich verschlechtert.",
+       "richtig": false,
+       "erkl": "Sie haben sich verbessert."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die Sorge vor steigenden Preisen hat zugenommen.",
+       "richtig": true
+      },
+      {
+       "typ": "offen",
+       "frage": "Wie viel Umsatz erwartet der HDE für November und Dezember?",
+       "loesung": "129,2 Milliarden Euro, ein Plus von rund zwei Prozent."
+      },
+      {
+       "typ": "offen",
+       "frage": "Was bedeutet Anschaffungsneigung?",
+       "loesung": "Die Bereitschaft zu größeren Käufen."
+      }
+     ],
+     "diskussion": [
+      "Warum sind viele Menschen in Deutschland beim Geldausgeben so vorsichtig?",
+      "Sind Rabattaktionen wie der Black Friday sinnvoll – für Kunden, Handel und Umwelt?"
+     ],
+     "uebungen": [
+      {
+       "typ": "auswahl",
+       "titel": "Verben mit Präpositionen",
+       "anweisung": "Wähle die richtige Präposition.",
+       "items": [
+        {
+         "text": "Analysten hatten ___ einem besseren Ergebnis gerechnet.",
+         "optionen": [
+          "mit",
+          "auf",
+          "an"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Viele Menschen sorgen sich ___ ihre Ersparnisse.",
+         "optionen": [
+          "über",
+          "vor",
+          "um"
+         ],
+         "richtig": 2
+        },
+        {
+         "text": "Der Handel hofft ___ den Black Friday.",
+         "optionen": [
+          "für",
+          "auf",
+          "an"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Die Kauflaune hängt stark ___ den Preisen ab.",
+         "optionen": [
+          "von",
+          "an",
+          "mit"
+         ],
+         "richtig": 0
+        }
+       ],
+       "regel": "Verben mit festen Präpositionen lernt man am besten zusammen: dringen auf, warnen vor, profitieren von, verhandeln über."
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Wer …, der …",
+       "anweisung": "Ergänze der, dem oder den.",
+       "items": [
+        {
+         "text": "Wer viel spart, ___ kauft weniger.",
+         "loesung": [
+          "der"
+         ]
+        },
+        {
+         "text": "Wem die Preise Sorgen machen, ___ fällt das Einkaufen schwer.",
+         "loesung": [
+          "dem"
+         ]
+        },
+        {
+         "text": "Wen Rabatte locken, ___ erwartet morgen der Black Friday.",
+         "loesung": [
+          "den"
+         ]
+        },
+        {
+         "text": "Wem das Geld fehlt, ___ helfen auch Rabatte wenig.",
+         "loesung": [
+          "dem"
+         ]
+        }
+       ],
+       "regel": "Wer/Wem/Wen …, der/dem/den …: Das Pronomen im Hauptsatz richtet sich nach dem Verb im Hauptsatz."
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Wortbildung",
+       "anweisung": "Bilde das Nomen.",
+       "items": [
+        {
+         "text": "ermitteln → die ___",
+         "loesung": [
+          "Ermittlung"
+         ]
+        },
+        {
+         "text": "erwarten → die ___",
+         "loesung": [
+          "Erwartung"
+         ]
+        },
+        {
+         "text": "anschaffen → die ___",
+         "loesung": [
+          "Anschaffung"
+         ]
+        },
+        {
+         "text": "zunehmen → die ___",
+         "loesung": [
+          "Zunahme"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Wirtschaft",
+     "titel": "UniCredit nimmt letzte Hürde bei der Commerzbank",
+     "text": "Die italienische Großbank UniCredit hat die letzte behördliche Hürde für die Übernahme der Commerzbank genommen. Als letzte Aufsichtsbehörde gab nun auch die polnische Finanzaufsicht KNF grünes Licht. Ihre Zustimmung war nötig, weil die Commerzbank mit der mBank eine in Polen börsennotierte Tochter besitzt. Zuvor hatten bereits die EU-Kommission, die Europäische Zentralbank und die US-Notenbank Fed zugestimmt.\n\nÜber ihr Angebot hat UniCredit knapp 50 Prozent der Commerzbank-Anteile erhalten. Die Bundesregierung, die sich lange gegen den Einstieg gewehrt hatte, gab ihren Widerstand zuletzt auf und einigte sich mit UniCredit-Chef Andrea Orcel. Dieser soll nun an die Spitze des Aufsichtsrats rücken; dafür hat UniCredit eine außerordentliche Hauptversammlung verlangt. Ein Termin im Januar gilt als möglich. Langfristig wird erwartet, dass die Commerzbank mit der deutschen UniCredit-Tochter HypoVereinsbank verschmolzen wird. Für Beschäftigte und Kundschaft bleibt damit vorerst offen, wie die künftige Struktur genau aussehen wird. Die Aktie der Commerzbank reagierte trotz der Freigabe mit Kursverlusten.",
+     "vokabeln": [
+      {
+       "de": "die Hürde",
+       "im_text": "Hürde",
+       "erkl": "ein Hindernis, das man überwinden muss"
+      },
+      {
+       "de": "grünes Licht geben",
+       "im_text": "grünes Licht",
+       "erkl": "erlauben, zustimmen"
+      },
+      {
+       "de": "börsennotiert",
+       "im_text": "börsennotierte",
+       "erkl": "die Aktien werden an der Börse gehandelt"
+      },
+      {
+       "de": "sich wehren gegen",
+       "im_text": "gewehrt",
+       "erkl": "versuchen, etwas zu verhindern"
+      },
+      {
+       "de": "der Widerstand",
+       "im_text": "Widerstand",
+       "erkl": "die Ablehnung; man kämpft gegen etwas"
+      },
+      {
+       "de": "außerordentlich",
+       "im_text": "außerordentliche",
+       "erkl": "nicht regulär, zusätzlich"
+      },
+      {
+       "de": "verschmelzen",
+       "im_text": "verschmolzen",
+       "erkl": "zu einer einzigen Firma zusammenlegen"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Welche Behörde hat zuletzt zugestimmt?",
+       "optionen": [
+        "die Europäische Zentralbank",
+        "die polnische Finanzaufsicht KNF",
+        "die US-Notenbank Fed"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "UniCredit hat bereits deutlich mehr als 60 Prozent der Anteile.",
+       "richtig": false,
+       "erkl": "UniCredit hat knapp 50 Prozent erhalten."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die Bundesregierung hat ihren Widerstand aufgegeben.",
+       "richtig": true
+      },
+      {
+       "typ": "offen",
+       "frage": "Warum musste auch die polnische Aufsicht zustimmen?",
+       "loesung": "Weil die Commerzbank mit der mBank eine in Polen börsennotierte Tochter besitzt."
+      },
+      {
+       "typ": "offen",
+       "frage": "Was wird langfristig erwartet?",
+       "loesung": "Dass die Commerzbank mit der HypoVereinsbank verschmolzen wird."
+      }
+     ],
+     "diskussion": [
+      "Sollte ein Staat die Übernahme wichtiger Banken durch ausländische Konzerne verhindern dürfen?",
+      "Was bedeuten große Fusionen für Beschäftigte und Kundschaft?"
+     ],
+     "uebungen": [
+      {
+       "typ": "auswahl",
+       "titel": "Genitiv-Präpositionen",
+       "anweisung": "Wähle den richtigen Artikel.",
+       "items": [
+        {
+         "text": "Trotz ___ Freigabe fiel die Aktie.",
+         "optionen": [
+          "der",
+          "die"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Wegen ___ polnischen Tochter musste die KNF zustimmen.",
+         "optionen": [
+          "die",
+          "der"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Während ___ Verhandlungen blieb vieles offen.",
+         "optionen": [
+          "der",
+          "den"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Innerhalb ___ nächsten Monate soll es eine Hauptversammlung geben.",
+         "optionen": [
+          "den",
+          "der"
+         ],
+         "richtig": 1
+        }
+       ],
+       "regel": "trotz, wegen, innerhalb, während, aufgrund, anstelle + Genitiv: trotz der Kritik, wegen des Streits."
+      },
+      {
+       "typ": "fehler",
+       "titel": "gegenüber mit Pronomen",
+       "anweisung": "Ein Wort steht an der falschen Stelle.",
+       "items": [
+        {
+         "woerter": [
+          "Die",
+          "Regierung",
+          "war",
+          "gegenüber",
+          "ihr",
+          "lange",
+          "skeptisch."
+         ],
+         "fehler": 3,
+         "korrektur": "Die Regierung war ihr gegenüber lange skeptisch.",
+         "erkl": "gegenüber: Bei Pronomen steht es immer NACH dem Pronomen: ihm gegenüber, uns gegenüber."
+        },
+        {
+         "woerter": [
+          "Orcel",
+          "zeigte",
+          "sich",
+          "gegenüber",
+          "ihnen",
+          "kompromissbereit."
+         ],
+         "fehler": 3,
+         "korrektur": "Orcel zeigte sich ihnen gegenüber kompromissbereit.",
+         "erkl": "gegenüber: Bei Pronomen steht es immer NACH dem Pronomen: ihm gegenüber, uns gegenüber."
+        },
+        {
+         "woerter": [
+          "Die",
+          "Beschäftigten",
+          "sind",
+          "gegenüber",
+          "ihm",
+          "misstrauisch."
+         ],
+         "fehler": 3,
+         "korrektur": "Die Beschäftigten sind ihm gegenüber misstrauisch.",
+         "erkl": "gegenüber: Bei Pronomen steht es immer NACH dem Pronomen: ihm gegenüber, uns gegenüber."
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Verben mit Präpositionen",
+       "anweisung": "Ergänze die Präposition.",
+       "items": [
+        {
+         "text": "Die Regierung hat sich ___ Orcel geeinigt.",
+         "loesung": [
+          "mit"
+         ]
+        },
+        {
+         "text": "Sie hatte sich lange ___ den Einstieg gewehrt.",
+         "loesung": [
+          "gegen"
+         ]
+        },
+        {
+         "text": "Die Aktie reagierte ___ Kursverlusten.",
+         "loesung": [
+          "mit"
+         ]
+        }
+       ],
+       "regel": "Verben mit festen Präpositionen lernt man am besten zusammen: dringen auf, warnen vor, profitieren von, verhandeln über."
+      },
+      {
+       "typ": "zuordnen",
+       "titel": "Synonyme",
+       "anweisung": "Finde die Wörter mit ähnlicher Bedeutung.",
+       "paare": [
+        [
+         "grünes Licht geben",
+         "genehmigen"
+        ],
+        [
+         "die Hürde",
+         "das Hindernis"
+        ],
+        [
+         "der Widerstand",
+         "die Ablehnung"
+        ],
+        [
+         "verschmelzen",
+         "fusionieren"
+        ]
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
    "datum": "2026-11-25",
    "nachrichten": [
     {

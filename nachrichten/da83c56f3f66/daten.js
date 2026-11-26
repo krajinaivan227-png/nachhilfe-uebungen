@@ -4,6 +4,934 @@ window.NACHRICHTEN = {
  "spiel": false,
  "tage": [
   {
+   "datum": "2026-11-26",
+   "nachrichten": [
+    {
+     "kategorie": "Politik",
+     "titel": "EU-Gipfel: Streit um viel Geld",
+     "text": "Heute treffen sich die Chefinnen und Chefs der EU-Länder in Brüssel. Sie sprechen über viel Geld: den Haushalt der EU für die Jahre 2028 bis 2034. Der Haushalt ist ein Plan. Er zeigt, wie viel Geld die EU ausgeben kann.\n\nRatspräsident António Costa schlägt etwa 1,78 Billionen Euro vor. Das ist weniger als der Plan der EU-Kommission. Deutschland möchte noch mehr sparen. Italien möchte kein Geld bei den Bauern sparen. Alle Länder müssen Ja sagen. Eine Lösung gibt es vielleicht erst im Dezember.",
+     "vokabeln": [
+      {
+       "de": "sich treffen",
+       "im_text": "treffen",
+       "erkl": "zusammenkommen und miteinander sprechen"
+      },
+      {
+       "de": "der Haushalt",
+       "im_text": "Haushalt",
+       "erkl": "ein Plan für Geld: Wie viel bekommt man, wie viel gibt man aus?"
+      },
+      {
+       "de": "ausgeben",
+       "im_text": "ausgeben",
+       "erkl": "Geld bezahlen, Geld verwenden"
+      },
+      {
+       "de": "vorschlagen",
+       "im_text": "schlägt",
+       "erkl": "eine Idee sagen; die anderen sollen sie prüfen"
+      },
+      {
+       "de": "sparen",
+       "im_text": "sparen",
+       "erkl": "weniger Geld ausgeben"
+      },
+      {
+       "de": "der Bauer",
+       "im_text": "Bauern",
+       "erkl": "eine Person; sie arbeitet auf dem Feld und mit Tieren"
+      },
+      {
+       "de": "die Lösung",
+       "im_text": "Lösung",
+       "erkl": "eine Antwort auf ein Problem"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wo treffen sich die Chefs der EU-Länder?",
+       "optionen": [
+        "in Wien",
+        "in Brüssel",
+        "in Rom"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Der Haushalt ist für die Jahre 2028 bis 2034.",
+       "richtig": true
+      },
+      {
+       "typ": "rf",
+       "aussage": "Deutschland möchte mehr Geld ausgeben.",
+       "richtig": false,
+       "erkl": "Deutschland möchte noch mehr sparen."
+      },
+      {
+       "typ": "offen",
+       "frage": "Warum gibt es heute vielleicht noch keine Lösung?",
+       "loesung": "Weil alle Länder Ja sagen müssen und sie noch nicht einig sind."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wer schlägt 1,78 Billionen Euro vor?",
+         "António Costa"
+        ],
+        [
+         "Wo möchte Italien nicht sparen?",
+         "bei den Bauern"
+        ],
+        [
+         "Wann gibt es vielleicht eine Lösung?",
+         "im Dezember"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Wofür sollte die EU mehr Geld ausgeben?",
+      "Ist es gut, dass alle Länder Ja sagen müssen? Warum (nicht)?"
+     ],
+     "uebungen": [
+      {
+       "typ": "fehler",
+       "titel": "dass-Sätze",
+       "anweisung": "Ein Wort steht an der falschen Stelle.",
+       "items": [
+        {
+         "woerter": [
+          "Costa",
+          "sagt,",
+          "dass",
+          "alle",
+          "Länder",
+          "müssen",
+          "Ja",
+          "sagen."
+         ],
+         "fehler": 5,
+         "korrektur": "Costa sagt, dass alle Länder Ja sagen müssen.",
+         "erkl": "Wiederholung: Im dass-Satz steht das Verb am Ende."
+        },
+        {
+         "woerter": [
+          "Merz",
+          "meint,",
+          "dass",
+          "der",
+          "Plan",
+          "ist",
+          "nicht",
+          "gut."
+         ],
+         "fehler": 5,
+         "korrektur": "Merz meint, dass der Plan nicht gut ist.",
+         "erkl": "Wiederholung: Im dass-Satz steht das Verb am Ende."
+        },
+        {
+         "woerter": [
+          "Viele",
+          "hoffen,",
+          "dass",
+          "es",
+          "gibt",
+          "bald",
+          "eine",
+          "Lösung."
+         ],
+         "fehler": 4,
+         "korrektur": "Viele hoffen, dass es bald eine Lösung gibt.",
+         "erkl": "Wiederholung: Im dass-Satz steht das Verb am Ende."
+        }
+       ]
+      },
+      {
+       "typ": "fehler",
+       "titel": "Inversion",
+       "anweisung": "Ein Wort steht an der falschen Stelle.",
+       "items": [
+        {
+         "woerter": [
+          "Hoffentlich",
+          "die",
+          "Länder",
+          "finden",
+          "eine",
+          "Lösung."
+         ],
+         "fehler": 3,
+         "korrektur": "Hoffentlich finden die Länder eine Lösung.",
+         "erkl": "Wiederholung: Nach Adverbien wie hoffentlich, dann, vielleicht, ab sofort am Satzanfang kommt sofort das Verb."
+        }
+       ]
+      },
+      {
+       "typ": "zuordnen",
+       "titel": "Gegenteile",
+       "anweisung": "Finde die Paare.",
+       "paare": [
+        [
+         "sparen",
+         "ausgeben"
+        ],
+        [
+         "mehr",
+         "weniger"
+        ],
+        [
+         "Ja",
+         "Nein"
+        ],
+        [
+         "früh",
+         "spät"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Sport",
+     "titel": "Davis Cup: Österreich gegen Spanien",
+     "text": "Heute spielt Österreich im Davis Cup gegen Spanien. Das Turnier ist eine Art Weltmeisterschaft im Tennis für Länder-Teams. Die besten acht Teams spielen diese Woche in Bologna in Italien. Österreich und Spanien haben seit 2012 nicht mehr gegeneinander gespielt.\n\nSpanien hat Carlos Alcaraz, einen der besten Spieler der Welt. Aber er hat Probleme mit dem Oberschenkel. Vielleicht spielt er nur im Doppel, schreiben Zeitungen. Österreichs Teamchef Jürgen Melzer glaubt trotzdem an eine Chance. Auch Deutschland spielt heute, gegen Großbritannien.",
+     "vokabeln": [
+      {
+       "de": "das Turnier",
+       "im_text": "Turnier",
+       "erkl": "ein Wettkampf mit vielen Spielen"
+      },
+      {
+       "de": "die Weltmeisterschaft",
+       "im_text": "Weltmeisterschaft",
+       "erkl": "ein Wettkampf; am Ende hat man das beste Team der Welt"
+      },
+      {
+       "de": "gegeneinander",
+       "im_text": "gegeneinander",
+       "erkl": "der eine gegen den anderen"
+      },
+      {
+       "de": "der Oberschenkel",
+       "im_text": "Oberschenkel",
+       "erkl": "der obere Teil vom Bein, über dem Knie"
+      },
+      {
+       "de": "das Doppel",
+       "im_text": "Doppel",
+       "erkl": "Tennis mit zwei Spielern in jedem Team"
+      },
+      {
+       "de": "der Teamchef",
+       "im_text": "Teamchef",
+       "erkl": "der Chef von einem Team; er plant und hilft den Spielern"
+      },
+      {
+       "de": "trotzdem",
+       "im_text": "trotzdem",
+       "erkl": "obwohl es ein Problem gibt"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wo spielen die Teams?",
+       "optionen": [
+        "in Wien",
+        "in Madrid",
+        "in Bologna"
+       ],
+       "richtig": 2
+      },
+      {
+       "typ": "rf",
+       "aussage": "Österreich und Spanien haben letztes Jahr gegeneinander gespielt.",
+       "richtig": false,
+       "erkl": "Sie haben seit 2012 nicht mehr gegeneinander gespielt."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Alcaraz hat Probleme mit dem Oberschenkel.",
+       "richtig": true
+      },
+      {
+       "typ": "offen",
+       "frage": "Warum spielt Alcaraz vielleicht nur im Doppel?",
+       "loesung": "Weil er Probleme mit dem Oberschenkel hat."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wie viele Teams spielen in Bologna?",
+         "acht"
+        ],
+        [
+         "Wer ist Österreichs Teamchef?",
+         "Jürgen Melzer"
+        ],
+        [
+         "Gegen wen spielt Deutschland?",
+         "gegen Großbritannien"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Welche Sportarten sind in deinem Land beliebt?",
+      "Siehst du lieber Einzelsport oder Teamsport? Warum?"
+     ],
+     "uebungen": [
+      {
+       "typ": "fehler",
+       "titel": "Inversion",
+       "anweisung": "Ein Wort steht an der falschen Stelle.",
+       "items": [
+        {
+         "woerter": [
+          "Hoffentlich",
+          "Österreich",
+          "gewinnt",
+          "heute."
+         ],
+         "fehler": 2,
+         "korrektur": "Hoffentlich gewinnt Österreich heute.",
+         "erkl": "Wiederholung: Nach Adverbien wie hoffentlich, dann, vielleicht, ab sofort am Satzanfang kommt sofort das Verb."
+        },
+        {
+         "woerter": [
+          "Dann",
+          "Deutschland",
+          "spielt",
+          "gegen",
+          "Großbritannien."
+         ],
+         "fehler": 2,
+         "korrektur": "Dann spielt Deutschland gegen Großbritannien.",
+         "erkl": "Wiederholung: Nach Adverbien wie hoffentlich, dann, vielleicht, ab sofort am Satzanfang kommt sofort das Verb."
+        },
+        {
+         "woerter": [
+          "Vielleicht",
+          "Alcaraz",
+          "spielt",
+          "nur",
+          "im",
+          "Doppel."
+         ],
+         "fehler": 2,
+         "korrektur": "Vielleicht spielt Alcaraz nur im Doppel.",
+         "erkl": "Wiederholung: Nach Adverbien wie hoffentlich, dann, vielleicht, ab sofort am Satzanfang kommt sofort das Verb."
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "um … zu",
+       "anweisung": "Ergänze mit zu.",
+       "items": [
+        {
+         "text": "Die Teams fahren nach Bologna, um dort ___. (spielen)",
+         "loesung": [
+          "zu spielen"
+         ]
+        },
+        {
+         "text": "Alcaraz trainiert, um wieder fit ___. (werden)",
+         "loesung": [
+          "zu werden"
+         ]
+        },
+        {
+         "text": "Viele Fans kommen, um die Stars ___. (sehen)",
+         "loesung": [
+          "zu sehen"
+         ]
+        }
+       ],
+       "regel": "Wiederholung: um … zu + Infinitiv am Ende. Bei trennbaren Verben steht zu in der Mitte: einzukaufen."
+      },
+      {
+       "typ": "zuordnen",
+       "titel": "Gegenteile",
+       "anweisung": "Finde die Paare.",
+       "paare": [
+        [
+         "gewinnen",
+         "verlieren"
+        ],
+        [
+         "stark",
+         "schwach"
+        ],
+        [
+         "gesund",
+         "krank"
+        ],
+        [
+         "vorher",
+         "nachher"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Wirtschaft",
+     "titel": "Black Friday: Wie viel geben die Österreicher aus?",
+     "text": "Morgen ist Black Friday, am Montag folgt der Cyber Monday. An diesen Tagen gibt es viele Angebote. Der Handelsverband hat Menschen in Österreich gefragt: 58 Prozent möchten etwas kaufen. Im Durchschnitt planen sie 314 Euro ein – etwa sieben Prozent mehr als letztes Jahr.\n\nAm beliebtesten sind Mode, Elektrogeräte und Kosmetik. Mehr Menschen bestellen dieses Jahr in österreichischen Online-Shops. Bei Temu und Shein kaufen weniger Leute ein: nur noch 13 statt 21 Prozent. Laut Handelsverband sind neue Gebühren der EU ein Grund.",
+     "vokabeln": [
+      {
+       "de": "das Angebot",
+       "im_text": "Angebote",
+       "erkl": "ein besonderer Preis; die Sache kostet weniger"
+      },
+      {
+       "de": "der Handelsverband",
+       "im_text": "Handelsverband",
+       "erkl": "eine Gruppe von vielen Geschäften; sie arbeiten zusammen"
+      },
+      {
+       "de": "im Durchschnitt",
+       "im_text": "Durchschnitt",
+       "erkl": "man rechnet alle Zahlen zusammen und teilt sie"
+      },
+      {
+       "de": "beliebt",
+       "im_text": "beliebtesten",
+       "erkl": "viele Menschen mögen es"
+      },
+      {
+       "de": "bestellen",
+       "im_text": "bestellen",
+       "erkl": "sagen oder online klicken: Das möchte ich kaufen."
+      },
+      {
+       "de": "die Gebühr",
+       "im_text": "Gebühren",
+       "erkl": "Geld, das man für einen Service zahlen muss"
+      },
+      {
+       "de": "der Grund",
+       "im_text": "Grund",
+       "erkl": "die Antwort auf die Frage: Warum?"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wie viel Geld planen die Menschen im Durchschnitt ein?",
+       "optionen": [
+        "214 Euro",
+        "314 Euro",
+        "460 Euro"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Mode ist sehr beliebt.",
+       "richtig": true
+      },
+      {
+       "typ": "rf",
+       "aussage": "Bei Temu und Shein kaufen mehr Leute ein.",
+       "richtig": false,
+       "erkl": "Nur noch 13 statt 21 Prozent kaufen dort ein."
+      },
+      {
+       "typ": "offen",
+       "frage": "Warum kaufen weniger Leute bei Temu und Shein?",
+       "loesung": "Wegen neuer Gebühren der EU."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wann ist Black Friday?",
+         "morgen"
+        ],
+        [
+         "Wer hat die Menschen gefragt?",
+         "der Handelsverband"
+        ],
+        [
+         "Wie viele Menschen möchten etwas kaufen?",
+         "58 Prozent"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Kaufst du am Black Friday ein? Was?",
+      "Sind Angebote immer gute Angebote? Warum (nicht)?",
+      "Bestellst du oft im Internet?"
+     ],
+     "uebungen": [
+      {
+       "typ": "eingabe",
+       "titel": "um … zu",
+       "anweisung": "Ergänze mit zu.",
+       "items": [
+        {
+         "text": "Viele warten auf Black Friday, um billig ___. (einkaufen)",
+         "loesung": [
+          "einzukaufen"
+         ]
+        },
+        {
+         "text": "Ich gehe ins Geschäft, um eine Jacke ___. (kaufen)",
+         "loesung": [
+          "zu kaufen"
+         ]
+        },
+        {
+         "text": "Man vergleicht Preise, um Geld ___. (sparen)",
+         "loesung": [
+          "zu sparen"
+         ]
+        },
+        {
+         "text": "Ich frage den Verkäufer, um mehr ___. (wissen)",
+         "loesung": [
+          "zu wissen"
+         ]
+        }
+       ],
+       "regel": "Wiederholung: um … zu + Infinitiv am Ende. Bei trennbaren Verben steht zu in der Mitte: einzukaufen."
+      },
+      {
+       "typ": "fehler",
+       "titel": "dass-Sätze",
+       "anweisung": "Ein Wort steht an der falschen Stelle.",
+       "items": [
+        {
+         "woerter": [
+          "Der",
+          "Verband",
+          "sagt,",
+          "dass",
+          "weniger",
+          "Leute",
+          "kaufen",
+          "bei",
+          "Temu",
+          "ein."
+         ],
+         "fehler": 6,
+         "korrektur": "Der Verband sagt, dass weniger Leute bei Temu einkaufen.",
+         "erkl": "Im dass-Satz steht das Verb am Ende. Trennbare Verben stehen dann zusammen: einkaufen."
+        }
+       ]
+      },
+      {
+       "typ": "zuordnen",
+       "titel": "Gegenteile",
+       "anweisung": "Finde die Paare.",
+       "paare": [
+        [
+         "mehr",
+         "weniger"
+        ],
+        [
+         "kaufen",
+         "verkaufen"
+        ],
+        [
+         "billig",
+         "teuer"
+        ],
+        [
+         "beliebt",
+         "unbeliebt"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Sport",
+     "titel": "Champions League: Bayern verliert in Lille",
+     "text": "Der FC Bayern München hat in der Champions League beim französischen Klub Lille 1:2 verloren. Dabei hat es gut angefangen: Dayot Upamecano hat in der 15. Minute das 1:0 für Bayern geschossen.\n\nNach der Pause hat Lille das Spiel gedreht. Ayase Ueda hat in der 62. Minute den Ausgleich geschossen. Drei Minuten später hat Bayern-Spieler Aleksandar Pavlović den Ball ins eigene Tor gelenkt. Es ist die erste Niederlage der Saison für Bayern. Jetzt ist der direkte Weg ins Achtelfinale in Gefahr.",
+     "vokabeln": [
+      {
+       "de": "verlieren",
+       "im_text": "verloren",
+       "erkl": "nicht gewinnen"
+      },
+      {
+       "de": "anfangen",
+       "im_text": "angefangen",
+       "erkl": "beginnen"
+      },
+      {
+       "de": "ein Spiel drehen",
+       "im_text": "gedreht",
+       "erkl": "zuerst hinten liegen und am Ende gewinnen"
+      },
+      {
+       "de": "der Ausgleich",
+       "im_text": "Ausgleich",
+       "erkl": "das Tor zum Unentschieden, zum Beispiel zum 1:1"
+      },
+      {
+       "de": "das eigene Tor",
+       "im_text": "eigene Tor",
+       "erkl": "das Tor vom eigenen Team; ein Tor dort ist ein Punkt für den Gegner"
+      },
+      {
+       "de": "die Niederlage",
+       "im_text": "Niederlage",
+       "erkl": "ein Spiel, das man verloren hat"
+      },
+      {
+       "de": "in Gefahr",
+       "im_text": "Gefahr",
+       "erkl": "es kann schlecht ausgehen"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wie ist das Spiel ausgegangen?",
+       "optionen": [
+        "1:2 für Lille",
+        "2:2",
+        "2:1 für Bayern"
+       ],
+       "richtig": 0
+      },
+      {
+       "typ": "rf",
+       "aussage": "Upamecano hat das erste Tor geschossen.",
+       "richtig": true
+      },
+      {
+       "typ": "rf",
+       "aussage": "Bayern hat in dieser Saison schon oft verloren.",
+       "richtig": false,
+       "erkl": "Es ist die erste Niederlage der Saison."
+      },
+      {
+       "typ": "offen",
+       "frage": "Wann hat Lille das Spiel gedreht?",
+       "loesung": "Nach der Pause (in der 62. und 65. Minute)."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wann hat Ueda getroffen?",
+         "in der 62. Minute"
+        ],
+        [
+         "Wer hat den Ball ins eigene Tor gelenkt?",
+         "Aleksandar Pavlović"
+        ],
+        [
+         "Was ist jetzt in Gefahr?",
+         "der direkte Weg ins Achtelfinale"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Welches Team gewinnt dieses Jahr die Champions League? Was denkst du?",
+      "Hast du schon einmal ein Spiel im Stadion gesehen?"
+     ],
+     "uebungen": [
+      {
+       "typ": "fehler",
+       "titel": "Inversion",
+       "anweisung": "Ein Wort steht an der falschen Stelle.",
+       "items": [
+        {
+         "woerter": [
+          "Dann",
+          "Lille",
+          "hat",
+          "das",
+          "Spiel",
+          "gedreht."
+         ],
+         "fehler": 2,
+         "korrektur": "Dann hat Lille das Spiel gedreht.",
+         "erkl": "Wiederholung: Nach Adverbien wie hoffentlich, dann, vielleicht, ab sofort am Satzanfang kommt sofort das Verb."
+        },
+        {
+         "woerter": [
+          "Hoffentlich",
+          "Bayern",
+          "gewinnt",
+          "das",
+          "nächste",
+          "Spiel."
+         ],
+         "fehler": 2,
+         "korrektur": "Hoffentlich gewinnt Bayern das nächste Spiel.",
+         "erkl": "Wiederholung: Nach Adverbien wie hoffentlich, dann, vielleicht, ab sofort am Satzanfang kommt sofort das Verb."
+        },
+        {
+         "woerter": [
+          "Ab",
+          "sofort",
+          "die",
+          "Spieler",
+          "trainieren",
+          "mehr."
+         ],
+         "fehler": 4,
+         "korrektur": "Ab sofort trainieren die Spieler mehr.",
+         "erkl": "Wiederholung: Nach Adverbien wie hoffentlich, dann, vielleicht, ab sofort am Satzanfang kommt sofort das Verb."
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "um … zu",
+       "anweisung": "Ergänze mit zu.",
+       "items": [
+        {
+         "text": "Bayern muss gewinnen, um direkt ins Achtelfinale ___. (kommen)",
+         "loesung": [
+          "zu kommen"
+         ]
+        },
+        {
+         "text": "Die Spieler trainieren, um besser ___. (werden)",
+         "loesung": [
+          "zu werden"
+         ]
+        },
+        {
+         "text": "Fans fahren nach Lille, um das Spiel ___. (sehen)",
+         "loesung": [
+          "zu sehen"
+         ]
+        }
+       ],
+       "regel": "Wiederholung: um … zu + Infinitiv am Ende. Bei trennbaren Verben steht zu in der Mitte: einzukaufen."
+      },
+      {
+       "typ": "zuordnen",
+       "titel": "Gegenteile",
+       "anweisung": "Finde die Paare.",
+       "paare": [
+        [
+         "gewinnen",
+         "verlieren"
+        ],
+        [
+         "der Sieg",
+         "die Niederlage"
+        ],
+        [
+         "vorne",
+         "hinten"
+        ],
+        [
+         "früh",
+         "spät"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Wissenschaft",
+     "titel": "Euclid entdeckt einen neuen Kometen",
+     "text": "Das Weltraumteleskop Euclid von der europäischen Raumfahrtagentur ESA soll eigentlich ferne Galaxien fotografieren. Jetzt hat es zum ersten Mal einen unbekannten Kometen entdeckt.\n\nEin Doktorand an der Universität Helsinki hat auf Fotos vom September eine kleine Spur gesehen. Er hat eine spezielle Software benutzt. Im Oktober haben Experten bestätigt: Das ist ein neuer Komet. Er heißt jetzt „C/2026 S1 (Euclid)“ und ist ungefähr 1,3 Milliarden Kilometer von der Erde entfernt. Ein ESA-Forscher spricht von einem glücklichen Zufall.",
+     "vokabeln": [
+      {
+       "de": "das Weltraumteleskop",
+       "im_text": "Weltraumteleskop",
+       "erkl": "ein Teleskop im All; es macht Fotos von Sternen"
+      },
+      {
+       "de": "entdecken",
+       "im_text": "entdeckt",
+       "erkl": "etwas Neues zum ersten Mal finden"
+      },
+      {
+       "de": "der Doktorand",
+       "im_text": "Doktorand",
+       "erkl": "eine Person; sie schreibt an der Uni eine große Forschungsarbeit"
+      },
+      {
+       "de": "die Spur",
+       "im_text": "Spur",
+       "erkl": "eine Linie; sie zeigt, wo sich etwas bewegt hat"
+      },
+      {
+       "de": "bestätigen",
+       "im_text": "bestätigt",
+       "erkl": "sagen: Ja, das ist richtig."
+      },
+      {
+       "de": "entfernt",
+       "im_text": "entfernt",
+       "erkl": "weit weg"
+      },
+      {
+       "de": "der Zufall",
+       "im_text": "Zufall",
+       "erkl": "etwas passiert, aber niemand hat es geplant"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Was soll Euclid eigentlich fotografieren?",
+       "optionen": [
+        "Kometen",
+        "ferne Galaxien",
+        "die Erde"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Der Doktorand arbeitet an der Universität Helsinki.",
+       "richtig": true
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die Fotos sind vom Oktober.",
+       "richtig": false,
+       "erkl": "Die Fotos sind vom September. Im Oktober haben Experten den Kometen bestätigt."
+      },
+      {
+       "typ": "offen",
+       "frage": "Warum spricht ein Forscher von einem glücklichen Zufall?",
+       "loesung": "Weil Euclid eigentlich Galaxien fotografieren soll und keine Kometen sucht."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Von wann sind die Fotos?",
+         "vom September"
+        ],
+        [
+         "Was hat der Doktorand benutzt?",
+         "eine spezielle Software"
+        ],
+        [
+         "Wie weit ist der Komet entfernt?",
+         "ungefähr 1,3 Milliarden Kilometer"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Interessierst du dich für das Weltall? Warum (nicht)?",
+      "Glaubst du, man findet in Zukunft noch viele neue Kometen?"
+     ],
+     "uebungen": [
+      {
+       "typ": "fehler",
+       "titel": "dass-Sätze",
+       "anweisung": "Ein Wort steht an der falschen Stelle.",
+       "items": [
+        {
+         "woerter": [
+          "Experten",
+          "sagen,",
+          "dass",
+          "es",
+          "ist",
+          "ein",
+          "neuer",
+          "Komet."
+         ],
+         "fehler": 4,
+         "korrektur": "Experten sagen, dass es ein neuer Komet ist.",
+         "erkl": "Im dass-Satz steht das Verb am Ende."
+        },
+        {
+         "woerter": [
+          "Ich",
+          "finde",
+          "toll,",
+          "dass",
+          "Euclid",
+          "hat",
+          "einen",
+          "Kometen",
+          "entdeckt."
+         ],
+         "fehler": 5,
+         "korrektur": "Ich finde toll, dass Euclid einen Kometen entdeckt hat.",
+         "erkl": "Im dass-Satz steht das Verb am Ende (hier: entdeckt hat)."
+        }
+       ]
+      },
+      {
+       "typ": "fehler",
+       "titel": "Inversion",
+       "anweisung": "Ein Wort steht an der falschen Stelle.",
+       "items": [
+        {
+         "woerter": [
+          "Dann",
+          "die",
+          "Experten",
+          "haben",
+          "den",
+          "Kometen",
+          "bestätigt."
+         ],
+         "fehler": 3,
+         "korrektur": "Dann haben die Experten den Kometen bestätigt.",
+         "erkl": "Wiederholung: Nach Adverbien wie hoffentlich, dann, vielleicht, ab sofort am Satzanfang kommt sofort das Verb."
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Verb → Nomen",
+       "anweisung": "Bilde das Nomen.",
+       "items": [
+        {
+         "text": "entdecken → die ___",
+         "loesung": [
+          "Entdeckung"
+         ]
+        },
+        {
+         "text": "bestätigen → die ___",
+         "loesung": [
+          "Bestätigung"
+         ]
+        },
+        {
+         "text": "forschen → die ___",
+         "loesung": [
+          "Forschung"
+         ]
+        },
+        {
+         "text": "benutzen → die ___",
+         "loesung": [
+          "Benutzung"
+         ]
+        }
+       ],
+       "regel": "Viele Verben → Nomen mit -ung (immer die)."
+      }
+     ]
+    }
+   ]
+  },
+  {
    "datum": "2026-11-25",
    "nachrichten": [
     {
