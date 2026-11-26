@@ -876,6 +876,160 @@ window.HEFT = {
           uebers: { fr: "Tu commandes quelque chose en ligne. Écris 4–5 phrases." }
         }
       ]
+    },
+    {
+      id: "2026-11-26",
+      titel: "Krank sein, falls und also",
+      vokabeln: [
+        { de: "falls", en: "if, in case", fr: "si, au cas où", beispiel: "Falls ich Zeit habe, spiele ich Fußball." },
+        { de: "stellen", en: "to put (upright)", fr: "poser, mettre (debout)", beispiel: "Ich stelle die PS5 neben das Fenster." },
+        { de: "das Fieber", en: "the fever", fr: "la fièvre", beispiel: "Ich habe Fieber." },
+        { de: "die Erkältung", en: "the cold", fr: "le rhume", beispiel: "Im Winter habe ich oft eine Erkältung." },
+        { de: "die Halsschmerzen (Pl.)", en: "sore throat", fr: "le mal de gorge", beispiel: "Ich habe Halsschmerzen." },
+        { de: "der Streik", en: "the strike", fr: "la grève", beispiel: "Heute gibt es einen Streik." },
+        { de: "die KI (künstliche Intelligenz)", en: "AI (artificial intelligence)", fr: "l'IA (intelligence artificielle)", beispiel: "Die KI hilft mir beim Lernen." },
+        { de: "Angst haben", en: "to be afraid", fr: "avoir peur", beispiel: "Ich habe Angst vor dem Test." },
+        { de: "bekommen (hat bekommen)", en: "to get, to receive", fr: "recevoir, obtenir", beispiel: "Ich habe ein neues Handy bekommen." },
+        { de: "der Schlüssel", en: "the key", fr: "la clé", beispiel: "Ich habe meinen Schlüssel verloren." }
+      ],
+      aufgaben: [
+        {
+          typ: "zuordnen", stufe: 1,
+          paare: [["das Fieber", "la fièvre"], ["die Erkältung", "le rhume"], ["die Halsschmerzen", "le mal de gorge"], ["der Streik", "la grève"], ["der Schlüssel", "la clé"]],
+          regel: "Neue Wörter der Stunde.",
+          uebers: { fr: "Relie les mots à leur traduction." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Ich habe 39 Grad ___.",
+          optionen: ["Fieber", "Erkältung", "Halsschmerzen"], richtig: 0,
+          regel: "39 Grad = Fieber (la fièvre).",
+          uebers: { fr: "Choisis le bon mot." }
+        },
+        {
+          typ: "satz", stufe: 2,
+          woerter: ["Falls", "ich", "Zeit", "habe,", "spiele", "ich", "Fußball."],
+          loesung: "Falls ich Zeit habe, spiele ich Fußball.",
+          regel: "Nach falls steht das Verb am Ende (… Zeit habe). Danach kommt zuerst das Verb: spiele ich.",
+          uebers: { fr: "Mets les mots dans le bon ordre." }
+        },
+        {
+          typ: "mc", stufe: 3,
+          frage: "Welcher Satz ist richtig?",
+          optionen: ["Falls ich die PS5 mitbringe, spielen wir zusammen.", "Falls ich bringe die PS5 mit, spielen wir zusammen.", "Falls ich die PS5 mitbringe, wir spielen zusammen."], richtig: 0,
+          regel: "falls wie wenn: Verb am Ende (mitbringe), danach Verb zuerst (spielen wir).",
+          uebers: { fr: "Quelle phrase est correcte ?" }
+        },
+        {
+          typ: "mc", stufe: 3,
+          frage: "Ich stelle die Lampe neben ___ Bett.",
+          optionen: ["das", "dem", "der"], richtig: 0,
+          regel: "stellen = Bewegung (Wohin?) → Akkusativ: neben das Bett (das Bett).",
+          uebers: { fr: "Choisis le bon article (« stellen » + accusatif)." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Ich mache die Hausaufgaben ___ dem Essen. (after)",
+          optionen: ["nach", "vor", "seit"], richtig: 0,
+          regel: "nach = after (après), vor = before (avant). Beide + Dativ: nach dem Essen.",
+          uebers: { fr: "Choisis la bonne préposition (« après »)." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Welcher Satz ist richtig?",
+          optionen: ["Ich war krank, also bin ich zu Hause geblieben.", "Ich war krank, also ich bin zu Hause geblieben.", "Ich war krank, also ich zu Hause geblieben bin."], richtig: 0,
+          regel: "also (= so, donc) + Verb direkt danach: also bin ich …",
+          uebers: { fr: "Quelle phrase est correcte ?" }
+        },
+        {
+          typ: "luecke", stufe: 1,
+          text: "Ich habe ___ vor dem Test. (avoir peur)",
+          antworten: ["Angst"],
+          regel: "Angst haben (vor + Dativ) = avoir peur (de).",
+          uebers: { fr: "Complète : « avoir peur »." }
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Gestern habe ich ein neues Handy ___. (bekommen)",
+          antworten: ["bekommen"],
+          regel: "Verben mit be- haben kein ge- im Perfekt: bekommen → hat bekommen.",
+          uebers: { fr: "Complète avec le participe passé de « bekommen »." }
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Ich habe meinen Schlüssel ___. (verlieren)",
+          antworten: ["verloren"],
+          regel: "verlieren → hat verloren (kein ge-, weil ver-).",
+          uebers: { fr: "Complète avec le participe passé de « verlieren »." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "KI bedeutet ___ Intelligenz.",
+          optionen: ["künstliche", "künstlich", "künstlichen"], richtig: 0,
+          regel: "die Intelligenz ist feminin: künstliche Intelligenz (KI).",
+          uebers: { fr: "Choisis la bonne forme (« artificielle »)." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Heute fährt kein Zug. Es gibt einen ___.",
+          optionen: ["Streik", "Schlüssel", "Versuch"], richtig: 0,
+          regel: "der Streik = la grève.",
+          uebers: { fr: "Choisis le bon mot." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Welcher Satz ist richtig?",
+          optionen: ["Vielleicht bekomme ich eine gute Note.", "Vielleicht ich bekomme eine gute Note.", "Vielleicht ich eine gute Note bekomme."], richtig: 0,
+          regel: "Wiederholung (17.11.): Steht vielleicht vorne, kommt das Verb direkt danach (Position 2).",
+          uebers: { fr: "Quelle phrase est correcte ?" }
+        },
+        {
+          typ: "luecke", stufe: 1,
+          text: "Der Film ist sehr ___. (ennuyeux)",
+          antworten: ["langweilig"],
+          regel: "Wiederholung (17.11.): langweilig = ennuyeux, die Langeweile = l'ennui.",
+          uebers: { fr: "Complète avec le mot « ennuyeux »." }
+        },
+        {
+          typ: "satz", stufe: 2,
+          woerter: ["Ich", "weiß,", "dass", "Chinesisch", "schwierig", "ist."],
+          loesung: "Ich weiß, dass Chinesisch schwierig ist.",
+          regel: "Wiederholung (17.11.): Nach dass steht das Verb am Ende.",
+          uebers: { fr: "Mets les mots dans le bon ordre." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Ich gewinne ___ nicht. (probably)",
+          optionen: ["wahrscheinlich", "circa", "schwierig"], richtig: 0,
+          regel: "Wiederholung (10.11.): wahrscheinlich = probably (probablement).",
+          uebers: { fr: "Choisis le bon mot (« probablement »)." }
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Wann ___ du den Englischtest? (haben, Präteritum)",
+          antworten: ["hattest"],
+          regel: "Wiederholung (10.11.): haben im Präteritum: ich hatte, du hattest, er hatte.",
+          uebers: { fr: "Conjugue « haben » au passé (du)." }
+        },
+        {
+          typ: "sprechen", stufe: 2,
+          auftrag: "Du bist krank. Was hast du? Was machst du? Sprich 4 Sätze. Nimm dich auf und höre dich an.",
+          hinweis: "Ich habe Fieber / Halsschmerzen / eine Erkältung. / Also bleibe ich … / Falls es nicht besser wird, …",
+          uebers: { fr: "Tu es malade. Qu'est-ce que tu as ? Qu'est-ce que tu fais ? Dis 4 phrases. Enregistre-toi et écoute-toi." }
+        },
+        {
+          typ: "schreiben", stufe: 3,
+          auftrag: "Ein Tag, an dem du krank warst: Schreibe 4–5 Sätze.",
+          checkliste: [
+            "Ich habe Fieber, Erkältung oder Halsschmerzen benutzt.",
+            "Ich habe einen Satz mit also geschrieben (Verb direkt danach).",
+            "Ich habe das Perfekt benutzt (bin geblieben, habe getrunken).",
+            "Ich habe einen Satz mit falls geschrieben."
+          ],
+          muster: "Letzte Woche hatte ich eine Erkältung. Ich hatte Fieber und Halsschmerzen. Also bin ich am Nachmittag zu Hause geblieben. Ich habe viel Tee getrunken und geschlafen. Falls ich wieder krank bin, gehe ich zum Arzt.",
+          uebers: { fr: "Un jour où tu étais malade : écris 4–5 phrases." }
+        }
+      ]
     }
   ]
 };

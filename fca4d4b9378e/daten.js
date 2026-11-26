@@ -1395,6 +1395,257 @@ window.HEFT = {
           muster: "Hallo Paul, mach dir keine Sorgen wegen der Prüfung! Ich habe eine gute Erinnerung an meine eigene Prüfung: Am Anfang war es unangenehm, aber dann ging alles gut. Du hast viel gelernt, deshalb bin ich sicher, dass du es schaffst. Danach gehen wir in ein günstiges Lokal essen. Viel Glück!"
         }
       ]
+    },
+    {
+      id: "2026-11-25",
+      titel: "Impfung, sich erholen, Termine verschieben, einen Kater haben",
+      vokabeln: [
+        { de: "schwitzen / der Schweiß", fr: "transpirer / la sueur", en: "to sweat / the sweat", beispiel: "Beim Sport schwitze ich viel." },
+        { de: "die Impfung, die Impfungen", fr: "la vaccination", en: "the vaccination", beispiel: "Die Impfung gegen die Grippe ist freiwillig." },
+        { de: "sich impfen lassen", fr: "se faire vacciner", en: "to get vaccinated", beispiel: "Ich habe mich gegen die Grippe impfen lassen." },
+        { de: "die Pflicht, die Pflichten", fr: "l'obligation, le devoir", en: "the duty, the obligation", beispiel: "In Österreich ist die Grippeimpfung keine Pflicht." },
+        { de: "sich erholen", fr: "se reposer, se remettre", en: "to recover, to rest", beispiel: "Am Wochenende erhole ich mich." },
+        { de: "vereinbaren", fr: "fixer, convenir de", en: "to arrange, to agree on", beispiel: "Wir haben einen Termin um 9 Uhr vereinbart." },
+        { de: "verschieben auf (+ Akk.) (hat verschoben)", fr: "reporter à", en: "to postpone to", beispiel: "Wir verschieben die Stunde auf Freitag." },
+        { de: "der Unterschied / unterscheiden", fr: "la différence / différencier", en: "the difference / to distinguish", beispiel: "Ich sehe keinen Unterschied." },
+        { de: "gesprächig", fr: "bavard", en: "talkative", beispiel: "Heute bist du sehr gesprächig." },
+        { de: "einen Kater haben", fr: "avoir la gueule de bois", en: "to have a hangover", beispiel: "Nach der Party hatte er einen Kater." }
+      ],
+      aufgaben: [
+        {
+          typ: "zuordnen", stufe: 1,
+          paare: [["schwitzen", "transpirer"], ["der Schweiß", "la sueur"], ["gesprächig", "bavard"], ["die Pflicht", "l'obligation"], ["der Unterschied", "la différence"]],
+          regel: "Neue Wörter der Stunde."
+        },
+        {
+          typ: "mc", stufe: 3,
+          frage: "Ich habe mich vor zwei Wochen gegen die Grippe impfen ___.",
+          optionen: ["lassen", "gelassen", "geimpft"], richtig: 0,
+          regel: "sich impfen lassen = se faire vacciner. Im Perfekt mit zwei Infinitiven: Ich habe mich impfen lassen."
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Die ___ gegen die Grippe ist in Österreich freiwillig.",
+          optionen: ["Impfung", "Impfen", "Impf"], richtig: 0,
+          regel: "impfen → die Impfung. Nomen auf -ung sind immer feminin."
+        },
+        {
+          typ: "luecke", stufe: 1,
+          text: "Hausaufgaben sind keine ___, aber sie helfen. (l'obligation)",
+          antworten: ["Pflicht"],
+          regel: "die Pflicht = l'obligation, le devoir. „Obligation“ gibt es im Deutschen fast nur in der Finanzsprache."
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Nach dem Turnier ___ ich mich am Wochenende. (sich erholen)",
+          antworten: ["erhole"],
+          regel: "sich erholen ist reflexiv: ich erhole mich, du erholst dich."
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Wir haben einen Termin um 9 Uhr ___.",
+          optionen: ["vereinbart", "vereinbaren", "gevereinbart"], richtig: 0,
+          regel: "Verben mit ver- haben kein ge- im Partizip: vereinbaren → vereinbart."
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Wir verschieben die Stunde ___ Freitag.",
+          optionen: ["auf", "an", "zu"], richtig: 0,
+          regel: "etwas verschieben auf + Akkusativ: auf Freitag, auf nächste Woche."
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Das Spiel wurde wegen Regen ___. (verschieben, Partizip)",
+          antworten: ["verschoben"],
+          regel: "verschieben – verschob – hat verschoben (unregelmäßig, kein ge-)."
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Ich kann die Zwillinge nicht ___.",
+          optionen: ["unterscheiden", "unterschieden", "Unterschied"], richtig: 0,
+          regel: "unterscheiden (Verb) – der Unterschied (Nomen). Nach „kann“ steht der Infinitiv."
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Heute bist du nicht so ___ wie sonst.",
+          optionen: ["gesprächig", "gesprochen", "Gespräch"], richtig: 0,
+          regel: "gesprächig = bavard (Adjektiv). Synonym: redselig."
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Er hat zu viel Wein getrunken. Am nächsten Tag hat er einen ___.",
+          optionen: ["Kater", "Schweiß", "Unterschied"], richtig: 0,
+          regel: "einen Kater haben = avoir la gueule de bois. Achtung: der Kater ist auch le chat (mâle)."
+        },
+        {
+          typ: "satz", stufe: 3,
+          woerter: ["Ich", "glaube,", "dass", "du", "dich", "gut", "erholt", "hast."],
+          loesung: "Ich glaube, dass du dich gut erholt hast.",
+          regel: "Im dass-Satz steht das Verb am Ende (erholt hast), das Reflexivpronomen früh (dich)."
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Es ist mir ___, dass ich zu spät komme.",
+          optionen: ["unangenehm", "angenehm", "günstig"], richtig: 0,
+          regel: "Wiederholung (20.11.): unangenehm = désagréable, angenehm = agréable."
+        },
+        {
+          typ: "luecke", stufe: 1,
+          text: "Mach dir keine ___! (die Sorge, Plural)",
+          antworten: ["Sorgen"],
+          regel: "Wiederholung (20.11.): Mach dir keine Sorgen! = Ne t'inquiète pas !"
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Das Schiff schwankt, aber es geht nicht ___.",
+          optionen: ["unter", "auf", "aus"], richtig: 0,
+          regel: "Wiederholung (20.11.): untergehen = couler, sombrer (trennbar)."
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Bei Ebbe ist der Wasserstand ___.",
+          optionen: ["niedrig", "hoch", "warm"], richtig: 0,
+          regel: "Wiederholung (16.11.): die Ebbe = la marée basse, die Flut = la marée haute."
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Wir haben im Gebirge Beeren ___. (sammeln, Partizip)",
+          antworten: ["gesammelt"],
+          regel: "Wiederholung (16.11.): sammeln – hat gesammelt."
+        },
+        {
+          typ: "sprechen", stufe: 2,
+          auftrag: "Gesund durch den Winter: Was machst du, wenn du krank bist? Lässt du dich impfen? Wie erholst du dich? Sprich etwa 1 Minute. Nimm dich auf und höre dich an.",
+          hinweis: "Wenn ich krank bin, trinke ich … / Ich lasse mich (nicht) impfen, weil … / Am Wochenende erhole ich mich …"
+        },
+        {
+          typ: "schreiben", stufe: 3,
+          auftrag: "Du bist krank und musst einen Termin verschieben. Schreibe eine kurze Nachricht (5 Sätze).",
+          checkliste: [
+            "Ich habe verschieben auf + Akkusativ benutzt.",
+            "Ich habe vereinbart benutzt.",
+            "Ich habe sich erholen benutzt.",
+            "Im Nebensatz (dass, weil) steht das Verb am Ende."
+          ],
+          muster: "Hallo Anna, leider bin ich krank und muss mich ein paar Tage erholen. Wir haben einen Termin am Dienstag um 9 Uhr vereinbart. Können wir ihn auf Freitag verschieben? Ich hoffe, dass dir das passt. Viele Grüße"
+        }
+      ]
+    },
+    {
+      id: "2026-11-26",
+      titel: "Butter streichen, als + Beruf, Pflicht + zu, nachahmen",
+      vokabeln: [
+        { de: "streichen (strich, hat gestrichen)", fr: "tartiner", en: "to spread", beispiel: "Ich streiche Butter auf das Brot." },
+        { de: "schmieren", fr: "tartiner (familier)", en: "to spread, to smear", beispiel: "Ich schmiere Butter auf das Brot." },
+        { de: "als (+ Beruf)", fr: "en tant que", en: "as", beispiel: "Als Arzt muss ich viel arbeiten." },
+        { de: "die Pflicht haben, … zu …", fr: "avoir l'obligation de …", en: "to have the duty to …", beispiel: "Ich habe die Pflicht, pünktlich zu sein." },
+        { de: "nachahmen (+ Akk.)", fr: "imiter", en: "to imitate", beispiel: "Kinder ahmen ihre Eltern nach." },
+        { de: "imitieren (+ Akk.)", fr: "imiter", en: "to imitate", beispiel: "Er imitiert seinen Lehrer." },
+        { de: "wagen, … zu …", fr: "oser …", en: "to dare to …", beispiel: "Viele wagen nicht, Deutsch zu sprechen." },
+        { de: "der Vorname", fr: "le prénom", en: "the first name", beispiel: "Mein Vorname ist Daniel." },
+        { de: "der Nachname", fr: "le nom de famille", en: "the surname", beispiel: "Wie ist Ihr Nachname?" }
+      ],
+      aufgaben: [
+        {
+          typ: "zuordnen", stufe: 1,
+          paare: [["streichen", "tartiner"], ["nachahmen", "imiter"], ["wagen", "oser"], ["der Vorname", "le prénom"], ["der Nachname", "le nom de famille"]],
+          regel: "Neue Wörter der Stunde."
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Ich streiche Butter auf ___ Brot.",
+          optionen: ["das", "dem", "der"], richtig: 0,
+          regel: "Wohin? → auf + Akkusativ: auf das Brot (kurz: aufs Brot)."
+        },
+        {
+          typ: "luecke", stufe: 1,
+          text: "Kannst du mir Butter aufs Brot ___? (tartiner)",
+          antworten: ["streichen", "schmieren"],
+          regel: "Butter streichen = Butter schmieren (schmieren ist umgangssprachlicher)."
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "___ Schiedsrichter muss ich die Regeln gut kennen.",
+          optionen: ["Als", "Wie", "Wenn"], richtig: 0,
+          regel: "als + Beruf/Rolle = en tant que: Als Arzt …, Als Schiedsrichter … (ohne Artikel)."
+        },
+        {
+          typ: "luecke", stufe: 3,
+          text: "Als ___ Arzt habe ich keine Pflicht, mich impfen zu lassen. (österreichisch)",
+          antworten: ["österreichischer"],
+          regel: "Adjektiv ohne Artikel, maskulin, Nominativ: -er (österreichischer Arzt, französischer Arzt)."
+        },
+        {
+          typ: "satz", stufe: 2,
+          woerter: ["Ich", "habe", "die", "Pflicht,", "pünktlich", "zu", "sein."],
+          loesung: "Ich habe die Pflicht, pünktlich zu sein.",
+          regel: "die Pflicht haben + zu + Infinitiv am Ende: …, pünktlich zu sein."
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Mein Bruder ahmt mich immer ___. (nachahmen)",
+          antworten: ["nach"],
+          regel: "nachahmen ist trennbar: Er ahmt mich nach. Perfekt: hat nachgeahmt."
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Er imitiert ___ sehr gut.",
+          optionen: ["mich", "mir", "ich"], richtig: 0,
+          regel: "imitieren und nachahmen + Akkusativ: Er imitiert mich."
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Viele Touristen wagen nicht, auf Deutsch ___.",
+          optionen: ["zu sprechen", "sprechen", "gesprochen"], richtig: 0,
+          regel: "wagen + zu + Infinitiv: Ich wage nicht, … zu sprechen."
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Daniel ist mein ___, nicht mein Nachname.",
+          optionen: ["Vorname", "Name", "Spitzname"], richtig: 0,
+          regel: "der Vorname = le prénom, der Nachname = le nom de famille. der Name kann beides sein."
+        },
+        {
+          typ: "luecke", stufe: 1,
+          text: "Nach einer Grippe muss ich mich gut ___. (se remettre)",
+          antworten: ["erholen"],
+          regel: "Wiederholung (25.11.): sich erholen = se reposer, se remettre."
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Was ist der ___ zwischen Ebbe und Flut?",
+          optionen: ["Unterschied", "Grund", "Kater"], richtig: 0,
+          regel: "Wiederholung (25.11.): der Unterschied zwischen … und … = la différence entre … et …"
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Der Kater ___ vor der Tür.",
+          optionen: ["miaut", "bellt", "schwitzt"], richtig: 0,
+          regel: "Wiederholung (20.11.): miauen: der Kater miaut (ein Hund bellt)."
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Beim Turnier treten wir ___ drei andere Mannschaften an.",
+          optionen: ["gegen", "mit", "für"], richtig: 0,
+          regel: "Wiederholung (16.11.): gegen + Akkusativ antreten."
+        },
+        {
+          typ: "sprechen", stufe: 2,
+          auftrag: "Wähle eine Rolle (Schiedsrichter, Arzt, Student) und erzähle: Welche Pflichten hast du in dieser Rolle? Sprich etwa 1 Minute. Nimm dich auf und höre dich an.",
+          hinweis: "Als Schiedsrichter habe ich die Pflicht, … zu … / Als Student muss ich … / Manche wagen nicht, … zu …"
+        },
+        {
+          typ: "schreiben", stufe: 3,
+          auftrag: "Deine Pflichten als Schiedsrichter oder Student: Schreibe 5 Sätze.",
+          checkliste: [
+            "Ich habe als + Beruf/Rolle benutzt.",
+            "Ich habe die Pflicht haben + zu + Infinitiv benutzt.",
+            "Ich habe wagen oder nachahmen benutzt.",
+            "Im Nebensatz (dass, weil) steht das Verb am Ende."
+          ],
+          muster: "Als Schiedsrichter habe ich viele Pflichten. Ich habe die Pflicht, die Regeln gut zu kennen. Manche Spieler wagen nicht, mit mir zu diskutieren. Junge Spieler ahmen oft die Profis nach. Ich finde es wichtig, dass ich immer ruhig bleibe."
+        }
+      ]
     }
   ]
 };

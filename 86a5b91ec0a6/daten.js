@@ -1095,6 +1095,159 @@ window.HEFT = {
           uebers: { fr: "Ton trajet pour aller au travail ou au sport : écris 4–5 phrases." }
         }
       ]
+    },
+    {
+      id: "2026-11-26",
+      titel: "Präpositionen und Nomen-Endungen",
+      vokabeln: [
+        { de: "gegenüber (+ Dativ)", en: "opposite", fr: "en face de", beispiel: "Ich wohne meinem Nachbarn gegenüber." },
+        { de: "höflich", en: "polite", fr: "poli", beispiel: "Ich bin höflich, wenn ich Kunden treffe." },
+        { de: "die Höflichkeit", en: "politeness", fr: "la politesse", beispiel: "Höflichkeit ist im Beruf wichtig." },
+        { de: "die Hilfe", en: "the help", fr: "l'aide", beispiel: "Danke für deine Hilfe!" },
+        { de: "der Grund", en: "the reason", fr: "la raison", beispiel: "Was ist der Grund?" },
+        { de: "begründen", en: "to justify, to give reasons", fr: "justifier", beispiel: "Ich begründe meine Antwort." },
+        { de: "der Gründer", en: "the founder", fr: "le fondateur", beispiel: "Er ist der Gründer der Firma." },
+        { de: "der Bagger", en: "the excavator", fr: "la pelleteuse", beispiel: "Der Bagger arbeitet auf der Baustelle." },
+        { de: "die Steuer", en: "the tax", fr: "l'impôt, la taxe", beispiel: "In Belgien zahlt man hohe Steuern." }
+      ],
+      aufgaben: [
+        {
+          typ: "zuordnen", stufe: 1,
+          paare: [["höflich", "poli"], ["der Grund", "la raison"], ["begründen", "justifier"], ["die Hilfe", "l'aide"], ["der Bagger", "la pelleteuse"]],
+          regel: "Neue Wörter der Stunde.",
+          uebers: { fr: "Relie les mots à leur traduction." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Die Bäckerei liegt ___ Bahnhof gegenüber.",
+          optionen: ["dem", "den", "der"], richtig: 0,
+          regel: "gegenüber + Dativ, oft nach dem Nomen: dem Bahnhof gegenüber (der Bahnhof → dem).",
+          uebers: { fr: "Choisis le bon article (datif)." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Ich lerne ___ zwei Jahren Deutsch.",
+          optionen: ["seit", "vor", "für"], richtig: 0,
+          regel: "seit + Dativ = depuis. Wie im Französischen steht das Verb im Präsens: Ich lerne seit zwei Jahren.",
+          uebers: { fr: "Choisis la bonne préposition (« depuis »)." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Das ist der Rucksack von ___ Freundin.",
+          optionen: ["meiner", "meine", "meinen"], richtig: 0,
+          regel: "von + Dativ: von meiner Freundin, von meinem Bruder.",
+          uebers: { fr: "Choisis la bonne forme (datif)." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Ich laufe durch ___ Wald.",
+          optionen: ["den", "dem", "der"], richtig: 0,
+          regel: "durch + Akkusativ = à travers: durch den Wald, durch die Stadt.",
+          uebers: { fr: "Choisis le bon article (accusatif)." }
+        },
+        {
+          typ: "luecke", stufe: 1,
+          text: "Wir sitzen ___ den Tisch.",
+          antworten: ["um"],
+          regel: "um + Akkusativ = autour de: um den Tisch. Bei der Uhrzeit: um 10 Uhr.",
+          uebers: { fr: "Complète avec la préposition (« autour de »)." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Ich helfe ___ Schwester.",
+          optionen: ["meiner", "meine", "mich"], richtig: 0,
+          regel: "helfen + Dativ: Ich helfe meiner Schwester, ich helfe dir.",
+          uebers: { fr: "Choisis la bonne forme (« helfen » + datif)." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Ich fliege ___ Spanien.",
+          optionen: ["nach", "zu", "in"], richtig: 0,
+          regel: "nach + Städte und Länder ohne Artikel: nach Spanien, nach Frankfurt. Auch: nach Hause.",
+          uebers: { fr: "Choisis la bonne préposition." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "___ Mädchen spielt im Park.",
+          optionen: ["Das", "Die", "Der"], richtig: 0,
+          regel: "Nomen auf -chen sind immer neutral: das Mädchen, das Brötchen.",
+          uebers: { fr: "Choisis le bon article (mots en -chen)." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "___ Höflichkeit ist im Beruf wichtig.",
+          optionen: ["Die", "Der", "Das"], richtig: 0,
+          regel: "Nomen auf -heit, -keit und -ung sind immer feminin: die Höflichkeit, die Freiheit, die Wohnung.",
+          uebers: { fr: "Choisis le bon article (mots en -keit)." }
+        },
+        {
+          typ: "satz", stufe: 2,
+          woerter: ["Ich", "danke", "meinen", "Eltern", "für", "die", "Hilfe."],
+          loesung: "Ich danke meinen Eltern für die Hilfe.",
+          regel: "jemandem danken + Dativ (meinen Eltern), für + Akkusativ (die Hilfe).",
+          uebers: { fr: "Mets les mots dans le bon ordre." }
+        },
+        {
+          typ: "mc", stufe: 3,
+          frage: "Im Auto halte ich ___ Steuer mit beiden Händen.",
+          optionen: ["das", "die", "der"], richtig: 0,
+          regel: "das Steuer = le volant (wie das Lenkrad). die Steuer = l'impôt. Der Artikel ändert die Bedeutung!",
+          uebers: { fr: "Choisis le bon article (« le volant »)." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Ich gehe ___ Arzt.",
+          optionen: ["zum", "zur", "im"], richtig: 0,
+          regel: "Wiederholung (24.11.): zu + dem = zum (der Arzt), zu + der = zur (die Arbeit).",
+          uebers: { fr: "Choisis la bonne forme (zu + dem = zum)." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Wir leben ___ 21. Jahrhundert.",
+          optionen: ["im", "am", "um"], richtig: 0,
+          regel: "Wiederholung (24.11.): in + dem = im: im 21. Jahrhundert.",
+          uebers: { fr: "Choisis la bonne forme." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Das ist nicht der Fehler ___ Kinder.",
+          optionen: ["der", "des", "den"], richtig: 0,
+          regel: "Wiederholung (22.11.): Genitiv Plural = der: der Fehler der Kinder.",
+          uebers: { fr: "Choisis l'article au génitif pluriel." }
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Ich will meine Kinder gut ___. (éduquer)",
+          antworten: ["erziehen"],
+          regel: "Wiederholung (22.11.): erziehen + Akkusativ: Ich will sie gut erziehen. Mit „wollen“ steht der Infinitiv am Ende.",
+          uebers: { fr: "Complète avec le verbe « éduquer »." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Nach zu viel Handy bin ich oft ___.",
+          optionen: ["gereizt", "gereist", "reizen"], richtig: 0,
+          regel: "Wiederholung (22.11.): gereizt sein = être à cran. (gereist = voyagé, von „reisen“.)",
+          uebers: { fr: "Choisis le bon mot (« à cran »)." }
+        },
+        {
+          typ: "sprechen", stufe: 2,
+          auftrag: "Hilfe und Höflichkeit: Wem hilfst du oft? Wem dankst du? Wann bist du besonders höflich? Sprich 4 Sätze. Nimm dich auf und höre dich an.",
+          hinweis: "Ich helfe oft meiner … / Ich danke meinen … für … / Ich bin höflich, wenn … / Höflichkeit ist wichtig, weil …",
+          uebers: { fr: "L'aide et la politesse : dis 4 phrases. Enregistre-toi et écoute-toi." }
+        },
+        {
+          typ: "schreiben", stufe: 3,
+          auftrag: "Dein Tag mit Präpositionen: Schreibe 4–5 Sätze.",
+          checkliste: [
+            "Ich habe gegenüber + Dativ benutzt.",
+            "Ich habe durch oder um benutzt.",
+            "Ich habe seit + Dativ benutzt (seit zwei Jahren).",
+            "Ich habe nach + Stadt oder Land benutzt."
+          ],
+          muster: "Ich wohne einem kleinen Park gegenüber. Jeden Morgen laufe ich durch den Park. Um 8 Uhr fahre ich zur Arbeit. Seit zwei Jahren lerne ich Deutsch. Im Sommer fliege ich nach Spanien.",
+          uebers: { fr: "Ta journée avec des prépositions : écris 4–5 phrases." }
+        }
+      ]
     }
   ]
 };
