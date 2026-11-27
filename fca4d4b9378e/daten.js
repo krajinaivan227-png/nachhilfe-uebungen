@@ -1646,6 +1646,135 @@ window.HEFT = {
           muster: "Als Schiedsrichter habe ich viele Pflichten. Ich habe die Pflicht, die Regeln gut zu kennen. Manche Spieler wagen nicht, mit mir zu diskutieren. Junge Spieler ahmen oft die Profis nach. Ich finde es wichtig, dass ich immer ruhig bleibe."
         }
       ]
+    },
+    {
+      id: "2026-11-27",
+      titel: "Ausweis & Führerschein, vorsichtig, üblicherweise, Schnee",
+      vokabeln: [
+        { de: "streicheln (+ Akk.)", fr: "caresser", en: "to stroke, to pet", beispiel: "Ich streichle meinen Kater." },
+        { de: "der Pass", fr: "le passeport", en: "the passport", beispiel: "Für die Reise brauche ich meinen Pass." },
+        { de: "der Ausweis", fr: "la carte d'identité", en: "the ID card", beispiel: "In meinem Ausweis stehen drei Vornamen." },
+        { de: "der Führerschein", fr: "le permis de conduire", en: "the driving licence", beispiel: "Ohne Führerschein darf man nicht Auto fahren." },
+        { de: "vorsichtig", fr: "prudent", en: "careful", beispiel: "Du fährst sehr vorsichtig." },
+        { de: "die Vorsicht", fr: "la prudence", en: "caution", beispiel: "Vorsicht, die Straße ist glatt!" },
+        { de: "zu Fuß", fr: "à pied", en: "on foot", beispiel: "Nach der Uni gehe ich zu Fuß nach Hause." },
+        { de: "üblich / üblicherweise", fr: "habituel / d'habitude", en: "usual / usually", beispiel: "Üblicherweise schneit es im Januar viel." },
+        { de: "schneien (es hat geschneit)", fr: "neiger", en: "to snow", beispiel: "Heute schneit es." },
+        { de: "die Grenze", fr: "la frontière", en: "the border", beispiel: "An der Grenze zeige ich meinen Pass." }
+      ],
+      aufgaben: [
+        {
+          typ: "zuordnen", stufe: 1,
+          paare: [["der Pass", "le passeport"], ["der Ausweis", "la carte d'identité"], ["der Führerschein", "le permis de conduire"], ["zu Fuß", "à pied"], ["die Grenze", "la frontière"]],
+          regel: "Neue Wörter der Stunde."
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Ich ___ meinen Kater.",
+          optionen: ["streichle", "streichelst", "streichelt"], richtig: 0,
+          regel: "streicheln: ich streichle (auch: streichele), du streichelst, er streichelt."
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Du ___ den Hund. (streicheln)",
+          antworten: ["streichelst"],
+          regel: "streicheln: du streichelst."
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Bei der Kontrolle an der ___ zeige ich meinen Pass.",
+          optionen: ["Grenze", "Vorsicht", "Straße"], richtig: 0,
+          regel: "die Grenze = la frontière; an der Grenze (Dativ, wo?)."
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Ohne ___ darf man nicht Auto fahren.",
+          optionen: ["Führerschein", "Pass", "Vornamen"], richtig: 0,
+          regel: "der Führerschein = le permis de conduire."
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Es gibt viel Schnee. Fahr bitte ___! (prudent)",
+          antworten: ["vorsichtig"],
+          regel: "vorsichtig = Adjektiv/Adverb: vorsichtig fahren."
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "___, die Straße ist glatt!",
+          optionen: ["Vorsicht", "Vorsichtig", "Vorsichtigkeit"], richtig: 0,
+          regel: "die Vorsicht = Nomen. Als Warnung sagt man: Vorsicht!"
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Nach der Uni gehe ich ___ nach Hause.",
+          optionen: ["zu Fuß", "mit Fuß", "auf Fuß"], richtig: 0,
+          regel: "zu Fuß gehen = aller à pied."
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Trinkgeld geben ist in Österreich ganz ___.",
+          optionen: ["üblich", "üblicherweise", "vorsichtig"], richtig: 0,
+          regel: "üblich = Adjektiv (das ist üblich); üblicherweise = Adverb (Üblicherweise gebe ich …)."
+        },
+        {
+          typ: "satz", stufe: 3,
+          woerter: ["Üblicherweise", "schneit", "es", "im", "Januar", "viel."],
+          loesung: "Üblicherweise schneit es im Januar viel.",
+          regel: "Adverb auf Position 1 → Verb auf Position 2, dann das Subjekt: Üblicherweise schneit es …"
+        },
+        {
+          typ: "luecke", stufe: 1,
+          text: "Im Winter ___ es in den Alpen oft. (schneien)",
+          antworten: ["schneit"],
+          regel: "schneien: es schneit = il neige. Es gibt Schnee = il y a de la neige."
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Gestern hat es den ganzen Tag ___.",
+          optionen: ["geschneit", "geschnien", "geschneien"], richtig: 0,
+          regel: "schneien ist regelmäßig: es hat geschneit."
+        },
+        {
+          typ: "luecke", stufe: 1,
+          text: "Ich streiche Butter ___ das Brot.",
+          antworten: ["auf"],
+          regel: "Wiederholung (26.11.): Butter auf das Brot streichen (Akkusativ). Achtung: streichen ≠ streicheln."
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Als Schiedsrichter habe ich die Pflicht, ruhig ___.",
+          optionen: ["zu bleiben", "bleiben", "geblieben"], richtig: 0,
+          regel: "Wiederholung (26.11.): die Pflicht haben + zu + Infinitiv."
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Können wir den Termin ___ Freitag verschieben?",
+          optionen: ["auf", "an", "zu"], richtig: 0,
+          regel: "Wiederholung (25.11.): etwas auf + Akkusativ verschieben."
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Das Schiff ist im Sturm ___.",
+          optionen: ["untergegangen", "untergeht", "geuntergangen"], richtig: 0,
+          regel: "Wiederholung (20.11.): untergehen – ist untergegangen (Perfekt mit sein, trennbar)."
+        },
+        {
+          typ: "sprechen", stufe: 2,
+          auftrag: "Winter: Was machst du üblicherweise, wenn es viel schneit? Fährst du Auto, nimmst du den Bus oder gehst du zu Fuß? Sprich etwa 1 Minute. Nimm dich auf und höre dich an.",
+          hinweis: "Üblicherweise … / Wenn es schneit, fahre ich vorsichtig … / Ich gehe lieber zu Fuß, weil …"
+        },
+        {
+          typ: "schreiben", stufe: 3,
+          auftrag: "Du fährst im Winter mit dem Auto nach Österreich. Was brauchst du, worauf musst du achten? Schreibe 5 Sätze.",
+          checkliste: [
+            "Ich habe Pass, Ausweis oder Führerschein benutzt.",
+            "Ich habe vorsichtig oder Vorsicht benutzt.",
+            "Nach üblicherweise steht das Verb auf Position 2.",
+            "Im Nebensatz (dass, weil, wenn) steht das Verb am Ende."
+          ],
+          muster: "Für die Reise brauche ich meinen Ausweis und meinen Führerschein. An der Grenze gibt es manchmal eine Kontrolle. Im Winter schneit es in den Alpen üblicherweise viel. Deshalb fahre ich sehr vorsichtig. Ich hoffe, dass die Straßen frei sind."
+        }
+      ]
     }
   ]
 };

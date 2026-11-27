@@ -773,6 +773,128 @@ window.HEFT = {
           uebers: { en: "You work in a clothing shop. Write 4 sentences about your work and the customers." }
         }
       ]
+    },
+    {
+      id: "2026-11-27",
+      titel: "Truthahn, Kater, Gewalt – Perfekt mit essen",
+      vokabeln: [
+        { de: "die Gewalt", en: "violence", fr: "la violence", beispiel: "Gewalt ist keine Lösung." },
+        { de: "gewalttätig", en: "violent", fr: "violent", beispiel: "Der Gangster im Film ist sehr gewalttätig." },
+        { de: "der Truthahn", en: "the turkey", fr: "la dinde", beispiel: "An Thanksgiving essen viele Amerikaner Truthahn." },
+        { de: "das Kartoffelpüree", en: "mashed potatoes", fr: "la purée de pommes de terre", beispiel: "Zum Truthahn gibt es Kartoffelpüree." },
+        { de: "der Kater (Tier)", en: "the tomcat (male cat)", fr: "le chat (mâle)", beispiel: "Unser Kater schläft den ganzen Tag." },
+        { de: "einen Kater haben", en: "to have a hangover", fr: "avoir la gueule de bois", beispiel: "Nach der Party hat er einen Kater." }
+      ],
+      aufgaben: [
+        {
+          typ: "zuordnen", stufe: 1,
+          paare: [["die Gewalt", "violence"], ["gewalttätig", "violent"], ["der Truthahn", "the turkey"], ["das Kartoffelpüree", "mashed potatoes"]],
+          regel: "Neue Wörter der Stunde.",
+          uebers: { en: "Match the German words with the English ones." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Ich habe gestern einen Truthahn ___.",
+          optionen: ["gegessen", "essen", "gegesst"], richtig: 0,
+          regel: "Perfekt: haben + Partizip am Ende. essen → gegessen.",
+          uebers: { en: "Choose the right form (“I ate a turkey yesterday”)." }
+        },
+        {
+          typ: "satz", stufe: 2,
+          woerter: ["Ich", "habe", "gestern", "Kartoffelpüree", "gegessen"],
+          loesung: "Ich habe gestern Kartoffelpüree gegessen",
+          regel: "Perfekt: habe auf Position 2, gegessen ganz am Ende.",
+          uebers: { en: "Put the words in the right order." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Ich habe ___ Truthahn gegessen.",
+          optionen: ["einen", "ein", "eine"], richtig: 0,
+          regel: "der Truthahn → Akkusativ: einen Truthahn.",
+          uebers: { en: "Choose the right article (accusative)." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Nach der Party hat Tom Kopfschmerzen. Er hat einen ___.",
+          optionen: ["Kater", "Truthahn", "Grund"], richtig: 0,
+          regel: "einen Kater haben = to have a hangover.",
+          uebers: { en: "Choose the right word (“he has a hangover”)." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Eine männliche Katze ist ein ___.",
+          optionen: ["Kater", "Hund", "Truthahn"], richtig: 0,
+          regel: "der Kater = male cat. Achtung: einen Kater haben = to have a hangover.",
+          uebers: { en: "What is a male cat called?" }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Ich mag keine Filme mit viel ___.",
+          optionen: ["Gewalt", "gewalttätig", "Gewalten"], richtig: 0,
+          regel: "die Gewalt = Nomen (violence), gewalttätig = Adjektiv (violent).",
+          uebers: { en: "Choose the noun (“violence”)." }
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Der Gangster im Spiel schlägt alle. Er ist sehr ___. (violent)",
+          antworten: ["gewalttätig"],
+          regel: "gewalttätig = violent (Adjektiv).",
+          uebers: { en: "Fill in the German word for “violent”." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "Er hat zu viel Bier getrunken. Er ist ___.",
+          optionen: ["betrunken", "süß", "offen"], richtig: 0,
+          regel: "Wiederholung (12.11.): betrunken = drunk.",
+          uebers: { en: "Choose the right word (“drunk”)." }
+        },
+        {
+          typ: "satz", stufe: 2,
+          woerter: ["Hoffentlich", "bleibst", "du", "gesund"],
+          loesung: "Hoffentlich bleibst du gesund",
+          regel: "Wiederholung (12.11.): Hoffentlich auf Position 1, dann das Verb.",
+          uebers: { en: "Put the words in the right order (“Hopefully you stay healthy”)." }
+        },
+        {
+          typ: "mc", stufe: 2,
+          frage: "Ab sofort ___ weniger Döner.",
+          optionen: ["esse ich", "ich esse", "essen ich"], richtig: 0,
+          regel: "Wiederholung (20.11.): Ab sofort auf Position 1 → Verb auf Position 2: Ab sofort esse ich …",
+          uebers: { en: "Choose the right word order (“From now on I eat …”)." }
+        },
+        {
+          typ: "luecke", stufe: 2,
+          text: "Wir freuen ___ auf das Wochenende.",
+          antworten: ["uns"],
+          regel: "Wiederholung (20.11.): sich freuen: wir freuen uns.",
+          uebers: { en: "Fill in the missing word (“we look forward to …”)." }
+        },
+        {
+          typ: "mc", stufe: 1,
+          frage: "In den USA gibt man im Restaurant oft 20 Prozent ___.",
+          optionen: ["Trinkgeld", "Kunde", "Grund"], richtig: 0,
+          regel: "Wiederholung (20.11.): Trinkgeld geben = to tip.",
+          uebers: { en: "Choose the right word (“tip”)." }
+        },
+        {
+          typ: "sprechen", stufe: 2,
+          auftrag: "Was hast du bei deinem letzten Festessen gegessen? Was magst du, was magst du nicht? Sprich 4 Sätze. Nimm dich auf und höre dich an.",
+          hinweis: "Ich habe … gegessen. / Es gab … / Ich mag … / Ich freue mich auf …",
+          uebers: { en: "What did you eat at your last big festive meal? What do you like and not like? Say 4 sentences. Record yourself and listen." }
+        },
+        {
+          typ: "schreiben", stufe: 3,
+          auftrag: "Schreibe 4 Sätze über dein letztes Festessen.",
+          checkliste: [
+            "Ich habe das Perfekt benutzt (habe … gegessen).",
+            "Ich habe einen + Nomen (der) benutzt.",
+            "Ich habe ein Wort aus der Stunde benutzt.",
+            "Jeder Satz beginnt groß und endet mit einem Punkt."
+          ],
+          muster: "Gestern war Thanksgiving. Ich habe einen Truthahn mit Kartoffelpüree gegessen. Danach habe ich noch Mac and Cheese gegessen. Ich freue mich schon auf das nächste Festessen.",
+          uebers: { en: "Write 4 sentences about your last festive meal." }
+        }
+      ]
     }
   ]
 };
