@@ -4,6 +4,977 @@ window.NACHRICHTEN = {
  "spiel": false,
  "tage": [
   {
+   "datum": "2026-11-27",
+   "nachrichten": [
+    {
+     "kategorie": "Wirtschaft",
+     "titel": "Die EZB bekommt einen neuen Chef",
+     "text": "Die Europäische Zentralbank (EZB) bekommt einen neuen Chef. Die Regierungschefs der EU haben sich am Donnerstag auf den Spanier Pablo Hernández de Cos geeinigt. Er ist der erste Spanier an der Spitze der EZB.\n\nDie EZB passt auf den Euro auf. Sie soll dafür sorgen, dass die Preise nicht zu schnell steigen. Die jetzige Chefin Christine Lagarde hört früher auf als geplant: am 7. Februar 2027. Hernández de Cos war von 2018 bis 2024 Chef der spanischen Zentralbank. Jetzt arbeitet er in Basel in der Schweiz.",
+     "vokabeln": [
+      {
+       "de": "die Zentralbank",
+       "im_text": "Zentralbank",
+       "erkl": "die wichtigste Bank eines Landes oder einer Währung; sie macht keine Geschäfte mit normalen Kunden"
+      },
+      {
+       "de": "sich einigen",
+       "im_text": "geeinigt",
+       "erkl": "nach einem Gespräch dieselbe Meinung haben"
+      },
+      {
+       "de": "die Spitze",
+       "im_text": "Spitze",
+       "erkl": "hier: die höchste Position, der Chefposten"
+      },
+      {
+       "de": "aufpassen auf",
+       "im_text": "passt",
+       "erkl": "auf etwas achten, damit nichts Schlimmes passiert"
+      },
+      {
+       "de": "sorgen für",
+       "im_text": "sorgen",
+       "erkl": "etwas tun, damit etwas passiert"
+      },
+      {
+       "de": "steigen",
+       "im_text": "steigen",
+       "erkl": "höher werden, mehr werden"
+      },
+      {
+       "de": "aufhören",
+       "im_text": "hört",
+       "erkl": "mit etwas Schluss machen"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Woher kommt der neue Chef der EZB?",
+       "optionen": [
+        "aus Frankreich",
+        "aus Spanien",
+        "aus der Schweiz"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Christine Lagarde bleibt länger als geplant.",
+       "richtig": false,
+       "erkl": "Sie hört früher auf, am 7. Februar 2027."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die EZB soll dafür sorgen, dass die Preise nicht zu schnell steigen.",
+       "richtig": true
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wann haben sich die Regierungschefs geeinigt?",
+         "am Donnerstag"
+        ],
+        [
+         "Wann hört Lagarde auf?",
+         "am 7. Februar 2027"
+        ],
+        [
+         "Wo arbeitet Hernández de Cos jetzt?",
+         "in Basel"
+        ]
+       ]
+      },
+      {
+       "typ": "offen",
+       "frage": "Was hat Hernández de Cos von 2018 bis 2024 gemacht?",
+       "loesung": "Er war Chef der spanischen Zentralbank."
+      }
+     ],
+     "diskussion": [
+      "Merkst du, dass die Preise steigen? Wo?",
+      "Würdest du gern in einer Bank arbeiten? Warum (nicht)?"
+     ],
+     "uebungen": [
+      {
+       "typ": "zuordnen",
+       "titel": "Gegenteile",
+       "anweisung": "Finde die Paare.",
+       "paare": [
+        [
+         "steigen",
+         "sinken"
+        ],
+        [
+         "aufhören",
+         "anfangen"
+        ],
+        [
+         "früher",
+         "später"
+        ],
+        [
+         "der Chef",
+         "der Mitarbeiter"
+        ]
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Trennbare Verben",
+       "anweisung": "Schreib das Verb in der richtigen Form.",
+       "items": [
+        {
+         "text": "Lagarde ___ im Februar auf. (aufhören)",
+         "loesung": [
+          "hört"
+         ]
+        },
+        {
+         "text": "Die EZB ___ auf den Euro auf. (aufpassen)",
+         "loesung": [
+          "passt"
+         ]
+        },
+        {
+         "text": "Der neue Chef ___ im Februar an. (anfangen)",
+         "loesung": [
+          "fängt"
+         ]
+        },
+        {
+         "text": "Wann ___ du heute mit der Arbeit auf? (aufhören)",
+         "loesung": [
+          "hörst"
+         ]
+        }
+       ],
+       "regel": "Trennbare Verben: Der Verbteil steht auf Position 2, die Vorsilbe (auf, an) steht am Ende. anfangen: er fängt … an (mit Umlaut)."
+      },
+      {
+       "typ": "auswahl",
+       "titel": "also und vielleicht",
+       "anweisung": "Wähle die richtige Form.",
+       "items": [
+        {
+         "text": "Lagarde hört auf. Also ___ einen neuen Chef.",
+         "optionen": [
+          "braucht die EZB",
+          "die EZB braucht"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Vielleicht ___ bald langsamer.",
+         "optionen": [
+          "steigen die Preise",
+          "die Preise steigen"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Ich war krank. Also ___ zu Hause geblieben.",
+         "optionen": [
+          "bin ich",
+          "ich bin"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Vielleicht ___ eine 6 im Deutschtest.",
+         "optionen": [
+          "bekomme ich",
+          "ich bekomme"
+         ],
+         "richtig": 0
+        }
+       ],
+       "regel": "Wiederholung (26.11.): Nach „also“ und „vielleicht“ auf Position 1 kommt sofort das Verb: Also habe ich …, Vielleicht bekomme ich …"
+      }
+     ]
+    },
+    {
+     "kategorie": "Wissenschaft",
+     "titel": "Klimawandel: Bald viel mehr Blitze?",
+     "text": "Forscher der Technischen Universität München haben untersucht, wie der Klimawandel die Blitze verändert. Das Ergebnis: Wenn die Menschen weiter sehr viel CO2 ausstoßen, kann es um das Jahr 2100 an Land 76 bis 140 Prozent mehr Blitzeinschläge geben als heute.\n\nIn Deutschland rechnen die Forscher mit 32 bis 83 Prozent mehr Blitzen. Besonders stark steigt die Zahl im kalten Norden, zum Beispiel in Alaska. Schon seit Anfang des 20. Jahrhunderts ist die Zahl der Blitze um etwa elf Prozent gestiegen.",
+     "vokabeln": [
+      {
+       "de": "untersuchen",
+       "im_text": "untersucht",
+       "erkl": "etwas genau prüfen, um es zu verstehen"
+      },
+      {
+       "de": "der Klimawandel",
+       "im_text": "Klimawandel",
+       "erkl": "das Klima auf der Erde ändert sich, es wird wärmer"
+      },
+      {
+       "de": "verändern",
+       "im_text": "verändert",
+       "erkl": "anders machen"
+      },
+      {
+       "de": "ausstoßen",
+       "im_text": "ausstoßen",
+       "erkl": "Gas oder Rauch in die Luft geben"
+      },
+      {
+       "de": "der Blitzeinschlag",
+       "im_text": "Blitzeinschläge",
+       "erkl": "ein Blitz trifft den Boden, einen Baum oder ein Haus"
+      },
+      {
+       "de": "rechnen mit",
+       "im_text": "rechnen",
+       "erkl": "glauben, dass etwas wahrscheinlich passiert"
+      },
+      {
+       "de": "das Jahrhundert",
+       "im_text": "Jahrhunderts",
+       "erkl": "eine Zeit von hundert Jahren"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wo arbeiten die Forscher?",
+       "optionen": [
+        "in Alaska",
+        "in München",
+        "in Wien"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "In Deutschland gibt es laut Studie bald weniger Blitze.",
+       "richtig": false,
+       "erkl": "Die Forscher rechnen mit 32 bis 83 Prozent mehr Blitzen."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Im kalten Norden steigt die Zahl besonders stark.",
+       "richtig": true
+      },
+      {
+       "typ": "mc",
+       "frage": "Um wie viel Prozent ist die Zahl der Blitze seit Anfang des 20. Jahrhunderts gestiegen?",
+       "optionen": [
+        "um etwa elf Prozent",
+        "um 76 Prozent",
+        "um 140 Prozent"
+       ],
+       "richtig": 0
+      },
+      {
+       "typ": "offen",
+       "frage": "Wann gibt es besonders viele Blitze?",
+       "loesung": "Wenn die Menschen weiter sehr viel CO2 ausstoßen."
+      }
+     ],
+     "diskussion": [
+      "Wie ist das Wetter im Sommer in deiner Heimat? Gibt es viele Gewitter?",
+      "Was kann man gegen den Klimawandel tun?"
+     ],
+     "uebungen": [
+      {
+       "typ": "eingabe",
+       "titel": "Komparativ",
+       "anweisung": "Ergänze die Form mit -er.",
+       "items": [
+        {
+         "text": "Die Erde wird ___. (warm)",
+         "loesung": [
+          "wärmer"
+         ]
+        },
+        {
+         "text": "Im Norden ist es ___ als im Süden. (kalt)",
+         "loesung": [
+          "kälter"
+         ]
+        },
+        {
+         "text": "Die Gewitter werden ___. (stark)",
+         "loesung": [
+          "stärker"
+         ]
+        },
+        {
+         "text": "Die Zahl wird ___. (groß)",
+         "loesung": [
+          "größer"
+         ]
+        }
+       ],
+       "regel": "Komparativ: Adjektiv + -er. Kurze Adjektive mit a, o, u bekommen oft einen Umlaut: warm → wärmer, groß → größer."
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Nomen auf -heit und -keit",
+       "anweisung": "Bilde das Nomen.",
+       "items": [
+        {
+         "text": "sicher → die ___",
+         "loesung": [
+          "Sicherheit"
+         ]
+        },
+        {
+         "text": "möglich → die ___",
+         "loesung": [
+          "Möglichkeit"
+         ]
+        },
+        {
+         "text": "wahrscheinlich → die ___",
+         "loesung": [
+          "Wahrscheinlichkeit"
+         ]
+        },
+        {
+         "text": "krank → die ___",
+         "loesung": [
+          "Krankheit"
+         ]
+        }
+       ],
+       "regel": "Adjektiv + -heit oder -keit (nach -lich, -ig meist -keit). Alle sind feminin."
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Rechnen mit Prozent",
+       "anweisung": "Rechne und schreib die Zahl.",
+       "items": [
+        {
+         "text": "Heute 100 Blitze, plus 76 Prozent: ___ Blitze",
+         "loesung": [
+          "176"
+         ]
+        },
+        {
+         "text": "Heute 100 Blitze, plus 140 Prozent: ___ Blitze",
+         "loesung": [
+          "240"
+         ]
+        },
+        {
+         "text": "Heute 200 Blitze, plus 50 Prozent: ___ Blitze",
+         "loesung": [
+          "300"
+         ]
+        },
+        {
+         "text": "Heute 50 Blitze, plus 100 Prozent: ___ Blitze",
+         "loesung": [
+          "100"
+         ]
+        }
+       ],
+       "regel": "plus 100 Prozent = doppelt so viel. plus 50 Prozent = die Hälfte dazu."
+      }
+     ]
+    },
+    {
+     "kategorie": "Freizeit",
+     "titel": "Österreich: Die Skisaison beginnt",
+     "text": "In Österreich beginnt die Skisaison. Nach dem vielen Schnee der letzten Tage öffnen an diesem Wochenende viele Skigebiete. In Schladming fahren ab Samstag alle Lifte auf der Planai und der Hochwurzen. Auch in Hinterstoder und auf der Wurzeralm in Oberösterreich geht es am Samstag los. In Ischgl hat die Saison schon am Donnerstag begonnen.\n\nDas Wetter am Wochenende: oft sonnig, aber sehr kalt. Laut Prognosen sinken die Temperaturen in der Nacht vielerorts bis auf minus zehn Grad.",
+     "vokabeln": [
+      {
+       "de": "die Skisaison",
+       "im_text": "Skisaison",
+       "erkl": "die Zeit im Jahr, in der man Ski fahren kann"
+      },
+      {
+       "de": "das Skigebiet",
+       "im_text": "Skigebiete",
+       "erkl": "ein Ort in den Bergen mit Pisten und Liften"
+      },
+      {
+       "de": "der Lift",
+       "im_text": "Lifte",
+       "erkl": "er bringt die Leute auf den Berg"
+      },
+      {
+       "de": "losgehen",
+       "im_text": "geht",
+       "erkl": "anfangen, beginnen"
+      },
+      {
+       "de": "sonnig",
+       "im_text": "sonnig",
+       "erkl": "mit viel Sonne"
+      },
+      {
+       "de": "sinken",
+       "im_text": "sinken",
+       "erkl": "niedriger werden, weniger werden"
+      },
+      {
+       "de": "vielerorts",
+       "im_text": "vielerorts",
+       "erkl": "an vielen Orten"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wo hat die Saison schon am Donnerstag begonnen?",
+       "optionen": [
+        "in Schladming",
+        "in Ischgl",
+        "in Hinterstoder"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "In Schladming fahren ab Samstag alle Lifte.",
+       "richtig": true
+      },
+      {
+       "typ": "rf",
+       "aussage": "Am Wochenende wird es warm.",
+       "richtig": false,
+       "erkl": "Es wird sehr kalt, in der Nacht bis minus zehn Grad."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wann öffnen viele Skigebiete?",
+         "an diesem Wochenende"
+        ],
+        [
+         "Wo liegt die Wurzeralm?",
+         "in Oberösterreich"
+        ],
+        [
+         "Wie wird das Wetter?",
+         "sonnig, aber sehr kalt"
+        ]
+       ]
+      },
+      {
+       "typ": "offen",
+       "frage": "Warum können die Skigebiete jetzt öffnen?",
+       "loesung": "Weil es in den letzten Tagen viel geschneit hat."
+      }
+     ],
+     "diskussion": [
+      "Fährst du Ski oder Snowboard? Wenn nein: Möchtest du es lernen?",
+      "Was machst du gern an einem kalten Wintertag?"
+     ],
+     "uebungen": [
+      {
+       "typ": "eingabe",
+       "titel": "Perfekt mit sein",
+       "anweisung": "Ergänze die Form von „sein“.",
+       "items": [
+        {
+         "text": "Wir ___ am Samstag nach Schladming gefahren.",
+         "loesung": [
+          "sind"
+         ]
+        },
+        {
+         "text": "Ich ___ mit dem Lift auf den Berg gefahren.",
+         "loesung": [
+          "bin"
+         ]
+        },
+        {
+         "text": "Die Saison ___ am Donnerstag losgegangen.",
+         "loesung": [
+          "ist"
+         ]
+        },
+        {
+         "text": "___ du schon einmal Ski gefahren?",
+         "loesung": [
+          "Bist"
+         ]
+        }
+       ],
+       "regel": "Verben der Bewegung (fahren, gehen, losgehen) bilden das Perfekt mit „sein“."
+      },
+      {
+       "typ": "fehler",
+       "titel": "weil-Sätze",
+       "anweisung": "Ein Wort steht an der falschen Stelle.",
+       "items": [
+        {
+         "woerter": [
+          "Viele",
+          "reisen",
+          "nach",
+          "Schladming,",
+          "weil",
+          "die",
+          "Lifte",
+          "laufen",
+          "ab",
+          "Samstag."
+         ],
+         "fehler": 7,
+         "korrektur": "Viele reisen nach Schladming, weil die Lifte ab Samstag laufen.",
+         "erkl": "Im weil-Satz steht das konjugierte Verb am Ende."
+        },
+        {
+         "woerter": [
+          "Ich",
+          "nehme",
+          "eine",
+          "Mütze",
+          "mit,",
+          "weil",
+          "es",
+          "ist",
+          "sehr",
+          "kalt."
+         ],
+         "fehler": 7,
+         "korrektur": "Ich nehme eine Mütze mit, weil es sehr kalt ist.",
+         "erkl": "Im weil-Satz steht das konjugierte Verb am Ende."
+        },
+        {
+         "woerter": [
+          "Ich",
+          "bleibe",
+          "zu",
+          "Hause,",
+          "weil",
+          "ich",
+          "habe",
+          "Fieber."
+         ],
+         "fehler": 6,
+         "korrektur": "Ich bleibe zu Hause, weil ich Fieber habe.",
+         "erkl": "Im weil-Satz steht das konjugierte Verb am Ende."
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Wörter aus der letzten Stunde",
+       "anweisung": "Schreib das Wort richtig.",
+       "items": [
+        {
+         "text": "Ich ___ heute, Ski zu fahren. (versuchen)",
+         "loesung": [
+          "versuche"
+         ]
+        },
+        {
+         "text": "Der erste ___ war schwer. (Nomen von versuchen)",
+         "loesung": [
+          "Versuch"
+         ]
+        },
+        {
+         "text": "Ich habe eine neue Mütze ___. (bekommen)",
+         "loesung": [
+          "bekommen"
+         ]
+        },
+        {
+         "text": "Ich ___ die Skischuhe neben die Tür. (stellen)",
+         "loesung": [
+          "stelle"
+         ]
+        }
+       ],
+       "regel": "Wiederholung (26.11.): versuchen → der Versuch; bekommen → Perfekt: hat bekommen (ohne ge-); stellen + Akkusativ (neben die Tür)."
+      }
+     ]
+    },
+    {
+     "kategorie": "Feste",
+     "titel": "Lüttich: Das Weihnachtsdorf öffnet",
+     "text": "In Lüttich in Belgien öffnet heute, am Freitag, das „Village de Noël“, das Weihnachtsdorf. Am Abend um 19 Uhr wird es offiziell eröffnet.\n\nIm Zentrum der Stadt stehen rund 200 kleine Holzhütten. Mehr als 300 Handwerker verkaufen dort ihre Produkte, und natürlich kann man auch essen und trinken. Der Markt ist bis zum 2. Januar 2027 offen. Die Veranstalter erwarten fast 1,5 Millionen Besucher. Lüttich selbst hat nur rund 200 000 Einwohner.",
+     "vokabeln": [
+      {
+       "de": "das Weihnachtsdorf",
+       "im_text": "Weihnachtsdorf",
+       "erkl": "ein großer Weihnachtsmarkt mit vielen kleinen Häusern"
+      },
+      {
+       "de": "offiziell",
+       "im_text": "offiziell",
+       "erkl": "so, wie es die Stadt oder die Chefs offiziell sagen; mit Feier und Rede"
+      },
+      {
+       "de": "das Zentrum",
+       "im_text": "Zentrum",
+       "erkl": "die Mitte einer Stadt"
+      },
+      {
+       "de": "die Hütte",
+       "im_text": "Holzhütten",
+       "erkl": "ein kleines, einfaches Haus"
+      },
+      {
+       "de": "der Handwerker",
+       "im_text": "Handwerker",
+       "erkl": "eine Person, die Dinge mit den Händen herstellt"
+      },
+      {
+       "de": "der Veranstalter",
+       "im_text": "Veranstalter",
+       "erkl": "die Person oder Firma, die ein Fest organisiert"
+      },
+      {
+       "de": "erwarten",
+       "im_text": "erwarten",
+       "erkl": "glauben, dass etwas oder jemand kommt"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wann wird das Weihnachtsdorf offiziell eröffnet?",
+       "optionen": [
+        "am Freitag um 19 Uhr",
+        "am Samstag um 10 Uhr",
+        "am 2. Januar"
+       ],
+       "richtig": 0
+      },
+      {
+       "typ": "rf",
+       "aussage": "Im Weihnachtsdorf gibt es rund 200 Holzhütten.",
+       "richtig": true
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die Veranstalter erwarten etwa 15 000 Besucher.",
+       "richtig": false,
+       "erkl": "Sie erwarten fast 1,5 Millionen Besucher."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wo steht das Weihnachtsdorf?",
+         "im Zentrum der Stadt"
+        ],
+        [
+         "Wer verkauft dort Produkte?",
+         "mehr als 300 Handwerker"
+        ],
+        [
+         "Bis wann ist der Markt offen?",
+         "bis zum 2. Januar 2027"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Was kaufst oder isst du gern auf einem Weihnachtsmarkt?",
+      "Wie feiert man in deiner Heimat das Ende des Jahres?"
+     ],
+     "uebungen": [
+      {
+       "typ": "zuordnen",
+       "titel": "Wortfamilien",
+       "anweisung": "Finde die Paare.",
+       "paare": [
+        [
+         "verkaufen",
+         "der Verkäufer"
+        ],
+        [
+         "besuchen",
+         "der Besucher"
+        ],
+        [
+         "veranstalten",
+         "der Veranstalter"
+        ],
+        [
+         "eröffnen",
+         "die Eröffnung"
+        ]
+       ]
+      },
+      {
+       "typ": "fehler",
+       "titel": "dass-Sätze",
+       "anweisung": "Ein Wort steht an der falschen Stelle.",
+       "items": [
+        {
+         "woerter": [
+          "Ich",
+          "glaube,",
+          "dass",
+          "der",
+          "Markt",
+          "ist",
+          "sehr",
+          "schön."
+         ],
+         "fehler": 5,
+         "korrektur": "Ich glaube, dass der Markt sehr schön ist.",
+         "erkl": "Im dass-Satz steht das konjugierte Verb am Ende."
+        },
+        {
+         "woerter": [
+          "Mama",
+          "sagt,",
+          "dass",
+          "wir",
+          "fahren",
+          "am",
+          "Samstag",
+          "nach",
+          "Lüttich."
+         ],
+         "fehler": 4,
+         "korrektur": "Mama sagt, dass wir am Samstag nach Lüttich fahren.",
+         "erkl": "Im dass-Satz steht das konjugierte Verb am Ende."
+        },
+        {
+         "woerter": [
+          "Ich",
+          "hoffe,",
+          "dass",
+          "es",
+          "gibt",
+          "dort",
+          "Pizza."
+         ],
+         "fehler": 4,
+         "korrektur": "Ich hoffe, dass es dort Pizza gibt.",
+         "erkl": "Im dass-Satz steht das konjugierte Verb am Ende."
+        }
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Rechnen",
+       "anweisung": "Rechne und schreib die Zahl.",
+       "items": [
+        {
+         "text": "200 Hütten, 300 Handwerker: Es gibt ___ Handwerker mehr als Hütten.",
+         "loesung": [
+          "100"
+         ]
+        },
+        {
+         "text": "Offen vom 27. November bis zum 2. Januar (beide Tage zählen mit): ___ Tage",
+         "loesung": [
+          "37"
+         ]
+        },
+        {
+         "text": "1,5 Millionen Besucher in 37 Tagen: etwa ___ Besucher pro Tag (auf Tausend gerundet)",
+         "loesung": [
+          "41000",
+          "41 000",
+          "41.000"
+         ]
+        }
+       ],
+       "regel": "November hat 30 Tage, Dezember 31."
+      }
+     ]
+    },
+    {
+     "kategorie": "Technik",
+     "titel": "KI soll für Inhalte bezahlen",
+     "text": "Künstliche Intelligenz (KI) kann heute Texte, Musik und Videos erstellen. Die deutsche Bundesregierung will, dass KI-Firmen dafür bezahlen – zumindest dann, wenn ihre Inhalte mit den Werken von Menschen konkurrieren. Das Geld sollen Künstlerinnen und Künstler bekommen.\n\nAußerdem sollen Autoren und Musiker leichter Nein sagen können, wenn eine KI mit ihren Werken lernen will. Deutschland und 14 andere EU-Länder wünschen sich schnell ein neues EU-Gesetz. Die EU-Kommission plant ein Gesetzespaket für 2027.",
+     "vokabeln": [
+      {
+       "de": "erstellen",
+       "im_text": "erstellen",
+       "erkl": "machen, produzieren"
+      },
+      {
+       "de": "die Bundesregierung",
+       "im_text": "Bundesregierung",
+       "erkl": "die Regierung von ganz Deutschland"
+      },
+      {
+       "de": "der Inhalt",
+       "im_text": "Inhalte",
+       "erkl": "das, was in einem Text, Lied oder Video ist"
+      },
+      {
+       "de": "das Werk",
+       "im_text": "Werken",
+       "erkl": "etwas, das ein Künstler geschaffen hat: ein Buch, ein Lied, ein Bild"
+      },
+      {
+       "de": "konkurrieren",
+       "im_text": "konkurrieren",
+       "erkl": "gegeneinander kämpfen, zum Beispiel um Kunden"
+      },
+      {
+       "de": "leichter",
+       "im_text": "leichter",
+       "erkl": "einfacher, mit weniger Problemen"
+      },
+      {
+       "de": "sich wünschen",
+       "im_text": "wünschen",
+       "erkl": "gern haben wollen"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wer soll bezahlen?",
+       "optionen": [
+        "die Künstler",
+        "die KI-Firmen",
+        "die EU-Kommission"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Das Geld sollen Künstlerinnen und Künstler bekommen.",
+       "richtig": true
+      },
+      {
+       "typ": "rf",
+       "aussage": "Nur Deutschland wünscht sich ein neues EU-Gesetz.",
+       "richtig": false,
+       "erkl": "Auch 14 andere EU-Länder wünschen es sich."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Was kann KI erstellen?",
+         "Texte, Musik und Videos"
+        ],
+        [
+         "Wann plant die EU-Kommission ein Gesetzespaket?",
+         "für 2027"
+        ],
+        [
+         "Wer soll leichter Nein sagen können?",
+         "Autoren und Musiker"
+        ]
+       ]
+      },
+      {
+       "typ": "offen",
+       "frage": "Wann sollen die KI-Firmen bezahlen?",
+       "loesung": "Wenn ihre Inhalte mit den Werken von Menschen konkurrieren."
+      }
+     ],
+     "diskussion": [
+      "Hast du schon einmal Musik oder Bilder von einer KI gesehen oder gehört? Wie findest du das?",
+      "Sollen KI-Firmen Künstler bezahlen? Warum (nicht)?"
+     ],
+     "uebungen": [
+      {
+       "typ": "zuordnen",
+       "titel": "Wer macht was?",
+       "anweisung": "Finde die Paare.",
+       "paare": [
+        [
+         "der Autor",
+         "schreibt Bücher"
+        ],
+        [
+         "die Musikerin",
+         "macht Musik"
+        ],
+        [
+         "die Regierung",
+         "macht Politik"
+        ],
+        [
+         "die Firma",
+         "verkauft Produkte"
+        ]
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Nomen auf -ung",
+       "anweisung": "Bilde das Nomen.",
+       "items": [
+        {
+         "text": "regieren → die ___",
+         "loesung": [
+          "Regierung"
+         ]
+        },
+        {
+         "text": "bezahlen → die ___",
+         "loesung": [
+          "Bezahlung"
+         ]
+        },
+        {
+         "text": "planen → die ___",
+         "loesung": [
+          "Planung"
+         ]
+        },
+        {
+         "text": "erstellen → die ___",
+         "loesung": [
+          "Erstellung"
+         ]
+        }
+       ],
+       "regel": "Verb ohne -en + -ung = Nomen. Nomen auf -ung sind immer feminin: die Regierung."
+      },
+      {
+       "typ": "auswahl",
+       "titel": "falls oder dass?",
+       "anweisung": "Wähle das richtige Wort.",
+       "items": [
+        {
+         "text": "___ ich Zeit habe, spiele ich Counter-Strike.",
+         "optionen": [
+          "Falls",
+          "Dass"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Ich denke, ___ KI nützlich ist.",
+         "optionen": [
+          "dass",
+          "falls"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "___ eine KI Musik macht, soll die Firma zahlen.",
+         "optionen": [
+          "Falls",
+          "Dass"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Der Lehrer sagt, ___ wir im Test keine KI benutzen dürfen.",
+         "optionen": [
+          "dass",
+          "falls"
+         ],
+         "richtig": 0
+        }
+       ],
+       "regel": "Wiederholung (26.11.): falls = wenn (vielleicht). Nach „falls“ und „dass“ steht das Verb am Ende: Falls ich Zeit habe, …"
+      }
+     ]
+    }
+   ]
+  },
+  {
    "datum": "2026-11-26",
    "nachrichten": [
     {

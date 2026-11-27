@@ -4,6 +4,931 @@ window.NACHRICHTEN = {
  "spiel": true,
  "tage": [
   {
+   "datum": "2026-11-27",
+   "nachrichten": [
+    {
+     "kategorie": "Wissenschaft",
+     "titel": "Mehr Blitze in der Zukunft",
+     "text": "Forscher aus München haben eine Studie gemacht. Das Thema sind Blitze. Die Erde wird wärmer. Warme Luft bringt mehr Gewitter.\n\nDas Ergebnis: Im Jahr 2100 gibt es vielleicht fast doppelt so viele Blitze wie heute. In Deutschland sind es vielleicht 30 bis 80 Prozent mehr. Im kalten Norden, zum Beispiel in Alaska, gibt es dann sogar viel mehr Blitze.",
+     "vokabeln": [
+      {
+       "de": "der Forscher",
+       "im_text": "Forscher",
+       "erkl": "eine Person, die etwas genau untersucht und Neues herausfindet"
+      },
+      {
+       "de": "die Studie",
+       "im_text": "Studie",
+       "erkl": "eine genaue Untersuchung von Forschern"
+      },
+      {
+       "de": "der Blitz",
+       "im_text": "Blitze",
+       "erkl": "helles Licht am Himmel bei einem Gewitter"
+      },
+      {
+       "de": "warm",
+       "im_text": "wärmer",
+       "erkl": "nicht kalt; wärmer = mehr warm"
+      },
+      {
+       "de": "das Gewitter",
+       "im_text": "Gewitter",
+       "erkl": "schlechtes Wetter mit Blitz, Donner und viel Regen"
+      },
+      {
+       "de": "doppelt",
+       "im_text": "doppelt",
+       "erkl": "zwei Mal so viel"
+      },
+      {
+       "de": "der Norden",
+       "im_text": "Norden",
+       "erkl": "auf der Landkarte oben"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wo arbeiten die Forscher?",
+       "optionen": [
+        "in München",
+        "in Alaska",
+        "in Wien"
+       ],
+       "richtig": 0
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die Erde wird kälter.",
+       "richtig": false,
+       "erkl": "Sie wird wärmer."
+      },
+      {
+       "typ": "rf",
+       "aussage": "In Alaska gibt es dann viel mehr Blitze.",
+       "richtig": true
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Was ist das Thema?",
+         "Blitze"
+        ],
+        [
+         "Wann gibt es vielleicht fast doppelt so viele Blitze?",
+         "im Jahr 2100"
+        ],
+        [
+         "Wie viel mehr Blitze gibt es in Deutschland?",
+         "30 bis 80 Prozent"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Hast du schon einmal ein starkes Gewitter erlebt?",
+      "Was machst du bei einem Gewitter?"
+     ],
+     "uebungen": [
+      {
+       "typ": "zuordnen",
+       "titel": "Gegenteile",
+       "anweisung": "Finde die Paare.",
+       "paare": [
+        [
+         "warm",
+         "kalt"
+        ],
+        [
+         "viel",
+         "wenig"
+        ],
+        [
+         "hell",
+         "dunkel"
+        ],
+        [
+         "der Norden",
+         "der Süden"
+        ]
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Mehr!",
+       "anweisung": "Schreib das Wort mit -er.",
+       "items": [
+        {
+         "text": "warm → ___",
+         "loesung": [
+          "wärmer"
+         ]
+        },
+        {
+         "text": "kalt → ___",
+         "loesung": [
+          "kälter"
+         ]
+        },
+        {
+         "text": "hell → ___",
+         "loesung": [
+          "heller"
+         ]
+        },
+        {
+         "text": "schnell → ___",
+         "loesung": [
+          "schneller"
+         ]
+        }
+       ],
+       "regel": "Vergleich: Adjektiv + -er. Bei kurzen Wörtern oft mit Umlaut: warm → wärmer, kalt → kälter."
+      },
+      {
+       "typ": "auswahl",
+       "titel": "nah oder weit?",
+       "anweisung": "Wähle das richtige Wort.",
+       "items": [
+        {
+         "text": "Der Blitz ist ___: Ich höre den Donner sofort.",
+         "optionen": [
+          "nah",
+          "weit"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Alaska ist sehr ___ weg von Wien.",
+         "optionen": [
+          "weit",
+          "nah"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Der Park ist ___: nur fünf Minuten zu Fuß.",
+         "optionen": [
+          "nah",
+          "weit"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Das Gewitter ist ___ weg: Ich höre nichts.",
+         "optionen": [
+          "weit",
+          "nah"
+         ],
+         "richtig": 0
+        }
+       ],
+       "regel": "nah = nicht weit weg. weit = weit weg, man braucht lange."
+      }
+     ]
+    },
+    {
+     "kategorie": "Sport",
+     "titel": "Die Skisaison beginnt",
+     "text": "In Österreich liegt jetzt Schnee. Viele Skigebiete öffnen an diesem Wochenende. In Schladming fahren die Lifte ab Samstag. In Ischgl ist die Saison schon am Donnerstag losgegangen.\n\nAm Wochenende scheint oft die Sonne. Aber es ist sehr kalt: Laut Prognose sind es in der Nacht bis minus zehn Grad. Nimm eine warme Jacke und eine Mütze mit!",
+     "vokabeln": [
+      {
+       "de": "der Schnee",
+       "im_text": "Schnee",
+       "erkl": "weißes, kaltes Wasser, das im Winter vom Himmel fällt"
+      },
+      {
+       "de": "das Skigebiet",
+       "im_text": "Skigebiete",
+       "erkl": "ein Ort in den Bergen, wo man Ski fahren kann"
+      },
+      {
+       "de": "der Lift",
+       "im_text": "Lifte",
+       "erkl": "er bringt die Skifahrer auf den Berg"
+      },
+      {
+       "de": "die Saison",
+       "im_text": "Saison",
+       "erkl": "die Zeit im Jahr, in der etwas offen ist oder stattfindet"
+      },
+      {
+       "de": "losgehen",
+       "im_text": "losgegangen",
+       "erkl": "anfangen, beginnen"
+      },
+      {
+       "de": "die Prognose",
+       "im_text": "Prognose",
+       "erkl": "was die Experten für morgen sagen, zum Beispiel beim Wetter"
+      },
+      {
+       "de": "die Mütze",
+       "im_text": "Mütze",
+       "erkl": "warme Kleidung für den Kopf"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Ab wann fahren die Lifte in Schladming?",
+       "optionen": [
+        "ab Freitag",
+        "ab Samstag",
+        "ab Montag"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "In Ischgl hat die Saison noch nicht begonnen.",
+       "richtig": false,
+       "erkl": "Sie ist schon am Donnerstag losgegangen."
+      },
+      {
+       "typ": "rf",
+       "aussage": "In der Nacht ist es sehr kalt.",
+       "richtig": true
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Was liegt in Österreich?",
+         "Schnee"
+        ],
+        [
+         "Wie kalt ist es in der Nacht?",
+         "bis minus zehn Grad"
+        ],
+        [
+         "Was soll man mitnehmen?",
+         "eine Jacke und eine Mütze"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Fährst du gern Ski oder Snowboard?",
+      "Was machst du gern im Winter?"
+     ],
+     "uebungen": [
+      {
+       "typ": "zuordnen",
+       "titel": "Winter-Wörter",
+       "anweisung": "Was passt zusammen?",
+       "paare": [
+        [
+         "die Mütze",
+         "für den Kopf"
+        ],
+        [
+         "die Handschuhe",
+         "für die Hände"
+        ],
+        [
+         "der Lift",
+         "auf den Berg"
+        ],
+        [
+         "der Schnee",
+         "weiß und kalt"
+        ]
+       ]
+      },
+      {
+       "typ": "auswahl",
+       "titel": "Die Wochentage",
+       "anweisung": "Wähle den richtigen Tag.",
+       "items": [
+        {
+         "text": "Die Lifte fahren ab Samstag. Der Tag davor ist ___.",
+         "optionen": [
+          "Freitag",
+          "Sonntag"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Ischgl ist am Donnerstag losgegangen. Der Tag danach ist ___.",
+         "optionen": [
+          "Mittwoch",
+          "Freitag"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Nach Sonntag kommt ___.",
+         "optionen": [
+          "Montag",
+          "Samstag"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Samstag und Sonntag sind das ___.",
+         "optionen": [
+          "Wochenende",
+          "Wochenmitte"
+         ],
+         "richtig": 0
+        }
+       ],
+       "regel": "Montag, Dienstag, Mittwoch, Donnerstag, Freitag, Samstag, Sonntag."
+      },
+      {
+       "typ": "eingabe",
+       "titel": "empfehlen und sich entspannen",
+       "anweisung": "Schreib das Verb richtig.",
+       "items": [
+        {
+         "text": "Ich ___ dir eine warme Mütze. (empfehlen)",
+         "loesung": [
+          "empfehle"
+         ]
+        },
+        {
+         "text": "Was ___ du mir? (empfehlen)",
+         "loesung": [
+          "empfiehlst"
+         ]
+        },
+        {
+         "text": "Nach dem Skifahren ___ ich mich. (sich entspannen)",
+         "loesung": [
+          "entspanne"
+         ]
+        },
+        {
+         "text": "Wir ___ uns in der Sonne. (sich entspannen)",
+         "loesung": [
+          "entspannen"
+         ]
+        }
+       ],
+       "regel": "empfehlen: ich empfehle, du empfiehlst, er empfiehlt. sich entspannen: ich entspanne mich, wir entspannen uns."
+      }
+     ]
+    },
+    {
+     "kategorie": "Sport",
+     "titel": "Davis Cup: Spanien gewinnt gegen Österreich",
+     "text": "Tennis: Spanien hat gegen Österreich gewonnen. Das Ergebnis ist 2:0. Das Turnier heißt Davis Cup und ist in Bologna.\n\nDer große Star Carlos Alcaraz hat nicht gespielt. Aber zwei junge Spanier haben gewonnen: Daniel Mérida und Rafael Jódar. Österreich ist jetzt draußen. Spanien spielt am Samstag im Halbfinale gegen Großbritannien.",
+     "vokabeln": [
+      {
+       "de": "gewinnen",
+       "im_text": "gewonnen",
+       "erkl": "im Spiel die Nummer eins sein; das Gegenteil von verlieren"
+      },
+      {
+       "de": "das Ergebnis",
+       "im_text": "Ergebnis",
+       "erkl": "wie das Spiel am Ende steht, zum Beispiel 2:0"
+      },
+      {
+       "de": "das Turnier",
+       "im_text": "Turnier",
+       "erkl": "ein Wettkampf mit vielen Spielen und Teams"
+      },
+      {
+       "de": "der Star",
+       "im_text": "Star",
+       "erkl": "ein sehr bekannter Sportler"
+      },
+      {
+       "de": "jung",
+       "im_text": "junge",
+       "erkl": "nicht alt"
+      },
+      {
+       "de": "draußen sein",
+       "im_text": "draußen",
+       "erkl": "hier: nicht mehr im Turnier sein"
+      },
+      {
+       "de": "das Halbfinale",
+       "im_text": "Halbfinale",
+       "erkl": "das Spiel vor dem Finale"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wer hat gewonnen?",
+       "optionen": [
+        "Österreich",
+        "Spanien",
+        "Großbritannien"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Carlos Alcaraz hat gespielt.",
+       "richtig": false,
+       "erkl": "Er hat nicht gespielt."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Spanien spielt am Samstag im Halbfinale.",
+       "richtig": true
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wie ist das Ergebnis?",
+         "2:0"
+        ],
+        [
+         "Wo ist das Turnier?",
+         "in Bologna"
+        ],
+        [
+         "Gegen wen spielt Spanien im Halbfinale?",
+         "gegen Großbritannien"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Spielst du Tennis oder einen anderen Sport?",
+      "Welchen Sport siehst du gern?"
+     ],
+     "uebungen": [
+      {
+       "typ": "zuordnen",
+       "titel": "Gegenteile",
+       "anweisung": "Finde die Paare.",
+       "paare": [
+        [
+         "gewinnen",
+         "verlieren"
+        ],
+        [
+         "jung",
+         "alt"
+        ],
+        [
+         "draußen",
+         "drinnen"
+        ],
+        [
+         "groß",
+         "klein"
+        ]
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Perfekt",
+       "anweisung": "Schreib das Partizip.",
+       "items": [
+        {
+         "text": "Spanien hat ___. (gewinnen)",
+         "loesung": [
+          "gewonnen"
+         ]
+        },
+        {
+         "text": "Alcaraz hat nicht ___. (spielen)",
+         "loesung": [
+          "gespielt"
+         ]
+        },
+        {
+         "text": "Österreich hat ___. (verlieren)",
+         "loesung": [
+          "verloren"
+         ]
+        },
+        {
+         "text": "Wir haben das Spiel ___. (sehen)",
+         "loesung": [
+          "gesehen"
+         ]
+        }
+       ],
+       "regel": "Perfekt: haben + Partizip. spielen → gespielt; gewinnen → gewonnen, verlieren → verloren, sehen → gesehen."
+      },
+      {
+       "typ": "auswahl",
+       "titel": "Die Wochentage",
+       "anweisung": "Wähle den richtigen Tag.",
+       "items": [
+        {
+         "text": "Heute ist Freitag. Morgen ist ___.",
+         "optionen": [
+          "Samstag",
+          "Donnerstag"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Heute ist Freitag. Gestern war ___.",
+         "optionen": [
+          "Donnerstag",
+          "Samstag"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Das Halbfinale ist am ___.",
+         "optionen": [
+          "Samstag",
+          "Montag"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Der Tag nach Samstag ist ___.",
+         "optionen": [
+          "Sonntag",
+          "Freitag"
+         ],
+         "richtig": 0
+        }
+       ],
+       "regel": "Montag, Dienstag, Mittwoch, Donnerstag, Freitag, Samstag, Sonntag."
+      }
+     ]
+    },
+    {
+     "kategorie": "Feste",
+     "titel": "Lüttich: Das Weihnachtsdorf ist offen",
+     "text": "Heute ist ein großer Tag in Lüttich, in Belgien: Das Weihnachtsdorf öffnet. Es gibt rund 200 kleine Holzhäuser. Dort verkaufen mehr als 300 Handwerker ihre Sachen. Man kann dort auch essen und trinken.\n\nDas Weihnachtsdorf ist bis zum 2. Januar offen. Die Stadt erwartet sehr viele Gäste: etwa 1,5 Millionen Menschen!",
+     "vokabeln": [
+      {
+       "de": "das Weihnachtsdorf",
+       "im_text": "Weihnachtsdorf",
+       "erkl": "ein Weihnachtsmarkt mit vielen kleinen Häusern"
+      },
+      {
+       "de": "öffnen",
+       "im_text": "öffnet",
+       "erkl": "aufmachen; dann kann man hineingehen"
+      },
+      {
+       "de": "das Holzhaus",
+       "im_text": "Holzhäuser",
+       "erkl": "ein Haus aus Holz"
+      },
+      {
+       "de": "der Handwerker",
+       "im_text": "Handwerker",
+       "erkl": "eine Person, die Sachen mit den Händen macht"
+      },
+      {
+       "de": "verkaufen",
+       "im_text": "verkaufen",
+       "erkl": "etwas für Geld geben"
+      },
+      {
+       "de": "erwarten",
+       "im_text": "erwartet",
+       "erkl": "denken: Das kommt bald"
+      },
+      {
+       "de": "der Gast",
+       "im_text": "Gäste",
+       "erkl": "eine Person, die zu Besuch kommt"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wo ist das Weihnachtsdorf?",
+       "optionen": [
+        "in Wien",
+        "in Lüttich",
+        "in Paris"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Es gibt rund 200 kleine Holzhäuser.",
+       "richtig": true
+      },
+      {
+       "typ": "rf",
+       "aussage": "Das Weihnachtsdorf ist nur eine Woche offen.",
+       "richtig": false,
+       "erkl": "Es ist bis zum 2. Januar offen."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wie viele Handwerker sind dort?",
+         "mehr als 300"
+        ],
+        [
+         "Bis wann ist es offen?",
+         "bis zum 2. Januar"
+        ],
+        [
+         "Wie viele Gäste kommen?",
+         "etwa 1,5 Millionen"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Gehst du gern auf einen Weihnachtsmarkt?",
+      "Was kaufst du gern auf einem Markt?"
+     ],
+     "uebungen": [
+      {
+       "typ": "zuordnen",
+       "titel": "Zahlen",
+       "anweisung": "Finde die Paare.",
+       "paare": [
+        [
+         "200",
+         "zweihundert"
+        ],
+        [
+         "300",
+         "dreihundert"
+        ],
+        [
+         "2.",
+         "zweite"
+        ],
+        [
+         "1,5 Millionen",
+         "eineinhalb Millionen"
+        ]
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Verben",
+       "anweisung": "Schreib das Verb richtig.",
+       "items": [
+        {
+         "text": "Das Weihnachtsdorf ___ heute. (öffnen)",
+         "loesung": [
+          "öffnet"
+         ]
+        },
+        {
+         "text": "Die Handwerker ___ ihre Sachen. (verkaufen)",
+         "loesung": [
+          "verkaufen"
+         ]
+        },
+        {
+         "text": "Die Stadt ___ viele Gäste. (erwarten)",
+         "loesung": [
+          "erwartet"
+         ]
+        },
+        {
+         "text": "Wir ___ dort etwas. (essen)",
+         "loesung": [
+          "essen"
+         ]
+        }
+       ],
+       "regel": "er/sie/es: Verb + -t (öffnet, erwartet). sie (Plural)/wir: Verb + -en."
+      },
+      {
+       "typ": "auswahl",
+       "titel": "nah oder weit?",
+       "anweisung": "Wähle das richtige Wort.",
+       "items": [
+        {
+         "text": "Lüttich ist sehr ___ weg von Wien.",
+         "optionen": [
+          "weit",
+          "nah"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Der Weihnachtsmarkt ist ___: nur zwei Minuten von meinem Haus.",
+         "optionen": [
+          "nah",
+          "weit"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Belgien und Frankreich sind Nachbarn. Sie sind ___.",
+         "optionen": [
+          "nah",
+          "weit"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Amerika ist ___ weg von Belgien.",
+         "optionen": [
+          "weit",
+          "nah"
+         ],
+         "richtig": 0
+        }
+       ],
+       "regel": "nah = nicht weit weg. weit = weit weg, man braucht lange."
+      }
+     ]
+    },
+    {
+     "kategorie": "Technik",
+     "titel": "KI: Wer bekommt das Geld?",
+     "text": "Programme mit künstlicher Intelligenz (KI) machen Texte, Musik und Videos. Sie lernen dafür mit Werken von Menschen. Die deutsche Regierung hat jetzt eine Idee: Die KI-Firmen sollen Geld bezahlen. Das Geld bekommen dann Künstler, zum Beispiel Musiker und Autoren.\n\nDeutschland und 14 andere Länder wollen schnell ein neues Gesetz in der EU.",
+     "vokabeln": [
+      {
+       "de": "das Programm",
+       "im_text": "Programme",
+       "erkl": "eine Software auf dem Computer oder Handy"
+      },
+      {
+       "de": "künstlich",
+       "im_text": "künstlicher",
+       "erkl": "nicht natürlich; von Menschen gemacht"
+      },
+      {
+       "de": "das Werk",
+       "im_text": "Werken",
+       "erkl": "etwas, das ein Künstler gemacht hat: ein Buch, ein Lied, ein Bild"
+      },
+      {
+       "de": "die Regierung",
+       "im_text": "Regierung",
+       "erkl": "die Personen, die ein Land führen"
+      },
+      {
+       "de": "die Firma",
+       "im_text": "KI-Firmen",
+       "erkl": "ein Unternehmen; dort arbeiten viele Leute"
+      },
+      {
+       "de": "der Künstler",
+       "im_text": "Künstler",
+       "erkl": "eine Person, die Musik, Bilder oder Bücher macht"
+      },
+      {
+       "de": "das Gesetz",
+       "im_text": "Gesetz",
+       "erkl": "eine Regel für alle Menschen in einem Land"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Was macht KI?",
+       "optionen": [
+        "Texte, Musik und Videos",
+        "nur Fotos",
+        "nur Spiele"
+       ],
+       "richtig": 0
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die KI-Firmen sollen Geld bezahlen.",
+       "richtig": true
+      },
+      {
+       "typ": "rf",
+       "aussage": "Das Geld bekommt die Regierung.",
+       "richtig": false,
+       "erkl": "Das Geld bekommen Künstler."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wer hat die Idee?",
+         "die deutsche Regierung"
+        ],
+        [
+         "Wer bekommt das Geld?",
+         "Künstler"
+        ],
+        [
+         "Wie viele andere Länder wollen ein Gesetz?",
+         "14"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Benutzt du KI? Wofür?",
+      "Ist es gut, wenn KI Musik macht?"
+     ],
+     "uebungen": [
+      {
+       "typ": "zuordnen",
+       "titel": "Wer macht was?",
+       "anweisung": "Finde die Paare.",
+       "paare": [
+        [
+         "der Musiker",
+         "macht Musik"
+        ],
+        [
+         "der Autor",
+         "schreibt Bücher"
+        ],
+        [
+         "der Maler",
+         "malt Bilder"
+        ],
+        [
+         "die Regierung",
+         "führt das Land"
+        ]
+       ]
+      },
+      {
+       "typ": "auswahl",
+       "titel": "sollen",
+       "anweisung": "Wähle die richtige Form.",
+       "items": [
+        {
+         "text": "Die Firmen ___ bezahlen.",
+         "optionen": [
+          "sollen",
+          "soll"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Die Regierung ___ ein Gesetz machen.",
+         "optionen": [
+          "sollen",
+          "soll"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Du ___ deine Hausaufgaben selbst machen.",
+         "optionen": [
+          "sollst",
+          "soll"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Ich ___ heute lernen.",
+         "optionen": [
+          "soll",
+          "sollst"
+         ],
+         "richtig": 0
+        }
+       ],
+       "regel": "sollen: ich soll, du sollst, er/sie/es soll, wir sollen, ihr sollt, sie sollen."
+      },
+      {
+       "typ": "eingabe",
+       "titel": "verbieten und empfehlen",
+       "anweisung": "Schreib das Wort richtig.",
+       "items": [
+        {
+         "text": "Beim Test ist KI ___. (verbieten)",
+         "loesung": [
+          "verboten"
+         ]
+        },
+        {
+         "text": "Die Lehrerin ___ das Handy in der Stunde. (verbieten)",
+         "loesung": [
+          "verbietet"
+         ]
+        },
+        {
+         "text": "Das ist nicht erlaubt, das ist ___. (verbieten)",
+         "loesung": [
+          "verboten"
+         ]
+        },
+        {
+         "text": "Ich ___ dir dieses Spiel. (empfehlen)",
+         "loesung": [
+          "empfehle"
+         ]
+        }
+       ],
+       "regel": "verbieten: er verbietet. Etwas ist verboten = nicht erlaubt."
+      }
+     ]
+    }
+   ]
+  },
+  {
    "datum": "2026-11-26",
    "nachrichten": [
     {

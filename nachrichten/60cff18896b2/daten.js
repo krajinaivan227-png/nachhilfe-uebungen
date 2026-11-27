@@ -4,6 +4,944 @@ window.NACHRICHTEN = {
  "spiel": false,
  "tage": [
   {
+   "datum": "2026-11-27",
+   "nachrichten": [
+    {
+     "kategorie": "Wirtschaft",
+     "titel": "Ein Spanier wird Chef der EZB",
+     "text": "Die Europäische Zentralbank (EZB) in Frankfurt bekommt einen neuen Präsidenten. Beim EU-Gipfel in Brüssel haben sich die Staats- und Regierungschefs am Donnerstag auf den Spanier Pablo Hernández de Cos geeinigt. Das hat unter anderem Frankreichs Präsident Emmanuel Macron bestätigt. Hernández de Cos ist der erste Spanier an der Spitze der EZB. Er hat sich gegen den Niederländer Klaas Knot durchgesetzt.\n\nDie EZB entscheidet über die Zinsen im Euroraum und soll die Preise stabil halten. Die jetzige Präsidentin Christine Lagarde gibt ihr Amt früher ab als geplant, nämlich am 7. Februar 2027. Ihr Nachfolger kennt die Arbeit gut: Von 2018 bis 2024 war er Chef der spanischen Zentralbank. Zurzeit leitet er die Bank für Internationalen Zahlungsausgleich in Basel.",
+     "vokabeln": [
+      {
+       "de": "der Gipfel",
+       "im_text": "EU-Gipfel",
+       "erkl": "ein Treffen der wichtigsten Politiker"
+      },
+      {
+       "de": "sich einigen auf",
+       "im_text": "geeinigt",
+       "erkl": "nach einer Diskussion gemeinsam dieselbe Lösung wählen"
+      },
+      {
+       "de": "bestätigen",
+       "im_text": "bestätigt",
+       "erkl": "sagen, dass etwas wirklich stimmt"
+      },
+      {
+       "de": "sich durchsetzen",
+       "im_text": "durchgesetzt",
+       "erkl": "am Ende gewinnen, obwohl es andere Kandidaten oder Meinungen gab"
+      },
+      {
+       "de": "der Zins",
+       "im_text": "Zinsen",
+       "erkl": "das Geld, das man für einen Kredit zusätzlich bezahlt oder für Erspartes bekommt"
+      },
+      {
+       "de": "das Amt",
+       "im_text": "Amt",
+       "erkl": "eine offizielle Position mit Aufgaben und Verantwortung"
+      },
+      {
+       "de": "der Nachfolger",
+       "im_text": "Nachfolger",
+       "erkl": "die Person, die eine Arbeit oder Position nach jemand anderem übernimmt"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wer hat die Einigung unter anderem bestätigt?",
+       "optionen": [
+        "Christine Lagarde",
+        "Emmanuel Macron",
+        "Klaas Knot"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Hernández de Cos ist schon der dritte Spanier an der Spitze der EZB.",
+       "richtig": false,
+       "erkl": "Er ist der erste Spanier."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Lagarde gibt ihr Amt früher ab als geplant.",
+       "richtig": true
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wo hat die EZB ihren Sitz?",
+         "in Frankfurt"
+        ],
+        [
+         "Wann gibt Lagarde ihr Amt ab?",
+         "am 7. Februar 2027"
+        ],
+        [
+         "Welche Bank leitet Hernández de Cos zurzeit?",
+         "die Bank für Internationalen Zahlungsausgleich"
+        ]
+       ]
+      },
+      {
+       "typ": "offen",
+       "frage": "Was sind die Aufgaben der EZB?",
+       "loesung": "Sie entscheidet über die Zinsen im Euroraum und soll die Preise stabil halten."
+      }
+     ],
+     "diskussion": [
+      "Ist es wichtig, aus welchem Land der EZB-Chef kommt? Warum (nicht)?",
+      "Wie merkst du im Alltag, ob die Zinsen hoch oder niedrig sind?",
+      "Würdest du gern ein so wichtiges Amt haben?"
+     ],
+     "uebungen": [
+      {
+       "typ": "zuordnen",
+       "titel": "Gegenteile",
+       "anweisung": "Finde die Paare.",
+       "paare": [
+        [
+         "früher",
+         "später"
+        ],
+        [
+         "stabil",
+         "unsicher"
+        ],
+        [
+         "abgeben",
+         "übernehmen"
+        ],
+        [
+         "der Nachfolger",
+         "der Vorgänger"
+        ]
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Futur mit werden",
+       "anweisung": "Ergänze die Form von „werden“.",
+       "items": [
+        {
+         "text": "Hernández de Cos ___ bald Präsident der EZB.",
+         "loesung": [
+          "wird"
+         ]
+        },
+        {
+         "text": "Die Zinsen ___ vielleicht sinken.",
+         "loesung": [
+          "werden"
+         ]
+        },
+        {
+         "text": "Ich ___ die Nachrichten verfolgen.",
+         "loesung": [
+          "werde"
+         ]
+        },
+        {
+         "text": "Wir ___ sehen, was passiert.",
+         "loesung": [
+          "werden"
+         ]
+        }
+       ],
+       "regel": "Futur I: werden + Infinitiv am Ende (Die Zinsen werden sinken). ich werde, du wirst, er wird, wir werden."
+      },
+      {
+       "typ": "auswahl",
+       "titel": "Reflexive Verben",
+       "anweisung": "Wähle die richtige Form.",
+       "items": [
+        {
+         "text": "Die Regierungschefs haben ___ geeinigt.",
+         "optionen": [
+          "sich",
+          "ihnen"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Er hat ___ gegen Knot durchgesetzt.",
+         "optionen": [
+          "sich",
+          "ihn"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Kannst du ___ einen Spanier an der Spitze vorstellen?",
+         "optionen": [
+          "dir",
+          "dich"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Ich stelle ___ die neue Zeit bei der EZB spannend vor.",
+         "optionen": [
+          "mir",
+          "mich"
+         ],
+         "richtig": 0
+        }
+       ],
+       "regel": "sich einigen, sich durchsetzen (Akk.). sich (Dat.) etwas vorstellen = an etwas denken: Ich stelle mir das vor."
+      }
+     ]
+    },
+    {
+     "kategorie": "Wissenschaft",
+     "titel": "Klimawandel: Viel mehr Blitze möglich",
+     "text": "Der Klimawandel verändert auch Gewitter. Forscher der Technischen Universität München haben berechnet, wie sich die Zahl der Blitzeinschläge an Land entwickeln könnte. Ihre Studie ist in der Fachzeitschrift „Earth's Future“ erschienen.\n\nDas Ergebnis: Wenn weiterhin sehr viele Treibhausgase ausgestoßen werden, könnte die Zahl der Einschläge bis Ende des Jahrhunderts um 76 bis 140 Prozent steigen – je nach Klimamodell. Für Deutschland rechnen die Forscher mit einem Plus von 32 bis 83 Prozent. Besonders stark wäre die Zunahme in kalten Regionen wie Alaska. Schon seit Anfang des 20. Jahrhunderts ist die Zahl der Blitze um etwa elf Prozent gestiegen. Mehr Blitze können zum Beispiel auch mehr Waldbrände auslösen.",
+     "vokabeln": [
+      {
+       "de": "berechnen",
+       "im_text": "berechnet",
+       "erkl": "mit Zahlen und Formeln herausfinden"
+      },
+      {
+       "de": "der Einschlag",
+       "im_text": "Blitzeinschläge",
+       "erkl": "der Moment, in dem ein Blitz den Boden oder ein Objekt trifft"
+      },
+      {
+       "de": "die Fachzeitschrift",
+       "im_text": "Fachzeitschrift",
+       "erkl": "eine Zeitschrift für Experten eines bestimmten Gebiets"
+      },
+      {
+       "de": "das Treibhausgas",
+       "im_text": "Treibhausgase",
+       "erkl": "ein Gas wie CO2, das die Erde wärmer macht"
+      },
+      {
+       "de": "je nach",
+       "im_text": "je nach",
+       "erkl": "abhängig von"
+      },
+      {
+       "de": "die Zunahme",
+       "im_text": "Zunahme",
+       "erkl": "das Mehrwerden; das Gegenteil ist die Abnahme"
+      },
+      {
+       "de": "auslösen",
+       "im_text": "auslösen",
+       "erkl": "der Grund sein, dass etwas beginnt"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wo ist die Studie erschienen?",
+       "optionen": [
+        "in einer Tageszeitung",
+        "in der Fachzeitschrift „Earth's Future“",
+        "im Fernsehen"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Für Deutschland rechnen die Forscher mit 32 bis 83 Prozent mehr Blitzen.",
+       "richtig": true
+      },
+      {
+       "typ": "rf",
+       "aussage": "In kalten Regionen wie Alaska ändert sich fast nichts.",
+       "richtig": false,
+       "erkl": "Dort wäre die Zunahme besonders stark."
+      },
+      {
+       "typ": "mc",
+       "frage": "Warum gibt es zwei Zahlen (76 und 140 Prozent)?",
+       "optionen": [
+        "Die Forscher haben zwei verschiedene Klimamodelle benutzt.",
+        "Es gibt zwei Studien.",
+        "Die Zahlen gelten für zwei Länder."
+       ],
+       "richtig": 0
+      },
+      {
+       "typ": "offen",
+       "frage": "Welche Folge können mehr Blitze haben?",
+       "loesung": "Sie können zum Beispiel mehr Waldbrände auslösen."
+      }
+     ],
+     "diskussion": [
+      "Hast du schon einmal ein sehr starkes Gewitter erlebt? Erzähl.",
+      "Welche Folgen des Klimawandels sieht man schon in deiner Region?",
+      "Glaubst du, dass solche Studien das Verhalten der Menschen ändern?"
+     ],
+     "uebungen": [
+      {
+       "typ": "auswahl",
+       "titel": "Konjunktiv II: könnte / wäre",
+       "anweisung": "Wähle die richtige Form.",
+       "items": [
+        {
+         "text": "Die Zahl der Blitze ___ stark steigen.",
+         "optionen": [
+          "könnte",
+          "wäre"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Die Zunahme ___ in Alaska besonders stark.",
+         "optionen": [
+          "könnte",
+          "wäre"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "Mehr Blitze ___ mehr Waldbrände auslösen.",
+         "optionen": [
+          "könnten",
+          "wären"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Das ___ ein großes Problem für die Wälder.",
+         "optionen": [
+          "wäre",
+          "könnte"
+         ],
+         "richtig": 0
+        }
+       ],
+       "regel": "könnte + Infinitiv = etwas ist möglich. wäre = Konjunktiv II von sein. So spricht man über mögliche Folgen."
+      },
+      {
+       "typ": "auswahl",
+       "titel": "wenn-Sätze",
+       "anweisung": "Wähle die richtige Form.",
+       "items": [
+        {
+         "text": "Wenn es ein Gewitter gibt, ___ zu Hause.",
+         "optionen": [
+          "bleibe ich",
+          "ich bleibe"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Wenn die Emissionen steigen, ___ mehr Blitze.",
+         "optionen": [
+          "gibt es",
+          "es gibt"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Ich schließe die Fenster, wenn ___.",
+         "optionen": [
+          "es blitzt",
+          "blitzt es"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Wenn du draußen bist, ___ vorsichtig!",
+         "optionen": [
+          "sei",
+          "du bist"
+         ],
+         "richtig": 0
+        }
+       ],
+       "regel": "Steht der wenn-Satz vorne, kommt im Hauptsatz sofort das Verb. Im wenn-Satz selbst steht das Verb am Ende."
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Futur mit werden",
+       "anweisung": "Ergänze die Form von „werden“.",
+       "items": [
+        {
+         "text": "Es ___ mehr Gewitter geben.",
+         "loesung": [
+          "wird"
+         ]
+        },
+        {
+         "text": "Die Wälder ___ stärker gefährdet sein.",
+         "loesung": [
+          "werden"
+         ]
+        },
+        {
+         "text": "Ich ___ bei Gewitter nicht schwimmen gehen.",
+         "loesung": [
+          "werde"
+         ]
+        },
+        {
+         "text": "Die Forscher ___ weiter rechnen.",
+         "loesung": [
+          "werden"
+         ]
+        }
+       ],
+       "regel": "Futur I: werden (Position 2) + Infinitiv am Ende."
+      }
+     ]
+    },
+    {
+     "kategorie": "Technik",
+     "titel": "Kunst von der Maschine: Wer bezahlt?",
+     "text": "Wer bezahlt, wenn eine Maschine Kunst macht? Die deutsche Bundesregierung hat dazu einen Vorschlag gemacht. Anbieter von generativer KI sollen Geld zahlen, wenn ihre Programme Texte, Musik oder Videos erzeugen, die mit Werken von Menschen konkurrieren. Das Geld soll über Verwertungsgesellschaften an die Urheber gehen.\n\nAußerdem sollen Künstler einfacher widersprechen können, wenn ihre Werke zum Training einer KI benutzt werden. KI-Firmen, die in der EU tätig sind, sollen zeigen, dass sie das europäische Urheberrecht einhalten – egal, wo sie ihre Modelle trainiert haben. Das Papier ist ein Beitrag zu einer Befragung der EU-Kommission. Ein Gesetz könnte frühestens 2027 kommen.",
+     "vokabeln": [
+      {
+       "de": "der Vorschlag",
+       "im_text": "Vorschlag",
+       "erkl": "eine Idee, die man anderen zur Entscheidung gibt"
+      },
+      {
+       "de": "der Anbieter",
+       "im_text": "Anbieter",
+       "erkl": "eine Firma, die ein Produkt oder einen Dienst anbietet"
+      },
+      {
+       "de": "erzeugen",
+       "im_text": "erzeugen",
+       "erkl": "herstellen, produzieren"
+      },
+      {
+       "de": "der Urheber",
+       "im_text": "Urheber",
+       "erkl": "die Person, die ein Werk geschaffen hat"
+      },
+      {
+       "de": "widersprechen",
+       "im_text": "widersprechen",
+       "erkl": "sagen, dass man nicht einverstanden ist"
+      },
+      {
+       "de": "einhalten",
+       "im_text": "einhalten",
+       "erkl": "eine Regel befolgen, sich an etwas halten"
+      },
+      {
+       "de": "frühestens",
+       "im_text": "frühestens",
+       "erkl": "nicht früher als; vielleicht auch später"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wann sollen KI-Anbieter zahlen?",
+       "optionen": [
+        "immer, wenn jemand KI benutzt",
+        "wenn ihre Inhalte mit Werken von Menschen konkurrieren",
+        "nur für Videos"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Das Geld soll über Verwertungsgesellschaften an die Urheber gehen.",
+       "richtig": true
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die Regeln sollen nur für Modelle gelten, die in Europa trainiert wurden.",
+       "richtig": false,
+       "erkl": "Sie sollen gelten, egal wo die Modelle trainiert wurden."
+      },
+      {
+       "typ": "offen",
+       "frage": "Wogegen sollen Künstler leichter widersprechen können?",
+       "loesung": "Dagegen, dass ihre Werke zum Training einer KI benutzt werden."
+      },
+      {
+       "typ": "offen",
+       "frage": "Wann könnte ein Gesetz kommen?",
+       "loesung": "Frühestens 2027."
+      }
+     ],
+     "diskussion": [
+      "Ist ein Bild oder Lied von einer KI für dich echte Kunst?",
+      "Sollten Künstler Geld bekommen, wenn eine KI mit ihren Werken lernt?",
+      "Wofür benutzt du selbst KI?"
+     ],
+     "uebungen": [
+      {
+       "typ": "zuordnen",
+       "titel": "Wortfamilien",
+       "anweisung": "Finde die Paare.",
+       "paare": [
+        [
+         "vorschlagen",
+         "der Vorschlag"
+        ],
+        [
+         "anbieten",
+         "der Anbieter"
+        ],
+        [
+         "widersprechen",
+         "der Widerspruch"
+        ],
+        [
+         "befragen",
+         "die Befragung"
+        ]
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Trennbare Verben",
+       "anweisung": "Ergänze die Vorsilbe.",
+       "items": [
+        {
+         "text": "Die Regierung schlägt eine neue Regel ___. (vorschlagen)",
+         "loesung": [
+          "vor"
+         ]
+        },
+        {
+         "text": "Viele Firmen bieten KI-Programme ___. (anbieten)",
+         "loesung": [
+          "an"
+         ]
+        },
+        {
+         "text": "Halten die Firmen das Urheberrecht ___? (einhalten)",
+         "loesung": [
+          "ein"
+         ]
+        },
+        {
+         "text": "Die EU legt das Gesetz frühestens 2027 ___. (vorlegen)",
+         "loesung": [
+          "vor"
+         ]
+        }
+       ],
+       "regel": "Bei trennbaren Verben steht die Vorsilbe im Hauptsatz am Ende."
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Partizip II",
+       "anweisung": "Ergänze das Partizip II.",
+       "items": [
+        {
+         "text": "Die Regierung hat einen Vorschlag ___. (machen)",
+         "loesung": [
+          "gemacht"
+         ]
+        },
+        {
+         "text": "Das Papier wurde bei der EU ___. (einreichen)",
+         "loesung": [
+          "eingereicht"
+         ]
+        },
+        {
+         "text": "Die Modelle wurden in den USA ___. (trainieren)",
+         "loesung": [
+          "trainiert"
+         ]
+        },
+        {
+         "text": "Viele Künstler haben ___. (widersprechen)",
+         "loesung": [
+          "widersprochen"
+         ]
+        }
+       ],
+       "regel": "Verben auf -ieren ohne ge- (trainiert); trennbare Verben mit -ge- in der Mitte (eingereicht); untrennbare (wider-, ver-, be-) ohne ge- (widersprochen)."
+      }
+     ]
+    },
+    {
+     "kategorie": "Städte",
+     "titel": "Lüttich eröffnet sein Weihnachtsdorf",
+     "text": "In Lüttich beginnt heute die Weihnachtszeit: Am Freitagabend wird das „Village de Noël“ eröffnet, das Weihnachtsdorf im Zentrum der Stadt. Bis zum 2. Januar 2027 stehen dort rund 200 Holzhütten. Mehr als 300 Kunsthandwerker und Händler bieten ihre Produkte an, außerdem gibt es viel zu essen und zu trinken.\n\nDer Markt ist ein wichtiger Termin für die ganze Region. Die Veranstalter erwarten fast 1,5 Millionen Besucher – sehr viele für eine Stadt mit rund 200 000 Einwohnern. Die Öffnungszeiten sind nicht an allen Tagen gleich; man sollte sie vor dem Besuch prüfen. Lüttich trägt übrigens den Spitznamen „Cité ardente“, die „feurige Stadt“.",
+     "vokabeln": [
+      {
+       "de": "eröffnen",
+       "im_text": "eröffnet",
+       "erkl": "offiziell zum ersten Mal öffnen, oft mit einer Feier"
+      },
+      {
+       "de": "der Kunsthandwerker",
+       "im_text": "Kunsthandwerker",
+       "erkl": "eine Person, die schöne Dinge mit der Hand herstellt"
+      },
+      {
+       "de": "anbieten",
+       "im_text": "bieten",
+       "erkl": "etwas zum Kaufen oder Nehmen zeigen"
+      },
+      {
+       "de": "der Termin",
+       "im_text": "Termin",
+       "erkl": "ein fester Zeitpunkt für ein Ereignis"
+      },
+      {
+       "de": "die Öffnungszeit",
+       "im_text": "Öffnungszeiten",
+       "erkl": "die Zeit, in der etwas offen ist"
+      },
+      {
+       "de": "prüfen",
+       "im_text": "prüfen",
+       "erkl": "kontrollieren, nachsehen"
+      },
+      {
+       "de": "der Spitzname",
+       "im_text": "Spitznamen",
+       "erkl": "ein inoffizieller Name, oft lustig oder liebevoll"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wie lange bleibt das Weihnachtsdorf?",
+       "optionen": [
+        "bis Weihnachten",
+        "bis zum 2. Januar 2027",
+        "nur ein Wochenende"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Im Weihnachtsdorf gibt es rund 200 Holzhütten.",
+       "richtig": true
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die Öffnungszeiten sind jeden Tag gleich.",
+       "richtig": false,
+       "erkl": "Sie sind nicht an allen Tagen gleich."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wie viele Besucher erwarten die Veranstalter?",
+         "fast 1,5 Millionen"
+        ],
+        [
+         "Wie viele Einwohner hat Lüttich?",
+         "rund 200 000"
+        ],
+        [
+         "Was bedeutet „Cité ardente“?",
+         "die „feurige Stadt“"
+        ]
+       ]
+      },
+      {
+       "typ": "offen",
+       "frage": "Was gibt es im Weihnachtsdorf außer den Produkten der Handwerker?",
+       "loesung": "Viel zu essen und zu trinken."
+      }
+     ],
+     "diskussion": [
+      "Magst du Weihnachtsmärkte, oder sind sie dir zu voll?",
+      "Welche Stadt in Frankreich hat einen besonders schönen Weihnachtsmarkt?",
+      "Hat deine Stadt einen Spitznamen?"
+     ],
+     "uebungen": [
+      {
+       "typ": "zuordnen",
+       "titel": "Wortfamilien",
+       "anweisung": "Finde die Paare.",
+       "paare": [
+        [
+         "eröffnen",
+         "die Eröffnung"
+        ],
+        [
+         "besuchen",
+         "der Besuch"
+        ],
+        [
+         "öffnen",
+         "die Öffnungszeit"
+        ],
+        [
+         "handeln",
+         "der Händler"
+        ]
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Partizip II",
+       "anweisung": "Ergänze das Partizip II.",
+       "items": [
+        {
+         "text": "Das Weihnachtsdorf wird heute ___. (eröffnen)",
+         "loesung": [
+          "eröffnet"
+         ]
+        },
+        {
+         "text": "Die Hütten wurden aus Holz ___. (bauen)",
+         "loesung": [
+          "gebaut"
+         ]
+        },
+        {
+         "text": "Hast du die Öffnungszeiten schon ___? (prüfen)",
+         "loesung": [
+          "geprüft"
+         ]
+        },
+        {
+         "text": "Wir haben auf dem Markt viel ___. (essen)",
+         "loesung": [
+          "gegessen"
+         ]
+        }
+       ],
+       "regel": "Verben mit untrennbarer Vorsilbe (er-, be-, ver-) bekommen kein ge-: eröffnet. Sonst ge- + Stamm + -t (gebaut) oder unregelmäßig (gegessen)."
+      },
+      {
+       "typ": "auswahl",
+       "titel": "Reflexive Verben",
+       "anweisung": "Wähle die richtige Form.",
+       "items": [
+        {
+         "text": "Ich freue ___ auf den Weihnachtsmarkt.",
+         "optionen": [
+          "mich",
+          "mir"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Stell ___ vor: 1,5 Millionen Besucher!",
+         "optionen": [
+          "dir",
+          "dich"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Wir treffen ___ vor der Hütte.",
+         "optionen": [
+          "uns",
+          "wir"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Die Besucher wärmen ___ mit heißen Getränken.",
+         "optionen": [
+          "sich",
+          "ihnen"
+         ],
+         "richtig": 0
+        }
+       ],
+       "regel": "sich freuen, sich treffen, sich wärmen: Akkusativ. sich (Dat.) etwas vorstellen: Stell dir vor!"
+      }
+     ]
+    },
+    {
+     "kategorie": "Natur",
+     "titel": "Die Wintersaison in den Bergen beginnt",
+     "text": "In Österreichs Bergen beginnt die Wintersaison. Nach den starken Schneefällen der letzten Tage öffnen an diesem Wochenende viele Skigebiete. In Schladming in der Steiermark laufen ab Samstag alle Lifte auf der Planai und der Hochwurzen. In Oberösterreich starten Hinterstoder und die Wurzeralm, nachdem der Saisonbeginn wegen des milden Wetters lange unsicher war. Ischgl in Tirol ist schon am Donnerstag in die Saison gestartet.\n\nFür das Wochenende sagen die Meteorologen viel Sonne und wenig Wind voraus. Gleichzeitig wird es aber sehr kalt: In klaren Nächten sind vielerorts bis zu minus zehn Grad möglich. Manche Skigebiete öffnen nur, wenn genug Schnee liegt.",
+     "vokabeln": [
+      {
+       "de": "der Schneefall",
+       "im_text": "Schneefällen",
+       "erkl": "das Fallen von Schnee; wenn es schneit"
+      },
+      {
+       "de": "das Skigebiet",
+       "im_text": "Skigebiete",
+       "erkl": "ein Gebiet in den Bergen mit Pisten und Liften"
+      },
+      {
+       "de": "mild",
+       "im_text": "milden",
+       "erkl": "nicht sehr kalt, angenehm"
+      },
+      {
+       "de": "unsicher",
+       "im_text": "unsicher",
+       "erkl": "nicht klar, ob etwas passiert"
+      },
+      {
+       "de": "voraussagen",
+       "im_text": "sagen",
+       "erkl": "sagen, was in der Zukunft passiert, zum Beispiel beim Wetter"
+      },
+      {
+       "de": "gleichzeitig",
+       "im_text": "Gleichzeitig",
+       "erkl": "zur selben Zeit"
+      },
+      {
+       "de": "vielerorts",
+       "im_text": "vielerorts",
+       "erkl": "an vielen Orten"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Warum war der Saisonbeginn in Oberösterreich lange unsicher?",
+       "optionen": [
+        "wegen des milden Wetters",
+        "wegen eines Streiks",
+        "wegen zu viel Schnee"
+       ],
+       "richtig": 0
+      },
+      {
+       "typ": "rf",
+       "aussage": "Ischgl ist schon am Donnerstag in die Saison gestartet.",
+       "richtig": true
+      },
+      {
+       "typ": "rf",
+       "aussage": "Für das Wochenende ist starker Wind vorausgesagt.",
+       "richtig": false,
+       "erkl": "Die Meteorologen sagen wenig Wind voraus."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wo liegt Schladming?",
+         "in der Steiermark"
+        ],
+        [
+         "Wie kalt kann es in klaren Nächten werden?",
+         "bis zu minus zehn Grad"
+        ],
+        [
+         "Wann öffnen manche Skigebiete nur?",
+         "wenn genug Schnee liegt"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Was machst du lieber im Winter: Skifahren, Wandern oder zu Hause bleiben?",
+      "Ist Skifahren in Zeiten des Klimawandels noch sinnvoll?",
+      "Welche Berge oder Wintergebiete kennst du?"
+     ],
+     "uebungen": [
+      {
+       "typ": "zuordnen",
+       "titel": "Gegenteile",
+       "anweisung": "Finde die Paare.",
+       "paare": [
+        [
+         "mild",
+         "streng"
+        ],
+        [
+         "unsicher",
+         "sicher"
+        ],
+        [
+         "klar",
+         "bewölkt"
+        ],
+        [
+         "öffnen",
+         "schließen"
+        ]
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Futur mit werden",
+       "anweisung": "Ergänze die Form von „werden“.",
+       "items": [
+        {
+         "text": "Am Wochenende ___ es sehr kalt.",
+         "loesung": [
+          "wird"
+         ]
+        },
+        {
+         "text": "Viele Skigebiete ___ morgen öffnen.",
+         "loesung": [
+          "werden"
+         ]
+        },
+        {
+         "text": "Ich ___ eine warme Jacke mitnehmen.",
+         "loesung": [
+          "werde"
+         ]
+        },
+        {
+         "text": "___ ihr Ski fahren?",
+         "loesung": [
+          "Werdet"
+         ]
+        }
+       ],
+       "regel": "werden: ich werde, du wirst, er wird, wir werden, ihr werdet, sie werden."
+      },
+      {
+       "typ": "auswahl",
+       "titel": "wenn-Sätze",
+       "anweisung": "Wähle die richtige Form.",
+       "items": [
+        {
+         "text": "Wenn genug Schnee liegt, ___.",
+         "optionen": [
+          "fahren die Lifte",
+          "die Lifte fahren"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Wenn es kalt ist, ___ eine Mütze.",
+         "optionen": [
+          "trage ich",
+          "ich trage"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Wenn die Sonne scheint, ___ in die Berge.",
+         "optionen": [
+          "fahren viele Leute",
+          "viele Leute fahren"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Ich fahre Ski, wenn ___.",
+         "optionen": [
+          "ich Zeit habe",
+          "habe ich Zeit"
+         ],
+         "richtig": 0
+        }
+       ],
+       "regel": "wenn-Satz vorne → Hauptsatz beginnt mit dem Verb. Im wenn-Satz steht das Verb am Ende."
+      }
+     ]
+    }
+   ]
+  },
+  {
    "datum": "2026-11-26",
    "nachrichten": [
     {

@@ -4,6 +4,890 @@ window.NACHRICHTEN = {
  "spiel": false,
  "tage": [
   {
+   "datum": "2026-11-27",
+   "nachrichten": [
+    {
+     "kategorie": "Wirtschaft",
+     "titel": "EZB: Hernández de Cos soll auf Lagarde folgen",
+     "text": "Die Europäische Zentralbank bekommt erstmals einen spanischen Präsidenten. Beim EU-Gipfel in Brüssel haben sich die Staats- und Regierungschefs am Donnerstag darauf verständigt, Pablo Hernández de Cos für das Amt zu nominieren; Frankreichs Präsident Emmanuel Macron bestätigte die Einigung. Damit setzte sich der Spanier gegen den Niederländer Klaas Knot durch, den einzigen anderen Kandidaten.\n\nNötig wird der Wechsel, weil Christine Lagarde ihr Amt vorzeitig abgibt: Sie hatte Ende Oktober angekündigt, am 7. Februar 2027 zurückzutreten – rund neun Monate vor dem regulären Ende ihrer Amtszeit. Ihr designierter Nachfolger bringt viel Erfahrung mit. Von 2018 bis 2024 leitete er die spanische Notenbank und saß in dieser Zeit im EZB-Rat. Seit Juli 2025 ist er Generaldirektor der Bank für Internationalen Zahlungsausgleich in Basel. Analysten der Commerzbank zählen ihn nach einer Auswertung seiner Reden eher zu den „Tauben“, also zu jenen Notenbankern, die tendenziell niedrigere Zinsen bevorzugen. Für Sparer und Kreditnehmer im Euroraum ist das keine Nebensache.",
+     "vokabeln": [
+      {
+       "de": "sich verständigen auf",
+       "im_text": "verständigt",
+       "erkl": "sich nach Verhandlungen auf etwas einigen"
+      },
+      {
+       "de": "nominieren",
+       "im_text": "nominieren",
+       "erkl": "offiziell als Kandidaten für ein Amt vorschlagen"
+      },
+      {
+       "de": "vorzeitig",
+       "im_text": "vorzeitig",
+       "erkl": "früher als geplant oder vorgesehen"
+      },
+      {
+       "de": "designiert",
+       "im_text": "designierter",
+       "erkl": "für ein Amt bereits ausgewählt, aber noch nicht im Amt"
+      },
+      {
+       "de": "die Notenbank",
+       "im_text": "Notenbank",
+       "erkl": "die Zentralbank eines Landes, die das Geld ausgibt"
+      },
+      {
+       "de": "tendenziell",
+       "im_text": "tendenziell",
+       "erkl": "meistens, in der Regel, mit einer bestimmten Neigung"
+      },
+      {
+       "de": "die Nebensache",
+       "im_text": "Nebensache",
+       "erkl": "etwas Unwichtiges"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wer war der einzige andere Kandidat?",
+       "optionen": [
+        "Christine Lagarde",
+        "Klaas Knot",
+        "Emmanuel Macron"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Lagarde tritt rund neun Monate vor dem regulären Ende ihrer Amtszeit zurück.",
+       "richtig": true
+      },
+      {
+       "typ": "rf",
+       "aussage": "Hernández de Cos gilt laut Commerzbank als Befürworter hoher Zinsen.",
+       "richtig": false,
+       "erkl": "Er wird eher zu den „Tauben“ gezählt, die niedrigere Zinsen bevorzugen."
+      },
+      {
+       "typ": "offen",
+       "frage": "Welche Erfahrung bringt Hernández de Cos mit?",
+       "loesung": "Er leitete 2018–2024 die spanische Notenbank, saß im EZB-Rat und ist seit Juli 2025 Generaldirektor der BIZ in Basel."
+      },
+      {
+       "typ": "offen",
+       "frage": "Warum ist die Personalie für Sparer und Kreditnehmer wichtig?",
+       "loesung": "Weil die EZB über die Zinsen entscheidet und ein „Tauben“-Präsident eher niedrigere Zinsen bevorzugt."
+      }
+     ],
+     "diskussion": [
+      "Sollte die Herkunft eines Kandidaten bei der Besetzung solcher Ämter eine Rolle spielen?",
+      "Wer profitiert von niedrigen Zinsen, wer verliert?",
+      "Wie transparent sollten solche Personalentscheidungen in der EU sein?"
+     ],
+     "uebungen": [
+      {
+       "typ": "zuordnen",
+       "titel": "Synonyme",
+       "anweisung": "Finde die Paare.",
+       "paare": [
+        [
+         "vorzeitig",
+         "früher als geplant"
+        ],
+        [
+         "die Notenbank",
+         "die Zentralbank"
+        ],
+        [
+         "sich verständigen",
+         "sich einigen"
+        ],
+        [
+         "bevorzugen",
+         "lieber mögen"
+        ]
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Verben mit Präpositionen",
+       "anweisung": "Ergänze die Präposition.",
+       "items": [
+        {
+         "text": "Die Regierungschefs haben sich ___ einen Kandidaten verständigt.",
+         "loesung": [
+          "auf"
+         ]
+        },
+        {
+         "text": "Der Spanier setzte sich ___ den Niederländer durch.",
+         "loesung": [
+          "gegen"
+         ]
+        },
+        {
+         "text": "Analysten zählen ihn ___ den „Tauben“.",
+         "loesung": [
+          "zu"
+         ]
+        },
+        {
+         "text": "Die Zinsen hängen stark ___ der EZB ab.",
+         "loesung": [
+          "von"
+         ]
+        }
+       ],
+       "regel": "sich verständigen auf + Akk., sich durchsetzen gegen + Akk., zählen zu + Dat., abhängen von + Dat."
+      },
+      {
+       "typ": "auswahl",
+       "titel": "gegenüber (nachgestellt)",
+       "anweisung": "Wähle die richtige Form.",
+       "items": [
+        {
+         "text": "Die Analysten sind ___ eher positiv eingestellt.",
+         "optionen": [
+          "ihm gegenüber",
+          "gegenüber ihm"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Die EZB hat ___ eine große Verantwortung.",
+         "optionen": [
+          "uns gegenüber",
+          "gegenüber uns"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Macron äußerte sich ___ zufrieden.",
+         "optionen": [
+          "ihnen gegenüber",
+          "gegenüber ihnen"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Wie verhalten sich die Märkte ___?",
+         "optionen": [
+          "ihr gegenüber",
+          "gegenüber ihr"
+         ],
+         "richtig": 0
+        }
+       ],
+       "regel": "gegenüber + Dativ. Mit einem Personalpronomen steht „gegenüber“ immer danach: ihm gegenüber."
+      }
+     ]
+    },
+    {
+     "kategorie": "Wissenschaft",
+     "titel": "Mehr Blitze durch den Klimawandel",
+     "text": "Der Klimawandel könnte die Zahl der Blitzeinschläge an Land bis zum Ende des Jahrhunderts deutlich erhöhen. Zu diesem Ergebnis kommt ein Team der Technischen Universität München, das seine Studie in der Fachzeitschrift „Earth's Future“ veröffentlicht hat. Die Forscher rekonstruierten zunächst die Vergangenheit: Zwischen den Zeiträumen 1901–1920 und 1995–2014 nahm die Zahl der Einschläge bereits um rund elf Prozent zu.\n\nFür die Zukunft rechneten sie mit einem Szenario hoher Treibhausgasemissionen. Je nach verwendetem Klimamodell könnten die Einschläge im Zeitraum 2081–2100 um 76 bis 140 Prozent über dem Niveau von 1995–2014 liegen. Für Deutschland ergibt sich ein Plus von 32 bis 83 Prozent – auch hierzulande müsste man sich also auf deutlich mehr Einschläge einstellen. Besonders stark fiele der Anstieg in kalten Regionen aus, etwa in Alaska, wo bislang vergleichsweise selten Blitze einschlagen. Die Ergebnisse sind keine sichere Vorhersage, sondern zeigen, was bei ungebremsten Emissionen droht. Relevant ist das unter anderem für den Schutz von Wäldern, Stromnetzen und Gebäuden.",
+     "vokabeln": [
+      {
+       "de": "rekonstruieren",
+       "im_text": "rekonstruierten",
+       "erkl": "aus vorhandenen Daten nachbilden, wie etwas früher war"
+      },
+      {
+       "de": "das Szenario",
+       "im_text": "Szenario",
+       "erkl": "eine angenommene mögliche Entwicklung"
+      },
+      {
+       "de": "die Emission",
+       "im_text": "Treibhausgasemissionen",
+       "erkl": "das Ausstoßen von Stoffen in die Luft"
+      },
+      {
+       "de": "das Niveau",
+       "im_text": "Niveau",
+       "erkl": "die Höhe, der Stand"
+      },
+      {
+       "de": "vergleichsweise",
+       "im_text": "vergleichsweise",
+       "erkl": "im Vergleich mit anderen"
+      },
+      {
+       "de": "ungebremst",
+       "im_text": "ungebremsten",
+       "erkl": "ohne dass etwas gestoppt oder verringert wird"
+      },
+      {
+       "de": "drohen",
+       "im_text": "droht",
+       "erkl": "als Gefahr bevorstehen"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Um wie viel nahm die Zahl der Einschläge im 20. Jahrhundert schon zu?",
+       "optionen": [
+        "um rund elf Prozent",
+        "um 32 Prozent",
+        "um 140 Prozent"
+       ],
+       "richtig": 0
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die Studie geht von einem Szenario niedriger Emissionen aus.",
+       "richtig": false,
+       "erkl": "Sie rechnet mit einem Szenario hoher Treibhausgasemissionen."
+      },
+      {
+       "typ": "rf",
+       "aussage": "In Alaska schlagen bislang vergleichsweise selten Blitze ein.",
+       "richtig": true
+      },
+      {
+       "typ": "offen",
+       "frage": "Warum gibt es eine Spanne von 76 bis 140 Prozent?",
+       "loesung": "Weil die Forscher verschiedene Klimamodelle verwendet haben."
+      },
+      {
+       "typ": "offen",
+       "frage": "Für welche Bereiche ist die Studie relevant?",
+       "loesung": "Unter anderem für den Schutz von Wäldern, Stromnetzen und Gebäuden."
+      }
+     ],
+     "diskussion": [
+      "Wie sollte man über solche Szenarien berichten, ohne Panik zu machen?",
+      "Welche Schutzmaßnahmen gegen Unwetter kennst du aus deiner Stadt?",
+      "Ändern Studien wie diese politische Entscheidungen?"
+     ],
+     "uebungen": [
+      {
+       "typ": "zuordnen",
+       "titel": "Wortfamilien",
+       "anweisung": "Finde die Paare.",
+       "paare": [
+        [
+         "zunehmen",
+         "die Zunahme"
+        ],
+        [
+         "ansteigen",
+         "der Anstieg"
+        ],
+        [
+         "vorhersagen",
+         "die Vorhersage"
+        ],
+        [
+         "veröffentlichen",
+         "die Veröffentlichung"
+        ]
+       ]
+      },
+      {
+       "typ": "auswahl",
+       "titel": "Präpositionen mit Genitiv",
+       "anweisung": "Wähle die richtige Präposition.",
+       "items": [
+        {
+         "text": "___ des Klimawandels gibt es mehr Gewitter.",
+         "optionen": [
+          "Infolge",
+          "Trotz"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "___ aller Unsicherheiten sind die Ergebnisse wichtig.",
+         "optionen": [
+          "Trotz",
+          "Wegen"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "___ des Zeitraums 2081–2100 könnten die Einschläge stark steigen.",
+         "optionen": [
+          "Innerhalb",
+          "Statt"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "___ sicherer Vorhersagen liefert die Studie Szenarien.",
+         "optionen": [
+          "Statt",
+          "Infolge"
+         ],
+         "richtig": 0
+        }
+       ],
+       "regel": "infolge, trotz, innerhalb, statt, wegen + Genitiv."
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Verben mit Präpositionen",
+       "anweisung": "Ergänze die Präposition.",
+       "items": [
+        {
+         "text": "Die Forscher rechnen ___ einem starken Anstieg.",
+         "loesung": [
+          "mit"
+         ]
+        },
+        {
+         "text": "Das hängt stark ___ den Emissionen ab.",
+         "loesung": [
+          "von"
+         ]
+        },
+        {
+         "text": "Die Studie beschäftigt sich ___ Blitzeinschlägen.",
+         "loesung": [
+          "mit"
+         ]
+        },
+        {
+         "text": "Städte müssen sich ___ mehr Unwetter einstellen.",
+         "loesung": [
+          "auf"
+         ]
+        }
+       ],
+       "regel": "rechnen mit + Dat., abhängen von + Dat., sich beschäftigen mit + Dat., sich einstellen auf + Akk."
+      }
+     ]
+    },
+    {
+     "kategorie": "Gesundheit",
+     "titel": "ADHS-Medikamente in der Schwangerschaft: kein erhöhtes Risiko",
+     "text": "Für viele Frauen mit ADHS ist eine Schwangerschaft mit einer schwierigen Abwägung verbunden: Setzen sie ihre Medikamente ab, können die Beschwerden zurückkehren; nehmen sie sie weiter, sorgen sie sich um das Kind. Eine große Studie aus Skandinavien, die in der Fachzeitschrift „The BMJ“ erschienen ist, liefert nun beruhigende Daten. Sie passt damit zu früheren, kleineren Untersuchungen.\n\nDie Forschenden werteten Registerdaten von mehr als 3,6 Millionen Kindern aus, die zwischen 2000 und 2021 in Schweden, Norwegen und Dänemark geboren wurden. Kinder, die im Mutterleib ADHS-Medikamenten ausgesetzt waren, hatten demnach kein erhöhtes Risiko für neurologische Entwicklungsstörungen – weder für ADHS noch für Autismus, geistige Behinderung, Epilepsie oder Lernstörungen. Die Autoren betonen allerdings, dass ihre Beobachtungsstudie Grenzen hat und keine absolute Sicherheit bieten kann. Dennoch dürfte das Ergebnis Ärztinnen, Ärzten und Hebammen helfen, Schwangere besser zu beraten. Die Entscheidung bleibt eine individuelle, die gemeinsam mit Ärztinnen und Ärzten getroffen werden sollte.",
+     "vokabeln": [
+      {
+       "de": "die Abwägung",
+       "im_text": "Abwägung",
+       "erkl": "das genaue Vergleichen von Vor- und Nachteilen"
+      },
+      {
+       "de": "absetzen",
+       "im_text": "Setzen",
+       "erkl": "ein Medikament nicht mehr nehmen"
+      },
+      {
+       "de": "die Beschwerden",
+       "im_text": "Beschwerden",
+       "erkl": "gesundheitliche Probleme, Symptome"
+      },
+      {
+       "de": "ausgesetzt sein",
+       "im_text": "ausgesetzt",
+       "erkl": "von etwas betroffen sein, mit etwas in Kontakt kommen"
+      },
+      {
+       "de": "das Register",
+       "im_text": "Registerdaten",
+       "erkl": "eine offizielle, geordnete Sammlung von Daten"
+      },
+      {
+       "de": "die Beobachtungsstudie",
+       "im_text": "Beobachtungsstudie",
+       "erkl": "eine Studie, die vorhandene Daten auswertet, ohne selbst etwas zu testen"
+      },
+      {
+       "de": "beraten",
+       "im_text": "beraten",
+       "erkl": "jemandem mit Wissen und Tipps helfen, eine Entscheidung zu treffen"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Welche Daten wurden ausgewertet?",
+       "optionen": [
+        "Umfragen unter Ärzten",
+        "Registerdaten von mehr als 3,6 Millionen Kindern",
+        "Daten aus Laborversuchen"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die Studie fand ein erhöhtes Risiko für Epilepsie.",
+       "richtig": false,
+       "erkl": "Sie fand kein erhöhtes Risiko, auch nicht für Epilepsie."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die Autoren sagen, dass ihre Studie Grenzen hat.",
+       "richtig": true
+      },
+      {
+       "typ": "offen",
+       "frage": "Worin besteht die schwierige Abwägung für schwangere Frauen mit ADHS?",
+       "loesung": "Ohne Medikamente können die Beschwerden zurückkehren, mit Medikamenten sorgen sie sich um das Kind."
+      },
+      {
+       "typ": "offen",
+       "frage": "Wie sollte die Entscheidung über Medikamente getroffen werden?",
+       "loesung": "Individuell und gemeinsam mit Ärztinnen und Ärzten."
+      }
+     ],
+     "diskussion": [
+      "Sollten Gesundheitsdaten der Bevölkerung für Forschung genutzt werden dürfen?",
+      "Wie offen wird in deinem Umfeld über ADHS gesprochen?",
+      "Wie gut ist Beratung im Gesundheitssystem, das du kennst?"
+     ],
+     "uebungen": [
+      {
+       "typ": "zuordnen",
+       "titel": "Synonyme",
+       "anweisung": "Finde die Paare.",
+       "paare": [
+        [
+         "die Beschwerden",
+         "die Symptome"
+        ],
+        [
+         "absetzen",
+         "nicht mehr nehmen"
+        ],
+        [
+         "betonen",
+         "hervorheben"
+        ],
+        [
+         "dennoch",
+         "trotzdem"
+        ]
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Verben mit Präpositionen",
+       "anweisung": "Ergänze die Präposition.",
+       "items": [
+        {
+         "text": "Viele Frauen sorgen sich ___ ihr Kind.",
+         "loesung": [
+          "um"
+         ]
+        },
+        {
+         "text": "Eine Schwangerschaft ist oft ___ einer schwierigen Abwägung verbunden.",
+         "loesung": [
+          "mit"
+         ]
+        },
+        {
+         "text": "Die Autoren weisen ___ die Grenzen der Studie hin.",
+         "loesung": [
+          "auf"
+         ]
+        },
+        {
+         "text": "Ärzte sollten Schwangere ___ Medikamente beraten.",
+         "loesung": [
+          "über",
+          "zu"
+         ]
+        }
+       ],
+       "regel": "sich sorgen um + Akk., verbunden sein mit + Dat., hinweisen auf + Akk., beraten über/zu."
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Wer …, der …",
+       "anweisung": "Ergänze das passende Pronomen (der/den/dem).",
+       "items": [
+        {
+         "text": "Wer Medikamente absetzt, ___ sollte vorher mit dem Arzt sprechen.",
+         "loesung": [
+          "der"
+         ]
+        },
+        {
+         "text": "Wem die Studie hilft, ___ gibt sie mehr Sicherheit.",
+         "loesung": [
+          "dem"
+         ]
+        },
+        {
+         "text": "Wen das Thema betrifft, ___ beraten Ärztinnen und Ärzte.",
+         "loesung": [
+          "den"
+         ]
+        },
+        {
+         "text": "Wer schwanger ist, ___ hat oft viele Fragen.",
+         "loesung": [
+          "der"
+         ]
+        }
+       ],
+       "regel": "Das zweite Pronomen richtet sich nach dem Verb im Hauptsatz: geben + Dativ (dem), beraten + Akkusativ (den), Subjekt (der)."
+      }
+     ]
+    },
+    {
+     "kategorie": "Gesellschaft",
+     "titel": "Bundesregierung will KI-Anbieter zur Kasse bitten",
+     "text": "Wer mit generativer künstlicher Intelligenz Geld verdient, soll künftig auch Kreative dafür entschädigen. Das schlägt die Bundesregierung in einem Positionspapier vor, das sie im Rahmen einer Konsultation der EU-Kommission zum Urheberrecht eingereicht hat. Demnach sollen Anbieter zahlen, wenn ihre Systeme Texte, Musik oder Videos erzeugen, die mit menschlichen Werken konkurrieren. Das Geld soll über Verwertungsgesellschaften an die Rechteinhaber fließen.\n\nZudem sollen Urheber leichter widersprechen können, wenn ihre Werke zum Training genutzt werden. Wer KI-Dienste in der EU anbietet, soll nachweisen, dass er das europäische Urheberrecht einhält – unabhängig davon, wo das Modell trainiert wurde. Justizministerin Stefanie Hubig hatte den Ansatz bereits Anfang November in einer Rede angekündigt. Angestoßen hatte die Initiative Kulturstaatsminister Wolfram Weimer; gemeinsam mit 14 weiteren Mitgliedstaaten fordert Deutschland einen raschen Gesetzesvorschlag. Das Papier räumt allerdings ein, dass neue Regeln Basismodelle verteuern oder ihre Verfügbarkeit einschränken könnten. Laut Arbeitsprogramm will die Kommission ein entsprechendes Gesetzespaket im zweiten Quartal 2027 vorlegen.",
+     "vokabeln": [
+      {
+       "de": "die Initiative",
+       "im_text": "Initiative",
+       "erkl": "ein Vorstoß, mit dem jemand etwas in Gang bringt"
+      },
+      {
+       "de": "entschädigen",
+       "im_text": "entschädigen",
+       "erkl": "jemandem für einen Nachteil oder eine Leistung Geld geben"
+      },
+      {
+       "de": "die Konsultation",
+       "im_text": "Konsultation",
+       "erkl": "eine offizielle Befragung von Betroffenen und Experten"
+      },
+      {
+       "de": "der Rechteinhaber",
+       "im_text": "Rechteinhaber",
+       "erkl": "die Person oder Firma, der die Rechte an einem Werk gehören"
+      },
+      {
+       "de": "nachweisen",
+       "im_text": "nachweisen",
+       "erkl": "mit Belegen zeigen, dass etwas stimmt"
+      },
+      {
+       "de": "einräumen",
+       "im_text": "räumt",
+       "erkl": "zugeben, dass ein Gegenargument berechtigt ist"
+      },
+      {
+       "de": "die Verfügbarkeit",
+       "im_text": "Verfügbarkeit",
+       "erkl": "die Möglichkeit, etwas zu bekommen oder zu nutzen"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "In welchem Rahmen hat die Bundesregierung das Papier eingereicht?",
+       "optionen": [
+        "bei einer Konsultation der EU-Kommission",
+        "bei einer Bundestagswahl",
+        "bei einem Gericht"
+       ],
+       "richtig": 0
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die Regeln sollen nur für Modelle gelten, die in der EU trainiert wurden.",
+       "richtig": false,
+       "erkl": "Sie sollen unabhängig vom Trainingsort gelten."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Das Papier räumt mögliche Nachteile für Basismodelle ein.",
+       "richtig": true
+      },
+      {
+       "typ": "offen",
+       "frage": "Wie soll das Geld zu den Kreativen kommen?",
+       "loesung": "Über Verwertungsgesellschaften an die Rechteinhaber."
+      },
+      {
+       "typ": "offen",
+       "frage": "Wann will die EU-Kommission ein Gesetzespaket vorlegen?",
+       "loesung": "Im zweiten Quartal 2027."
+      }
+     ],
+     "diskussion": [
+      "Ist eine Vergütung für Kreative fair, oder bremst sie Innovation?",
+      "Welche Rolle sollte KI in Schule und Universität spielen?",
+      "Wem gehört ein Text, den eine KI geschrieben hat?"
+     ],
+     "uebungen": [
+      {
+       "typ": "zuordnen",
+       "titel": "Synonyme",
+       "anweisung": "Finde die Paare.",
+       "paare": [
+        [
+         "einräumen",
+         "zugeben"
+        ],
+        [
+         "rasch",
+         "schnell"
+        ],
+        [
+         "entschädigen",
+         "bezahlen für"
+        ],
+        [
+         "künftig",
+         "in Zukunft"
+        ]
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Wer …, der …",
+       "anweisung": "Ergänze das passende Pronomen (der/den/dem).",
+       "items": [
+        {
+         "text": "Wer KI-Dienste anbietet, ___ muss das Urheberrecht einhalten.",
+         "loesung": [
+          "der"
+         ]
+        },
+        {
+         "text": "Wem ein Werk gehört, ___ steht eine Vergütung zu.",
+         "loesung": [
+          "dem"
+         ]
+        },
+        {
+         "text": "Wen die neuen Regeln betreffen, ___ informiert die Kommission.",
+         "loesung": [
+          "den"
+         ]
+        },
+        {
+         "text": "Wer mit KI Geld verdient, ___ soll Kreative entschädigen.",
+         "loesung": [
+          "der"
+         ]
+        }
+       ],
+       "regel": "Wer …, der … / Wem …, dem … / Wen …, den …: Das zweite Pronomen richtet sich nach dem Verb im Hauptsatz (zustehen + Dat., informieren + Akk.)."
+      },
+      {
+       "typ": "auswahl",
+       "titel": "Präpositionen mit Genitiv",
+       "anweisung": "Wähle die richtige Form.",
+       "items": [
+        {
+         "text": "___ der Bedenken fordern 15 Staaten ein Gesetz.",
+         "optionen": [
+          "Trotz",
+          "Statt"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "___ eines Gesetzes gibt es bisher nur ein Positionspapier.",
+         "optionen": [
+          "Statt",
+          "Wegen"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "___ der neuen Regeln könnten Modelle teurer werden.",
+         "optionen": [
+          "Wegen",
+          "Trotz"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "___ der EU sollen dann dieselben Regeln gelten.",
+         "optionen": [
+          "Innerhalb",
+          "Statt"
+         ],
+         "richtig": 0
+        }
+       ],
+       "regel": "trotz, statt, wegen, innerhalb + Genitiv."
+      }
+     ]
+    },
+    {
+     "kategorie": "Politik",
+     "titel": "Bundestag stimmt über den Haushalt 2027 ab",
+     "text": "Der Bundestag entscheidet heute abschließend über den Bundeshaushalt für das kommende Jahr. Nach der letzten Sitzung des Haushaltsausschusses sieht der Etat Ausgaben von rund 561 Milliarden Euro vor – ein Rekord. Die neuen Schulden summieren sich einschließlich der Kredite aus den Sondervermögen für Verteidigung, Infrastruktur und Klimaschutz auf etwa 210 Milliarden Euro.\n\nDie Schuldenbremse gilt trotzdem als eingehalten, weil Kredite aus Sondervermögen dabei nicht angerechnet werden. Genau das kritisiert die Opposition: Die Grünen sprechen von verfassungswidrigen Buchungstricks, was die Regierung zurückweist. Innerhalb der schwarz-roten Koalition gab es bis zuletzt Streit über Prioritäten. Gegenüber dem Entwurf von Finanzminister Lars Klingbeil aus dem September sind die Zahlen noch einmal gestiegen: Damals waren Ausgaben von 555,4 Milliarden Euro geplant, im Kernhaushalt mit einer Neuverschuldung von 118 Milliarden Euro. Nach dem Bundestag muss sich noch der Bundesrat mit dem Gesetz befassen. Für die Bürgerinnen und Bürger ist der Haushalt mehr als eine Zahl: Er legt fest, wie viel Geld etwa für Bildung, Rente oder Straßen zur Verfügung steht.",
+     "vokabeln": [
+      {
+       "de": "abschließend",
+       "im_text": "abschließend",
+       "erkl": "zum letzten Mal, am Ende eines Prozesses"
+      },
+      {
+       "de": "der Etat",
+       "im_text": "Etat",
+       "erkl": "der Haushalt, das geplante Budget"
+      },
+      {
+       "de": "das Sondervermögen",
+       "im_text": "Sondervermögen",
+       "erkl": "ein eigener Geldtopf neben dem normalen Haushalt, meist über Kredite finanziert"
+      },
+      {
+       "de": "anrechnen",
+       "im_text": "angerechnet",
+       "erkl": "bei einer Rechnung mitzählen"
+      },
+      {
+       "de": "zurückweisen",
+       "im_text": "zurückweist",
+       "erkl": "eine Kritik oder Behauptung als falsch ablehnen"
+      },
+      {
+       "de": "der Entwurf",
+       "im_text": "Entwurf",
+       "erkl": "eine erste Version eines Plans oder Textes, die noch geändert werden kann"
+      },
+      {
+       "de": "sich befassen mit",
+       "im_text": "befassen",
+       "erkl": "sich mit einem Thema beschäftigen, es beraten"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wie hoch sind die geplanten Ausgaben ungefähr?",
+       "optionen": [
+        "rund 210 Milliarden Euro",
+        "rund 561 Milliarden Euro",
+        "rund 118 Milliarden Euro"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Kredite aus Sondervermögen werden bei der Schuldenbremse mitgezählt.",
+       "richtig": false,
+       "erkl": "Sie werden nicht angerechnet."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die Grünen sprechen von verfassungswidrigen Buchungstricks.",
+       "richtig": true
+      },
+      {
+       "typ": "offen",
+       "frage": "Wofür gibt es die Sondervermögen?",
+       "loesung": "Für Verteidigung, Infrastruktur und Klimaschutz."
+      },
+      {
+       "typ": "offen",
+       "frage": "Wie haben sich die Zahlen seit dem Entwurf vom September verändert?",
+       "loesung": "Sie sind gestiegen: Im September waren 555,4 Milliarden Euro Ausgaben geplant, jetzt sind es rund 561 Milliarden."
+      }
+     ],
+     "diskussion": [
+      "Sind hohe Schulden für Investitionen gerechtfertigt?",
+      "In welche Bereiche sollte ein Staat vor allem investieren: Bildung, Gesundheit, Wohnen oder Verteidigung?",
+      "Wie viel weißt du über den Haushalt deiner Stadt oder deines Landes?"
+     ],
+     "uebungen": [
+      {
+       "typ": "zuordnen",
+       "titel": "Synonyme",
+       "anweisung": "Finde die Paare.",
+       "paare": [
+        [
+         "der Etat",
+         "der Haushalt"
+        ],
+        [
+         "abschließend",
+         "zum Schluss"
+        ],
+        [
+         "zurückweisen",
+         "ablehnen"
+        ],
+        [
+         "sich befassen mit",
+         "sich beschäftigen mit"
+        ]
+       ]
+      },
+      {
+       "typ": "auswahl",
+       "titel": "Präpositionen mit Genitiv",
+       "anweisung": "Wähle die richtige Präposition.",
+       "items": [
+        {
+         "text": "___ der Koalition gab es Streit.",
+         "optionen": [
+          "Innerhalb",
+          "Trotz"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "___ der Kritik hält die Regierung an ihrem Kurs fest.",
+         "optionen": [
+          "Trotz",
+          "Innerhalb"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "___ der hohen Zinsen warnen Ökonomen.",
+         "optionen": [
+          "Wegen",
+          "Statt"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "___ der Kredite aus Sondervermögen liegen die Schulden bei 210 Milliarden.",
+         "optionen": [
+          "Einschließlich",
+          "Anstatt"
+         ],
+         "richtig": 0
+        }
+       ],
+       "regel": "innerhalb, trotz, wegen, einschließlich, statt + Genitiv."
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Verben mit Präpositionen",
+       "anweisung": "Ergänze die Präposition.",
+       "items": [
+        {
+         "text": "Die Grünen kritisieren die Regierung ___ ihre Buchungstricks.",
+         "loesung": [
+          "für"
+         ]
+        },
+        {
+         "text": "In der Koalition gab es Streit ___ Prioritäten.",
+         "loesung": [
+          "über",
+          "um"
+         ]
+        },
+        {
+         "text": "Der Bundesrat befasst sich ___ dem Gesetz.",
+         "loesung": [
+          "mit"
+         ]
+        },
+        {
+         "text": "Die Regierung hält ___ ihrem Kurs fest.",
+         "loesung": [
+          "an"
+         ]
+        }
+       ],
+       "regel": "kritisieren für + Akk., Streit über/um + Akk., sich befassen mit + Dat., festhalten an + Dat."
+      }
+     ]
+    }
+   ]
+  },
+  {
    "datum": "2026-11-26",
    "nachrichten": [
     {
