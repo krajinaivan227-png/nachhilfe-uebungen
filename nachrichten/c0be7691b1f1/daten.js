@@ -4,6 +4,952 @@ window.NACHRICHTEN = {
  "spiel": false,
  "tage": [
   {
+   "datum": "2026-11-28",
+   "nachrichten": [
+    {
+     "kategorie": "Wetter",
+     "titel": "Der erste Advent wird kalt",
+     "text": "Morgen ist Sonntag. Das ist der erste Advent. In Österreich ist es sehr kalt. In manchen Tälern in den Alpen sind es bis zu minus zwölf Grad. Heute gibt es viel Nebel.\n\nAm Sonntag scheint in den Bergen die Sonne. Im Süden und im Osten sind die Straßen vielleicht glatt. Bitte langsam gehen und gut aufpassen! Viel Schnee kommt nicht.",
+     "vokabeln": [
+      {
+       "de": "der Advent",
+       "im_text": "Advent",
+       "erkl": "die vier Wochen vor Weihnachten"
+      },
+      {
+       "de": "kalt",
+       "im_text": "kalt",
+       "erkl": "nicht warm; im Winter ist es oft kalt"
+      },
+      {
+       "de": "das Tal",
+       "im_text": "Tälern",
+       "erkl": "das tiefe Land zwischen zwei Bergen"
+      },
+      {
+       "de": "der Nebel",
+       "im_text": "Nebel",
+       "erkl": "eine graue Wolke ganz unten; man sieht nicht weit"
+      },
+      {
+       "de": "der Berg",
+       "im_text": "Bergen",
+       "erkl": "sehr hohes Land, zum Beispiel die Alpen"
+      },
+      {
+       "de": "glatt",
+       "im_text": "glatt",
+       "erkl": "so rutschig, dass man leicht hinfällt"
+      },
+      {
+       "de": "aufpassen",
+       "im_text": "aufpassen",
+       "erkl": "vorsichtig sein und gut schauen"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Welcher Tag ist morgen?",
+       "optionen": [
+        "Samstag",
+        "Sonntag",
+        "Montag"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Heute gibt es viel Nebel.",
+       "richtig": true
+      },
+      {
+       "typ": "rf",
+       "aussage": "Es kommt viel Schnee.",
+       "richtig": false,
+       "erkl": "Viel Schnee kommt nicht."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wie kalt ist es in manchen Tälern?",
+         "bis zu minus zwölf Grad"
+        ],
+        [
+         "Wo scheint am Sonntag die Sonne?",
+         "in den Bergen"
+        ],
+        [
+         "Wo sind die Straßen vielleicht glatt?",
+         "im Süden und im Osten"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Magst du den Winter? Warum (nicht)?",
+      "Was machst du am Sonntag?"
+     ],
+     "uebungen": [
+      {
+       "typ": "zuordnen",
+       "titel": "Gegenteile",
+       "anweisung": "Finde die Paare.",
+       "paare": [
+        [
+         "kalt",
+         "warm"
+        ],
+        [
+         "der Süden",
+         "der Norden"
+        ],
+        [
+         "der Osten",
+         "der Westen"
+        ],
+        [
+         "langsam",
+         "schnell"
+        ]
+       ]
+      },
+      {
+       "typ": "auswahl",
+       "titel": "Wortstellung: Verb auf Platz 2",
+       "anweisung": "Wähle den richtigen Satz.",
+       "items": [
+        {
+         "text": "Heute …",
+         "optionen": [
+          "gibt es viel Nebel.",
+          "es gibt viel Nebel."
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Am Sonntag …",
+         "optionen": [
+          "scheint die Sonne in den Bergen.",
+          "die Sonne scheint in den Bergen."
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Morgen …",
+         "optionen": [
+          "gehe ich in den Park.",
+          "ich gehe in den Park."
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Im Winter …",
+         "optionen": [
+          "trage ich eine Jacke.",
+          "ich trage eine Jacke."
+         ],
+         "richtig": 0
+        }
+       ],
+       "regel": "Wiederholung (20.11.): Zeit auf Platz 1 → das Verb steht auf Platz 2. Heute habe ich … / Vorher hatte ich Angst."
+      },
+      {
+       "typ": "auswahl",
+       "titel": "wo oder wohin?",
+       "anweisung": "Wähle das richtige Fragewort.",
+       "items": [
+        {
+         "text": "___ scheint die Sonne? – In den Bergen.",
+         "optionen": [
+          "Wo",
+          "Wohin"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "___ fährst du am Sonntag? – In die Berge.",
+         "optionen": [
+          "Wo",
+          "Wohin"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "___ ist es glatt? – Im Süden.",
+         "optionen": [
+          "Wo",
+          "Wohin"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "___ gehst du heute? – In den Park.",
+         "optionen": [
+          "Wo",
+          "Wohin"
+         ],
+         "richtig": 1
+        }
+       ],
+       "regel": "wo? = Ort (in den Bergen, im Meer). wohin? = Richtung (in die Berge, ans Meer, nach Spanien)."
+      }
+     ]
+    },
+    {
+     "kategorie": "Umwelt",
+     "titel": "Ein Schiff ist im Meer gesunken",
+     "text": "Bei Ibiza in Spanien ist am Donnerstag ein großes Schiff gesunken. Das Schiff hatte viel Diesel dabei. Jetzt ist Öl im Meer. Das Öl ist fast fünf Kilometer lang.\n\nÖl ist schlecht für Fische und Vögel. Spanien hilft jetzt schnell. An der Küste hat man noch kein Öl gefunden. Das ist eine gute Nachricht.",
+     "vokabeln": [
+      {
+       "de": "das Schiff",
+       "im_text": "Schiff",
+       "erkl": "ein großes Boot"
+      },
+      {
+       "de": "sinken",
+       "im_text": "gesunken",
+       "erkl": "unter das Wasser gehen"
+      },
+      {
+       "de": "das Meer",
+       "im_text": "Meer",
+       "erkl": "sehr viel Salzwasser, zum Beispiel das Mittelmeer"
+      },
+      {
+       "de": "das Öl",
+       "im_text": "Öl",
+       "erkl": "eine dicke, schwarze Flüssigkeit; sie ist schlecht für die Natur"
+      },
+      {
+       "de": "der Fisch",
+       "im_text": "Fische",
+       "erkl": "ein Tier, es lebt im Wasser"
+      },
+      {
+       "de": "der Vogel",
+       "im_text": "Vögel",
+       "erkl": "ein Tier mit Federn, es kann fliegen"
+      },
+      {
+       "de": "die Küste",
+       "im_text": "Küste",
+       "erkl": "hier trifft das Land das Meer"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wo ist das Schiff gesunken?",
+       "optionen": [
+        "bei Ibiza",
+        "bei Wien",
+        "bei Paris"
+       ],
+       "richtig": 0
+      },
+      {
+       "typ": "rf",
+       "aussage": "Öl ist gut für Fische.",
+       "richtig": false,
+       "erkl": "Öl ist schlecht für Fische und Vögel."
+      },
+      {
+       "typ": "rf",
+       "aussage": "An der Küste hat man noch kein Öl gefunden.",
+       "richtig": true
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wann ist das Schiff gesunken?",
+         "am Donnerstag"
+        ],
+        [
+         "Wie lang ist das Öl im Meer?",
+         "fast fünf Kilometer"
+        ],
+        [
+         "In welchem Land ist Ibiza?",
+         "in Spanien"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Warst du schon einmal am Meer?",
+      "Welche Tiere leben im Meer?"
+     ],
+     "uebungen": [
+      {
+       "typ": "zuordnen",
+       "titel": "Was passt zusammen?",
+       "anweisung": "Finde die Paare.",
+       "paare": [
+        [
+         "das Meer",
+         "Hier leben Fische."
+        ],
+        [
+         "die Küste",
+         "Hier trifft das Land das Meer."
+        ],
+        [
+         "das Schiff",
+         "Es fährt auf dem Wasser."
+        ],
+        [
+         "der Vogel",
+         "Er kann fliegen."
+        ]
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Perfekt",
+       "anweisung": "Schreib das Partizip.",
+       "items": [
+        {
+         "text": "Das Schiff ist ___. (sinken)",
+         "loesung": [
+          "gesunken"
+         ]
+        },
+        {
+         "text": "Man hat noch kein Öl ___. (finden)",
+         "loesung": [
+          "gefunden"
+         ]
+        },
+        {
+         "text": "Wir sind nach Spanien ___. (fahren)",
+         "loesung": [
+          "gefahren"
+         ]
+        },
+        {
+         "text": "Ich habe einen Fisch ___. (sehen)",
+         "loesung": [
+          "gesehen"
+         ]
+        }
+       ],
+       "regel": "Perfekt: sein + Partizip bei Bewegung (gesunken, gefahren). haben + Partizip bei den meisten Verben (gefunden, gesehen)."
+      },
+      {
+       "typ": "auswahl",
+       "titel": "wo oder wohin?",
+       "anweisung": "Wähle das richtige Fragewort.",
+       "items": [
+        {
+         "text": "___ ist das Schiff gesunken? – Bei Ibiza.",
+         "optionen": [
+          "Wo",
+          "Wohin"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "___ fährst du im Sommer? – Ans Meer.",
+         "optionen": [
+          "Wo",
+          "Wohin"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "___ leben die Fische? – Im Meer.",
+         "optionen": [
+          "Wo",
+          "Wohin"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "___ fliegen die Vögel im Winter? – In den Süden.",
+         "optionen": [
+          "Wo",
+          "Wohin"
+         ],
+         "richtig": 1
+        }
+       ],
+       "regel": "wo? = Ort (in den Bergen, im Meer). wohin? = Richtung (in die Berge, ans Meer, nach Spanien)."
+      }
+     ]
+    },
+    {
+     "kategorie": "Weltall",
+     "titel": "Eine Sonde fotografiert einen Asteroiden",
+     "text": "Hera ist eine Raumsonde aus Europa. Sie ist jetzt bei zwei Asteroiden. Der kleine Asteroid heißt Dimorphos. Er ist nur 151 Meter groß.\n\nIm Jahr 2022 ist eine andere Sonde absichtlich in Dimorphos geflogen. Das war ein Test. Jetzt hat Hera Fotos geschickt. Man sieht ein großes Loch, so groß wie ein Stadion. Und Dimorphos dreht sich jetzt ganz wild.",
+     "vokabeln": [
+      {
+       "de": "die Raumsonde",
+       "im_text": "Raumsonde",
+       "erkl": "eine Maschine ohne Menschen; sie fliegt ins Weltall"
+      },
+      {
+       "de": "der Asteroid",
+       "im_text": "Asteroiden",
+       "erkl": "ein großer Stein im Weltall"
+      },
+      {
+       "de": "absichtlich",
+       "im_text": "absichtlich",
+       "erkl": "mit Plan, nicht aus Versehen"
+      },
+      {
+       "de": "der Test",
+       "im_text": "Test",
+       "erkl": "man probiert etwas aus"
+      },
+      {
+       "de": "das Loch",
+       "im_text": "Loch",
+       "erkl": "ein Platz, wo etwas fehlt; er ist tief und leer"
+      },
+      {
+       "de": "das Stadion",
+       "im_text": "Stadion",
+       "erkl": "ein sehr großer Platz für Sport, zum Beispiel für Fußball"
+      },
+      {
+       "de": "sich drehen",
+       "im_text": "dreht sich",
+       "erkl": "sich im Kreis bewegen"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wie groß ist Dimorphos?",
+       "optionen": [
+        "151 Meter",
+        "15 Kilometer",
+        "1 Meter"
+       ],
+       "richtig": 0
+      },
+      {
+       "typ": "rf",
+       "aussage": "Hera kommt aus Amerika.",
+       "richtig": false,
+       "erkl": "Hera kommt aus Europa."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Hera hat Fotos geschickt.",
+       "richtig": true
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wann war der Test?",
+         "im Jahr 2022"
+        ],
+        [
+         "Wie groß ist das Loch?",
+         "so groß wie ein Stadion"
+        ],
+        [
+         "Wie heißt der kleine Asteroid?",
+         "Dimorphos"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Möchtest du ins Weltall fliegen?",
+      "Lernst du gern Physik? Warum (nicht)?"
+     ],
+     "uebungen": [
+      {
+       "typ": "zuordnen",
+       "titel": "Was passt zusammen?",
+       "anweisung": "Finde die Paare.",
+       "paare": [
+        [
+         "die Sonne",
+         "ein Stern"
+        ],
+        [
+         "die Erde",
+         "unser Planet"
+        ],
+        [
+         "der Mond",
+         "Er fliegt um die Erde."
+        ],
+        [
+         "der Asteroid",
+         "ein großer Stein im Weltall"
+        ]
+       ]
+      },
+      {
+       "typ": "auswahl",
+       "titel": "Perfekt: haben oder sein?",
+       "anweisung": "Wähle das richtige Wort.",
+       "items": [
+        {
+         "text": "Hera ___ Fotos geschickt.",
+         "optionen": [
+          "hat",
+          "ist"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Die Sonde ___ in den Asteroiden geflogen.",
+         "optionen": [
+          "ist",
+          "hat"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Die Forscher ___ die Fotos gezeigt.",
+         "optionen": [
+          "haben",
+          "sind"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Hera ___ bei den Asteroiden angekommen.",
+         "optionen": [
+          "ist",
+          "hat"
+         ],
+         "richtig": 0
+        }
+       ],
+       "regel": "sein: Bewegung (fliegen, ankommen). haben: die meisten anderen Verben (schicken, zeigen)."
+      },
+      {
+       "typ": "auswahl",
+       "titel": "Wortstellung: Verb auf Platz 2",
+       "anweisung": "Wähle den richtigen Satz.",
+       "items": [
+        {
+         "text": "Im Jahr 2022 …",
+         "optionen": [
+          "ist eine Sonde in Dimorphos geflogen.",
+          "eine Sonde ist in Dimorphos geflogen."
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Jetzt …",
+         "optionen": [
+          "hat Hera Fotos geschickt.",
+          "Hera hat Fotos geschickt."
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Heute …",
+         "optionen": [
+          "lerne ich Physik.",
+          "ich lerne Physik."
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Am Montag …",
+         "optionen": [
+          "habe ich Chemie.",
+          "ich habe Chemie."
+         ],
+         "richtig": 0
+        }
+       ],
+       "regel": "Wiederholung (20.11.): Zeit auf Platz 1 → das Verb steht auf Platz 2. Heute habe ich … / Vorher hatte ich Angst."
+      }
+     ]
+    },
+    {
+     "kategorie": "Sport",
+     "titel": "Hacker greifen die FIFA an",
+     "text": "Die FIFA ist der Weltverband vom Fußball. Jetzt hat die FIFA gesagt: Hacker haben unsere Computer angegriffen. Sie haben Daten gestohlen. Das sind zum Beispiel Namen und Dokumente.\n\nDie FIFA sagt, es sind nicht viele Daten. Die Polizei hilft jetzt. Man weiß aber noch nicht: Wann war der Angriff? Und wie viele Menschen sind betroffen?",
+     "vokabeln": [
+      {
+       "de": "der Weltverband",
+       "im_text": "Weltverband",
+       "erkl": "eine große Gruppe; sie organisiert einen Sport in der ganzen Welt"
+      },
+      {
+       "de": "der Hacker",
+       "im_text": "Hacker",
+       "erkl": "eine Person, sie geht ohne Erlaubnis in fremde Computer"
+      },
+      {
+       "de": "angreifen",
+       "im_text": "angegriffen",
+       "erkl": "etwas oder jemanden attackieren"
+      },
+      {
+       "de": "die Daten",
+       "im_text": "Daten",
+       "erkl": "Informationen, zum Beispiel Namen und Adressen"
+      },
+      {
+       "de": "stehlen",
+       "im_text": "gestohlen",
+       "erkl": "etwas nehmen, das einem anderen gehört"
+      },
+      {
+       "de": "die Polizei",
+       "im_text": "Polizei",
+       "erkl": "sie hilft, wenn jemand etwas Verbotenes macht"
+      },
+      {
+       "de": "betroffen",
+       "im_text": "betroffen",
+       "erkl": "ein Problem passiert einer Person"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Was haben die Hacker gestohlen?",
+       "optionen": [
+        "Fußbälle",
+        "Daten",
+        "Geld"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die FIFA sagt, es sind sehr viele Daten.",
+       "richtig": false,
+       "erkl": "Sie sagt, es sind nicht viele Daten."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die Polizei hilft jetzt.",
+       "richtig": true
+      },
+      {
+       "typ": "offen",
+       "frage": "Was weiß man noch nicht?",
+       "loesung": "Wann der Angriff war und wie viele Menschen betroffen sind."
+      }
+     ],
+     "diskussion": [
+      "Spielst du Fußball oder schaust du Fußball?",
+      "Was machst du, damit dein Handy sicher ist?"
+     ],
+     "uebungen": [
+      {
+       "typ": "zuordnen",
+       "titel": "Gegenteile",
+       "anweisung": "Finde die Paare.",
+       "paare": [
+        [
+         "viel",
+         "wenig"
+        ],
+        [
+         "alt",
+         "neu"
+        ],
+        [
+         "gewinnen",
+         "verlieren"
+        ],
+        [
+         "richtig",
+         "falsch"
+        ]
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Perfekt",
+       "anweisung": "Schreib das Partizip.",
+       "items": [
+        {
+         "text": "angreifen → haben ___",
+         "loesung": [
+          "angegriffen"
+         ]
+        },
+        {
+         "text": "stehlen → haben ___",
+         "loesung": [
+          "gestohlen"
+         ]
+        },
+        {
+         "text": "sagen → hat ___",
+         "loesung": [
+          "gesagt"
+         ]
+        },
+        {
+         "text": "helfen → hat ___",
+         "loesung": [
+          "geholfen"
+         ]
+        }
+       ],
+       "regel": "Perfekt: haben/sein + Partizip. sagen → gesagt (regelmäßig). stehlen → gestohlen (unregelmäßig)."
+      },
+      {
+       "typ": "auswahl",
+       "titel": "Wortstellung: Verb auf Platz 2",
+       "anweisung": "Wähle den richtigen Satz.",
+       "items": [
+        {
+         "text": "Jetzt …",
+         "optionen": [
+          "hilft die Polizei.",
+          "die Polizei hilft."
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Gestern …",
+         "optionen": [
+          "habe ich Fußball gespielt.",
+          "ich habe Fußball gespielt."
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Am Samstag …",
+         "optionen": [
+          "schaue ich ein Spiel.",
+          "ich schaue ein Spiel."
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Heute …",
+         "optionen": [
+          "fahre ich mit dem Scooter.",
+          "ich fahre mit dem Scooter."
+         ],
+         "richtig": 0
+        }
+       ],
+       "regel": "Wiederholung (20.11.): Zeit auf Platz 1 → das Verb steht auf Platz 2. Heute habe ich … / Vorher hatte ich Angst."
+      }
+     ]
+    },
+    {
+     "kategorie": "Politik",
+     "titel": "Neuseeland hat gewählt",
+     "text": "Neuseeland ist ein Land weit weg, bei Australien. Im November hat Neuseeland gewählt. Jetzt ist das Ergebnis da. Das Parlament hat 130 Sitze. Die Regierung hat 65 Sitze. Das ist leider zu wenig: Sie braucht 66.\n\nEine kleine Partei hat sieben Sitze. Sie ist neu im Parlament. Jetzt ist sie sehr wichtig.",
+     "vokabeln": [
+      {
+       "de": "wählen",
+       "im_text": "gewählt",
+       "erkl": "bei einer Wahl sagen: Diese Partei will ich"
+      },
+      {
+       "de": "das Ergebnis",
+       "im_text": "Ergebnis",
+       "erkl": "das Ende von einem Spiel oder einer Wahl; man weiß, wer gewinnt"
+      },
+      {
+       "de": "das Parlament",
+       "im_text": "Parlament",
+       "erkl": "hier machen Politiker die Gesetze"
+      },
+      {
+       "de": "der Sitz",
+       "im_text": "Sitze",
+       "erkl": "ein Platz für einen Politiker im Parlament"
+      },
+      {
+       "de": "die Regierung",
+       "im_text": "Regierung",
+       "erkl": "die Politiker, die das Land führen"
+      },
+      {
+       "de": "die Partei",
+       "im_text": "Partei",
+       "erkl": "eine Gruppe von Politikern mit gleichen Ideen"
+      },
+      {
+       "de": "wichtig",
+       "im_text": "wichtig",
+       "erkl": "man braucht es sehr; es ist nicht egal"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wo liegt Neuseeland?",
+       "optionen": [
+        "bei Australien",
+        "bei Spanien",
+        "bei Kanada"
+       ],
+       "richtig": 0
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die Regierung hat genug Sitze.",
+       "richtig": false,
+       "erkl": "Sie hat 65 Sitze, sie braucht 66."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die kleine Partei ist neu im Parlament.",
+       "richtig": true
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wie viele Sitze hat das Parlament?",
+         "130"
+        ],
+        [
+         "Wie viele Sitze hat die kleine Partei?",
+         "sieben"
+        ],
+        [
+         "Wann hat Neuseeland gewählt?",
+         "im November"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Möchtest du einmal nach Neuseeland reisen?",
+      "Was weißt du über Neuseeland?"
+     ],
+     "uebungen": [
+      {
+       "typ": "eingabe",
+       "titel": "Zahlen",
+       "anweisung": "Schreib die Zahl als Wort.",
+       "items": [
+        {
+         "text": "7 → ___",
+         "loesung": [
+          "sieben"
+         ]
+        },
+        {
+         "text": "65 → ___",
+         "loesung": [
+          "fünfundsechzig"
+         ]
+        },
+        {
+         "text": "66 → ___",
+         "loesung": [
+          "sechsundsechzig"
+         ]
+        },
+        {
+         "text": "130 → ___",
+         "loesung": [
+          "hundertdreißig",
+          "einhundertdreißig"
+         ]
+        }
+       ],
+       "regel": "Zahlen über 20: zuerst die Einer, dann die Zehner: fünf-und-sechzig."
+      },
+      {
+       "typ": "auswahl",
+       "titel": "Wortstellung: Verb auf Platz 2",
+       "anweisung": "Wähle den richtigen Satz.",
+       "items": [
+        {
+         "text": "Im November …",
+         "optionen": [
+          "hat Neuseeland gewählt.",
+          "Neuseeland hat gewählt."
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Jetzt …",
+         "optionen": [
+          "ist das Ergebnis da.",
+          "das Ergebnis ist da."
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Am Montag …",
+         "optionen": [
+          "habe ich Physik.",
+          "ich habe Physik."
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Nach der Schule …",
+         "optionen": [
+          "fahre ich nach Hause.",
+          "ich fahre nach Hause."
+         ],
+         "richtig": 0
+        }
+       ],
+       "regel": "Wiederholung (20.11.): Zeit auf Platz 1 → das Verb steht auf Platz 2. Heute habe ich … / Vorher hatte ich Angst."
+      },
+      {
+       "typ": "auswahl",
+       "titel": "wo oder wohin?",
+       "anweisung": "Wähle das richtige Fragewort.",
+       "items": [
+        {
+         "text": "___ liegt Neuseeland? – Bei Australien.",
+         "optionen": [
+          "Wo",
+          "Wohin"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "___ reist du im Sommer? – Nach Neuseeland.",
+         "optionen": [
+          "Wo",
+          "Wohin"
+         ],
+         "richtig": 1
+        },
+        {
+         "text": "___ sitzen die Politiker? – Im Parlament.",
+         "optionen": [
+          "Wo",
+          "Wohin"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "___ gehst du nach der Schule? – In den Park.",
+         "optionen": [
+          "Wo",
+          "Wohin"
+         ],
+         "richtig": 1
+        }
+       ],
+       "regel": "wo? = Ort (in den Bergen, im Meer). wohin? = Richtung (in die Berge, ans Meer, nach Spanien)."
+      }
+     ]
+    }
+   ]
+  },
+  {
    "datum": "2026-11-27",
    "nachrichten": [
     {

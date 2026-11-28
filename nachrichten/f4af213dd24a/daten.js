@@ -4,6 +4,993 @@ window.NACHRICHTEN = {
  "spiel": false,
  "tage": [
   {
+   "datum": "2026-11-28",
+   "nachrichten": [
+    {
+     "kategorie": "Politik",
+     "titel": "Neuseeland: Patt im Parlament macht Newcomer zum Königsmacher",
+     "text": "Drei Wochen nach der Parlamentswahl vom 7. November steht in Neuseeland das amtliche Endergebnis fest – und es verschärft die Lage für Premierminister Christopher Luxon. Sein Mitte-rechts-Bündnis aus National Party, ACT und New Zealand First kommt nur noch auf 65 der 130 Sitze und verfehlt damit die absolute Mehrheit um einen einzigen Sitz. Größte Kraft bleibt Luxons National Party mit 40 Sitzen, ACT und New Zealand First kommen auf 13 beziehungsweise 12. Das linke Lager aus Labour, Grünen und Te Pāti Māori erreicht 58 Sitze. Am Wahlabend hatte es noch nach einer knappen Mehrheit für die Regierung ausgesehen.\n\nZur entscheidenden Kraft wird damit die Opportunity Party, die mit gut sechs Prozent erstmals ins Parlament eingezogen ist und sieben Abgeordnete stellt. Parteichefin Qiulae Wong kann nun Bedingungen stellen. Im Zentrum ihres Programms steht eine Bodenwertsteuer, also eine Abgabe auf den Wert von Grundstücken. Luxon führt die Regierungsgeschäfte vorerst kommissarisch weiter. Sollten die Gespräche scheitern, wären Neuwahlen nicht ausgeschlossen. Wong führt die Partei erst seit November 2025.",
+     "vokabeln": [
+      {
+       "de": "verschärfen",
+       "im_text": "verschärft",
+       "erkl": "eine Situation schwieriger oder ernster machen"
+      },
+      {
+       "de": "verfehlen",
+       "im_text": "verfehlt",
+       "erkl": "ein Ziel knapp nicht erreichen"
+      },
+      {
+       "de": "das Lager",
+       "im_text": "Lager",
+       "erkl": "hier: eine Gruppe von Parteien mit ähnlichen politischen Zielen"
+      },
+      {
+       "de": "einziehen in",
+       "im_text": "eingezogen",
+       "erkl": "hier: nach einer Wahl Mitglied im Parlament werden"
+      },
+      {
+       "de": "die Bedingung",
+       "im_text": "Bedingungen",
+       "erkl": "etwas, das erfüllt sein muss, bevor man zustimmt"
+      },
+      {
+       "de": "kommissarisch",
+       "im_text": "kommissarisch",
+       "erkl": "nur vorübergehend, bis eine neue Lösung gefunden ist"
+      },
+      {
+       "de": "ausgeschlossen sein",
+       "im_text": "ausgeschlossen",
+       "erkl": "unmöglich sein"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Um wie viele Sitze verfehlt Luxons Bündnis die Mehrheit?",
+       "optionen": [
+        "um einen",
+        "um sieben",
+        "um acht"
+       ],
+       "richtig": 0
+      },
+      {
+       "typ": "mc",
+       "frage": "Welche Parteien gehören zum linken Lager?",
+       "optionen": [
+        "Labour, Grüne und Te Pāti Māori",
+        "National, ACT und New Zealand First",
+        "nur Labour"
+       ],
+       "richtig": 0
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die Opportunity Party saß schon vor der Wahl im Parlament.",
+       "richtig": false,
+       "erkl": "Sie ist erstmals ins Parlament eingezogen."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Luxon führt die Regierungsgeschäfte vorerst weiter.",
+       "richtig": true
+      },
+      {
+       "typ": "offen",
+       "frage": "Was ist eine Bodenwertsteuer?",
+       "loesung": "eine Abgabe auf den Wert von Grundstücken"
+      }
+     ],
+     "diskussion": [
+      "Sollten kleine Parteien in einer Koalition so viel Einfluss haben dürfen? Begründe deine Meinung.",
+      "Hältst du eine Steuer auf den Wert von Grundstücken für gerecht?",
+      "Was spricht in so einer Lage für Neuwahlen, was dagegen?"
+     ],
+     "uebungen": [
+      {
+       "typ": "eingabe",
+       "titel": "Verben mit Präpositionen",
+       "anweisung": "Ergänze die Präposition.",
+       "items": [
+        {
+         "text": "Luxon verhandelt ___ der Opportunity Party.",
+         "loesung": [
+          "mit"
+         ]
+        },
+        {
+         "text": "Die Partei setzt sich ___ eine Bodenwertsteuer ein.",
+         "loesung": [
+          "für"
+         ]
+        },
+        {
+         "text": "Die Mehrheit hängt ___ sieben Abgeordneten ab.",
+         "loesung": [
+          "von"
+         ]
+        },
+        {
+         "text": "Die Partei besteht ___ ihrer wichtigsten Forderung.",
+         "loesung": [
+          "auf"
+         ]
+        },
+        {
+         "text": "Viele Beobachter zweifeln ___ einer schnellen Einigung.",
+         "loesung": [
+          "an"
+         ]
+        }
+       ],
+       "regel": "Verben mit festen Präpositionen immer zusammen lernen: verhandeln mit + D, sich einsetzen für + A, abhängen von + D, bestehen auf + D, zweifeln an + D."
+      },
+      {
+       "typ": "auswahl",
+       "titel": "Präpositionen mit Genitiv",
+       "anweisung": "Wähle das richtige Wort.",
+       "items": [
+        {
+         "text": "___ des knappen Ergebnisses sind Neuwahlen möglich.",
+         "optionen": [
+          "Wegen",
+          "Weil",
+          "Obwohl"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "___ der Verhandlungen bleibt Luxon im Amt.",
+         "optionen": [
+          "Während",
+          "Als",
+          "Wenn"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "___ ihres kleinen Wahlergebnisses ist die Partei sehr mächtig.",
+         "optionen": [
+          "Trotz",
+          "Obwohl",
+          "Dass"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "___ einer Einigung könnte es Neuwahlen geben.",
+         "optionen": [
+          "Statt",
+          "Damit",
+          "Ob"
+         ],
+         "richtig": 0
+        }
+       ],
+       "regel": "wegen, trotz, während, innerhalb, außerhalb, infolge, statt + Genitiv. obwohl, weil, als, dass sind Konjunktionen – danach folgt ein Satz."
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Wem …, der … / Wer …, der …",
+       "anweisung": "Schreib „Wem“ oder „Wer“.",
+       "items": [
+        {
+         "text": "___ stabile Regierungen wichtig sind, der hofft auf eine schnelle Einigung.",
+         "loesung": [
+          "Wem"
+         ]
+        },
+        {
+         "text": "___ die Bodenwertsteuer nicht gefällt, der wählt eine andere Partei.",
+         "loesung": [
+          "Wem"
+         ]
+        },
+        {
+         "text": "___ neu im Parlament ist, der braucht Erfahrung.",
+         "loesung": [
+          "Wer"
+         ]
+        },
+        {
+         "text": "___ die Demokratie am Herzen liegt, der verfolgt die Verhandlungen genau.",
+         "loesung": [
+          "Wem"
+         ]
+        }
+       ],
+       "regel": "Wiederholung (14.11.): Bei Dativ-Ausdrücken (am Herzen liegen, wichtig sein, gefallen) beginnt der Satz mit „Wem“, sonst mit „Wer“. Der zweite Teil beginnt mit „der“."
+      }
+     ]
+    },
+    {
+     "kategorie": "Sport",
+     "titel": "Davis Cup: Italien kämpft sich zum vierten Mal in Folge ins Finale",
+     "text": "Titelverteidiger Italien hat beim Finalturnier des Davis Cups in Bologna erneut das Endspiel erreicht. Im Halbfinale setzten sich die Gastgeber am Freitag vor heimischem Publikum mit 2:1 gegen Tschechien durch – allerdings erst nach einem dramatischen Doppel. Lorenzo Musetti hatte Italien zunächst mit einem souveränen 6:3, 6:4 gegen Jakub Menšík in Führung gebracht, ehe Tschechien im zweiten Einzel ausglich.\n\nIm entscheidenden Doppel lagen Musetti und Andrea Vavassori gegen Jiří Lehečka und Tomáš Macháč zunächst mit einem Satz zurück. Sie drehten die Partie jedoch und gewannen mit 3:6, 6:1 und 7:6, wobei der Tiebreak mit 7:4 an sie ging. Bemerkenswert ist der Erfolg auch deshalb, weil Italien ohne seinen Topspieler Jannik Sinner antritt. Im Finale am Sonntag wartet der Sieger der Partie zwischen Spanien und Großbritannien, die heute ausgetragen wird. Gewinnt Italien, wäre es der vierte Titel in Folge, nachdem die Mannschaft den Pokal bereits 2023, 2024 und 2025 geholt hat.",
+     "vokabeln": [
+      {
+       "de": "der Titelverteidiger",
+       "im_text": "Titelverteidiger",
+       "erkl": "das Team, das den letzten Wettbewerb gewonnen hat"
+      },
+      {
+       "de": "sich durchsetzen",
+       "im_text": "setzten sich",
+       "erkl": "am Ende gegen einen starken Gegner gewinnen"
+      },
+      {
+       "de": "souverän",
+       "im_text": "souveränen",
+       "erkl": "überlegen und ohne große Probleme"
+      },
+      {
+       "de": "ausgleichen",
+       "im_text": "ausglich",
+       "erkl": "den gleichen Spielstand wie der Gegner erreichen"
+      },
+      {
+       "de": "zurückliegen",
+       "im_text": "zurück",
+       "erkl": "im Spielstand hinter dem Gegner sein"
+      },
+      {
+       "de": "eine Partie drehen",
+       "im_text": "drehten die Partie",
+       "erkl": "ein Spiel, das man fast verloren hatte, doch noch gewinnen"
+      },
+      {
+       "de": "austragen",
+       "im_text": "ausgetragen",
+       "erkl": "einen Wettkampf stattfinden lassen"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wie endete Musettis Einzel?",
+       "optionen": [
+        "6:3, 6:4",
+        "3:6, 6:1, 7:6",
+        "7:4"
+       ],
+       "richtig": 0
+      },
+      {
+       "typ": "rf",
+       "aussage": "Italien lag im Doppel zunächst mit einem Satz zurück.",
+       "richtig": true
+      },
+      {
+       "typ": "rf",
+       "aussage": "Jannik Sinner hat im Doppel gespielt.",
+       "richtig": false,
+       "erkl": "Italien tritt ohne Sinner an."
+      },
+      {
+       "typ": "offen",
+       "frage": "Warum ist der Erfolg besonders bemerkenswert?",
+       "loesung": "Weil Italien ohne seinen Topspieler Jannik Sinner antritt."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wer ist Italiens Finalgegner?",
+         "der Sieger aus Spanien gegen Großbritannien"
+        ],
+        [
+         "Wie ging der Tiebreak aus?",
+         "7:4 für Italien"
+        ],
+        [
+         "Wo findet das Finalturnier statt?",
+         "in Bologna"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Ist eine Mannschaft ohne ihren Star manchmal sogar stärker? Warum?",
+      "Welche Rolle spielt das Heimpublikum bei so einem Turnier?",
+      "Interessierst du dich eher für Einzel- oder für Mannschaftssport?"
+     ],
+     "uebungen": [
+      {
+       "typ": "auswahl",
+       "titel": "gegenüber – nachgestellt",
+       "anweisung": "Wähle die richtige Wortstellung.",
+       "items": [
+        {
+         "text": "Die Fans waren ___ sehr freundlich. (er)",
+         "optionen": [
+          "ihm gegenüber",
+          "gegenüber ihm"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Der Trainer ist ___ immer ehrlich. (wir)",
+         "optionen": [
+          "uns gegenüber",
+          "gegenüber uns"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Sie war ___ stets respektvoll. (ich)",
+         "optionen": [
+          "mir gegenüber",
+          "gegenüber mir"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Das Publikum hat sich ___ fair verhalten. (sie, Plural)",
+         "optionen": [
+          "ihnen gegenüber",
+          "gegenüber ihnen"
+         ],
+         "richtig": 0
+        }
+       ],
+       "regel": "Wiederholung (14.11.): gegenüber steht nach dem Pronomen: mir gegenüber, ihm gegenüber, uns gegenüber."
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Verben mit Präpositionen",
+       "anweisung": "Ergänze die Präposition.",
+       "items": [
+        {
+         "text": "Italien trifft im Finale ___ Spanien oder Großbritannien.",
+         "loesung": [
+          "auf"
+         ]
+        },
+        {
+         "text": "Die Fans freuen sich ___ das Finale am Sonntag.",
+         "loesung": [
+          "auf"
+         ]
+        },
+        {
+         "text": "Die Spieler haben lange ___ den Sieg gekämpft.",
+         "loesung": [
+          "um"
+         ]
+        },
+        {
+         "text": "Musetti hat sich ___ dem Publikum bedankt.",
+         "loesung": [
+          "bei"
+         ]
+        }
+       ],
+       "regel": "treffen auf + A, sich freuen auf + A (Zukunft), kämpfen um + A, sich bedanken bei + D."
+      },
+      {
+       "typ": "zuordnen",
+       "titel": "Synonyme",
+       "anweisung": "Finde die Paare.",
+       "paare": [
+        [
+         "das Endspiel",
+         "das Finale"
+        ],
+        [
+         "souverän",
+         "überlegen"
+        ],
+        [
+         "in Folge",
+         "hintereinander"
+        ],
+        [
+         "die Partie",
+         "das Spiel"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Politik",
+     "titel": "Bundestag beschließt Rekordhaushalt für 2027",
+     "text": "Nach langem Ringen hat der Bundestag am Freitag den Bundeshaushalt für 2027 verabschiedet. In namentlicher Abstimmung votierten 316 Abgeordnete dafür und 260 dagegen; zunächst war im Plenum von 317 Ja-Stimmen die Rede gewesen, die Zahl wurde später korrigiert. Der Etat von Finanzminister Lars Klingbeil (SPD) sieht im Kernhaushalt Ausgaben von rund 556 Milliarden Euro vor – etwas mehr als im Regierungsentwurf vom September, der 555,4 Milliarden Euro vorgesehen hatte. Die Neuverschuldung steigt dort von 98 auf etwa 123 Milliarden Euro. Rechnet man die Sondervermögen für Infrastruktur und Bundeswehr hinzu, sind es mehr als 210 Milliarden Euro.\n\nZusammen mit dem Haushalt wurde das Haushaltsbegleitgesetz beschlossen. Es senkt ab Anfang 2027 die Stromsteuer und führt ab 2028 eine Steuer auf zuckerhaltige Getränke ein. Unterstützt wurde es von CDU/CSU und SPD, während AfD, Grüne und Linke dagegen stimmten. Bis zur Einigung musste die Koalition nach zähen Verhandlungen eine Lücke von 34 Milliarden Euro im Etat schließen.",
+     "vokabeln": [
+      {
+       "de": "verabschieden",
+       "im_text": "verabschiedet",
+       "erkl": "ein Gesetz endgültig beschließen"
+      },
+      {
+       "de": "namentlich",
+       "im_text": "namentlicher",
+       "erkl": "so, dass man von jedem Abgeordneten weiß, wie er abgestimmt hat"
+      },
+      {
+       "de": "der Etat",
+       "im_text": "Etat",
+       "erkl": "der Plan, wie viel Geld ein Staat einnimmt und ausgibt; der Haushalt"
+      },
+      {
+       "de": "die Neuverschuldung",
+       "im_text": "Neuverschuldung",
+       "erkl": "die neuen Schulden, die ein Staat in einem Jahr macht"
+      },
+      {
+       "de": "das Sondervermögen",
+       "im_text": "Sondervermögen",
+       "erkl": "ein eigener Geldtopf außerhalb des normalen Haushalts für bestimmte Aufgaben"
+      },
+      {
+       "de": "zuckerhaltig",
+       "im_text": "zuckerhaltige",
+       "erkl": "mit Zucker darin"
+      },
+      {
+       "de": "die Lücke",
+       "im_text": "Lücke",
+       "erkl": "hier: Geld, das im Plan fehlt"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wie viele Abgeordnete stimmten für den Haushalt?",
+       "optionen": [
+        "260",
+        "316",
+        "556"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die Stromsteuer steigt ab 2027.",
+       "richtig": false,
+       "erkl": "Sie wird ab Anfang 2027 gesenkt."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Ab 2028 soll es eine Steuer auf zuckerhaltige Getränke geben.",
+       "richtig": true
+      },
+      {
+       "typ": "offen",
+       "frage": "Wie hoch ist die Neuverschuldung mit den Sondervermögen?",
+       "loesung": "mehr als 210 Milliarden Euro"
+      },
+      {
+       "typ": "mc",
+       "frage": "Welche Parteien stimmten gegen das Begleitgesetz?",
+       "optionen": [
+        "AfD, Grüne und Linke",
+        "CDU/CSU und SPD",
+        "nur die AfD"
+       ],
+       "richtig": 0
+      }
+     ],
+     "diskussion": [
+      "Hältst du eine Zuckersteuer für ein gutes Mittel, um die Gesundheit zu fördern?",
+      "Darf ein Staat für Investitionen hohe Schulden machen?",
+      "Wofür sollte der Staat mehr Geld ausgeben – zum Beispiel für Bildung oder für Gesundheit?"
+     ],
+     "uebungen": [
+      {
+       "typ": "auswahl",
+       "titel": "Präpositionen mit Genitiv",
+       "anweisung": "Wähle das richtige Wort.",
+       "items": [
+        {
+         "text": "___ der hohen Schulden hat der Bundestag zugestimmt.",
+         "optionen": [
+          "Trotz",
+          "Obwohl",
+          "Weil"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "___ der Debatte gab es viel Streit.",
+         "optionen": [
+          "Während",
+          "Als",
+          "Wenn"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "___ der Lücke im Haushalt musste die Koalition sparen.",
+         "optionen": [
+          "Wegen",
+          "Weil",
+          "Da"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "___ der niedrigeren Stromsteuer zahlen viele Haushalte ab 2027 weniger.",
+         "optionen": [
+          "Infolge",
+          "Damit",
+          "Dass"
+         ],
+         "richtig": 0
+        }
+       ],
+       "regel": "wegen, trotz, während, innerhalb, außerhalb, infolge, statt + Genitiv. obwohl, weil, als, dass sind Konjunktionen – danach folgt ein Satz."
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Verben mit Präpositionen",
+       "anweisung": "Ergänze die Präposition.",
+       "items": [
+        {
+         "text": "316 Abgeordnete haben ___ den Etat gestimmt.",
+         "loesung": [
+          "für"
+         ]
+        },
+        {
+         "text": "Die Opposition stimmte ___ das Gesetz.",
+         "loesung": [
+          "gegen"
+         ]
+        },
+        {
+         "text": "Die Zuckersteuer soll ___ einer gesünderen Ernährung beitragen.",
+         "loesung": [
+          "zu"
+         ]
+        },
+        {
+         "text": "Der Minister gab im Bundestag Auskunft ___ die Zahlen.",
+         "loesung": [
+          "über"
+         ]
+        }
+       ],
+       "regel": "stimmen für/gegen + A, beitragen zu + D. Wiederholung (14.11.): Auskunft geben über + A."
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Wem …, der … / Wer …, der …",
+       "anweisung": "Schreib „Wem“ oder „Wer“.",
+       "items": [
+        {
+         "text": "___ Gesundheit am Herzen liegt, der begrüßt die Zuckersteuer.",
+         "loesung": [
+          "Wem"
+         ]
+        },
+        {
+         "text": "___ viel Strom verbraucht, der spart ab 2027.",
+         "loesung": [
+          "Wer"
+         ]
+        },
+        {
+         "text": "___ die Schulden zu hoch sind, der kritisiert den Haushalt.",
+         "loesung": [
+          "Wem"
+         ]
+        },
+        {
+         "text": "___ gegen das Gesetz ist, der stimmt mit Nein.",
+         "loesung": [
+          "Wer"
+         ]
+        }
+       ],
+       "regel": "Wiederholung (14.11.): Bei Dativ-Ausdrücken (am Herzen liegen, wichtig sein, gefallen) beginnt der Satz mit „Wem“, sonst mit „Wer“. Der zweite Teil beginnt mit „der“."
+      }
+     ]
+    },
+    {
+     "kategorie": "Gesellschaft",
+     "titel": "Arbeitsmarkt: Saisonaler Rückgang, aber keine Trendwende",
+     "text": "Die Zahl der Arbeitslosen in Deutschland ist im November leicht gesunken. Nach Angaben der Bundesagentur für Arbeit (BA) waren 2,936 Millionen Menschen ohne Job, 19.000 weniger als im Oktober. Die Arbeitslosenquote fiel auf 6,2 Prozent. Ein Grund zur Entwarnung ist das allerdings nicht: Der Rückgang ist vor allem jahreszeitlich bedingt. Ein solches Minus ist im Herbst üblich, bevor die Arbeitslosigkeit im Winter – etwa auf dem Bau – meist wieder zunimmt. Im Vergleich zum Vorjahr gibt es sogar 51.000 Arbeitslose mehr.\n\nBA-Vorstand Daniel Terzenbach erklärte bei der Vorstellung der Zahlen, die leichte konjunkturelle Erholung führe auch im November nicht zu einer Belebung am Arbeitsmarkt. Vielmehr setzten sich die Trends der vergangenen Monate fort. Rund 1,07 Millionen Menschen bezogen nach Hochrechnung der BA Arbeitslosengeld, 84.000 mehr als vor einem Jahr. Bei der Bundesagentur waren zugleich 646.000 offene Stellen gemeldet. Zur Einordnung: Die Quote gibt an, welcher Anteil aller Erwerbspersonen offiziell arbeitslos gemeldet ist.",
+     "vokabeln": [
+      {
+       "de": "die Entwarnung",
+       "im_text": "Entwarnung",
+       "erkl": "die Nachricht, dass eine Gefahr vorbei ist"
+      },
+      {
+       "de": "jahreszeitlich bedingt",
+       "im_text": "jahreszeitlich bedingt",
+       "erkl": "von der Jahreszeit abhängig, jedes Jahr ähnlich"
+      },
+      {
+       "de": "konjunkturell",
+       "im_text": "konjunkturelle",
+       "erkl": "die allgemeine Entwicklung der Wirtschaft betreffend"
+      },
+      {
+       "de": "die Erholung",
+       "im_text": "Erholung",
+       "erkl": "hier: die Wirtschaft wird nach einer schwachen Zeit wieder stärker"
+      },
+      {
+       "de": "die Belebung",
+       "im_text": "Belebung",
+       "erkl": "es kommt wieder mehr Aktivität und Bewegung"
+      },
+      {
+       "de": "beziehen",
+       "im_text": "bezogen",
+       "erkl": "hier: Geld regelmäßig bekommen, zum Beispiel vom Staat"
+      },
+      {
+       "de": "sich fortsetzen",
+       "im_text": "setzten sich",
+       "erkl": "weitergehen, nicht aufhören"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wie hoch ist die Arbeitslosenquote?",
+       "optionen": [
+        "6,2 Prozent",
+        "5,09 Prozent",
+        "2,9 Prozent"
+       ],
+       "richtig": 0
+      },
+      {
+       "typ": "rf",
+       "aussage": "Im Vergleich zum Vorjahr ist die Arbeitslosigkeit gesunken.",
+       "richtig": false,
+       "erkl": "Es gibt 51.000 Arbeitslose mehr als vor einem Jahr."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Der Rückgang im November ist vor allem jahreszeitlich bedingt.",
+       "richtig": true
+      },
+      {
+       "typ": "offen",
+       "frage": "Was sagt Terzenbach über die Erholung der Wirtschaft?",
+       "loesung": "Sie führt nicht zu einer Belebung am Arbeitsmarkt."
+      },
+      {
+       "typ": "mc",
+       "frage": "Wie viele Menschen bezogen Arbeitslosengeld?",
+       "optionen": [
+        "rund 1,07 Millionen",
+        "2,936 Millionen",
+        "646.000"
+       ],
+       "richtig": 0
+      }
+     ],
+     "diskussion": [
+      "Welche Berufe haben deiner Meinung nach in Zukunft gute Chancen?",
+      "Wie sollte der Staat Menschen helfen, die lange arbeitslos sind?",
+      "Sollten Arbeitsuchende bereit sein, für eine Stelle umzuziehen?"
+     ],
+     "uebungen": [
+      {
+       "typ": "eingabe",
+       "titel": "Verben mit Präpositionen",
+       "anweisung": "Ergänze die Präposition.",
+       "items": [
+        {
+         "text": "Die Erholung führt nicht ___ einer Belebung.",
+         "loesung": [
+          "zu"
+         ]
+        },
+        {
+         "text": "Die Zahlen beziehen sich ___ den November.",
+         "loesung": [
+          "auf"
+         ]
+        },
+        {
+         "text": "Viele Menschen suchen ___ einer neuen Stelle.",
+         "loesung": [
+          "nach"
+         ]
+        },
+        {
+         "text": "Die BA warnt ___ zu viel Optimismus.",
+         "loesung": [
+          "vor"
+         ]
+        },
+        {
+         "text": "Viele Arbeitslose bewerben sich ___ mehrere Stellen gleichzeitig.",
+         "loesung": [
+          "auf",
+          "um"
+         ]
+        }
+       ],
+       "regel": "führen zu + D, sich beziehen auf + A, suchen nach + D, warnen vor + D, sich bewerben auf/um + A."
+      },
+      {
+       "typ": "auswahl",
+       "titel": "Präpositionen mit Genitiv",
+       "anweisung": "Wähle das richtige Wort.",
+       "items": [
+        {
+         "text": "___ der leichten Erholung steigt die Arbeitslosigkeit im Jahresvergleich.",
+         "optionen": [
+          "Trotz",
+          "Obwohl",
+          "Weil"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "___ eines Jahres ist die Zahl um 51.000 gestiegen.",
+         "optionen": [
+          "Innerhalb",
+          "Indem",
+          "Inzwischen"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "___ der schwachen Konjunktur stellen viele Firmen weniger ein.",
+         "optionen": [
+          "Wegen",
+          "Weil",
+          "Dass"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "___ des Winters gibt es in manchen Branchen weniger Arbeit.",
+         "optionen": [
+          "Während",
+          "Als",
+          "Wenn"
+         ],
+         "richtig": 0
+        }
+       ],
+       "regel": "wegen, trotz, während, innerhalb, außerhalb, infolge, statt + Genitiv. obwohl, weil, als, dass sind Konjunktionen – danach folgt ein Satz."
+      },
+      {
+       "typ": "zuordnen",
+       "titel": "Gegenteile",
+       "anweisung": "Finde die Paare.",
+       "paare": [
+        [
+         "sinken",
+         "steigen"
+        ],
+        [
+         "die Erholung",
+         "der Abschwung"
+        ],
+        [
+         "befristet",
+         "unbefristet"
+        ],
+        [
+         "einstellen",
+         "entlassen"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Umwelt",
+     "titel": "Tankerunglück vor Ibiza: Spanien aktiviert Notfallplan",
+     "text": "Vor der Baleareninsel Ibiza ist am Donnerstag der unter maltesischer Flagge fahrende Tanker „Med Emre“ gesunken. Das Schiff war mit rund 7000 Tonnen Diesel von Algeciras nach Barcelona unterwegs, als etwa 46 Kilometer vor der Küste aus noch ungeklärter Ursache Wasser in den Rumpf eindrang. Das Schiff geriet in den frühen Morgenstunden in Seenot und ging unter. Ein Besatzungsmitglied kam ums Leben, mehrere weitere wurden leicht verletzt.\n\nDie spanischen Behörden entdeckten einen knapp fünf Kilometer langen Ölfilm und aktivierten den staatlichen Notfallmechanismus gegen Meeresverschmutzung. Die Regierung betonte jedoch, dass damit noch keine Verschmutzung an der Küste festgestellt worden sei. Unklar ist, wie viel Treibstoff sich noch im Wrack befindet; Berichten zufolge könnten die Tanks intakt sein. Experten weisen darauf hin, dass das Mittelmeer als fast geschlossenes und stark befahrenes Meer besonders empfindlich auf Ölverschmutzung reagiert. Für die Balearen, die stark vom Tourismus und von der Fischerei leben, steht damit viel auf dem Spiel.",
+     "vokabeln": [
+      {
+       "de": "eindringen",
+       "im_text": "eindrang",
+       "erkl": "in etwas hineinkommen, obwohl es nicht sein soll"
+      },
+      {
+       "de": "das Besatzungsmitglied",
+       "im_text": "Besatzungsmitglied",
+       "erkl": "eine Person, die auf einem Schiff arbeitet"
+      },
+      {
+       "de": "die Meeresverschmutzung",
+       "im_text": "Meeresverschmutzung",
+       "erkl": "Schmutz und Giftstoffe gelangen ins Meer"
+      },
+      {
+       "de": "das Wrack",
+       "im_text": "Wrack",
+       "erkl": "ein kaputtes, gesunkenes Schiff"
+      },
+      {
+       "de": "intakt",
+       "im_text": "intakt",
+       "erkl": "nicht kaputt, voll funktionsfähig"
+      },
+      {
+       "de": "empfindlich",
+       "im_text": "empfindlich",
+       "erkl": "reagiert schnell und stark auf Störungen"
+      },
+      {
+       "de": "auf dem Spiel stehen",
+       "im_text": "auf dem Spiel",
+       "erkl": "in Gefahr sein, verloren zu gehen"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Woher kam der Tanker?",
+       "optionen": [
+        "aus Algeciras",
+        "aus Barcelona",
+        "aus Malta"
+       ],
+       "richtig": 0
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die Regierung hat bestätigt, dass die Küste schon verschmutzt ist.",
+       "richtig": false,
+       "erkl": "Sie betonte, dass noch keine Verschmutzung an der Küste festgestellt wurde."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die Ursache des Unglücks ist noch ungeklärt.",
+       "richtig": true
+      },
+      {
+       "typ": "offen",
+       "frage": "Warum ist das Mittelmeer besonders empfindlich?",
+       "loesung": "Weil es fast geschlossen und stark befahren ist."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wie lang ist der Ölfilm?",
+         "knapp fünf Kilometer"
+        ],
+        [
+         "Was könnte mit den Tanks sein?",
+         "Sie könnten intakt sein."
+        ],
+        [
+         "Wovon leben die Balearen stark?",
+         "vom Tourismus und von der Fischerei"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Wer sollte bei solchen Unglücken für die Schäden haften?",
+      "Sollte der Schiffsverkehr im Mittelmeer strenger kontrolliert werden?",
+      "Würde dich so ein Unglück davon abhalten, auf den Balearen Urlaub zu machen?"
+     ],
+     "uebungen": [
+      {
+       "typ": "eingabe",
+       "titel": "Verben mit Präpositionen",
+       "anweisung": "Ergänze die Präposition.",
+       "items": [
+        {
+         "text": "Experten weisen ___ die Gefahr für das Meer hin.",
+         "loesung": [
+          "auf"
+         ]
+        },
+        {
+         "text": "Das Mittelmeer reagiert empfindlich ___ Öl.",
+         "loesung": [
+          "auf"
+         ]
+        },
+        {
+         "text": "Die Behörden kümmern sich ___ den Ölfilm.",
+         "loesung": [
+          "um"
+         ]
+        },
+        {
+         "text": "Die Fischer fürchten sich ___ den Folgen.",
+         "loesung": [
+          "vor"
+         ]
+        }
+       ],
+       "regel": "hinweisen auf + A, reagieren auf + A, sich kümmern um + A, sich fürchten vor + D."
+      },
+      {
+       "typ": "auswahl",
+       "titel": "Präpositionen mit Genitiv",
+       "anweisung": "Wähle das richtige Wort.",
+       "items": [
+        {
+         "text": "___ des Unglücks wurde ein Notfallplan aktiviert.",
+         "optionen": [
+          "Infolge",
+          "Infolgedessen",
+          "Weil"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "___ der Suche ist die Ursache noch unklar.",
+         "optionen": [
+          "Trotz",
+          "Obwohl",
+          "Dass"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "___ der Küste liegt das Wrack auf offenem Meer.",
+         "optionen": [
+          "Außerhalb",
+          "Außer",
+          "Außerdem"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "___ der Gefahr für die Strände sind viele Menschen besorgt.",
+         "optionen": [
+          "Wegen",
+          "Weil",
+          "Damit"
+         ],
+         "richtig": 0
+        }
+       ],
+       "regel": "wegen, trotz, während, innerhalb, außerhalb, infolge, statt + Genitiv. obwohl, weil, als, dass sind Konjunktionen – danach folgt ein Satz."
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Wem …, der … / Wer …, der …",
+       "anweisung": "Schreib „Wem“ oder „Wer“.",
+       "items": [
+        {
+         "text": "___ das Meer am Herzen liegt, der verfolgt die Nachrichten aus Ibiza.",
+         "loesung": [
+          "Wem"
+         ]
+        },
+        {
+         "text": "___ dort Urlaub machen will, der informiert sich vorher.",
+         "loesung": [
+          "Wer"
+         ]
+        },
+        {
+         "text": "___ der Schutz der Natur wichtig ist, der fordert strengere Regeln.",
+         "loesung": [
+          "Wem"
+         ]
+        },
+        {
+         "text": "___ von der Fischerei lebt, der macht sich große Sorgen.",
+         "loesung": [
+          "Wer"
+         ]
+        }
+       ],
+       "regel": "Wiederholung (14.11.): Bei Dativ-Ausdrücken (am Herzen liegen, wichtig sein, gefallen) beginnt der Satz mit „Wem“, sonst mit „Wer“. Der zweite Teil beginnt mit „der“."
+      }
+     ]
+    }
+   ]
+  },
+  {
    "datum": "2026-11-27",
    "nachrichten": [
     {

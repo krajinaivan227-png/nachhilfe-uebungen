@@ -4,6 +4,965 @@ window.NACHRICHTEN = {
  "spiel": false,
  "tage": [
   {
+   "datum": "2026-11-28",
+   "nachrichten": [
+    {
+     "kategorie": "Politik",
+     "titel": "Neuseeland: Die Wahl hat keinen klaren Sieger",
+     "text": "Neuseeland hat am 7. November ein neues Parlament gewählt. Jetzt, drei Wochen später, ist das Endergebnis da. Die Regierung von Premierminister Christopher Luxon hat ein Problem: Sie hat 65 von 130 Sitzen. Für eine Mehrheit braucht sie aber 66 Sitze.\n\nDie Opposition hat 58 Sitze. Eine kleine Partei ist jetzt sehr wichtig: die Opportunity Party. Sie ist zum ersten Mal im Parlament und hat sieben Sitze. Jetzt muss Luxon mit ihr sprechen. Wenn die Gespräche nicht funktionieren, gibt es vielleicht eine neue Wahl.",
+     "vokabeln": [
+      {
+       "de": "wählen",
+       "im_text": "gewählt",
+       "erkl": "bei einer Wahl seine Stimme für eine Person oder Partei abgeben"
+      },
+      {
+       "de": "das Parlament",
+       "im_text": "Parlament",
+       "erkl": "die Gruppe von Politikern, die die Gesetze für ein Land macht"
+      },
+      {
+       "de": "das Endergebnis",
+       "im_text": "Endergebnis",
+       "erkl": "das letzte, offizielle Ergebnis"
+      },
+      {
+       "de": "der Sitz",
+       "im_text": "Sitzen",
+       "erkl": "ein Platz für einen Politiker im Parlament"
+      },
+      {
+       "de": "die Mehrheit",
+       "im_text": "Mehrheit",
+       "erkl": "mehr als die Hälfte"
+      },
+      {
+       "de": "die Opposition",
+       "im_text": "Opposition",
+       "erkl": "die Parteien, die nicht in der Regierung sind"
+      },
+      {
+       "de": "das Gespräch",
+       "im_text": "Gespräche",
+       "erkl": "Menschen reden miteinander über ein Thema"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wie viele Sitze hat die Regierung?",
+       "optionen": [
+        "58",
+        "65",
+        "66"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die Opportunity Party ist schon lange im Parlament.",
+       "richtig": false,
+       "erkl": "Sie ist zum ersten Mal im Parlament."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Für eine Mehrheit braucht man 66 Sitze.",
+       "richtig": true
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wann hat Neuseeland gewählt?",
+         "am 7. November"
+        ],
+        [
+         "Wie viele Sitze hat die Opposition?",
+         "58"
+        ],
+        [
+         "Wer ist Premierminister?",
+         "Christopher Luxon"
+        ]
+       ]
+      },
+      {
+       "typ": "offen",
+       "frage": "Was passiert vielleicht, wenn die Gespräche nicht funktionieren?",
+       "loesung": "Es gibt vielleicht eine neue Wahl."
+      }
+     ],
+     "diskussion": [
+      "Wie oft wählt man in deinem Land ein neues Parlament?",
+      "Findest du es gut, wenn eine kleine Partei so wichtig ist? Warum (nicht)?"
+     ],
+     "uebungen": [
+      {
+       "typ": "zuordnen",
+       "titel": "Gegenteile",
+       "anweisung": "Finde die Paare.",
+       "paare": [
+        [
+         "klein",
+         "groß"
+        ],
+        [
+         "neu",
+         "alt"
+        ],
+        [
+         "die Mehrheit",
+         "die Minderheit"
+        ],
+        [
+         "später",
+         "früher"
+        ]
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Perfekt: haben oder sein?",
+       "anweisung": "Schreib „hat“, „haben“ oder „ist“.",
+       "items": [
+        {
+         "text": "Neuseeland ___ ein neues Parlament gewählt.",
+         "loesung": [
+          "hat"
+         ]
+        },
+        {
+         "text": "Die Partei ___ zum ersten Mal ins Parlament gekommen.",
+         "loesung": [
+          "ist"
+         ]
+        },
+        {
+         "text": "Die Menschen ___ drei Wochen auf das Ergebnis gewartet.",
+         "loesung": [
+          "haben"
+         ]
+        },
+        {
+         "text": "Luxon ___ mit der Partei gesprochen.",
+         "loesung": [
+          "hat"
+         ]
+        }
+       ],
+       "regel": "sein: Bewegung (kommen, gehen, fahren). haben: die meisten anderen Verben (wählen, warten, sprechen)."
+      },
+      {
+       "typ": "auswahl",
+       "titel": "gefallen + Dativ",
+       "anweisung": "Wähle das richtige Wort.",
+       "items": [
+        {
+         "text": "Das Ergebnis gefällt ___ Premierminister nicht.",
+         "optionen": [
+          "dem",
+          "den",
+          "der"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Die neue Partei gefällt ___ Wählern.",
+         "optionen": [
+          "vielen",
+          "viele",
+          "vieler"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Gefällt ___ die Politik in deinem Land?",
+         "optionen": [
+          "dir",
+          "dich",
+          "du"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Die Wahl hat ___ Opposition nicht gefallen.",
+         "optionen": [
+          "der",
+          "die",
+          "den"
+         ],
+         "richtig": 0
+        }
+       ],
+       "regel": "Wiederholung (24.11.): gefallen + Dativ. Wem gefällt etwas? → dem Premierminister, der Opposition, mir, dir."
+      }
+     ]
+    },
+    {
+     "kategorie": "Sport",
+     "titel": "Tennis: Italien steht wieder im Finale",
+     "text": "Im Davis Cup in Bologna hat Italien am Freitag gegen Tschechien gespielt. Das Spiel war sehr spannend. Am Ende hat Italien 2:1 gewonnen. Der Held war Lorenzo Musetti: Er hat zuerst sein Einzel gewonnen und dann mit Andrea Vavassori auch das Doppel. Der Star Jannik Sinner hat nicht mitgespielt.\n\nItalien steht jetzt schon zum vierten Mal hintereinander im Finale. Das Finale ist am Sonntag. Der Gegner kommt heute: Spanien spielt gegen Großbritannien.",
+     "vokabeln": [
+      {
+       "de": "spannend",
+       "im_text": "spannend",
+       "erkl": "so interessant, dass man unbedingt wissen will, wie es weitergeht"
+      },
+      {
+       "de": "gewinnen",
+       "im_text": "gewonnen",
+       "erkl": "in einem Spiel besser sein als der andere und Erster werden"
+      },
+      {
+       "de": "der Held",
+       "im_text": "Held",
+       "erkl": "eine Person, die etwas Großes geschafft hat"
+      },
+      {
+       "de": "das Einzel",
+       "im_text": "Einzel",
+       "erkl": "ein Spiel mit nur einem Spieler auf jeder Seite"
+      },
+      {
+       "de": "das Doppel",
+       "im_text": "Doppel",
+       "erkl": "ein Spiel mit zwei Spielern auf jeder Seite"
+      },
+      {
+       "de": "hintereinander",
+       "im_text": "hintereinander",
+       "erkl": "ohne Pause, eins nach dem anderen"
+      },
+      {
+       "de": "der Gegner",
+       "im_text": "Gegner",
+       "erkl": "die Person oder das Team, gegen das man spielt"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Gegen wen hat Italien gespielt?",
+       "optionen": [
+        "gegen Spanien",
+        "gegen Tschechien",
+        "gegen Großbritannien"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Jannik Sinner hat für Italien gespielt.",
+       "richtig": false,
+       "erkl": "Er hat nicht mitgespielt."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Das Finale ist am Sonntag.",
+       "richtig": true
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wo ist der Davis Cup?",
+         "in Bologna"
+        ],
+        [
+         "Wie ist das Ergebnis?",
+         "2:1 für Italien"
+        ],
+        [
+         "Wer spielt heute?",
+         "Spanien und Großbritannien"
+        ]
+       ]
+      },
+      {
+       "typ": "offen",
+       "frage": "Was hat Musetti gewonnen?",
+       "loesung": "Er hat sein Einzel und das Doppel gewonnen."
+      }
+     ],
+     "diskussion": [
+      "Spielst du gern Tennis oder schaust du gern Tennis?",
+      "Für wen bist du im Finale? Warum?"
+     ],
+     "uebungen": [
+      {
+       "typ": "zuordnen",
+       "titel": "Gegenteile",
+       "anweisung": "Finde die Paare.",
+       "paare": [
+        [
+         "gewinnen",
+         "verlieren"
+        ],
+        [
+         "spannend",
+         "langweilig"
+        ],
+        [
+         "der Gegner",
+         "der Mitspieler"
+        ],
+        [
+         "zuerst",
+         "zum Schluss"
+        ]
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Partizip II",
+       "anweisung": "Schreib das Partizip.",
+       "items": [
+        {
+         "text": "gewinnen → hat ___",
+         "loesung": [
+          "gewonnen"
+         ]
+        },
+        {
+         "text": "spielen → hat ___",
+         "loesung": [
+          "gespielt"
+         ]
+        },
+        {
+         "text": "mitspielen → hat ___",
+         "loesung": [
+          "mitgespielt"
+         ]
+        },
+        {
+         "text": "kommen → ist ___",
+         "loesung": [
+          "gekommen"
+         ]
+        }
+       ],
+       "regel": "Regelmäßig: ge- + Stamm + -t (gespielt). Unregelmäßig oft mit -en (gewonnen, gekommen). Trennbar: ge in der Mitte (mitgespielt)."
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Komparativ",
+       "anweisung": "Schreib den Komparativ.",
+       "items": [
+        {
+         "text": "Italien war heute ___ als Tschechien. (stark)",
+         "loesung": [
+          "stärker"
+         ]
+        },
+        {
+         "text": "Musetti hat ___ gespielt als sein Gegner. (gut)",
+         "loesung": [
+          "besser"
+         ]
+        },
+        {
+         "text": "Ein Doppel hat ___ Spieler als ein Einzel. (viel)",
+         "loesung": [
+          "mehr"
+         ]
+        },
+        {
+         "text": "Im Finale ist die Spannung noch ___. (groß)",
+         "loesung": [
+          "größer"
+         ]
+        }
+       ],
+       "regel": "Komparativ: Adjektiv + -er. Achtung: gut → besser, viel → mehr, stark → stärker, groß → größer."
+      }
+     ]
+    },
+    {
+     "kategorie": "Wirtschaft",
+     "titel": "Belgien: Die Preise steigen etwas langsamer",
+     "text": "In Belgien ist das Leben weiter teuer. Die Inflation war im November 5,09 Prozent. Das hat das Statistikamt Statbel am Freitag gesagt. Im Oktober waren es noch 5,26 Prozent. Die Preise steigen also etwas langsamer.\n\nDas größte Problem ist die Energie. Gas ist in einem Jahr fast 66 Prozent teurer geworden, Strom etwa 26 Prozent. Benzin und Diesel sind dagegen billiger geworden. Für viele Familien ist die Heizung im Winter jetzt ein großes Thema.",
+     "vokabeln": [
+      {
+       "de": "die Inflation",
+       "im_text": "Inflation",
+       "erkl": "die Preise steigen, und man bekommt für das gleiche Geld weniger"
+      },
+      {
+       "de": "das Statistikamt",
+       "im_text": "Statistikamt",
+       "erkl": "ein Amt, das Zahlen über ein Land sammelt"
+      },
+      {
+       "de": "langsam",
+       "im_text": "langsamer",
+       "erkl": "nicht schnell"
+      },
+      {
+       "de": "die Energie",
+       "im_text": "Energie",
+       "erkl": "zum Beispiel Strom und Gas; man braucht sie für Licht, Wärme und Maschinen"
+      },
+      {
+       "de": "der Strom",
+       "im_text": "Strom",
+       "erkl": "die Energie aus der Steckdose"
+      },
+      {
+       "de": "dagegen",
+       "im_text": "dagegen",
+       "erkl": "im Gegensatz dazu; hier ist es anders"
+      },
+      {
+       "de": "die Heizung",
+       "im_text": "Heizung",
+       "erkl": "das Gerät, das die Wohnung warm macht"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wie hoch war die Inflation im November?",
+       "optionen": [
+        "5,26 Prozent",
+        "5,09 Prozent",
+        "66 Prozent"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Im Oktober war die Inflation höher als im November.",
+       "richtig": true
+      },
+      {
+       "typ": "rf",
+       "aussage": "Strom ist billiger geworden.",
+       "richtig": false,
+       "erkl": "Strom ist etwa 26 Prozent teurer geworden."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wer hat die Zahlen gesagt?",
+         "das Statistikamt Statbel"
+        ],
+        [
+         "Was ist das größte Problem?",
+         "die Energie"
+        ],
+        [
+         "Was ist billiger geworden?",
+         "Benzin und Diesel"
+        ]
+       ]
+      },
+      {
+       "typ": "offen",
+       "frage": "Warum ist die Heizung für viele Familien ein Thema?",
+       "loesung": "Weil Gas und Strom viel teurer geworden sind."
+      }
+     ],
+     "diskussion": [
+      "Was ist in deinem Land in diesem Jahr teurer geworden?",
+      "Wie kann man im Winter Energie sparen?"
+     ],
+     "uebungen": [
+      {
+       "typ": "zuordnen",
+       "titel": "Gegenteile",
+       "anweisung": "Finde die Paare.",
+       "paare": [
+        [
+         "teuer",
+         "billig"
+        ],
+        [
+         "steigen",
+         "sinken"
+        ],
+        [
+         "langsam",
+         "schnell"
+        ],
+        [
+         "warm",
+         "kalt"
+        ]
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Komparativ",
+       "anweisung": "Schreib den Komparativ.",
+       "items": [
+        {
+         "text": "teuer → ___",
+         "loesung": [
+          "teurer"
+         ]
+        },
+        {
+         "text": "billig → ___",
+         "loesung": [
+          "billiger"
+         ]
+        },
+        {
+         "text": "langsam → ___",
+         "loesung": [
+          "langsamer"
+         ]
+        },
+        {
+         "text": "hoch → ___",
+         "loesung": [
+          "höher"
+         ]
+        },
+        {
+         "text": "groß → ___",
+         "loesung": [
+          "größer"
+         ]
+        }
+       ],
+       "regel": "Komparativ: Adjektiv + -er. Achtung: teuer → teurer, hoch → höher, groß → größer."
+      },
+      {
+       "typ": "auswahl",
+       "titel": "Genitiv",
+       "anweisung": "Wähle den richtigen Artikel.",
+       "items": [
+        {
+         "text": "die Preise ___ Energie",
+         "optionen": [
+          "der",
+          "des",
+          "die"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "die Zahlen ___ Statistikamts",
+         "optionen": [
+          "des",
+          "der",
+          "dem"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "die Heizung ___ Familie",
+         "optionen": [
+          "der",
+          "des",
+          "die"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "der Preis ___ Stroms",
+         "optionen": [
+          "des",
+          "der",
+          "den"
+         ],
+         "richtig": 0
+        }
+       ],
+       "regel": "Genitiv: der/das → des (+ -s/-es), die → der."
+      }
+     ]
+    },
+    {
+     "kategorie": "Umwelt",
+     "titel": "Ibiza: Ein Tanker ist gesunken",
+     "text": "Vor der spanischen Insel Ibiza ist am Donnerstag ein Tanker gesunken. Das Schiff war auf dem Weg von Algeciras nach Barcelona. Es hatte etwa 7000 Tonnen Diesel an Bord. Warum Wasser in das Schiff gekommen ist, weiß man noch nicht.\n\nIm Meer gibt es jetzt einen Ölfilm. Er ist fast fünf Kilometer lang. Spanien hat einen Notfallplan gestartet. Die Behörden sagen aber: Bis jetzt hat man an der Küste noch kein Öl gefunden. Viele Menschen haben Angst um die Tiere im Mittelmeer.",
+     "vokabeln": [
+      {
+       "de": "der Tanker",
+       "im_text": "Tanker",
+       "erkl": "ein großes Schiff, das Öl oder Benzin transportiert"
+      },
+      {
+       "de": "sinken",
+       "im_text": "gesunken",
+       "erkl": "unter das Wasser gehen"
+      },
+      {
+       "de": "an Bord",
+       "im_text": "an Bord",
+       "erkl": "auf einem Schiff oder in einem Flugzeug"
+      },
+      {
+       "de": "der Ölfilm",
+       "im_text": "Ölfilm",
+       "erkl": "eine dünne Schicht Öl auf dem Wasser"
+      },
+      {
+       "de": "der Notfallplan",
+       "im_text": "Notfallplan",
+       "erkl": "ein Plan, was man bei einem großen Problem sofort machen muss"
+      },
+      {
+       "de": "die Behörde",
+       "im_text": "Behörden",
+       "erkl": "ein Amt des Staates, zum Beispiel die Polizei oder die Küstenwache"
+      },
+      {
+       "de": "die Küste",
+       "im_text": "Küste",
+       "erkl": "der Ort, wo das Land das Meer trifft"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Was hatte das Schiff an Bord?",
+       "optionen": [
+        "Wasser",
+        "Diesel",
+        "Autos"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Man weiß schon, warum das Schiff gesunken ist.",
+       "richtig": false,
+       "erkl": "Man weiß es noch nicht."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Der Ölfilm ist fast fünf Kilometer lang.",
+       "richtig": true
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wohin ist das Schiff gefahren?",
+         "nach Barcelona"
+        ],
+        [
+         "Wie viel Diesel war an Bord?",
+         "etwa 7000 Tonnen"
+        ],
+        [
+         "Was hat Spanien gestartet?",
+         "einen Notfallplan"
+        ]
+       ]
+      },
+      {
+       "typ": "offen",
+       "frage": "Warum haben viele Menschen Angst?",
+       "loesung": "Sie haben Angst um die Tiere im Mittelmeer."
+      }
+     ],
+     "diskussion": [
+      "Warst du schon einmal am Mittelmeer? Wo?",
+      "Was kann man tun, damit so ein Unfall nicht passiert?"
+     ],
+     "uebungen": [
+      {
+       "typ": "zuordnen",
+       "titel": "Was passt zusammen?",
+       "anweisung": "Finde die Paare.",
+       "paare": [
+        [
+         "das Schiff",
+         "Es fährt auf dem Meer."
+        ],
+        [
+         "die Insel",
+         "Land mit Wasser rundherum"
+        ],
+        [
+         "der Hafen",
+         "Hier kommen die Schiffe an."
+        ],
+        [
+         "die Küste",
+         "Hier trifft das Land das Meer."
+        ]
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Perfekt: haben oder sein?",
+       "anweisung": "Schreib „hat“ oder „ist“.",
+       "items": [
+        {
+         "text": "Das Schiff ___ gesunken.",
+         "loesung": [
+          "ist"
+         ]
+        },
+        {
+         "text": "Wasser ___ in das Schiff gekommen.",
+         "loesung": [
+          "ist"
+         ]
+        },
+        {
+         "text": "Spanien ___ einen Notfallplan gestartet.",
+         "loesung": [
+          "hat"
+         ]
+        },
+        {
+         "text": "Man ___ noch kein Öl an der Küste gefunden.",
+         "loesung": [
+          "hat"
+         ]
+        }
+       ],
+       "regel": "sein: Bewegung oder Veränderung (kommen, sinken). haben: die meisten anderen Verben (starten, finden)."
+      },
+      {
+       "typ": "auswahl",
+       "titel": "mit + Dativ",
+       "anweisung": "Wähle das richtige Wort.",
+       "items": [
+        {
+         "text": "Die Helfer arbeiten mit ___ Boot.",
+         "optionen": [
+          "dem",
+          "das",
+          "den"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Die Behörden sprechen mit ___ Fischern.",
+         "optionen": [
+          "den",
+          "die",
+          "der"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Man sucht das Öl mit ___ Flugzeug.",
+         "optionen": [
+          "einem",
+          "ein",
+          "einen"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Ich tauche gern mit ___ Freundin.",
+         "optionen": [
+          "meiner",
+          "meine",
+          "mein"
+         ],
+         "richtig": 0
+        }
+       ],
+       "regel": "Wiederholung (24.11.): mit + Dativ. der/das → dem, die → der, Plural → den (+ -n)."
+      }
+     ]
+    },
+    {
+     "kategorie": "Wissenschaft",
+     "titel": "Die Sonde Hera schickt Bilder von einem Asteroiden",
+     "text": "Die europäische Raumsonde Hera ist bei zwei Asteroiden angekommen: Didymos und sein kleiner Mond Dimorphos. Jetzt hat sie die ersten Bilder geschickt. Die Forscher haben sie diese Woche in Berlin gezeigt.\n\nIm Jahr 2022 ist eine Sonde der NASA absichtlich in Dimorphos geflogen. Das war ein Test: Kann man einen Asteroiden von seinem Weg wegschieben? Auf den Bildern sieht man jetzt einen Krater, so groß wie ein Stadion. Dimorphos dreht sich seitdem nicht mehr ruhig, er taumelt.",
+     "vokabeln": [
+      {
+       "de": "die Raumsonde",
+       "im_text": "Raumsonde",
+       "erkl": "eine Maschine ohne Menschen, die ins Weltall fliegt"
+      },
+      {
+       "de": "der Asteroid",
+       "im_text": "Asteroiden",
+       "erkl": "ein großer Stein, der durch das Weltall fliegt"
+      },
+      {
+       "de": "ankommen",
+       "im_text": "angekommen",
+       "erkl": "am Ziel sein"
+      },
+      {
+       "de": "absichtlich",
+       "im_text": "absichtlich",
+       "erkl": "mit Plan, nicht aus Versehen"
+      },
+      {
+       "de": "der Krater",
+       "im_text": "Krater",
+       "erkl": "ein großes, rundes Loch im Boden"
+      },
+      {
+       "de": "sich drehen",
+       "im_text": "dreht sich",
+       "erkl": "sich im Kreis bewegen"
+      },
+      {
+       "de": "taumeln",
+       "im_text": "taumelt",
+       "erkl": "sich unruhig und ohne Ordnung bewegen"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wo haben die Forscher die Bilder gezeigt?",
+       "optionen": [
+        "in Paris",
+        "in Berlin",
+        "in Brüssel"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die NASA-Sonde ist aus Versehen in Dimorphos geflogen.",
+       "richtig": false,
+       "erkl": "Sie ist absichtlich hineingeflogen. Es war ein Test."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Der Krater ist so groß wie ein Stadion.",
+       "richtig": true
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wie heißt der kleine Mond?",
+         "Dimorphos"
+        ],
+        [
+         "Wann war der Test?",
+         "im Jahr 2022"
+        ],
+        [
+         "Was macht Dimorphos jetzt?",
+         "Er taumelt."
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Möchtest du gern einmal ins Weltall fliegen? Warum (nicht)?",
+      "Findest du so einen Test gut? Warum?"
+     ],
+     "uebungen": [
+      {
+       "typ": "zuordnen",
+       "titel": "Gegenteile",
+       "anweisung": "Finde die Paare.",
+       "paare": [
+        [
+         "ankommen",
+         "abfahren"
+        ],
+        [
+         "klein",
+         "groß"
+        ],
+        [
+         "ruhig",
+         "unruhig"
+        ],
+        [
+         "absichtlich",
+         "aus Versehen"
+        ]
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Perfekt: haben oder sein?",
+       "anweisung": "Schreib die richtige Form von „haben“ oder „sein“.",
+       "items": [
+        {
+         "text": "Dimorphos ___ sich früher ruhig gedreht.",
+         "loesung": [
+          "hat"
+         ]
+        },
+        {
+         "text": "Ich ___ mich schnell gedreht.",
+         "loesung": [
+          "habe"
+         ]
+        },
+        {
+         "text": "Die Sonde ___ angekommen.",
+         "loesung": [
+          "ist"
+         ]
+        },
+        {
+         "text": "Die NASA-Sonde ___ in den Asteroiden geflogen.",
+         "loesung": [
+          "ist"
+         ]
+        }
+       ],
+       "regel": "Wiederholung (26.11.): sich drehen → Ich habe mich gedreht. Reflexive Verben: Perfekt mit haben. Bewegung (fliegen, ankommen): mit sein."
+      },
+      {
+       "typ": "auswahl",
+       "titel": "Komparativ",
+       "anweisung": "Wähle die richtige Form.",
+       "items": [
+        {
+         "text": "Didymos ist ___ als Dimorphos.",
+         "optionen": [
+          "größer",
+          "groß",
+          "am größten"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Dimorphos ist ___ als Didymos.",
+         "optionen": [
+          "kleiner",
+          "klein",
+          "am kleinsten"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Eine Raumsonde fliegt ___ als ein Flugzeug.",
+         "optionen": [
+          "schneller",
+          "schnell",
+          "am schnellsten"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Das Weltall ist ___ als die Erde.",
+         "optionen": [
+          "größer",
+          "groß",
+          "großer"
+         ],
+         "richtig": 0
+        }
+       ],
+       "regel": "Vergleich mit „als“: Komparativ (größer als, kleiner als)."
+      }
+     ]
+    }
+   ]
+  },
+  {
    "datum": "2026-11-27",
    "nachrichten": [
     {

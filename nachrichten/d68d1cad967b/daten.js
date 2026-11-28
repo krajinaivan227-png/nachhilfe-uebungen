@@ -4,6 +4,964 @@ window.NACHRICHTEN = {
  "spiel": true,
  "tage": [
   {
+   "datum": "2026-11-28",
+   "nachrichten": [
+    {
+     "kategorie": "Wetter",
+     "titel": "Der erste Advent wird kalt",
+     "text": "Morgen ist Sonntag. Das ist der erste Advent. In Österreich ist es sehr kalt. In manchen Tälern in den Alpen sind es bis zu minus zwölf Grad. Heute gibt es viel Nebel.\n\nAm Sonntag scheint in den Bergen die Sonne. Im Süden und im Osten sind die Straßen vielleicht glatt. Bitte langsam gehen und gut aufpassen! Viel Schnee kommt nicht.",
+     "vokabeln": [
+      {
+       "de": "der Advent",
+       "im_text": "Advent",
+       "erkl": "die vier Wochen vor Weihnachten"
+      },
+      {
+       "de": "kalt",
+       "im_text": "kalt",
+       "erkl": "nicht warm; im Winter ist es oft kalt"
+      },
+      {
+       "de": "das Tal",
+       "im_text": "Tälern",
+       "erkl": "das tiefe Land zwischen zwei Bergen"
+      },
+      {
+       "de": "der Nebel",
+       "im_text": "Nebel",
+       "erkl": "eine graue Wolke ganz unten; man sieht nicht weit"
+      },
+      {
+       "de": "der Berg",
+       "im_text": "Bergen",
+       "erkl": "sehr hohes Land, zum Beispiel die Alpen"
+      },
+      {
+       "de": "glatt",
+       "im_text": "glatt",
+       "erkl": "so rutschig, dass man leicht hinfällt"
+      },
+      {
+       "de": "aufpassen",
+       "im_text": "aufpassen",
+       "erkl": "vorsichtig sein und gut schauen"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Welcher Tag ist morgen?",
+       "optionen": [
+        "Samstag",
+        "Sonntag",
+        "Montag"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Heute gibt es viel Nebel.",
+       "richtig": true
+      },
+      {
+       "typ": "rf",
+       "aussage": "Es kommt viel Schnee.",
+       "richtig": false,
+       "erkl": "Viel Schnee kommt nicht."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wie kalt ist es in manchen Tälern?",
+         "bis zu minus zwölf Grad"
+        ],
+        [
+         "Wo scheint am Sonntag die Sonne?",
+         "in den Bergen"
+        ],
+        [
+         "Wo sind die Straßen vielleicht glatt?",
+         "im Süden und im Osten"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Magst du den Winter? Warum (nicht)?",
+      "Was machst du am Sonntag?"
+     ],
+     "uebungen": [
+      {
+       "typ": "zuordnen",
+       "titel": "Gegenteile",
+       "anweisung": "Finde die Paare.",
+       "paare": [
+        [
+         "kalt",
+         "warm"
+        ],
+        [
+         "der Süden",
+         "der Norden"
+        ],
+        [
+         "der Osten",
+         "der Westen"
+        ],
+        [
+         "langsam",
+         "schnell"
+        ]
+       ]
+      },
+      {
+       "typ": "auswahl",
+       "titel": "Wochentage",
+       "anweisung": "Wähle den richtigen Tag.",
+       "items": [
+        {
+         "text": "Heute ist Samstag. Morgen ist ___.",
+         "optionen": [
+          "Sonntag",
+          "Freitag",
+          "Montag"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Nach Sonntag kommt ___.",
+         "optionen": [
+          "Montag",
+          "Samstag",
+          "Dienstag"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Vor Samstag kommt ___.",
+         "optionen": [
+          "Freitag",
+          "Sonntag",
+          "Donnerstag"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Der Tag nach Montag ist ___.",
+         "optionen": [
+          "Dienstag",
+          "Mittwoch",
+          "Sonntag"
+         ],
+         "richtig": 0
+        }
+       ],
+       "regel": "Wiederholung: Montag, Dienstag, Mittwoch, Donnerstag, Freitag, Samstag, Sonntag."
+      },
+      {
+       "typ": "auswahl",
+       "titel": "sich entspannen",
+       "anweisung": "Wähle die richtige Form.",
+       "items": [
+        {
+         "text": "Am Sonntag ___ ich mich zu Hause.",
+         "optionen": [
+          "entspanne",
+          "entspannt",
+          "entspannst"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Mama ___ sich im warmen Wasser.",
+         "optionen": [
+          "entspannt",
+          "entspanne",
+          "entspannen"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Wir ___ uns im Advent.",
+         "optionen": [
+          "entspannen",
+          "entspannt",
+          "entspanne"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "___ du dich am Wochenende?",
+         "optionen": [
+          "Entspannst",
+          "Entspannt",
+          "Entspanne"
+         ],
+         "richtig": 0
+        }
+       ],
+       "regel": "Wiederholung: ich entspanne mich, du entspannst dich, er/sie entspannt sich, wir entspannen uns."
+      }
+     ]
+    },
+    {
+     "kategorie": "Umwelt",
+     "titel": "Ein Schiff ist im Meer gesunken",
+     "text": "Bei Ibiza in Spanien ist am Donnerstag ein großes Schiff gesunken. Das Schiff hatte viel Diesel dabei. Jetzt ist Öl im Meer. Das Öl ist fast fünf Kilometer lang.\n\nÖl ist schlecht für Fische und Vögel. Spanien hilft jetzt schnell. An der Küste hat man noch kein Öl gefunden. Das ist eine gute Nachricht.",
+     "vokabeln": [
+      {
+       "de": "das Schiff",
+       "im_text": "Schiff",
+       "erkl": "ein großes Boot"
+      },
+      {
+       "de": "sinken",
+       "im_text": "gesunken",
+       "erkl": "unter das Wasser gehen"
+      },
+      {
+       "de": "das Meer",
+       "im_text": "Meer",
+       "erkl": "sehr viel Salzwasser, zum Beispiel das Mittelmeer"
+      },
+      {
+       "de": "das Öl",
+       "im_text": "Öl",
+       "erkl": "eine dicke, schwarze Flüssigkeit; sie ist schlecht für die Natur"
+      },
+      {
+       "de": "der Fisch",
+       "im_text": "Fische",
+       "erkl": "ein Tier, es lebt im Wasser"
+      },
+      {
+       "de": "der Vogel",
+       "im_text": "Vögel",
+       "erkl": "ein Tier mit Federn, es kann fliegen"
+      },
+      {
+       "de": "die Küste",
+       "im_text": "Küste",
+       "erkl": "hier trifft das Land das Meer"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wo ist das Schiff gesunken?",
+       "optionen": [
+        "bei Ibiza",
+        "bei Wien",
+        "bei Paris"
+       ],
+       "richtig": 0
+      },
+      {
+       "typ": "rf",
+       "aussage": "Öl ist gut für Fische.",
+       "richtig": false,
+       "erkl": "Öl ist schlecht für Fische und Vögel."
+      },
+      {
+       "typ": "rf",
+       "aussage": "An der Küste hat man noch kein Öl gefunden.",
+       "richtig": true
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wann ist das Schiff gesunken?",
+         "am Donnerstag"
+        ],
+        [
+         "Wie lang ist das Öl im Meer?",
+         "fast fünf Kilometer"
+        ],
+        [
+         "In welchem Land ist Ibiza?",
+         "in Spanien"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Warst du schon einmal am Meer?",
+      "Welches Meerestier magst du am liebsten?"
+     ],
+     "uebungen": [
+      {
+       "typ": "zuordnen",
+       "titel": "Was passt zusammen?",
+       "anweisung": "Finde die Paare.",
+       "paare": [
+        [
+         "das Meer",
+         "Hier leben Fische."
+        ],
+        [
+         "die Küste",
+         "Hier trifft das Land das Meer."
+        ],
+        [
+         "das Schiff",
+         "Es fährt auf dem Wasser."
+        ],
+        [
+         "der Vogel",
+         "Er kann fliegen."
+        ]
+       ]
+      },
+      {
+       "typ": "auswahl",
+       "titel": "verbieten oder verboten?",
+       "anweisung": "Wähle das richtige Wort.",
+       "items": [
+        {
+         "text": "Öl ins Meer schütten ist ___.",
+         "optionen": [
+          "verboten",
+          "verbieten"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Am Strand ist Feuer oft ___.",
+         "optionen": [
+          "verboten",
+          "verbieten"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Die Eltern ___ das Handy beim Essen.",
+         "optionen": [
+          "verbieten",
+          "verboten"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Hier ist Baden heute ___.",
+         "optionen": [
+          "verboten",
+          "verbieten"
+         ],
+         "richtig": 0
+        }
+       ],
+       "regel": "Wiederholung (02.11.): verbieten = Verb (Die Eltern verbieten …). verboten = so ist die Regel (Das ist verboten.)."
+      },
+      {
+       "typ": "auswahl",
+       "titel": "nah oder weit?",
+       "anweisung": "Wähle das richtige Wort.",
+       "items": [
+        {
+         "text": "Ibiza ist ___ weg von Wien.",
+         "optionen": [
+          "weit",
+          "nah"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Der Park ist ___: nur zwei Minuten zu Fuß.",
+         "optionen": [
+          "nah",
+          "weit"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Spanien ist ___ weg: Man fliegt zwei Stunden.",
+         "optionen": [
+          "weit",
+          "nah"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Das Öl ist noch nicht ___ an der Küste.",
+         "optionen": [
+          "nah",
+          "weit"
+         ],
+         "richtig": 0
+        }
+       ],
+       "regel": "nah = nicht weit weg. weit = weit weg, man braucht lange."
+      }
+     ]
+    },
+    {
+     "kategorie": "Weltall",
+     "titel": "Eine Sonde fotografiert einen Asteroiden",
+     "text": "Hera ist eine Raumsonde aus Europa. Sie ist jetzt bei zwei Asteroiden. Der kleine Asteroid heißt Dimorphos. Er ist nur 151 Meter groß.\n\nIm Jahr 2022 ist eine andere Sonde absichtlich in Dimorphos geflogen. Das war ein Test. Jetzt hat Hera Fotos geschickt. Man sieht ein großes Loch, so groß wie ein Stadion. Und Dimorphos dreht sich jetzt ganz wild.",
+     "vokabeln": [
+      {
+       "de": "die Raumsonde",
+       "im_text": "Raumsonde",
+       "erkl": "eine Maschine ohne Menschen; sie fliegt ins Weltall"
+      },
+      {
+       "de": "der Asteroid",
+       "im_text": "Asteroiden",
+       "erkl": "ein großer Stein im Weltall"
+      },
+      {
+       "de": "absichtlich",
+       "im_text": "absichtlich",
+       "erkl": "mit Plan, nicht aus Versehen"
+      },
+      {
+       "de": "der Test",
+       "im_text": "Test",
+       "erkl": "man probiert etwas aus"
+      },
+      {
+       "de": "das Loch",
+       "im_text": "Loch",
+       "erkl": "ein Platz, wo etwas fehlt; er ist tief und leer"
+      },
+      {
+       "de": "das Stadion",
+       "im_text": "Stadion",
+       "erkl": "ein sehr großer Platz für Sport, zum Beispiel für Fußball"
+      },
+      {
+       "de": "sich drehen",
+       "im_text": "dreht sich",
+       "erkl": "sich im Kreis bewegen"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wie groß ist Dimorphos?",
+       "optionen": [
+        "151 Meter",
+        "15 Kilometer",
+        "1 Meter"
+       ],
+       "richtig": 0
+      },
+      {
+       "typ": "rf",
+       "aussage": "Hera kommt aus Amerika.",
+       "richtig": false,
+       "erkl": "Hera kommt aus Europa."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Hera hat Fotos geschickt.",
+       "richtig": true
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wann war der Test?",
+         "im Jahr 2022"
+        ],
+        [
+         "Wie groß ist das Loch?",
+         "so groß wie ein Stadion"
+        ],
+        [
+         "Wie heißt der kleine Asteroid?",
+         "Dimorphos"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Möchtest du ins Weltall fliegen?",
+      "Was weißt du über Asteroiden?"
+     ],
+     "uebungen": [
+      {
+       "typ": "zuordnen",
+       "titel": "Was passt zusammen?",
+       "anweisung": "Finde die Paare.",
+       "paare": [
+        [
+         "die Sonne",
+         "ein Stern"
+        ],
+        [
+         "die Erde",
+         "unser Planet"
+        ],
+        [
+         "der Mond",
+         "Er fliegt um die Erde."
+        ],
+        [
+         "der Asteroid",
+         "ein großer Stein im Weltall"
+        ]
+       ]
+      },
+      {
+       "typ": "auswahl",
+       "titel": "empfehlen",
+       "anweisung": "Wähle die richtige Form.",
+       "items": [
+        {
+         "text": "Ich ___ dir ein Buch über das Weltall.",
+         "optionen": [
+          "empfehle",
+          "empfiehlt",
+          "empfehlen"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Der Lehrer ___ einen Film über Asteroiden.",
+         "optionen": [
+          "empfiehlt",
+          "empfehle",
+          "empfehlen"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Was ___ du mir?",
+         "optionen": [
+          "empfiehlst",
+          "empfiehlt",
+          "empfehle"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Wir ___ das Planetarium in Wien.",
+         "optionen": [
+          "empfehlen",
+          "empfiehlt",
+          "empfehle"
+         ],
+         "richtig": 0
+        }
+       ],
+       "regel": "Wiederholung: ich empfehle, du empfiehlst, er/sie/es empfiehlt, wir empfehlen."
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Wissenschaften",
+       "anweisung": "Schreib die richtige Wissenschaft.",
+       "items": [
+        {
+         "text": "Tiere und Pflanzen: ___",
+         "loesung": [
+          "Biologie"
+         ]
+        },
+        {
+         "text": "Zahlen und Rechnen: ___",
+         "loesung": [
+          "Mathematik",
+          "Mathe"
+         ]
+        },
+        {
+         "text": "Stoffe mischen im Labor: ___",
+         "loesung": [
+          "Chemie"
+         ]
+        },
+        {
+         "text": "Licht, Strom und Bewegung: ___",
+         "loesung": [
+          "Physik"
+         ]
+        }
+       ],
+       "regel": "Wiederholung (23.11.): die Wissenschaften – Biologie, Mathematik, Chemie, Physik."
+      }
+     ]
+    },
+    {
+     "kategorie": "Tiere",
+     "titel": "Vier kleine Otter im Zoo",
+     "text": "Im Zoo Heidelberg in Deutschland gibt es vier Otter-Babys. Sie sind im Sommer geboren. Es sind Zwergotter. Das ist die kleinste Otter-Art auf der Welt.\n\nJetzt entdecken die Babys ihr Gehege. Meistens sind sie noch drinnen. Die Otter bleiben bis zum nächsten Sommer im Zoo.",
+     "vokabeln": [
+      {
+       "de": "der Otter",
+       "im_text": "Otter",
+       "erkl": "ein Tier mit braunem Fell; es schwimmt sehr gut"
+      },
+      {
+       "de": "der Zoo",
+       "im_text": "Zoo",
+       "erkl": "hier kann man viele Tiere anschauen"
+      },
+      {
+       "de": "geboren",
+       "im_text": "geboren",
+       "erkl": "auf die Welt gekommen"
+      },
+      {
+       "de": "klein",
+       "im_text": "kleinste",
+       "erkl": "nicht groß; die kleinste = kleiner als alle anderen"
+      },
+      {
+       "de": "die Art",
+       "im_text": "Otter-Art",
+       "erkl": "eine Gruppe von Tieren, die gleich sind"
+      },
+      {
+       "de": "entdecken",
+       "im_text": "entdecken",
+       "erkl": "etwas Neues finden und kennenlernen"
+      },
+      {
+       "de": "drinnen",
+       "im_text": "drinnen",
+       "erkl": "im Haus, nicht draußen"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wie viele Otter-Babys gibt es?",
+       "optionen": [
+        "zwei",
+        "vier",
+        "zehn"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die Babys sind im Winter geboren.",
+       "richtig": false,
+       "erkl": "Sie sind im Sommer geboren."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Zwergotter sind die kleinste Otter-Art.",
+       "richtig": true
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wo ist der Zoo?",
+         "in Heidelberg"
+        ],
+        [
+         "Wo sind die Babys meistens?",
+         "drinnen"
+        ],
+        [
+         "Wie lange bleiben die Otter im Zoo?",
+         "bis zum nächsten Sommer"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Welches Tier im Zoo magst du am liebsten?",
+      "Möchtest du einen Otter sehen? Warum?"
+     ],
+     "uebungen": [
+      {
+       "typ": "zuordnen",
+       "titel": "Gegenteile",
+       "anweisung": "Finde die Paare.",
+       "paare": [
+        [
+         "klein",
+         "groß"
+        ],
+        [
+         "drinnen",
+         "draußen"
+        ],
+        [
+         "der Sommer",
+         "der Winter"
+        ],
+        [
+         "jung",
+         "alt"
+        ]
+       ]
+      },
+      {
+       "typ": "auswahl",
+       "titel": "Wochentage",
+       "anweisung": "Wähle den richtigen Tag.",
+       "items": [
+        {
+         "text": "Heute ist Samstag. Gestern war ___.",
+         "optionen": [
+          "Freitag",
+          "Sonntag",
+          "Montag"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Der erste Tag der Woche ist ___.",
+         "optionen": [
+          "Montag",
+          "Mittwoch",
+          "Sonntag"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Nach Mittwoch kommt ___.",
+         "optionen": [
+          "Donnerstag",
+          "Dienstag",
+          "Freitag"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Der Tag nach Samstag ist ___.",
+         "optionen": [
+          "Sonntag",
+          "Freitag",
+          "Montag"
+         ],
+         "richtig": 0
+        }
+       ],
+       "regel": "Wiederholung: Montag, Dienstag, Mittwoch, Donnerstag, Freitag, Samstag, Sonntag."
+      },
+      {
+       "typ": "eingabe",
+       "titel": "empfehlen",
+       "anweisung": "Setze die richtige Form von „empfehlen“ ein.",
+       "items": [
+        {
+         "text": "Ich ___ dir den Zoo Heidelberg.",
+         "loesung": [
+          "empfehle"
+         ]
+        },
+        {
+         "text": "Der Zoo ___ im Winter warme Kleidung.",
+         "loesung": [
+          "empfiehlt"
+         ]
+        },
+        {
+         "text": "Was ___ du mir?",
+         "loesung": [
+          "empfiehlst"
+         ]
+        },
+        {
+         "text": "Wir ___ die Otter!",
+         "loesung": [
+          "empfehlen"
+         ]
+        }
+       ],
+       "regel": "Wiederholung: ich empfehle, du empfiehlst, er/sie/es empfiehlt, wir empfehlen."
+      }
+     ]
+    },
+    {
+     "kategorie": "Kurioses",
+     "titel": "Eine Fliege wartet 200 Jahre auf ihren Namen",
+     "text": "Im Naturhistorischen Museum in Wien gibt es sehr viele Tiere. Viele sind sehr alt. Eine Fliege liegt dort schon über 200 Jahre. Aber sie hatte keinen Namen.\n\nJetzt haben Forscher die Fliege genau angeschaut. Sie ist eine neue Art! Jetzt hat sie endlich einen Namen. Man kann also auch in alten Sammlungen noch Neues entdecken.",
+     "vokabeln": [
+      {
+       "de": "das Museum",
+       "im_text": "Museum",
+       "erkl": "hier kann man alte und interessante Dinge anschauen"
+      },
+      {
+       "de": "die Fliege",
+       "im_text": "Fliege",
+       "erkl": "ein kleines Insekt mit Flügeln"
+      },
+      {
+       "de": "der Name",
+       "im_text": "Namen",
+       "erkl": "so heißt eine Person, ein Tier oder ein Ding"
+      },
+      {
+       "de": "der Forscher",
+       "im_text": "Forscher",
+       "erkl": "eine Person, die etwas genau untersucht"
+      },
+      {
+       "de": "genau",
+       "im_text": "genau",
+       "erkl": "sehr gut und mit viel Zeit"
+      },
+      {
+       "de": "die Art",
+       "im_text": "Art",
+       "erkl": "eine Gruppe von Tieren, die gleich sind"
+      },
+      {
+       "de": "die Sammlung",
+       "im_text": "Sammlungen",
+       "erkl": "viele Dinge an einem Ort, zum Beispiel alte Insekten"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wo liegt die Fliege?",
+       "optionen": [
+        "in einem Museum in Wien",
+        "in einem Zoo",
+        "in einer Schule"
+       ],
+       "richtig": 0
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die Fliege liegt schon über 200 Jahre im Museum.",
+       "richtig": true
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die Fliege hatte immer einen Namen.",
+       "richtig": false,
+       "erkl": "Sie hatte keinen Namen."
+      },
+      {
+       "typ": "offen",
+       "frage": "Was haben die Forscher gemacht?",
+       "loesung": "Sie haben die Fliege genau angeschaut."
+      }
+     ],
+     "diskussion": [
+      "Warst du schon einmal im Naturhistorischen Museum?",
+      "Welchen Namen möchtest du einem neuen Tier geben?"
+     ],
+     "uebungen": [
+      {
+       "typ": "zuordnen",
+       "titel": "Was passt zusammen?",
+       "anweisung": "Finde die Paare.",
+       "paare": [
+        [
+         "Wien",
+         "eine große Stadt"
+        ],
+        [
+         "das Dorf",
+         "ein kleiner Ort"
+        ],
+        [
+         "das Museum",
+         "Hier sieht man alte Dinge."
+        ],
+        [
+         "der Forscher",
+         "Er untersucht etwas genau."
+        ]
+       ]
+      },
+      {
+       "typ": "auswahl",
+       "titel": "aussuchen, ausleihen, schicken, beenden",
+       "anweisung": "Wähle das richtige Wort.",
+       "items": [
+        {
+         "text": "Ich ___ mir im Museum ein Buch aus.",
+         "optionen": [
+          "leihe",
+          "leihst",
+          "leiht"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Wir ___ einen Namen für die Fliege aus.",
+         "optionen": [
+          "suchen",
+          "sucht",
+          "suche"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Die Forscher ___ Fotos an ein anderes Museum.",
+         "optionen": [
+          "schicken",
+          "schickt",
+          "schicke"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Ich habe das Buch über Fliegen ___.",
+         "optionen": [
+          "beendet",
+          "beenden",
+          "beendest"
+         ],
+         "richtig": 0
+        }
+       ],
+       "regel": "Wiederholung (23.11.): aussuchen, ausleihen (ich leihe … aus), schicken, beenden (ich habe … beendet)."
+      },
+      {
+       "typ": "auswahl",
+       "titel": "verbieten oder verboten?",
+       "anweisung": "Wähle das richtige Wort.",
+       "items": [
+        {
+         "text": "Im Museum ist Essen ___.",
+         "optionen": [
+          "verboten",
+          "verbieten"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Die Leute im Museum ___ das Anfassen.",
+         "optionen": [
+          "verbieten",
+          "verboten"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Fotos mit Blitz sind oft ___.",
+         "optionen": [
+          "verboten",
+          "verbieten"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Mama ___ mir Süßigkeiten vor dem Essen.",
+         "optionen": [
+          "verbietet",
+          "verboten",
+          "verbieten"
+         ],
+         "richtig": 0
+        }
+       ],
+       "regel": "Wiederholung (02.11.): verbieten = Verb (Mama verbietet …). verboten = so ist die Regel (Das ist verboten.)."
+      }
+     ]
+    }
+   ]
+  },
+  {
    "datum": "2026-11-27",
    "nachrichten": [
     {

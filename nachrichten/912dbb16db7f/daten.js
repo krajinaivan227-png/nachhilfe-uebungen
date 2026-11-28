@@ -4,6 +4,953 @@ window.NACHRICHTEN = {
  "spiel": false,
  "tage": [
   {
+   "datum": "2026-11-28",
+   "nachrichten": [
+    {
+     "kategorie": "Politik",
+     "titel": "Neuseeland: Die Wahl hat keinen klaren Sieger",
+     "text": "Neuseeland hat am 7. November ein neues Parlament gewählt. Jetzt, drei Wochen später, ist das Endergebnis da. Die Regierung von Premierminister Christopher Luxon hat ein Problem: Sie hat 65 von 130 Sitzen. Für eine Mehrheit braucht sie aber 66 Sitze.\n\nDie Opposition hat 58 Sitze. Eine kleine Partei ist jetzt sehr wichtig: die Opportunity Party. Sie ist zum ersten Mal im Parlament und hat sieben Sitze. Jetzt muss Luxon mit ihr sprechen. Wenn die Gespräche nicht funktionieren, gibt es vielleicht eine neue Wahl.",
+     "vokabeln": [
+      {
+       "de": "wählen",
+       "im_text": "gewählt",
+       "erkl": "bei einer Wahl seine Stimme für eine Person oder Partei abgeben"
+      },
+      {
+       "de": "das Parlament",
+       "im_text": "Parlament",
+       "erkl": "die Gruppe von Politikern, die die Gesetze für ein Land macht"
+      },
+      {
+       "de": "das Endergebnis",
+       "im_text": "Endergebnis",
+       "erkl": "das letzte, offizielle Ergebnis"
+      },
+      {
+       "de": "der Sitz",
+       "im_text": "Sitzen",
+       "erkl": "ein Platz für einen Politiker im Parlament"
+      },
+      {
+       "de": "die Mehrheit",
+       "im_text": "Mehrheit",
+       "erkl": "mehr als die Hälfte"
+      },
+      {
+       "de": "die Opposition",
+       "im_text": "Opposition",
+       "erkl": "die Parteien, die nicht in der Regierung sind"
+      },
+      {
+       "de": "das Gespräch",
+       "im_text": "Gespräche",
+       "erkl": "Menschen reden miteinander über ein Thema"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wie viele Sitze hat die Regierung?",
+       "optionen": [
+        "58",
+        "65",
+        "66"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die Opportunity Party ist schon lange im Parlament.",
+       "richtig": false,
+       "erkl": "Sie ist zum ersten Mal im Parlament."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Für eine Mehrheit braucht man 66 Sitze.",
+       "richtig": true
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wann hat Neuseeland gewählt?",
+         "am 7. November"
+        ],
+        [
+         "Wie viele Sitze hat die Opposition?",
+         "58"
+        ],
+        [
+         "Wer ist Premierminister?",
+         "Christopher Luxon"
+        ]
+       ]
+      },
+      {
+       "typ": "offen",
+       "frage": "Was passiert vielleicht, wenn die Gespräche nicht funktionieren?",
+       "loesung": "Es gibt vielleicht eine neue Wahl."
+      }
+     ],
+     "diskussion": [
+      "Wie oft wählt man in deinem Land ein neues Parlament?",
+      "Findest du es gut, wenn eine kleine Partei so wichtig ist? Warum (nicht)?"
+     ],
+     "uebungen": [
+      {
+       "typ": "zuordnen",
+       "titel": "Gegenteile",
+       "anweisung": "Finde die Paare.",
+       "paare": [
+        [
+         "klein",
+         "groß"
+        ],
+        [
+         "neu",
+         "alt"
+        ],
+        [
+         "die Mehrheit",
+         "die Minderheit"
+        ],
+        [
+         "später",
+         "früher"
+        ]
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Perfekt: haben oder sein?",
+       "anweisung": "Schreib „hat“, „haben“ oder „ist“.",
+       "items": [
+        {
+         "text": "Neuseeland ___ ein neues Parlament gewählt.",
+         "loesung": [
+          "hat"
+         ]
+        },
+        {
+         "text": "Die Partei ___ zum ersten Mal ins Parlament gekommen.",
+         "loesung": [
+          "ist"
+         ]
+        },
+        {
+         "text": "Die Menschen ___ drei Wochen auf das Ergebnis gewartet.",
+         "loesung": [
+          "haben"
+         ]
+        },
+        {
+         "text": "Luxon ___ mit der Partei gesprochen.",
+         "loesung": [
+          "hat"
+         ]
+        }
+       ],
+       "regel": "sein: Bewegung (kommen, gehen, fahren). haben: die meisten anderen Verben (wählen, warten, sprechen)."
+      },
+      {
+       "typ": "auswahl",
+       "titel": "weil: Verb am Ende",
+       "anweisung": "Wähle den richtigen Satz.",
+       "items": [
+        {
+         "text": "Luxon muss mit der Partei sprechen, weil …",
+         "optionen": [
+          "er keine Mehrheit hat.",
+          "er hat keine Mehrheit."
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Die Partei ist wichtig, weil …",
+         "optionen": [
+          "sie sieben Sitze hat.",
+          "sie hat sieben Sitze."
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Es gibt vielleicht eine neue Wahl, weil …",
+         "optionen": [
+          "die Regierung zu wenig Sitze hat.",
+          "die Regierung hat zu wenig Sitze."
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Ich lese die Nachrichten, weil …",
+         "optionen": [
+          "ich Politik interessant finde.",
+          "ich finde Politik interessant."
+         ],
+         "richtig": 0
+        }
+       ],
+       "regel": "Wiederholung (15.11.): Nach „weil“ steht das Verb immer am Ende."
+      }
+     ]
+    },
+    {
+     "kategorie": "Sport",
+     "titel": "Tennis: Italien steht wieder im Finale",
+     "text": "Im Davis Cup in Bologna hat Italien am Freitag gegen Tschechien gespielt. Das Spiel war sehr spannend. Am Ende hat Italien 2:1 gewonnen. Der Held war Lorenzo Musetti: Er hat zuerst sein Einzel gewonnen und dann mit Andrea Vavassori auch das Doppel. Der Star Jannik Sinner hat nicht mitgespielt.\n\nItalien steht jetzt schon zum vierten Mal hintereinander im Finale. Das Finale ist am Sonntag. Der Gegner kommt heute: Spanien spielt gegen Großbritannien.",
+     "vokabeln": [
+      {
+       "de": "spannend",
+       "im_text": "spannend",
+       "erkl": "so interessant, dass man unbedingt wissen will, wie es weitergeht"
+      },
+      {
+       "de": "gewinnen",
+       "im_text": "gewonnen",
+       "erkl": "in einem Spiel besser sein als der andere und Erster werden"
+      },
+      {
+       "de": "der Held",
+       "im_text": "Held",
+       "erkl": "eine Person, die etwas Großes geschafft hat"
+      },
+      {
+       "de": "das Einzel",
+       "im_text": "Einzel",
+       "erkl": "ein Spiel mit nur einem Spieler auf jeder Seite"
+      },
+      {
+       "de": "das Doppel",
+       "im_text": "Doppel",
+       "erkl": "ein Spiel mit zwei Spielern auf jeder Seite"
+      },
+      {
+       "de": "hintereinander",
+       "im_text": "hintereinander",
+       "erkl": "ohne Pause, eins nach dem anderen"
+      },
+      {
+       "de": "der Gegner",
+       "im_text": "Gegner",
+       "erkl": "die Person oder das Team, gegen das man spielt"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Gegen wen hat Italien gespielt?",
+       "optionen": [
+        "gegen Spanien",
+        "gegen Tschechien",
+        "gegen Großbritannien"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Jannik Sinner hat für Italien gespielt.",
+       "richtig": false,
+       "erkl": "Er hat nicht mitgespielt."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Das Finale ist am Sonntag.",
+       "richtig": true
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wo ist der Davis Cup?",
+         "in Bologna"
+        ],
+        [
+         "Wie ist das Ergebnis?",
+         "2:1 für Italien"
+        ],
+        [
+         "Wer spielt heute?",
+         "Spanien und Großbritannien"
+        ]
+       ]
+      },
+      {
+       "typ": "offen",
+       "frage": "Was hat Musetti gewonnen?",
+       "loesung": "Er hat sein Einzel und das Doppel gewonnen."
+      }
+     ],
+     "diskussion": [
+      "Spielst du gern Tennis oder schaust du gern Tennis?",
+      "Für wen bist du im Finale? Warum?"
+     ],
+     "uebungen": [
+      {
+       "typ": "zuordnen",
+       "titel": "Gegenteile",
+       "anweisung": "Finde die Paare.",
+       "paare": [
+        [
+         "gewinnen",
+         "verlieren"
+        ],
+        [
+         "spannend",
+         "langweilig"
+        ],
+        [
+         "der Gegner",
+         "der Mitspieler"
+        ],
+        [
+         "zuerst",
+         "zum Schluss"
+        ]
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Partizip II",
+       "anweisung": "Schreib das Partizip.",
+       "items": [
+        {
+         "text": "gewinnen → hat ___",
+         "loesung": [
+          "gewonnen"
+         ]
+        },
+        {
+         "text": "spielen → hat ___",
+         "loesung": [
+          "gespielt"
+         ]
+        },
+        {
+         "text": "mitspielen → hat ___",
+         "loesung": [
+          "mitgespielt"
+         ]
+        },
+        {
+         "text": "kommen → ist ___",
+         "loesung": [
+          "gekommen"
+         ]
+        }
+       ],
+       "regel": "Regelmäßig: ge- + Stamm + -t (gespielt). Unregelmäßig oft mit -en (gewonnen, gekommen). Trennbar: ge in der Mitte (mitgespielt)."
+      },
+      {
+       "typ": "auswahl",
+       "titel": "deswegen + Verb",
+       "anweisung": "Wähle den richtigen Satz.",
+       "items": [
+        {
+         "text": "Italien hat gewonnen, deswegen …",
+         "optionen": [
+          "steht Italien im Finale.",
+          "Italien steht im Finale."
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Musetti hat super gespielt, deswegen …",
+         "optionen": [
+          "sind die Fans glücklich.",
+          "die Fans sind glücklich."
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Das Spiel war spannend, deswegen …",
+         "optionen": [
+          "haben viele Leute zugeschaut.",
+          "viele Leute haben zugeschaut."
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Ich mag Tennis, deswegen …",
+         "optionen": [
+          "schaue ich das Finale.",
+          "ich schaue das Finale."
+         ],
+         "richtig": 0
+        }
+       ],
+       "regel": "Wiederholung (15.11.): Nach „deswegen“ kommt zuerst das Verb, dann das Subjekt."
+      }
+     ]
+    },
+    {
+     "kategorie": "Wirtschaft",
+     "titel": "Deutschland: Weniger Arbeitslose als im Oktober",
+     "text": "In Deutschland sind im November 2,936 Millionen Menschen arbeitslos. Das sind 19.000 weniger als im Oktober. Das hat die Bundesagentur für Arbeit am Freitag gesagt. Die Arbeitslosenquote ist jetzt 6,2 Prozent.\n\nIst das eine gute Nachricht? Nicht ganz. Im Herbst sinkt die Zahl fast jedes Jahr ein bisschen. Im Vergleich zum letzten Jahr sind es sogar 51.000 Arbeitslose mehr. Die Wirtschaft wächst ein bisschen, aber auf dem Arbeitsmarkt merkt man das noch nicht.",
+     "vokabeln": [
+      {
+       "de": "arbeitslos",
+       "im_text": "arbeitslos",
+       "erkl": "ohne Arbeit, man hat keinen Job"
+      },
+      {
+       "de": "die Bundesagentur für Arbeit",
+       "im_text": "Bundesagentur für Arbeit",
+       "erkl": "das Amt in Deutschland, das Menschen bei der Jobsuche hilft"
+      },
+      {
+       "de": "die Arbeitslosenquote",
+       "im_text": "Arbeitslosenquote",
+       "erkl": "wie viel Prozent der Menschen keine Arbeit haben"
+      },
+      {
+       "de": "der Vergleich",
+       "im_text": "Vergleich",
+       "erkl": "man schaut, was gleich und was anders ist"
+      },
+      {
+       "de": "die Wirtschaft",
+       "im_text": "Wirtschaft",
+       "erkl": "alle Firmen, Arbeit, Geld und Handel in einem Land"
+      },
+      {
+       "de": "wachsen",
+       "im_text": "wächst",
+       "erkl": "größer werden"
+      },
+      {
+       "de": "merken",
+       "im_text": "merkt",
+       "erkl": "etwas sehen oder fühlen und es verstehen"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wie viele Menschen sind im November arbeitslos?",
+       "optionen": [
+        "2,936 Millionen",
+        "19.000",
+        "6,2 Millionen"
+       ],
+       "richtig": 0
+      },
+      {
+       "typ": "mc",
+       "frage": "Wie hoch ist die Arbeitslosenquote?",
+       "optionen": [
+        "6,2 Prozent",
+        "2,9 Prozent",
+        "51 Prozent"
+       ],
+       "richtig": 0
+      },
+      {
+       "typ": "rf",
+       "aussage": "Im Vergleich zum letzten Jahr gibt es weniger Arbeitslose.",
+       "richtig": false,
+       "erkl": "Es gibt 51.000 Arbeitslose mehr."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die Zahlen kommen von der Bundesagentur für Arbeit.",
+       "richtig": true
+      },
+      {
+       "typ": "offen",
+       "frage": "Warum ist es nicht ganz eine gute Nachricht?",
+       "loesung": "Im Herbst sinkt die Zahl fast jedes Jahr, und im Vergleich zum letzten Jahr gibt es mehr Arbeitslose."
+      }
+     ],
+     "diskussion": [
+      "Ist es in deinem Land leicht, eine Arbeit zu finden?",
+      "Was ist dir bei einer Arbeit am wichtigsten?"
+     ],
+     "uebungen": [
+      {
+       "typ": "zuordnen",
+       "titel": "Gegenteile",
+       "anweisung": "Finde die Paare.",
+       "paare": [
+        [
+         "weniger",
+         "mehr"
+        ],
+        [
+         "arbeitslos",
+         "berufstätig"
+        ],
+        [
+         "wachsen",
+         "kleiner werden"
+        ],
+        [
+         "die Arbeit",
+         "die Freizeit"
+        ]
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Wortbildung: Nomen mit -ung",
+       "anweisung": "Bilde das Nomen.",
+       "items": [
+        {
+         "text": "kündigen → die ___",
+         "loesung": [
+          "Kündigung"
+         ]
+        },
+        {
+         "text": "drohen → die ___",
+         "loesung": [
+          "Drohung"
+         ]
+        },
+        {
+         "text": "bewerben → die ___",
+         "loesung": [
+          "Bewerbung"
+         ]
+        },
+        {
+         "text": "beschäftigen → die ___",
+         "loesung": [
+          "Beschäftigung"
+         ]
+        }
+       ],
+       "regel": "Wiederholung (15.11.): kündigen → die Kündigung, drohen → die Drohung. Nomen auf -ung sind immer feminin (die)."
+      },
+      {
+       "typ": "eingabe",
+       "titel": "werden",
+       "anweisung": "Setze die richtige Form von „werden“ ein.",
+       "items": [
+        {
+         "text": "Die Zahl ___ im Winter vielleicht größer.",
+         "loesung": [
+          "wird"
+         ]
+        },
+        {
+         "text": "Ich ___ bald Chef in meiner Firma.",
+         "loesung": [
+          "werde"
+         ]
+        },
+        {
+         "text": "Du ___ bei dieser Arbeit sehr müde.",
+         "loesung": [
+          "wirst"
+         ]
+        },
+        {
+         "text": "Wir ___ jedes Jahr ein bisschen älter.",
+         "loesung": [
+          "werden"
+         ]
+        },
+        {
+         "text": "Ihr ___ sicher bald Kollegen.",
+         "loesung": [
+          "werdet"
+         ]
+        }
+       ],
+       "regel": "Wiederholung (15.11.): ich werde, du wirst, er/sie/es wird, wir werden, ihr werdet, sie/Sie werden."
+      }
+     ]
+    },
+    {
+     "kategorie": "Wetter",
+     "titel": "Österreich: Der erste Advent wird eiskalt",
+     "text": "Morgen ist der erste Advent. In Österreich wird das Wochenende sehr kalt. In manchen Tälern in den Alpen sind bis zu minus zwölf Grad möglich. Heute gibt es in vielen Regionen Nebel. Viel Neuschnee kommt aber nicht.\n\nAm Sonntag scheint im Westen und in den Bergen oft die Sonne. Im Süden und Osten kann es aber glatt werden. Dann muss man auf der Straße und auf dem Gehweg vorsichtig sein. Ab Sonntagabend kommt von Nordwesten neuer Regen oder Schnee.",
+     "vokabeln": [
+      {
+       "de": "der Advent",
+       "im_text": "Advent",
+       "erkl": "die vier Wochen vor Weihnachten"
+      },
+      {
+       "de": "das Tal",
+       "im_text": "Tälern",
+       "erkl": "das tiefe Land zwischen zwei Bergen"
+      },
+      {
+       "de": "der Nebel",
+       "im_text": "Nebel",
+       "erkl": "eine graue Wolke ganz unten; man sieht nicht weit"
+      },
+      {
+       "de": "der Neuschnee",
+       "im_text": "Neuschnee",
+       "erkl": "Schnee, der gerade neu gefallen ist"
+      },
+      {
+       "de": "glatt",
+       "im_text": "glatt",
+       "erkl": "so rutschig, dass man leicht hinfällt"
+      },
+      {
+       "de": "vorsichtig",
+       "im_text": "vorsichtig",
+       "erkl": "langsam und aufmerksam, damit nichts passiert"
+      },
+      {
+       "de": "der Gehweg",
+       "im_text": "Gehweg",
+       "erkl": "der Teil der Straße für Fußgänger"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wie kalt kann es in manchen Tälern werden?",
+       "optionen": [
+        "minus zwei Grad",
+        "minus zwölf Grad",
+        "null Grad"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Es kommt sehr viel Neuschnee.",
+       "richtig": false,
+       "erkl": "Viel Neuschnee kommt nicht."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Am Sonntag scheint in den Bergen oft die Sonne.",
+       "richtig": true
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wann ist der erste Advent?",
+         "morgen"
+        ],
+        [
+         "Wo kann es glatt werden?",
+         "im Süden und Osten"
+        ],
+        [
+         "Was gibt es heute in vielen Regionen?",
+         "Nebel"
+        ]
+       ]
+      }
+     ],
+     "diskussion": [
+      "Magst du kaltes Wetter? Warum (nicht)?",
+      "Was machst du am Wochenende, wenn es so kalt ist?"
+     ],
+     "uebungen": [
+      {
+       "typ": "zuordnen",
+       "titel": "Gegenteile",
+       "anweisung": "Finde die Paare.",
+       "paare": [
+        [
+         "kalt",
+         "heiß"
+        ],
+        [
+         "der Westen",
+         "der Osten"
+        ],
+        [
+         "der Süden",
+         "der Norden"
+        ],
+        [
+         "vorsichtig",
+         "unvorsichtig"
+        ]
+       ]
+      },
+      {
+       "typ": "auswahl",
+       "titel": "werden",
+       "anweisung": "Wähle die richtige Form.",
+       "items": [
+        {
+         "text": "Das Wochenende ___ sehr kalt.",
+         "optionen": [
+          "wird",
+          "werden",
+          "wirst"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Die Straßen ___ glatt.",
+         "optionen": [
+          "werden",
+          "wird",
+          "werdet"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Du ___ krank, wenn du keine Jacke trägst.",
+         "optionen": [
+          "wirst",
+          "wird",
+          "werde"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Ich ___ bei diesem Wetter schnell müde.",
+         "optionen": [
+          "werde",
+          "wird",
+          "wirst"
+         ],
+         "richtig": 0
+        }
+       ],
+       "regel": "Wiederholung (15.11.): ich werde, du wirst, er/sie/es wird, wir werden, ihr werdet, sie werden."
+      },
+      {
+       "typ": "auswahl",
+       "titel": "deswegen + Verb",
+       "anweisung": "Wähle den richtigen Satz.",
+       "items": [
+        {
+         "text": "Es ist glatt, deswegen …",
+         "optionen": [
+          "fahre ich langsam.",
+          "ich fahre langsam."
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Heute gibt es Nebel, deswegen …",
+         "optionen": [
+          "sieht man nicht viel.",
+          "man sieht nicht viel."
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Es ist eiskalt, deswegen …",
+         "optionen": [
+          "bleibe ich zu Hause.",
+          "ich bleibe zu Hause."
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "In den Bergen scheint die Sonne, deswegen …",
+         "optionen": [
+          "gehen wir wandern.",
+          "wir gehen wandern."
+         ],
+         "richtig": 0
+        }
+       ],
+       "regel": "Wiederholung (15.11.): Nach „deswegen“ kommt zuerst das Verb, dann das Subjekt."
+      }
+     ]
+    },
+    {
+     "kategorie": "Umwelt",
+     "titel": "Ibiza: Ein Tanker ist gesunken",
+     "text": "Vor der spanischen Insel Ibiza ist am Donnerstag ein Tanker gesunken. Das Schiff war auf dem Weg von Algeciras nach Barcelona. Es hatte etwa 7000 Tonnen Diesel an Bord. Warum Wasser in das Schiff gekommen ist, weiß man noch nicht.\n\nIm Meer gibt es jetzt einen Ölfilm. Er ist fast fünf Kilometer lang. Spanien hat einen Notfallplan gestartet. Die Behörden sagen aber: Bis jetzt hat man an der Küste noch kein Öl gefunden. Viele Menschen haben Angst um die Tiere im Mittelmeer.",
+     "vokabeln": [
+      {
+       "de": "der Tanker",
+       "im_text": "Tanker",
+       "erkl": "ein großes Schiff, das Öl oder Benzin transportiert"
+      },
+      {
+       "de": "sinken",
+       "im_text": "gesunken",
+       "erkl": "unter das Wasser gehen"
+      },
+      {
+       "de": "an Bord",
+       "im_text": "an Bord",
+       "erkl": "auf einem Schiff oder in einem Flugzeug"
+      },
+      {
+       "de": "der Ölfilm",
+       "im_text": "Ölfilm",
+       "erkl": "eine dünne Schicht Öl auf dem Wasser"
+      },
+      {
+       "de": "der Notfallplan",
+       "im_text": "Notfallplan",
+       "erkl": "ein Plan, was man bei einem großen Problem sofort machen muss"
+      },
+      {
+       "de": "die Behörde",
+       "im_text": "Behörden",
+       "erkl": "ein Amt des Staates, zum Beispiel die Polizei oder die Küstenwache"
+      },
+      {
+       "de": "die Küste",
+       "im_text": "Küste",
+       "erkl": "der Ort, wo das Land das Meer trifft"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Was hatte das Schiff an Bord?",
+       "optionen": [
+        "Wasser",
+        "Diesel",
+        "Autos"
+       ],
+       "richtig": 1
+      },
+      {
+       "typ": "rf",
+       "aussage": "Man weiß schon, warum das Schiff gesunken ist.",
+       "richtig": false,
+       "erkl": "Man weiß es noch nicht."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Der Ölfilm ist fast fünf Kilometer lang.",
+       "richtig": true
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wohin ist das Schiff gefahren?",
+         "nach Barcelona"
+        ],
+        [
+         "Wie viel Diesel war an Bord?",
+         "etwa 7000 Tonnen"
+        ],
+        [
+         "Was hat Spanien gestartet?",
+         "einen Notfallplan"
+        ]
+       ]
+      },
+      {
+       "typ": "offen",
+       "frage": "Warum haben viele Menschen Angst?",
+       "loesung": "Sie haben Angst um die Tiere im Mittelmeer."
+      }
+     ],
+     "diskussion": [
+      "Warst du schon einmal am Mittelmeer? Wo?",
+      "Was kann man tun, damit so ein Unfall nicht passiert?"
+     ],
+     "uebungen": [
+      {
+       "typ": "zuordnen",
+       "titel": "Was passt zusammen?",
+       "anweisung": "Finde die Paare.",
+       "paare": [
+        [
+         "das Schiff",
+         "Es fährt auf dem Meer."
+        ],
+        [
+         "die Insel",
+         "Land mit Wasser rundherum"
+        ],
+        [
+         "der Hafen",
+         "Hier kommen die Schiffe an."
+        ],
+        [
+         "die Küste",
+         "Hier trifft das Land das Meer."
+        ]
+       ]
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Perfekt: haben oder sein?",
+       "anweisung": "Schreib „hat“ oder „ist“.",
+       "items": [
+        {
+         "text": "Das Schiff ___ gesunken.",
+         "loesung": [
+          "ist"
+         ]
+        },
+        {
+         "text": "Wasser ___ in das Schiff gekommen.",
+         "loesung": [
+          "ist"
+         ]
+        },
+        {
+         "text": "Spanien ___ einen Notfallplan gestartet.",
+         "loesung": [
+          "hat"
+         ]
+        },
+        {
+         "text": "Man ___ noch kein Öl an der Küste gefunden.",
+         "loesung": [
+          "hat"
+         ]
+        }
+       ],
+       "regel": "sein: Bewegung oder Veränderung (kommen, sinken). haben: die meisten anderen Verben (starten, finden)."
+      },
+      {
+       "typ": "auswahl",
+       "titel": "weil: Verb am Ende",
+       "anweisung": "Wähle den richtigen Satz.",
+       "items": [
+        {
+         "text": "Viele Menschen haben Angst, weil …",
+         "optionen": [
+          "das Öl gefährlich für die Tiere ist.",
+          "das Öl ist gefährlich für die Tiere."
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Spanien hat einen Notfallplan gestartet, weil …",
+         "optionen": [
+          "es einen Ölfilm gibt.",
+          "es gibt einen Ölfilm."
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Ich fahre gern nach Ibiza, weil …",
+         "optionen": [
+          "das Meer dort schön ist.",
+          "das Meer ist dort schön."
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Die Behörden sind vorsichtig, weil …",
+         "optionen": [
+          "sie die Küste schützen wollen.",
+          "sie wollen die Küste schützen."
+         ],
+         "richtig": 0
+        }
+       ],
+       "regel": "Wiederholung (15.11.): Nach „weil“ steht das Verb immer am Ende."
+      }
+     ]
+    }
+   ]
+  },
+  {
    "datum": "2026-11-27",
    "nachrichten": [
     {

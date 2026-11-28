@@ -4,6 +4,1029 @@ window.NACHRICHTEN = {
  "spiel": false,
  "tage": [
   {
+   "datum": "2026-11-28",
+   "nachrichten": [
+    {
+     "kategorie": "Politik",
+     "titel": "Neuseeland: Eine kleine Partei entscheidet",
+     "text": "Drei Wochen nach der Parlamentswahl in Neuseeland liegt jetzt das amtliche Endergebnis vor. Für Premierminister Christopher Luxon ist es eine schlechte Nachricht: Sein Bündnis aus drei Parteien hat nur noch 65 der 130 Sitze. Für eine Mehrheit braucht es aber mindestens 66. Die Opposition aus Labour, Grünen und Te Pāti Māori kommt auf 58 Sitze.\n\nDeshalb spielt jetzt eine neue Partei die wichtigste Rolle: Die Opportunity Party ist zum ersten Mal im Parlament und hat sieben Sitze. Ihre Chefin Qiulae Wong verhandelt nun mit Luxon. Besonders wichtig ist der Partei eine Steuer auf den Wert von Grundstücken. Wenn die Verhandlungen scheitern, sind sogar Neuwahlen möglich.",
+     "vokabeln": [
+      {
+       "de": "amtlich",
+       "im_text": "amtliche",
+       "erkl": "offiziell, von einer staatlichen Stelle bestätigt"
+      },
+      {
+       "de": "das Endergebnis",
+       "im_text": "Endergebnis",
+       "erkl": "das letzte, offizielle Ergebnis"
+      },
+      {
+       "de": "das Bündnis",
+       "im_text": "Bündnis",
+       "erkl": "mehrere Parteien oder Länder arbeiten zusammen"
+      },
+      {
+       "de": "die Mehrheit",
+       "im_text": "Mehrheit",
+       "erkl": "mehr als die Hälfte der Stimmen oder Sitze"
+      },
+      {
+       "de": "verhandeln",
+       "im_text": "verhandelt",
+       "erkl": "lange miteinander sprechen, um eine Lösung zu finden"
+      },
+      {
+       "de": "das Grundstück",
+       "im_text": "Grundstücken",
+       "erkl": "ein Stück Land, das jemandem gehört"
+      },
+      {
+       "de": "scheitern",
+       "im_text": "scheitern",
+       "erkl": "nicht funktionieren, kein Erfolg haben"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wie viele Sitze braucht man für eine Mehrheit?",
+       "optionen": [
+        "58",
+        "65",
+        "66"
+       ],
+       "richtig": 2
+      },
+      {
+       "typ": "rf",
+       "aussage": "Luxons Bündnis besteht aus zwei Parteien.",
+       "richtig": false,
+       "erkl": "Es besteht aus drei Parteien."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die Opportunity Party ist zum ersten Mal im Parlament.",
+       "richtig": true
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wie viele Sitze hat die Opposition?",
+         "58"
+        ],
+        [
+         "Wer ist die Chefin der Opportunity Party?",
+         "Qiulae Wong"
+        ],
+        [
+         "Was ist der Partei besonders wichtig?",
+         "eine Steuer auf den Wert von Grundstücken"
+        ]
+       ]
+      },
+      {
+       "typ": "offen",
+       "frage": "Was passiert, wenn die Verhandlungen scheitern?",
+       "loesung": "Dann sind sogar Neuwahlen möglich."
+      }
+     ],
+     "diskussion": [
+      "Ist es gut, wenn eine kleine Partei so viel Macht hat? Warum (nicht)?",
+      "Würdest du eine ganz neue Partei wählen?",
+      "Wie schwierig ist es in Frankreich, eine Regierung zu bilden?"
+     ],
+     "uebungen": [
+      {
+       "typ": "eingabe",
+       "titel": "Wortbildung: Nomen mit -ung",
+       "anweisung": "Bilde das Nomen.",
+       "items": [
+        {
+         "text": "verhandeln → die ___",
+         "loesung": [
+          "Verhandlung"
+         ]
+        },
+        {
+         "text": "regieren → die ___",
+         "loesung": [
+          "Regierung"
+         ]
+        },
+        {
+         "text": "bilden → die ___",
+         "loesung": [
+          "Bildung"
+         ]
+        },
+        {
+         "text": "meinen → die ___",
+         "loesung": [
+          "Meinung"
+         ]
+        }
+       ],
+       "regel": "Verbstamm + -ung = Nomen. Alle Nomen auf -ung sind feminin (die)."
+      },
+      {
+       "typ": "auswahl",
+       "titel": "Wortstellung im Nebensatz",
+       "anweisung": "Wähle die richtige Satzergänzung.",
+       "items": [
+        {
+         "text": "Luxon muss verhandeln, weil …",
+         "optionen": [
+          "sein Bündnis keine Mehrheit hat.",
+          "sein Bündnis hat keine Mehrheit."
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Es gibt vielleicht Neuwahlen, wenn …",
+         "optionen": [
+          "die Verhandlungen scheitern.",
+          "scheitern die Verhandlungen."
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Viele glauben, dass …",
+         "optionen": [
+          "die neue Partei jetzt sehr wichtig ist.",
+          "die neue Partei ist jetzt sehr wichtig."
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Man weiß noch nicht, ob …",
+         "optionen": [
+          "Luxon eine Mehrheit findet.",
+          "Luxon findet eine Mehrheit."
+         ],
+         "richtig": 0
+        }
+       ],
+       "regel": "Im Nebensatz (weil, wenn, dass, ob, wann, warum …) steht das konjugierte Verb am Ende."
+      },
+      {
+       "typ": "auswahl",
+       "titel": "Präpositionen und Fälle",
+       "anweisung": "Wähle den richtigen Artikel.",
+       "items": [
+        {
+         "text": "Die Chefin verhandelt mit ___ Premierminister.",
+         "optionen": [
+          "dem",
+          "den",
+          "der"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Drei Wochen nach ___ Wahl liegt das Ergebnis vor.",
+         "optionen": [
+          "der",
+          "die",
+          "dem"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Die Opposition stimmt gegen ___ Regierung.",
+         "optionen": [
+          "die",
+          "der",
+          "den"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Die Partei kämpft für ___ neue Steuer.",
+         "optionen": [
+          "eine",
+          "einer",
+          "einem"
+         ],
+         "richtig": 0
+        }
+       ],
+       "regel": "mit, nach + Dativ. für, gegen + Akkusativ."
+      }
+     ]
+    },
+    {
+     "kategorie": "Sport",
+     "titel": "Davis Cup: Italien zittert sich ins Finale",
+     "text": "Titelverteidiger Italien steht wieder im Finale des Davis Cups. Im Halbfinale in Bologna hat das Team am Freitag Tschechien mit 2:1 besiegt. Zuerst hat Lorenzo Musetti sein Einzel gegen Jakub Menšík klar mit 6:3 und 6:4 gewonnen. Im zweiten Einzel hat Tschechien ausgeglichen.\n\nDie Entscheidung ist deshalb im Doppel gefallen: Musetti und Andrea Vavassori haben nach einem verlorenen ersten Satz noch mit 3:6, 6:1 und 7:6 gewonnen. Für Italien ist es das vierte Finale hintereinander – und das ohne Jannik Sinner, der nicht mitgespielt hat. Am Sonntag trifft Italien auf den Sieger des zweiten Halbfinales zwischen Spanien und Großbritannien, das heute stattfindet.",
+     "vokabeln": [
+      {
+       "de": "der Titelverteidiger",
+       "im_text": "Titelverteidiger",
+       "erkl": "das Team, das den Pokal zuletzt gewonnen hat und ihn wieder gewinnen will"
+      },
+      {
+       "de": "besiegen",
+       "im_text": "besiegt",
+       "erkl": "gegen jemanden gewinnen"
+      },
+      {
+       "de": "ausgleichen",
+       "im_text": "ausgeglichen",
+       "erkl": "so viele Punkte schaffen wie der Gegner"
+      },
+      {
+       "de": "die Entscheidung",
+       "im_text": "Entscheidung",
+       "erkl": "der Moment, in dem klar wird, wer gewinnt"
+      },
+      {
+       "de": "der Satz",
+       "im_text": "Satz",
+       "erkl": "ein Teil eines Tennisspiels"
+      },
+      {
+       "de": "hintereinander",
+       "im_text": "hintereinander",
+       "erkl": "ohne Pause, eins nach dem anderen"
+      },
+      {
+       "de": "stattfinden",
+       "im_text": "stattfindet",
+       "erkl": "passieren, an einem bestimmten Ort und zu einer bestimmten Zeit"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Wo hat das Halbfinale stattgefunden?",
+       "optionen": [
+        "in Bologna",
+        "in Rom",
+        "in Prag"
+       ],
+       "richtig": 0
+      },
+      {
+       "typ": "rf",
+       "aussage": "Musetti hat sein Einzel knapp verloren.",
+       "richtig": false,
+       "erkl": "Er hat es klar mit 6:3 und 6:4 gewonnen."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Das Doppel hat das Spiel entschieden.",
+       "richtig": true
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wie hat Italien das Doppel gewonnen?",
+         "mit 3:6, 6:1 und 7:6"
+        ],
+        [
+         "Wer spielt heute?",
+         "Spanien und Großbritannien"
+        ],
+        [
+         "Das wievielte Finale hintereinander ist es?",
+         "das vierte"
+        ]
+       ]
+      },
+      {
+       "typ": "offen",
+       "frage": "Warum war das Doppel so wichtig?",
+       "loesung": "Weil Tschechien im zweiten Einzel ausgeglichen hatte und es 1:1 stand."
+      }
+     ],
+     "diskussion": [
+      "Ist Tennis für dich ein spannender Sport? Warum (nicht)?",
+      "Was ist wichtiger: ein Star oder ein starkes Team?",
+      "Du kennst das als Schiedsrichter: Wie bleibt man in einem sehr knappen Spiel ruhig?"
+     ],
+     "uebungen": [
+      {
+       "typ": "auswahl",
+       "titel": "Perfekt: haben oder sein?",
+       "anweisung": "Wähle das richtige Hilfsverb.",
+       "items": [
+        {
+         "text": "Die Entscheidung ___ im Doppel gefallen.",
+         "optionen": [
+          "ist",
+          "hat"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Italien ___ Tschechien besiegt.",
+         "optionen": [
+          "hat",
+          "ist"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Viele Fans ___ nach Bologna gekommen.",
+         "optionen": [
+          "sind",
+          "haben"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Tschechien ___ im zweiten Einzel ausgeglichen.",
+         "optionen": [
+          "hat",
+          "ist"
+         ],
+         "richtig": 0
+        }
+       ],
+       "regel": "sein: Bewegung (kommen) und Veränderung (fallen). haben: die meisten anderen Verben (besiegen, ausgleichen)."
+      },
+      {
+       "typ": "eingabe",
+       "titel": "Trennbare Verben",
+       "anweisung": "Ergänze das Verb.",
+       "items": [
+        {
+         "text": "Sinner hat nicht ___. (mitspielen)",
+         "loesung": [
+          "mitgespielt"
+         ]
+        },
+        {
+         "text": "Das zweite Halbfinale findet heute ___. (stattfinden)",
+         "loesung": [
+          "statt"
+         ]
+        },
+        {
+         "text": "Tschechien hat im zweiten Einzel ___. (ausgleichen)",
+         "loesung": [
+          "ausgeglichen"
+         ]
+        },
+        {
+         "text": "Musetti hat nach dem ersten Satz nicht ___. (aufgeben)",
+         "loesung": [
+          "aufgegeben"
+         ]
+        }
+       ],
+       "regel": "Präsens: die Vorsilbe steht am Ende (findet … statt). Perfekt: -ge- steht in der Mitte (mitgespielt, ausgeglichen)."
+      },
+      {
+       "typ": "zuordnen",
+       "titel": "Gegenteile",
+       "anweisung": "Finde die Paare.",
+       "paare": [
+        [
+         "gewinnen",
+         "verlieren"
+        ],
+        [
+         "der Sieger",
+         "der Verlierer"
+        ],
+        [
+         "klar",
+         "knapp"
+        ],
+        [
+         "zuerst",
+         "zuletzt"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Sport",
+     "titel": "Cyberangriff auf die FIFA",
+     "text": "Der Fußball-Weltverband FIFA ist Opfer eines Cyberangriffs geworden. Das hat die FIFA diese Woche bestätigt. Kriminelle haben sich Zugang zu persönlichen und geschäftlichen Daten verschafft. Laut FIFA geht es nur um eine begrenzte Menge an Daten. Der Verband arbeitet eng mit den Behörden zusammen, auch mit der Polizei.\n\nViele Fragen sind aber noch offen. Die FIFA hat nicht gesagt, wann der Angriff passiert ist und wie viele Personen betroffen sind. Eine Hackergruppe behauptet, mehr als zwölf Gigabyte Daten gestohlen zu haben. Ob das stimmt, ist nicht bestätigt. Laut einer Person, die den Fall kennt, sind weniger als 0,1 Prozent aller FIFA-Daten betroffen. Der Fall zeigt: Auch große Sportverbände müssen ihre Daten besser schützen.",
+     "vokabeln": [
+      {
+       "de": "das Opfer",
+       "im_text": "Opfer",
+       "erkl": "eine Person oder Organisation, der etwas Schlimmes passiert ist"
+      },
+      {
+       "de": "sich Zugang verschaffen",
+       "im_text": "verschafft",
+       "erkl": "in einen Ort oder ein System hineinkommen, oft ohne Erlaubnis"
+      },
+      {
+       "de": "begrenzt",
+       "im_text": "begrenzte",
+       "erkl": "nicht sehr groß, mit einer Grenze"
+      },
+      {
+       "de": "zusammenarbeiten",
+       "im_text": "zusammen",
+       "erkl": "gemeinsam an einer Aufgabe arbeiten"
+      },
+      {
+       "de": "betroffen",
+       "im_text": "betroffen",
+       "erkl": "ein Problem hat direkt mit einer Person zu tun"
+      },
+      {
+       "de": "behaupten",
+       "im_text": "behauptet",
+       "erkl": "etwas sagen, ohne dass es bewiesen ist"
+      },
+      {
+       "de": "schützen",
+       "im_text": "schützen",
+       "erkl": "dafür sorgen, dass nichts Schlimmes passiert"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Was hat die FIFA bestätigt?",
+       "optionen": [
+        "einen Cyberangriff",
+        "einen neuen Präsidenten",
+        "ein neues Turnier"
+       ],
+       "richtig": 0
+      },
+      {
+       "typ": "rf",
+       "aussage": "Die FIFA hat gesagt, wann der Angriff passiert ist.",
+       "richtig": false,
+       "erkl": "Das hat sie nicht gesagt."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Eine Hackergruppe behauptet, viele Daten gestohlen zu haben.",
+       "richtig": true
+      },
+      {
+       "typ": "mc",
+       "frage": "Mit wem arbeitet die FIFA zusammen?",
+       "optionen": [
+        "mit den Behörden und der Polizei",
+        "mit den Hackern",
+        "mit den Fans"
+       ],
+       "richtig": 0
+      },
+      {
+       "typ": "offen",
+       "frage": "Welche Fragen sind noch offen?",
+       "loesung": "Wann der Angriff passiert ist und wie viele Personen betroffen sind."
+      }
+     ],
+     "diskussion": [
+      "Was würdest du tun, wenn jemand deine Daten gestohlen hätte?",
+      "Wie schützt du deine Daten im Internet?",
+      "Sollten Hacker härter bestraft werden?"
+     ],
+     "uebungen": [
+      {
+       "typ": "eingabe",
+       "titel": "Wortbildung: -heit, -keit, -ung",
+       "anweisung": "Bilde das Nomen.",
+       "items": [
+        {
+         "text": "sicher → die ___",
+         "loesung": [
+          "Sicherheit"
+         ]
+        },
+        {
+         "text": "möglich → die ___",
+         "loesung": [
+          "Möglichkeit"
+         ]
+        },
+        {
+         "text": "frei → die ___",
+         "loesung": [
+          "Freiheit"
+         ]
+        },
+        {
+         "text": "bestätigen → die ___",
+         "loesung": [
+          "Bestätigung"
+         ]
+        }
+       ],
+       "regel": "Nomen auf -heit, -keit und -ung sind immer feminin. Wiederholung (27.11.): Achtung, vorsichtig → die Vorsicht (ohne -keit)."
+      },
+      {
+       "typ": "auswahl",
+       "titel": "Wortstellung im Nebensatz",
+       "anweisung": "Wähle die richtige Satzergänzung.",
+       "items": [
+        {
+         "text": "Die FIFA hat nicht gesagt, wann …",
+         "optionen": [
+          "der Angriff passiert ist.",
+          "ist der Angriff passiert."
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Man weiß nicht, wie viele Personen …",
+         "optionen": [
+          "betroffen sind.",
+          "sind betroffen."
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Es ist nicht bestätigt, ob …",
+         "optionen": [
+          "die Hacker die Wahrheit sagen.",
+          "sagen die Hacker die Wahrheit."
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Die FIFA sagt, dass …",
+         "optionen": [
+          "nur wenige Daten betroffen sind.",
+          "nur wenige Daten sind betroffen."
+         ],
+         "richtig": 0
+        }
+       ],
+       "regel": "Im Nebensatz (weil, wenn, dass, ob, wann, warum …) steht das konjugierte Verb am Ende."
+      },
+      {
+       "typ": "fehler",
+       "titel": "Fehler finden",
+       "anweisung": "In jedem Satz ist ein Wort falsch.",
+       "items": [
+        {
+         "woerter": [
+          "Die",
+          "FIFA",
+          "hat",
+          "mit",
+          "die",
+          "Polizei",
+          "zusammengearbeitet."
+         ],
+         "fehler": 4,
+         "korrektur": "Die FIFA hat mit der Polizei zusammengearbeitet.",
+         "erkl": "mit + Dativ: mit der Polizei."
+        },
+        {
+         "woerter": [
+          "Die",
+          "Hacker",
+          "haben",
+          "Zugang",
+          "zu",
+          "die",
+          "Daten",
+          "bekommen."
+         ],
+         "fehler": 5,
+         "korrektur": "Die Hacker haben Zugang zu den Daten bekommen.",
+         "erkl": "zu + Dativ: zu den Daten."
+        },
+        {
+         "woerter": [
+          "Ohne",
+          "meinem",
+          "Pass",
+          "kann",
+          "ich",
+          "nicht",
+          "reisen."
+         ],
+         "fehler": 1,
+         "korrektur": "Ohne meinen Pass kann ich nicht reisen.",
+         "erkl": "ohne + Akkusativ. Wiederholung (27.11.): der Pass, der Ausweis."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kategorie": "Wetter",
+     "titel": "Erster Advent: Kälte und Glätte",
+     "text": "Österreich erwartet ein eiskaltes erstes Adventwochenende. Nach dem Wintereinbruch der vergangenen Woche bleibt es frostig: In manchen Alpentälern können die Temperaturen laut Prognose auf bis zu minus zwölf Grad sinken. Heute sorgt ein Zwischenhoch für ruhiges Wetter, allerdings bremsen Nebel und Hochnebel vielerorts die Sonne.\n\nAm Sonntag scheint im Westen und im Gebirge oft die Sonne. Im Süden und Osten warnen die Meteorologen dagegen vor gefrierender Nässe und Glätte auf Straßen und Gehwegen. Wer zu Fuß oder mit dem Auto unterwegs ist, sollte also vorsichtig sein. Größere Mengen Neuschnee sind vorerst nicht in Sicht. Ab Sonntagabend ziehen von Nordwesten neue Niederschläge auf.",
+     "vokabeln": [
+      {
+       "de": "der Wintereinbruch",
+       "im_text": "Wintereinbruch",
+       "erkl": "der Moment, in dem plötzlich Schnee und Kälte kommen"
+      },
+      {
+       "de": "frostig",
+       "im_text": "frostig",
+       "erkl": "sehr kalt, unter null Grad"
+      },
+      {
+       "de": "das Zwischenhoch",
+       "im_text": "Zwischenhoch",
+       "erkl": "eine kurze Zeit mit ruhigem, trockenem Wetter zwischen zwei Wetterwechseln"
+      },
+      {
+       "de": "gefrieren",
+       "im_text": "gefrierender",
+       "erkl": "durch Kälte zu Eis werden"
+      },
+      {
+       "de": "die Glätte",
+       "im_text": "Glätte",
+       "erkl": "Eis oder Schnee machen den Boden rutschig"
+      },
+      {
+       "de": "vorsichtig",
+       "im_text": "vorsichtig",
+       "erkl": "aufmerksam und langsam, damit nichts passiert"
+      },
+      {
+       "de": "der Niederschlag",
+       "im_text": "Niederschläge",
+       "erkl": "Regen, Schnee oder Hagel"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Was bremst heute die Sonne?",
+       "optionen": [
+        "Nebel und Hochnebel",
+        "starker Wind",
+        "Gewitter"
+       ],
+       "richtig": 0
+      },
+      {
+       "typ": "rf",
+       "aussage": "Im Süden und Osten kann es glatt werden.",
+       "richtig": true
+      },
+      {
+       "typ": "rf",
+       "aussage": "Es kommt bald sehr viel Neuschnee.",
+       "richtig": false,
+       "erkl": "Größere Mengen Neuschnee sind vorerst nicht in Sicht."
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wie kalt kann es in manchen Alpentälern werden?",
+         "bis zu minus zwölf Grad"
+        ],
+        [
+         "Wo scheint am Sonntag oft die Sonne?",
+         "im Westen und im Gebirge"
+        ],
+        [
+         "Woher kommen ab Sonntagabend neue Niederschläge?",
+         "von Nordwesten"
+        ]
+       ]
+      },
+      {
+       "typ": "offen",
+       "frage": "Was sollte man tun, wenn man unterwegs ist?",
+       "loesung": "Man sollte vorsichtig sein."
+      }
+     ],
+     "diskussion": [
+      "Wie ist der Winter dort, wo du wohnst?",
+      "Gehst du bei Kälte lieber in die Berge oder bleibst du zu Hause?",
+      "Was gehört für dich zum Advent?"
+     ],
+     "uebungen": [
+      {
+       "typ": "eingabe",
+       "titel": "Wiederholung: Wörter aus der Stunde",
+       "anweisung": "Ergänze das passende Wort.",
+       "items": [
+        {
+         "text": "___, auf der Straße ist es glatt! (Nomen von „vorsichtig“)",
+         "loesung": [
+          "Vorsicht"
+         ]
+        },
+        {
+         "text": "Im Dezember ___ es in den Alpen oft. (schneien)",
+         "loesung": [
+          "schneit"
+         ]
+        },
+        {
+         "text": "Nach der Uni gehe ich zu ___ nach Hause.",
+         "loesung": [
+          "Fuß"
+         ]
+        },
+        {
+         "text": "In Österreich ist es im Dezember ___ kalt. (wie immer, normalerweise)",
+         "loesung": [
+          "üblicherweise",
+          "normalerweise"
+         ]
+        },
+        {
+         "text": "Du bist beim Fahren sehr ___.",
+         "loesung": [
+          "vorsichtig"
+         ]
+        }
+       ],
+       "regel": "Wiederholung (27.11.): vorsichtig – die Vorsicht, zu Fuß, üblicherweise, schneien → es schneit."
+      },
+      {
+       "typ": "auswahl",
+       "titel": "Präpositionen und Fälle",
+       "anweisung": "Wähle den richtigen Artikel.",
+       "items": [
+        {
+         "text": "Nach ___ Wintereinbruch bleibt es kalt.",
+         "optionen": [
+          "dem",
+          "den",
+          "der"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Die Meteorologen warnen vor ___ Glätte.",
+         "optionen": [
+          "der",
+          "die",
+          "den"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Am Wochenende fahren wir in ___ Berge.",
+         "optionen": [
+          "die",
+          "den",
+          "der"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Trotz ___ Kälte scheint im Gebirge die Sonne.",
+         "optionen": [
+          "der",
+          "die",
+          "dem"
+         ],
+         "richtig": 0
+        }
+       ],
+       "regel": "nach, vor (warnen vor) + Dativ. in + Akkusativ bei einer Richtung (wohin?). trotz + Genitiv."
+      },
+      {
+       "typ": "auswahl",
+       "titel": "Perfekt: haben oder sein?",
+       "anweisung": "Wähle das richtige Hilfsverb.",
+       "items": [
+        {
+         "text": "Letzte Woche ___ der Winter gekommen.",
+         "optionen": [
+          "ist",
+          "hat"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "In Wien ___ es viel geschneit.",
+         "optionen": [
+          "hat",
+          "ist"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Die Temperaturen ___ stark gesunken.",
+         "optionen": [
+          "sind",
+          "haben"
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Ich ___ auf dem Gehweg ausgerutscht.",
+         "optionen": [
+          "bin",
+          "habe"
+         ],
+         "richtig": 0
+        }
+       ],
+       "regel": "sein: Bewegung und Veränderung (kommen, sinken, ausrutschen). haben: Wetterverben wie schneien und regnen."
+      }
+     ]
+    },
+    {
+     "kategorie": "Umwelt",
+     "titel": "Tanker sinkt vor Ibiza – Sorge um das Mittelmeer",
+     "text": "Vor der spanischen Insel Ibiza ist am Donnerstag der Tanker „Med Emre“ gesunken. Das Schiff fuhr unter maltesischer Flagge und war mit rund 7000 Tonnen Diesel auf dem Weg von Algeciras nach Barcelona. Etwa 46 Kilometer vor der Küste drang aus bisher ungeklärter Ursache Wasser in den Rumpf ein. Ein Seemann kam ums Leben.\n\nDie Behörden haben einen knapp fünf Kilometer langen Ölfilm entdeckt und einen Notfallplan aktiviert. Die Regierung betont aber, dass bisher keine Verschmutzung an der Küste festgestellt wurde. Umweltschützer sind trotzdem besorgt: Das Mittelmeer ist ein fast geschlossenes Meer mit viel Schiffsverkehr, und Öl kann Fischen, Vögeln und Pflanzen lange schaden.",
+     "vokabeln": [
+      {
+       "de": "die Flagge",
+       "im_text": "Flagge",
+       "erkl": "ein Stück Stoff mit den Farben eines Landes"
+      },
+      {
+       "de": "rund",
+       "im_text": "rund",
+       "erkl": "ungefähr, etwa"
+      },
+      {
+       "de": "eindringen",
+       "im_text": "drang",
+       "erkl": "in etwas hineinkommen, obwohl es nicht sein soll"
+      },
+      {
+       "de": "die Ursache",
+       "im_text": "Ursache",
+       "erkl": "der Grund, warum etwas passiert"
+      },
+      {
+       "de": "der Rumpf",
+       "im_text": "Rumpf",
+       "erkl": "der untere Hauptteil eines Schiffes"
+      },
+      {
+       "de": "die Verschmutzung",
+       "im_text": "Verschmutzung",
+       "erkl": "etwas wird schmutzig, zum Beispiel durch Öl"
+      },
+      {
+       "de": "besorgt",
+       "im_text": "besorgt",
+       "erkl": "man hat Angst, dass etwas Schlimmes passiert"
+      }
+     ],
+     "fragen": [
+      {
+       "typ": "mc",
+       "frage": "Was hatte der Tanker geladen?",
+       "optionen": [
+        "Diesel",
+        "Rohöl",
+        "Autos"
+       ],
+       "richtig": 0
+      },
+      {
+       "typ": "rf",
+       "aussage": "Man weiß schon genau, warum das Schiff gesunken ist.",
+       "richtig": false,
+       "erkl": "Die Ursache ist bisher ungeklärt."
+      },
+      {
+       "typ": "rf",
+       "aussage": "Bisher hat man an der Küste keine Verschmutzung festgestellt.",
+       "richtig": true
+      },
+      {
+       "typ": "wfragen",
+       "frage": "Ordne die Fragen den Antworten zu.",
+       "paare": [
+        [
+         "Wie weit war das Schiff von der Küste entfernt?",
+         "etwa 46 Kilometer"
+        ],
+        [
+         "Wohin wollte das Schiff fahren?",
+         "nach Barcelona"
+        ],
+        [
+         "Wie lang ist der Ölfilm?",
+         "knapp fünf Kilometer"
+        ]
+       ]
+      },
+      {
+       "typ": "offen",
+       "frage": "Warum sind Umweltschützer besorgt?",
+       "loesung": "Weil das Mittelmeer fast geschlossen ist, viel Schiffsverkehr hat und Öl den Tieren und Pflanzen lange schaden kann."
+      }
+     ],
+     "diskussion": [
+      "Isst du gern Fisch aus dem Mittelmeer? Macht dir so eine Nachricht Sorgen?",
+      "Wer sollte für solche Schäden bezahlen?",
+      "Sollte man alte Tanker verbieten?"
+     ],
+     "uebungen": [
+      {
+       "typ": "eingabe",
+       "titel": "Trennbare Verben im Perfekt",
+       "anweisung": "Schreib das Partizip.",
+       "items": [
+        {
+         "text": "Wasser ist in den Rumpf ___. (eindringen)",
+         "loesung": [
+          "eingedrungen"
+         ]
+        },
+        {
+         "text": "Die Behörden haben einen Ölfilm ___. (feststellen)",
+         "loesung": [
+          "festgestellt"
+         ]
+        },
+        {
+         "text": "Ich habe den Schnee vor dem Haus ___. (wegräumen)",
+         "loesung": [
+          "weggeräumt"
+         ]
+        },
+        {
+         "text": "Das Schiff ist in Algeciras ___. (abfahren)",
+         "loesung": [
+          "abgefahren"
+         ]
+        }
+       ],
+       "regel": "Trennbare Verben: -ge- steht zwischen Vorsilbe und Stamm (eingedrungen, festgestellt, abgefahren)."
+      },
+      {
+       "typ": "zuordnen",
+       "titel": "Verb und Nomen",
+       "anweisung": "Finde die Paare.",
+       "paare": [
+        [
+         "verschmutzen",
+         "die Verschmutzung"
+        ],
+        [
+         "entdecken",
+         "die Entdeckung"
+        ],
+        [
+         "warnen",
+         "die Warnung"
+        ],
+        [
+         "bedrohen",
+         "die Bedrohung"
+        ]
+       ]
+      },
+      {
+       "typ": "auswahl",
+       "titel": "Wortstellung im Nebensatz",
+       "anweisung": "Wähle die richtige Satzergänzung.",
+       "items": [
+        {
+         "text": "Die Regierung betont, dass …",
+         "optionen": [
+          "bisher keine Verschmutzung festgestellt wurde.",
+          "bisher wurde keine Verschmutzung festgestellt."
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Man weiß noch nicht, warum …",
+         "optionen": [
+          "das Schiff gesunken ist.",
+          "ist das Schiff gesunken."
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Umweltschützer sind besorgt, weil …",
+         "optionen": [
+          "Öl den Tieren lange schaden kann.",
+          "Öl kann den Tieren lange schaden."
+         ],
+         "richtig": 0
+        },
+        {
+         "text": "Wenn …, ist das schlimm für die Strände.",
+         "optionen": [
+          "das Öl an die Küste kommt",
+          "kommt das Öl an die Küste"
+         ],
+         "richtig": 0
+        }
+       ],
+       "regel": "Im Nebensatz (weil, wenn, dass, ob, wann, warum …) steht das konjugierte Verb am Ende."
+      }
+     ]
+    }
+   ]
+  },
+  {
    "datum": "2026-11-27",
    "nachrichten": [
     {
